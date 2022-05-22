@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Inconsolata', monospace;
-    color: #333
+    color: #474747;
 }
 
 html {
@@ -64,6 +64,7 @@ h1 {
 i {
     float: right;
     font-size: 20px;
+    color: #FF4D00;
 }
 
 .avt .contact-link {
