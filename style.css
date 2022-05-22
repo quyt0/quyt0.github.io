@@ -1,0 +1,114 @@
+* {
+    font-family: Consolas;
+    color: #333
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: radial-gradient(#ffffff 20%, #f8f8f8 20%);
+    background-position: 0 0;
+    background-size: 30px 30px;
+}
+
+#wrapper {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    background-image: url(download.svg);
+}
+
+h1, h2, h3, h4, .btn a, ul {
+    margin-left: 70px;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.avt .img-avt {
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 90px;
+    margin-top: 100px
+}
+
+.btn{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    border: 2px solid #74F7D0;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bold;
+    color: blue;
+}
+
+.btn:hover {
+    transform: scale(1.03); 
+}
+
+i {
+    float: right;
+    font-size: 20px;
+}
+
+.avt .contact-link {
+    background-color: #74F7D0;
+}
+
+.link-tool {
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Ipad */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #wrapper {
+        margin: auto;
+        width: 90%;
+        background-color: white;
+        background-image: url(download.svg);
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    #wrapper {
+        margin: auto;
+        width: 90%;
+        background-color: white;
+        background-image: url(download.svg);
+    }
+    .avt .img-avt {
+        border: 5px solid white;
+        border-radius: 50%;
+        width: 150px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: 40px;
+    }
+    h1, h2, h3, h4, a, ul {
+        margin-left: 20px;
+    }
+    
+}
