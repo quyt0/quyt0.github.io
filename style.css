@@ -107,7 +107,7 @@ footer {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         margin-left: 40px;
     }
-    h1, h2, h3, h4, a, ul {
+    h1, h2, h3, h4, .btn a, ul {
         margin-left: 20px;
     }
     
