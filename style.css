@@ -74,6 +74,7 @@ i {
 .link-tool {
     text-decoration: none;
     color: blue;
+    line-height: 1.5;
 }
 
 footer {
