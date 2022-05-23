@@ -113,5 +113,9 @@ footer {
     h1, h2, h3, h4, .btn a, ul {
         margin-left: 20px;
     }
+    .btn {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     
 }
