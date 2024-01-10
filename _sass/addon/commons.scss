@@ -1256,7 +1256,7 @@ search {
 }
 
 /* hide sidebar and panel */
-@media all and (max-device-width: 849px) {
+@media all and (max-width: 849px) {
   @mixin slide($append: null) {
     $basic: transform 0.4s ease;
 
