@@ -12,7 +12,7 @@ Chào mọi người.
 Mình đã từng có suy nghĩ về việc viết blog được một thời gian, cũng đã chần chừ một thời gian không ít. Nhưng nhìn đi, cuối cùng thì mình cũng làm được việc mình ngại nhất (chỉ sau việc học) 🤣. 
 
 Và hiện tại mình đang ngồi viết những dòng content đầu tiên cho cái blog này. Cũng chẳng biết sau này mình sẽ viết hay đăng bài về cái gì nữa, nhưng mà thôi kệ, mình làm được 1 bài post đầu tiên đã là thành công lắm rồi.
-![Meme vui khi bắt đầu lập blog](/assets/img/posts/blog-moi-cua-cuyt/intro_meme.jpg){: w="70%" .center-img}
+![Meme vui khi bắt đầu lập blog](/assets/img/posts/blog-moi-cua-cuyt/intro_meme.jpg){: w="70%" .center-img .img-mobile-100}
 
 ## Sơ lược về mình
 
