@@ -1,0 +1,54 @@
+@import 'main';
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@400;600;700&display=swap');
+
+*,
+h1,
+.card-title {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+footer p:nth-child(2),
+.license-wrapper
+{
+    display: none;
+}
+
+.center-img {
+    display: flex;
+    justify-content: center;
+}
+
+.img-round img {
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 820px) {
+    *,
+    h1,
+    .card-title {
+        font-family: 'Encode Sans Semi Condensed', sans-serif;
+    }
+
+    h2 {
+        font-weight: 600;
+    }
+
+    footer p:nth-child(2),
+    .license-wrapper
+    {
+        display: none;
+    }
+
+    .center-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-round img {
+        border-radius: 50%;
+    }
+}
