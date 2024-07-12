@@ -16,7 +16,7 @@ timezone:
 
 title: Cuýt # the main title
 
-tagline: ">_ define cuýt: eat(); sleep(); code();"
+tagline: ">_ define cuýt: eat() -> sleep() -> code();"
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
