@@ -1,0 +1,25 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {{ if .IsHome }}
+        {{ .Site.Title }}
+        {{ else if eq .Kind "term" }}
+        {{ title .Data.Singular }}: {{ .Title }} | {{ .Site.Title }}
+        {{ else }}
+        {{ .Title }} | {{ .Site.Title }}
+        {{ end }}
+    </title>
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid-5.3.8.css">
+    <link rel="stylesheet" href="/css/fontawesome-7.1.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="blog của Cuýt" />
+    <link rel="manifest" href="/images/site.webmanifest" />
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.basic.min.js"></script>
+</head>

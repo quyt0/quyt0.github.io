@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writeups on Cuýt</title>
+    <link>http://localhost:1313/categories/writeups/</link>
+    <description>Recent content in Writeups on Cuýt</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jan 2026 17:44:37 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writeup (Web) Cybersecurity Student Contest Vietnam 2025</title>
+      <link>http://localhost:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</link>
+      <pubDate>Fri, 02 Jan 2026 17:44:37 +0700</pubDate>
+      <guid>http://localhost:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</guid>
+      <description>&lt;h2 id=&#34;zc-1&#34;&gt;ZC-1&lt;/h2&gt;&#xA;&lt;p&gt;Đề bài cung cấp hai dịch vụ: app1 là một api Django chịu trách nhiệm xác nhận người dùng và gửi file zip cho app2, là một dịch vụ apache/PHP có thể giải nén file zip nhận được và lưu trữ file. Docker gán 2 dịch vụ với nhau và gán flag.txt vào app2, app1 được map cổng 8000 và app2 chỉ bị expose qua app1.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;superapp&lt;/code&gt; chứa các cấu hình chính của dịch vụ:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

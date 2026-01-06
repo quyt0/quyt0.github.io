@@ -1,0 +1,103 @@
+{{ define "main" }}
+    <div class="row">
+        <article class="main-content__article-detail col-9">
+            {{ if .Params.image }}
+                {{ $image := .Resources.GetMatch .Params.image }}
+                <div class="main-content__article-cover">
+                    {{ if $image }}
+                        {{ $webp := $image.Process "webp" }}
+                        
+                        <img src="{{ $webp.RelPermalink }}" alt="{{ .Title }}">
+                    {{ end }}
+                </div>
+            {{ end }}
+        
+            <header class="main-content__article-header mb-5">
+                <h1 class="main-content__article-title">
+                    {{ .Title }}
+                </h1>
+                <div class="main-content__article-meta mt-3">
+                    <span>
+                        <i class="fa-solid fa-hashtag"></i>
+                        {{ with .Params.categories }}
+                            {{ range $index, $value := . }}
+                                {{ if gt $index 0 }}, {{ end }}
+                                <a class="main-content__article-meta-category-link" href="{{ "categories/" | relLangURL }}{{ $value | urlize }}">
+                                    {{ $value }}
+                                </a>
+                            {{ end }}
+                        {{ else }}
+                            Other
+                        {{ end }}
+                    </span>
+                    <span class="ms-3"><i class="fa-regular fa-calendar"></i> {{ .Date.Format "02/01/2006" }}</span>
+                    <span class="ms-3"><i class="fa-regular fa-clock"></i> {{ .ReadingTime }} mins read</span>
+                </div>
+            </header>
+        
+            {{ $content := .Content }}
+            {{ $content = replace $content "(c)" "&copy;" }}
+            {{ $content = replace $content "(C)" "&copy;" }}
+            {{ $content = replace $content "(r)" "&reg;" }}
+            {{ $content = replace $content "(R)" "&reg;" }}
+            {{ $content = replace $content "(TM)" "&trade;" }}
+            {{ $content = replace $content "(tm)" "&trade;" }}
+            {{ $content = replace $content "(tm)" "&trade;" }}
+            {{ $content = replace $content "+-" "&plusmn;" }}
+            <div class="main-content__article-body-content">
+                {{ $content | safeHTML }}
+            </div>
+        
+            <div class="article-footer mt-5 pt-4" style="font-size: smaller;">
+                <p>Thanks for your reading!</p>
+                <p>© 2026 <strong>izcuyt.com</strong>. Some rights reserved.</p>
+            </div>
+        </article>
+        <aside class="main-content__article-panel col-3">
+            {{ $related := where (where site.RegularPages "Params.categories" "intersect" .Params.categories) "Permalink" "ne" .Permalink }}
+            {{ if $related }}
+            <div class="main-content__article-panel-same-category-post">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-newspaper"></i>Related articles
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    {{ range first 5 $related }}
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="{{ .RelPermalink }}" title="{{ .Title }}">
+                                <span class="main-content__article-panel-item-text">{{ .Title }}</span>
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+
+            <div class="main-content__article-panel-categories">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-solid fa-hashtag"></i> Categories
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    {{ range $name, $taxonomy := site.Taxonomies.categories }}
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">
+                                {{ $catPage := site.GetPage (printf "/categories/%s" $name) }}
+                                <span class="main-content__article-panel-item-text">{{ $catPage.Title | default ($name | title) }}</span>
+                                <span class="main-content__article-panel-item-text cat-count">({{ $taxonomy.Count }})</span>
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            {{ if .TableOfContents }}
+                <div class="main-content__article-panel-toc">
+                    <h3 class="main-content__article-panel-heading">
+                        <i class="fa-regular fa-rectangle-list"></i>Contents
+                    </h3>
+                    {{ .TableOfContents }}
+                </div>
+            {{ end }}
+
+        </aside>
+    </div>
+{{ end }}

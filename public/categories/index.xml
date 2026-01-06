@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Cuýt</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Cuýt</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jan 2026 17:44:37 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF</title>
+      <link>http://localhost:1313/categories/ctf/</link>
+      <pubDate>Fri, 02 Jan 2026 17:44:37 +0700</pubDate>
+      <guid>http://localhost:1313/categories/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/categories/security/</link>
+      <pubDate>Fri, 02 Jan 2026 17:44:37 +0700</pubDate>
+      <guid>http://localhost:1313/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/categories/web/</link>
+      <pubDate>Fri, 02 Jan 2026 17:44:37 +0700</pubDate>
+      <guid>http://localhost:1313/categories/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writeups</title>
+      <link>http://localhost:1313/categories/writeups/</link>
+      <pubDate>Fri, 02 Jan 2026 17:44:37 +0700</pubDate>
+      <guid>http://localhost:1313/categories/writeups/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>File Uploads Vulnerabilities</title>
+      <link>http://localhost:1313/categories/file-uploads-vulnerabilities/</link>
+      <pubDate>Sun, 28 Dec 2025 18:01:01 +0700</pubDate>
+      <guid>http://localhost:1313/categories/file-uploads-vulnerabilities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>http://localhost:1313/categories/sql/</link>
+      <pubDate>Sun, 28 Dec 2025 04:26:07 +0700</pubDate>
+      <guid>http://localhost:1313/categories/sql/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

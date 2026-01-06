@@ -1,0 +1,88 @@
+{{ define "main" }}
+    <div class="main-content__heading">
+        <h1 class="main-content__heading-text">My articles share information<br>About Cyber Security.</h1>
+    </div>
+
+    <div class="main-content__overview">
+        <div class="main-content__overview-author">
+            <img class="main-content__overview-avatar" src="/images/with_longnv.jpg" alt="">
+            <div class="main-content__overview-author-info">
+                <span class="main-content__overview-author-info-name">Doan Duy Phuc</span>
+                <span class="main-content__overview-author-info-role">Aspiring Web Pentester, PTIT</span>
+            </div>
+        </div>
+        <div class="main-content__overview-list-style">
+            <button class="main-content-overview-list-style-grid">
+                <i class="fa-solid fa-grip"></i>
+            </button>
+            <button class="main-content-overview-list-style-list">
+                <i class="fa-solid fa-list"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="main-content__articles">
+        <div class="row">
+            {{ $pctx := . }}
+            {{ if .IsHome }}
+                {{ $pctx = .Site }}
+            {{ end }}
+            {{ $pages := where $pctx.RegularPages "Section" "posts" }}
+            {{ $paginator := .Paginate $pages }}
+
+            {{ range $index, $element := $paginator.Pages }}
+                
+                {{ $class := "col-xl-5" }}
+                {{ if or (eq (mod $index 4) 0) (eq (mod $index 4) 3) }}
+                    {{ $class = "col-xl-7" }}
+                {{ end }}
+
+                <a href="{{ .Permalink }}" class="col-12 col-md-6 {{ $class }} main-content__article-item">
+                    {{ $image := .Resources.GetMatch .Params.image }}
+                    <img src="{{ if $image }}{{ $image.RelPermalink }}{{ else }}/images/default-cover.png{{ end }}" 
+                         alt="{{ .Title }}" class="main-content__article-item-img">
+                    <h2 class="main-content__article-item-title">{{ .Title }}</h2>
+                    <p class="main-content__article-item-desc">{{ .Summary | plainify | truncate 150 }}</p>
+                    <div class="main-content__article-item-metadata">
+                        <div class="main-content__article-item-metadata-date">
+                            <i class="fa-regular fa-calendar"></i>
+                            {{ .Date.Format "02/01/2006" }}
+                        </div>
+                        <div class="main-content__article-item-metadata-category">
+                            <i class="fa-solid fa-hashtag"></i>
+                            {{ with .Params.categories }}
+                                {{ index . 0 }}
+                            {{ else }}
+                                Other
+                            {{ end }}
+                        </div>
+                    </div>
+                </a>
+            {{ end }}
+        </div>
+
+        {{ if gt $paginator.TotalPages 1 }}
+        <div class="main-content__article-pagination">
+            
+            {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}" class="pagination-item pagination-arrow">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            {{ end }}
+
+            {{ range $paginator.Pagers }}
+                <a href="{{ .URL }}" class="pagination-item {{ if eq . $paginator }}active{{ end }}">
+                    {{ .PageNumber }}
+                </a>
+            {{ end }}
+
+            {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}" class="pagination-item pagination-arrow">
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            {{ end }}
+            
+        </div>
+        {{ end }}
+    </div>
+{{ end }}

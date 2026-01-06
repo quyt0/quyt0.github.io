@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+        Tìm hiểu về XSS - Phần 1. Các header thường thấy trong website | Cuýt
+        
+    </title>
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid-5.3.8.css">
+    <link rel="stylesheet" href="/css/fontawesome-7.1.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="blog của Cuýt" />
+    <link rel="manifest" href="/images/site.webmanifest" />
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.basic.min.js"></script>
+</head>
+<body>
+    <div id="main-wrapper">
+        <header id="main-header" class="mt-4">
+    <div class="container container-narrow">
+        <div class="row align-items-center">
+            <div class="col-3">
+                <div class="main-header__homepage">
+                <a href="/" class="main-header__hompage-link">Cuýt</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <nav class="main-header__navbar">
+                <ul class="main-header__navbar-list">
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+                </nav>
+            </div>
+            <div class="col-3 text-end">
+                <div class="main-header__btn">
+                    <div class="main-header_search-wrapper">
+                        <i class="fa-solid fa-magnifying-glass main-header__search-icon"></i>
+                        <input type="text" class="main-header__search-box" placeholder="Search...">
+                        <ul id="main_header__search-results"></ul>
+                    </div>
+                    <button class="main-header__btn-toggle-theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="main-content" class="container container-narrow mt-4 mb-4">
+            
+    <div class="row">
+        <article class="main-content__article-detail col-9">
+            
+                
+                <div class="main-content__article-cover">
+                    
+                        
+                        
+                        <img src="/2025/12/tim-hieu-ve-xss-phan-1.-cac-header-thuong-thay-trong-website/cover_hu_4cc0fa4b7a3db2ec.webp" alt="Tìm hiểu về XSS - Phần 1. Các header thường thấy trong website">
+                    
+                </div>
+            
+        
+            <header class="main-content__article-header mb-5">
+                <h1 class="main-content__article-title">
+                    Tìm hiểu về XSS - Phần 1. Các header thường thấy trong website
+                </h1>
+                <div class="main-content__article-meta mt-3">
+                    <span>
+                        <i class="fa-solid fa-hashtag"></i>
+                        
+                            Other
+                        
+                    </span>
+                    <span class="ms-3"><i class="fa-regular fa-calendar"></i> 28/12/2025</span>
+                    <span class="ms-3"><i class="fa-regular fa-clock"></i> 4 mins read</span>
+                </div>
+            </header>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="main-content__article-body-content">
+                <blockquote>
+<p>Tìm hiểu về SOP, CORS, CSRF: Mục đích, cách hoạt động, các header chính (Access-Control-Allow-Origin, v.v&hellip;)</p>
+</blockquote>
+<h2 id="tại-sao-lại-có-sop-và-cors">Tại sao lại có SOP và CORS</h2>
+<p>Vì XSS là tấn công xuyên trang web, vì thế người ta đã đặt ra những chính sách (policy). Những chính sách đó là một tính năng bảo mật của trình duyệt nhằm hạn chế sự tương tác của trang web này đối với trang web kia.</p>
+<p>Đơn giản hơn thì: Để phòng chống XSS, cần thiết phải đặt ra các chính sách. Chẳng hạn như là chỉ trang web <code>chinhphu.gov</code> mới được truy cập tài nguyên của <code>nganhang.com</code> thì <code>hacker.com</code> sẽ không tấn công XSS đối với <code>nganhang.com</code> được.</p>
+<h2 id="sop-là-gì">SOP là gì?</h2>
+<p>SOP viết tắt của Same-origin policy (chính sách cùng một nguồn). Đúng như tên gọi, nó chỉ cho phép client lấy data từ server nếu như client cùng nguồn với server</p>
+<p>Có ba tiêu chỉ để so sánh là: Tên miền (hoặc IP), giao thức, cổng. Request chỉ hợp lệ khi thoả mãn cả 3 tiêu chí. Ví dụ về list các pages vi phạm SOP của site <code>http://www.example.com</code>:</p>
+<ul>
+<li><code>http://www.example.co.uk</code> (khác domain)</li>
+<li><code>http://example.org</code> (khác domain)</li>
+<li><code>https://example.com</code> (khác protocol)</li>
+<li><code>http://example.com:8080</code> (khác port)</li>
+</ul>
+<p>Vì SOP chỉ chấp nhận &ldquo;cùng nguồn&rdquo;, nhưng có rất nhiều trường hợp bắt buộc 1 request phải gửi tới 1 server khác nguồn. Giả sử như muốn lấy số ca nhiễm Covid-19 trong API <code>covid.com</code> từ trang <code>baomoi.com</code> thì lại không được. Từ đó, CORS ra đời do SOP đã chặn quá nhiều &#x1f622;</p>
+<h2 id="cors-là-gì">CORS là gì?</h2>
+<p>CORS viết tắt cả Cross-Origin Resource Sharing (Chia sẻ tài nguyên xuyên trang)</p>
+<p>Hiểu đơn giản, CORS giúp ta quy định ở phía server, để thông báo là: Tôi cho phép trang A, trang B lấy dữ liệu, còn các trang C, D, E thì không.</p>
+<h3 id="preflight-requests">Preflight requests</h3>
+<p>Nếu như cùng một nguồn, thì thoả mãn SOP và sẽ được chấp nhận ngay. Nhưng nếu gọi request khác nguồn thì lúc này, phía client sẽ gửi trước một &ldquo;preflight request&rdquo; để xem, liệu mình có quyền được truy cập dữ liệu hay không.</p>
+<p>Khi đó, trình duyệt thực hiện một request <code>OPTIONS</code> để xem request có được cho phép hay không, server nhận được và có thể cho phép/từ chối/giới hạn về:</p>
+<ul>
+<li>Method GET hay là POST thì mới được lấy tài nguyên</li>
+<li>Header phải thoả mãn điều gì để được lấy tài nguyên</li>
+<li>&hellip; (tuỳ vào cách bên server cấu hình)</li>
+</ul>
+<h3 id="các-header-chính-thường-gặp">Các header chính (thường gặp)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>CORS header</th>
+          <th>Response ở</th>
+          <th>Mô tả</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Access-Control-Allow-Origin</td>
+          <td>Cả hai</td>
+          <td>Chỉ ra origin, hay nguồn nào được phép gửi request, để * để cho phép mọi nguồn</td>
+      </tr>
+      <tr>
+          <td>Access-Control-Allow-Headers</td>
+          <td>Preflight</td>
+          <td>Cho phép các header nào được chấp thuận ở request thật, để * để cho phép mọi header</td>
+      </tr>
+      <tr>
+          <td>Access-Control-Allow-Methods</td>
+          <td>Preflight</td>
+          <td>HTTP method nào được chấp thuận, để * để cho phép mọi method</td>
+      </tr>
+      <tr>
+          <td>Access-Control-Allow-Credentials</td>
+          <td>Cả hai</td>
+          <td>Chỉ ra trình duyệt có được chứa thông tin tài khoản trong request không, thông tin có thể là basic authentication, browser cookie, hoặc chứng chỉ TLS phía client. Nếu là <code>true</code> thì các header khác không được để *</td>
+      </tr>
+      <tr>
+          <td>Access-Control-Max-Age</td>
+          <td>Preflight</td>
+          <td>Chỉ ra lượng thời gian (tính bằng giây) để trình duyệt cache phản hồi CORS</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="csrf-là-gì">CSRF là gì?</h2>
+<h3 id="tìm-hiểu">Tìm hiểu</h3>
+<p>CSRF viết tắt của Cross-Site Request Forgery (Request giả mạo xuyên trang).Về cơ bản, đây là kiểu tấn công mà trong đó, hacker dụ người dùng gửi yêu cầu thực hiện một hành động nào đó.</p>
+<p>Ví dụ: Khi người dùng chuyển khoản 500k tới Alice, khi đó sẽ gọi một request: <code>https://nganhang.com/transfer?dest=Alice&amp;amout=500k</code></p>
+<p>Giờ nếu hacker muốn chiếm 1 jack từ người dùng, chỉ cần dụ sao cho người dùng gửi request này: <code>https://nganhang.com/transfer?dest=Hacker&amp;amount=5000000</code>. Còn để dụ người dùng, thì đó là kĩ thuật social engineering, chẳng hạn như shorten url, hoặc tạo một trang <code>hacker.com</code>, sau đó khi người dùng truy cập vào thì redirect về URL chuyển tiền kia</p>
+<h3 id="cách-phòng-chống">Cách phòng chống</h3>
+<ol>
+<li>Có thể bằng cách sử dụng một <code>csrf-token</code>. Đây là mã bí mật giữa server và client. Client bắt buộc phải gửi mã này, còn server được thiết kế để nhận và xác minh mã trước khi thực hiện một hành động rủi ro cao (thay đổi pass, chuyển tiền, drop database, v.v&hellip;)</li>
+<li>Dùng <code>SameSite=Strict</code> để cấm gửi kèm cookie với bất cứ request nào khác nguồn</li>
+<li>Dùng thêm xác thực hai bước, chẳng hạn như đổi mật khẩu sẽ yêu cầu nhập lại mật khẩu, đăng xuất phải ấn nút Confirm, v.v&hellip;</li>
+</ol>
+
+            </div>
+        
+            <div class="article-footer mt-5 pt-4" style="font-size: smaller;">
+                <p>Thanks for your reading!</p>
+                <p>© 2026 <strong>izcuyt.com</strong>. Some rights reserved.</p>
+            </div>
+        </article>
+        <aside class="main-content__article-panel col-3">
+            
+            
+
+            <div class="main-content__article-panel-categories">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-solid fa-hashtag"></i> Categories
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/ctf">
+                                
+                                <span class="main-content__article-panel-item-text">CTF</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/file-uploads-vulnerabilities">
+                                
+                                <span class="main-content__article-panel-item-text">File Uploads Vulnerabilities</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/security">
+                                
+                                <span class="main-content__article-panel-item-text">Security</span>
+                                <span class="main-content__article-panel-item-text cat-count">(3)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/sql">
+                                
+                                <span class="main-content__article-panel-item-text">SQL</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/web">
+                                
+                                <span class="main-content__article-panel-item-text">Web</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/writeups">
+                                
+                                <span class="main-content__article-panel-item-text">Writeups</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+
+            
+                <div class="main-content__article-panel-toc">
+                    <h3 class="main-content__article-panel-heading">
+                        <i class="fa-regular fa-rectangle-list"></i>Contents
+                    </h3>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#tại-sao-lại-có-sop-và-cors">Tại sao lại có SOP và CORS</a></li>
+    <li><a href="#sop-là-gì">SOP là gì?</a></li>
+    <li><a href="#cors-là-gì">CORS là gì?</a>
+      <ul>
+        <li><a href="#preflight-requests">Preflight requests</a></li>
+        <li><a href="#các-header-chính-thường-gặp">Các header chính (thường gặp)</a></li>
+      </ul>
+    </li>
+    <li><a href="#csrf-là-gì">CSRF là gì?</a>
+      <ul>
+        <li><a href="#tìm-hiểu">Tìm hiểu</a></li>
+        <li><a href="#cách-phòng-chống">Cách phòng chống</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+            
+
+        </aside>
+    </div>
+
+        </div>
+
+        <footer id="main-footer" class="pt-4 pb-4">
+    <div class="container container-narrow border-top pt-5">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="footer-brand">
+                    <h2 class="footer-brand__name">>_ izcuyt.com</h2>
+                    <p class="footer-brand__desc">
+                        Aspiring Web Pentester<br>Sharing security knowledge about Cyber Security.
+                        <br><br>
+                        Made by <b>@cuyt</b> with love. ♥️
+                    </p>
+                </div>
+                <div class="footer-socials mt-4">
+                    <a href="https://www.facebook.com/100024860571867" target="_blank" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/koanbunbo/" target="_blank" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/quyt0" target="_blank" class="footer-social-btn"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/doanduyphuc/" target="_blank" class="footer-social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:dphuc2304@gmail.com" target="_blank" class="footer-social-btn"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-1 d-none d-lg-block">
+                <div class="footer-divider"></div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">This site</h3>
+                <ul class="footer-list">
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">Connect</h3>
+                <ul class="footer-list">
+                    <li><a href="/cv">Resume</a></li>
+                    <li><a href="mailto:dphuc2304@gmail.com">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <div id="lightbox-overlay" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>

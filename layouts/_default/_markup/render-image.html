@@ -1,0 +1,56 @@
+{{/* Tìm ảnh gốc trong Page Bundle */}}
+{{- $original := .Page.Resources.GetMatch .Destination -}}
+
+{{/* Biến chứa đường dẫn ảnh gốc (để dùng cho popup) */}}
+{{- $fullSizeLink := "" -}}
+{{/* Biến chứa ảnh thumbnail đã xử lý để hiển thị trên bài viết */}}
+{{- $thumbnailSrc := "" -}}
+{{- $thumbnailWidth := "" -}}
+{{- $thumbnailHeight := "" -}}
+
+{{- if $original -}}
+  {{/* 1. NẾU TÌM THẤY ẢNH TRONG BUNDLE */}}
+  
+  {{/* Link gốc chính là ảnh gốc */}}
+  {{- $fullSizeLink = $original.RelPermalink -}}
+
+  {{/* Logic xử lý ảnh: Mặc định chỉ format lossless */}}
+  {{- $cmd := "format webp lossless" -}}
+  
+  {{/* Nếu ảnh to hơn 1200px thì thêm lệnh resize */}}
+  {{- if gt $original.Width 2500 -}}
+      {{/* Kết hợp resize và lossless */}}
+      {{- $cmd = "resize 2500x webp lossless" -}}
+  {{- end -}}
+
+  {{/* Thực hiện xử lý để tạo thumbnail */}}
+  {{- $processed := $original.Process $cmd -}}
+  {{- $thumbnailSrc = $processed.RelPermalink -}}
+  {{- $thumbnailWidth = $processed.Width -}}
+  {{- $thumbnailHeight = $processed.Height -}}
+
+{{- else -}}
+  {{/* 2. NẾU LÀ ẢNH TỪ LINK NGOÀI (VD: imgur) */}}
+  {{/* Link gốc và link thumbnail là một */}}
+  {{- $fullSizeLink = .Destination | safeURL -}}
+  {{- $thumbnailSrc = .Destination | safeURL -}}
+{{- end -}}
+
+
+{{/* Render HTML: Bọc ảnh vào thẻ A để làm chức năng Lightbox */}}
+<figure class="image-container">
+  <a href="{{ $fullSizeLink }}" 
+     class="lightbox-trigger" 
+     {{ with .Title }}data-caption="{{ . }}"{{ end }}>
+      <img src="{{ $thumbnailSrc }}" 
+           {{ if and $thumbnailWidth $thumbnailHeight }}
+             width="{{ $thumbnailWidth }}" height="{{ $thumbnailHeight }}"
+           {{ end }}
+           alt="{{ .Text }}" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  {{/* Nếu có Title thì hiện caption bên dưới ảnh luôn cho đẹp */}}
+  {{ with .Title }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

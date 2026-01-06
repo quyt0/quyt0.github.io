@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div class="main-content__heading">
+    <h1 class="main-content__heading-text">Categories</h1>
+  </div>
+  <div class="main-content__categories-list">
+    {{ range .Data.Terms.ByCount }}
+      <a href="{{ .Page.Permalink }}" class="main-content__category-item">
+          <i class="fa-regular fa-folder"></i>
+          <span class="main-content__category-name">{{ .Page.Title }}</span>
+          <span class="main-content__category-count">{{ .Count }} posts</span>
+          <i class="main-content__category-right-arrow fa-solid fa-angle-right"></i>
+      </a>
+    {{ end }}
+  </div>
+
+{{ end }}

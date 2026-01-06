@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <div class="main-content__heading">
+    <h1 class="main-content__heading-text">{{ .Title }}</h1>
+  </div>
+
+  {{/* Lấy tất cả bài viết */}}
+  {{ $pages := (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+
+  <div class="main-content__archives">
+    {{ range $pages.GroupByDate "2006" }}
+      <div class="main-content__archives-year-block">
+        <div class="main-content__archives-year-header">
+          <div class="main-content__archives-year-text">{{ .Key }}</div>
+          <div></div>
+        </div>
+
+        {{ range .Pages }}
+          <a href="{{ .RelPermalink }}" class="main-content__archives-item">
+            <div class="main-content__archives-date">
+              <span class="main-content__archives-day">{{ .Date.Format "02" }}</span>
+              <span class="main-content__archives-month">{{ .Date.Format "Jan" }}</span>
+            </div>
+
+            <div class="main-content__archives-timeline-col">
+              <span class="main-content__archives-dot"></span>
+            </div>
+
+            <div class="main-content__archives-title">
+              {{ .Title }}
+            </div>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

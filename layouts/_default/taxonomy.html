@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <div class="main-content__heading">
+    <h1 class="main-content__heading-text">Category: {{ .Title }}</h1>
+  </div>
+
+  <div class="main-content__taxonomy-meta">
+    <span class="main-content__taxonomy-count">{{ len .Pages }} posts</span>
+  </div>
+
+  <div class="main-content__posts-list">
+    {{ range .Pages.ByDate.Reverse }}
+      <a href="{{ .Permalink }}" class="main-content__post-item">
+        <div class="main-content__post-info">
+          <span class="main-content__post-title">{{ .Title }}</span>
+
+          {{ with .Date }}
+            <time class="main-content__post-date" datetime="{{ .Format "2006-01-02" }}">
+              {{ .Format "02/01/2006" }}
+            </time>
+          {{ end }}
+        </div>
+
+        <i class="main-content__post-right-arrow fa-solid fa-angle-right"></i>
+      </a>
+    {{ end }}
+  </div>
+{{ end }}

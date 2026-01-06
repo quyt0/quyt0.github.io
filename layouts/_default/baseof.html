@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body>
+    <div id="main-wrapper">
+        {{ partial "header.html" . }}
+
+        <div id="main-content" class="container container-narrow mt-4 mb-4">
+            {{ block "main" . }}
+            {{ end }}
+        </div>
+
+        {{ partial "footer.html" . }}
+    </div>
+    <div id="lightbox-overlay" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>

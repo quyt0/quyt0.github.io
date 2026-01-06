@@ -1,0 +1,51 @@
+{{ define "main" }}
+    <div class="row">
+        <article class="main-content__article-detail col-9">
+            <header class="main-content__article-header">
+                <h1 class="main-content__article-title">
+                    {{ .Title }}
+                </h1>
+            </header>
+
+            <div class="main-content__article-body-content">
+                {{ .Content }}
+            </div>
+        </article>
+
+        <aside class="about-site main-content__article-panel col-3">
+            
+            <div class="main-content__article-panel-latest-post">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-newspaper"></i>Latest posts
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    {{ range first 5 site.RegularPages }}
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="{{ .RelPermalink }}" title="{{ .Title }}">
+                                <span class="main-content__article-panel-item-text">{{ .Title }}</span>
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            <div class="main-content__article-panel-categories">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-solid fa-hashtag"></i> Categories
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    {{ range $name, $taxonomy := site.Taxonomies.categories }}
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">
+                                {{ $catPage := site.GetPage (printf "/categories/%s" $name) }}
+                                <span class="main-content__article-panel-item-text">{{ $catPage.Title | default ($name | title) }}</span>
+                                <span class="main-content__article-panel-item-text cat-count">({{ $taxonomy.Count }})</span>
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+
+        </aside>
+    </div>
+{{ end }}

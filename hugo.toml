@@ -1,0 +1,34 @@
+baseURL = 'https://izcuyt.com/'
+languageCode = 'en-us'
+title = 'Cuýt'
+removePathAccents = true
+enableEmoji = true
+[permalinks]
+  posts = '/:year/:month/:title/'
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = 'catppuccin-mocha' # Hoặc 'catppuccin-frappe' tùy gu của bạn
+    lineNos = true             # Hiện số dòng nếu bạn muốn
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      strikethrough = false 
+      
+      typographer = true
+
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+          enable = true
+
+        [markup.goldmark.extensions.extras.subscript]
+          enable = true
+
+        [markup.goldmark.extensions.extras.superscript]
+          enable = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+[pagination]
+  pagerSize = 6
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
