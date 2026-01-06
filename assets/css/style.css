@@ -1055,6 +1055,8 @@ input::placeholder {
     cursor: pointer;
 }
 
+
+
 /* Hiệu ứng zoom */
 @keyframes zoomIn {
     from {transform:scale(0.9); opacity: 0;}
