@@ -22,10 +22,10 @@
     <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <script src="/js/fuse.basic.min.js"></script>
     
-    <link rel="stylesheet" href="/css/style.min.49f1f112f71b083453e3f02b917fe6e8799d4fc61c35e585c74f7897a5b0b171.css" integrity="sha256-SfHxEvcbCDRT4/ArkX/m6HmdT8YcNeWFx094l6WwsXE=">
-</head>
+    <link rel="stylesheet" href="/css/style.min.2e34ac86b95c39dd7d58417fb7805419fa109f94398560bbf2a3356dab1a934b.css" integrity="sha256-LjSshrlcOd19WEF/t4BUGfoQn5Q5hWC78qM1basak0s="><meta name="description" content=" Advertisement :)
+pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax. You will like …"></head>
 <body>
-    <div id="main-wrapper">
+    <main id="main" role="main">
         <header id="main-header" class="mt-4">
     <div class="container container-narrow">
         <div class="row align-items-center">
@@ -51,8 +51,8 @@
                         <input type="text" class="main-header__search-box" placeholder="Search...">
                         <ul id="main_header__search-results"></ul>
                     </div>
-                    <button class="main-header__btn-toggle-theme">
-                        <i class="fa-solid fa-moon"></i>
+                    <button class="main-header__btn-toggle-theme" type="button" aria-label="Toggle theme">
+                        <i class="fa-solid fa-moon" aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
@@ -517,12 +517,40 @@ with lazy continuation.</p>
                     </p>
                 </div>
                 <div class="footer-socials mt-4">
-                    <a href="https://www.facebook.com/100024860571867" target="_blank" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/koanbunbo/" target="_blank" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://github.com/quyt0" target="_blank" class="footer-social-btn"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/doanduyphuc/" target="_blank" class="footer-social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="mailto:dphuc2304@gmail.com" target="_blank" class="footer-social-btn"><i class="fa-solid fa-envelope"></i></a>
-                </div>
+                    <a href="https://github.com/quyt0"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="GitHub profile">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/100024860571867"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Facebook profile">
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/koanbunbo/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Instagram profile">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/doanduyphuc/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="LinkedIn profile">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="mailto:dphuc2304@gmail.com"
+                        class="footer-social-btn"
+                        aria-label="Send email to dphuc2304@gmail.com">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    </a>
+
+                    </div>
             </div>
 
             <div class="col-lg-1 d-none d-lg-block">
@@ -548,7 +576,7 @@ with lazy continuation.</p>
         </div>
     </div>
 </footer>
-    </div>
+    </main>
     <div id="lightbox-overlay" class="lightbox-overlay">
         <span class="lightbox-close">&times;</span>
         <img class="lightbox-content" id="lightbox-img">

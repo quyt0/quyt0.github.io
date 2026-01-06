@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Cuýt'
 removePathAccents = true
 enableEmoji = true
+[params]
+  description = "Personal blog about Cyber Security, CTFs, and Web Pentesting."
 [permalinks]
   posts = '/:year/:month/:title/'
 [markup]

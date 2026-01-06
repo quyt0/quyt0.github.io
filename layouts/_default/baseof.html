@@ -2,7 +2,7 @@
 <html lang="en">
 {{ partial "head.html" . }}
 <body>
-    <div id="main-wrapper">
+    <main id="main" role="main">
         {{ partial "header.html" . }}
 
         <div id="main-content" class="container container-narrow mt-4 mb-4">
@@ -11,7 +11,7 @@
         </div>
 
         {{ partial "footer.html" . }}
-    </div>
+    </main>
     <div id="lightbox-overlay" class="lightbox-overlay">
         <span class="lightbox-close">&times;</span>
         <img class="lightbox-content" id="lightbox-img">

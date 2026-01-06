@@ -239,8 +239,7 @@ body {
     font-family: var(--font-code);
 }
 
-.main-header__btn button,
-.main-content__overview-list-style button {
+.main-header__btn button {
     background: none;
     border: none;
     color: var(--ctp-subtext1);
@@ -249,8 +248,7 @@ body {
     padding: 5px;
 }
 
-.main-header__btn button:hover,
-.main-content__overview-list-style button:hover {
+.main-header__btn button:hover {
     color: var(--ctp-mauve);
 }
 

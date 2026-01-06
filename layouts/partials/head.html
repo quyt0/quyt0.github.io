@@ -25,4 +25,21 @@
     <script src="/js/fuse.basic.min.js"></script>
     {{ $css := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+    {{- $desc := "" -}}
+    {{- with .Params.description -}}
+    {{- $desc = . -}}
+    {{- else -}}
+    {{- if .IsPage -}}
+        {{- $desc = (.Summary | plainify | htmlUnescape | truncate 160) -}}
+    {{- else -}}
+        {{- with .Site.Params.description -}}
+        {{- $desc = . -}}
+        {{- end -}}
+    {{- end -}}
+    {{- end -}}
+    
+    {{- if $desc -}}
+    <meta name="description" content="{{ $desc }}">
+    {{- end -}}
+
 </head>

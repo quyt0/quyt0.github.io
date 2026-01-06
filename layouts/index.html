@@ -19,14 +19,6 @@
                 <span class="main-content__overview-author-info-role">Aspiring Web Pentester, PTIT</span>
             </div>
         </div>
-        <div class="main-content__overview-list-style">
-            <button class="main-content-overview-list-style-grid">
-                <i class="fa-solid fa-grip"></i>
-            </button>
-            <button class="main-content-overview-list-style-list">
-                <i class="fa-solid fa-list"></i>
-            </button>
-        </div>
     </div>
 
     <div class="main-content__articles">
@@ -94,8 +86,8 @@
         <div class="main-content__article-pagination">
             
             {{ if $paginator.HasPrev }}
-            <a href="{{ $paginator.Prev.URL }}" class="pagination-item pagination-arrow">
-                <i class="fa-solid fa-chevron-left"></i>
+            <a href="{{ $paginator.Prev.URL }}" class="pagination-item pagination-arrow" aria-label="Previous page">
+                <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
             </a>
             {{ end }}
 
@@ -106,8 +98,8 @@
             {{ end }}
 
             {{ if $paginator.HasNext }}
-            <a href="{{ $paginator.Next.URL }}" class="pagination-item pagination-arrow">
-                <i class="fa-solid fa-chevron-right"></i>
+            <a href="{{ $paginator.Next.URL }}" class="pagination-item pagination-arrow" aria-label="Next page">
+                <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
             </a>
             {{ end }}
             
