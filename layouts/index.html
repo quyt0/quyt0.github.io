@@ -5,7 +5,15 @@
 
     <div class="main-content__overview">
         <div class="main-content__overview-author">
-            <img class="main-content__overview-avatar" src="/images/with_longnv.jpg" alt="">
+            {{ $avatarSrc := "images/with_longnv.jpg" }}
+            {{ $avatar := resources.Get $avatarSrc }}
+            {{ $avatarWebp := $avatar.Fit "96x96 webp" }}
+            <img
+                class="main-content__overview-avatar"
+                src="{{ $avatarWebp.RelPermalink }}"
+                loading="eager"
+                decoding="async"
+                alt="Doan Duy Phuc">
             <div class="main-content__overview-author-info">
                 <span class="main-content__overview-author-info-name">Doan Duy Phuc</span>
                 <span class="main-content__overview-author-info-role">Aspiring Web Pentester, PTIT</span>
@@ -39,8 +47,29 @@
 
                 <a href="{{ .Permalink }}" class="col-12 col-md-6 {{ $class }} main-content__article-item">
                     {{ $image := .Resources.GetMatch .Params.image }}
-                    <img src="{{ if $image }}{{ $image.RelPermalink }}{{ else }}/images/default-cover.png{{ end }}" 
-                         alt="{{ .Title }}" class="main-content__article-item-img">
+                    {{ if $image }}
+                    {{ $sm := $image.Fit "480x270 webp q75" }}
+                    {{ $md := $image.Fit "800x450 webp q75" }}
+                    {{ $lg := $image.Fit "1200x675 webp q75" }}
+
+                    <img
+                        class="main-content__article-item-img"
+                        src="{{ $md.RelPermalink }}"
+                        srcset="{{ $sm.RelPermalink }} 480w, {{ $md.RelPermalink }} 800w, {{ $lg.RelPermalink }} 1200w"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 700px"
+                        width="{{ $md.Width }}" height="{{ $md.Height }}"
+                        loading="lazy"
+                        decoding="async"
+                        alt="{{ .Title }}">
+                    {{ else }}
+                    <img
+                        class="main-content__article-item-img"
+                        src="/images/default-cover.webp"
+                        loading="lazy"
+                        decoding="async"
+                        alt="{{ .Title }}">
+                    {{ end }}
+
                     <h2 class="main-content__article-item-title">{{ .Title }}</h2>
                     <p class="main-content__article-item-desc">{{ .Summary | plainify | truncate 150 }}</p>
                     <div class="main-content__article-item-metadata">

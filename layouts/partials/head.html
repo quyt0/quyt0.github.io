@@ -21,6 +21,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="blog của Cuýt" />
     <link rel="manifest" href="/images/site.webmanifest" />
+    <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <script src="/js/fuse.basic.min.js"></script>
     {{ $css := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">

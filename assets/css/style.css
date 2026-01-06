@@ -63,25 +63,28 @@ html {
   background-color: var(--ctp-overlay1);
 }
 
- @font-face {
+@font-face {
     font-family: 'JetBrains Mono';
-    src: url('../fonts/JetBrainsMono/JetBrainsMono-Regular.ttf') format('truetype');
+    src: url('../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'JetBrains Mono';
-    src: url('../fonts/JetBrainsMono/JetBrainsMono-Bold.ttf') format('truetype');
+    src: url('../fonts/JetBrainsMono/JetBrainsMono-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'JetBrains Mono';
-    src: url('../fonts/JetBrainsMono/JetBrainsMono-Italic.ttf') format('truetype');
+    src: url('../fonts/JetBrainsMono/JetBrainsMono-Italic.woff2') format('woff2');
     font-weight: 400;
     font-style: italic;
+    font-display: swap;
 }
 
 
