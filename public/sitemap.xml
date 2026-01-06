@@ -2,58 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://192.168.1.52:1313/</loc>
     <lastmod>2026-01-06T17:48:17+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://192.168.1.52:1313/posts/</loc>
     <lastmod>2026-01-06T17:48:17+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2026/01/temp-post-2/</loc>
+    <loc>http://192.168.1.52:1313/2026/01/temp-post-2/</loc>
     <lastmod>2026-01-06T17:48:17+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2026/01/temp-post-1/</loc>
+    <loc>http://192.168.1.52:1313/2026/01/temp-post-1/</loc>
     <lastmod>2026-01-06T17:48:11+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://192.168.1.52:1313/categories/</loc>
     <lastmod>2026-01-02T17:44:37+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ctf/</loc>
+    <loc>http://192.168.1.52:1313/categories/ctf/</loc>
     <lastmod>2026-01-02T17:44:37+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/security/</loc>
+    <loc>http://192.168.1.52:1313/categories/security/</loc>
     <lastmod>2026-01-02T17:44:37+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/web/</loc>
+    <loc>http://192.168.1.52:1313/categories/web/</loc>
     <lastmod>2026-01-02T17:44:37+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</loc>
+    <loc>http://192.168.1.52:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</loc>
     <lastmod>2026-01-02T17:44:37+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/writeups/</loc>
+    <loc>http://192.168.1.52:1313/categories/writeups/</loc>
     <lastmod>2026-01-02T17:44:37+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2025/12/markdown-demo/</loc>
+    <loc>http://192.168.1.52:1313/2025/12/markdown-demo/</loc>
     <lastmod>2025-12-28T23:27:12+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2025/12/file-upload-challenge/</loc>
+    <loc>http://192.168.1.52:1313/2025/12/file-upload-challenge/</loc>
     <lastmod>2025-12-28T18:01:01+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/file-uploads-vulnerabilities/</loc>
+    <loc>http://192.168.1.52:1313/categories/file-uploads-vulnerabilities/</loc>
     <lastmod>2025-12-28T18:01:01+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2025/12/tim-hieu-ve-xss-phan-1.-cac-header-thuong-thay-trong-website/</loc>
+    <loc>http://192.168.1.52:1313/2025/12/tim-hieu-ve-xss-phan-1.-cac-header-thuong-thay-trong-website/</loc>
     <lastmod>2025-12-28T12:35:20+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/sql/</loc>
+    <loc>http://192.168.1.52:1313/categories/sql/</loc>
     <lastmod>2025-12-28T04:26:07+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2025/12/tim-hieu-ve-sql-injection-va-cach-phong-chong/</loc>
+    <loc>http://192.168.1.52:1313/2025/12/tim-hieu-ve-sql-injection-va-cach-phong-chong/</loc>
     <lastmod>2025-12-28T04:26:07+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://192.168.1.52:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://192.168.1.52:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://192.168.1.52:1313/tags/</loc>
   </url>
 </urlset>

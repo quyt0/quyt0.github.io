@@ -1,33 +1,51 @@
-<header id="main-header" class="mt-4">
-    <div class="container container-narrow">
-        <div class="row align-items-center">
-            <div class="col-3">
-                <div class="main-header__homepage">
-                <a href="/" class="main-header__hompage-link">Cuýt</a>
-                </div>
-            </div>
-            <div class="col-6">
-                <nav class="main-header__navbar">
-                <ul class="main-header__navbar-list">
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/categories">Categories</a></li>
-                    <li><a href="/archives">Archives</a></li>
-                    <li><a href="/about">About</a></li>
-                </ul>
-                </nav>
-            </div>
-            <div class="col-3 text-end">
-                <div class="main-header__btn">
-                    <div class="main-header_search-wrapper">
-                        <i class="fa-solid fa-magnifying-glass main-header__search-icon"></i>
-                        <input type="text" class="main-header__search-box" placeholder="Search...">
-                        <ul id="main_header__search-results"></ul>
-                    </div>
-                    <button class="main-header__btn-toggle-theme" type="button" aria-label="Toggle theme">
-                        <i class="fa-solid fa-moon" aria-hidden="true"></i>
-                    </button>
-                </div>
-            </div>
+<header id="main-header">
+  <div class="container container-narrow">
+    <div class="row align-items-center">
+      <div class="col-3 col-md-2 col-lg-3">
+        <div class="main-header__homepage">
+          <a href="/" class="main-header__hompage-link">Cuýt</a>
         </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6 main-header__navbar-wrapper">
+        <nav class="main-header__navbar" aria-label="Main navigation">
+          <ul class="main-header__navbar-list">
+            <li><a href="/">Blog</a></li>
+            <li><a href="/categories">Categories</a></li>
+            <li><a href="/archives">Archives</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-9 col-md-4 col-lg-3">
+        <div class="main-header__btn">
+          <div class="main-header_search-wrapper">
+            <i class="fa-solid fa-magnifying-glass main-header__search-icon" aria-hidden="true"></i>
+            <input type="text" class="main-header__search-box" placeholder="Search..." aria-label="Search">
+            <ul id="main_header__search-results"></ul>
+          </div>
+
+          <button class="main-header__btn-toggle-theme" type="button" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+
+          <button class="main-header__btn-mobile-bar" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-header-mobile-menu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
     </div>
+
+    <div id="main-header-mobile-menu" class="main-header__mobile-menu" hidden>
+    <nav aria-label="Mobile navigation">
+        <ul class="main-header__mobile-menu-list">
+        <li><a href="/">Blog</a></li>
+        <li><a href="/categories">Categories</a></li>
+        <li><a href="/archives">Archives</a></li>
+        <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    </div>
+  </div>
 </header>

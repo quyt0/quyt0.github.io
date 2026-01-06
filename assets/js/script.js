@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initLightbox();
     initTableOfContents();
     initSearch();
+    initMobileMenu();
 });
 
 function initTheme() {
@@ -203,4 +204,39 @@ function initSearch() {
             searchResults.style.display = 'none';
         }
     });
+}
+
+function initMobileMenu() {
+    const btn = document.querySelector('.main-header__btn-mobile-bar');
+    const menu = document.getElementById('main-header-mobile-menu');
+    if (!btn || !menu) return;
+
+    const close = () => {
+        menu.setAttribute('hidden', '');
+        btn.setAttribute('aria-expanded', 'false');
+    };
+
+    btn.addEventListener('click', () => {
+        const open = !menu.hasAttribute('hidden');
+        open ? close() : (menu.removeAttribute('hidden'), btn.setAttribute('aria-expanded', 'true'));
+    });
+
+    // click link trong menu => đóng
+    menu.addEventListener('click', (e) => {
+        if (e.target.closest('a')) close();
+    });
+
+    // click ra ngoài / ESC => đóng
+    document.addEventListener('click', (e) => {
+        if (menu.hasAttribute('hidden')) return;
+        if (btn.contains(e.target) || menu.contains(e.target)) return;
+        close();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') close();
+    });
+
+    // resize lên >=768 => đóng cho khỏi kẹt state
+    const mq = window.matchMedia('(min-width: 768px)');
+    mq.addEventListener?.('change', (ev) => { if (ev.matches) close(); });
 }
