@@ -1,6 +1,6 @@
 {{ define "main" }}
     <div class="row">
-        <article class="main-content__article-detail col-lg-9">
+        <article class="main-content__article-detail col-md-9">
             {{ if .Params.image }}
                 {{ $image := .Resources.GetMatch .Params.image }}
                 <div class="main-content__article-cover">
@@ -53,7 +53,7 @@
                 <p>© 2026 <strong>izcuyt.com</strong>. Some rights reserved.</p>
             </div>
         </article>
-        <aside class="main-content__article-panel col-lg-3">
+        <aside class="main-content__article-panel col-md-3">
             {{ $related := where (where site.RegularPages "Params.categories" "intersect" .Params.categories) "Permalink" "ne" .Permalink }}
             {{ if $related }}
             <div class="main-content__article-panel-same-category-post">

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cuýt</title>
-    <link>http://192.168.1.52:1313/</link>
+    <link>http://192.168.1.84:1313/</link>
     <description>Recent content on Cuýt</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jan 2026 17:48:17 +0700</lastBuildDate>
-    <atom:link href="http://192.168.1.52:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.84:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Temp Post 2</title>
-      <link>http://192.168.1.52:1313/2026/01/temp-post-2/</link>
+      <link>http://192.168.1.84:1313/2026/01/temp-post-2/</link>
       <pubDate>Tue, 06 Jan 2026 17:48:17 +0700</pubDate>
-      <guid>http://192.168.1.52:1313/2026/01/temp-post-2/</guid>
+      <guid>http://192.168.1.84:1313/2026/01/temp-post-2/</guid>
       <description></description>
     </item>
     <item>
       <title>Temp Post 1</title>
-      <link>http://192.168.1.52:1313/2026/01/temp-post-1/</link>
+      <link>http://192.168.1.84:1313/2026/01/temp-post-1/</link>
       <pubDate>Tue, 06 Jan 2026 17:48:11 +0700</pubDate>
-      <guid>http://192.168.1.52:1313/2026/01/temp-post-1/</guid>
+      <guid>http://192.168.1.84:1313/2026/01/temp-post-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Writeup (Web) Cybersecurity Student Contest Vietnam 2025</title>
-      <link>http://192.168.1.52:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</link>
+      <link>http://192.168.1.84:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</link>
       <pubDate>Fri, 02 Jan 2026 17:44:37 +0700</pubDate>
-      <guid>http://192.168.1.52:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</guid>
+      <guid>http://192.168.1.84:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</guid>
       <description>&lt;h2 id=&#34;zc-1&#34;&gt;ZC-1&lt;/h2&gt;&#xA;&lt;p&gt;Đề bài cung cấp hai dịch vụ: app1 là một api Django chịu trách nhiệm xác nhận người dùng và gửi file zip cho app2, là một dịch vụ apache/PHP có thể giải nén file zip nhận được và lưu trữ file. Docker gán 2 dịch vụ với nhau và gán flag.txt vào app2, app1 được map cổng 8000 và app2 chỉ bị expose qua app1.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;superapp&lt;/code&gt; chứa các cấu hình chính của dịch vụ:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown Demo</title>
-      <link>http://192.168.1.52:1313/2025/12/markdown-demo/</link>
+      <link>http://192.168.1.84:1313/2025/12/markdown-demo/</link>
       <pubDate>Sun, 28 Dec 2025 23:27:12 +0700</pubDate>
-      <guid>http://192.168.1.52:1313/2025/12/markdown-demo/</guid>
+      <guid>http://192.168.1.84:1313/2025/12/markdown-demo/</guid>
       <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Advertisement :)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://nodeca.github.io/pica/demo/&#34;&gt;pica&lt;/a&gt;&lt;/strong&gt; - high quality and fast image&#xA;resize in browser.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/nodeca/babelfish/&#34;&gt;babelfish&lt;/a&gt;&lt;/strong&gt; - developer friendly&#xA;i18n with plurals support and easy syntax.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You will like those projects!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;h1-heading-8-&#34;&gt;h1 Heading 8-)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2-heading&#34;&gt;h2 Heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3-heading&#34;&gt;h3 Heading&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4-heading&#34;&gt;h4 Heading&lt;/h4&gt;&#xA;&lt;h5 id=&#34;h5-heading&#34;&gt;h5 Heading&lt;/h5&gt;&#xA;&lt;h6 id=&#34;h6-heading&#34;&gt;h6 Heading&lt;/h6&gt;&#xA;&lt;h2 id=&#34;horizontal-rules&#34;&gt;Horizontal Rules&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;typographic-replacements&#34;&gt;Typographic replacements&lt;/h2&gt;&#xA;&lt;p&gt;Enable typographer option to see result.&lt;/p&gt;&#xA;&lt;p&gt;(c) (C) (r) (R) (tm) (TM) (p) (P) +- -&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.&lt;/p&gt;&#xA;&lt;p&gt;!!!!!! ???? ,,  &amp;ndash; &amp;mdash;&lt;/p&gt;</description>
     </item>
     <item>
       <title>File Upload Challenge</title>
-      <link>http://192.168.1.52:1313/2025/12/file-upload-challenge/</link>
+      <link>http://192.168.1.84:1313/2025/12/file-upload-challenge/</link>
       <pubDate>Sun, 28 Dec 2025 18:01:01 +0700</pubDate>
-      <guid>http://192.168.1.52:1313/2025/12/file-upload-challenge/</guid>
+      <guid>http://192.168.1.84:1313/2025/12/file-upload-challenge/</guid>
       <description>&lt;h1 id=&#34;báo-cáo-task-41-file-upload&#34;&gt;Báo cáo Task 4.1: File upload&lt;/h1&gt;&#xA;&lt;h2 id=&#34;challenge-lab-whitebox&#34;&gt;Challenge lab whitebox&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;http://113.171.248.61:8008/&#xA;Source code đính kèm&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Ta được cung cấp một source code Python, định nghĩa một endpoint &lt;code&gt;/uploader&lt;/code&gt; cho phép user upload thông qua method POST. Dựa vào những gì đề bài cho, ta chỉ có thể upload một file để tấn công&lt;/p&gt;&#xA;&lt;h2 id=&#34;phân-tích-challenge&#34;&gt;Phân tích challenge&lt;/h2&gt;&#xA;&lt;p&gt;Đáng chú ý nhất trong source code là đoạn này&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;file_path&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;UPLOAD_FOLDER&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;filename&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;file_path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;save&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;file_path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;utils&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;helper&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;helper&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rename_file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;file_path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;UPLOAD_FOLDER&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;session&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;num_file&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;.txt&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;except&lt;/span&gt; &lt;span class=&#34;ne&#34;&gt;Exception&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Lỗi xử lý file: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;Trong đó sử dụng &lt;code&gt;os.path.join()&lt;/code&gt;, developer đã truyền trực tiếp &lt;code&gt;f.filename&lt;/code&gt; của người dùng vào thẳng &lt;code&gt;UPLOAD_FOLDER&lt;/code&gt;. Từ đây, ta biết chắc chắn có thể tấn công Path Traversal. Chỉ bằng cách thay đổi tên của &lt;code&gt;f.filename&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tìm hiểu về XSS - Phần 1. Các header thường thấy trong website</title>
-      <link>http://192.168.1.52:1313/2025/12/tim-hieu-ve-xss-phan-1.-cac-header-thuong-thay-trong-website/</link>
+      <link>http://192.168.1.84:1313/2025/12/tim-hieu-ve-xss-phan-1.-cac-header-thuong-thay-trong-website/</link>
       <pubDate>Sun, 28 Dec 2025 12:35:20 +0700</pubDate>
-      <guid>http://192.168.1.52:1313/2025/12/tim-hieu-ve-xss-phan-1.-cac-header-thuong-thay-trong-website/</guid>
+      <guid>http://192.168.1.84:1313/2025/12/tim-hieu-ve-xss-phan-1.-cac-header-thuong-thay-trong-website/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Tìm hiểu về SOP, CORS, CSRF: Mục đích, cách hoạt động, các header chính (Access-Control-Allow-Origin, v.v&amp;hellip;)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;tại-sao-lại-có-sop-và-cors&#34;&gt;Tại sao lại có SOP và CORS&lt;/h2&gt;&#xA;&lt;p&gt;Vì XSS là tấn công xuyên trang web, vì thế người ta đã đặt ra những chính sách (policy). Những chính sách đó là một tính năng bảo mật của trình duyệt nhằm hạn chế sự tương tác của trang web này đối với trang web kia.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tìm hiểu về SQL injection và cách phòng chống</title>
-      <link>http://192.168.1.52:1313/2025/12/tim-hieu-ve-sql-injection-va-cach-phong-chong/</link>
+      <link>http://192.168.1.84:1313/2025/12/tim-hieu-ve-sql-injection-va-cach-phong-chong/</link>
       <pubDate>Sun, 28 Dec 2025 04:26:07 +0700</pubDate>
-      <guid>http://192.168.1.52:1313/2025/12/tim-hieu-ve-sql-injection-va-cach-phong-chong/</guid>
+      <guid>http://192.168.1.84:1313/2025/12/tim-hieu-ve-sql-injection-va-cach-phong-chong/</guid>
       <description>&lt;h1 id=&#34;task-22&#34;&gt;Task 2.2&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Tạo case SQLi dump data thủ công sex ra sao&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://192.168.1.52:1313/about/</link>
+      <link>http://192.168.1.84:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.52:1313/about/</guid>
+      <guid>http://192.168.1.84:1313/about/</guid>
       <description>&lt;p&gt;Hey, thanks for stopping by.‼️&lt;/p&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;Doan Duy Phuc&lt;/strong&gt;. You can call me &lt;strong&gt;&amp;ldquo;Cuýt&amp;rdquo;&lt;/strong&gt;.&#xA;I&amp;rsquo;m studying &lt;strong&gt;Information Security&lt;/strong&gt; at &lt;strong&gt;PTIT (Posts and Telecommunications Institute of Technology)&lt;/strong&gt; in Hanoi, Vietnam.&lt;br&gt;&#xA;I also spend a questionable amount of time breaking things that were definitely not designed to be broken that way. 🫠&lt;/p&gt;&#xA;&lt;p&gt;I enjoy playing &lt;strong&gt;CTFs&lt;/strong&gt;, and among all categories, I&amp;rsquo;m most interested in &lt;strong&gt;Web and Forensics&lt;/strong&gt;. I’m still learning, still making mistakes, and still spending more time than I&amp;rsquo;d like figuring out why something didn&amp;rsquo;t work the way I expected.&lt;br&gt;&#xA;CTFs are mostly a way for me to practice and explore things hands-on, and over time, I’m working toward becoming an &lt;strong&gt;aspiring Web Pentester&lt;/strong&gt; — one bug, one failed exploit, and one late night at a time.&lt;/p&gt;</description>
     </item>
   </channel>
