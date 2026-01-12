@@ -2,7 +2,7 @@
 date = '2026-01-12T15:17:41+07:00'
 draft = false
 title = 'Write-up: UofTCTF 2026 - challenge Lottery (Misc)'
-categories = ['Writeups', 'Jail', 'Misc'. 'Security']
+categories = ['Writeups', 'Jail', 'Misc', 'Security']
 image = 'cover.jpg'
 +++
 
