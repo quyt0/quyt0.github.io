@@ -2,16 +2,20 @@
 date = '2026-01-12T15:17:41+07:00'
 draft = false
 title = 'Write-up: UofTCTF 2026 - challenge Lottery (Misc)'
-categories = ['Writeups', 'CTF', 'Jail', 'Misc']
+categories = ['Writeups', 'Jail', 'Misc'. 'Security']
+image = 'cover.jpg'
 +++
+
+# UofTCTF 2026 – Lottery (Misc) Write-up
+
 ## Description
 
-Han Shangyan quietly gives away all his savings to protect someone he cares about, leaving himself with nothing.
+Han Shangyan quietly gives away all his savings to protect someone he cares about, leaving himself with nothing.  
 Now broke, his only hope is chance itself.
 
 Can you help Han Shangyan win the lottery?
 
-```bash
+```
 nc 35.245.30.212 5000
 ```
 
@@ -35,7 +39,7 @@ COPY flag.txt /srv/flag.txt
 ENV JAIL_PIDS=10 JAIL_MEM=10M JAIL_TIME=120 JAIL_POW=10000
 ```
 
-The challenge is **white-boxed**. The following Bash script is the main target.
+The challenge is **white-boxed**. The following Bash script contains the core logic.
 
 ```bash
 #!/bin/bash
@@ -65,7 +69,7 @@ fi
 
 ## Breaking the Random Ticket
 
-The ticket generation relies on external commands (`head`, `md5sum`, `cut`) resolved via the `PATH` environment variable.
+The ticket generation relies on external commands (`head`, `md5sum`, and `cut`), which are resolved through the `PATH` environment variable.
 
 Because our input is injected into a Bash arithmetic expression using `let`, we can abuse the comma operator to perform variable assignments.
 
@@ -77,18 +81,19 @@ Payload:
 
 This causes:
 
-- `PATH` to be overwritten
-- the random ticket generation pipeline to fail
-- `ticket` to become an empty string
-- `t` to evaluate to `0`
+- `PATH` to be overwritten,
+- the random ticket generation pipeline to fail,
+- `ticket` to become an empty string,
+- and `t` to evaluate to `0`.
 
-This allows us to reach the winning branch, but `cat` also breaks due to `PATH` being invalid.
-[](image.png)
+This allows us to reach the winning branch; however, `cat` also breaks because it depends on `PATH`.
+
+![](image.png)
 ---
 
 ## Bash Arithmetic Injection
 
-After researching Bash arithmetic injection, a similar vulnerability was found in **JSON Bourne (PlaidCTF 2020)**.
+While researching Bash arithmetic behavior, a similar vulnerability was found in **JSON Bourne (PlaidCTF 2020)**.
 
 Key insight:
 
@@ -105,7 +110,7 @@ y=$((1+x))
 
 ## Final Exploit
 
-The final payload leverages array indexing to trigger command execution and redirects the flag output directly to the main process stdout:
+The final payload leverages array indexing to trigger command execution and redirects the flag output directly to the main process stdout.
 
 ```bash
 0 + a[$(cat /flag.txt > /proc/1/fd/1)]
@@ -113,10 +118,10 @@ The final payload leverages array indexing to trigger command execution and redi
 
 Explanation:
 
-- `a[INDEX]` forces Bash to expand `INDEX`
-- `$()` inside `INDEX` is executed
-- output is redirected to `/proc/1/fd/1`, which is the stdout of PID 1
-- PID 1 holds the socket connected to `nc`
+- `a[INDEX]` forces Bash to fully expand `INDEX`,
+- `$()` inside `INDEX` is executed,
+- output is redirected to `/proc/1/fd/1`, which corresponds to stdout of PID 1,
+- PID 1 holds the socket connected to `nc`, so the flag is sent directly to the client.
 
 ---
 

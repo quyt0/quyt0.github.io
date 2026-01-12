@@ -3,7 +3,7 @@ date = '2025-12-28T18:01:01+07:00'
 draft = false
 title = 'File Upload Challenge'
 image = 'cover.jpg'
-categories = ["Security", "File uploads vulnerabilities"]
+categories = ['Security', 'File uploads vulnerabilities']
 +++
 # Báo cáo Task 4.1: File upload
 

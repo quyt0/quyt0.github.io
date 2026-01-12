@@ -3,7 +3,7 @@ date = '2025-12-28T04:26:07+07:00'
 draft = false
 title = 'Tìm hiểu về SQL injection và cách phòng chống'
 image = 'cover.jpg'
-categories = ["Security", "SQL"]
+categories = ['Security', 'SQL injection']
 +++
 # Task 2.2
 

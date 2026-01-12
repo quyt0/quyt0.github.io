@@ -2,7 +2,7 @@
 date = '2026-01-02T17:44:37+07:00'
 draft = false
 title = 'Writeup (Web) Cybersecurity Student Contest Vietnam 2025'
-categories = ['CTF', 'Writeups', 'Web', 'Security']
+categories = ['Writeups', 'Web', 'Security']
 +++
 
 ## ZC-1
