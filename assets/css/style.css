@@ -519,6 +519,7 @@ input::placeholder {
     color: var(--ctp-subtext1);
     font-size: 16px;
     display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -1010,6 +1011,10 @@ input::placeholder {
     color: var(--ctp-mauve);
 }
 
+.image-container {
+    margin: 0;
+}
+
 /* Style cho ảnh trong bài viết để người dùng biết là bấm được */
 .lightbox-trigger {
     cursor: zoom-in; /* Hiện con trỏ hình kính lúp */
@@ -1245,9 +1250,5 @@ input::placeholder {
 
     .main-content__article-header {
         margin-bottom: 2rem;
-    }
-
-    .main-content__article-meta {
-        flex-direction: column;
     }
 }

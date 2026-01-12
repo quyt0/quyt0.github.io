@@ -6,8 +6,6 @@ categories = ['Writeups', 'Jail', 'Misc', 'Security']
 image = 'cover.jpg'
 +++
 
-# UofTCTF 2026 – Lottery (Misc) Write-up
-
 ## Description
 
 Han Shangyan quietly gives away all his savings to protect someone he cares about, leaving himself with nothing.  
@@ -20,8 +18,6 @@ nc 35.245.30.212 5000
 ```
 
 **Author:** SteakEnthusiast, White
-
----
 
 ## Source Analysis
 
@@ -65,9 +61,9 @@ else
 fi
 ```
 
----
+## Solution
 
-## Breaking the Random Ticket
+### Breaking the Random Ticket
 
 The ticket generation relies on external commands (`head`, `md5sum`, and `cut`), which are resolved through the `PATH` environment variable.
 
@@ -89,9 +85,8 @@ This causes:
 This allows us to reach the winning branch; however, `cat` also breaks because it depends on `PATH`.
 
 ![](image.png)
----
 
-## Bash Arithmetic Injection
+### Bash Arithmetic Injection
 
 While researching Bash arithmetic behavior, a similar vulnerability was found in **JSON Bourne (PlaidCTF 2020)**.
 
@@ -106,9 +101,7 @@ x='__[$(id)]'
 y=$((1+x))
 ```
 
----
-
-## Final Exploit
+### Final Exploit
 
 The final payload leverages array indexing to trigger command execution and redirects the flag output directly to the main process stdout.
 
@@ -123,9 +116,7 @@ Explanation:
 - output is redirected to `/proc/1/fd/1`, which corresponds to stdout of PID 1,
 - PID 1 holds the socket connected to `nc`, so the flag is sent directly to the client.
 
----
-
-## Flag
+### Flag
 
 ```
 uoftctf{you_won_the_LETtery_(hahahaha_get_it???)}
