@@ -4,6 +4,7 @@ draft = false
 title = 'Write-up: UofTCTF 2026 - challenge Lottery (Misc)'
 categories = ['Writeups', 'Jail', 'Misc', 'Security']
 image = 'cover.jpg'
+summary = 'My write-up for the Lottery (Misc) challenge from UofTCTF 2026, documenting how a simple Bash script can be exploited using arithmetic injection inside a jail environment.'
 +++
 
 ## Description
