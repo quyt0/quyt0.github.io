@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 12 Jan 2026 15:17:41 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Write-up: UofTCTF 2026 - challenge Lottery (Misc)</title>
-      <link>http://localhost:1313/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/</link>
+      <title>UofTCTF 2026: Challenges &amp; Writeups</title>
+      <link>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</link>
       <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
-      <guid>http://localhost:1313/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/</guid>
-      <description>My write-up for the Lottery (Misc) challenge from UofTCTF 2026, documenting how a simple Bash script can be exploited using arithmetic injection inside a jail environment.</description>
+      <guid>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</guid>
+      <description>My write-up for some challenges from UofTCTF 2026, covering Web, Forensics, and Misc.</description>
     </item>
     <item>
       <title>Writeup (Web) Cybersecurity Student Contest Vietnam 2025</title>

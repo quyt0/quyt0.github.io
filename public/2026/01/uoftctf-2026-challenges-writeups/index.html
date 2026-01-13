@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         
-        Write-up: UofTCTF 2026 - challenge Lottery (Misc) | Cuýt
+        UofTCTF 2026: Challenges &amp; Writeups | Cuýt
         
     </title>
     <link rel="stylesheet" href="/css/normalize.min.css">
@@ -22,7 +22,7 @@
     <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <script src="/js/fuse.basic.min.js"></script>
     
-    <link rel="stylesheet" href="/css/style.min.b95e4bf8bfa151403af9f6edee038ab6dc0b8fad3fc2d645f96ce26467a81979.css" integrity="sha256-uV5L&#43;L&#43;hUUA6&#43;fbt7gOKttwLj60/wtZF&#43;WziZGeoGXk="><meta name="description" content="My write-up for the Lottery (Misc) challenge from UofTCTF 2026, documenting how a simple Bash script can be exploited using arithmetic injection inside a jail …"></head>
+    <link rel="stylesheet" href="/css/style.min.b95e4bf8bfa151403af9f6edee038ab6dc0b8fad3fc2d645f96ce26467a81979.css" integrity="sha256-uV5L&#43;L&#43;hUUA6&#43;fbt7gOKttwLj60/wtZF&#43;WziZGeoGXk="><meta name="description" content="My write-up for some challenges from UofTCTF 2026, covering Web, Forensics, and Misc."></head>
 <body>
     <main id="main" role="main">
         <header id="main-header">
@@ -87,14 +87,14 @@
                     
                         
                         
-                        <img src="/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/cover_hu_630ae303e39066e0.webp" alt="Write-up: UofTCTF 2026 - challenge Lottery (Misc)">
+                        <img src="/2026/01/uoftctf-2026-challenges-writeups/cover_hu_630ae303e39066e0.webp" alt="UofTCTF 2026: Challenges &amp; Writeups">
                     
                 </div>
             
         
             <header class="main-content__article-header">
                 <h1 class="main-content__article-title">
-                    Write-up: UofTCTF 2026 - challenge Lottery (Misc)
+                    UofTCTF 2026: Challenges &amp; Writeups
                 </h1>
                 <div class="main-content__article-meta mt-3">
                     <span>
@@ -107,32 +107,12 @@
                                 </a>
                             
                                 , 
-                                <a class="main-content__article-meta-category-link" href="/categories/jail">
-                                    Jail
-                                </a>
-                            
-                                , 
-                                <a class="main-content__article-meta-category-link" href="/categories/misc">
-                                    Misc
-                                </a>
-                            
-                                , 
                                 <a class="main-content__article-meta-category-link" href="/categories/security">
                                     Security
                                 </a>
                             
                         
                     </span>
-                    
-                        
-                        <span>
-                            <i class="fa-regular fa-bookmark"></i>
-                            Series
-                            <a class="main-content__article-meta-category-link" href="/series/uoftctf-2026">
-                            UofTCTF 2026
-                            </a>
-                            · Part 1
-                        </span>
                     
                     <span class=""><i class="fa-regular fa-calendar"></i> 12/01/2026</span>
                     <span class=""><i class="fa-regular fa-clock"></i> 2 mins read</span>
@@ -149,13 +129,14 @@
             
             
             <div class="main-content__article-body-content">
-                <h2 id="description">Description</h2>
+                <h2 id="lottery-misc">Lottery (Misc)</h2>
+<h3 id="description">Description</h3>
 <p>Han Shangyan quietly gives away all his savings to protect someone he cares about, leaving himself with nothing.<br>
 Now broke, his only hope is chance itself.</p>
 <p>Can you help Han Shangyan win the lottery?</p>
 <pre tabindex="0"><code>nc 35.245.30.212 5000
 </code></pre><p><strong>Author:</strong> SteakEnthusiast, White</p>
-<h2 id="source-analysis">Source Analysis</h2>
+<h3 id="source-analysis">Source Analysis</h3>
 <p>Inside the provided <code>lottery.zip</code>, we are given a <code>Dockerfile</code>, which shows that the challenge is deployed using the <code>pwn.red/jail</code> framework.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -230,8 +211,8 @@ Now broke, his only hope is chance itself.</p>
 </span></span><span class="line"><span class="cl"><span class="k">fi</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="solution">Solution</h2>
-<h3 id="breaking-the-random-ticket">Breaking the Random Ticket</h3>
+</div><h3 id="solution">Solution</h3>
+<h4 id="breaking-the-random-ticket">Breaking the Random Ticket</h4>
 <p>The ticket generation relies on external commands (<code>head</code>, <code>md5sum</code>, and <code>cut</code>), which are resolved through the <code>PATH</code> environment variable.</p>
 <p>Because our input is injected into a Bash arithmetic expression using <code>let</code>, we can abuse the comma operator to perform variable assignments.</p>
 <p>Payload:</p>
@@ -248,10 +229,10 @@ Now broke, his only hope is chance itself.</p>
   
   
 <figure class="image-container">
-  <a href="/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/image.png" 
+  <a href="/2026/01/uoftctf-2026-challenges-writeups/image.png" 
      class="lightbox-trigger" 
      >
-      <img src="/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/image_hu_ae044c883d2e2b6b.webp" 
+      <img src="/2026/01/uoftctf-2026-challenges-writeups/image_hu_ae044c883d2e2b6b.webp" 
            
              width="954" height="430"
            
@@ -263,7 +244,7 @@ Now broke, his only hope is chance itself.</p>
   
   
 </figure></p>
-<h3 id="bash-arithmetic-injection">Bash Arithmetic Injection</h3>
+<h4 id="bash-arithmetic-injection">Bash Arithmetic Injection</h4>
 <p>While researching Bash arithmetic behavior, a similar vulnerability was found in <strong>JSON Bourne (PlaidCTF 2020)</strong>.</p>
 <p>Key insight:</p>
 <blockquote>
@@ -280,7 +261,7 @@ Now broke, his only hope is chance itself.</p>
 </span></span><span class="line"><span class="cl"><span class="nv">y</span><span class="o">=</span><span class="k">$((</span><span class="m">1</span><span class="o">+</span>x<span class="k">))</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="final-exploit">Final Exploit</h3>
+</div><h4 id="final-exploit">Final Exploit</h4>
 <p>The final payload leverages array indexing to trigger command execution and redirects the flag output directly to the main process stdout.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -297,9 +278,11 @@ Now broke, his only hope is chance itself.</p>
 <li>output is redirected to <code>/proc/1/fd/1</code>, which corresponds to stdout of PID 1,</li>
 <li>PID 1 holds the socket connected to <code>nc</code>, so the flag is sent directly to the client.</li>
 </ul>
-<h3 id="flag">Flag</h3>
+<h4 id="flag">Flag</h4>
 <pre tabindex="0"><code>uoftctf{you_won_the_LETtery_(hahahaha_get_it???)}
-</code></pre>
+</code></pre><h2 id="firewall-web">Firewall (Web)</h2>
+<h2 id="no-quotes-web">No Quotes (Web)</h2>
+
             </div>
         
             <div class="article-footer mt-5 pt-4" style="font-size: smaller;">
@@ -353,22 +336,6 @@ Now broke, his only hope is chance itself.</p>
                         </li>
                     
                         <li class="main-content__article-panel-item">
-                            <a class="main-content__article-panel-item-link" href="/categories/jail">
-                                
-                                <span class="main-content__article-panel-item-text">Jail</span>
-                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
-                            </a>
-                        </li>
-                    
-                        <li class="main-content__article-panel-item">
-                            <a class="main-content__article-panel-item-link" href="/categories/misc">
-                                
-                                <span class="main-content__article-panel-item-text">Misc</span>
-                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
-                            </a>
-                        </li>
-                    
-                        <li class="main-content__article-panel-item">
                             <a class="main-content__article-panel-item-link" href="/categories/security">
                                 
                                 <span class="main-content__article-panel-item-text">Security</span>
@@ -410,16 +377,15 @@ Now broke, his only hope is chance itself.</p>
                     </h3>
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#description">Description</a></li>
-    <li><a href="#source-analysis">Source Analysis</a></li>
-    <li><a href="#solution">Solution</a>
+    <li><a href="#lottery-misc">Lottery (Misc)</a>
       <ul>
-        <li><a href="#breaking-the-random-ticket">Breaking the Random Ticket</a></li>
-        <li><a href="#bash-arithmetic-injection">Bash Arithmetic Injection</a></li>
-        <li><a href="#final-exploit">Final Exploit</a></li>
-        <li><a href="#flag">Flag</a></li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#source-analysis">Source Analysis</a></li>
+        <li><a href="#solution">Solution</a></li>
       </ul>
     </li>
+    <li><a href="#firewall-web">Firewall (Web)</a></li>
+    <li><a href="#no-quotes-web">No Quotes (Web)</a></li>
   </ul>
 </nav>
                 </div>

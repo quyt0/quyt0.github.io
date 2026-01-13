@@ -1,15 +1,15 @@
 +++
 date = '2026-01-12T15:17:41+07:00'
 draft = false
-title = 'Write-up: UofTCTF 2026 - challenge Lottery (Misc)'
-categories = ['Writeups', 'Jail', 'Misc', 'Security']
+title = 'UofTCTF 2026: Challenges & Writeups'
+categories = ['Writeups', 'Security']
 image = 'cover.jpg'
-summary = 'My write-up for the Lottery (Misc) challenge from UofTCTF 2026, documenting how a simple Bash script can be exploited using arithmetic injection inside a jail environment.'
-series = ["UofTCTF 2026"]
-series_order = 1
+summary = 'My write-up for some challenges from UofTCTF 2026, covering Web, Forensics, and Misc.'
 +++
 
-## Description
+## Lottery (Misc)
+
+### Description
 
 Han Shangyan quietly gives away all his savings to protect someone he cares about, leaving himself with nothing.  
 Now broke, his only hope is chance itself.
@@ -22,7 +22,7 @@ nc 35.245.30.212 5000
 
 **Author:** SteakEnthusiast, White
 
-## Source Analysis
+### Source Analysis
 
 Inside the provided `lottery.zip`, we are given a `Dockerfile`, which shows that the challenge is deployed using the `pwn.red/jail` framework.
 
@@ -64,9 +64,9 @@ else
 fi
 ```
 
-## Solution
+### Solution
 
-### Breaking the Random Ticket
+#### Breaking the Random Ticket
 
 The ticket generation relies on external commands (`head`, `md5sum`, and `cut`), which are resolved through the `PATH` environment variable.
 
@@ -89,7 +89,7 @@ This allows us to reach the winning branch; however, `cat` also breaks because i
 
 ![](image.png)
 
-### Bash Arithmetic Injection
+#### Bash Arithmetic Injection
 
 While researching Bash arithmetic behavior, a similar vulnerability was found in **JSON Bourne (PlaidCTF 2020)**.
 
@@ -104,7 +104,7 @@ x='__[$(id)]'
 y=$((1+x))
 ```
 
-### Final Exploit
+#### Final Exploit
 
 The final payload leverages array indexing to trigger command execution and redirects the flag output directly to the main process stdout.
 
@@ -119,8 +119,12 @@ Explanation:
 - output is redirected to `/proc/1/fd/1`, which corresponds to stdout of PID 1,
 - PID 1 holds the socket connected to `nc`, so the flag is sent directly to the client.
 
-### Flag
+#### Flag
 
 ```
 uoftctf{you_won_the_LETtery_(hahahaha_get_it???)}
 ```
+
+## Firewall (Web)
+
+## No Quotes (Web)
