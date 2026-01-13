@@ -1,6 +1,10 @@
 {{ define "main" }}
   <div class="main-content__heading">
-    <h1 class="main-content__heading-text">Category: {{ .Title }}</h1>
+    {{ $label := .Data.Singular | title }}
+    {{ if eq .Data.Singular "series" }}{{ $label = "Serie" }}{{ end }}
+    {{ if eq .Data.Singular "category" }}{{ $label = "Category" }}{{ end }}
+    {{ if eq .Data.Singular "tag" }}{{ $label = "Tag" }}{{ end }}
+    <h1 class="main-content__heading-text">{{ $label }}: {{ .Title }}</h1>
   </div>
 
   <div class="main-content__taxonomy-meta">

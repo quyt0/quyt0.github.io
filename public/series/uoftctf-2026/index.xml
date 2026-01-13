@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jail on Cuýt</title>
-    <link>http://localhost:1313/categories/jail/</link>
-    <description>Recent content in Jail on Cuýt</description>
+    <title>UofTCTF 2026 on Cuýt</title>
+    <link>http://localhost:1313/series/uoftctf-2026/</link>
+    <description>Recent content in UofTCTF 2026 on Cuýt</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jan 2026 15:17:41 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/jail/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/series/uoftctf-2026/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Write-up: UofTCTF 2026 - challenge Lottery (Misc)</title>
       <link>http://localhost:1313/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/</link>

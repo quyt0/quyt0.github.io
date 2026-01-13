@@ -20,6 +20,12 @@
     <loc>http://localhost:1313/categories/security/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2026-01-12T15:17:41+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/uoftctf-2026/</loc>
+    <lastmod>2026-01-12T15:17:41+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/2026/01/write-up-uoftctf-2026-challenge-lottery-misc/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
@@ -53,7 +59,5 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

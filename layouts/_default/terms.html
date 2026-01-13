@@ -1,16 +1,25 @@
 {{ define "main" }}
   <div class="main-content__heading">
-    <h1 class="main-content__heading-text">Categories</h1>
+    <h1 class="main-content__heading-text">{{ .Data.Plural | title }}</h1>
   </div>
+
   <div class="main-content__categories-list">
     {{ range .Data.Terms.ByCount }}
       <a href="{{ .Page.Permalink }}" class="main-content__category-item">
-          <i class="fa-regular fa-folder"></i>
+          {{ if eq $.Data.Plural "categories" }}
+            <i class="fa-regular fa-folder"></i>
+          {{ else if eq $.Data.Plural "series" }}
+            <i class="fa-regular fa-bookmark"></i>
+          {{ else if eq $.Data.Plural "tags" }}
+            <i class="fa-solid fa-tag"></i>
+          {{ else }}
+            <i class="fa-regular fa-folder"></i>
+          {{ end }}
+
           <span class="main-content__category-name">{{ .Page.Title }}</span>
           <span class="main-content__category-count">{{ .Count }} posts</span>
           <i class="main-content__category-right-arrow fa-solid fa-angle-right"></i>
       </a>
     {{ end }}
   </div>
-
 {{ end }}

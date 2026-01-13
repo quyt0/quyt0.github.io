@@ -371,7 +371,6 @@ input::placeholder {
     text-decoration: none;
     color: var(--ctp-mauve);
     font-weight: 600;
-    gap: 5px;
 }
 
 .main-content__article-pagination {
@@ -517,7 +516,7 @@ input::placeholder {
 
 .main-content__article-meta {
     color: var(--ctp-subtext1);
-    font-size: 16px;
+    font-size: .9rem;
     display: flex;
     flex-direction: column;
     gap: 10px;

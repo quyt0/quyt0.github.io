@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Cuýt</title>
+    <link>http://localhost:1313/series/</link>
+    <description>Recent content in Series on Cuýt</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Jan 2026 15:17:41 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UofTCTF 2026</title>
+      <link>http://localhost:1313/series/uoftctf-2026/</link>
+      <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
+      <guid>http://localhost:1313/series/uoftctf-2026/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

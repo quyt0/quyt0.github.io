@@ -30,6 +30,17 @@
                             Other
                         {{ end }}
                     </span>
+                    {{ with .Params.series }}
+                        {{ $s := index . 0 }}
+                        <span>
+                            <i class="fa-regular fa-bookmark"></i>
+                            Series
+                            <a class="main-content__article-meta-category-link" href="{{ "series/" | relLangURL }}{{ $s | urlize }}">
+                            {{ $s }}
+                            </a>
+                            {{ with $.Params.series_order }}· Part {{ . }}{{ end }}
+                        </span>
+                    {{ end }}
                     <span class=""><i class="fa-regular fa-calendar"></i> {{ .Date.Format "02/01/2006" }}</span>
                     <span class=""><i class="fa-regular fa-clock"></i> {{ .ReadingTime }} mins read</span>
                 </div>

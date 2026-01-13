@@ -7,6 +7,9 @@ enableEmoji = true
   description = "Personal blog about Cyber Security, CTFs, and Web Pentesting."
 [permalinks]
   posts = '/:year/:month/:title/'
+[taxonomies]
+  category = "categories"
+  series   = "series"
 [markup]
   [markup.highlight]
     noClasses = false
