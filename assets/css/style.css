@@ -1199,7 +1199,7 @@ input::placeholder {
 .tag-pill {
   display: inline-flex;
   align-items: center;
-  padding: 2px 5px;
+  padding: 3px 6px;
   border-radius: 10px;
   border: 1px solid var(--ctp-surface1);
   background: var(--ctp-mantle);

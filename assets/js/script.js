@@ -101,22 +101,21 @@ function initTableOfContents() {
                 if (activeLink) {
                     tocLinks.forEach(link => {
                         link.classList.remove('active');
-                        if (link.parentElement) {
-                            link.parentElement.classList.remove('active'); 
-                            link.parentElement.classList.remove('open');
-                        }
+                        link.parentElement?.classList.remove('active');
+                        link.parentElement?.classList.remove('open');
                     });
 
                     activeLink.classList.add('active');
-                    if (activeLink.parentElement) {
-                        activeLink.parentElement.classList.add('active');
+                    activeLink.parentElement?.classList.add('active');
+
+                    // NEW: mở hết ancestor LI để h4 không bị ẩn
+                    let li = activeLink.closest('li');
+                    while (li && li !== toc) {
+                        li.classList.add('open');
+                        li = li.parentElement?.closest('li');
+                    }
                     }
 
-                    const parentUl = activeLink.closest('ul');
-                    if (parentUl && parentUl.parentElement.tagName === 'LI') {
-                        parentUl.parentElement.classList.add('open');
-                    }
-                }
             }
         });
     }, observerOptions);
