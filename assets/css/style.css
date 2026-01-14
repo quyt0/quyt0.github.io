@@ -599,6 +599,10 @@ input::placeholder {
   border-right: 1px solid var(--ctp-surface0); /* Thêm vạch ngăn cách cho đẹp */
 }
 
+.main-content__article-body-content pre code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
 .main-content__article-body-content .lntd:first-child span,
 .main-content__article-body-content .lntd:first-child pre {
   color: var(--ctp-overlay1);
