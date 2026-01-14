@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cuýt</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Cuýt</description>
+    <title>Web on Cuýt</title>
+    <link>http://localhost:1313/tags/web/</link>
+    <description>Recent content in Web on Cuýt</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 17:53:55 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tìm hiểu về Web Server: Vai trò, cách thức, phân loại</title>
       <link>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</link>
@@ -21,13 +21,6 @@
       <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
       <guid>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</guid>
       <description>My write-up for some challenges from UofTCTF 2026, covering Web, Forensics, and Misc.</description>
-    </item>
-    <item>
-      <title>About me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hey, thanks for stopping by.‼️&lt;/p&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;Doan Duy Phuc&lt;/strong&gt;. You can call me &lt;strong&gt;&amp;ldquo;Cuýt&amp;rdquo;&lt;/strong&gt;.&#xA;I&amp;rsquo;m studying &lt;strong&gt;Information Security&lt;/strong&gt; at &lt;strong&gt;PTIT (Posts and Telecommunications Institute of Technology)&lt;/strong&gt; in Hanoi, Vietnam.&lt;br&gt;&#xA;I also spend a questionable amount of time breaking things that were definitely not designed to be broken that way. 🫠&lt;/p&gt;&#xA;&lt;p&gt;I enjoy playing &lt;strong&gt;CTFs&lt;/strong&gt;, and among all categories, I&amp;rsquo;m most interested in &lt;strong&gt;Web and Forensics&lt;/strong&gt;. I’m still learning, still making mistakes, and still spending more time than I&amp;rsquo;d like figuring out why something didn&amp;rsquo;t work the way I expected.&lt;br&gt;&#xA;CTFs are mostly a way for me to practice and explore things hands-on, and over time, I’m working toward becoming an &lt;strong&gt;aspiring Web Pentester&lt;/strong&gt; — one bug, one failed exploit, and one late night at a time.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

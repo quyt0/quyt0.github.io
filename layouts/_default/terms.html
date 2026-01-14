@@ -3,9 +3,27 @@
     <h1 class="main-content__heading-text">{{ .Data.Plural | title }}</h1>
   </div>
 
-  <div class="main-content__categories-list">
-    {{ range .Data.Terms.ByCount }}
-      <a href="{{ .Page.Permalink }}" class="main-content__category-item">
+  {{/* =========================
+      TAGS: render pills
+  ========================= */}}
+  {{ if eq .Data.Plural "tags" }}
+    <div class="main-content__terms-pills">
+      {{ range .Data.Terms.ByCount }}
+        <a class="term-pill" href="{{ .Page.Permalink }}">
+          <i class="fa-solid fa-tag"></i>
+          <span class="term-pill__name">{{ .Page.Title }}</span>
+          <span class="term-pill__count">{{ .Count }}</span>
+        </a>
+      {{ end }}
+    </div>
+
+  {{/* =========================
+      CATEGORIES / SERIES / OTHER: render list
+  ========================= */}}
+  {{ else }}
+    <div class="main-content__categories-list">
+      {{ range .Data.Terms.ByCount }}
+        <a href="{{ .Page.Permalink }}" class="main-content__category-item">
           {{ if eq $.Data.Plural "categories" }}
             <i class="fa-regular fa-folder"></i>
           {{ else if eq $.Data.Plural "series" }}
@@ -19,7 +37,34 @@
           <span class="main-content__category-name">{{ .Page.Title }}</span>
           <span class="main-content__category-count">{{ .Count }} posts</span>
           <i class="main-content__category-right-arrow fa-solid fa-angle-right"></i>
-      </a>
+        </a>
+      {{ end }}
+    </div>
+
+    {{/* =========================
+        EXTRA: show Series section under Categories page
+    ========================= */}}
+    {{ if eq .Data.Plural "categories" }}
+      {{ if site.Taxonomies.series }}
+        <div class="main-content__heading" style="margin-top: 18px;">
+          <h2 class="main-content__heading-text">Series</h2>
+        </div>
+
+        <div class="main-content__categories-list">
+          {{ range $name, $taxonomy := site.Taxonomies.series }}
+            <a href="{{ "/series/" | relLangURL }}{{ $name | urlize }}" class="main-content__category-item">
+              <i class="fa-regular fa-bookmark"></i>
+
+              {{ $termPage := site.GetPage (printf "/series/%s" $name) }}
+              <span class="main-content__category-name">{{ $termPage.Title | default ($name | title) }}</span>
+
+              <span class="main-content__category-count">{{ $taxonomy.Count }} posts</span>
+              <i class="main-content__category-right-arrow fa-solid fa-angle-right"></i>
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
     {{ end }}
-  </div>
+
+  {{ end }}
 {{ end }}

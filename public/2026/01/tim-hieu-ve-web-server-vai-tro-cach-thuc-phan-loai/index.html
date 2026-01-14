@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+        Tìm hiểu về Web Server: Vai trò, cách thức, phân loại | Cuýt
+        
+    </title>
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid-5.3.8.css">
+    <link rel="stylesheet" href="/css/fontawesome-7.1.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="/css/syntax.min.c75db92330d165065b4cef68bb3da371b54ad6f746e9e9047ea56f286749850b.css" integrity="sha256-x125IzDRZQZbTO9ouz2jcbVK1vdG6ekEfqVvKGdJhQs=">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="blog của Cuýt" />
+    <link rel="manifest" href="/images/site.webmanifest" />
+    <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="/js/fuse.basic.min.js"></script>
+    
+    <link rel="stylesheet" href="/css/style.min.1ddb5fb3bf5ffa9ecc4c3afe97f428bad11f92e8c795ad00e24e63d10600a301.css" integrity="sha256-Hdtfs79f&#43;p7MTDr&#43;l/QoutEfkujHla0A4k5j0QYAowE="><meta name="description" content="Web Server là gì Server (máy chủ) có thể được hiểu theo cả hai nghĩa là phần cứng (hardware) và phần mềm (software). Nếu hiểu theo nghĩa nào thì server là thuật …"></head>
+<body>
+    <main id="main" role="main">
+        <header id="main-header">
+  <div class="container container-narrow">
+    <div class="row align-items-center">
+      <div class="col-3 col-md-2 col-lg-3">
+        <div class="main-header__homepage">
+          <a href="/" class="main-header__hompage-link">Cuýt</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6 main-header__navbar-wrapper">
+        <nav class="main-header__navbar" aria-label="Main navigation">
+          <ul class="main-header__navbar-list">
+            <li><a href="/">Blog</a></li>
+            <li><a href="/categories">Categories</a></li>
+            <li><a href="/tags">Tags</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-9 col-md-4 col-lg-3">
+        <div class="main-header__btn">
+          <div class="main-header_search-wrapper">
+            <i class="fa-solid fa-magnifying-glass main-header__search-icon" aria-hidden="true"></i>
+            <input type="text" class="main-header__search-box" placeholder="Search..." aria-label="Search">
+            <ul id="main_header__search-results"></ul>
+          </div>
+
+          <button class="main-header__btn-toggle-theme" type="button" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+
+          <button class="main-header__btn-mobile-bar" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-header-mobile-menu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-header-mobile-menu" class="main-header__mobile-menu" hidden>
+    <nav aria-label="Mobile navigation">
+        <ul class="main-header__mobile-menu-list">
+        <li><a href="/">Blog</a></li>
+        <li><a href="/categories">Categories</a></li>
+        <li><a href="/archives">Archives</a></li>
+        <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    </div>
+  </div>
+</header>
+
+        <div id="main-content" class="container container-narrow">
+            
+    <div class="row">
+        <article class="main-content__article-detail col-md-9">
+            
+                
+                <div class="main-content__article-cover">
+                    
+                        
+                        
+                        <img src="/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/cover_hu_8536f8fe38e81ab1.webp" alt="Tìm hiểu về Web Server: Vai trò, cách thức, phân loại">
+                    
+                </div>
+            
+        
+            <header class="main-content__article-header">
+                <h1 class="main-content__article-title">
+                    Tìm hiểu về Web Server: Vai trò, cách thức, phân loại
+                </h1>
+                <div class="main-content__article-meta mt-3">
+                    <span>
+                        <i class="fa-solid fa-folder"></i>
+                        
+                            
+                                
+                                <a class="main-content__article-meta-category-link" href="/categories/web-development">
+                                    Web Development
+                                </a>
+                            
+                        
+                    </span>
+                    
+                    <span class=""><i class="fa-solid fa-calendar"></i> 13/01/2026</span>
+                    <span class=""><i class="fa-solid fa-clock"></i> 11 mins read</span>
+                </div>
+                
+                
+                <div class="main-content__article-tags mt-2">
+                    <i class="fa-solid fa-tag"></i>
+
+                    <div class="tag-pills">
+                    
+                        <a class="tag-pill" href="/tags/web">web</a>
+                    
+                        <a class="tag-pill" href="/tags/server">server</a>
+                    
+
+                    
+                    </div>
+                </div>
+                
+
+
+            </header>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="main-content__article-body-content">
+                <h2 id="web-server-là-gì">Web Server là gì</h2>
+<p>Server (máy chủ) có thể được hiểu theo cả hai nghĩa là phần cứng (hardware) và phần mềm (software). Nếu hiểu theo nghĩa nào thì server là thuật ngữ để chỉ một software hoặc một hardware mà xử lí các yêu cầu (request) từ các phần mềm hoặc các thiết bị khác (client).</p>
+<p>Hoặc cũng có thể hiểu server là một software hoặc hardware cung cấp các dịch vụ mà client cần. Server nói chung thường được thiết kế để chạy liên tục, có nguồn điện dự phòng, được cấp IP tĩnh. Mặc dù ta có thể sử dụng các máy tính cá nhân để làm server nhưng không nên. Thay vào đó ta sử dụng server để đảm bảo hơn cho dữ liệu.</p>
+<p><strong>Web Server</strong> cũng tương tự như Server, cũng được hiểu theo nghĩa là hardware và software.</p>
+<ul>
+<li>Đối với hardware: Web Server lúc này là một máy tính, máy tính này chạy các web server software và lưu trữ các file nội dung của một website (chẳng hạn như các file HTML, CSS, JavaScript hoặc các file ảnh, &hellip;).</li>
+<li>Đối với software: Web Server lúc này là một phần mềm, phần mềm này được thiết kế để xử lí các task như: tiếp nhận request, response lại cho client, hoặc phân quyền đối với các file, chặn IP, v.v&hellip; Ngoài ra, Web Server lúc này tối thiểu cần phải có chức năng của HTTP để có thể đọc hiểu được URLs từ client và hiểu protocol HTTP để trả về đúng cho trình duyệt web (browsers) hiểu và hiện thị ra cho người dùng.</li>
+</ul>
+<p>Nhìn chung, Web Server là một server cho các website, được hiểu theo hai nghĩa là hardware và software, được dùng để xử lí các request từ phía client hoặc cung cấp các dịch vụ mà client cần ở một website. Về phía hardware, Web Server sẽ đảm nhận lưu trữ các file cần thiết cũng như chạy server software, còn về phía software, Web Server sẽ xử lí các task thường thấy trong website.</p>
+<h2 id="vai-trò-cách-thức-hoạt-động-của-web-server">Vai trò, cách thức hoạt động của Web Server</h2>
+<h3 id="vai-trò">Vai trò</h3>
+<p>Khi hai máy tính muốn giao tiếp được với nhau, ta có thể kết nối với nhau chung một mạng, đây là kiểu kết nối P2P. Khi nhiều máy tính muốn giao tiếp với nhau, ta cũng có thể kết nối chúng vào chung một mạng thông qua switch.</p>
+<p>Vấn đề là khi số lượng máy tính tăng càng nhiều thì không thể sử dụng phương pháp này nữa, bởi số switch sẽ cần phải tăng dần lên theo số lượng máy tính. Thêm nữa, các tài nguyên chia sẻ thông qua phương pháp này rất rời rạc, không có máy tính nào trong mạng đảm nhận một công việc cụ thể.</p>
+<p>Vì thế nên Server được ra đời, nó sẽ là một máy tính chỉ để lưu trữ, xử lí, phân quyền, &hellip; Web Server cũng tương tự, nó là một server có vai trò lưu trữ (hosting), xử lí (processing requests), phân quyền (authorization), v.v&hellip;</p>
+<h4 id="lưu-trữ-tệp-hosting-files">Lưu trữ tệp (Hosting files)</h4>
+<p>Một website cần nhiều tệp (file) để có thể hiển thị nội dung cho user. Một vài file có thể kể đến</p>
+<ul>
+<li>HTML, CSS, JavaScript</li>
+<li>Các file font chữ cho thiết kế (.ttf, .otf, &hellip;)</li>
+<li>Các file ảnh, video của website/user</li>
+<li>Các file cấu hình (apache.conf, nginx.conf, web.config, &hellip;) đảm bảo cho website hoạt động đúng cách</li>
+</ul>
+<h4 id="giao-tiếp-thông-qua-http-communicating-through-http">Giao tiếp thông qua HTTP (Communicating through HTTP)</h4>
+<p>Khi client gửi yêu cầu đến Server, khi này Server cần có nhiệm vụ nhận và gửi trả lại cho client.</p>
+<p>Trên Web Server, HTTP đảm nhận việc xử lí và phản hồi lại thông tin cho client. Bất kì một request nào cũng phải được Web Server trả lời lại ít nhất với mã trạng thái (status code), và kèm theo Content nếu như server trả về kèm theo.</p>
+<h4 id="đo-lường-hiệu-suất">Đo lường hiệu suất</h4>
+<p>Web Server còn có thể đo lường được hiệu suất, một vài thông số kể đến như</p>
+<ul>
+<li>RPS (Requests per second): Số request mỗi giây</li>
+<li>Latency (Độ trễ): Thời gian Web Server xử lí request (miligiây). Độ trễ càng thấp càng tốt.</li>
+<li>Throughtput (Thông lượng): Lượng dữ liệu truyền trong một khoảng thời gian (bytes/giây). Throughtput càng cao thì càng tốt</li>
+<li>Concurrency (Tính đồng thời)</li>
+</ul>
+<p>Các Web Server thường dựa vào phân tích log, ngoài ra một vài Web Server còn có các module riêng để đo hiệu suất. Bên cạnh đó Web Server còn có thể tối ưu thông qua cache hoặc logging để dễ theo dõi về sau này.</p>
+<h3 id="cách-thức-hoạt-động">Cách thức hoạt động</h3>
+<p>Khi browser (client) tải một trang web, trước hết nó sẽ lấy IP của tên miền thông qua cache hoặc thông qua DNS Server. Tiếp sau đó, client sẽ gửi requests cho Web Server, thường sẽ bao gồm</p>
+<ul>
+<li>Đường dẫn (path) như <code>/login, /producsts, /files/image.png, ...</code></li>
+<li>Query string như <code>?tab=article, ?id=3</code></li>
+<li>HTTP Method</li>
+<li>Host header, các header khác</li>
+<li>&hellip;</li>
+</ul>
+<p>Web Server khi nhận được yêu cầu sẽ: xử lí yêu cầu ấy, phân quyền, tổng hợp các thông tin mà phía client yêu cầu. Sau đó response lại, nếu trong trường hợp những thông tin mà client yêu cầu không có thì Web Server sẽ trả về lỗi 404. Ngoài ra còn một vài mã lỗi khác từ 400 - 499 (Client error responses) có thể kể đến như</p>
+<ul>
+<li>400: Bad Request</li>
+<li>401: Unauthorized</li>
+<li>403: Forbidden</li>
+<li>&hellip;</li>
+</ul>
+<h2 id="các-loại-web-server-thường-gặp">Các loại Web Server thường gặp</h2>
+<p>Có thể kể đến một vài Web Server thường gặp như</p>
+<ul>
+<li>Apache: Phổ biến nhất, hỗ trợ nhiều platform (Linux/Windows/MacOS). Nhưng nhược điểm là sử dụng multi-processing (tức là mỗi request phải tạo thêm 1 process để xử lí) nên tốn RAM</li>
+<li>Nginx: Dựa trên event-driven nên sẽ tối ưu hơn về hiệu năng. Nginx vẫn hỗ trợ đa nền tảng như Apache nhưng do cấu hình khó hơn nên chưa phổ biến bằng Apache. Thường dùng để làm reverse proxy</li>
+<li>Microsoft Internet Information Services (Microsoft IIS): Do Microsoft phát triển, hiện tại chỉ hỗ trợ Windows. Ưu điểm là thích hợp cho các website dựa trên .NET (như <a href="http://asp.net/">ASP.NET</a>) do được tối ưu hơn.</li>
+<li>LiteSpeed: Cũng dựa trên event-driven giống với Nginx, nhưng hiệu năng chưa tối ưu bằng Nginx nên không thực sự phổ biến.</li>
+</ul>
+<p>Apache và LiteSpeed có hỗ trợ <code>.htaccess</code>. Tuy nhiên, <code>.htaccess</code> sẽ chậm hơn đáng kể so với Nginx. Còn ở phía Nginx tuy cấu hình phức tạp hơn so với Apache và LiteSpeed nhưng bù lại hiệu suất rất tốt.</p>
+<p>Còn Microsoft IIS sử dụng kiến trúc cấu hình XML trên file <code>web.config</code>, dùng chủ yếu cho Windows và các website dựa trên .NET</p>
+<h2 id="web-application-là-gì">Web Application là gì?</h2>
+<p>Ban đầu, khi Internet vẫn còn sơ khai, các trang web hầu hết là chứa nội dung tĩnh, một trang web đơn lẻ được gọi là Web Page, tập hợp nhiều Web Page sẽ gọi là Website.</p>
+<p>Về sau này, website ngày càng phổ biến hơn nhiều. Các thông tin trên website cũng vì thế mà đa dạng hơn, dần dần các thông tin ấy cần phải trở nên &ldquo;động&rdquo; thay vì &ldquo;tĩnh&rdquo; như trước đây. Chẳng hạn như trước đây, số ca nhiễm dịch SARS năm 2003 cần phải được cập nhật thông qua nhiều bài viết, mỗi bài viết chứa dữ liệu tĩnh là số ca nhiễm. Giờ đây, thông tin được trở nên &ldquo;động&rdquo;, chẳng hạn như số ca nhiễm dịch Covid-19 có thể được cập nhật theo giờ, thậm chí theo thời gian thực ở một trang web nào đó.</p>
+<p>Bản thân web không thể tự làm được điều đó, cần phải có một ứng dụng hỗ trợ. Đó là <strong>Web Application</strong>, là một phần mềm chạy trực tiếp trên server. Web Application được dùng để thực hiện một công việc, một chức năng của ứng dụng. Người dùng có thể truy cập trực tiếp thông qua Internet, khác với các ứng dụng truyền thống, Web Application không cần tài xuống hay cài đặt trên máy. Vì thế mà khiến cho trang web có tính tương tác cao, nhiều chức năng hơn</p>
+<h2 id="vai-trò-cách-thức-hoạt-động-của-web-application">Vai trò, cách thức hoạt động của Web Application</h2>
+<h3 id="vai-trò-1">Vai trò</h3>
+<p>Như đã trình bày ở trên, Web Application được dùng để thực hiện một chức năng, một công việc nào đó. Cụ thể hơn có thể kể đến một vài vai trò</p>
+<ul>
+<li>Lưu trữ, xử lí logic nghiệp vụ: Logic nghiệp vụ là các quy tắc, quy trình và phép tính về cách dữ liệu được xử lý và các quyết định được đưa ra. Chẳng hạn như khi làm việc với hệ thống thuế, sẽ có rất nhiều quy tắc được đưa ra để xem user X có được miễn thuế hay không. Khi ta viết code để áp dụng những quy tắc này thì đó chính là <em>logic nghiệp vụ</em></li>
+<li>Kết nối, quản lý dữ liệu trên database</li>
+<li>Cung cấp API cho website và ứng dụng khác</li>
+</ul>
+<h3 id="cách-thức-hoạt-động-1">Cách thức hoạt động</h3>
+<p>Nhìn chung, một request được gửi từ phía client tới server, request đó được Web Server nhận, sau đó Web Server sẽ forward sang cho Web Application để xử lí. Web Application sau khi xử lí xong sẽ trả về cho Web Server, Web Server lại trả về cho client.</p>
+<p>Cụ thể hơn</p>
+<ol>
+<li>Web Application sau khi nhận được request từ Web Server thì sẽ cần phải parse request đó ra và lấy data để xử lí. Do HTTP request chỉ là text thuần nên buộc Web Application phải parse thì mới có data để xử lí. Data sau khi parse có thể là các object với attribute hoặc method</li>
+<li>Web Application lựa chọn hàm để xử lí bằng cách tra cứu trong bảng Route</li>
+<li>Data được xử lí thông qua logic nghiệp vụ, trả về kết quả. Logic nghiệp vụ ở đây bao gồm cả việc xác thực dữ liệu (verify), xử lí (processing) hay tương tác với database</li>
+<li>Web Application đóng gói kết quả (dưới dạng JSON, XML, &hellip;) kèm theo metadata (Status, Header) và trả lại cho Web Server. Web Server trả lại kết quả cho client</li>
+</ol>
+<h2 id="các-loại-web-application-thường-gặp">Các loại Web Application thường gặp</h2>
+<h3 id="phân-loại-theo-chức-năng">Phân loại theo chức năng</h3>
+<p>Các Web Application thường có nhiều loại, mỗi loại có nhiều chức năng khác nhau. Có thể kể đến một vài loại như</p>
+<ul>
+<li>E-commerce: Web Application được tinh chỉnh, tối ưu để tập trung vào thương mại điện tử</li>
+<li>Portal: Cổng thông tin: Tổng hợp và cung cấp thông tin đa dạng từ nhiều nguồn cho người dùng, thường có đăng nhập, cá nhân hóa nội dung</li>
+<li>CMS (Content Management System): Cho phép tạo, quản lý và xuất bản nội dung dễ dàng, thường không cần lập trình nhiều, ví dụ WordPress, Joomla, Drupal</li>
+</ul>
+<h3 id="phân-loại-theo-kiến-trúc">Phân loại theo kiến trúc</h3>
+<ul>
+<li><strong>Short-Lived Process (Quy trình ngắn hạn):</strong>
+<ul>
+<li>Cơ chế: Có request đến -&gt; Khởi tạo chương trình -&gt; Chạy code -&gt; Trả về -&gt; Hủy luôn chương trình.</li>
+<li>Thường dùng
+<ul>
+<li>CGI (Common Gateway Interface)</li>
+<li>PHP (mô hình PHP-FPM cũ)</li>
+<li>Serverless (AWS Lambda, Google Cloud Functions)</li>
+</ul>
+</li>
+<li>Ưu điểm: Các request được tách biệt nhau, khi một request bị lỗi crash memory thì chỉ chết process đó, không ảnh hưởng tới cái khác.</li>
+</ul>
+</li>
+<li><strong>Long-Running Process (Quy trình dài hạn):</strong>
+<ul>
+<li>Cơ chế: Khởi động chương trình 1 lần -&gt; Nó cứ chạy mãi (lắng nghe ở 1 cổng) -&gt; Có request đến thì nó xử lý -&gt; Xử lý xong nó vẫn sống để chờ request tiếp theo.</li>
+<li>Thường dùng <strong>Java (Spring Boot), Node.js, Python (Django/FastAPI), Go</strong>.</li>
+<li>Ưu điểm: Tốc độ nhanh vì không mất công khởi động lại database connection hay nạp lại thư viện mỗi lần xử lí.</li>
+<li>Nhược điểm: Khó quản lý bộ nhớ, khi process sập thì sẽ dẫn tới sập cả Web Application</li>
+</ul>
+</li>
+</ul>
+<h2 id="mối-quan-hệ-web-server---web-application-cách-thức-giao-tiếp-giữa-các-bên">Mối quan hệ Web Server - Web Application, cách thức giao tiếp giữa các bên</h2>
+<h3 id="mối-quan-hệ-web-server---web-application">Mối quan hệ Web Server - Web Application</h3>
+<p>Web Server và Web Application đều cần thiết để một website có thể vận hành được. Web Server và Web Application có hai mục đích khác nhau</p>
+<ul>
+<li>Web Server: Tiếp nhận request từ client, xử lí các nội dung &ldquo;tĩnh&rdquo; (static). Bản thân Web Server không thể xử lí, tính toán các nội dung &ldquo;động&rdquo; nên phải forward các request ấy cho bên Web Application. Ngoài ra, khi Web Application trả về kết quả thì Web Server lúc này có nhiệm vụ trả về kết quả ấy cho client.</li>
+<li>Ngoài ra Web Server còn giải mã HTTPS, chặn các gói tin spam, điều phối cân bằng tải để cho Web Application làm nhiệm vụ của nó là tính toán và xử lí dữ liệu.</li>
+<li>Web Application: Tính toán, xử lí dựa trên logic nghiệp vụ để trả về kết quả.</li>
+</ul>
+<h3 id="cách-thức-giao-tiếp-giữa-các-bên">Cách thức giao tiếp giữa các bên</h3>
+<p>Các Web Server như Apache, Nginx, &hellip; thường được viết bằng C/C++ và chỉ tập trung vào giao tiếp bằng giao thức HTTP (text thô). Nếu Web Application viết bằng Python sẽ chỉ hiểu các object của Python (dictionary, list, &hellip;). Khi này để Web Server và Web Application nói chuyện với nhau sẽ cần phải viết code riêng, nếu đổi Web Server qua Apache lại phải code tiếp</p>
+<p>Vì thế mà CGI đã ra đời, CGI viết tắt của Common Gateway Interface. Hiệu năng của CGI rất chậm nên vì thế FastCGI ra đời với mục đích thay thế. Ngoài ra, đối với Python còn có thể sử dụng WSGI, Java còn có thể sử dụng Servlet.</p>
+
+            </div>
+        
+            <div class="article-footer mt-5 pt-4" style="font-size: smaller;">
+                <p>Thanks for your reading!</p>
+                <p>© 2026 <strong>izcuyt.com</strong>. Some rights reserved.</p>
+            </div>
+        </article>
+        <aside class="main-content__article-panel col-md-3">
+            
+            
+
+            <div class="main-content__article-panel-categories">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-folder"></i> Categories
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/security">
+                                
+                                <span class="main-content__article-panel-item-text">Security</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/web-development">
+                                
+                                <span class="main-content__article-panel-item-text">Web Development</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/writeups">
+                                
+                                <span class="main-content__article-panel-item-text">Writeups</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+
+            
+                <div class="main-content__article-panel-toc">
+                    <h3 class="main-content__article-panel-heading">
+                        <i class="fa-regular fa-rectangle-list"></i>Contents
+                    </h3>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#web-server-là-gì">Web Server là gì</a></li>
+    <li><a href="#vai-trò-cách-thức-hoạt-động-của-web-server">Vai trò, cách thức hoạt động của Web Server</a>
+      <ul>
+        <li><a href="#vai-trò">Vai trò</a></li>
+        <li><a href="#cách-thức-hoạt-động">Cách thức hoạt động</a></li>
+      </ul>
+    </li>
+    <li><a href="#các-loại-web-server-thường-gặp">Các loại Web Server thường gặp</a></li>
+    <li><a href="#web-application-là-gì">Web Application là gì?</a></li>
+    <li><a href="#vai-trò-cách-thức-hoạt-động-của-web-application">Vai trò, cách thức hoạt động của Web Application</a>
+      <ul>
+        <li><a href="#vai-trò-1">Vai trò</a></li>
+        <li><a href="#cách-thức-hoạt-động-1">Cách thức hoạt động</a></li>
+      </ul>
+    </li>
+    <li><a href="#các-loại-web-application-thường-gặp">Các loại Web Application thường gặp</a>
+      <ul>
+        <li><a href="#phân-loại-theo-chức-năng">Phân loại theo chức năng</a></li>
+        <li><a href="#phân-loại-theo-kiến-trúc">Phân loại theo kiến trúc</a></li>
+      </ul>
+    </li>
+    <li><a href="#mối-quan-hệ-web-server---web-application-cách-thức-giao-tiếp-giữa-các-bên">Mối quan hệ Web Server - Web Application, cách thức giao tiếp giữa các bên</a>
+      <ul>
+        <li><a href="#mối-quan-hệ-web-server---web-application">Mối quan hệ Web Server - Web Application</a></li>
+        <li><a href="#cách-thức-giao-tiếp-giữa-các-bên">Cách thức giao tiếp giữa các bên</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+            
+
+        </aside>
+    </div>
+
+        </div>
+
+        <footer id="main-footer" class="pt-4 pb-4">
+    <div class="container container-narrow border-top main-footer__wrapper">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="footer-brand">
+                    <h2 class="footer-brand__name">>_ izcuyt.com</h2>
+                    <p class="footer-brand__desc">
+                        Aspiring Web Pentester<br>Sharing security knowledge about Cyber Security.
+                        <br><br>
+                        Made by <b>@cuyt</b> with love. ♥️
+                    </p>
+                </div>
+                <div class="main-footer__footer-socials">
+                    <a href="https://github.com/quyt0"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="GitHub profile">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/100024860571867"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Facebook profile">
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/koanbunbo/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Instagram profile">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/doanduyphuc/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="LinkedIn profile">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="mailto:dphuc2304@gmail.com"
+                        class="footer-social-btn"
+                        aria-label="Send email to dphuc2304@gmail.com">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    </a>
+
+                    </div>
+            </div>
+
+            <div class="col-lg-1 d-none d-lg-block">
+                <div class="footer-divider"></div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">This site</h3>
+                <ul class="footer-list">
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/tags">Tags</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">Connect</h3>
+                <ul class="footer-list">
+                    <li><a href="/cv">Resume</a></li>
+                    <li><a href="mailto:dphuc2304@gmail.com">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    </main>
+    <div id="lightbox-overlay" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+    
+    <script src="/js/script.min.7c8827ed031431dc353d44474f721aff9bc71ab4a1d70a149f3b4d68eb775164.js" integrity="sha256-fIgn7QMUMdw1PURHT3Ia/5vHGrSh1woUnztNaOt3UWQ=" defer></script>
+</body>
+</html>

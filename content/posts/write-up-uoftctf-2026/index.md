@@ -5,6 +5,7 @@ title = 'UofTCTF 2026: Challenges & Writeups'
 categories = ['Writeups', 'Security']
 image = 'cover.jpg'
 summary = 'My write-up for some challenges from UofTCTF 2026, covering Web, Forensics, and Misc.'
+tags = ['web', 'forensics', 'misc', 'jail']
 +++
 
 ## Lottery (Misc)

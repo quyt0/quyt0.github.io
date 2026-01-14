@@ -3,55 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-12T15:17:41+07:00</lastmod>
+    <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-12T15:17:41+07:00</lastmod>
+    <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-01-13T17:53:55+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/server/</loc>
+    <lastmod>2026-01-13T17:53:55+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-13T17:53:55+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</loc>
+    <lastmod>2026-01-13T17:53:55+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/web/</loc>
+    <lastmod>2026-01-13T17:53:55+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/web-development/</loc>
+    <lastmod>2026-01-13T17:53:55+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/forensics/</loc>
+    <lastmod>2026-01-12T15:17:41+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/jail/</loc>
+    <lastmod>2026-01-12T15:17:41+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/misc/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/security/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
-    <lastmod>2026-01-12T15:17:41+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/uoftctf-2026/</loc>
-    <lastmod>2026-01-12T15:17:41+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/2026/01/write-up-uoftctf-2026/</loc>
+    <loc>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/writeups/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/web/</loc>
-    <lastmod>2026-01-02T17:44:37+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/2026/01/writeup-web-cybersecurity-student-contest-vietnam-2025/</loc>
-    <lastmod>2026-01-02T17:44:37+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/2025/12/markdown-demo/</loc>
-    <lastmod>2025-12-28T23:27:12+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/2025/12/file-upload-challenge/</loc>
-    <lastmod>2025-12-28T18:01:01+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/file-uploads-vulnerabilities/</loc>
-    <lastmod>2025-12-28T18:01:01+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/2025/12/tim-hieu-ve-xss-phan-1.-cac-header-thuong-thay-trong-website/</loc>
-    <lastmod>2025-12-28T12:35:20+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/sql-injection/</loc>
-    <lastmod>2025-12-28T04:26:07+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/2025/12/tim-hieu-ve-sql-injection-va-cach-phong-chong/</loc>
-    <lastmod>2025-12-28T04:26:07+07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

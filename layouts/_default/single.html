@@ -18,7 +18,7 @@
                 </h1>
                 <div class="main-content__article-meta mt-3">
                     <span>
-                        <i class="fa-solid fa-hashtag"></i>
+                        <i class="fa-solid fa-folder"></i>
                         {{ with .Params.categories }}
                             {{ range $index, $value := . }}
                                 {{ if gt $index 0 }}, {{ end }}
@@ -41,9 +41,29 @@
                             {{ with $.Params.series_order }}· Part {{ . }}{{ end }}
                         </span>
                     {{ end }}
-                    <span class=""><i class="fa-regular fa-calendar"></i> {{ .Date.Format "02/01/2006" }}</span>
-                    <span class=""><i class="fa-regular fa-clock"></i> {{ .ReadingTime }} mins read</span>
+                    <span class=""><i class="fa-solid fa-calendar"></i> {{ .Date.Format "02/01/2006" }}</span>
+                    <span class=""><i class="fa-solid fa-clock"></i> {{ .ReadingTime }} mins read</span>
                 </div>
+                {{ with .Params.tags }}
+                {{ $max := 5 }}
+                <div class="main-content__article-tags mt-2">
+                    <i class="fa-solid fa-tag"></i>
+
+                    <div class="tag-pills">
+                    {{ range $t := first $max . }}
+                        <a class="tag-pill" href="{{ "tags/" | relLangURL }}{{ $t | urlize }}">{{ $t }}</a>
+                    {{ end }}
+
+                    {{ if gt (len .) $max }}
+                        <a class="tag-pill tag-pill--more" href="{{ "tags/" | relLangURL }}">
+                        +{{ sub (len .) $max }} more
+                        </a>
+                    {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+
+
             </header>
         
             {{ $content := .Content }}
@@ -85,7 +105,7 @@
 
             <div class="main-content__article-panel-categories">
                 <h3 class="main-content__article-panel-heading">
-                    <i class="fa-solid fa-hashtag"></i> Categories
+                    <i class="fa-regular fa-folder"></i> Categories
                 </h3>
                 <ul class="main-content__article-panel-list">
                     {{ range $name, $taxonomy := site.Taxonomies.categories }}

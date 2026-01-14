@@ -9,7 +9,8 @@ enableEmoji = true
   posts = '/:year/:month/:title/'
 [taxonomies]
   category = "categories"
-  series   = "series"
+  series = "series"
+  tag = "tags"
 [markup]
   [markup.highlight]
     noClasses = false
