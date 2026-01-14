@@ -197,7 +197,7 @@ body {
 #main_header__search-results {
     position: absolute;
     top: calc(100% + 10px);
-    left: 0;
+    right: 0;
     min-width: 400px;
     max-width: 90vw;
     background-color: var(--ctp-base);
@@ -1321,5 +1321,15 @@ input::placeholder {
 
     .main-content__article-header {
         margin-bottom: 2rem;
+    }
+
+    .main-header_search-wrapper {
+        position: unset;
+    }
+
+    #main_header__search-results {
+        right: 0;
+        left: 0;
+        margin: auto;
     }
 }
