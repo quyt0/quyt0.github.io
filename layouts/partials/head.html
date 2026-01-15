@@ -25,21 +25,79 @@
     <script src="/js/fuse.basic.min.js"></script>
     {{ $css := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-    {{- $desc := "" -}}
-    {{- with .Params.description -}}
-    {{- $desc = . -}}
-    {{- else -}}
-    {{- if .IsPage -}}
-        {{- $desc = (.Summary | plainify | htmlUnescape | truncate 160) -}}
-    {{- else -}}
-        {{- with .Site.Params.description -}}
-        {{- $desc = . -}}
-        {{- end -}}
-    {{- end -}}
-    {{- end -}}
     
-    {{- if $desc -}}
-    <meta name="description" content="{{ $desc }}">
+    {{/* --- Description priority --- */}}
+    {{- $desc := "" -}}
+    {{- if .IsHome -}}
+        {{- $desc = .Site.Params.description | default .Site.Title -}}
+    {{- else -}}
+        {{- $desc = .Description | default (.Summary | plainify) | default .Site.Params.description | default .Site.Title -}}
     {{- end -}}
+
+    {{/* --- Title priority --- */}}
+    {{- $title := "" -}}
+    {{- if .IsHome -}}
+    {{- $title = .Site.Title -}}
+    {{- else -}}
+    {{- $title = printf "%s | %s" .Title .Site.Title -}}
+    {{- end -}}
+
+    {{/* --- Canonical + robots --- */}}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="googlebot" content="index,follow">
+
+    {{/* --- Basic meta --- */}}
+    <meta name="description" content="{{ $desc }}">
+
+    {{/* --- Open Graph --- */}}
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else if .IsPage }}article{{ else }}website{{ end }}">
+
+    {{- $ogImg := "" -}}
+    {{- $ogImgType := "" -}}
+    {{- $ogImgWebp := "" -}}
+
+    {{/* 1) Ưu tiên: ảnh của bài viết (page bundle) */}}
+    {{- with .Params.image -}}
+    {{- with $.Resources.GetMatch . -}}
+        {{- $webp := .Process "webp" -}}
+        {{- $ogImg = .Permalink -}}
+        {{- $ogImgType = .MediaType.Type -}}
+        {{- $ogImgWebp = $webp.Permalink -}}
+    {{- end -}}
+    {{- end -}}
+
+    {{/* 2) Fallback: default OG cho home (và mọi trang không có Params.image) từ assets */}}
+    {{- if not $ogImg -}}
+    {{- $defaultOgSrc := "images/og-default.jpg" -}} {{/* đổi đúng tên file của bạn */}}
+    {{- with resources.Get $defaultOgSrc -}}
+        {{- $og := .Fit "1200x630" -}}          {{/* ảnh gốc */}}
+        {{- $ogWebp := .Fit "1200x630 webp" -}} {{/* bản webp */}}
+        {{- $ogImg = $og.Permalink -}}
+        {{- $ogImgType = $og.MediaType.Type -}}
+        {{- $ogImgWebp = $ogWebp.Permalink -}}
+    {{- end -}}
+    {{- end -}}
+
+    {{/* 3) Output meta nếu có ảnh */}}
+    {{- if $ogImg -}}
+    <meta property="og:image" content="{{ $ogImg }}">
+    {{- if $ogImgType -}}<meta property="og:image:type" content="{{ $ogImgType }}">{{- end -}}
+
+    {{- if $ogImgWebp -}}
+    <meta property="og:image" content="{{ $ogImgWebp }}">
+    <meta property="og:image:type" content="image/webp">
+    {{- end -}}
+
+    <meta name="twitter:image" content="{{ $ogImg }}">
+    {{- end -}}
+
+
+
+    {{/* --- Twitter --- */}}
+    <meta name="twitter:card" content="summary_large_image">
 
 </head>
