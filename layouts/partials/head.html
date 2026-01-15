@@ -34,14 +34,6 @@
         {{- $desc = .Description | default (.Summary | plainify) | default .Site.Params.description | default .Site.Title -}}
     {{- end -}}
 
-    {{/* --- Title priority --- */}}
-    {{- $title := "" -}}
-    {{- if .IsHome -}}
-    {{- $title = .Site.Title -}}
-    {{- else -}}
-    {{- $title = printf "%s | %s" .Title .Site.Title -}}
-    {{- end -}}
-
     {{/* --- Canonical + robots --- */}}
     <link rel="canonical" href="{{ .Permalink }}">
     <meta name="robots" content="index,follow,max-image-preview:large">
@@ -51,7 +43,7 @@
     <meta name="description" content="{{ $desc }}">
 
     {{/* --- Open Graph --- */}}
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ $desc }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:type" content="{{ if .IsHome }}website{{ else if .IsPage }}article{{ else }}website{{ end }}">
