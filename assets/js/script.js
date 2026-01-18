@@ -9,22 +9,46 @@ document.addEventListener('DOMContentLoaded', () => {
 function initTheme() {
     const themeBtn = document.querySelector('.main-header__btn-toggle-theme');
     const htmlTag = document.documentElement;
-    
+
     if (!themeBtn) return;
     const themeIcon = themeBtn.querySelector('i');
 
+    const THEME_COLOR = {
+        latte: "#E6E9EF",
+        mocha: "#181825",
+    };
+
+    const themeMeta =
+        document.querySelector('meta[name="theme-color"]') ||
+        (() => {
+            const m = document.createElement("meta");
+            m.name = "theme-color";
+            document.head.appendChild(m);
+            return m;
+        })();
+
     const currentTheme = localStorage.getItem('theme') || 'latte';
-    htmlTag.setAttribute('data-theme', currentTheme);
-    updateIcon(currentTheme);
+    applyTheme(currentTheme);
 
     themeBtn.addEventListener('click', () => {
         const theme = htmlTag.getAttribute('data-theme');
         const newTheme = (theme === 'mocha') ? 'latte' : 'mocha';
-        
-        htmlTag.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-        updateIcon(newTheme);
+        applyTheme(newTheme);
     });
+
+    function applyTheme(theme) {
+        htmlTag.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        updateIcon(theme);
+        updateThemeColor(theme);
+    }
+
+    function updateThemeColor(theme) {
+        themeMeta.setAttribute(
+            "content",
+            THEME_COLOR[theme] || THEME_COLOR.latte
+        );
+    }
 
     function updateIcon(theme) {
         if (!themeIcon) return;
@@ -38,7 +62,7 @@ function initTheme() {
 
 function initLightbox() {
     const overlay = document.getElementById('lightbox-overlay');
-    if (!overlay) return; // Không có lightbox thì dừng luôn
+    if (!overlay) return;
 
     const lightboxImg = document.getElementById('lightbox-img');
     const captionText = document.getElementById('lightbox-caption');

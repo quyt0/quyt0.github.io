@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://192.168.1.205:1313/categories/</loc>
     <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://192.168.1.205:1313/</loc>
     <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://192.168.1.205:1313/posts/</loc>
     <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/server/</loc>
+    <loc>http://192.168.1.205:1313/tags/server/</loc>
     <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://192.168.1.205:1313/tags/</loc>
     <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</loc>
+    <loc>http://192.168.1.205:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</loc>
     <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web/</loc>
+    <loc>http://192.168.1.205:1313/tags/web/</loc>
     <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/web-development/</loc>
+    <loc>http://192.168.1.205:1313/categories/web-development/</loc>
     <lastmod>2026-01-13T17:53:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/forensics/</loc>
+    <loc>http://192.168.1.205:1313/tags/forensics/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/jail/</loc>
+    <loc>http://192.168.1.205:1313/tags/jail/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/misc/</loc>
+    <loc>http://192.168.1.205:1313/tags/misc/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/security/</loc>
+    <loc>http://192.168.1.205:1313/categories/security/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</loc>
+    <loc>http://192.168.1.205:1313/2026/01/uoftctf-2026-challenges-writeups/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/writeups/</loc>
+    <loc>http://192.168.1.205:1313/categories/writeups/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://192.168.1.205:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://192.168.1.205:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://192.168.1.205:1313/series/</loc>
   </url>
 </urlset>

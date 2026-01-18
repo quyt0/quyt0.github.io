@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server on Cuýt</title>
-    <link>http://localhost:1313/tags/server/</link>
+    <link>http://192.168.1.205:1313/tags/server/</link>
     <description>Recent content in Server on Cuýt</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 17:53:55 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.205:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tìm hiểu về Web Server: Vai trò, cách thức, phân loại</title>
-      <link>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</link>
+      <link>http://192.168.1.205:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</link>
       <pubDate>Tue, 13 Jan 2026 17:53:55 +0700</pubDate>
-      <guid>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</guid>
+      <guid>http://192.168.1.205:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</guid>
       <description>&lt;h2 id=&#34;web-server-là-gì&#34;&gt;Web Server là gì&lt;/h2&gt;&#xA;&lt;p&gt;Server (máy chủ) có thể được hiểu theo cả hai nghĩa là phần cứng (hardware) và phần mềm (software). Nếu hiểu theo nghĩa nào thì server là thuật ngữ để chỉ một software hoặc một hardware mà xử lí các yêu cầu (request) từ các phần mềm hoặc các thiết bị khác (client).&lt;/p&gt;&#xA;&lt;p&gt;Hoặc cũng có thể hiểu server là một software hoặc hardware cung cấp các dịch vụ mà client cần. Server nói chung thường được thiết kế để chạy liên tục, có nguồn điện dự phòng, được cấp IP tĩnh. Mặc dù ta có thể sử dụng các máy tính cá nhân để làm server nhưng không nên. Thay vào đó ta sử dụng server để đảm bảo hơn cho dữ liệu.&lt;/p&gt;</description>
     </item>
   </channel>

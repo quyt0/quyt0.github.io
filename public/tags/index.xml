@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cuýt</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://192.168.1.205:1313/tags/</link>
     <description>Recent content in Tags on Cuýt</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 17:53:55 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.205:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Server</title>
-      <link>http://localhost:1313/tags/server/</link>
+      <link>http://192.168.1.205:1313/tags/server/</link>
       <pubDate>Tue, 13 Jan 2026 17:53:55 +0700</pubDate>
-      <guid>http://localhost:1313/tags/server/</guid>
+      <guid>http://192.168.1.205:1313/tags/server/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://localhost:1313/tags/web/</link>
+      <link>http://192.168.1.205:1313/tags/web/</link>
       <pubDate>Tue, 13 Jan 2026 17:53:55 +0700</pubDate>
-      <guid>http://localhost:1313/tags/web/</guid>
+      <guid>http://192.168.1.205:1313/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Forensics</title>
-      <link>http://localhost:1313/tags/forensics/</link>
+      <link>http://192.168.1.205:1313/tags/forensics/</link>
       <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
-      <guid>http://localhost:1313/tags/forensics/</guid>
+      <guid>http://192.168.1.205:1313/tags/forensics/</guid>
       <description></description>
     </item>
     <item>
       <title>Jail</title>
-      <link>http://localhost:1313/tags/jail/</link>
+      <link>http://192.168.1.205:1313/tags/jail/</link>
       <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
-      <guid>http://localhost:1313/tags/jail/</guid>
+      <guid>http://192.168.1.205:1313/tags/jail/</guid>
       <description></description>
     </item>
     <item>
       <title>Misc</title>
-      <link>http://localhost:1313/tags/misc/</link>
+      <link>http://192.168.1.205:1313/tags/misc/</link>
       <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
-      <guid>http://localhost:1313/tags/misc/</guid>
+      <guid>http://192.168.1.205:1313/tags/misc/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writeups on Cuýt</title>
-    <link>http://localhost:1313/categories/writeups/</link>
+    <link>http://192.168.1.205:1313/categories/writeups/</link>
     <description>Recent content in Writeups on Cuýt</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jan 2026 15:17:41 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.205:1313/categories/writeups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UofTCTF 2026: Challenges &amp; Writeups</title>
-      <link>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</link>
+      <link>http://192.168.1.205:1313/2026/01/uoftctf-2026-challenges-writeups/</link>
       <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
-      <guid>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</guid>
+      <guid>http://192.168.1.205:1313/2026/01/uoftctf-2026-challenges-writeups/</guid>
       <description>My write-up for some challenges from UofTCTF 2026, covering Web, Forensics, and Misc.</description>
     </item>
   </channel>
