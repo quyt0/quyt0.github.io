@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+        ApoorvCTF 2025: Challenges &amp; Writeups | Cuýt
+        
+    </title>
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid-5.3.8.css">
+    <link rel="stylesheet" href="/css/fontawesome-7.1.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="/css/syntax.min.c75db92330d165065b4cef68bb3da371b54ad6f746e9e9047ea56f286749850b.css" integrity="sha256-x125IzDRZQZbTO9ouz2jcbVK1vdG6ekEfqVvKGdJhQs=">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="blog của Cuýt" />
+    <link rel="manifest" href="/images/site.webmanifest" />
+    <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="/js/fuse.basic.min.js"></script>
+    
+    <link rel="stylesheet" href="/css/style.min.f725bfe27b39156c3f7c263d6bfdfdc7d17c4af95a4007cc2043fdaaa72d893b.css" integrity="sha256-9yW/4ns5FWw/fCY9a/39x9F8SvlaQAfMIEP9qqctiTs=">
+    
+    
+    <link rel="canonical" href="http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="googlebot" content="index,follow">
+
+    
+    <meta name="description" content="My write-up for some challenges from ApoorvCTF 2025, covering Web and Forensics">
+
+    
+    <meta property="og:title" content="ApoorvCTF 2025: Challenges &amp; Writeups | Cuýt">
+    <meta property="og:description" content="My write-up for some challenges from ApoorvCTF 2025, covering Web and Forensics">
+    <meta property="og:url" content="http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/">
+    <meta property="og:type" content="article"><meta property="og:image" content="http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/cover.jpg"><meta property="og:image:type" content="image/jpeg"><meta property="og:image" content="http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/cover_hu_1a134144cfba7360.webp">
+    <meta property="og:image:type" content="image/webp"><meta name="twitter:image" content="http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/cover.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="theme-color" content="#e6e9ef">
+</head>
+<body>
+    <main id="main" role="main">
+        <header id="main-header">
+  <div class="container container-narrow">
+    <div class="row align-items-center">
+      <div class="col-3 col-md-2 col-lg-3">
+        <div class="main-header__homepage">
+          <a href="/" class="main-header__hompage-link">Cuýt</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6 main-header__navbar-wrapper">
+        <nav class="main-header__navbar" aria-label="Main navigation">
+          <ul class="main-header__navbar-list">
+            <li><a href="/">Blog</a></li>
+            <li><a href="/categories">Categories</a></li>
+            <li><a href="/tags">Tags</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-9 col-md-4 col-lg-3">
+        <div class="main-header__btn">
+          <div class="main-header_search-wrapper">
+            <div style="position: relative;">
+              <input type="text" class="main-header__search-box" placeholder="Search..." aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass main-header__search-icon" aria-hidden="true"></i>
+            </div>
+            <ul id="main_header__search-results"></ul>
+          </div>
+
+          <button class="main-header__btn-toggle-theme" type="button" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+
+          <button class="main-header__btn-mobile-bar" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-header-mobile-menu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-header-mobile-menu" class="main-header__mobile-menu" hidden>
+    <nav aria-label="Mobile navigation">
+        <ul class="main-header__mobile-menu-list">
+        <li><a href="/">Blog</a></li>
+        <li><a href="/categories">Categories</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    </div>
+  </div>
+</header>
+
+        <div id="main-content" class="container container-narrow">
+            
+    <div class="row">
+        <article class="main-content__article-detail col-md-9">
+            
+                
+                <div class="main-content__article-cover">
+                    
+                        
+                        
+                        <img src="/2025/08/apoorvctf-2025-challenges-writeups/cover_hu_1a134144cfba7360.webp" alt="ApoorvCTF 2025: Challenges &amp; Writeups">
+                    
+                </div>
+            
+        
+            <header class="main-content__article-header">
+                <h1 class="main-content__article-title">
+                    ApoorvCTF 2025: Challenges &amp; Writeups
+                </h1>
+                <div class="main-content__article-meta mt-3">
+                    <span>
+                        <i class="fa-solid fa-folder"></i>
+                        
+                            
+                                
+                                <a class="main-content__article-meta-category-link" href="/categories/writeups">
+                                    Writeups
+                                </a>
+                            
+                                , 
+                                <a class="main-content__article-meta-category-link" href="/categories/security">
+                                    Security
+                                </a>
+                            
+                        
+                    </span>
+                    
+                    <span class=""><i class="fa-solid fa-calendar"></i> 08/08/2025</span>
+                    <span class=""><i class="fa-solid fa-clock"></i> 4 mins read</span>
+                </div>
+                
+                
+                <div class="main-content__article-tags mt-2">
+                    <i class="fa-solid fa-tag"></i>
+
+                    <div class="tag-pills">
+                    
+                        <a class="tag-pill" href="/tags/web">web</a>
+                    
+                        <a class="tag-pill" href="/tags/forensics">forensics</a>
+                    
+                        <a class="tag-pill" href="/tags/zip-cracking">zip cracking</a>
+                    
+                        <a class="tag-pill" href="/tags/bytes-reversing">bytes reversing</a>
+                    
+                        <a class="tag-pill" href="/tags/pcap-analyze">pcap analyze</a>
+                    
+
+                    
+                    </div>
+                </div>
+                
+
+
+            </header>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="main-content__article-body-content">
+                <h2 id="ramen-lockdown-forensic">Ramen lockdown (Forensic)</h2>
+<p>what do all these words even mean?</p>
+<p>The challenge provided a Wireshark log file <code>log.pcapng</code> with 2 text files named <code>flag.txt</code> and <code>synoonyms.txt</code></p>
+<p>Opening the file, we could see mainly packets with the information &ldquo;URB INTERRUPT&rdquo; which is an IP packet and a USB endpoint is like an IP port.<br>
+Perhaps hidden under this log file is a message someone entered from the keyboard</p>
+<h3 id="solution">Solution</h3>
+<p>Apply filter <code>frame.len == 72</code> to filter out packets which isn&rsquo;t contain HID data
+Parse each filtered packets, follow by these rules</p>
+<p>64th byte: Left shift key down / up (pressed or not)
+66th byte: Usage key</p>
+<p>You can see what key pressed in Wireshark (HID Data &gt; Array)</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2025/08/apoorvctf-2025-challenges-writeups/img4.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2025/08/apoorvctf-2025-challenges-writeups/img4_hu_9e9f6992cc00248f.webp" 
+           
+             width="1850" height="601"
+           
+           alt="Key info in Wireshark" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>After parsing, I got a script</p>
+<pre tabindex="0"><code>nvim flag.txt
+:%s/0/10101/g
+:%s/1/10011/g
+:%s/[01]/\=system(&#34;awk &#39;NR % 2 ==&#34;.(submatch(0) == &#34;0&#34; ? &#34;0&#34; : &#34;1&#34;).&#34;&#39; synoonyms.txt | shuf -n1&#34;)/g
+</code></pre><p>By using ChatGPT - a really helpful AI, we got a Python script to restore <code>flag.txt</code> before the last line ran</p>
+<pre tabindex="0"><code>with open(&#34;synoonyms.txt&#34;, &#34;r&#34;, encoding=&#34;utf-8&#34;) as f:
+    lines = [line.strip() for line in f.read().splitlines()]
+
+even_words = set(lines[1::2])
+odd_words = set(lines[0::2])
+
+with open(&#34;flag.txt&#34;, &#34;r&#34;, encoding=&#34;utf-8&#34;) as f:
+    words = f.read().split()
+
+binary_string = &#34;&#34;.join(&#34;0&#34; if word in even_words else &#34;1&#34; for word in words)
+
+with open(&#34;recovered_binary.txt&#34;, &#34;w&#34;, encoding=&#34;utf-8&#34;) as f:
+    f.write(binary_string)
+
+print(&#34;Done! Saved as recovered_binary.txt&#34;)
+</code></pre><p>Continue using <code>neovim</code>, I replaced every <code>10011</code> to <code>1</code> and every <code>10101</code> to <code>0</code></p>
+<p><code>$ nvim recovered_binary.txt</code></p>
+<p>and in <code>neovim</code></p>
+<pre tabindex="0"><code>:%s/10101/0/g
+:%s/10011/1/g
+</code></pre><p>Open the file <code>recovered_binary.txt</code>, copy the binary string inside and <a href="https://www.duplichecker.com/binary-to-ascii.php">convert to ASCII</a></p>
+<p>Flaggg, finally got the flag!!1</p>
+<h3 id="flag-apoorvctfne0v1m_1s_b3tt3r">Flag: <code>apoorvctf{ne0v1m_1s_b3tt3r}</code></h3>
+<h2 id="ramen-lockdown-forensic-1">Ramen lockdown (Forensic)</h2>
+<p>A criminal mastermind named larry stole Chef Tataka ultimate ramen recipe and yeeted it into a password-protected zip file. Inside? A sacred file with the secret to flavor nirvana. Crack the zip, save the slurp. No pressure. 🍜💀</p>
+<p>The challenge provided a compressed file <code>recipe.zip</code></p>
+<h3 id="analysis">Analysis</h3>
+<p>As the challenge description said, we have to crack the <code>recipe.zip</code> file. This file requires password for extracting files contained inside it</p>
+<p>Normally, compressed files use AES-256 encryption. Therefore, it is very difficult to brute-force passwords.
+However, we can directly view the file inside by using 7-Zip. There&rsquo;s a file named <code>secret_recipe.png</code></p>
+<h3 id="solution-1">Solution</h3>
+<p>Still using 7-Zip, we know the encryption method is not AES-256! It&rsquo;s ZipCrypto
+
+  
+  
+<figure class="image-container">
+  <a href="/2025/08/apoorvctf-2025-challenges-writeups/img2.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2025/08/apoorvctf-2025-challenges-writeups/img2_hu_87cfd4cb863bb3c0.webp" 
+           
+             width="458" height="571"
+           
+           alt="Encryption method: ZipCrypto" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>Nice, we gonna use <a href="https://github.com/kimci86/bkcrack">bkcrack</a> to extract the <code>secret_recipe.png</code> image</p>
+<p>To break ZipCrypto, <code>bkcrack</code> requires 12 bytes of known plaintext. PNG files start with the following hex header: <code>89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52</code></p>
+<p>I used this command (finished in ~3 minutes)</p>
+<p><code>bkcrack -C recipe.zip -c secret_recipe.png -x 0 89504E470D0A1A0A0000000D49484452</code></p>
+<p>And got the key</p>
+<p><code>7cfefd6a 4aedd214 970c7187</code></p>
+<p>Now, we can decrypt the archive and save it as an unencrypted version</p>
+<p><code>bkcrack -C recipe.zip -k 7cfefd6a 4aedd214 970c7187 -D recipe_decrypted.zip</code></p>
+<p>Opened the image inside <code>recipe_decrypted.zip</code>, and I got &hellip;</p>
+<h3 id="flag-apoorvctfw0rst_r4m3n_3v3r_ong">Flag: <code>apoorvctf{w0rst_r4m3n_3v3r_ong}</code></h3>
+<h2 id="samurais-code-forensic">Samurai&rsquo;s Code (Forensic)</h2>
+<p>Unveil the lost code of the Samurai and unlock the mystery hidden within.</p>
+<p>The challenge provided a compressed file with an <code>sam.png</code> image inside</p>
+<h3 id="analysis-1">Analysis</h3>
+<p>Open the image, I cannot see any information relate to flag, it&rsquo;s just a normal image with samurai.<br>
+Maybe we have to find out any information hidden inside the image</p>
+<h3 id="solution-2">Solution</h3>
+<p>By using command <code>$ strings sam.png</code>, I got a very suspicious text block at the end.</p>
+<pre tabindex="0"><code>++++++++++[&gt;+&gt;+++&gt;+++++++&gt;++++++++++&lt;&lt;&lt;&lt;-]&gt;&gt;&gt;&gt;++++.++++++++++++..----.+++.&lt;------------.-----------..&gt;---------------.++++++++++++++.---------.+++++++++++++.-----------------.&lt;-.&gt;++.++++++++..--------.+++++.-------.&lt;.&gt;--.++++++++++++.--.&lt;+.&gt;-------.+++.+++.-------.&lt;.&gt;-.&lt;.++.+++++++++++++++++++++++++.+++++++++++++.&gt;+++++++++++++.&lt;+++++++++++++.----------------------------------.++++++++.&gt;+++++++++.-------------------.&lt;+++++++.&gt;+.&lt;-----.+++++++++.------------.&lt;+++++++++++++++.&gt;&gt;++++++++++++++++.&lt;+++.++++++++.&gt;-.&lt;--------.---------.++++++++++++++++++++.&gt;.&lt;++.&gt;--------------.&lt;&lt;+++++.&gt;.&gt;-----.+++++++.&lt;&lt;++.&gt;--.&lt;++.---------.++.&gt;&gt;+++++++++++.-------------.----.++++++++++++++++++.&lt;&lt;++++++++++++++++.&gt;&gt;--.--.---.&lt;&lt;--.&gt;&gt;+++.-----------.-------.+++++++++++++++++.---------.+++++.-------.
+</code></pre><p>This is <a href="https://md5decrypt.net/en/Brainfuck-translator/">Brainfuck</a> language. By decrypting it, I got a download link, got a new file named <code>samurai</code> from downloading</p>
+<p>Great, got a new file. However, <code>exiftool</code> return me <code>Error: Unknown file type</code></p>
+<p>Viewed the hex. I saw a section <code>FJFI</code> in the header, this could be a <code>JFIF</code> file and we have to edit hexadecimal contents of the file given</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2025/08/apoorvctf-2025-challenges-writeups/img3.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2025/08/apoorvctf-2025-challenges-writeups/img3_hu_9aedb93a505507e7.webp" 
+           
+             width="859" height="371"
+           
+           alt="Hex editor show FJFI" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>Usually, the header of <code>JFIF</code> file should be <code>FF D8 FF E0 00 10 4A 46 49 46</code>. But it seems like every 2 bytes in the file are swapped.</p>
+<p>I wrote a simple Python script to swap every 2 bytes back to their original state.</p>
+<pre tabindex="0"><code>with open(&#34;samurai&#34;, &#34;rb&#34;) as file:
+    BUF = 2  # Reverse every 2 bytes
+    bytes_rev = b&#34;&#34;
+    bytes_read = bytearray(file.read(BUF))
+
+    while bytes_read:
+        bytes_rev += bytes_read[::-1]
+        bytes_read = file.read(BUF)
+
+    with open(&#34;swap.jfif&#34;, &#34;wb&#34;) as newfile:
+        newfile.write(bytes_rev)
+</code></pre><p>The newly received image file clearly shows what we need to find, which is the flag.</p>
+<h3 id="flag-apoorvctfbyt3s_out_of_ord3r">Flag: <code>apoorvctf{ByT3s_OUT_OF_ORd3R}</code></h3>
+<h2 id="seo-ceo-web">SEO CEO (Web)</h2>
+<p>They&rsquo;re optimizing SEO to show this garbage?!
+<a href="https://seo-opal.vercel.app/">https://seo-opal.vercel.app</a></p>
+<h3 id="analysis-2">Analysis</h3>
+<p>The description hint a keyword is SEO (search engine optimization). We gonna check out how the SEO works</p>
+<h3 id="solution-3">Solution</h3>
+<p>Normally, the SEO search for <code>sitemap.xml</code> file.
+So that, I tried to get to
+<a href="https://seo-opal.vercel.app/sitemap.xml">https://seo-opal.vercel.app/sitemap.xml</a></p>
+<p>Retrieved the <code>sitemap.xml</code> content include this block, which is so suspicious route that is <code>/goofyahhroute</code></p>
+<pre tabindex="0"><code>    &lt;url&gt;
+		&lt;loc&gt;https://www.thiswebsite.com/goofyahhroute&lt;/loc&gt;
+	    &lt;lastmod&gt;2025-02-26&lt;/lastmod&gt;
+	    &lt;changefreq&gt;never&lt;/changefreq&gt;
+	    &lt;priority&gt;0.0&lt;/priority&gt;
+    &lt;/url&gt;
+</code></pre><p>Open browser, navigate to <a href="https://seo-opal.vercel.app/goofyahhroute">https://seo-opal.vercel.app/goofyahhroute</a>
+
+  
+  
+<figure class="image-container">
+  <a href="/2025/08/apoorvctf-2025-challenges-writeups/img1.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2025/08/apoorvctf-2025-challenges-writeups/img1_hu_66a0b85a92baa0e0.webp" 
+           
+             width="1238" height="449"
+           
+           alt="goofyahhroute response" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>By selecting all contents or View source, I could view all the hidden contents
+Based on what the route told me, I added a parameter <code>?flag=yes</code></p>
+<h3 id="flag-apoorvctfs30_1snt_0pt1onal">Flag: <code>apoorvctf{s30_1snT_0pt1onaL}</code></h3>
+
+            </div>
+        
+            <div class="article-footer mt-5 pt-4" style="font-size: smaller;">
+                <p>Thanks for your reading!</p>
+                <p>© 2026 <strong>izcuyt.com</strong>. Some rights reserved.</p>
+            </div>
+        </article>
+        <aside class="main-content__article-panel col-md-3">
+            
+            
+            <div class="main-content__article-panel-same-category-post">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-newspaper"></i>Related articles
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/2026/01/uoftctf-2026-challenges-writeups/" title="UofTCTF 2026: Challenges &amp; Writeups">
+                                <span class="main-content__article-panel-item-text">UofTCTF 2026: Challenges &amp; Writeups</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+
+            <div class="main-content__article-panel-categories">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-folder"></i> Categories
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/security">
+                                
+                                <span class="main-content__article-panel-item-text">Security</span>
+                                <span class="main-content__article-panel-item-text cat-count">(2)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/web-development">
+                                
+                                <span class="main-content__article-panel-item-text">Web Development</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/writeups">
+                                
+                                <span class="main-content__article-panel-item-text">Writeups</span>
+                                <span class="main-content__article-panel-item-text cat-count">(2)</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+
+            
+                <div class="main-content__article-panel-toc">
+                    <h3 class="main-content__article-panel-heading">
+                        <i class="fa-regular fa-rectangle-list"></i>Contents
+                    </h3>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ramen-lockdown-forensic">Ramen lockdown (Forensic)</a>
+      <ul>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#flag-apoorvctfne0v1m_1s_b3tt3r">Flag: <code>apoorvctf{ne0v1m_1s_b3tt3r}</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#ramen-lockdown-forensic-1">Ramen lockdown (Forensic)</a>
+      <ul>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#solution-1">Solution</a></li>
+        <li><a href="#flag-apoorvctfw0rst_r4m3n_3v3r_ong">Flag: <code>apoorvctf{w0rst_r4m3n_3v3r_ong}</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#samurais-code-forensic">Samurai&rsquo;s Code (Forensic)</a>
+      <ul>
+        <li><a href="#analysis-1">Analysis</a></li>
+        <li><a href="#solution-2">Solution</a></li>
+        <li><a href="#flag-apoorvctfbyt3s_out_of_ord3r">Flag: <code>apoorvctf{ByT3s_OUT_OF_ORd3R}</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#seo-ceo-web">SEO CEO (Web)</a>
+      <ul>
+        <li><a href="#analysis-2">Analysis</a></li>
+        <li><a href="#solution-3">Solution</a></li>
+        <li><a href="#flag-apoorvctfs30_1snt_0pt1onal">Flag: <code>apoorvctf{s30_1snT_0pt1onaL}</code></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+            
+
+        </aside>
+    </div>
+
+        </div>
+
+        <footer id="main-footer" class="pt-4 pb-4">
+    <div class="container container-narrow border-top main-footer__wrapper">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="footer-brand">
+                    <h2 class="footer-brand__name">>_ izcuyt.com</h2>
+                    <p class="footer-brand__desc">
+                        Aspiring Web Pentester<br>Sharing security knowledge about Cyber Security.
+                        <br><br>
+                        Made by <b>@cuyt</b> with love. ♥️
+                    </p>
+                </div>
+                <div class="main-footer__footer-socials">
+                    <a href="https://github.com/quyt0"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="GitHub profile">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/100024860571867"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Facebook profile">
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/koanbunbo/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Instagram profile">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/doanduyphuc/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="LinkedIn profile">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="mailto:dphuc2304@gmail.com"
+                        class="footer-social-btn"
+                        aria-label="Send email to dphuc2304@gmail.com">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    </a>
+
+                    </div>
+            </div>
+
+            <div class="col-lg-1 d-none d-lg-block">
+                <div class="footer-divider"></div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">This site</h3>
+                <ul class="footer-list">
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/tags">Tags</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">Connect</h3>
+                <ul class="footer-list">
+                    <li><a href="/cv">Resume</a></li>
+                    <li><a href="mailto:dphuc2304@gmail.com">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    </main>
+    <div id="lightbox-overlay" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+    
+    <script src="/js/script.min.b1c706db00854d66fc95419247292fdaabc019c1021fb5a4fe3f9e3e51983090.js" integrity="sha256-sccG2wCFTWb8lUGSRykv2qvAGcECH7Wk/j&#43;ePlGYMJA=" defer></script>
+</body>
+</html>

@@ -44,6 +44,18 @@
     <loc>http://localhost:1313/categories/writeups/</loc>
     <lastmod>2026-01-12T15:17:41+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/</loc>
+    <lastmod>2025-08-08T10:30:41+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bytes-reversing/</loc>
+    <lastmod>2025-08-08T10:30:41+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pcap-analyze/</loc>
+    <lastmod>2025-08-08T10:30:41+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/zip-cracking/</loc>
+    <lastmod>2025-08-08T10:30:41+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>

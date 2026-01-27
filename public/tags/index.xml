@@ -43,5 +43,26 @@
       <guid>http://localhost:1313/tags/misc/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Bytes Reversing</title>
+      <link>http://localhost:1313/tags/bytes-reversing/</link>
+      <pubDate>Fri, 08 Aug 2025 10:30:41 +0700</pubDate>
+      <guid>http://localhost:1313/tags/bytes-reversing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pcap Analyze</title>
+      <link>http://localhost:1313/tags/pcap-analyze/</link>
+      <pubDate>Fri, 08 Aug 2025 10:30:41 +0700</pubDate>
+      <guid>http://localhost:1313/tags/pcap-analyze/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zip Cracking</title>
+      <link>http://localhost:1313/tags/zip-cracking/</link>
+      <pubDate>Fri, 08 Aug 2025 10:30:41 +0700</pubDate>
+      <guid>http://localhost:1313/tags/zip-cracking/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
