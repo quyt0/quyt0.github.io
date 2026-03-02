@@ -346,8 +346,7 @@ input::placeholder {
     margin-top: auto;
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Giới hạn tối đa 3 dòng chữ */
-    line-clamp: 3; 
-    display: box;
+    line-clamp: 3;  
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -358,6 +357,7 @@ input::placeholder {
     font-size: 0.85rem;
     display: flex;
     gap: 24px;
+    margin-top: auto;
 }
 
 .main-content__article-item-metadata-category,
@@ -1188,16 +1188,24 @@ input::placeholder {
 
 .main-content__article-tags {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
-  flex-wrap: wrap;
   font-size: 13px;
+}
+
+.tag-icon{
+  height: calc(1em * 1.2 + 6px); /* line-height của pill + padding top/bottom (3px*2) */
+  display:flex;
+  align-items:center;            /* icon nằm giữa đúng dòng 1 */
+  flex: 0 0 auto;
 }
 
 .tag-pills {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
 }
 
 .tag-pill {
@@ -1283,6 +1291,9 @@ input::placeholder {
     }
 
     .main-content__article-item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
         margin-bottom: 50px;
     }
 

@@ -6,8 +6,15 @@
     <description>Recent content on Cuýt</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jan 2026 17:53:55 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 13:58:22 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EHAX CTF 2026: Challenges &amp; Writeups</title>
+      <link>http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/</link>
+      <pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
+      <guid>http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/</guid>
+      <description>A collection of write-ups for EHAX CTF 2026: approaches, dead ends, and the final paths that led to the flag</description>
+    </item>
     <item>
       <title>Tìm hiểu về Web Server: Vai trò, cách thức, phân loại</title>
       <link>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</link>

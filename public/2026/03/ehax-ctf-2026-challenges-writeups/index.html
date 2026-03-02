@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+        EHAX CTF 2026: Challenges &amp; Writeups | Cuýt
+        
+    </title>
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid-5.3.8.css">
+    <link rel="stylesheet" href="/css/fontawesome-7.1.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="/css/syntax.min.53d4e46da3517d19de432fc9a8355a29d8b67ba5a974597d2a0758eb2a289d97.css" integrity="sha256-U9TkbaNRfRneQy/JqDVaKdi2e6WpdFl9KgdY6yoonZc=">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="blog của Cuýt" />
+    <link rel="manifest" href="/images/site.webmanifest" />
+    <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="/js/fuse.basic.min.js"></script>
+    
+    <link rel="stylesheet" href="/css/style.min.6e5d2bbed6c22af603aae07e4ec6b36da8e1835b0efb2bd6caffac53b289147f.css" integrity="sha256-bl0rvtbCKvYDquB&#43;Tsazbajhg1sO&#43;yvWyv&#43;sU7KJFH8=">
+    
+    
+    <link rel="canonical" href="http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="googlebot" content="index,follow">
+
+    
+    <meta name="description" content="A collection of write-ups for EHAX CTF 2026: approaches, dead ends, and the final paths that led to the flag">
+
+    
+    <meta property="og:title" content="EHAX CTF 2026: Challenges &amp; Writeups | Cuýt">
+    <meta property="og:description" content="A collection of write-ups for EHAX CTF 2026: approaches, dead ends, and the final paths that led to the flag">
+    <meta property="og:url" content="http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/">
+    <meta property="og:type" content="article"><meta property="og:image" content="http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/cover.jpg"><meta property="og:image:type" content="image/jpeg"><meta property="og:image" content="http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/cover_hu_720233859a60332c.webp">
+    <meta property="og:image:type" content="image/webp"><meta name="twitter:image" content="http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/cover.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="theme-color" content="#e6e9ef">
+</head>
+<body>
+    <main id="main" role="main">
+        <header id="main-header">
+  <div class="container container-narrow">
+    <div class="row align-items-center">
+      <div class="col-3 col-md-2 col-lg-3">
+        <div class="main-header__homepage">
+          <a href="/" class="main-header__hompage-link">Cuýt</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6 main-header__navbar-wrapper">
+        <nav class="main-header__navbar" aria-label="Main navigation">
+          <ul class="main-header__navbar-list">
+            <li><a href="/">Blog</a></li>
+            <li><a href="/categories">Categories</a></li>
+            <li><a href="/tags">Tags</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-9 col-md-4 col-lg-3">
+        <div class="main-header__btn">
+          <div class="main-header_search-wrapper">
+            <div style="position: relative;">
+              <input type="text" class="main-header__search-box" placeholder="Search..." aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass main-header__search-icon" aria-hidden="true"></i>
+            </div>
+            <ul id="main_header__search-results"></ul>
+          </div>
+
+          <button class="main-header__btn-toggle-theme" type="button" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+
+          <button class="main-header__btn-mobile-bar" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-header-mobile-menu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-header-mobile-menu" class="main-header__mobile-menu" hidden>
+    <nav aria-label="Mobile navigation">
+        <ul class="main-header__mobile-menu-list">
+        <li><a href="/">Blog</a></li>
+        <li><a href="/categories">Categories</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    </div>
+  </div>
+</header>
+
+        <div id="main-content" class="container container-narrow">
+            
+    <div class="row">
+        <article class="main-content__article-detail col-md-9">
+            
+                
+                <div class="main-content__article-cover">
+                    
+                        
+                        
+                        <img src="/2026/03/ehax-ctf-2026-challenges-writeups/cover_hu_720233859a60332c.webp" alt="EHAX CTF 2026: Challenges &amp; Writeups">
+                    
+                </div>
+            
+        
+            <header class="main-content__article-header">
+                <h1 class="main-content__article-title">
+                    EHAX CTF 2026: Challenges &amp; Writeups
+                </h1>
+                <div class="main-content__article-meta mt-3">
+                    <span>
+                        <i class="fa-solid fa-folder"></i>
+                        
+                            
+                                
+                                <a class="main-content__article-meta-category-link" href="/categories/writeups">
+                                    Writeups
+                                </a>
+                            
+                                , 
+                                <a class="main-content__article-meta-category-link" href="/categories/security">
+                                    Security
+                                </a>
+                            
+                        
+                    </span>
+                    
+                    <span class=""><i class="fa-solid fa-calendar"></i> 02/03/2026</span>
+                    <span class=""><i class="fa-solid fa-clock"></i> 5 mins read</span>
+                </div>
+                
+                
+                <div class="main-content__article-tags mt-2">
+                    <span class="tag-icon"><i class="fa-solid fa-tag"></i></span>
+
+                    <div class="tag-pills">
+                    
+                        <a class="tag-pill" href="/tags/logic-analyzer-saleae">logic analyzer saleae</a>
+                    
+                        <a class="tag-pill" href="/tags/forensics">forensics</a>
+                    
+                        <a class="tag-pill" href="/tags/misc">misc</a>
+                    
+                        <a class="tag-pill" href="/tags/audio-steganography">audio steganography</a>
+                    
+                        <a class="tag-pill" href="/tags/image-steganography">image steganography</a>
+                    
+
+                    
+                        <a class="tag-pill tag-pill--more" href="/tags/">
+                        +1 more
+                        </a>
+                    
+                    </div>
+                </div>
+                
+
+
+            </header>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="main-content__article-body-content">
+                <h2 id="forensic-challenges">Forensic challenges</h2>
+<h3 id="challenge-baby-serial">Challenge: baby serial</h3>
+<h4 id="description">Description</h4>
+<pre tabindex="0"><code>Joe was trying to sniff the data over a serial communication. Was he successful?
+
+author: Anonimbus
+
+(include babyserial.sal)
+</code></pre><h4 id="my-very-first-solution-unintended-i-guess">My very first solution (unintended I guess)</h4>
+<p>As above, the challenge gave me the <strong><code>babyserial.sal</code></strong> file. At the first time, I realize I can open it using WinRAR to extracting the files <code>digital-0.bin</code> to <code>digital-7.bin</code> below. As you guy can see, the <code>digital-0.bin</code> size has ~63KB should contain data while others only have ~81B (mostly null, just headers &hellip;)</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2026/03/ehax-ctf-2026-challenges-writeups/image-1.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2026/03/ehax-ctf-2026-challenges-writeups/image-1_hu_a73186440c38fe03.webp" 
+           
+             width="940" height="294"
+           
+           alt="alt text" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>The <code>meta.json</code> file describes the capture configuration (eg: sampling rate, device, trigger, UI state, channel mapping, etc.).</p>
+<p>After searching, I know that Saleae does not store every single 0/1 sample for the whole capture (because at 1 MHz × ~3.3 seconds that would be huge). Instead, it stores the signal as runs between edges, like:</p>
+<ul>
+<li>stay at this logic level for X samples</li>
+<li>then the signal flips (0-1 or 1-0),</li>
+<li>stay for Y samples,</li>
+<li>flip again,</li>
+<li>etc.</li>
+</ul>
+<p>Those numbers X, Y, … are stored using ULEB128 / varint encoding (each number can take 1 byte or multiple bytes depending on its size).</p>
+<p>So the very first step is:</p>
+<ol>
+<li>read the binary file</li>
+<li>decode the varints</li>
+<li>get a list like: [run1, run2, run3, &hellip;] where each value is a duration measured in samples</li>
+</ol>
+<p>Once I have the run-length list, I look at a histogram / common values and see repeated durations and realize</p>
+<ul>
+<li>8–9 samples ~ 1 bit</li>
+<li>16–17 ~ 2 bits</li>
+<li>25–26 ~ 3 bits</li>
+</ul>
+<p>Now I rebuild bitstream, write a Python script for trying multiple framings</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">base64</span><span class="o">,</span> <span class="nn">re</span><span class="o">,</span> <span class="nn">zlib</span><span class="o">,</span> <span class="nn">gzip</span><span class="o">,</span> <span class="nn">io</span><span class="o">,</span> <span class="nn">zipfile</span><span class="o">,</span> <span class="nn">binascii</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">flag_re</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">rb</span><span class="s2">&#34;EH4X\{[^}]{1,200}\}&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">d</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s2">&#34;recovered/120000_7E2_norm.bin&#34;</span><span class="p">,</span><span class="s2">&#34;rb&#34;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hunt</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="n">tag</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">m</span><span class="o">=</span><span class="n">flag_re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">buf</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">m</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;[+] FLAG via&#34;</span><span class="p">,</span><span class="n">tag</span><span class="p">,</span><span class="s2">&#34;:&#34;</span><span class="p">,</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">errors</span><span class="o">=</span><span class="s2">&#34;ignore&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="k">raise</span> <span class="ne">SystemExit</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">try_decompress</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="n">tag</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">hunt</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">buf</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="sa">b</span><span class="s2">&#34;</span><span class="se">\x1f\x8b\x08</span><span class="s2">&#34;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">try</span><span class="p">:</span> <span class="n">hunt</span><span class="p">(</span><span class="n">gzip</span><span class="o">.</span><span class="n">decompress</span><span class="p">(</span><span class="n">buf</span><span class="p">),</span> <span class="n">tag</span><span class="o">+</span><span class="s2">&#34;-&gt;gzip&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">except</span><span class="p">:</span> <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">buf</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">2</span> <span class="ow">and</span> <span class="n">buf</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="mh">0x78</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">15</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">try</span><span class="p">:</span> <span class="n">hunt</span><span class="p">(</span><span class="n">zlib</span><span class="o">.</span><span class="n">decompress</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="n">wbits</span><span class="o">=</span><span class="n">w</span><span class="p">),</span> <span class="n">tag</span><span class="o">+</span><span class="sa">f</span><span class="s2">&#34;-&gt;zlib(</span><span class="si">{</span><span class="n">w</span><span class="si">}</span><span class="s2">)&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">except</span><span class="p">:</span> <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">buf</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="sa">b</span><span class="s2">&#34;PK</span><span class="se">\x03\x04</span><span class="s2">&#34;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">zf</span><span class="o">=</span><span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">io</span><span class="o">.</span><span class="n">BytesIO</span><span class="p">(</span><span class="n">buf</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">zf</span><span class="o">.</span><span class="n">namelist</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">                <span class="k">try</span><span class="p">:</span> <span class="n">hunt</span><span class="p">(</span><span class="n">zf</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">n</span><span class="p">),</span> <span class="n">tag</span><span class="o">+</span><span class="sa">f</span><span class="s2">&#34;-&gt;zip:</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="k">except</span><span class="p">:</span> <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">        <span class="k">except</span><span class="p">:</span> <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1) raw</span>
+</span></span><span class="line"><span class="cl"><span class="n">try_decompress</span><span class="p">(</span><span class="n">d</span><span class="p">,</span><span class="s2">&#34;raw&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2) strip to printable</span>
+</span></span><span class="line"><span class="cl"><span class="n">p</span><span class="o">=</span><span class="nb">bytes</span><span class="p">([</span><span class="n">b</span> <span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">d</span> <span class="k">if</span> <span class="n">b</span> <span class="ow">in</span> <span class="sa">b</span><span class="s2">&#34;</span><span class="se">\n\r\t</span><span class="s2">&#34;</span> <span class="ow">or</span> <span class="mi">32</span><span class="o">&lt;=</span><span class="n">b</span><span class="o">&lt;=</span><span class="mi">126</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">try_decompress</span><span class="p">(</span><span class="n">p</span><span class="p">,</span><span class="s2">&#34;printable&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3) try std base64/base85 on each long printable line</span>
+</span></span><span class="line"><span class="cl"><span class="n">lines</span><span class="o">=</span><span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">p</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">&gt;=</span><span class="mi">20</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">ln</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">lines</span><span class="p">[:</span><span class="mi">500</span><span class="p">]):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ln</span><span class="o">=</span><span class="n">ln</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># base64</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">fn</span><span class="p">,</span><span class="n">name</span> <span class="ow">in</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="n">base64</span><span class="o">.</span><span class="n">b64decode</span><span class="p">,</span><span class="s2">&#34;b64&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="n">base64</span><span class="o">.</span><span class="n">urlsafe_b64decode</span><span class="p">,</span><span class="s2">&#34;b64url&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="n">base64</span><span class="o">.</span><span class="n">b85decode</span><span class="p">,</span><span class="s2">&#34;b85&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="n">base64</span><span class="o">.</span><span class="n">a85decode</span><span class="p">,</span><span class="s2">&#34;a85&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">out</span><span class="o">=</span><span class="n">fn</span><span class="p">(</span><span class="n">ln</span> <span class="o">+</span> <span class="sa">b</span><span class="s2">&#34;===&#34;</span><span class="p">)</span>  <span class="c1"># tolerate padding</span>
+</span></span><span class="line"><span class="cl">            <span class="n">try_decompress</span><span class="p">(</span><span class="n">out</span><span class="p">,</span><span class="sa">f</span><span class="s2">&#34;line</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">except</span><span class="p">:</span> <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;[-] No flag found by broad sweep.&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>I finally got <code>out.png</code> reveals the flag</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2026/03/ehax-ctf-2026-challenges-writeups/out.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2026/03/ehax-ctf-2026-challenges-writeups/out_hu_2321f3c881cbb177.webp" 
+           
+             width="683" height="384"
+           
+           alt="alt text" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<h4 id="intended-solution">Intended solution</h4>
+<p>Thanks to <a href="https://github.com/1r0nx/CTFs-Write-up-s/tree/main/2026-EHAX-CTF">1r0nx&rsquo;s writeup</a></p>
+<p>I open the <code>babyserial.sal</code> file using <a href="https://saleae.com/logic">Saleae Logic 2</a></p>
+<p>Next, add an &ldquo;Async Serial&rdquo; analyzer for Channel 0. I realize this must be a data file</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2026/03/ehax-ctf-2026-challenges-writeups/image.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2026/03/ehax-ctf-2026-challenges-writeups/image_hu_eb92dfb29c3935f7.webp" 
+           
+             width="1861" height="331"
+           
+           alt="alt text" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>Now, export those data to a <code>.csv</code> file and use 1r0nx&rsquo;s Python script to read the <code>.csv</code> file and put those data together.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">csv</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">base64</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">INPUT</span> <span class="o">=</span> <span class="s2">&#34;bin_ch0/digital.csv&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">BAUD</span> <span class="o">=</span> <span class="mi">115200</span>
+</span></span><span class="line"><span class="cl"><span class="n">BIT_TIME</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">BAUD</span>
+</span></span><span class="line"><span class="cl"><span class="n">edges</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">INPUT</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">r</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">next</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">r</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">t</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="n">v</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="n">edges</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">t</span><span class="p">,</span> <span class="n">v</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">bits</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">edges</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">t</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">edges</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">t2</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">edges</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">duration</span> <span class="o">=</span> <span class="n">t2</span> <span class="o">-</span> <span class="n">t</span>
+</span></span><span class="line"><span class="cl">    <span class="n">count</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">duration</span> <span class="o">/</span> <span class="n">BIT_TIME</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">bits</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="n">v</span><span class="p">]</span> <span class="o">*</span> <span class="n">count</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># UART decode</span>
+</span></span><span class="line"><span class="cl"><span class="n">bytes_out</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">bits</span><span class="p">)</span> <span class="o">-</span> <span class="mi">10</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">bits</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>  <span class="c1"># start bit</span>
+</span></span><span class="line"><span class="cl">        <span class="n">data</span> <span class="o">=</span> <span class="n">bits</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="mi">9</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">value</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">8</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">value</span> <span class="o">|=</span> <span class="n">data</span><span class="p">[</span><span class="n">b</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl">        <span class="n">bytes_out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">i</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">data</span> <span class="o">=</span> <span class="nb">bytes</span><span class="p">(</span><span class="n">bytes_out</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Recovered bytes:&#34;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># sauver brut</span>
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;serial.bin&#34;</span><span class="p">,</span> <span class="s2">&#34;wb&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">txt</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;ASCII preview:&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">txt</span><span class="p">[:</span><span class="mi">200</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="s2">&#34;iVBOR&#34;</span> <span class="ow">in</span> <span class="n">txt</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Base64 PNG détecté&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">b64</span> <span class="o">=</span> <span class="n">txt</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34;iVBOR&#34;</span><span class="p">,</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">b64</span> <span class="o">=</span> <span class="s2">&#34;iVBOR&#34;</span> <span class="o">+</span> <span class="n">b64</span>
+</span></span><span class="line"><span class="cl">        <span class="n">img</span> <span class="o">=</span> <span class="n">base64</span><span class="o">.</span><span class="n">b64decode</span><span class="p">(</span><span class="n">b64</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;flag.png&#34;</span><span class="p">,</span> <span class="s2">&#34;wb&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Image sauvée → flag.png&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">except</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">pass</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="challenge-let-the-penguin-live">Challenge: let-the-penguin-live</h3>
+<h4 id="description-1">Description</h4>
+<pre tabindex="0"><code>In a colony of many, one penguin&#39;s path is an anomaly. Silence the crowd to hear the individual.
+
+author - mahekfr
+
+(include challenge.mkv)
+</code></pre><h4 id="solution">Solution</h4>
+<p>First, I used <code>exiftool</code> to view the metadata and saw the comment. The author wants to encourage us so he wrote out &ldquo;keep trying&rdquo; - but that&rsquo;s wasn&rsquo;t  the flag</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2026/03/ehax-ctf-2026-challenges-writeups/image-2.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2026/03/ehax-ctf-2026-challenges-writeups/image-2_hu_211a1a0e85fe823d.webp" 
+           
+             width="875" height="613"
+           
+           alt="alt text" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>Next, using the <code>mkvmerge</code> tool to see the information about this file. Saw? Here we have 2 audio tracks for this file
+
+  
+  
+<figure class="image-container">
+  <a href="/2026/03/ehax-ctf-2026-challenges-writeups/image-3.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2026/03/ehax-ctf-2026-challenges-writeups/image-3_hu_bbf46056f922e9bf.webp" 
+           
+             width="812" height="239"
+           
+           alt="alt text" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>As the author hint - &ldquo;silence the crowd to hear the individual&rdquo;, I extracted out 2 tracks.</p>
+<pre tabindex="0"><code>mkvextract tracks challenge.mkv 1:a1.flac 2:a2.flac
+</code></pre><p>Both of them are 1 min 3 second length. And &ldquo;to hear the individual&rdquo;, I used <code>ffmpeg</code> to get the different between two tracks to end, save to <code>diff.flac</code>.</p>
+<pre tabindex="0"><code>ffmpeg -y -i a1.flac -i a2.flac -filter_complex &#34;amix=inputs=2:weights=&#39;1 -1&#39;&#34; -ss 00:00:00.0 -to 00:01:03.0 dif
+f.flac
+</code></pre><p>Finally, using Audacity to view the spectrogram and I got flag</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2026/03/ehax-ctf-2026-challenges-writeups/image-4.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2026/03/ehax-ctf-2026-challenges-writeups/image-4_hu_329adfc8060099aa.webp" 
+           
+             width="956" height="798"
+           
+           alt="alt text" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<!-- raw HTML omitted -->
+
+            </div>
+        
+            <div class="article-footer mt-5 pt-4" style="font-size: smaller;">
+                <p>Thanks for your reading!</p>
+                <p>© 2026 <strong>izcuyt.com</strong>. Some rights reserved.</p>
+            </div>
+        </article>
+        <aside class="main-content__article-panel col-md-3">
+            
+            
+            <div class="main-content__article-panel-same-category-post">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-newspaper"></i>Related articles
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/2026/01/uoftctf-2026-challenges-writeups/" title="UofTCTF 2026: Challenges &amp; Writeups">
+                                <span class="main-content__article-panel-item-text">UofTCTF 2026: Challenges &amp; Writeups</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/2025/08/apoorvctf-2025-challenges-writeups/" title="ApoorvCTF 2025: Challenges &amp; Writeups">
+                                <span class="main-content__article-panel-item-text">ApoorvCTF 2025: Challenges &amp; Writeups</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+
+            <div class="main-content__article-panel-categories">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-folder"></i> Categories
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/security">
+                                
+                                <span class="main-content__article-panel-item-text">Security</span>
+                                <span class="main-content__article-panel-item-text cat-count">(3)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/web-development">
+                                
+                                <span class="main-content__article-panel-item-text">Web Development</span>
+                                <span class="main-content__article-panel-item-text cat-count">(1)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/writeups">
+                                
+                                <span class="main-content__article-panel-item-text">Writeups</span>
+                                <span class="main-content__article-panel-item-text cat-count">(3)</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+
+            
+                <div class="main-content__article-panel-toc">
+                    <h3 class="main-content__article-panel-heading">
+                        <i class="fa-regular fa-rectangle-list"></i>Contents
+                    </h3>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#forensic-challenges">Forensic challenges</a>
+      <ul>
+        <li><a href="#challenge-baby-serial">Challenge: baby serial</a>
+          <ul>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#my-very-first-solution-unintended-i-guess">My very first solution (unintended I guess)</a></li>
+            <li><a href="#intended-solution">Intended solution</a></li>
+          </ul>
+        </li>
+        <li><a href="#challenge-let-the-penguin-live">Challenge: let-the-penguin-live</a>
+          <ul>
+            <li><a href="#description-1">Description</a></li>
+            <li><a href="#solution">Solution</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+            
+
+        </aside>
+    </div>
+
+        </div>
+
+        <footer id="main-footer" class="pt-4 pb-4">
+    <div class="container container-narrow border-top main-footer__wrapper">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="footer-brand">
+                    <h2 class="footer-brand__name">>_ izcuyt.com</h2>
+                    <p class="footer-brand__desc">
+                        Aspiring Web Pentester<br>Sharing security knowledge about Cyber Security.
+                        <br><br>
+                        Made by <b>@cuyt</b> with love. ♥️
+                    </p>
+                </div>
+                <div class="main-footer__footer-socials">
+                    <a href="https://github.com/quyt0"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="GitHub profile">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/100024860571867"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Facebook profile">
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/koanbunbo/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Instagram profile">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/doanduyphuc/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="LinkedIn profile">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="mailto:dphuc2304@gmail.com"
+                        class="footer-social-btn"
+                        aria-label="Send email to dphuc2304@gmail.com">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    </a>
+
+                    </div>
+            </div>
+
+            <div class="col-lg-1 d-none d-lg-block">
+                <div class="footer-divider"></div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">This site</h3>
+                <ul class="footer-list">
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/tags">Tags</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">Connect</h3>
+                <ul class="footer-list">
+                    <li><a href="/cv">Resume</a></li>
+                    <li><a href="mailto:dphuc2304@gmail.com">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    </main>
+    <div id="lightbox-overlay" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+    
+    <script src="/js/script.min.b1c706db00854d66fc95419247292fdaabc019c1021fb5a4fe3f9e3e51983090.js" integrity="sha256-sccG2wCFTWb8lUGSRykv2qvAGcECH7Wk/j&#43;ePlGYMJA=" defer></script>
+</body>
+</html>

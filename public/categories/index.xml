@@ -6,27 +6,27 @@
     <description>Recent content in Categories on Cuýt</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jan 2026 17:53:55 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 13:58:22 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Web Development</title>
-      <link>http://localhost:1313/categories/web-development/</link>
-      <pubDate>Tue, 13 Jan 2026 17:53:55 +0700</pubDate>
-      <guid>http://localhost:1313/categories/web-development/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Security</title>
       <link>http://localhost:1313/categories/security/</link>
-      <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
+      <pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
       <guid>http://localhost:1313/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Writeups</title>
       <link>http://localhost:1313/categories/writeups/</link>
-      <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
+      <pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
       <guid>http://localhost:1313/categories/writeups/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/categories/web-development/</link>
+      <pubDate>Tue, 13 Jan 2026 17:53:55 +0700</pubDate>
+      <guid>http://localhost:1313/categories/web-development/</guid>
       <description></description>
     </item>
   </channel>

@@ -47,7 +47,7 @@
                 {{ with .Params.tags }}
                 {{ $max := 5 }}
                 <div class="main-content__article-tags mt-2">
-                    <i class="fa-solid fa-tag"></i>
+                    <span class="tag-icon"><i class="fa-solid fa-tag"></i></span>
 
                     <div class="tag-pills">
                     {{ range $t := first $max . }}
