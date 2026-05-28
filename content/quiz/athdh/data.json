@@ -786,5 +786,953 @@
       "Trang"
     ],
     "answer": 3
+  },
+  {
+    "id": 1,
+    "chapter": "Chương 3",
+    "question": "Đâu không phải là một khái niệm công nghệ chính của một hệ thống tin cậy hoàn toàn?",
+    "options": [
+      "Đầu vào và đầu ra an toàn",
+      "Lưu trữ có niêm phong",
+      "Màn che bộ nhớ/ thực thi được bảo vệ",
+      "Bộ nhớ phân đoạn"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 3",
+    "question": "Unix là hệ điều hành đầu tiên có ... và có giao diện chương trình (API) thuận tiện cho người phát triển",
+    "options": [
+      "Tính dễ dàng",
+      "Hiệu năng cao",
+      "Tính khả chuyển",
+      "Tính khả dụng"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 3",
+    "question": "Đâu là người dùng không sở hữu file nào và không thuộc nhóm nào trong Unix/Linux",
+    "options": [
+      "Noone",
+      "Anyone",
+      "Root",
+      "Nobody"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 3",
+    "question": "Các lệnh dùng để thay đổi chủ sở hữu và quyền truy cập trong Unix/Linux là:",
+    "options": [
+      "Chowner và chmod",
+      "Chown và chmod",
+      "Chowner và chmode",
+      "Chown và chmode"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 3",
+    "question": "Kiến trúc tập lệnh x86 hỗ trợ việc quản lý thực thi các chương trình bằng cách triển khai cơ chế bảo vệ lớp đặc quyền dựa trên kiểm soát truy cập đến ... của chương trình.",
+    "options": [
+      "Các câu lệnh",
+      "Các dữ liệu",
+      "Các câu lệnh và dữ liệu",
+      "Các dữ liệu và hàm"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 3",
+    "question": "Các máy tính và phần mềm được cung cấp từ nhiều nhà sản xuất và phân phối khác nhau dẫn đến khó khăn trong việc xác định mức độ ... của hệ thống máy tính cũng như là phần mềm.",
+    "options": [
+      "Ổn định và tin cậy",
+      "Ổn định và tính năng",
+      "Tin cậy và hiệu năng",
+      "Tin cậy và tính năng"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 3",
+    "question": "Unix/Linux sử dụng các ... trong danh sách kiểm soát truy cập để xác định các quyền truy cập vào đối tượng của 3 nhóm chủ thể.",
+    "options": [
+      "Bit chế độ",
+      "Bit hệ thống",
+      "Bit phân quyền",
+      "Bit giám sát"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 3",
+    "question": "Trong Windows cùng như Unix/Linux, các tiến trình không tin cậy của người dùng có thể sửa đổi quyền truy cập đến dữ liệu của họ một cách tùy ý. Nguyên nhân của vấn đề này là do các hệ điều hành này sử dụng cơ chế kiểm soát truy cập ...",
+    "options": [
+      "DAC",
+      "Rule - Based AC",
+      "Role - Based AC",
+      "MAC"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 3",
+    "question": "Cổng ngắt và cổng bẫy được dùng để xử lý các ... , như bộ định thời, ổ cứng và các ngoại lệ, như lỗi trang nhớ, chia 0",
+    "options": [
+      "Ngắt phần cứng",
+      "Ngắt CPU",
+      "Ngắt phần mềm",
+      "Ngắt ngoại lệ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 3",
+    "question": "Việc một tiến trình cố truy cập bộ nhớ không phải của mình sẽ gây ra ..., như là lỗi xâm phạm ô nhớ được bảo vệ, và làm cho tiến trình vi phạm phải chấm dứt hoạt động.",
+    "options": [
+      "Lỗi ngoại lệ",
+      "Lỗi phần cứng",
+      "Lỗi hệ thống",
+      "Lỗi phần mềm"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 3",
+    "question": "Quá trình khởi động được bảo vệ và kết hợp với phần mềm chống mã độc trong Windows để nâng cao ... của hệ thống sử dụng BIOS truyền thống",
+    "options": [
+      "Tính toàn vẹn",
+      "Tính sẵn dùng",
+      "Tính xác thực",
+      "Tính bí mật"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 3",
+    "question": "Đâu không phải là một khái niệm công nghệ chính của một hệ thống tin cậy hoàn toàn?",
+    "options": [
+      "Khóa lưu trữ",
+      "Lưu trữ có niêm phong",
+      "Khóa chứng thực",
+      "Đầu vào và đầu ra an toàn"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 3",
+    "question": "Hệ thống Unix/Linux hiện đại cho phép ... thông qua các mô đun có thể nạp một cách linh hoạt vào nhân. Rootkit là dạng phần mềm độc hại khai thác tính năng này.",
+    "options": [
+      "Sửa đổi nhân",
+      "Mở rộng nhân",
+      "Bổ sung dịch vụ",
+      "Bổ sung các tính năng"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 3",
+    "question": "Các chức năng của TPM được xây dựng bằng ... , song các chức năng an ninh cần được bảo vệ chặt chẽ được thực hiện thông qua...",
+    "options": [
+      "Phần mềm / phần sụn",
+      "Phần mềm / phần cứng",
+      "Phần cứng / phần mềm",
+      "Phần cứng / phần sụn"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 3",
+    "question": "RPL là trường trên thẻ chọn ...",
+    "options": [
+      "Đoạn ngăn xếp",
+      "Đoạn dữ liệu",
+      "Đoạn mã",
+      "Đoạn tổng hợp"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 3",
+    "question": "Đâu không phải là một ứng dụng của TPM",
+    "options": [
+      "Bảo vệ mật khẩu",
+      "Đảm bảo toàn vẹn dữ liệu",
+      "Ngăn chặn thực thi dữ liệu",
+      "Mã hóa đĩa."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 3",
+    "question": "Đâu là một trong các vấn đề/ lỗ hổng bảo mật tiêu biểu của Windows?",
+    "options": [
+      "Có nhiều lỗi tràn bộ đệm",
+      "Người dùng quản trị",
+      "Nhân quá lớn",
+      "Người dùng ít kinh nghiệm"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 3",
+    "question": "Root of Trust for storage (RTS) là cơ sở tin cậy cho việc ...",
+    "options": [
+      "Lưu trữ",
+      "Đó kiểm",
+      "Báo cáo",
+      "Tính toán"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 3",
+    "question": "HĐH Windows sử dụng biện pháp kiểm soát truy cập nào?",
+    "options": [
+      "DAD",
+      "CDA",
+      "DAC",
+      "ADC"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 3",
+    "question": "Windows registry là cơ sở dữ liệu toàn cục được tổ chức  theo ... để lưu các dữ liệu của Windows và toàn bộ các chương trình.",
+    "options": [
+      "Cấu trúc đa cấp",
+      "Mô hình đa cấp",
+      "Cấu trúc vô cấp",
+      "Mô hình phân cấp"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 3",
+    "question": "CPL là trường trên thẻ chọn ...",
+    "options": [
+      "Đoạn mã",
+      "Đoạn ngăn xếp",
+      "Đoạn dữ liệu",
+      "Đoạn tổng hợp"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 3",
+    "question": "Mô hình khái quát của cơ chế bảo vệ của Windows cho phép mô tả các tổ hợp quyền nhưng lại không có bất cứ ... cụ thể được xác định trong hệ thống",
+    "options": [
+      "Mục tiêu an toàn",
+      "Mô hình an toàn",
+      "Nhân an toàn",
+      "Chính sách an toàn"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 3",
+    "question": "Hệ thống bảo vệ của Windows có khả năng mở rộng và dễ biểu diễn các quyền cũng như là người dùng của hệ thống. Thực tế cho thấy, các cải thiện về tính mở rộng và biểu diễn có ảnh hưởng ... đến tính an toàn của hệ thống.",
+    "options": [
+      "Tích cực",
+      "Không ảnh hưởng",
+      "Tiêu cực",
+      "Ít ảnh hưởng"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 3",
+    "question": "Chương trình chạy trong chế độ ... bị hạn chế truy cập tới bộ nhớ, các cổng vào/ra",
+    "options": [
+      "Độ nhân",
+      "Quyền cao",
+      "Bình đẳng",
+      "Người dùng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 3",
+    "question": "Đâu là phần tên chung một HDH Windows vừa có bản PC vừa có bản cho máy chủ",
+    "options": [
+      "Windows 2000",
+      "Windows XP",
+      "Windows 2003",
+      "Windows 2008"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 3",
+    "question": "Bộ tham chiếu an toàn (SRM) là phần mềm... và nhận các tham số đầu vào của thẻ tiến trình, SID của đối tượng và tập thao tác, trả về kết quả của yêu cầu truy cập trên cơ sở ACL mà nó nhìn thấy",
+    "options": [
+      "Chạy trong không gian tùy chọn",
+      "Chạy trong không gian người dùng",
+      "Chạy trong nhân",
+      "Chạy trong lớp bảo vệ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 3",
+    "question": "Các HDH hiện đại thường sử dụng cơ chế phân trang để quản lý bộ nhớ. Mỗi trang nhớ được mô tả bởi khoản mục bảng trang PTE chứa hai trường phục vụ cho việc bảo vệ là:",
+    "options": [
+      "Cờ bẫy và cờ đọc ghi",
+      "Cờ giám sát và cờ đọc/ghi",
+      "Cờ chẵn lẻ và cờ giám sát",
+      "Cờ giám sát và cờ tràn"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 3",
+    "question": "Các thẻ mô tả đoạn nhớ được lưu trong hai bảng GDT và LDT. GDT và LDT lần lượt là ?",
+    "options": [
+      "Bảng mô tả nhân HDH và Bảng mô tả chương trình người dùng",
+      "Bảng mô tả toàn cục và bảng mô tả cục bộ",
+      "Bảng mô tả đoạn mã và Bảng mô tả đoạn dư liệu",
+      "Bảng mô tả toàn bộ và Bảng mô tả cục bộ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 3",
+    "question": "Một trong các tài nguyên được bảo vệ đối với các thao tác của tiến trình người dùng là ...",
+    "options": [
+      "Bộ nhớ",
+      "Kết nối mạng",
+      "Dữ liệu",
+      "Mã lệnh"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 3",
+    "question": "Mô đun nền tảng tin cậy (TPM - Truster Platform Module) là tiêu chuẩn quốc tế dành cho bộ xử lý mật mã an toàn, tên tiếng Anh là:",
+    "options": [
+      "Cryptprocessors",
+      "Encryption processor",
+      "Cryptoprocessor",
+      "Cryptographic processor"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 3",
+    "question": "Giá trị này được duy trì bởi chính CPU và nó luôn bằng với ... hiện thời của CPU",
+    "options": [
+      "Quyền thực thi",
+      "Quyền truy cập",
+      "Mức truy cập",
+      "Mức bảo vệ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 3",
+    "question": "Hai thành phân cơ bản của TPM được sử dụng để bảo vệ các phần mềm trong quá trình khởi động máy tính gồm:",
+    "options": [
+      "RMT và RRT",
+      "RMT và TRR",
+      "RMT và RTR",
+      "RTM và RTR"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 3",
+    "question": "Mô đun TPM cung cấp cơ sở để đảm bảo an toàn cho các  chương trình máy tính trong quá trình hoạt động cũng như tương tác với nhau thông qua việc sử dụng các cơ chế ... và mã hóa",
+    "options": [
+      "Giải mã",
+      "Định danh",
+      "Xác thực",
+      "Sinh khóa"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 3",
+    "question": "Các mức độ đặc quyền của ... không liên quan tới vai trò người dùng trong hệ điều hành, dù là quản trị hay người dùng thông thường",
+    "options": [
+      "Nhân hệ điều hành",
+      "Bộ xử lý",
+      "Bộ nhớ",
+      "Chương trình người dùng"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 3",
+    "question": "Đâu là một trong các tính năng ngầm định nguy hiểm của Windows và các ứng dụng chạy trên Windows?",
+    "options": [
+      "xp_cmdshell",
+      "xp_cmdshells",
+      "xp_shellcmd",
+      "MS C&C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 3",
+    "question": "Giá trị CPL cho biết ... của đoạn mã thực hiện.",
+    "options": [
+      "Mức độ truy cập",
+      "Quyền truy cập",
+      "Mức độ bảo vệ",
+      "Quyền thực thi"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 3",
+    "question": "Câu lệnh vào/ra sẽ chỉ được thực hiện khi mức đặc quyền của đoạn mã ... với mức đặc quyền của lệnh vào/ra.",
+    "options": [
+      "Nhỏ hơn hoặc bằng",
+      "Nhỏ hơn",
+      "Bằng",
+      "Lớn hơn hoặc bằng"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 38,
+    "chapter": "Chương 3",
+    "question": "Bitlocker là dịch vụ ...",
+    "options": [
+      "Mã hóa dữ liệu trong CSDL",
+      "Mã hóa dữ liệu trên ổ đĩa cứng",
+      "Mã hóa dữ liệu trên đám mây",
+      "Mã hóa dữ liệu truyền thống"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 39,
+    "chapter": "Chương 3",
+    "question": "Trong Unix/Linux, chuỗi quyền truy cập rwxr-xr-- biểu diễn ở dạng thập phân là:",
+    "options": [
+      "321",
+      "754",
+      "741",
+      "654"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 40,
+    "chapter": "Chương 3",
+    "question": "Windows cung cấp giao diện lập trình cho phép một tiến trình xâm nhập các tiến trình khác, như các hàm CreatRemoteThread, ... hay WriteProcessMemory",
+    "options": [
+      "NewProcess",
+      "CreatProcess",
+      "CloseProcess",
+      "OpenProcess"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 41,
+    "chapter": "Chương 3",
+    "question": "Việc kiểm soát thực thi lệnh có đặc quyền cao được thực hiện thông qua thẻ mô tả cổng, Một trong các loại cổng này là :",
+    "options": [
+      "call - gate",
+      "cell - gate",
+      "tsk - gate",
+      "ret - gate"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 42,
+    "chapter": "Chương 3",
+    "question": "Các thông tin trong thẻ mô tả đoạn gồm:",
+    "options": [
+      "Base, length, RPL",
+      "Base, Limit, RPL",
+      "Base, Limit, DPL",
+      "Base, Limit, CPL"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 43,
+    "chapter": "Chương 3",
+    "question": "Cơ chế bảo vệ theo ... được thực hiện nhằm hạn chế các thao tác mà chương trình người dùng có thể thực hiện",
+    "options": [
+      "Không gian nhân và không gian người dùng",
+      "Phân quyền người dùng",
+      "Đặc quyền tối thiểu",
+      "Lớp đặc quyền"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 44,
+    "chapter": "Chương 3",
+    "question": "Root of Trust for reporting (RTR) là cơ sở tin cậy cho việc",
+    "options": [
+      "tính toán",
+      "đo kiểm",
+      "báo cáo",
+      "lưu trữ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 45,
+    "chapter": "Chương 3",
+    "question": "Mục tiêu thiết kế của Unix là phát triển ... có thể ... giữa các người dùng với nhau",
+    "options": [
+      "Nền tảng chia sẻ / chuyển đổi",
+      "Nền tảng chung / chia sẻ dễ dàng",
+      "Nền tảng riêng / chia sẻ dễ dàng",
+      "Nền tảng chung / phân chia dễ dàng"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 46,
+    "chapter": "Chương 3",
+    "question": "Đâu là một dịch vụ mã hóa ổ cứng kết hợp với TPM để tăng khả năng bảo vệ do Microsoft cung cấp?",
+    "options": [
+      "Bitlocker",
+      "Winlocker",
+      "HDDlocker",
+      "Doorlocker"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 47,
+    "chapter": "Chương 3",
+    "question": "Mã của phần nhân hoạt động ở lớp ... , còn mã của chương trình người dùng hoạt động ở lớp ...",
+    "options": [
+      "0 và 1",
+      "3 và 0",
+      "0 và 3",
+      "3 và 1"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 48,
+    "chapter": "Chương 3",
+    "question": "Đâu là khóa dùng để mã hóa dữ liệu của dịch vụ mã hóa ổ cứng kết hợp với TPM để tăng khả năng bảo vệ do Microsoft cung cấp?",
+    "options": [
+      "FVEK",
+      "FVMK",
+      "VMK",
+      "SRK"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 49,
+    "chapter": "Chương 3",
+    "question": "Chương trình người dùng bị đóng trong \"...\" do đoạn mã của phần nhân đặt ra",
+    "options": [
+      "Hộp kín",
+      "Báo đóng",
+      "Hộp có giám sát",
+      "Hộp mở"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 50,
+    "chapter": "Chương 3",
+    "question": "Trong ... , các giá trị băm được tính toán và lưu trữ cố định vào TPM cho tất cả các thành phần/chương trình trong chuỗi",
+    "options": [
+      "Cơ sở tin cậy TPM",
+      "Cơ sở tin cậy tĩnh",
+      "Cơ sở tin cậy động",
+      "Cơ sở tin cậy gốc"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 51,
+    "chapter": "Chương 3",
+    "question": "Trong Unix/Linux, phần nhân tin cậy gồm các tiến trình nhân và cả các tiến trình chạy với định danh người dùng root. Điều này tạo ra ... cho các phần mềm quan trọng cũng như là nhân.",
+    "options": [
+      "Bất ổn",
+      "Hiệu năng cao",
+      "Xung đột",
+      "Lỗ hổng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 52,
+    "chapter": "Chương 3",
+    "question": "Đâu không phải là một bộ phân chức năng của TPM",
+    "options": [
+      "Bộ nhớ thay đổi",
+      "Bộ mã hóa",
+      "Bộ nhớ ổn định",
+      "Bộ nhớ chỉ đọc"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 53,
+    "chapter": "Chương 3",
+    "question": "TPM cung cấp hai cơ chế khác cho việc lưu trữ an toàn là ...",
+    "options": [
+      "billing và saling",
+      "binding và sealing",
+      "billing và sealing",
+      "binding và saling"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 54,
+    "chapter": "Chương 3",
+    "question": "Unix sử dụng khái niệm  ... cho tất cả các đối tượng lưu trữ hệ thống như lưu trữ thứ cấp( ổ đĩa), thiết bị vào/ra , mạng và liên lạc giữ các tiến trình.",
+    "options": [
+      "item",
+      "file",
+      "process",
+      "folder"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 55,
+    "chapter": "Chương 3",
+    "question": "Quá trình khởi động được bảo vệ trong Windows không gồm giai đoạn nào?",
+    "options": [
+      "Nạp NTFS manager",
+      "Nạp Master Boot Record",
+      "WinLoad",
+      "Nạp Boot Manager"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 56,
+    "chapter": "Chương 3",
+    "question": "Đâu là một trong các vấn đề/ lỗ hổng tiêu biểu trong Unix/Linux?",
+    "options": [
+      "TOCTTOU",
+      "TUOTTOC",
+      "TOCTOU",
+      "TUOTOC"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 57,
+    "chapter": "Chương 3",
+    "question": "Windows sử dụng danh sách kiểm soát truy cập ACL để đảm bảo an toàn. ACL bao gồm tập các mục kiểm soát truy cập. Một mục kiểm soát truy cập có tên viết tắt tiếng Anh là:",
+    "options": [
+      "AEC",
+      "ACE",
+      "ECA",
+      "ACC"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 58,
+    "chapter": "Chương 3",
+    "question": "Đâu là công thức tính toán cơ sở tin cậy cho các đoạn mã",
+    "options": [
+      "PCR = H(PRC|H(Đoạn mã))",
+      "PCR = H(PCR|H(mã mới))",
+      "PCR = H(mã mới)",
+      "PCR = H(H(mã mới)|PCR)"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 59,
+    "chapter": "Chương 3",
+    "question": "Tìm phát biểu đúng trong các phát biểu sau",
+    "options": [
+      "Các không nhớ của các tiến trình phải được cách ly với nhau và hệ thống sẽ chặn tất cả các truy cập trái phép",
+      "Các không gian nhớ của các tiến trình phải được cách ly với nhau và với phần vỏ của hệ điều hành",
+      "Các không gian nhớ của các tiến trình phải được cách ly với nhau và với phần nhân của hệ điều hành",
+      "Các không gian nhớ của tất cả các tiến trình phải được cách ly với nhau"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 60,
+    "chapter": "Chương 3",
+    "question": "Đâu không phải là một ứng dụng của TPM",
+    "options": [
+      "Đảm bảo toàn vẹn nền tảng",
+      "Mã hóa đĩa",
+      "Đảm bảo toàn vẹn giao dịch",
+      "Quản lý bản quyền số"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 61,
+    "chapter": "Chương 3",
+    "question": "Đâu là một trong các tính năng ngầm định nguy hiểm của Windows?",
+    "options": [
+      "Windows Remote Services",
+      "Windows Firewall",
+      "Windows Remote Registry",
+      "Windows defender"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 62,
+    "chapter": "Chương 3",
+    "question": "Đâu là một trong các vấn đề/lỗ hổng tiểu biểu của Unix/Linux",
+    "options": [
+      "Các biến hệ thống",
+      "Các biến môi trường",
+      "Các biến động",
+      "Các biến tĩnh"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 63,
+    "chapter": "Chương 3",
+    "question": "Tên đầy đủ của trường RPL là ...",
+    "options": [
+      "Required Privilege Level",
+      "Requested Privilege Level",
+      "Requested Previlege Level",
+      "Required Previlege Level"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 64,
+    "chapter": "Chương 3",
+    "question": "Đâu là một trong các vấn đề/lỗ hổng bảo mật tiêu biểu của Windows?",
+    "options": [
+      "Sổ ký gửi",
+      "Sổ đăng nhập",
+      "Sổ đăng ký",
+      "Sổ nhật ký"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 65,
+    "chapter": "Chương 3",
+    "question": "Kiến trúc x86 sử dụng phương pháp ... để quản lý không gian nhớ chương trình nhờ vào việc tách biệt các chức năng của không gian nhớ.",
+    "options": [
+      "Phân đoạn",
+      "Bộ nhớ ảo",
+      "Phân trang",
+      "Phân chương"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 66,
+    "chapter": "Chương 3",
+    "question": "Root ò Trust for Measurement (RTM) là cơ sở tin cậy cho việc ...",
+    "options": [
+      "Đó kiểm",
+      "Lữu trữ",
+      "Báo cáo",
+      "Tính toán"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 67,
+    "chapter": "Chương 3",
+    "question": "Mô hình kiểm soát truy cập của Windows có ưu điểm là :",
+    "options": [
+      "Nhanh và có khả năng biểu diễn tốt",
+      "Mềm dẻo và có khả năng biểu diễn tốt",
+      "Mềm dẻo và có khả năng triển khai tốt",
+      "Đơn giản và có khả năng biểu diễn tốt"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 68,
+    "chapter": "Chương 3",
+    "question": "Cơ chế ngăn chặn thực thi dữ liệu (DEP) là kỹ thuật bảo vệ bộ nhớ ở mức hệ thống được tích hợp vào hệ điều hành. Cụ thể, DEP cho phép hệ thống ... một hay nhiều trang bộ nhớ là không thực thi được",
+    "options": [
+      "Chặn",
+      "Kiểm soát",
+      "Đánh dấu",
+      "Xóa"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 69,
+    "chapter": "Chương 3",
+    "question": "Kiến trúc x86 hỗ trợ cơ chế này thông qua bit cấm thực thi đặt tại trang nhớ. Bit cấm thực thi được gọi là :",
+    "options": [
+      "Execute - disable",
+      "Non-execute",
+      "Disable-execute",
+      "Un-execute"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 70,
+    "chapter": "Chương 3",
+    "question": "Giá trị của RPL chỉ có thể thay đổi được bởi các câu lệnh thay đổi ...",
+    "options": [
+      "Bất kỳ lệnh nào",
+      "Luồng dữ liệu",
+      "Luồng mã lệnh",
+      "Luồng thực hiện"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 71,
+    "chapter": "Chương 3",
+    "question": "Hệ thống bảo vệ trong Unix/Linux sử dụng cơ chế kiểm soát truy cập ...",
+    "options": [
+      "DAC",
+      "MAC",
+      "ACD",
+      "CAD"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 72,
+    "chapter": "Chương 3",
+    "question": "Các cơ sở của tính đúng đắn trong Windows là ... và Windows có cơ sở tính toán tin cậy ... về kích cỡ cũng như hệ thống nhân có khả năng mở rộng",
+    "options": [
+      "Không đầy đủ / bị giới hạn",
+      "Không rõ ràng / bị giới hạn",
+      "Không khả thi / không bị giới hạn",
+      "Không chính tắc/ không bị giới hạn"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 73,
+    "chapter": "Chương 3",
+    "question": "Các hệ thống Unix hiện đại sử dụng kỹ thuật ... bộ nhớ",
+    "options": [
+      "Phân chương",
+      "Phân trang",
+      "Phân đoạn",
+      "Phân khúc"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 74,
+    "chapter": "Chương 3",
+    "question": "Mục đích chính của việc bảo vệ khởi động sử dụng TPM là đảm bảo ... cho chuỗi khởi động",
+    "options": [
+      "Tính bí mật",
+      "Tính toàn vẹn",
+      "Tính sẵn dùng",
+      "Tính xác thực"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 75,
+    "chapter": "Chương 3",
+    "question": "Việc lưu trữ an toàn hay tin cậy thường sử dụng ... một phần hoặc toàn bộ thiết bị lưu trữ nhằm đảm bảo tính bí mật của dữ liệu lưu trên thiết bị.",
+    "options": [
+      "Kỹ thuật băm",
+      "Kỹ thuật giấu tin",
+      "Kỹ thuật mã hóa",
+      "Chữ ký số"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 76,
+    "chapter": "Chương 3",
+    "question": "Đâu là một trong các vấn đề/lỗ hổng tiêu biểu của Unix/Linux?",
+    "options": [
+      "Các tiến trình chia sẻ",
+      "Các nội dung chia sẻ",
+      "Các tài nguyên chia sẻ",
+      "Các file chia sẻ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 77,
+    "chapter": "Chương 3",
+    "question": "Hệ điều hành sử dụng ... với không gian địa chỉ thống nhất để quản lý các dạng bộ nhớ vật lý, do vậy cần phải thực hiện việc ... từ địa chỉ logic của chương trình thành địa chỉ vật lý thực sự trước khi thao tác đọc/ghi bộ nhớ được diễn ra",
+    "options": [
+      "Bộ nhớ ảo/ Truy cập",
+      "Bộ nhớ thực / Ánh xạ",
+      "Bộ nhớ ảo / Ánh xá",
+      "Bộ nhớ thực / Truy cập"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 78,
+    "chapter": "Chương 3",
+    "question": "Hệ thống tin cậy (Trusted System) là một hệ thống dựa vào một mức độ cụ thể để thực thi một ... cụ thể",
+    "options": [
+      "Cơ chế bảo vệ",
+      "Chính sách bảo mật",
+      "Cơ chế bảo mật",
+      "Chính sách bảo vệ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 79,
+    "chapter": "Chương 3",
+    "question": "Tính toán tin cậy đòi hỏi thiết bị kiến trúc hệ thống sao cho các thành phần riêng lẻ được định nghĩa một cách ... các đặc tính của mình",
+    "options": [
+      "Khách quan",
+      "Chuẩn mực",
+      "Đúng đắn",
+      "Tường minh"
+    ],
+    "answer": 3
   }
 ]
