@@ -48,7 +48,8 @@
 <div id="quiz-setup-container" style="max-width: 700px; margin: 50px auto; padding: 0 20px;">
     <div style="text-align: center; margin-bottom: 40px; position: relative;">
         <h1 style="font-size: 2.2rem; margin-bottom: 15px;">An Toàn Hệ Điều Hành</h1>
-        <div style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.6;"><p>Anh em làm bài có vấn đề gì thì lướt xuống dưới cùng comment nhé.</p>
+        <div style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.6;"><p>Bộ câu hỏi được ChatGPT xử lí và phân loại nên có thể có sai sót<br>
+Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùng comment nhé.</p>
 </div>
         
         <button onclick="showHistory()" style="margin-top: 20px; padding: 8px 20px; background: var(--bg-color); color: var(--text-color); border: 1px solid var(--card-border); border-radius: 20px; font-size: 0.95rem; font-weight: 500; cursor: pointer; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
@@ -166,11 +167,11 @@
 
         <div class="sidebar-wrapper">
             <div class="quiz-sidebar">
-                <h4 style="margin-top: 0; margin-bottom: 15px; font-size: 1.1rem; text-align: center; border-bottom: 1px solid var(--card-border); padding-bottom: 10px;">Bảng câu hỏi</h4>
+                <h4 style="margin-top: 0; margin-bottom: 15px; font-size: 1.1rem; text-align: center; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; flex-shrink: 0;">Bảng câu hỏi</h4>
                 
-                <div id="sidebar-grid" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 20px;"></div>
+                <div id="sidebar-grid" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 15px;"></div>
                 
-                <div id="sidebar-legends" style="font-size: 0.85rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 8px;">
+                <div id="sidebar-legends" style="font-size: 0.85rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 8px; padding-top: 15px; border-top: 1px solid var(--card-border); flex-shrink: 0;">
                     <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: var(--bg-color); border: 1px solid var(--card-border); border-radius: 3px;"></div> Chưa làm</div>
                     <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: var(--primary); border-radius: 3px;"></div> Đã làm</div>
                     <div style="display: flex; align-items: center; gap: 8px;"><span style="color: #d69e2e; font-weight: bold;">🚩</span> Đã gắn cờ</div>
@@ -697,6 +698,7 @@
         box-shadow: 0 4px 6px rgba(0,0,0,0.02);
     }
 
+     
     @media (min-width: 900px) {
         .quiz-layout {
             flex-direction: row;
@@ -705,10 +707,42 @@
             width: 280px;
             position: sticky;
             top: 90px; 
+             
+            height: calc(100vh - 120px); 
+        }
+        .quiz-sidebar {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        #sidebar-grid {
+             
+            overflow-y: auto; 
+            flex: 1; 
+            align-content: flex-start;
+            padding-right: 5px;  
+        }
+        
+         
+        #sidebar-grid::-webkit-scrollbar {
+            width: 5px;
+        }
+        #sidebar-grid::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+        #sidebar-grid::-webkit-scrollbar-thumb {
+            background: var(--card-border); 
+            border-radius: 10px;
+        }
+        #sidebar-grid::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted); 
         }
     }
+    
     @media (max-width: 600px) {
         .hide-on-mobile { display: none; }
+         
+        #sidebar-grid { max-height: 300px; overflow-y: auto; }
     }
 </style>
 

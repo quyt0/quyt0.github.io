@@ -119,11 +119,11 @@
 
         <div class="sidebar-wrapper">
             <div class="quiz-sidebar">
-                <h4 style="margin-top: 0; margin-bottom: 15px; font-size: 1.1rem; text-align: center; border-bottom: 1px solid var(--card-border); padding-bottom: 10px;">Bảng câu hỏi</h4>
+                <h4 style="margin-top: 0; margin-bottom: 15px; font-size: 1.1rem; text-align: center; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; flex-shrink: 0;">Bảng câu hỏi</h4>
                 
-                <div id="sidebar-grid" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 20px;"></div>
+                <div id="sidebar-grid" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 15px;"></div>
                 
-                <div id="sidebar-legends" style="font-size: 0.85rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 8px;">
+                <div id="sidebar-legends" style="font-size: 0.85rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 8px; padding-top: 15px; border-top: 1px solid var(--card-border); flex-shrink: 0;">
                     <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: var(--bg-color); border: 1px solid var(--card-border); border-radius: 3px;"></div> Chưa làm</div>
                     <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: var(--primary); border-radius: 3px;"></div> Đã làm</div>
                     <div style="display: flex; align-items: center; gap: 8px;"><span style="color: #d69e2e; font-weight: bold;">🚩</span> Đã gắn cờ</div>
@@ -650,6 +650,7 @@
         box-shadow: 0 4px 6px rgba(0,0,0,0.02);
     }
 
+    /* Kích hoạt Sidebar dính & Cuộn độc lập trên màn hình to */
     @media (min-width: 900px) {
         .quiz-layout {
             flex-direction: row;
@@ -658,10 +659,42 @@
             width: 280px;
             position: sticky;
             top: 90px; 
+            /* Khóa chiều cao bằng màn hình trừ đi thanh Header */
+            height: calc(100vh - 120px); 
+        }
+        .quiz-sidebar {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        #sidebar-grid {
+            /* Cho phép cuộn dọc phần khung số */
+            overflow-y: auto; 
+            flex: 1; 
+            align-content: flex-start;
+            padding-right: 5px; /* Lùi vào một tí để nhường chỗ cho thanh cuộn */
+        }
+        
+        /* CSS tút tát lại thanh cuộn (Scrollbar) cho mượt mắt */
+        #sidebar-grid::-webkit-scrollbar {
+            width: 5px;
+        }
+        #sidebar-grid::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+        #sidebar-grid::-webkit-scrollbar-thumb {
+            background: var(--card-border); 
+            border-radius: 10px;
+        }
+        #sidebar-grid::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted); 
         }
     }
+    
     @media (max-width: 600px) {
         .hide-on-mobile { display: none; }
+        /* Trên Mobile thì bỏ giới hạn chiều cao để cuộn tự nhiên */
+        #sidebar-grid { max-height: 300px; overflow-y: auto; }
     }
 </style>
 {{ end }}
