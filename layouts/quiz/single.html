@@ -185,6 +185,7 @@
     }
 
     // --- LOGIC BẮT ĐẦU THI ---
+    // --- LOGIC BẮT ĐẦU THI ---
     function startQuiz() {
         const mode = document.querySelector('input[name="testMode"]:checked').value;
         let selectedChapters = [];
@@ -204,6 +205,14 @@
         timeStarted = new Date();
 
         buildQuizPlay(selectedChapters, shuffleQs, shuffleOpts, timeMinutes);
+
+        // --- FIX LỖI TỰ ĐỘNG SCROLL Ở ĐÂY ---
+        // 1. Ép trang web cuộn lên trên cùng một cách mượt mà
+        window.scrollTo({ top: 0, behavior: 'instant' }); 
+        
+        // 2. Ép luôn thanh cuộn của Sidebar về vị trí số 1
+        const sidebar = document.getElementById('sidebar-grid');
+        if (sidebar) sidebar.scrollTop = 0;
     }
 
     function buildQuizPlay(chapters, shuffleQs, shuffleOpts, timeMinutes) {
