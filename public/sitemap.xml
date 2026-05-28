@@ -70,9 +70,13 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/quiz/athdh/</loc>
+  </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/connect/</loc>
+  </url><url>
+    <loc>http://localhost:1313/quiz/</loc>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
   </url>

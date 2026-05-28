@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chương 1",
+    "question": "Miền bảo vệ của ma trận kiểm soát truy cập bao gồm tập các ... mà tiến trình có thể truy cập và tập các ... mà tiến trình có thể sử dụng.",
+    "options": [
+      "Đối tượng và chủ thể",
+      "Chủ thể và thao tác",
+      "Đối tượng và dữ liệu",
+      "Đối tượng và thao tác"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một phiên bản của hệ điều hành Microsoft Windows?",
+    "options": [
+      "Windows 98",
+      "Windows 3.0",
+      "Windows Mee",
+      "Window 3.1"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 1",
+    "question": "Các nhân trong hệ thống bảo vệ bắt buộc chống lại việc xâm nhập nhờ chúng được xây dựng bởi người quản trị tin cậy sử dụng phần mềm tin cậy và chúng cũng không bị thay đổi bởi ...",
+    "options": [
+      "Các tiến trình không tin cậy của hệ thống",
+      "Các tiến trình tin cậy của hệ thống",
+      "Các tiến trình tin cậy của người dùng",
+      "Các tiến trình không tin cậy của người dùng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 1",
+    "question": "Hệ thống bảo vệ bắt buộc là hệ thống chỉ có thể được sửa đổi bởi ... thông qua phần mềm tin cậy.",
+    "options": [
+      "Người quản trị tin cậy",
+      "Người dùng tin cậy",
+      "Người quản trị hệ thống",
+      "Chủ thể tin cậy"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 1",
+    "question": "Các thành phần của bộ giám sát tham chiếu bao gồm: ... , mô đun xác thực và ... .",
+    "options": [
+      "Truyền thông và chính sách",
+      "Tập luật và giao tiếp",
+      "Chính sách và kho giao tiếp",
+      "Giao tiếp và kho chính sách"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 1",
+    "question": "Trong an toàn hệ điều hành, tính bí mật giới hạn ...",
+    "options": [
+      "Các thao tác có thể được thực hiện",
+      "Các chủ thể có thể được truy cập",
+      "Các chủ thể và đối tượng có thể được truy cập",
+      "Các đối tượng có thể được truy cập"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 1",
+    "question": "Kho chính sách là cơ sở dữ liệu gồm: Các trạng thái bảo vệ, ... , và các trạng thái dịch chuyển.",
+    "options": [
+      "Trạng thái tự do",
+      "Các tên trạng thái",
+      "Các nhân trạng thái",
+      "Các ID của trạng thái"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 1",
+    "question": "Chính sách an toàn (Security policy) mô tả các ... , hành động và ... cần được thực hiện cho hệ thống thông tin",
+    "options": [
+      "Kiểm soát và quy định",
+      "Kiểm tra và quy trình",
+      "Kiểm soát và quy trình",
+      "Kiểm tra và quy định"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một hệ điều hành cho máy tính?",
+    "options": [
+      "Cisco iOS",
+      "MacOS",
+      "Windows 10",
+      "Ubuntu"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 1",
+    "question": "Tìm phát biểu đúng về vấn đề an toàn:",
+    "options": [
+      "Coi trọng vấn đề an toàn ngang bằng như các tính năng vận hành của hệ thống",
+      "Coi vấn đề an toàn ít quan trọng hơn các tính năng vận hành của hệ thống",
+      "Coi vấn đề an toàn là một phần việc có thể thực hiện riêng",
+      "Coi vấn đề an toàn quan trọng hơn các tính năng vận hành hệ thống"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 1",
+    "question": "Trong hệ điều hành an toàn, việc thực thi các phần mềm không bị phá vỡ bởi ...",
+    "options": [
+      "Các chương trình không nằm trong danh sách các phần mềm tin cậy",
+      "Các chương trình người dùng nằm trong danh sách các phần mềm tin cậy",
+      "Các phần mềm độc hại",
+      "Các phần mềm ứng dụng"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 1",
+    "question": "Đâu là một cơ chế, hay biện pháp bảo vệ?",
+    "options": [
+      "Ma trận kiểm soát truy cập",
+      "Ma trận truy cập có kiểm soát",
+      "Hệ thống bắt buộc bảo vệ",
+      "Ma trận giám sát truy cập"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 1",
+    "question": "Kiến trúc an toàn tránh phụ thuộc vào tính bí mật để đảm bảo an toàn, ngoại trừ việc ...",
+    "options": [
+      "Quản lý mật khẩu và tên người dùng",
+      "Quản lý mật khẩu",
+      "Quản lý tài nguyên",
+      "Quản lý tài khoản"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 1",
+    "question": "Mục tiêu an toàn (Security goals) xác định các thao tác có thể được thực hiện bởi hệ thống trong khi ngăn chặn ...",
+    "options": [
+      "Các dạng xâm nhập",
+      "Các dạng tấn công",
+      "Các truy cập từ người dùng ác tính",
+      "Các truy cập trái phép"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 1",
+    "question": "Phần nhân an toàn cần phải nhỏ nhất có thể được để có thể ... của nó một cách dễ dàng",
+    "options": [
+      "Xác minh tính đúng đắn",
+      "Trắc nghiệm tính đúng đắn",
+      "Xác định khả năng bảo vệ",
+      "Xác định khả năng chống xâm nhập"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 1",
+    "question": "Trong hệ điều hành an toàn, một phần mềm không được coi là tin cậy khi nó ...",
+    "options": [
+      "Bị gây nhiễu",
+      "Bị phá hủy",
+      "Bị xâm nhập"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 1",
+    "question": "Các yêu cầu đảm bảo an toàn hệ điều hành bao gồm:",
+    "options": [
+      "Tính chống chối bỏ và xác thực được",
+      "Tính bí mật, sẵn dùng",
+      "Tính toàn vẹn, sẵn dùng",
+      "Tính bí mật, toàn vẹn và sẵn dùng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là tính năng/công cụ do hệ điều hành cung cấp",
+    "options": [
+      "Trình điều khiển thiết bị",
+      "Tính năng an toàn và bảo mật",
+      "Giao diện đồ họa",
+      "Thành phần quản trị mạng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 1",
+    "question": "Truy cập hệ thống được mô tả bằng ... có thể thực hiện ... lên ...",
+    "options": [
+      "Chủ thể, thao tác, đối tượng.",
+      "Chủ thể, đối tượng, thao tác",
+      "Đối tượng, thao tác, chủ thể",
+      "Đối tượng, chủ thể, thao tác"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 1",
+    "question": "Kiến trúc an toàn và quá trình thiết kế - xây dựng hệ thống có thể thực hiện theo cách ...",
+    "options": [
+      "Có thể thực hiện song song các việc trên",
+      "Kiến trúc an toàn phải cần được thực hiện trước một bước",
+      "Kiến trúc an toàn phải được thực hiện trước toàn bộ",
+      "Kiến trúc an toàn có thể được thực hiện sau"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một yếu tố giúp xây dựng hệ điều hành an toàn?",
+    "options": [
+      "Mô hình an toàn",
+      "Cơ chế bảo vệ",
+      "Mô hình tin cậy",
+      "Mô hình đe dọa"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 1",
+    "question": "Một trong số các quy tắc đảm bảo an toàn liên quan đến cấp quyền cho chủ thể là:",
+    "options": [
+      "Quyền tối đa",
+      "Quyền tối thiểu",
+      "Quyền liên tục",
+      "Không cấp quyền"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 1",
+    "question": "Các loại chính sách an toàn thông tin bao gồm",
+    "options": [
+      "Chính sách chung cho từng tổ chức và chính sách cho từng đơn vị cụ thể",
+      "Chính sách toàn cục và chính sách cụ thể",
+      "Chính sách chung và chính sách cho ứng dụng cụ thể",
+      "Chính sách chung và chính sách cho đơn vị cụ thể"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 1",
+    "question": "Hệ điều hành không cung cấp gì",
+    "options": [
+      "Một số các dịch vụ và ứng dụng cơ bản cho người dùng",
+      "Giao diện giữa người dùng và phần cứng máy tính/ thiết bị tính toán",
+      "Một hệ thống toàn diện",
+      "Môi trường cho các chương trình ứng dụng hoạt động"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 1",
+    "question": "Để đạt được độ tin cậy cao về an toàn của hệ thống, người thiết kế cần ... của các phần liên quan tới an toàn của thiết kế",
+    "options": [
+      "Giảm thiểu kích thước mã thực hiện và dữ liệu",
+      "Giảm thiểu độ phức tạp tính toán và mã",
+      "Giảm kiểu kích cỡ và độ phức tạp",
+      "Giảm thiểu kích cỡ mã nguồn và mã thực hiện"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 1",
+    "question": "Các chức năng cơ bản của HĐH gồm:",
+    "options": [
+      "Quản lý tiến trình, bộ nhớ  và giao diện người dùng",
+      "Quản lý tiến trình, bộ nhớ và người dùng",
+      "Quản lý tiến trình, bộ nhớ, đĩa và hệ thống file",
+      "Quản lý người dùng, đĩa và hệ thống file"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một phiên bản của hệ điều hành Microsoft Windows :",
+    "options": [
+      "Windows NT 3, 4",
+      "Windows XP",
+      "MS-DOS, PC-DOS",
+      "Windows Me"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 1",
+    "question": "Mô hình đe dọa (Threat model) xây dựng tập các thao tác mà người tấn công có thể dùng để ...",
+    "options": [
+      "Vô hiệu hóa hệ thống",
+      "Đánh cắp dữ liệu từ hệ thống",
+      "Truy cập trái phép và hệ thống"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 1",
+    "question": "Danh sách kiểm soát truy cập được sử dụng thay thế ma trận kiểm soát truy cập do ma trận kiểm soát truy cập ...",
+    "options": [
+      "Có hiệu quả sử dụng bộ nhớ kém",
+      "Là ma trận thưa",
+      "Có tốc độ truy cập chậm",
+      "Kích thước quá lớn"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 1",
+    "question": "Mô hình tin cậy (Trusted model) của hệ thống định nghĩa tập ... mà hệ thống sử dụng để đảm bảo thực hiện chính sách các mục tiêu an toàn của hệ thống",
+    "options": [
+      "Chủ thể và đối tượng",
+      "Thực thể và đối tượng",
+      "Phần mềm và dữ liệu",
+      "Thực thể và thao tác"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 1",
+    "question": "CSDL về kiểm soát truy cập thể hiện trạng thái  an toàn của hệ thống và chứa các thông tin như ....",
+    "options": [
+      "Các thao tác truy cập và các thuộc tính an ninh",
+      "Quyền truy cập và các thao tác",
+      "Quyền truy cập và các thuộc tính an ninh"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 1",
+    "question": "Nhân an toàn là phần cơ sở nền tảng có thể ... của hệ điều hành để đảo bảo an toàn cho hệ thống",
+    "options": [
+      "Thống kê được",
+      "Phân tích được",
+      "Xác minh được",
+      "Kiểm chứng được"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 1",
+    "question": "Các phần mềm tin cậy trong mô hình tin cậy bao gồm:",
+    "options": [
+      "Các phần mềm xác định  và thực hiện các yêu cầu an toàn của người dùng",
+      "Các phần mềm xác thực, cấp quyền và quản trị người dùng",
+      "Các phần mềm xác định và thực hiện các yêu cầu an toàn của hệ thống",
+      "Các phần mềm xác thực và cấp quyền người dùng"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 1",
+    "question": "Hệ điều hành -OS là :",
+    "options": [
+      "Một chương trình quản lý máy tính",
+      "Một chương trình quản lý các tài nguyên phần cứng và phần mềm của thiết bị tính toán",
+      "Một chương trình giữa phần cứng và phần mềm",
+      "Một chương trình chính cung cấp giao diện cho người dùng sử dụng hệ thống máy tính"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 1",
+    "question": "Các cơ chế an toàn không được ảnh hưởng tới người dùng theo nghĩa chúng phải:",
+    "options": [
+      "Đơn giản với người dùng quản trị",
+      "Trong suốt với người dùng quản trị",
+      "Trong suốt với người dùng bình thường",
+      "Đơn giản với người dùng bình thường"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 1",
+    "question": "Trong an toàn HĐH, tính sẵn dùng hạn chế các tài nguyên mà các chủ thể có thể sử dụng do các chủ thể này có thể...",
+    "options": [
+      "Làm cạn kiệt các tài nguyên hệ thống",
+      "Chiếm quyền kiểm soát hệ thống",
+      "Làm cạn kiệt các tài nguyên đó",
+      "Làm cạn kiệt các tài nguyên bộ nhớ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 1",
+    "question": "Các thuộc tính của bộ giám sát tham chiếu đảm bảo yêu cầu an toàn:",
+    "options": [
+      "Ngăn chặn một phần, chống phá hại, xác minh được",
+      "Ngăn chặn hoàn toàn, chống xâm nhập, xác minh được",
+      "Ngăn chặn một phần, xác minh được",
+      "Chống xâm nhập, xác minh được"
+    ],
+    "answer": 1
+  }
+]

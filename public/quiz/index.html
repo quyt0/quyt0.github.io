@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Ôn Thi Trắc Nghiệm | Hệ Thống Trắc Nghiệm</title>
+    
+    
+    <style>
+        :root {
+            --bg-color: #f3f4f6;
+            --text-color: #1f2937;
+            --card-bg: #ffffff;
+            --card-border: #e5e7eb;
+            --text-muted: #6b7280;
+            --primary: #3b82f6;
+            --primary-hover: #2563eb;
+            --badge-bg: #edf2f7;
+            --badge-text: #4a5568;
+        }
+
+         
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0f172a;
+                --text-color: #f8fafc;
+                --card-bg: #1e293b;
+                --card-border: #334155;
+                --text-muted: #94a3b8;
+                --badge-bg: #334155;
+                --badge-text: #cbd5e1;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    
+    
+<div class="quiz-dashboard" style="max-width: 1000px; margin: 40px auto; padding: 0 20px;">
+    
+    <header style="text-align: center; margin-bottom: 50px;">
+        <h1 style="font-size: 2.2rem; margin-bottom: 10px;">Hệ Thống Ôn Thi Trắc Nghiệm</h1>
+        <p style="color: var(--text-muted); font-size: 1.1rem;">Tổng hợp bộ đề trắc nghiệm các môn chuyên ngành, cày cuốc cùng anh em PTIT.</p>
+    </header>
+
+    <div class="subject-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px;">
+        
+        
+        <div class="subject-card" style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; padding: 25px; transition: transform 0.2s, border-color 0.2s;">
+            
+            <h3 style="margin-top: 0; font-size: 1.4rem;">An Toàn Hệ Điều Hành</h3>
+            
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; min-height: 45px; margin: 15px 0;">
+                Cày cuốc lý thuyết cơ chế bảo mật Linux/Windows, phân tích lỗ hổng và kỹ thuật khai thác CVE.
+            </p>
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+                <span style="font-size: 0.85rem; background: var(--badge-bg); color: var(--badge-text); padding: 4px 10px; border-radius: 20px; font-weight: 500;">
+                    Trắc nghiệm
+                </span>
+                
+                <a href="http://localhost:1313/quiz/athdh/" style="background: var(--primary); color: #ffffff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 0.95rem; font-weight: 500; transition: background 0.2s;">
+                    Vào thi →
+                </a>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+
+<style>
+    .subject-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary) !important;
+    }
+    .subject-card a:hover {
+        background: var(--primary-hover) !important;
+    }
+</style>
+
+</body>
+</html>

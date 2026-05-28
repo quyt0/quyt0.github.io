@@ -1,0 +1,790 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chương 1",
+    "question": "Miền bảo vệ của ma trận kiểm soát truy cập bao gồm tập các ... mà tiến trình có thể truy cập và tập các ... mà tiến trình có thể sử dụng.",
+    "options": [
+      "Đối tượng và chủ thể",
+      "Chủ thể và thao tác",
+      "Đối tượng và dữ liệu",
+      "Đối tượng và thao tác"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một phiên bản của hệ điều hành Microsoft Windows?",
+    "options": [
+      "Windows 98",
+      "Windows 3.0",
+      "Windows Mee",
+      "Window 3.1"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 1",
+    "question": "Các nhân trong hệ thống bảo vệ bắt buộc chống lại việc xâm nhập nhờ chúng được xây dựng bởi người quản trị tin cậy sử dụng phần mềm tin cậy và chúng cũng không bị thay đổi bởi ...",
+    "options": [
+      "Các tiến trình không tin cậy của hệ thống",
+      "Các tiến trình tin cậy của hệ thống",
+      "Các tiến trình tin cậy của người dùng",
+      "Các tiến trình không tin cậy của người dùng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 1",
+    "question": "Hệ thống bảo vệ bắt buộc là hệ thống chỉ có thể được sửa đổi bởi ... thông qua phần mềm tin cậy.",
+    "options": [
+      "Người quản trị tin cậy",
+      "Người dùng tin cậy",
+      "Người quản trị hệ thống",
+      "Chủ thể tin cậy"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 1",
+    "question": "Các thành phần của bộ giám sát tham chiếu bao gồm: ... , mô đun xác thực và ... .",
+    "options": [
+      "Truyền thông và chính sách",
+      "Tập luật và giao tiếp",
+      "Chính sách và kho giao tiếp",
+      "Giao tiếp và kho chính sách"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 1",
+    "question": "Trong an toàn hệ điều hành, tính bí mật giới hạn ...",
+    "options": [
+      "Các thao tác có thể được thực hiện",
+      "Các chủ thể có thể được truy cập",
+      "Các chủ thể và đối tượng có thể được truy cập",
+      "Các đối tượng có thể được truy cập"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 1",
+    "question": "Kho chính sách là cơ sở dữ liệu gồm: Các trạng thái bảo vệ, ... , và các trạng thái dịch chuyển.",
+    "options": [
+      "Trạng thái tự do",
+      "Các tên trạng thái",
+      "Các nhân trạng thái",
+      "Các ID của trạng thái"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 1",
+    "question": "Chính sách an toàn (Security policy) mô tả các ... , hành động và ... cần được thực hiện cho hệ thống thông tin",
+    "options": [
+      "Kiểm soát và quy định",
+      "Kiểm tra và quy trình",
+      "Kiểm soát và quy trình",
+      "Kiểm tra và quy định"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một hệ điều hành cho máy tính?",
+    "options": [
+      "Cisco iOS",
+      "MacOS",
+      "Windows 10",
+      "Ubuntu"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 1",
+    "question": "Tìm phát biểu đúng về vấn đề an toàn:",
+    "options": [
+      "Coi trọng vấn đề an toàn ngang bằng như các tính năng vận hành của hệ thống",
+      "Coi vấn đề an toàn ít quan trọng hơn các tính năng vận hành của hệ thống",
+      "Coi vấn đề an toàn là một phần việc có thể thực hiện riêng",
+      "Coi vấn đề an toàn quan trọng hơn các tính năng vận hành hệ thống"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 1",
+    "question": "Trong hệ điều hành an toàn, việc thực thi các phần mềm không bị phá vỡ bởi ...",
+    "options": [
+      "Các chương trình không nằm trong danh sách các phần mềm tin cậy",
+      "Các chương trình người dùng nằm trong danh sách các phần mềm tin cậy",
+      "Các phần mềm độc hại",
+      "Các phần mềm ứng dụng"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 1",
+    "question": "Đâu là một cơ chế, hay biện pháp bảo vệ?",
+    "options": [
+      "Ma trận kiểm soát truy cập",
+      "Ma trận truy cập có kiểm soát",
+      "Hệ thống bắt buộc bảo vệ",
+      "Ma trận giám sát truy cập"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 1",
+    "question": "Kiến trúc an toàn tránh phụ thuộc vào tính bí mật để đảm bảo an toàn, ngoại trừ việc ...",
+    "options": [
+      "Quản lý mật khẩu và tên người dùng",
+      "Quản lý mật khẩu",
+      "Quản lý tài nguyên",
+      "Quản lý tài khoản"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 1",
+    "question": "Mục tiêu an toàn (Security goals) xác định các thao tác có thể được thực hiện bởi hệ thống trong khi ngăn chặn ...",
+    "options": [
+      "Các dạng xâm nhập",
+      "Các dạng tấn công",
+      "Các truy cập từ người dùng ác tính",
+      "Các truy cập trái phép"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 1",
+    "question": "Phần nhân an toàn cần phải nhỏ nhất có thể được để có thể ... của nó một cách dễ dàng",
+    "options": [
+      "Xác minh tính đúng đắn",
+      "Trắc nghiệm tính đúng đắn",
+      "Xác định khả năng bảo vệ",
+      "Xác định khả năng chống xâm nhập"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 1",
+    "question": "Trong hệ điều hành an toàn, một phần mềm không được coi là tin cậy khi nó ...",
+    "options": [
+      "Bị gây nhiễu",
+      "Bị phá hủy",
+      "Bị xâm nhập"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 1",
+    "question": "Các yêu cầu đảm bảo an toàn hệ điều hành bao gồm:",
+    "options": [
+      "Tính chống chối bỏ và xác thực được",
+      "Tính bí mật, sẵn dùng",
+      "Tính toàn vẹn, sẵn dùng",
+      "Tính bí mật, toàn vẹn và sẵn dùng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là tính năng/công cụ do hệ điều hành cung cấp",
+    "options": [
+      "Trình điều khiển thiết bị",
+      "Tính năng an toàn và bảo mật",
+      "Giao diện đồ họa",
+      "Thành phần quản trị mạng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 1",
+    "question": "Truy cập hệ thống được mô tả bằng ... có thể thực hiện ... lên ...",
+    "options": [
+      "Chủ thể, thao tác, đối tượng.",
+      "Chủ thể, đối tượng, thao tác",
+      "Đối tượng, thao tác, chủ thể",
+      "Đối tượng, chủ thể, thao tác"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 1",
+    "question": "Kiến trúc an toàn và quá trình thiết kế - xây dựng hệ thống có thể thực hiện theo cách ...",
+    "options": [
+      "Có thể thực hiện song song các việc trên",
+      "Kiến trúc an toàn phải cần được thực hiện trước một bước",
+      "Kiến trúc an toàn phải được thực hiện trước toàn bộ",
+      "Kiến trúc an toàn có thể được thực hiện sau"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một yếu tố giúp xây dựng hệ điều hành an toàn?",
+    "options": [
+      "Mô hình an toàn",
+      "Cơ chế bảo vệ",
+      "Mô hình tin cậy",
+      "Mô hình đe dọa"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 1",
+    "question": "Một trong số các quy tắc đảm bảo an toàn liên quan đến cấp quyền cho chủ thể là:",
+    "options": [
+      "Quyền tối đa",
+      "Quyền tối thiểu",
+      "Quyền liên tục",
+      "Không cấp quyền"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 1",
+    "question": "Các loại chính sách an toàn thông tin bao gồm",
+    "options": [
+      "Chính sách chung cho từng tổ chức và chính sách cho từng đơn vị cụ thể",
+      "Chính sách toàn cục và chính sách cụ thể",
+      "Chính sách chung và chính sách cho ứng dụng cụ thể",
+      "Chính sách chung và chính sách cho đơn vị cụ thể"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 1",
+    "question": "Hệ điều hành không cung cấp gì",
+    "options": [
+      "Một số các dịch vụ và ứng dụng cơ bản cho người dùng",
+      "Giao diện giữa người dùng và phần cứng máy tính/ thiết bị tính toán",
+      "Một hệ thống toàn diện",
+      "Môi trường cho các chương trình ứng dụng hoạt động"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 1",
+    "question": "Để đạt được độ tin cậy cao về an toàn của hệ thống, người thiết kế cần ... của các phần liên quan tới an toàn của thiết kế",
+    "options": [
+      "Giảm thiểu kích thước mã thực hiện và dữ liệu",
+      "Giảm thiểu độ phức tạp tính toán và mã",
+      "Giảm kiểu kích cỡ và độ phức tạp",
+      "Giảm thiểu kích cỡ mã nguồn và mã thực hiện"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 1",
+    "question": "Các chức năng cơ bản của HĐH gồm:",
+    "options": [
+      "Quản lý tiến trình, bộ nhớ  và giao diện người dùng",
+      "Quản lý tiến trình, bộ nhớ và người dùng",
+      "Quản lý tiến trình, bộ nhớ, đĩa và hệ thống file",
+      "Quản lý người dùng, đĩa và hệ thống file"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một phiên bản của hệ điều hành Microsoft Windows :",
+    "options": [
+      "Windows NT 3, 4",
+      "Windows XP",
+      "MS-DOS, PC-DOS",
+      "Windows Me"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 1",
+    "question": "Mô hình đe dọa (Threat model) xây dựng tập các thao tác mà người tấn công có thể dùng để ...",
+    "options": [
+      "Vô hiệu hóa hệ thống",
+      "Đánh cắp dữ liệu từ hệ thống",
+      "Truy cập trái phép và hệ thống"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 1",
+    "question": "Danh sách kiểm soát truy cập được sử dụng thay thế ma trận kiểm soát truy cập do ma trận kiểm soát truy cập ...",
+    "options": [
+      "Có hiệu quả sử dụng bộ nhớ kém",
+      "Là ma trận thưa",
+      "Có tốc độ truy cập chậm",
+      "Kích thước quá lớn"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 1",
+    "question": "Mô hình tin cậy (Trusted model) của hệ thống định nghĩa tập ... mà hệ thống sử dụng để đảm bảo thực hiện chính sách các mục tiêu an toàn của hệ thống",
+    "options": [
+      "Chủ thể và đối tượng",
+      "Thực thể và đối tượng",
+      "Phần mềm và dữ liệu",
+      "Thực thể và thao tác"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 1",
+    "question": "CSDL về kiểm soát truy cập thể hiện trạng thái  an toàn của hệ thống và chứa các thông tin như ....",
+    "options": [
+      "Các thao tác truy cập và các thuộc tính an ninh",
+      "Quyền truy cập và các thao tác",
+      "Quyền truy cập và các thuộc tính an ninh"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 1",
+    "question": "Nhân an toàn là phần cơ sở nền tảng có thể ... của hệ điều hành để đảo bảo an toàn cho hệ thống",
+    "options": [
+      "Thống kê được",
+      "Phân tích được",
+      "Xác minh được",
+      "Kiểm chứng được"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 1",
+    "question": "Các phần mềm tin cậy trong mô hình tin cậy bao gồm:",
+    "options": [
+      "Các phần mềm xác định  và thực hiện các yêu cầu an toàn của người dùng",
+      "Các phần mềm xác thực, cấp quyền và quản trị người dùng",
+      "Các phần mềm xác định và thực hiện các yêu cầu an toàn của hệ thống",
+      "Các phần mềm xác thực và cấp quyền người dùng"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 1",
+    "question": "Hệ điều hành -OS là :",
+    "options": [
+      "Một chương trình quản lý máy tính",
+      "Một chương trình quản lý các tài nguyên phần cứng và phần mềm của thiết bị tính toán",
+      "Một chương trình giữa phần cứng và phần mềm",
+      "Một chương trình chính cung cấp giao diện cho người dùng sử dụng hệ thống máy tính"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 1",
+    "question": "Các cơ chế an toàn không được ảnh hưởng tới người dùng theo nghĩa chúng phải:",
+    "options": [
+      "Đơn giản với người dùng quản trị",
+      "Trong suốt với người dùng quản trị",
+      "Trong suốt với người dùng bình thường",
+      "Đơn giản với người dùng bình thường"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 1",
+    "question": "Trong an toàn HĐH, tính sẵn dùng hạn chế các tài nguyên mà các chủ thể có thể sử dụng do các chủ thể này có thể...",
+    "options": [
+      "Làm cạn kiệt các tài nguyên hệ thống",
+      "Chiếm quyền kiểm soát hệ thống",
+      "Làm cạn kiệt các tài nguyên đó",
+      "Làm cạn kiệt các tài nguyên bộ nhớ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 1",
+    "question": "Các thuộc tính của bộ giám sát tham chiếu đảm bảo yêu cầu an toàn:",
+    "options": [
+      "Ngăn chặn một phần, chống phá hại, xác minh được",
+      "Ngăn chặn hoàn toàn, chống xâm nhập, xác minh được",
+      "Ngăn chặn một phần, xác minh được",
+      "Chống xâm nhập, xác minh được"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 1,
+    "chapter": "Chương 2",
+    "question": "Việc phân biệt các hoạt dộng của hệ điều hành và các hoạt động của chương trình người dùng thường khó khăn là do...",
+    "options": [
+      "Hệ điều hành cũng là 1 chương trình",
+      "Không phân biệt được hoạt động của hệ điều hành và chương trình người dùng",
+      "Hệ điều hành rất phức tạp và có quá nhiều thành phần",
+      "Có nhiều chương trình người dùng hoạt động"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 2",
+    "question": "Các lớp bảo vệ đặt ra các ranh giới chặt chẽ và các mô tả các ... được phép truy cập và các ... được phép thực hiện cho mỗi tiến trình hoạt động trong từng lớp",
+    "options": [
+      "Tài nguyên và thao tác",
+      "Tiến trình và thao tác",
+      "Chủ thể và thao tác",
+      "Tài nguyên và tiến trình"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 2",
+    "question": "Hỗ trợ từ phần cứng cho phép ... giữ hệ thống ảo hóa và bộ phận giám sát (hệ thống chủ) và cấp các thiết bị vào/ra một cách an toàn cho các hệ thống ảo hóa",
+    "options": [
+      "Trao đổi hiệu quả",
+      "Chuyển đổi hiệu quả",
+      "Trao đổi nhanh chóng",
+      "Chuyển đổi nhanh chóng"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 2",
+    "question": "Ảo hóa trong tính toán được xem là một hành động tạo ra ... của cái gì đó.",
+    "options": [
+      "Máy ảo",
+      "1 phiên bản ảo",
+      "Hệ thống ảo",
+      "Hệ thống tính toán ảo"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 2",
+    "question": "Phần cứng sẽ tiến hành kiểm tra khóa mỗi khi có tham chiếu bộ nhớ: Truy cập được phép chỉ khi khóa truy cập trùng với khóa tả đúng ... mà tiến trình người dùng mong muốn",
+    "options": [
+      "Thao tác",
+      "Đối tượng",
+      "Lệnh",
+      "File"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 2",
+    "question": "Trong hệ thống các lớp bảo vệ, các lớp ... dược bảo vệ chặt chẽ nhất vì trực tiếp truy cập/ sử dụng các tài nguyên quan trọng",
+    "options": [
+      "Lớp 1, 3",
+      "Lớp 2, 4",
+      "Lớp 0, 1",
+      "Lớp 1, 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 2",
+    "question": "Hệ điều hành cần phải phân biệt được các hoạt động của bản thân và các hoạt động của chương trình người dùng là do:",
+    "options": [
+      "Để đảm bảo hệ thống hoạt động ổn định và an toàn",
+      "Để đảm bảo hệ điều hành hoạt động ổn định và hiệu quả",
+      "Để đảm bảo chương trình người dùng hoạt động ổn định và hiệu quả",
+      "Để đảm bảo hệ điều hành và ứng dụng ổn định và an toàn"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 2",
+    "question": "Vào/ra không ánh xạ thường... tiến trình người dùng làm việc trực tiếp với các địa chỉ vật lý mà việc truy cập chỉ được kích hoạt từ hệ điều hành",
+    "options": [
+      "Cho phép",
+      "Cấp quyền cho",
+      "Không cho phép",
+      "Chỉ dẫn"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 2",
+    "question": "Các yêu cầu cơ bản với máy tính cho phép ảo hóa bao gồm",
+    "options": [
+      "Tính hiệu quả, Kiểm soát truy cập, Bình đẳng",
+      "Tính hiệu quả, Kiểm soát tài nguyên, Bình đẳng",
+      "Tính mềm dẻo, Kiểm soát truy cập, Bình đẳng",
+      "Tính mềm dẻo, Điều khiển truy cập, Bình đẳng."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 2",
+    "question": "Trong các hệ điều hành đa nhiệm, các chương trình người dùng chạy song song với nhau nên việc chuyển đổi ... của các chương trình cần được thực hiện một cách nhanh chóng và hiệu quả",
+    "options": [
+      "Bộ nhớ",
+      "Ngữ cảnh",
+      "Ngữ nghĩa",
+      "Môi trường"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 2",
+    "question": "Trường hợp phần cứng không hỗ trợ vào/ra, tiến trình người dùng cũng không thể sinh ra ... vào /ra mà không có sự can thiệp của hệ điều hành",
+    "options": [
+      "Các câu lệnh",
+      "Các truy vấn",
+      "Các yêu cầu",
+      "Các tính năng"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 2",
+    "question": "Ảo hóa (Virtualization) theo định nghĩa rộng là sự tách một tài nguyên hoặc một dịch vụ khỏi... dùng để cung cấp nó.",
+    "options": [
+      "Các máy chủ",
+      "Các hệ thống phần cứng",
+      "Các đám mây dịch vụ",
+      "Các phương tiện vật lý"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 2",
+    "question": "Yêu cầu bảo vệ bộ nhớ của hệ điều hành đòi hỏi các tiến trình người dùng cần được cách ly về không gian bộ nhớ với các tiến trình hệ thống và ....",
+    "options": [
+      "với nhau",
+      "với các dịch vụ",
+      "với nhân hệ điều hành",
+      "với tiến trình ngầm"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 2",
+    "question": "Việc thay đổi không gian thực thi của chương trình chỉ được thực hiện thông qua lời gọi hàm ... tới các mục hợp lệ được phép cho trước",
+    "options": [
+      "Call",
+      "API",
+      "System",
+      "Remote"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 2",
+    "question": "Trong mô hình các lớp bảo vệ, chủ thể có cấp độ ... thì không thể truy cập được tiếp đối tượng có cấp độ ...",
+    "options": [
+      "Cao và thấp hơn",
+      "Thấp và cao hơn",
+      "Thấp và thấp hơn",
+      "Cao hơn và thấp hơn"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 2",
+    "question": "Đâu là 1 phần mềm ảo hóa?",
+    "options": [
+      "ESSi",
+      "EXSi",
+      "ESXi",
+      "ESXn"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 2",
+    "question": "Vào/ra dựa trên ánh xạ trước cho phép phần mềm xác định địa chỉ bộ đệm ảo cho vào/ra bằng cách chuyển các địa chỉ ảo này thành địa chỉ vật lý của thiết bị vào ra sử dụng ... và ánh xạ các thanh ghi của tiến trình hiện thời",
+    "options": [
+      "Danh mục thiết bị",
+      "Bảng mô tả file",
+      "Bảng danh mục thiết bị",
+      "Bảng mô tả thiết bị"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 2",
+    "question": "Trong hệ thống các lớp bảo vệ, các tiến trình nằm ở các lớp ... có nhiều đạc quyền hơn nằm ở ...",
+    "options": [
+      "Lớp trong và lớp ngoài",
+      "Lớp ngoài và lớp nhân",
+      "Lớp ngoài và lớp trong",
+      "Lớp trong và lớp nhân"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 2",
+    "question": "Xung đột bộ nhớ giữa các tiến trình người dùng xảy ra khi một tiến trình cố gắng truy cập vào ... của tiến trình khác",
+    "options": [
+      "không gian mã lệnh",
+      "các đoạn mã",
+      "các dữ liệu",
+      "không gian bộ nhớ"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 2",
+    "question": "Một trong các ưu điểm của các có chế bảo vệ được thực hiện bằng phần cứng so với cơ chế bảo vệ được thực hiện bằng phần mềm là ...",
+    "options": [
+      "thực thi nhanh và cho hiệu quả cao hơn",
+      "thực thi nhanh và cho hiệu năng cao hơn",
+      "thực thi nhanh và mã ngắn hơn",
+      "mã chương trình ngắn hơn"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 2",
+    "question": "Phần cứng sẽ tiến hành kiểm tra khóa mỗi khi có tham chiếu bộ nhớ. Truy cập được phép chỉ khi khóa truy cập trùng với khóa mô tả đúng ... mà tiến trình người dùng mong muốn.",
+    "options": [
+      "file",
+      "đối tượng",
+      "lệnh",
+      "thao tác"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 2",
+    "question": "Ảo hóa phần cứng làm giảm sự can thiệp của ... trong việc xử lý các vấn đề quản lý việc chuyển không gian địa chỉ và đặc quyền",
+    "options": [
+      "Phần mềm chủ",
+      "Phần mềm khách",
+      "Hệ thống chủ",
+      "Hệ thống khách"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 2",
+    "question": "Các chương trình ứng dụng thường thuộc các lớp nào trong các lớp bảo vệ của hệ thống phân cấp không gia thực thi?",
+    "options": [
+      "Các lớp 0,1",
+      "Các lớp 3,4",
+      "Các lớp 1,2",
+      "Các lớp 0,2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 2",
+    "question": "Hệ điều hành cần phải giám sát và ngăn chặn mọi yêu cầu truy cập trái phép của một ... đến không gian bộ nhớ của một tiến trình khác",
+    "options": [
+      "Tiến trình ngầm",
+      "Tiến trình người dùng",
+      "Tiến trình hệ thống",
+      "Dịch vụ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 2",
+    "question": "Khi hệ thống phân cấp các tiến trình theo các lớp bảo vệ ( Chế độ hệ thống/ đặc quyền và chế độ người dùng) thì các tiến trình người dùng không được phép đọc ghi tùy tiện vào...",
+    "options": [
+      "Không gian nhớ của hệ thống",
+      "Không gian nhớ của tiến trình khác",
+      "Dữ liệu của hệ thống",
+      "Các file của hệ thống"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 2",
+    "question": "Phần cứng hỗ trợ ảo hóa giúp cải thiện ... của các phần mềm ảo hóa và nhờ vậy dễ được người dùng chấp nhận hơn",
+    "options": [
+      "Hiệu năng",
+      "Chất lượng",
+      "Tốc độ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 2",
+    "question": "Các tiến trình dịch vụ có thể trao đổi thông tin với nhau qua",
+    "options": [
+      "Các lênh giao tiếp cung cấp bởi các nền tảng CNTT",
+      "Các kênh được kiểm soát hỗ trợ bởi máy chủ dịch vụ",
+      "Các kênh giao tiếp tự phát triển",
+      "Các kênh được kiểm soát hỗ trợ bởi HDH"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 2",
+    "question": "Các cơ chế bảo vệ được thực hiện bằng phần cứng có các ưu điểm so với cơ chế bảo vệ được thực hiện bằng phần mềm do các cơ chế này:",
+    "options": [
+      "Hoạt động trong môi trường cô lập",
+      "Không bị tác động bỏi các phần mềm khác",
+      "Được hỗ trợ mạnh bởi các hãng phát triển",
+      "Miễn nhiễm với các loại mã độc"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 2",
+    "question": "Trong các hệ điều hành hiện nay: không gian nhớ của tiến trình được quản lý và cấp phát theo khối nhớ hay ... với kích cỡ hợp lý",
+    "options": [
+      "Đoạn",
+      "Phân",
+      "Mục",
+      "Trang"
+    ],
+    "answer": 3
+  }
+]

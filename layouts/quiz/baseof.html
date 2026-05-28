@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | Hệ Thống Trắc Nghiệm</title>
+    
+    <!-- Setup CSS variables tự động nhận diện Light/Dark Mode của máy -->
+    <style>
+        :root {
+            --bg-color: #f3f4f6;
+            --text-color: #1f2937;
+            --card-bg: #ffffff;
+            --card-border: #e5e7eb;
+            --text-muted: #6b7280;
+            --primary: #3b82f6;
+            --primary-hover: #2563eb;
+            --badge-bg: #edf2f7;
+            --badge-text: #4a5568;
+        }
+
+        /* Tự động chuyển màu nếu thiết bị user đang dùng Dark Mode */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0f172a;
+                --text-color: #f8fafc;
+                --card-bg: #1e293b;
+                --card-border: #334155;
+                --text-muted: #94a3b8;
+                --badge-bg: #334155;
+                --badge-text: #cbd5e1;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nơi này sẽ được lấp đầy bởi list.html hoặc single.html -->
+    {{ block "main" . }}{{ end }}
+</body>
+</html>

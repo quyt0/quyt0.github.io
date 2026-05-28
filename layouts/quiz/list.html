@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="quiz-dashboard" style="max-width: 1000px; margin: 40px auto; padding: 0 20px;">
+    
+    <header style="text-align: center; margin-bottom: 50px;">
+        <h1 style="font-size: 2.2rem; margin-bottom: 10px;">{{ .Title }}</h1>
+        <p style="color: var(--text-muted); font-size: 1.1rem;">{{ .Description }}</p>
+    </header>
+
+    <div class="subject-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px;">
+        
+        {{ range .Pages }}
+        <div class="subject-card" style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; padding: 25px; transition: transform 0.2s, border-color 0.2s;">
+            
+            <h3 style="margin-top: 0; font-size: 1.4rem;">{{ .Title }}</h3>
+            
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; min-height: 45px; margin: 15px 0;">
+                {{ .Summary | default "Chưa có mô tả cho môn học này." }}
+            </p>
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+                <span style="font-size: 0.85rem; background: var(--badge-bg); color: var(--badge-text); padding: 4px 10px; border-radius: 20px; font-weight: 500;">
+                    Trắc nghiệm
+                </span>
+                
+                <a href="{{ .Permalink }}" style="background: var(--primary); color: #ffffff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 0.95rem; font-weight: 500; transition: background 0.2s;">
+                    Vào thi →
+                </a>
+            </div>
+        </div>
+        {{ end }}
+
+    </div>
+</div>
+
+<style>
+    .subject-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary) !important;
+    }
+    .subject-card a:hover {
+        background: var(--primary-hover) !important;
+    }
+</style>
+{{ end }}

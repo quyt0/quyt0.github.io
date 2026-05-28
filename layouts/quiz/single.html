@@ -1,0 +1,667 @@
+{{ define "main" }}
+<div id="quiz-setup-container" style="max-width: 700px; margin: 50px auto; padding: 0 20px;">
+    <div style="text-align: center; margin-bottom: 40px; position: relative;">
+        <h1 style="font-size: 2.2rem; margin-bottom: 15px;">{{ .Title }}</h1>
+        <div style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.6;">{{ .Content }}</div>
+        
+        <button onclick="showHistory()" style="margin-top: 20px; padding: 8px 20px; background: var(--bg-color); color: var(--text-color); border: 1px solid var(--card-border); border-radius: 20px; font-size: 0.95rem; font-weight: 500; cursor: pointer; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            🕒 Xem lịch sử làm bài
+        </button>
+    </div>
+
+    <div style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 1.3rem; border-bottom: 1px solid var(--card-border); padding-bottom: 10px;">⚙️ Cấu hình bài làm</h3>
+        
+        <div style="margin-bottom: 25px;">
+            <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 15px; font-size: 1.1rem;">
+                <input type="radio" name="testMode" value="all" checked onchange="toggleChapterList(false)" style="margin-right: 10px; width: 18px; height: 18px;">
+                Làm tất cả các câu hỏi
+            </label>
+            <label style="display: flex; align-items: center; cursor: pointer; font-size: 1.1rem;">
+                <input type="radio" name="testMode" value="chapter" onchange="toggleChapterList(true)" style="margin-right: 10px; width: 18px; height: 18px;">
+                Chọn chương cụ thể để ôn
+            </label>
+        </div>
+
+        <div id="chapter-selection-box" style="display: none; background: var(--bg-color); border: 1px solid var(--card-border); border-radius: 8px; padding: 15px 20px; margin-bottom: 25px; max-height: 250px; overflow-y: auto;">
+            <p id="loading-text" style="color: var(--text-muted); margin: 0;">Đang tải dữ liệu chương...</p>
+            <div id="chapter-list"></div>
+        </div>
+
+        <div style="margin-bottom: 25px; padding-top: 20px; border-top: 1px solid var(--card-border);">
+            <h4 style="margin-top: 0; margin-bottom: 15px; font-size: 1.1rem;">Tùy chọn hiển thị</h4>
+            <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 12px;">
+                <input type="checkbox" id="shuffle-questions" checked style="margin-right: 10px; width: 16px; height: 16px;">Xáo trộn thứ tự câu hỏi
+            </label>
+            <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 25px;">
+                <input type="checkbox" id="shuffle-options" checked style="margin-right: 10px; width: 16px; height: 16px;">Xáo trộn thứ tự các đáp án
+            </label>
+
+            <h4 style="margin-top: 0; margin-bottom: 15px; font-size: 1.1rem;">Thời gian làm bài</h4>
+            <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 12px;">
+                <input type="radio" name="timeLimitMode" value="unlimited" checked onchange="toggleTimeInput(false)" style="margin-right: 10px; width: 16px; height: 16px;">Không giới hạn
+            </label>
+            <div style="display: flex; align-items: center;">
+                <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="radio" name="timeLimitMode" value="custom" onchange="toggleTimeInput(true)" style="margin-right: 10px; width: 16px; height: 16px;">Tùy chỉnh:
+                </label>
+                <input type="number" id="custom-time-minutes" min="1" value="45" disabled style="margin-left: 10px; width: 70px; padding: 6px; border: 1px solid var(--card-border); border-radius: 6px; background: var(--bg-color); color: var(--text-color);"> 
+                <span style="margin-left: 8px;">phút</span>
+            </div>
+        </div>
+
+        <button id="start-btn" onclick="startQuiz()" style="width: 100%; padding: 14px; background: var(--primary); color: #ffffff; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: background 0.2s;">
+            Bắt đầu thi 🚀
+        </button>
+    </div>
+</div>
+
+<div id="history-modal" onclick="closeHistory()" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center; backdrop-filter: blur(3px);">
+    <div onclick="event.stopPropagation()" style="background: var(--card-bg); width: 95%; max-width: 700px; max-height: 85vh; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: flex; flex-direction: column; overflow: hidden;">
+        <div style="padding: 20px; border-bottom: 1px solid var(--card-border); display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; font-size: 1.3rem;">🕒 Lịch sử làm bài</h3>
+            <button onclick="closeHistory()" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text-muted);">&times;</button>
+        </div>
+        <div style="padding: 0; overflow-y: auto; flex: 1;">
+            <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+                <thead style="background: var(--bg-color);">
+                    <tr>
+                        <th style="padding: 12px 15px; color: var(--text-muted); font-weight: 600; border-bottom: 1px solid var(--card-border);">Thời gian</th>
+                        <th style="padding: 12px 15px; color: var(--text-muted); font-weight: 600; border-bottom: 1px solid var(--card-border);">Điểm</th>
+                        <th style="padding: 12px 15px; color: var(--text-muted); font-weight: 600; border-bottom: 1px solid var(--card-border);">Thời lượng</th>
+                        <th style="padding: 12px 15px; color: var(--text-muted); font-weight: 600; border-bottom: 1px solid var(--card-border); text-align: right;">Hành động</th>
+                    </tr>
+                </thead>
+                <tbody id="history-tbody">
+                    </tbody>
+            </table>
+            <div id="history-empty" style="display: none; text-align: center; padding: 40px 20px; color: var(--text-muted);">
+                Chưa có dữ liệu lịch sử.<br>Anh em làm thử một bài đi!
+            </div>
+        </div>
+        <div style="padding: 15px 20px; border-top: 1px solid var(--card-border); text-align: right; background: var(--bg-color);">
+            <button onclick="clearHistory()" style="padding: 8px 16px; background: #e53e3e; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.9rem; transition: background 0.2s;">🗑 Xóa lịch sử</button>
+        </div>
+    </div>
+</div>
+
+<div id="quiz-play-container" style="display: none; max-width: 1200px; margin: 40px auto; padding: 0 20px;">
+    
+    <div style="position: sticky; top: 10px; background: var(--card-bg); border: 1px solid var(--card-border); padding: 15px 25px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); z-index: 100; margin-bottom: 30px;">
+        <h2 id="play-title" style="margin: 0; font-size: 1.2rem; display: flex; align-items: center; gap: 10px;">
+            📝 <span class="hide-on-mobile">{{ .Title }}</span>
+        </h2>
+        
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <div id="timer-display" style="font-size: 1.1rem; font-weight: bold; color: #e53e3e; background: #fff5f5; padding: 6px 12px; border-radius: 6px; display: none;">
+                ⏱ <span id="time-left">00:00</span>
+            </div>
+            <button id="submit-btn" onclick="submitQuiz()" style="padding: 8px 16px; background: #38a169; color: #ffffff; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background 0.2s; white-space: nowrap;">
+                Nộp Bài 📝
+            </button>
+            <button id="exit-review-btn" onclick="location.reload()" style="display: none; padding: 8px 16px; background: var(--bg-color); color: var(--text-color); border: 1px solid var(--card-border); border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer;">
+                ❌ Đóng
+            </button>
+        </div>
+    </div>
+
+    <div class="quiz-layout">
+        <div class="main-questions">
+            <div id="questions-container"></div>
+            
+            <div id="result-box" style="display: none; text-align: center; background: var(--card-bg); border: 2px solid #38a169; padding: 30px; border-radius: 12px; margin-bottom: 40px;">
+                <h2 id="result-title" style="margin-top: 0; color: #38a169;">Kết quả bài làm</h2>
+                <p style="font-size: 1.5rem; margin: 15px 0;">Đúng: <strong id="score-correct">0</strong> / <span id="score-total">0</span> câu</p>
+                <p id="result-subtitle" style="font-size: 1.1rem; color: var(--text-muted);">Cuộn lên để xem chi tiết những câu làm sai và đã bỏ qua.</p>
+                <button onclick="location.reload()" style="margin-top: 20px; padding: 10px 20px; background: var(--primary); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1rem;">🔄 Quay lại trang chủ</button>
+            </div>
+        </div>
+
+        <div class="sidebar-wrapper">
+            <div class="quiz-sidebar">
+                <h4 style="margin-top: 0; margin-bottom: 15px; font-size: 1.1rem; text-align: center; border-bottom: 1px solid var(--card-border); padding-bottom: 10px;">Bảng câu hỏi</h4>
+                
+                <div id="sidebar-grid" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 20px;"></div>
+                
+                <div id="sidebar-legends" style="font-size: 0.85rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 8px;">
+                    <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: var(--bg-color); border: 1px solid var(--card-border); border-radius: 3px;"></div> Chưa làm</div>
+                    <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: var(--primary); border-radius: 3px;"></div> Đã làm</div>
+                    <div style="display: flex; align-items: center; gap: 8px;"><span style="color: #d69e2e; font-weight: bold;">🚩</span> Đã gắn cờ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const pageTitle = "{{ .Title }}"; 
+    const HISTORY_KEY = 'hugo_quiz_history';
+    
+    let globalQuizData = [];
+    let currentSessionData = []; 
+    let timerInterval;
+    let flaggedQuestions = {};
+    let timeStarted = null; 
+
+    document.addEventListener("DOMContentLoaded", loadQuizData);
+
+    async function loadQuizData() {
+        try {
+            const response = await fetch('data.json');
+            if (!response.ok) throw new Error("Không tìm thấy file data.json");
+            globalQuizData = await response.json();
+            const chapters = [...new Set(globalQuizData.map(q => q.chapter))].filter(Boolean);
+            renderChapterList(chapters);
+        } catch (error) {
+            document.getElementById('loading-text').innerText = "❌ Lỗi: Không thể tải bộ câu hỏi.";
+        }
+    }
+
+    function renderChapterList(chapters) {
+        const listDiv = document.getElementById('chapter-list');
+        document.getElementById('loading-text').style.display = 'none';
+        listDiv.innerHTML = '';
+        if (chapters.length === 0) return;
+        chapters.forEach(chapter => {
+            listDiv.innerHTML += `
+                <label style="display: flex; align-items: center; padding: 8px 0; cursor: pointer; border-bottom: 1px solid var(--card-border);">
+                    <input type="checkbox" value="${chapter}" class="chapter-checkbox" style="margin-right: 10px;">${chapter}
+                </label>`;
+        });
+        if(listDiv.lastElementChild) listDiv.lastElementChild.style.borderBottom = 'none';
+    }
+
+    function toggleChapterList(show) { document.getElementById('chapter-selection-box').style.display = show ? 'block' : 'none'; }
+    function toggleTimeInput(show) {
+        const timeInput = document.getElementById('custom-time-minutes');
+        timeInput.disabled = !show;
+        if (show) timeInput.focus();
+    }
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+    // --- LOGIC BẮT ĐẦU THI ---
+    function startQuiz() {
+        const mode = document.querySelector('input[name="testMode"]:checked').value;
+        let selectedChapters = [];
+        if (mode === 'chapter') {
+            const checkboxes = document.querySelectorAll('.chapter-checkbox:checked');
+            selectedChapters = Array.from(checkboxes).map(cb => cb.value);
+            if (selectedChapters.length === 0) { alert("Bạn chưa chọn chương nào!"); return; }
+        }
+
+        const shuffleQs = document.getElementById('shuffle-questions').checked;
+        const shuffleOpts = document.getElementById('shuffle-options').checked;
+        const timeMode = document.querySelector('input[name="timeLimitMode"]:checked').value;
+        let timeMinutes = timeMode === 'custom' ? parseInt(document.getElementById('custom-time-minutes').value) : null;
+
+        document.getElementById('quiz-setup-container').style.display = 'none';
+        document.getElementById('quiz-play-container').style.display = 'block';
+        timeStarted = new Date();
+
+        buildQuizPlay(selectedChapters, shuffleQs, shuffleOpts, timeMinutes);
+    }
+
+    function buildQuizPlay(chapters, shuffleQs, shuffleOpts, timeMinutes) {
+        let filteredData = (chapters.length > 0) 
+            ? globalQuizData.filter(q => chapters.includes(q.chapter))
+            : [...globalQuizData];
+
+        if (shuffleQs) shuffleArray(filteredData);
+
+        currentSessionData = filteredData.map(q => {
+            let options = q.options.map((text, idx) => ({ text: text, isCorrect: (idx === q.answer) }));
+            if (shuffleOpts) shuffleArray(options);
+            return { ...q, processedOptions: options };
+        });
+
+        const container = document.getElementById('questions-container');
+        const sidebarGrid = document.getElementById('sidebar-grid');
+        let html = '';
+        let sidebarHtml = '';
+
+        currentSessionData.forEach((q, qIndex) => {
+            html += `
+            <div id="q-card-${qIndex}" class="q-card" style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 25px; border-radius: 12px; margin-bottom: 20px; scroll-margin-top: 100px;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; gap: 15px;">
+                    <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">
+                        <span style="color: var(--primary);">Câu ${qIndex + 1}:</span> ${q.question}
+                    </h3>
+                    <button type="button" id="flag-btn-${qIndex}" onclick="toggleFlag(${qIndex})" style="flex-shrink: 0; background: none; border: 1px solid var(--card-border); border-radius: 6px; padding: 6px 10px; cursor: pointer; color: var(--text-muted); font-size: 0.9rem; font-weight: 500; transition: all 0.2s;">
+                        🚩 <span class="hide-on-mobile">Gắn cờ</span>
+                    </button>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+            `;
+            
+            q.processedOptions.forEach((opt, oIndex) => {
+                const optId = `q${qIndex}_o${oIndex}`;
+                html += `
+                    <label id="label-${optId}" style="display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; background: var(--bg-color); border: 1px solid var(--card-border); border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+                        <div style="display: flex; align-items: flex-start; gap: 12px; flex: 1;">
+                            <input type="radio" name="question_${qIndex}" value="${opt.isCorrect}" id="${optId}" onchange="markAnswered(${qIndex})" style="margin-top: 4px;">
+                            <span style="line-height: 1.5; word-break: break-word;">${opt.text}</span>
+                        </div>
+                        <span id="result-badge-${optId}" style="margin-left: 15px; font-weight: 600; white-space: nowrap;"></span>
+                    </label>
+                `;
+            });
+            html += `</div></div>`;
+
+            sidebarHtml += `
+                <button id="nav-btn-${qIndex}" onclick="scrollToQuestion(${qIndex})" style="aspect-ratio: 1; border: 1px solid var(--card-border); background: var(--bg-color); color: var(--text-color); border-radius: 6px; font-size: 0.95rem; cursor: pointer; font-weight: 500; transition: all 0.2s; position: relative;">
+                    ${qIndex + 1}
+                    <span id="nav-flag-${qIndex}" style="display: none; position: absolute; top: -6px; right: -6px; font-size: 0.8rem;">🚩</span>
+                </button>
+            `;
+        });
+        
+        container.innerHTML = html;
+        sidebarGrid.innerHTML = sidebarHtml;
+
+        if (timeMinutes) {
+            const timerDisplay = document.getElementById('timer-display');
+            const timeLeftSpan = document.getElementById('time-left');
+            timerDisplay.style.display = 'block';
+            let timeRemaining = timeMinutes * 60;
+            updateTimeString(timeRemaining, timeLeftSpan);
+            timerInterval = setInterval(() => {
+                timeRemaining--;
+                updateTimeString(timeRemaining, timeLeftSpan);
+                if (timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    alert("⏳ Đã hết thời gian làm bài! Hệ thống tự động nộp bài.");
+                    forceSubmitQuiz();
+                }
+            }, 1000);
+        }
+    }
+
+    function updateTimeString(seconds, element) {
+        const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+        const s = (seconds % 60).toString().padStart(2, '0');
+        element.innerText = `${m}:${s}`;
+    }
+
+    function markAnswered(qIndex) {
+        const btn = document.getElementById(`nav-btn-${qIndex}`);
+        btn.style.background = 'var(--primary)';
+        btn.style.color = 'white';
+        btn.style.borderColor = 'var(--primary)';
+        
+        const radios = document.querySelectorAll(`input[name="question_${qIndex}"]`);
+        radios.forEach(r => {
+            r.parentElement.style.borderColor = 'var(--card-border)';
+            r.parentElement.style.background = 'var(--bg-color)';
+        });
+        const checkedRadio = document.querySelector(`input[name="question_${qIndex}"]:checked`);
+        if(checkedRadio) {
+            checkedRadio.parentElement.style.borderColor = 'var(--primary)';
+            checkedRadio.parentElement.style.background = 'var(--badge-bg)';
+        }
+    }
+
+    function toggleFlag(qIndex) {
+        flaggedQuestions[qIndex] = !flaggedQuestions[qIndex];
+        const btn = document.getElementById(`flag-btn-${qIndex}`);
+        const navFlag = document.getElementById(`nav-flag-${qIndex}`);
+        
+        if(flaggedQuestions[qIndex]) {
+            btn.style.background = '#fefcbf'; 
+            btn.style.borderColor = '#d69e2e';
+            btn.style.color = '#b7791f';
+            navFlag.style.display = 'block';
+        } else {
+            btn.style.background = 'none';
+            btn.style.borderColor = 'var(--card-border)';
+            btn.style.color = 'var(--text-muted)';
+            navFlag.style.display = 'none';
+        }
+    }
+
+    function scrollToQuestion(qIndex) {
+        document.getElementById(`q-card-${qIndex}`).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // --- CHẤM ĐIỂM ---
+    function submitQuiz() {
+        const total = currentSessionData.length;
+        let answeredCount = 0;
+        currentSessionData.forEach((q, qIndex) => {
+            if (document.querySelector(`input[name="question_${qIndex}"]:checked`)) answeredCount++;
+        });
+
+        const unansweredCount = total - answeredCount;
+        let confirmMsg = "Bạn đã kiểm tra kỹ chưa? Chắc chắn nộp bài chứ?";
+        if (unansweredCount > 0) {
+            confirmMsg = `⚠️ CẢNH BÁO!\n\nBạn còn ${unansweredCount}/${total} câu chưa làm!\nVẫn tiếp tục nộp bài?`;
+        }
+
+        if (!confirm(confirmMsg)) return; 
+        forceSubmitQuiz();
+    }
+
+    function forceSubmitQuiz() {
+        clearInterval(timerInterval);
+        document.getElementById('submit-btn').style.display = 'none';
+        
+        const timeEnded = new Date();
+        const diffSeconds = Math.floor((timeEnded - timeStarted) / 1000);
+        const diffMinutes = Math.floor(diffSeconds / 60);
+        const remainingSeconds = diffSeconds % 60;
+        const timeSpentStr = `${diffMinutes}p ${remainingSeconds}s`;
+
+        let correctCount = 0;
+        const total = currentSessionData.length;
+        let userSelections = {}; // Object lưu lại ID của đáp án user đã chọn
+
+        currentSessionData.forEach((q, qIndex) => {
+            const radios = document.querySelectorAll(`input[name="question_${qIndex}"]`);
+            let userSelectedValue = null;
+            let userSelectedId = null;
+            
+            radios.forEach(radio => {
+                radio.disabled = true;
+                if (radio.checked) {
+                    userSelectedValue = radio.value;
+                    userSelectedId = radio.id;
+                }
+            });
+            userSelections[qIndex] = userSelectedId;
+
+            radios.forEach(radio => {
+                const label = radio.parentElement;
+                const badge = document.getElementById(`result-badge-${radio.id}`);
+                const isCorrectOption = (radio.value === "true"); 
+                const isUserChoice = radio.checked;
+
+                if (isCorrectOption) {
+                    label.style.borderColor = '#38a169';
+                    label.style.background = '#f0fff4';
+                    
+                    if (isUserChoice) {
+                        badge.innerHTML = '✅ <span style="font-size: 0.85rem; color:#276749;">Đúng</span>';
+                        correctCount++;
+                        document.getElementById(`nav-btn-${qIndex}`).style.background = '#38a169';
+                        document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#38a169';
+                    } else if (userSelectedValue === null) {
+                        label.style.borderStyle = 'dashed';
+                        badge.innerHTML = '⚠️ <span style="font-size: 0.85rem; color:#d69e2e;">Bỏ qua</span>';
+                        document.getElementById(`nav-btn-${qIndex}`).style.background = '#cbd5e0';
+                        document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#cbd5e0';
+                        document.getElementById(`nav-btn-${qIndex}`).style.color = '#4a5568';
+                    } else {
+                        badge.innerHTML = '👈 <span style="font-size: 0.85rem; color:#276749;">Đáp án đúng</span>';
+                    }
+                } else if (isUserChoice) {
+                    label.style.borderColor = '#e53e3e';
+                    label.style.background = '#fff5f5';
+                    badge.innerHTML = '❌ <span style="font-size: 0.85rem; color:#c53030;">Sai</span>';
+                    document.getElementById(`nav-btn-${qIndex}`).style.background = '#e53e3e';
+                    document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#e53e3e';
+                    document.getElementById(`nav-btn-${qIndex}`).style.color = 'white';
+                }
+            });
+        });
+
+        document.getElementById('result-box').style.display = 'block';
+        document.getElementById('score-correct').innerText = correctCount;
+        document.getElementById('score-total').innerText = total;
+        
+        // Ghi lịch sử nâng cao (kèm câu hỏi và đáp án đã chọn)
+        saveHistory(correctCount, total, timeSpentStr, timeEnded, currentSessionData, userSelections);
+        document.getElementById('result-box').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // --- LOGIC LỊCH SỬ NÂNG CAO ---
+    function saveHistory(score, total, timeSpent, dateObj, sessionData, userAnswersMap) {
+        let history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+        
+        const record = {
+            id: Date.now(), // ID duy nhất để bấm vào xem lại
+            subject: pageTitle,
+            dateStr: dateObj.toLocaleString('vi-VN', { 
+                day: '2-digit', month: '2-digit', year: 'numeric', 
+                hour: '2-digit', minute: '2-digit' 
+            }),
+            score: score,
+            total: total,
+            timeSpent: timeSpent,
+            questions: sessionData,
+            userAnswers: userAnswersMap
+        };
+
+        history.unshift(record);
+        if (history.length > 30) history.pop();
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+    }
+
+    function showHistory() {
+        const modal = document.getElementById('history-modal');
+        const tbody = document.getElementById('history-tbody');
+        const emptyMsg = document.getElementById('history-empty');
+        
+        let history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+        let subjectHistory = history.filter(item => item.subject === pageTitle);
+
+        tbody.innerHTML = '';
+        if (subjectHistory.length === 0) {
+            emptyMsg.style.display = 'block';
+        } else {
+            emptyMsg.style.display = 'none';
+            subjectHistory.forEach(item => {
+                const percent = item.score / item.total;
+                const scoreColor = percent < 0.5 ? '#e53e3e' : '#38a169';
+
+                tbody.innerHTML += `
+                    <tr style="border-bottom: 1px solid var(--card-border);">
+                        <td style="padding: 12px 15px;">${item.dateStr}</td>
+                        <td style="padding: 12px 15px; font-weight: bold; color: ${scoreColor};">${item.score} / ${item.total}</td>
+                        <td style="padding: 12px 15px;">${item.timeSpent}</td>
+                        <td style="padding: 12px 15px; text-align: right;">
+                            <button onclick="reviewHistory(${item.id})" style="padding: 6px 12px; background: var(--primary); color: white; border: none; border-radius: 4px; font-size: 0.85rem; cursor: pointer;">👁️ Chi tiết</button>
+                        </td>
+                    </tr>
+                `;
+            });
+        }
+        modal.style.display = 'flex';
+    }
+
+    function closeHistory() {
+        document.getElementById('history-modal').style.display = 'none';
+    }
+
+    function clearHistory() {
+        if(confirm("Bạn có chắc chắn muốn xóa TOÀN BỘ lịch sử của môn này không?")) {
+            let history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+            let newHistory = history.filter(item => item.subject !== pageTitle);
+            localStorage.setItem(HISTORY_KEY, JSON.stringify(newHistory));
+            showHistory(); 
+        }
+    }
+
+    // --- CHẾ ĐỘ XEM LẠI BÀI (REVIEW MODE) ---
+    function reviewHistory(recordId) {
+        let history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+        let record = history.find(r => r.id === recordId);
+        if(!record) return;
+
+        closeHistory();
+        document.getElementById('quiz-setup-container').style.display = 'none';
+        document.getElementById('quiz-play-container').style.display = 'block';
+
+        // Giao diện Review: Ẩn timer, submit btn, đổi title
+        document.getElementById('timer-display').style.display = 'none';
+        document.getElementById('submit-btn').style.display = 'none';
+        document.getElementById('exit-review-btn').style.display = 'block';
+        document.getElementById('play-title').innerHTML = `📝 <span class="hide-on-mobile">Xem lại: ${record.dateStr}</span>`;
+
+        const container = document.getElementById('questions-container');
+        const sidebarGrid = document.getElementById('sidebar-grid');
+        
+        // Cập nhật chú thích Sidebar cho chế độ Review
+        document.getElementById('sidebar-legends').innerHTML = `
+            <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: #38a169; border-radius: 3px;"></div> Làm đúng</div>
+            <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: #e53e3e; border-radius: 3px;"></div> Làm sai</div>
+            <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: #cbd5e0; border-radius: 3px;"></div> Bỏ qua</div>
+        `;
+
+        let html = '';
+        let sidebarHtml = '';
+
+        // Dựng lại toàn bộ câu hỏi và đáp án dựa trên dữ liệu đã lưu
+        record.questions.forEach((q, qIndex) => {
+            html += `
+            <div id="q-card-${qIndex}" class="q-card" style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 25px; border-radius: 12px; margin-bottom: 20px; scroll-margin-top: 100px;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; gap: 15px;">
+                    <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">
+                        <span style="color: var(--primary);">Câu ${qIndex + 1}:</span> ${q.question}
+                    </h3>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+            `;
+            
+            let userSelectedId = record.userAnswers[qIndex];
+            
+            q.processedOptions.forEach((opt, oIndex) => {
+                const optId = `q${qIndex}_o${oIndex}`;
+                const isUserChoice = (optId === userSelectedId);
+                const isCorrectOption = opt.isCorrect;
+
+                let labelStyle = `display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; border-radius: 8px; border: 1px solid var(--card-border); background: var(--bg-color);`;
+                let badgeHtml = ``;
+
+                if (isCorrectOption) {
+                    labelStyle += `border-color: #38a169; background: #f0fff4;`;
+                    if (isUserChoice) {
+                        badgeHtml = `✅ <span style="font-size: 0.85rem; color:#276749;">Đúng</span>`;
+                    } else if (!userSelectedId) {
+                        labelStyle += `border-style: dashed;`;
+                        badgeHtml = `⚠️ <span style="font-size: 0.85rem; color:#d69e2e;">Bỏ qua</span>`;
+                    } else {
+                        badgeHtml = `👈 <span style="font-size: 0.85rem; color:#276749;">Đáp án đúng</span>`;
+                    }
+                } else if (isUserChoice) {
+                    labelStyle += `border-color: #e53e3e; background: #fff5f5;`;
+                    badgeHtml = `❌ <span style="font-size: 0.85rem; color:#c53030;">Sai</span>`;
+                }
+
+                html += `
+                    <label style="${labelStyle}">
+                        <div style="display: flex; align-items: flex-start; gap: 12px; flex: 1;">
+                            <input type="radio" disabled ${isUserChoice ? 'checked' : ''} style="margin-top: 4px;">
+                            <span style="line-height: 1.5; word-break: break-word;">${opt.text}</span>
+                        </div>
+                        <span style="margin-left: 15px; font-weight: 600; white-space: nowrap;">${badgeHtml}</span>
+                    </label>
+                `;
+            });
+            html += `</div></div>`;
+
+            // Màu Sidebar cho Review Mode
+            let btnBg = '#cbd5e0'; // Bỏ qua
+            let btnBorder = '#cbd5e0';
+            let btnColor = '#4a5568';
+            
+            if (userSelectedId) {
+                let selectedOptIndex = parseInt(userSelectedId.split('_o')[1]);
+                let isCorrect = q.processedOptions[selectedOptIndex].isCorrect;
+                if (isCorrect) {
+                    btnBg = '#38a169'; btnBorder = '#38a169'; btnColor = 'white'; // Đúng
+                } else {
+                    btnBg = '#e53e3e'; btnBorder = '#e53e3e'; btnColor = 'white'; // Sai
+                }
+            }
+            
+            sidebarHtml += `
+                <button onclick="scrollToQuestion(${qIndex})" style="aspect-ratio: 1; border: 1px solid ${btnBorder}; background: ${btnBg}; color: ${btnColor}; border-radius: 6px; font-size: 0.95rem; cursor: pointer; font-weight: 500; transition: all 0.2s;">
+                    ${qIndex + 1}
+                </button>
+            `;
+        });
+        
+        container.innerHTML = html;
+        sidebarGrid.innerHTML = sidebarHtml;
+
+        // Bật Bảng điểm kết quả
+        const resultBox = document.getElementById('result-box');
+        resultBox.style.display = 'block';
+        document.getElementById('result-title').innerText = `Kết quả (Làm lúc: ${record.dateStr})`;
+        document.getElementById('result-subtitle').innerText = `Thời gian làm bài: ${record.timeSpent}`;
+        document.getElementById('score-correct').innerText = record.score;
+        document.getElementById('score-total').innerText = record.total;
+    }
+</script>
+
+<div style="max-width: 900px; margin: 60px auto 40px auto; padding: 0 20px; border-top: 1px solid var(--card-border); padding-top: 40px;">
+    <h3 style="text-align: center; margin-bottom: 10px; font-size: 1.5rem;">💬 Thảo luận & Báo lỗi</h3>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">
+        Gặp câu hỏi sai hoặc đáp án không chuẩn? Hãy để lại bình luận để anh em cùng sửa nhé.
+    </p>
+    
+    <div style="background: var(--card-bg); padding: 20px; border-radius: 12px; border: 1px solid var(--card-border); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <script src="https://giscus.app/client.js"
+                data-repo="quyt0/quyt0.github.io"
+                data-repo-id="R_kgDOQ01j6w"
+                data-category="Announcements"
+                data-category-id="DIC_kwDOQ01j684C-Ab-"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="preferred_color_scheme"
+                data-lang="vi"
+                data-loading="lazy"
+                crossorigin="anonymous"
+                async>
+        </script>
+        </div>
+</div>
+
+<style>
+    #start-btn:hover { background: var(--primary-hover) !important; }
+    #submit-btn:hover { background: #2f855a !important; }
+    
+    .quiz-layout {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+    .main-questions {
+        flex: 1;
+        min-width: 0;
+        width: 100%;
+    }
+    .sidebar-wrapper {
+        width: 100%;
+    }
+    .quiz-sidebar {
+        background: var(--card-bg);
+        border: 1px solid var(--card-border);
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    }
+
+    @media (min-width: 900px) {
+        .quiz-layout {
+            flex-direction: row;
+        }
+        .sidebar-wrapper {
+            width: 280px;
+            position: sticky;
+            top: 90px; 
+        }
+    }
+    @media (max-width: 600px) {
+        .hide-on-mobile { display: none; }
+    }
+</style>
+{{ end }}
