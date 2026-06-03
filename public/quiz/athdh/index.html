@@ -286,10 +286,25 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
 
         if (shuffleQs) shuffleArray(filteredData);
 
+        
         currentSessionData = filteredData.map(q => {
-            let options = q.options.map((text, idx) => ({ text: text, isCorrect: (idx === q.answer) }));
+            
+            const isMSQ = Array.isArray(q.answer) || q.type === 'MSQ' || (q.questionType === 'MSQ');
+            let correctAnswers = [];
+            
+            if (Array.isArray(q.answer)) {
+                correctAnswers = q.answer;
+            } else if (typeof q.answer !== 'undefined') {
+                correctAnswers = [q.answer]; 
+            }
+
+            let options = q.options.map((text, idx) => ({ 
+                text: text, 
+                isCorrect: correctAnswers.includes(idx) 
+            }));
+            
             if (shuffleOpts) shuffleArray(options);
-            return { ...q, processedOptions: options };
+            return { ...q, isMSQ: isMSQ, processedOptions: options };
         });
 
         const container = document.getElementById('questions-container');
@@ -298,11 +313,15 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
         let sidebarHtml = '';
 
         currentSessionData.forEach((q, qIndex) => {
+            
+            const msqBadge = q.isMSQ ? `<span style="font-size: 0.75rem; background: var(--primary); color: white; padding: 3px 8px; border-radius: 12px; margin-left: 8px; vertical-align: middle; white-space: nowrap;">Nhiều đáp án</span>` : '';
+            const inputType = q.isMSQ ? 'checkbox' : 'radio';
+
             html += `
             <div id="q-card-${qIndex}" class="q-card" style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 25px; border-radius: 12px; margin-bottom: 20px; scroll-margin-top: 100px;">
                 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; gap: 15px;">
                     <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">
-                        <span style="color: var(--primary);">Câu ${qIndex + 1}:</span> ${q.question}
+                        <span style="color: var(--primary);">Câu ${qIndex + 1}:</span> ${q.question} ${msqBadge}
                     </h3>
                     <div style="display: flex; gap: 8px; flex-shrink: 0;">
                         <button type="button" onclick="reportErrorCopyAndScroll(this, ${qIndex})" style="background: none; border: 1px solid var(--card-border); border-radius: 6px; padding: 6px 10px; cursor: pointer; color: #e53e3e; font-size: 0.9rem; font-weight: 500; transition: all 0.2s;">
@@ -321,7 +340,7 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
                 html += `
                     <label style="display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; background: var(--bg-color); border: 1px solid var(--card-border); border-radius: 8px; cursor: pointer; transition: all 0.2s;">
                         <div style="display: flex; align-items: flex-start; gap: 12px; flex: 1;">
-                            <input type="radio" name="question_${qIndex}" value="${opt.isCorrect}" id="${optId}" onchange="markAnswered(${qIndex})" style="margin-top: 4px;">
+                            <input type="${inputType}" name="question_${qIndex}" value="${opt.isCorrect}" id="${optId}" onchange="markAnswered(${qIndex})" style="margin-top: 4px;">
                             <span style="line-height: 1.5; word-break: break-word;">${opt.text}</span>
                         </div>
                         <span id="result-badge-${optId}" style="margin-left: 15px; font-weight: 600; white-space: nowrap;"></span>
@@ -356,7 +375,6 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
 
         timerInterval = setInterval(() => {
             elapsedSeconds++;
-            
             if (timeRemaining !== null) {
                 timeRemaining--;
                 updateTimeString(timeRemaining, timeLeftSpan);
@@ -381,19 +399,27 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
 
     function markAnswered(qIndex) {
         const btn = document.getElementById(`nav-btn-${qIndex}`);
-        btn.style.background = 'var(--primary)';
-        btn.style.color = 'white';
-        btn.style.borderColor = 'var(--primary)';
-        
-        const radios = document.querySelectorAll(`input[name="question_${qIndex}"]`);
-        radios.forEach(r => {
+        const inputs = document.querySelectorAll(`input[name="question_${qIndex}"]`);
+        let hasChecked = false;
+
+        inputs.forEach(r => {
             r.parentElement.style.borderColor = 'var(--card-border)';
             r.parentElement.style.background = 'var(--bg-color)';
+            if(r.checked) {
+                hasChecked = true;
+                r.parentElement.style.borderColor = 'var(--primary)';
+                r.parentElement.style.background = 'var(--badge-bg)';
+            }
         });
-        const checkedRadio = document.querySelector(`input[name="question_${qIndex}"]:checked`);
-        if(checkedRadio) {
-            checkedRadio.parentElement.style.borderColor = 'var(--primary)';
-            checkedRadio.parentElement.style.background = 'var(--badge-bg)';
+        
+        if(hasChecked) {
+            btn.style.background = 'var(--primary)';
+            btn.style.color = 'white';
+            btn.style.borderColor = 'var(--primary)';
+        } else {
+            btn.style.background = 'var(--bg-color)';
+            btn.style.color = 'var(--text-color)';
+            btn.style.borderColor = 'var(--card-border)';
         }
     }
 
@@ -401,7 +427,6 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
         flaggedQuestions[qIndex] = !flaggedQuestions[qIndex];
         const btn = document.getElementById(`flag-btn-${qIndex}`);
         const navFlag = document.getElementById(`nav-flag-${qIndex}`);
-        
         if(flaggedQuestions[qIndex]) {
             btn.style.background = '#fefcbf'; btn.style.borderColor = '#d69e2e'; btn.style.color = '#b7791f';
             navFlag.style.display = 'block';
@@ -429,6 +454,7 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
         forceSubmitQuiz();
     }
 
+    
     function forceSubmitQuiz() {
         clearInterval(timerInterval);
         document.getElementById('submit-btn').style.display = 'none';
@@ -445,41 +471,67 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
         let userSelections = {}; 
 
         currentSessionData.forEach((q, qIndex) => {
-            const radios = document.querySelectorAll(`input[name="question_${qIndex}"]`);
-            let userSelectedValue = null;
-            let userSelectedId = null;
+            const inputs = document.querySelectorAll(`input[name="question_${qIndex}"]`);
+            let userSelectedIds = [];
+            let isFullyCorrect = true;
+            let hasSelection = false;
             
-            radios.forEach(radio => {
-                radio.disabled = true;
-                if (radio.checked) { userSelectedValue = radio.value; userSelectedId = radio.id; }
+            inputs.forEach(input => {
+                input.disabled = true;
+                if (input.checked) {
+                    userSelectedIds.push(input.id);
+                    hasSelection = true;
+                    
+                    if (input.value !== "true") isFullyCorrect = false; 
+                } else {
+                    
+                    if (input.value === "true") isFullyCorrect = false; 
+                }
             });
-            userSelections[qIndex] = userSelectedId;
 
-            radios.forEach(radio => {
-                const label = radio.parentElement;
-                const badge = document.getElementById(`result-badge-${radio.id}`);
-                const isCorrectOption = (radio.value === "true"); 
-                const isUserChoice = radio.checked;
+            
+            userSelections[qIndex] = userSelectedIds; 
+
+            
+            if (isFullyCorrect) {
+                correctCount++;
+                document.getElementById(`nav-btn-${qIndex}`).style.background = '#38a169';
+                document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#38a169';
+                document.getElementById(`nav-btn-${qIndex}`).style.color = 'white';
+            } else if (!hasSelection) {
+                document.getElementById(`nav-btn-${qIndex}`).style.background = '#cbd5e0';
+                document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#cbd5e0';
+                document.getElementById(`nav-btn-${qIndex}`).style.color = '#4a5568';
+            } else {
+                document.getElementById(`nav-btn-${qIndex}`).style.background = '#e53e3e';
+                document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#e53e3e';
+                document.getElementById(`nav-btn-${qIndex}`).style.color = 'white';
+            }
+
+            
+            inputs.forEach(input => {
+                const label = input.parentElement;
+                const badge = document.getElementById(`result-badge-${input.id}`);
+                const isCorrectOption = (input.value === "true"); 
+                const isUserChoice = input.checked;
 
                 if (isCorrectOption) {
-                    label.style.borderColor = '#38a169'; label.style.background = '#f0fff4';
+                    label.style.borderColor = '#38a169'; 
+                    label.style.background = '#f0fff4';
                     if (isUserChoice) {
-                        badge.innerHTML = '✅ <span style="font-size: 0.85rem; color:#276749;">Đúng</span>'; correctCount++;
-                        document.getElementById(`nav-btn-${qIndex}`).style.background = '#38a169';
-                        document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#38a169';
-                    } else if (userSelectedValue === null) {
+                        badge.innerHTML = '✅ <span style="font-size: 0.85rem; color:#276749;">Đúng</span>';
+                    } else if (!hasSelection) {
                         label.style.borderStyle = 'dashed';
                         badge.innerHTML = '⚠️ <span style="font-size: 0.85rem; color:#d69e2e;">Bỏ qua</span>';
-                        document.getElementById(`nav-btn-${qIndex}`).style.background = '#cbd5e0';
-                        document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#cbd5e0';
                     } else {
-                        badge.innerHTML = '👈 <span style="font-size: 0.85rem; color:#276749;">Đáp án đúng</span>';
+                        
+                        label.style.borderStyle = 'dashed';
+                        badge.innerHTML = '👈 <span style="font-size: 0.85rem; color:#276749;">Thiếu đáp án này</span>';
                     }
                 } else if (isUserChoice) {
-                    label.style.borderColor = '#e53e3e'; label.style.background = '#fff5f5';
+                    label.style.borderColor = '#e53e3e'; 
+                    label.style.background = '#fff5f5';
                     badge.innerHTML = '❌ <span style="font-size: 0.85rem; color:#c53030;">Sai</span>';
-                    document.getElementById(`nav-btn-${qIndex}`).style.background = '#e53e3e';
-                    document.getElementById(`nav-btn-${qIndex}`).style.borderColor = '#e53e3e';
                 }
             });
         });
@@ -542,32 +594,62 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
 
         const container = document.getElementById('questions-container');
         const sidebarGrid = document.getElementById('sidebar-grid');
-        document.getElementById('sidebar-legends').innerHTML = `<div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: #38a169; border-radius: 3px;"></div> Đúng</div><div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: #e53e3e; border-radius: 3px;"></div> Sai</div>`;
+        document.getElementById('sidebar-legends').innerHTML = `<div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: #38a169; border-radius: 3px;"></div> Đúng hoàn toàn</div><div style="display: flex; align-items: center; gap: 8px;"><div style="width: 14px; height: 14px; background: #e53e3e; border-radius: 3px;"></div> Sai / Thiếu</div>`;
 
         let html = ''; let sidebarHtml = '';
         record.questions.forEach((q, qIndex) => {
+            const msqBadge = q.isMSQ ? `<span style="font-size: 0.75rem; background: var(--primary); color: white; padding: 3px 8px; border-radius: 12px; margin-left: 8px; vertical-align: middle; white-space: nowrap;">Nhiều đáp án</span>` : '';
+            const inputType = q.isMSQ ? 'checkbox' : 'radio';
+
             html += `
             <div id="q-card-${qIndex}" class="q-card" style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 25px; border-radius: 12px; margin-bottom: 20px; scroll-margin-top: 100px;">
-                <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">Câu ${qIndex + 1}: ${q.question}</h3>
+                <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">Câu ${qIndex + 1}: ${q.question} ${msqBadge}</h3>
                 <div style="display: flex; flex-direction: column; gap: 10px; margin-top:15px;">`;
-            let userSelectedId = record.userAnswers[qIndex];
+            
+            
+            let savedAnswer = record.userAnswers[qIndex];
+            let userSelectedIds = [];
+            if (Array.isArray(savedAnswer)) {
+                userSelectedIds = savedAnswer;
+            } else if (savedAnswer) {
+                userSelectedIds = [savedAnswer];
+            }
+
+            let isFullyCorrect = true;
+            let hasSelection = userSelectedIds.length > 0;
+
             q.processedOptions.forEach((opt, oIndex) => {
                 const optId = `q${qIndex}_o${oIndex}`;
-                const isUserChoice = (optId === userSelectedId);
+                const isUserChoice = userSelectedIds.includes(optId);
+                
+                
+                if (isUserChoice && !opt.isCorrect) isFullyCorrect = false;
+                if (!isUserChoice && opt.isCorrect) isFullyCorrect = false;
+
                 let labelStyle = `display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; border-radius: 8px; border: 1px solid var(--card-border); background: var(--bg-color);`;
                 let badgeHtml = ``;
+
                 if (opt.isCorrect) {
                     labelStyle += `border-color: #38a169; background: #f0fff4;`;
-                    badgeHtml = isUserChoice ? `✅ Đúng` : (!userSelectedId ? `⚠️ Bỏ qua` : `👈 Đáp án đúng`);
+                    badgeHtml = isUserChoice ? `✅ Đúng` : (!hasSelection ? `⚠️ Bỏ qua` : `👈 Thiếu đáp án này`);
                 } else if (isUserChoice) {
                     labelStyle += `border-color: #e53e3e; background: #fff5f5;`; badgeHtml = `❌ Sai`;
                 }
-                html += `<label style="${labelStyle}"><div style="display: flex; align-items: flex-start; gap: 12px;"><input type="radio" disabled ${isUserChoice ? 'checked' : ''}><span>${opt.text}</span></div><span style="margin-left: 15px; font-weight:600;">${badgeHtml}</span></label>`;
+                html += `<label style="${labelStyle}"><div style="display: flex; align-items: flex-start; gap: 12px;"><input type="${inputType}" disabled ${isUserChoice ? 'checked' : ''} style="margin-top: 4px;"><span>${opt.text}</span></div><span style="margin-left: 15px; font-weight:600;">${badgeHtml}</span></label>`;
             });
             html += `</div></div>`;
-            let btnBg = '#cbd5e0'; if (userSelectedId) { let isCorrect = q.processedOptions[parseInt(userSelectedId.split('_o')[1])].isCorrect; btnBg = isCorrect ? '#38a169' : '#e53e3e'; }
-            sidebarHtml += `<button onclick="scrollToQuestion(${qIndex})" style="aspect-ratio: 1; border: none; background: ${btnBg}; color: white; border-radius: 6px; font-size: 0.95rem; cursor: pointer;">${qIndex + 1}</button>`;
+
+            let btnBg = '#cbd5e0'; let btnBorder = '#cbd5e0'; let btnColor = '#4a5568';
+            if (hasSelection) { 
+                if (isFullyCorrect) {
+                    btnBg = '#38a169'; btnBorder = '#38a169'; btnColor = 'white';
+                } else {
+                    btnBg = '#e53e3e'; btnBorder = '#e53e3e'; btnColor = 'white';
+                }
+            }
+            sidebarHtml += `<button onclick="scrollToQuestion(${qIndex})" style="aspect-ratio: 1; border: 1px solid ${btnBorder}; background: ${btnBg}; color: ${btnColor}; border-radius: 6px; font-size: 0.95rem; cursor: pointer;">${qIndex + 1}</button>`;
         });
+        
         container.innerHTML = html; sidebarGrid.innerHTML = sidebarHtml;
         document.getElementById('result-box').style.display = 'block';
         document.getElementById('score-correct').innerText = record.score; document.getElementById('score-total').innerText = record.total;
@@ -577,33 +659,23 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
         const q = currentSessionData[qIndex];
         const chapterName = q.chapter ? q.chapter : "Chưa phân chương";
         
-        
         const optionsList = q.processedOptions.map((opt, idx) => {
             const letter = String.fromCharCode(65 + idx); 
             return `> ${letter}. ${opt.text}`;
         }).join('\n');
 
-        
         const errorTemplate = `🚨 **Báo lỗi câu hỏi (${chapterName}):**\n> **Hỏi:** ${q.question}\n>\n> **Các đáp án:**\n${optionsList}\n\n**Chi tiết góp ý của tôi:** \n`;
         
         navigator.clipboard.writeText(errorTemplate).then(() => {
             const originalHTML = btnElement.innerHTML;
             btnElement.innerHTML = `✅ <span class="hide-on-mobile btn-text">Đã copy</span>`;
             btnElement.style.color = '#38a169';
-            
-            setTimeout(() => {
-                btnElement.innerHTML = originalHTML;
-                btnElement.style.color = '#e53e3e';
-            }, 2000);
+            setTimeout(() => { btnElement.innerHTML = originalHTML; btnElement.style.color = '#e53e3e'; }, 2000);
 
             const toast = document.getElementById('custom-toast');
-            toast.style.visibility = 'visible';
-            toast.style.opacity = '1';
-            toast.style.transform = 'translateX(-50%) translateY(0)';
-            
+            toast.style.visibility = 'visible'; toast.style.opacity = '1'; toast.style.transform = 'translateX(-50%) translateY(0)';
             setTimeout(() => {
-                toast.style.opacity = '0';
-                toast.style.transform = 'translateX(-50%) translateY(100px)';
+                toast.style.opacity = '0'; toast.style.transform = 'translateX(-50%) translateY(100px)';
                 setTimeout(() => toast.style.visibility = 'hidden', 400);
             }, 3000);
 
@@ -611,9 +683,7 @@ Vì thế anh em làm bài có vấn đề gì thì lướt xuống dưới cùn
             if (giscusSection) {
                 giscusSection.scrollIntoView({ behavior: 'smooth' });
                 giscusSection.style.boxShadow = '0 0 0 4px rgba(229, 62, 62, 0.4)';
-                setTimeout(() => {
-                    giscusSection.style.boxShadow = 'none';
-                }, 2000);
+                setTimeout(() => { giscusSection.style.boxShadow = 'none'; }, 2000);
             }
         });
     }
