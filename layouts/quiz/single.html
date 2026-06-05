@@ -464,23 +464,26 @@
 
                 if (isCorrectOption) {
                     label.style.borderColor = '#38a169'; 
-                    label.style.background = '#f0fff4';
+                    // FIX DARK MODE: Dùng rgba nền trong suốt 15%
+                    label.style.background = 'rgba(56, 161, 105, 0.15)'; 
+                    
                     if (isUserChoice) {
-                        badge.innerHTML = '✅ <span style="font-size: 0.85rem; color:#276749;">Đúng</span>';
+                        badge.innerHTML = '✅ <span style="font-size: 0.85rem; color:#38a169;">Đúng</span>';
                     } else if (!hasSelection) {
                         label.style.borderStyle = 'dashed';
+                        label.style.background = 'transparent';
                         badge.innerHTML = '⚠️ <span style="font-size: 0.85rem; color:#d69e2e;">Bỏ qua</span>';
                     } else {
-                        // FIX Ở ĐÂY: Tách riêng text cho MSQ và MCQ
                         label.style.borderStyle = 'dashed';
                         badge.innerHTML = q.isMSQ 
-                            ? '👈 <span style="font-size: 0.85rem; color:#276749;">Thiếu đáp án này</span>'
-                            : '👈 <span style="font-size: 0.85rem; color:#276749;">Đáp án đúng</span>';
+                            ? '👈 <span style="font-size: 0.85rem; color:#38a169;">Thiếu đáp án này</span>'
+                            : '👈 <span style="font-size: 0.85rem; color:#38a169;">Đáp án đúng</span>';
                     }
                 } else if (isUserChoice) {
                     label.style.borderColor = '#e53e3e'; 
-                    label.style.background = '#fff5f5';
-                    badge.innerHTML = '❌ <span style="font-size: 0.85rem; color:#c53030;">Sai</span>';
+                    // FIX DARK MODE: Dùng rgba nền trong suốt 15%
+                    label.style.background = 'rgba(229, 62, 62, 0.15)';
+                    badge.innerHTML = '❌ <span style="font-size: 0.85rem; color:#e53e3e;">Sai</span>';
                 }
             });
         });
@@ -577,21 +580,23 @@
                 let badgeHtml = ``;
 
                 if (opt.isCorrect) {
-                    labelStyle += `border-color: #38a169; background: #f0fff4;`;
+                    // FIX DARK MODE: Dùng rgba
+                    labelStyle += `border-color: #38a169; background: rgba(56, 161, 105, 0.15);`;
                     if (isUserChoice) {
-                        badgeHtml = `✅ Đúng`;
+                        badgeHtml = `<span style="color: #38a169;">✅ Đúng</span>`;
                     } else if (!hasSelection) {
-                        labelStyle += `border-style: dashed;`;
-                        badgeHtml = `⚠️ Bỏ qua`;
+                        labelStyle += `border-style: dashed; background: transparent;`;
+                        badgeHtml = `<span style="color: #d69e2e;">⚠️ Bỏ qua</span>`;
                     } else {
-                        // FIX Ở ĐÂY CHO MÀN HÌNH REVIEW
                         labelStyle += `border-style: dashed;`;
-                        badgeHtml = q.isMSQ ? `👈 Thiếu đáp án này` : `👈 Đáp án đúng`;
+                        badgeHtml = q.isMSQ ? `<span style="color: #38a169;">👈 Thiếu đáp án này</span>` : `<span style="color: #38a169;">👈 Đáp án đúng</span>`;
                     }
                 } else if (isUserChoice) {
-                    labelStyle += `border-color: #e53e3e; background: #fff5f5;`; badgeHtml = `❌ Sai`;
+                    // FIX DARK MODE: Dùng rgba
+                    labelStyle += `border-color: #e53e3e; background: rgba(229, 62, 62, 0.15);`; 
+                    badgeHtml = `<span style="color: #e53e3e;">❌ Sai</span>`;
                 }
-                html += `<label style="${labelStyle}"><div style="display: flex; align-items: flex-start; gap: 12px;"><input type="${inputType}" disabled ${isUserChoice ? 'checked' : ''} style="margin-top: 4px;"><span>${opt.text}</span></div><span style="margin-left: 15px; font-weight:600;">${badgeHtml}</span></label>`;
+                html += `<label style="${labelStyle}"><div style="display: flex; align-items: flex-start; gap: 12px;"><input type="${inputType}" disabled ${isUserChoice ? 'checked' : ''} style="margin-top: 4px;"><span>${opt.text}</span></div><span style="margin-left: 15px; font-weight:600; white-space: nowrap;">${badgeHtml}</span></label>`;
             });
             html += `</div></div>`;
 
