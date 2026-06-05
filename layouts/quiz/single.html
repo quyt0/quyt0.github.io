@@ -268,7 +268,8 @@
                     <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">
                         <span style="color: var(--primary);">Câu ${qIndex + 1}:</span> ${q.question} ${msqBadge}
                     </h3>
-                    <div style="display: flex; gap: 8px; flex-shrink: 0;">
+                    
+                    <div style="display: flex; gap: 8px; flex-shrink: 0; user-select: none; -webkit-user-select: none;">
                         <button type="button" onclick="reportErrorCopyAndScroll(this, ${qIndex})" style="background: none; border: 1px solid var(--card-border); border-radius: 6px; padding: 6px 10px; cursor: pointer; color: #e53e3e; font-size: 0.9rem; font-weight: 500; transition: all 0.2s;">
                             🐛 <span class="hide-on-mobile btn-text">Báo lỗi</span>
                         </button>
