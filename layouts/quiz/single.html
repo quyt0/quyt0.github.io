@@ -238,17 +238,12 @@
 
         if (shuffleQs) shuffleArray(filteredData);
 
-        // --- UPDATE: XỬ LÝ NHẬN DIỆN MSQ / MCQ ---
         currentSessionData = filteredData.map(q => {
-            // Kiểm tra xem answer có phải là mảng không
             const isMSQ = Array.isArray(q.answer) || q.type === 'MSQ' || (q.questionType === 'MSQ');
             let correctAnswers = [];
             
-            if (Array.isArray(q.answer)) {
-                correctAnswers = q.answer;
-            } else if (typeof q.answer !== 'undefined') {
-                correctAnswers = [q.answer]; // Ép kiểu về mảng cho dễ chấm
-            }
+            if (Array.isArray(q.answer)) correctAnswers = q.answer;
+            else if (typeof q.answer !== 'undefined') correctAnswers = [q.answer];
 
             let options = q.options.map((text, idx) => ({ 
                 text: text, 
@@ -261,11 +256,9 @@
 
         const container = document.getElementById('questions-container');
         const sidebarGrid = document.getElementById('sidebar-grid');
-        let html = '';
-        let sidebarHtml = '';
+        let html = ''; let sidebarHtml = '';
 
         currentSessionData.forEach((q, qIndex) => {
-            // Label nổi bật cho câu nhiều đáp án
             const msqBadge = q.isMSQ ? `<span style="font-size: 0.75rem; background: var(--primary); color: white; padding: 3px 8px; border-radius: 12px; margin-left: 8px; vertical-align: middle; white-space: nowrap;">Nhiều đáp án</span>` : '';
             const inputType = q.isMSQ ? 'checkbox' : 'radio';
 
@@ -284,19 +277,21 @@
                         </button>
                     </div>
                 </div>
-                <div style="display: flex; flex-direction: column; gap: 10px;">
+                <div style="display: block; margin-top: 15px;">
             `;
             
             q.processedOptions.forEach((opt, oIndex) => {
                 const optId = `q${qIndex}_o${oIndex}`;
                 html += `
-                    <label style="display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; background: var(--bg-color); border: 1px solid var(--card-border); border-radius: 8px; cursor: pointer; transition: all 0.2s;">
-                        <div style="display: flex; align-items: flex-start; gap: 12px; flex: 1;">
-                            <input type="${inputType}" name="question_${qIndex}" value="${opt.isCorrect}" id="${optId}" onchange="markAnswered(${qIndex})" style="margin-top: 4px;">
-                            <span style="line-height: 1.5; word-break: break-word;">${opt.text}</span>
-                        </div>
-                        <span id="result-badge-${optId}" style="margin-left: 15px; font-weight: 600; white-space: nowrap;"></span>
-                    </label>
+                    <div style="display: block; margin-bottom: 10px;">
+                        <label style="display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; background: var(--bg-color); border: 1px solid var(--card-border); border-radius: 8px; cursor: pointer; transition: all 0.2s; width: 100%; box-sizing: border-box;">
+                            <span style="display: inline-flex; align-items: flex-start; gap: 12px; flex: 1;">
+                                <input type="${inputType}" name="question_${qIndex}" value="${opt.isCorrect}" id="${optId}" onchange="markAnswered(${qIndex})" style="margin-top: 4px; flex-shrink: 0;">
+                                <span style="line-height: 1.5; word-break: break-word;">${opt.text}</span>
+                            </span>
+                            <span id="result-badge-${optId}" style="margin-left: 15px; font-weight: 600; white-space: nowrap;"></span>
+                        </label>
+                    </div>
                 `;
             });
             html += `</div></div>`;
@@ -309,27 +304,21 @@
             `;
         });
         
-        container.innerHTML = html;
-        sidebarGrid.innerHTML = sidebarHtml;
+        container.innerHTML = html; sidebarGrid.innerHTML = sidebarHtml;
 
         const timerDisplay = document.getElementById('timer-display');
         const timeLeftSpan = document.getElementById('time-left');
         timerDisplay.style.display = 'block'; 
         
-        let elapsedSeconds = 0;
-        let timeRemaining = timeMinutes ? timeMinutes * 60 : null;
+        let elapsedSeconds = 0; let timeRemaining = timeMinutes ? timeMinutes * 60 : null;
 
-        if (timeRemaining !== null) {
-            updateTimeString(timeRemaining, timeLeftSpan);
-        } else {
-            timeLeftSpan.innerHTML = `00:00 <span style="font-size: 0.8em; opacity: 0.6; font-weight: normal;">/ ∞</span>`;
-        }
+        if (timeRemaining !== null) updateTimeString(timeRemaining, timeLeftSpan);
+        else timeLeftSpan.innerHTML = `00:00 <span style="font-size: 0.8em; opacity: 0.6; font-weight: normal;">/ ∞</span>`;
 
         timerInterval = setInterval(() => {
             elapsedSeconds++;
             if (timeRemaining !== null) {
-                timeRemaining--;
-                updateTimeString(timeRemaining, timeLeftSpan);
+                timeRemaining--; updateTimeString(timeRemaining, timeLeftSpan);
                 if (timeRemaining <= 0) {
                     clearInterval(timerInterval);
                     alert("⏳ Đã hết thời gian làm bài! Hệ thống tự động nộp bài.");
@@ -418,21 +407,16 @@
         const remainingSeconds = diffSeconds % 60;
         const timeSpentStr = `${diffMinutes}p ${remainingSeconds}s`;
 
-        let correctCount = 0;
-        const total = currentSessionData.length;
-        let userSelections = {}; 
+        let correctCount = 0; const total = currentSessionData.length; let userSelections = {}; 
 
         currentSessionData.forEach((q, qIndex) => {
             const inputs = document.querySelectorAll(`input[name="question_${qIndex}"]`);
-            let userSelectedIds = [];
-            let isFullyCorrect = true;
-            let hasSelection = false;
+            let userSelectedIds = []; let isFullyCorrect = true; let hasSelection = false;
             
             inputs.forEach(input => {
                 input.disabled = true;
                 if (input.checked) {
-                    userSelectedIds.push(input.id);
-                    hasSelection = true;
+                    userSelectedIds.push(input.id); hasSelection = true;
                     if (input.value !== "true") isFullyCorrect = false; 
                 } else {
                     if (input.value === "true") isFullyCorrect = false; 
@@ -464,26 +448,23 @@
 
                 if (isCorrectOption) {
                     label.style.borderColor = '#38a169'; 
-                    // FIX DARK MODE: Dùng rgba nền trong suốt 15%
                     label.style.background = 'rgba(56, 161, 105, 0.15)'; 
                     
                     if (isUserChoice) {
-                        badge.innerHTML = '✅ <span style="font-size: 0.85rem; color:#38a169;">Đúng</span>';
+                        badge.innerHTML = '&nbsp; ✅ <span style="font-size: 0.85rem; color:#38a169;">Đúng</span>';
                     } else if (!hasSelection) {
-                        label.style.borderStyle = 'dashed';
-                        label.style.background = 'transparent';
-                        badge.innerHTML = '⚠️ <span style="font-size: 0.85rem; color:#d69e2e;">Bỏ qua</span>';
+                        label.style.borderStyle = 'dashed'; label.style.background = 'transparent';
+                        badge.innerHTML = '&nbsp; ⚠️ <span style="font-size: 0.85rem; color:#d69e2e;">Bỏ qua</span>';
                     } else {
                         label.style.borderStyle = 'dashed';
                         badge.innerHTML = q.isMSQ 
-                            ? '👈 <span style="font-size: 0.85rem; color:#38a169;">Thiếu đáp án này</span>'
-                            : '👈 <span style="font-size: 0.85rem; color:#38a169;">Đáp án đúng</span>';
+                            ? '&nbsp; 👈 <span style="font-size: 0.85rem; color:#38a169;">Thiếu đáp án này</span>'
+                            : '&nbsp; 👈 <span style="font-size: 0.85rem; color:#38a169;">Đáp án đúng</span>';
                     }
                 } else if (isUserChoice) {
                     label.style.borderColor = '#e53e3e'; 
-                    // FIX DARK MODE: Dùng rgba nền trong suốt 15%
                     label.style.background = 'rgba(229, 62, 62, 0.15)';
-                    badge.innerHTML = '❌ <span style="font-size: 0.85rem; color:#e53e3e;">Sai</span>';
+                    badge.innerHTML = '&nbsp; ❌ <span style="font-size: 0.85rem; color:#e53e3e;">Sai</span>';
                 }
             });
         });
@@ -556,18 +537,14 @@
             html += `
             <div id="q-card-${qIndex}" class="q-card" style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 25px; border-radius: 12px; margin-bottom: 20px; scroll-margin-top: 100px;">
                 <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">Câu ${qIndex + 1}: ${q.question} ${msqBadge}</h3>
-                <div style="display: flex; flex-direction: column; gap: 10px; margin-top:15px;">`;
+                <div style="display: block; margin-top:15px;">`;
             
             let savedAnswer = record.userAnswers[qIndex];
             let userSelectedIds = [];
-            if (Array.isArray(savedAnswer)) {
-                userSelectedIds = savedAnswer;
-            } else if (savedAnswer) {
-                userSelectedIds = [savedAnswer];
-            }
+            if (Array.isArray(savedAnswer)) userSelectedIds = savedAnswer;
+            else if (savedAnswer) userSelectedIds = [savedAnswer];
 
-            let isFullyCorrect = true;
-            let hasSelection = userSelectedIds.length > 0;
+            let isFullyCorrect = true; let hasSelection = userSelectedIds.length > 0;
 
             q.processedOptions.forEach((opt, oIndex) => {
                 const optId = `q${qIndex}_o${oIndex}`;
@@ -576,37 +553,42 @@
                 if (isUserChoice && !opt.isCorrect) isFullyCorrect = false;
                 if (!isUserChoice && opt.isCorrect) isFullyCorrect = false;
 
-                let labelStyle = `display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; border-radius: 8px; border: 1px solid var(--card-border); background: var(--bg-color);`;
+                let labelStyle = `display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; border-radius: 8px; border: 1px solid var(--card-border); background: var(--bg-color); width: 100%; box-sizing: border-box;`;
                 let badgeHtml = ``;
 
                 if (opt.isCorrect) {
-                    // FIX DARK MODE: Dùng rgba
                     labelStyle += `border-color: #38a169; background: rgba(56, 161, 105, 0.15);`;
                     if (isUserChoice) {
-                        badgeHtml = `<span style="color: #38a169;">✅ Đúng</span>`;
+                        badgeHtml = `&nbsp; <span style="color: #38a169;">✅ Đúng</span>`;
                     } else if (!hasSelection) {
                         labelStyle += `border-style: dashed; background: transparent;`;
-                        badgeHtml = `<span style="color: #d69e2e;">⚠️ Bỏ qua</span>`;
+                        badgeHtml = `&nbsp; <span style="color: #d69e2e;">⚠️ Bỏ qua</span>`;
                     } else {
                         labelStyle += `border-style: dashed;`;
-                        badgeHtml = q.isMSQ ? `<span style="color: #38a169;">👈 Thiếu đáp án này</span>` : `<span style="color: #38a169;">👈 Đáp án đúng</span>`;
+                        badgeHtml = q.isMSQ ? `&nbsp; <span style="color: #38a169;">👈 Thiếu đáp án này</span>` : `&nbsp; <span style="color: #38a169;">👈 Đáp án đúng</span>`;
                     }
                 } else if (isUserChoice) {
-                    // FIX DARK MODE: Dùng rgba
                     labelStyle += `border-color: #e53e3e; background: rgba(229, 62, 62, 0.15);`; 
-                    badgeHtml = `<span style="color: #e53e3e;">❌ Sai</span>`;
+                    badgeHtml = `&nbsp; <span style="color: #e53e3e;">❌ Sai</span>`;
                 }
-                html += `<label style="${labelStyle}"><div style="display: flex; align-items: flex-start; gap: 12px;"><input type="${inputType}" disabled ${isUserChoice ? 'checked' : ''} style="margin-top: 4px;"><span>${opt.text}</span></div><span style="margin-left: 15px; font-weight:600; white-space: nowrap;">${badgeHtml}</span></label>`;
+                
+                html += `
+                <div style="display: block; margin-bottom: 10px;">
+                    <label style="${labelStyle}">
+                        <span style="display: inline-flex; align-items: flex-start; gap: 12px; flex: 1;">
+                            <input type="${inputType}" disabled ${isUserChoice ? 'checked' : ''} style="margin-top: 4px; flex-shrink: 0;">
+                            <span style="line-height: 1.5; word-break: break-word;">${opt.text}</span>
+                        </span>
+                        <span style="margin-left: 15px; font-weight:600; white-space: nowrap;">${badgeHtml}</span>
+                    </label>
+                </div>`;
             });
             html += `</div></div>`;
 
             let btnBg = '#cbd5e0'; let btnBorder = '#cbd5e0'; let btnColor = '#4a5568';
             if (hasSelection) { 
-                if (isFullyCorrect) {
-                    btnBg = '#38a169'; btnBorder = '#38a169'; btnColor = 'white';
-                } else {
-                    btnBg = '#e53e3e'; btnBorder = '#e53e3e'; btnColor = 'white';
-                }
+                if (isFullyCorrect) { btnBg = '#38a169'; btnBorder = '#38a169'; btnColor = 'white'; } 
+                else { btnBg = '#e53e3e'; btnBorder = '#e53e3e'; btnColor = 'white'; }
             }
             sidebarHtml += `<button onclick="scrollToQuestion(${qIndex})" style="aspect-ratio: 1; border: 1px solid ${btnBorder}; background: ${btnBg}; color: ${btnColor}; border-radius: 6px; font-size: 0.95rem; cursor: pointer;">${qIndex + 1}</button>`;
         });
