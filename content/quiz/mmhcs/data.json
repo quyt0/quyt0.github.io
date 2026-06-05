@@ -1,0 +1,4290 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chương 1",
+    "question": "Mật mã học là một ngành khoa học chuyên nghiên cứu, áp dụng các phương pháp, .......nhằm che giấu, xử lý hoặc biến đổi thông tin thông thường thành dạng không đọc trực tiếp được là văn bản mã hóa.",
+    "options": [
+      "kỹ thuật, thuật toán",
+      "nền tảng",
+      "kỹ thuật, cơ chế",
+      "nghiên cứu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 1",
+    "question": "Thông điệp (plaintext): hay còn gọi là bản rõ là một dạng .........mà Người gửi muốn gửi tới Người nhận.",
+    "options": [
+      "thông tin",
+      "thông tin quan trọng",
+      "văn bản chứa thông điệp",
+      "văn bản có nội dung"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 1",
+    "question": "Mã hóa (encryption): quá trình ........ một thông điệp, che giấu nội dung thật sự của thông điệp để nội dung của thông điệp không bị lộ.",
+    "options": [
+      "mã hóa",
+      "cải trang",
+      "giải mã",
+      "che giấu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 1",
+    "question": "Bản mã (ciphertext): là kết quả của một thông điệp được .......",
+    "options": [
+      "bảo mật",
+      "che giấu",
+      "mã hóa",
+      "ẩn"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 1",
+    "question": "Thuật toán mã hóa (hay còn gọi là giải thuật mã hóa): là các phương pháp, mô hình toán học được ứng dụng trong quá trình ..........",
+    "options": [
+      "mã hóa thông tin",
+      "giải mã thông tin",
+      "che giấu thông tin",
+      "ẩn thông tin"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 1",
+    "question": "Thuật toán giải mã (hay còn gọi là giải thuật giải mã): là ......... toán học được ứng dụng trong quá trình giải mã thông tin.",
+    "options": [
+      "kỹ thuật, giải thuật",
+      "kỹ thuật, thuật toán, mô hình",
+      "cơ sở",
+      "phương pháp"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 1",
+    "question": "Khóa là công cụ được ứng dụng trong quá trình ......... Khóa có thế là một phần tử trong một tập giá trị nào đó, phạm vi các giá trị của khóa được gọi là không gian khóa. Khóa dùng để ........ có thể ..........., tùy theo từng phương pháp, kỹ thuật mã hóa sử dụng.",
+    "options": [
+      "nhận và gửi thông điệp / nhận và gửi thông điệp / giống và khác nhau",
+      "truyền tin / mã hóa / dùng 1 hay nhiều khóa",
+      "mã hóa và giải mã / mã hóa và giải mã / giống hoặc khác nhau",
+      "truyền tin / mã hóa / giống và khác nhau"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 1",
+    "question": "Chi phí yêu cầu cho việc phá mã ......... so với việc mã hóa thì thuật toán đó tương đối an toàn;",
+    "options": [
+      "lớn hơn",
+      "nhỏ hơn",
+      "ngang bằng",
+      "không cần bằng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 1",
+    "question": "Mã hóa dòng: là kiểu mã hóa mà ......... của thông điệp được kết hợp với .......... tương ứng của khóa để tạo thành bản mã.",
+    "options": [
+      "từng bit",
+      "từng khối",
+      "từng đoạn",
+      "từng trang"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 1",
+    "question": "Người gửi (sender) là ai?",
+    "options": [
+      "người chịu trách nhiệm gửi thông điệp cho các bên liên quan.",
+      "người chịu trách nhiệm gửi khóa mã cho các bên liên quan.",
+      "người chịu trách nhiệm gửi thông điệp được mã hóa cho các bên liên quan.",
+      "là người có quyền hợp pháp nhận được thông điệp."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 1",
+    "question": "Người nhận (Receiver) là ai?",
+    "options": [
+      "người nhận được thông điệp từ người gửi.",
+      "người có quyền hợp pháp nhận được thông điệp từ người gửi.",
+      "người có quyền hợp pháp nhận được thông điệp từ bất kỳ ai",
+      "bất kỳ ai"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 1",
+    "question": "Giải mã (decryption) là gì?",
+    "options": [
+      "quá trình chuyển đổi từ thông điệp thành nội dung",
+      "quá trình chuyển đổi từ bản mã sau khi mã hóa thành bản rõ",
+      "quá trình chuyển đổi từ mã hóa thành giải mã",
+      "quá trình chuyển đổi từ bản mã trở lại thông điệp ban đầu."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 1",
+    "question": "E(encrypt) là gì?",
+    "options": [
+      "hàm giải mã",
+      "hàm mã hóa",
+      "bản mã",
+      "bản rõ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 1",
+    "question": "D(decrypt) là gì?",
+    "options": [
+      "hàm giải mã",
+      "hàm mã hóa",
+      "bản mã",
+      "bản rõ"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 1",
+    "question": "Thám mã là gì?",
+    "options": [
+      "ngành khoa học khôi phục lại thông điệp.",
+      "quá trình khôi phục lại bản mã.",
+      "ngành khoa học khôi phục lại thông điệp mà không cần biết khóa.",
+      "quá trình khôi phục lại thông điệp mà không cần biết khóa."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 1",
+    "question": "Thám mã có thể chia thành mấy loại chính ?",
+    "options": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 1",
+    "question": "Phân loại mã hóa theo đặc trưng của khóa bao gồm :",
+    "options": [
+      "Mã khóa đối xứng",
+      "Mã khóa bất đối xứng",
+      "Mã dòng",
+      "Cả mã hóa đối xứng và bất đối xứng đều đúng"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 1",
+    "question": "Phân loại theo đặc trưng xử lý thông điệp bao gồm",
+    "options": [
+      "Mã khối",
+      "Mã bất đối xứng",
+      "Mã dòng",
+      "Cả mã khối và mã dòng"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 1",
+    "question": "Lựa chọn đúng định nghĩa về mã hóa khối",
+    "options": [
+      "Mã khối là kiểu mã hóa mà dữ liệu được chia thành từng khối có kích thước cố định để mã hóa",
+      "Mã khối là kiểu mã hóa mà toàn bộ dữ liệu được chia thành 1 khối để mã hóa",
+      "Mã khối là kiểu mã hóa mà dữ liệu được chia thành từng khối có kích thước không cố định để mã hóa",
+      "Tất cả đều đúng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 1",
+    "question": "Hiện nay thuật toán mã hóa nào không còn được áp dụng trong thực tế",
+    "options": [
+      "AES",
+      "RSA",
+      "Ceasar",
+      "SHA"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 1",
+    "question": "Phương pháp nào là mã hóa hiện đại",
+    "options": [
+      "Mã hóa đối xứng",
+      "Mã hóa bất đối xứng",
+      "Mã hóa thay thế",
+      "Cả mã hóa đối xứng và bất đối xứng đều đúng"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 1",
+    "question": "Mã dòng là một loại thuật toán mã hóa được dùng để",
+    "options": [
+      "Mã hóa toàn bộ văn bản",
+      "Mã hóa từng bit hoặc từng ký tự riêng lẻ trong văn bản",
+      "Mã hóa tập tin âm thanh",
+      "Mã khóa khối dữ liệu cố định"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 1",
+    "question": "Tính chất nào sau đây đảm bảo các bên liên quan nhận biết và tin tưởng nhau trong một hệ thống truyền tin, đồng thời đảm bảo thông tin trao đổi là thông tin thật",
+    "options": [
+      "Tính bí mật",
+      "Tính toàn vẹn",
+      "Tính xác thực",
+      "Tính sẵn sàng"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 1",
+    "question": "Thuật toán mã hóa khóa đối xứng còn gọi là gì",
+    "options": [
+      "Mã hóa công khai",
+      "Mã hóa bí mật",
+      "Mã hóa khối",
+      "Mã hóa không khóa"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 1",
+    "question": "Đâu là đặc điểm của mã hóa khóa đối xứng :",
+    "options": [
+      "Sử dụng nhiều khóa",
+      "Giữ khóa bí mật cẩn thận",
+      "Sử dụng khóa công khai cho toàn bộ mã hóa và giải mã",
+      "Sử dụng chung một khóa"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải là một trong những vai trò của mật mã ?",
+    "options": [
+      "Tính xác thực",
+      "Tính chối bỏ",
+      "Tính toàn vẹn",
+      "Tính sẵn sàng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 1",
+    "question": "Ứng dụng phổ biến của giải thuật mã hóa hiện nay ?",
+    "options": [
+      "Dịch vụ chứng thực",
+      "Mã hóa mật khẩu",
+      "Thẻ thông minh",
+      "IPsec"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 1",
+    "question": "Tính chất nào sau đây đảm bảo thông tin không bị thay đổi trong quá trình truyền tin hoặc nếu có thay đổi thì sẽ bị phát hiện :",
+    "options": [
+      "Tính toàn vẹn",
+      "Tính bí mật",
+      "Tính xác thực",
+      "Tính chống chối bỏ"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 1",
+    "question": "“Tất cả mọi người đều có thể biết được khóa công khai (kể cả hacker)” là tính chất đặc trưng của phương pháp mã hóa nào:",
+    "options": [
+      "Mã hóa dòng",
+      "Mã hóa bất đối xứng",
+      "Mã hóa đối xứng",
+      "Mã hóa khối"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 1",
+    "question": "Việc ứng dụng mật mã học nhằm đảm bảo bao nhiêu tính chất ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 1",
+    "question": "Đâu là mã hóa dòng ?",
+    "options": [
+      "DES/3DES",
+      "A5/1 , RC4",
+      "SHA",
+      "AES"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 1",
+    "question": "Đâu là một dịch vụ xác thực :",
+    "options": [
+      "SSL/TLS",
+      "điều khiển truy nhập, phân phối khóa",
+      "mã hóa tin nhắn",
+      "thẻ thông minh"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 1",
+    "question": "Độ mật hoàn thiện có nghĩa là gì trong ngữ cảnh bảo mật thông tin?",
+    "options": [
+      "Kẻ tấn công có thể thu được một số thông tin về thông điệp dựa trên bản mã.",
+      "Kẻ tấn công không thể thu được bất kỳ thông tin gì về thông điệp từ bản mã.",
+      "Kẻ tấn công có thể đoán đúng thông điệp với xác suất cao hơn nếu biết bản mã.",
+      "Kẻ tấn công cần biết cả bản mã và khóa để thu được thông tin về thông điệp."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 1",
+    "question": "Một hệ mật có độ mật hoàn thiện nếu",
+    "options": [
+      "P(x|y) = p(x)",
+      "X, y độc lập",
+      "Khi biết thông tin về y ta không thể thu được bất kỳ thông tin nào về x",
+      "Cả 3 đáp án trên"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 1",
+    "question": "Entropy lớn có ảnh hưởng như thế nào đến quá trình thám mã?",
+    "options": [
+      "Ảnh hưởng tích cực vì làm cho việc thám mã dễ dàng hơn.",
+      "Ảnh hưởng tiêu cực vì làm cho việc thám mã khó khăn hơn.",
+      "Không có ảnh hưởng gì đến quá trình thám mã.",
+      "Chỉ ảnh hưởng nếu kẻ tấn công biết trước một phần thông tin."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 1",
+    "question": "Entropy là đại lượng đo gì trong ngữ cảnh lý thuyết thông tin?",
+    "options": [
+      "Độ dễ hiểu của thông điệp.",
+      "Độ dài của thông điệp.",
+      "Độ bất định hay lượng thông tin của thông điệp.",
+      "Độ phức tạp của thuật toán mã hóa."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 1",
+    "question": "Nếu giá sử K là tập khóa, C là tập bản mã thì entropy có điều kiện H(K|C) gọi là gì:",
+    "options": [
+      "Độ phức tạp của thông điệp.",
+      "Độ dài của khóa.",
+      "Độ bảo mật của bản mã.",
+      "Độ bất định về khóa khi biết thông tin về bản mã."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 38,
+    "chapter": "Chương 1",
+    "question": "Entropy có điều kiện H(K|C) cho biết gì",
+    "options": [
+      "Độ khó của việc giải mã.",
+      "Lượng thông tin về khóa thu được từ bản mã.",
+      "Độ dài của khóa.",
+      "Mức độ phức tạp của thuật toán mã hóa."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 39,
+    "chapter": "Chương 1",
+    "question": "Nếu ký tự \"q\" thường kéo theo ký tự \"u\" trong tiếng Anh, điều này làm giảm entropy của ký tự nào?",
+    "options": [
+      "Ký tự \"q\"",
+      "Ký tự \"u\"",
+      "Cả hai ký tự \"q\" và \"u\"",
+      "Không ảnh hưởng đến entropy của cả hai ký tự"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 40,
+    "chapter": "Chương 1",
+    "question": "Trong thực tế kiểm nghiệm thì entropy trung bình của ký tự L(HL) nằm trong khoảng nào",
+    "options": [
+      "1<=HL<=1,5",
+      "0.5<=Hl<=1",
+      "1<=HL<=2",
+      "1,5<=HL<=2"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 41,
+    "chapter": "Chương 1",
+    "question": "Khoảng duy nhất của một hệ mật được định nghĩa là gì?",
+    "options": [
+      "Giá trị của n mà ứng với giá trị này, số thông điệp giả trung bình bằng 0.",
+      "Giá trị của n mà ứng với giá trị này, số khóa giả trung bình bằng 0.",
+      "Giá trị của n mà ứng với giá trị này, độ phức tạp của hệ mật đạt tối đa.",
+      "Giá trị của n mà ứng với giá trị này, tất cả các bản mã đều có cùng xác suất xuất hiện."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 42,
+    "chapter": "Chương 1",
+    "question": "Số khóa giả trung bình(n0) có nghĩa là:",
+    "options": [
+      "Độ dài trung bình cần thiết của bản mã để thám mã có thể tính toán khóa một cách duy nhất với thời gian đủ lớn.",
+      "Số lần trung bình cần thiết để tìm thấy khóa đúng trong quá trình thám mã.",
+      "Thời gian trung bình để thám mã phân tích và tìm ra khóa đúng.",
+      "Số lượng khóa giả được tạo ra trong quá trình mã hóa."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 43,
+    "chapter": "Chương 1",
+    "question": "Độ an toàn tính toán:",
+    "options": [
+      "Liên quan đến những nỗ lực tính toán cần thiết để phá một hệ mật",
+      "Cần ít nhất N-1 phép toán",
+      "Không có hạn chế nào được đặt ra về khối lượng tính toán",
+      "Là một chứng minh hoàn chỉnh về độ an toàn"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 44,
+    "chapter": "Chương 1",
+    "question": "x và y là các biến độc lập khi và chỉ khi",
+    "options": [
+      "p(x,y) = p(x/y)",
+      "p(x,y) = p(x)",
+      "p(x/y) = p(x)",
+      "p(x,y) = p(y)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 45,
+    "chapter": "Chương 1",
+    "question": "Thuật toán là:",
+    "options": [
+      "Một quy tắc để với những dữ liệu ban đầu đã cho, tìm được lời giải của bài toán được xét sau một khoảng thời gian hữu hạn",
+      "Một tập hơn các hướng dẫn để thực hiện công việc",
+      "Một thiết bị giải quyết vấn đề",
+      "Không có đáp án nào đúng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 46,
+    "chapter": "Chương 1",
+    "question": "Giả sử a và b là các số nguyên và m là một số nguyên dương. Khi đó viết a≡b(mod m) nếu a và b khi chia cho m có cùng số dư, tức là (a-b) chia hết cho m. Mệnh đề a≡b(mod m) được gọi là:",
+    "options": [
+      "b chia hết cho a",
+      "m là thương của a – b",
+      "a đồng dư với b theo mô-đun m",
+      "a được rút gọn theo modulo m"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 47,
+    "chapter": "Chương 1",
+    "question": "Điều nào sau đây không đúng",
+    "options": [
+      "Nếu nghịch đảo tồn tại thì phải là duy nhất",
+      "Nếu b = a^-1 thì a = b^-1",
+      "a có nghịch đảo theo mô-đun m khi và chỉ khi UCLN(a,m) = 1",
+      "Nếu m là số nguyên tố thì mọi phần tử của Zm có thể có nghịch đảo"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 48,
+    "chapter": "Chương 1",
+    "question": "Đẳng thức H(X,Y) ≤ H(X) + H(Y) xảy ra khi và chỉ khi:",
+    "options": [
+      "X và Y là các biến độc lập",
+      "X phụ thuộc vào Y",
+      "Y phụ thuộc vào X",
+      "Tất cả đều sai"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 49,
+    "chapter": "Chương 1",
+    "question": "Giả sử X và Y là hai biến ngẫu nhiên. Khi đó với giá trị xác định bất kỳ y của Y có một phân bố xác suất có điều kiện p(X|y). Rõ ràng là:",
+    "options": [
+      "H(X|y) = p(x|y)log2p(x|y)",
+      "H(X|y) = -∑_x〖 p(x|y)log_2⁡〖p(x|y)〗 〗",
+      "H(x) = -∑_x〖 p(x|y)log_2⁡〖p(x|y)〗〗",
+      "H(x|y) = p(x|y)log2p(x|y)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 1,
+    "chapter": "Chương 2",
+    "question": "Các thuật toán mã hóa đối xứng hiện đại có thể chia thành nhưng nhóm nào?",
+    "options": [
+      "Kỹ thuật mã hóa thay thế và kỹ thuật mã hóa hoán vị",
+      "Kỹ thuật mã hóa công khai và kỹ thuật mã hóa khóa đối xứng",
+      "Kỹ thuật mã hóa khối và kỹ thuật mã hóa dòng",
+      "Kỹ thuật mã hóa P và kỹ thuật mã hóa C"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 2",
+    "question": "Kỹ thuật mã hóa đối xứng cổ điển bao gồm những phương pháp nào?",
+    "options": [
+      "Kỹ thuật mã hóa khối và kỹ thuật mã hóa dòng",
+      "Kỹ thuật thay thế và kỹ thuật hoán vị",
+      "Kỹ thuật mã hóa công khai và kỹ thuật mã hóa đối xứng",
+      "Kỹ thuật mã hóa khóa công khai và kỹ thuật mã hóa khóa đối xứng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 2",
+    "question": "Trong mô hình mã hóa khóa đối xứng, E đại diện cho điều gì?",
+    "options": [
+      "Thuật toán giải mã",
+      "Tập các bản mã có thể",
+      "Thuật toán mã hóa",
+      "Tập các bản rõ có thể"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 2",
+    "question": "Mã hóa Caesar là gì?",
+    "options": [
+      "Thay thế mỗi chữ cái bằng chữ cái đứng sau nó k vị trí trong bảng chữ cái",
+      "Thay thế mỗi chữ cái bằng một số nguyên tương ứng",
+      "Sử dụng bảng 5x5 để mã hóa các cặp ký tự",
+      "Thay thế mỗi chữ cái bằng chữ cái đứng trước nó k vị trí trong bảng chữ cái"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 2",
+    "question": "Phương pháp mã hóa Playfair sử dụng đơn vị mã hóa là ?",
+    "options": [
+      "Một ký tự",
+      "Hai ký tự",
+      "Ba ký tự",
+      "Năm ký tự"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 2",
+    "question": "Phương pháp mã hóa Hill yêu cầu sử dụng gì để giải mã thông điệp?",
+    "options": [
+      "Ma trận nghịch đảo của ma trận khóa",
+      "Bảng chữ cái thay thế",
+      "Ma trận khóa",
+      "Ma trận đồng dạng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 2",
+    "question": "Mã hóa Vigenere sử dụng bao nhiêu bảng thế?",
+    "options": [
+      "1",
+      "10",
+      "26",
+      "52"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 2",
+    "question": "Phương pháp One Time Pad được xem là an toàn tuyệt đối vì ?",
+    "options": [
+      "Sử dụng bảng 5x5 để mã hóa",
+      "Mỗi khóa chỉ sử dụng một lần và có chiều dài bằng thông điệp",
+      "Sử dụng ma trận để mã hóa",
+      "Sử dụng 26 bảng thế khác nhau"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 2",
+    "question": "Tại sao phương pháp mã hóa Caesar không được xem là an toàn ngày nay?",
+    "options": [
+      "Vì khóa được sử dụng quá phức tạp",
+      "Vì có thể dễ dàng bị phá mã bằng tấn công vét cạn",
+      "Vì phương pháp này không sử dụng phép toán modulo",
+      "Vì chỉ có thể mã hóa ký tự chữ cái"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 2",
+    "question": "Tại sao phương pháp mã hóa Playfair được coi là an toàn hơn so với phương pháp mã hóa đơn bảng",
+    "options": [
+      "Vì sử dụng ma trận 5x5 để mã hóa ký tự",
+      "Vì mã hóa mỗi ký tự thành hai ký tự khác",
+      "Vì mã hóa cặp ký tự thay vì từng ký tự riêng lẻ",
+      "Vì sử dụng bảng chữ cái có thêm ký tự số"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 2",
+    "question": "Phương pháp mã hóa Hill sử dụng một ma trận để mã hóa __ ký tự thông điệp cùng lúc",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Nhiều"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 2",
+    "question": "Thuật toán DES/3DES là mã hóa đối xứng mã khối sử dụng mô hình gì ?",
+    "options": [
+      "Mô hình Feistel",
+      "Mô hình SPN ( Subsitution-Permuatation Network -SPN)",
+      "Mô hình tuyến tính",
+      "Mô hình mạng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 2",
+    "question": "Câu nào trong đấy đúng về kích thước khối ?",
+    "options": [
+      "Kích thước khối lớn hơn là bảo mật cao hơn và tăng lên tốc độ mã hóa/giải mã",
+      "Kích thước khối lớn hơn là bảo mật cao hơn nhưng giảm đi tốc độ mã hóa / giải mã ."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 2",
+    "question": "Câu nào trong dây đúng về kích thước khóa ?",
+    "options": [
+      "Kích thước lớn hơn có nghĩa là an toàn hơn nhưng có thể làm giảm tốc độ mã hóa / giải mã",
+      "Kích thước khối lớn hơn là bảo mật cao hơn nhưng tăng lên tốc độ mã hóa / giải mã .",
+      "Kích thước khối lớn hơn là bảo mật cao hơn và không thay đổi thời gian về tốc độ mã hóa / giải mã .",
+      "Kích thước khối lớn hơn là bảo mật cao hơn và biến động thời gian về tốc độ mã hóa / giải mã ."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 2",
+    "question": "Thực tế kích thước khóa 64 bit hoặc ít hơn được người nhiều người xem là ……… và 128 bit trở thành một kích thước khóa thông thường",
+    "options": [
+      "An toàn",
+      "Rất an toàn",
+      "Có thể chấp nhận",
+      "Không đủ an toàn"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 2",
+    "question": "Hai mối quan tâm trong việc thiết kế mã hóa Feistel",
+    "options": [
+      "Tốc độ phần mềm mã hóa / giải mã và Dễ dàng trong việc phân tích",
+      "Độ phức tạp của thuật toán và Khả năng mở rộng khóa",
+      "Độ an toàn của thuật toán và Khả năng chống lại các cuộc tấn công lượng tử",
+      "Khả năng tích hợp với các hệ thống hiện có và Mức tiêu thụ năng lượng thấp"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 2",
+    "question": "Mã hóa Des có kích thước khối là",
+    "options": [
+      "128",
+      "256",
+      "192",
+      "64"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 2",
+    "question": "Mã hóa Des có kích thước khóa là ….. trong đó có ….. bit chẵn lẻ và …. Bit sử dụng để mã hóa .",
+    "options": [
+      "64 ,10, 54",
+      "64 , 8, 56",
+      "64, 56, 8",
+      "64, 6, 58"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 2",
+    "question": "Mỗi vòng của DES dùng khóa con có kích thước …. Bit .",
+    "options": [
+      "56",
+      "64",
+      "48",
+      "24"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 2",
+    "question": "Des thuộc hệ mã Feistel gồm bao nhiêu vòng",
+    "options": [
+      "20",
+      "16",
+      "24",
+      "18"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 2",
+    "question": "Sơ đồ mã hóa DES gồm 3 phần",
+    "options": [
+      "P1: Hoán vị khởi tạo, hoán vị kết thúc; P2: Các vòng Feistel; P3: Thuật toán sinh khóa",
+      "P1: Mã hóa dòng; P2: Mã hóa khối; P3: Hoán vị dữ liệu",
+      "P1: Mã hóa dòng; P2: Mã hóa khối; P3: Hoán vị dữ liệu",
+      "P1: Thuật toán mở rộng khóa; P2: Vòng lặp mã hóa; P3: Hoán vị dữ liệu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 2",
+    "question": "Hoán vị kết thúc là gì của hoán vị khởi tạo",
+    "options": [
+      ".là hoán vị chuyển đạo",
+      "là hoán vị nghịch đảo",
+      "là hoán vị chuyển dịch",
+      "là hoán vị chuyển đổi"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 2",
+    "question": "Trong vòng DES , hàm Expand(mở rông) thực hiện hóa vị và mở rộng từ ….lên ….. bit",
+    "options": [
+      "24 , 28",
+      "32 , 48",
+      "24 , 32",
+      "32 ,64"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 2",
+    "question": "Trong vòng DES , hàm S-boxes của DES biến đổi một số …. Bit thành ….. bit",
+    "options": [
+      "48 , 32",
+      "32 , 48",
+      "48 , 56",
+      "56, 48"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 2",
+    "question": "Mỗi hàm S-box là phép thay thế Substitution . Các hàm S-box con không …………. Và hàm S-box cũng không ……",
+    "options": [
+      "Khả nghịch",
+      "Khả chuyển",
+      "Chuyển dịch",
+      "Khả dịch"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 2",
+    "question": "P-box là thực hiện hoán vị bao nhiêu ….. bit",
+    "options": [
+      "64 bit",
+      "48 bit",
+      "32 bit",
+      "56 bit"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 2",
+    "question": "Thuật toán sinh khóa con từng vòng mã hóa DES . Khóa K ban đầu 64 bit được rút trích và hoán vị thành một khóa …. Bit < theo quy tắc nén khóa >.",
+    "options": [
+      "56 bit",
+      "64 bit",
+      "48 bit",
+      "32 bit"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 2",
+    "question": "Đáp án nào sau đây đúng .",
+    "options": [
+      "Hàm S-boxes được chia thành 8 hàm S-box con, mỗi hàm biến đổi số 5 bit thành số 4 bit.",
+      "Hàm S-boxes được chia thành 8 hàm S-box con, mỗi hàm biến đổi số 6 bit thành số 4 bit.",
+      "Hàm S-boxes được chia thành 8 hàm S-box con, mỗi hàm biến đổi số 3 bit thành số 4 bit.",
+      "A. Hàm S-boxes được chia thành 8 hàm S-box con, mỗi hàm biến đổi số 8 bit thành số 4 bit."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 2",
+    "question": "Trong thuật toán sinh khóa , sau khi được nén khóa. Khóa chia thành 2 nửa KLo và RLo và mỗi nửa có kích thước ….. bit .",
+    "options": [
+      "28",
+      "24",
+      "21",
+      "22"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 2",
+    "question": "Khóa 56 bit này được chia thành 2 nửa trái phải KL0 và KR0 , mỗi nửa có kích thước 28 bit. Tại vòng thứ i (i = 1, 2, 3,…,16), KLi-1 và KRi-1 được dịch vòng trái ri bit để có được KLi và KRi",
+    "options": [
+      "Ri =1 tại vòng 1,2,10, 16 và Ri = 2 là các vòng còn lại .",
+      "Ri =1 tại vòng 1,2,9, 16 và Ri = 2 là các vòng còn lại .",
+      "Ri =1 tại vòng 1,2,11, 16 và Ri = 2 là các vòng còn lại .",
+      "Ri =1 tại vòng 1,3,9, 16 và Ri = 2 là các vòng còn lại ."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 2",
+    "question": "Để thám mã DES ta sử dụng tấn công vét cạn khóa (Brute Force Attack) cần kiểm tra bao nhiêu khóa khác nhau .",
+    "options": [
+      "2 ^64 khóa khác nhau.",
+      ". 2 ^48 khóa khác nhau.",
+      ".. 2 ^56 khóa khác nhau.",
+      "2 ^020903 khóa khác nhau."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 2",
+    "question": "Để thám mã DES ta sử dụng Phương pháp vi sai (differential cryptanalysis):cần kiểm tra bao nhiêu khóa khác nhau :",
+    "options": [
+      "2^111020903 cặp thông điệp - bản mã được lựa chọn (chosen-plaintext)",
+      ". 2^45cặp thông điệp - bản mã được lựa chọn (chosen-plaintext)",
+      "2^46 cặp thông điệp - bản mã được lựa chọn (chosen-plaintext)",
+      "2^47 cặp thông điệp - bản mã được lựa chọn (chosen-plaintext)"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 2",
+    "question": "Để thám mã DES ta sử dụng Phương pháp thử tuyến tính (linear cryptanalysis): cần kiểm tra bao nhiêu khóa khác nhau :",
+    "options": [
+      "Biết trước 2^45 cặp thông điệp-bản mã.",
+      "Biết trước 2^44 cặp thông điệp-bản mã.",
+      "Biết trước 2^43 cặp thông điệp-bản mã.",
+      "Biết trước 2^46 cặp thông điệp-bản mã."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 2",
+    "question": "Công thức sau nào sau đây mô tả quy trình mã hóa của thuật toán Double DES.",
+    "options": [
+      "C = E(D(E(P,K1),K2),K1)",
+      "C = E(D(E(P,K1),K2), K3)",
+      "C = E(E(P,K1),K3,K2)",
+      "D. C = E(E(P,K1),K2)"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 2",
+    "question": "Công thức sau nào sau đây mô tả quy trình mã hóa của thuật toán Triple DES với 2 khóa .",
+    "options": [
+      "C = E(D(E(P,K1),K2),K1)",
+      "C = E(D(E(P,K1),K2), K3)",
+      "C = E(E(P,K1),K3)",
+      "C = E(E(P,K1),K2)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 2",
+    "question": "Công thức sau nào sau đây mô tả quy trình mã hóa của thuật toán Tripple DES với 3 khóa .",
+    "options": [
+      "C = E(D(E(P,K1),K2),K1)",
+      "C = E(D(E(P,K1),K2), K3)",
+      "C = E(E(P,K1),K3)",
+      "C = E(E(P,K1),K2)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 2",
+    "question": "Việc dùng thuật toán Tripple DES với 3 khóa giống nhau thì Tripple DES sẽ suy giảm thành gì .",
+    "options": [
+      "Double DES",
+      "Vẫn là Tripple DES là cái gì giờ",
+      "Hiện tượng thuật toán lỗi .",
+      "DES"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 38,
+    "chapter": "Chương 2",
+    "question": "Tripple Des có mấy cách lựa chọn khóa",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 39,
+    "chapter": "Chương 2",
+    "question": "Cơ chế mã hóa của AES là gì ?",
+    "options": [
+      "Feistel",
+      "SPN (Substitution-Permuation-Network)",
+      "Mạng tuyến tính",
+      "Mạng hoán vị"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 40,
+    "chapter": "Chương 2",
+    "question": "Trong SPN ,tính khuyếch tán được dựa vào sử dụng",
+    "options": [
+      "P-box",
+      "S-box",
+      "P-box và S-box",
+      "IS-box"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 41,
+    "chapter": "Chương 2",
+    "question": "Trong SPN , tính gây lẫn dựa vào sử dụng .",
+    "options": [
+      "P-box",
+      "S-box",
+      "P-box và S-box",
+      "IS-box"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 42,
+    "chapter": "Chương 2",
+    "question": "AES là một mã khối, nhưng khác với các mã khối khác được biết đến trước đây (DES, IDEA,…)",
+    "options": [
+      "AES không được biểu diễn dưới dạng một mảng các byte hay các bit mà được biểu diễn dưới dạng một ma trận 4xNb và được gọi là mảng trạng thái (state). Trong AES Nb luôn bằng 4 .",
+      "AES không được biểu diễn dưới dạng một mảng các byte hay các bit mà được biểu diễn dưới dạng một ma trận 4xNb và được gọi là mảng trạng thái (state). Trong AES Nb luôn bằng 6 .",
+      "AES không được biểu diễn dưới dạng một mảng các byte hay các bit mà được biểu diễn dưới dạng một ma trận 4xNb và được gọi là mảng trạng thái (state). Trong AES Nb luôn bằng 8 .",
+      "AES không được biểu diễn dưới dạng một mảng các byte hay các bit mà được biểu diễn dưới dạng một ma trận 4xNb và được gọi là mảng trạng thái (state). Trong AES Nb luôn bằng 10 ."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 43,
+    "chapter": "Chương 2",
+    "question": "Thuật toán Rijndael không được biểu diễn dưới dạng một mảng các byte hay các bit mà được biểu diễn dưới dạng một ma trận 4xNb và được gọi là mảng trạng thái (state). hỗ trợ ba giá trị của Nb là 4, 6, 8 tương ứng với kích thước khối là :",
+    "options": [
+      "128 , 192 , 251",
+      "128 , 192,256",
+      "129 , 134 ,20903",
+      ". 20903 , 111, 111"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 44,
+    "chapter": "Chương 2",
+    "question": "Dữ liệu đầu vào được đọc vào ma trận trạng thái theo nguyên tắc :",
+    "options": [
+      "theo từng cột, theo thứ tự từ trái qua phải,từ trên xuống dưới",
+      ". theo từng cột, theo thứ tự từ trên xuống dưới, từ trái qua phải.",
+      ". theo từng hàng, theo thứ tự từ trên xuống dưới, từ trái qua phải.",
+      "theo từng hàng, theo từ trái qua phải , thứ tự từ trên xuống dưới."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 45,
+    "chapter": "Chương 2",
+    "question": "Số vòng lặp ký hiệu là Nr, Nr chỉ phụ thuộc vào Nk. Với Nk lần lượt là 4, 6 ,8 thì Nr tương ứng lần lượt là :",
+    "options": [
+      "42718",
+      "10 , 12 ,14",
+      "13,14,15",
+      "14,16,16"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 46,
+    "chapter": "Chương 2",
+    "question": "Đa thức bất khả quy trong Phép nhân trường GF(2^8) là",
+    "options": [
+      "m(x)=x^8 +x^4 +x^3 +x+1",
+      "m(x)=x^8 +x^4 +x^3 +x^2+1",
+      "m(x)=x^8 +x^5 +x^3 +x+1",
+      "m(x)=x^8 +x^7 +x^3 +x+1"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 47,
+    "chapter": "Chương 2",
+    "question": "Đa thức bất khả quy là gì",
+    "options": [
+      "quy là đa thức chỉ có bội là 1 và chính nó.",
+      "quy là đa thức chỉ có ước là 1 và chính nó.",
+      "quy là đa thức chỉ có ước là chính nó.",
+      "quy là đa thức chỉ có ước là 1"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 48,
+    "chapter": "Chương 2",
+    "question": "Phép cộng trên trường GF(2^8) :",
+    "options": [
+      "Dùng phép AND",
+      ". Dùng phép OR",
+      "Dùng phép XOR",
+      ". Dùng phép NAND"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 49,
+    "chapter": "Chương 2",
+    "question": "Thuật toán AES mô tả khái quát gồm bao nhiêu bước .",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 50,
+    "chapter": "Chương 2",
+    "question": "Vòng khởi tạo của cấu trúc mã hóa thuật toán AES gồm các phép nào :",
+    "options": [
+      "AddRoundKey .",
+      ". SubBytes, ShiftRows, MixColumns, AddRoundKey",
+      "SubBytes, ShiftRows, AddRoundKey.",
+      ". SubBytes, MixColumns, AddRoundKey"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 51,
+    "chapter": "Chương 2",
+    "question": "Vòng lặp của cấu trúc thuật toán AES gồm các phép nào",
+    "options": [
+      "SubBytes, ShiftRows, MixColumns, AddRoundKey.",
+      "SubBytes, ShiftRows, AddRoundKey.",
+      "SubBytes, AddRoundKey.",
+      "SubBytes, ShiftRows"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 52,
+    "chapter": "Chương 2",
+    "question": "Vòng cuối của thuật toán AES gồm các phép nào :",
+    "options": [
+      "SubBytes, ShiftRows, AddRoundKey",
+      "SubBytes, ShiftRows, MixColumns, AddRoundKey",
+      "SubBytes, MixColumns, AddRoundKey",
+      "ShiftRows, MixColumns, AddRoundKey"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 53,
+    "chapter": "Chương 2",
+    "question": "Cấu trúc giải mã trong AES gồm 2 chế độ :",
+    "options": [
+      "Giải mã đối xứng, giải mã bất đối xứng",
+      "Giải mã theo khối, giải mã theo luồng",
+      ". Giải mã ngược, giải mã xuôi",
+      "Giải mã một lần, giải mã nhiều lần."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 54,
+    "chapter": "Chương 2",
+    "question": "Cấu trúc giải mã ngược và cấu trúc giải mã xuôi khác nhau ở đâu",
+    "options": [
+      "Khác nhau ở thứ tự các phép biến đổi trong vòng lặp.",
+      "Khác nhau ở số lượng vòng lặp.",
+      "Khác nhau ở độ dài khóa.",
+      "Khác nhau ở thuật toán sử dụng."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 55,
+    "chapter": "Chương 2",
+    "question": "Cấu trúc giải mã ngược gồm 3 bước :",
+    "options": [
+      "Vòng khởi tạo chỉ: SubBytes, vòng lặp 3 phép biến đổi chính: InvShiftRows, InvSubBytes, AddRoundKey; vòng kết thúc: InvShiftRows, InvSubBytes, AddRoundKey.",
+      "Vòng khởi tạo chỉ: AddRoundKey, vòng lặp 4 phép biến đổi chính: InvShiftRows, InvSubBytes, AddRoundKey, InvMixColumns; vòng kết thúc khác với vòng lặp chính là không có phép InvMixColumns",
+      "Vòng khởi tạo chỉ: ShiftRows, vòng lặp 4 phép biến đổi chính: InvShiftRows, InvSubBytes, AddRoundKey, InvMixColumns; vòng kết thúc: InvShiftRows, InvSubBytes.",
+      "Vòng khởi tạo chỉ: MixColumns, vòng lặp 3 phép biến đổi chính: InvShiftRows, InvSubBytes, AddRoundKey; vòng kết thúc: InvShiftRows, AddRoundKey."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 56,
+    "chapter": "Chương 2",
+    "question": "Cấu trúc giải mã xuôi gồm 3 bước là :",
+    "options": [
+      "Vòng khởi tạo chỉ: AddRoundKey, vòng lặp 4 phép biến đổi chính theo thứ tự: InvSubBytes, InvShiftRows, InvMixColumns, AddRounKey ; vòng kết thúc giống vòng lặp nhưng được lược bỏ phép InvMixColumns",
+      "Vòng khởi tạo chỉ: SubBytes, vòng lặp 3 phép biến đổi chính theo thứ tự: InvShiftRows, InvSubBytes, AddRoundKey; vòng kết thúc: InvShiftRows, InvSubBytes, AddRoundKey.",
+      "Vòng khởi tạo chỉ: ShiftRows, vòng lặp 4 phép biến đổi chính theo thứ tự: InvShiftRows, InvSubBytes, AddRoundKey, InvMixColumns; vòng kết thúc: InvShiftRows, InvSubBytes.",
+      "Vòng khởi tạo chỉ: MixColumns, vòng lặp 3 phép biến đổi chính theo thứ tự : InvShiftRows, InvSubBytes, AddRoundKey; vòng kết thúc: InvShiftRows, AddRoundKey."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 57,
+    "chapter": "Chương 2",
+    "question": "Phép biến đổi SubBytes trong thuật toán AES là gì?",
+    "options": [
+      "Là phép thay thế byte tuyến tính, ở phép thay thế này nó tác động đồng thời đến toàn bộ trạng thái.",
+      "Là phép hoán vị byte tuyến tính, ở phép hoán vị này nó tác động đến từng cặp byte trong trạng thái.",
+      "Là phép thay thế byte phi tuyến tính, ở phép thay thế này nó tác động độc lập đến từng byte trong trạng thái hiện hành.",
+      "Là phép thay thế bit phi tuyến tính, ở phép thay thế này nó tác động đến từng bit trong trạng thái hiện hành."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 58,
+    "chapter": "Chương 2",
+    "question": "Phép biến đổi SubBytes được thực hiện bằng cách tra cứu bảng thay thế (S-box) với tham số đầu vào là các byte trong bảng trạng thái, vậy phép biến đổi InvSubBytes dùng bảng gì?",
+    "options": [
+      "Bảng thay thế ngược S-box",
+      "Bảng thay thế tuyến tính IS",
+      "Bảng thay thế phi tuyến tính IS",
+      "Bảng thay thế ngược IS"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 59,
+    "chapter": "Chương 2",
+    "question": "Phép biến đổi InvSubBytes là gì?",
+    "options": [
+      "Phép biến đổi ngược InvSubBytes: là phép thay thế tuyến tính với SubBytes, thực hiện bằng cách tra bảng thay thế tuyến tính LS.",
+      "Phép biến đổi ngược InvSubBytes: là phép hoán vị byte, các byte hoán vị được thực hiện bằng cách tra bảng hoán vị ngược PS.",
+      ". Phép biến đổi ngược InvSubBytes: là phép thay thế bit, các bit thay thế được thực hiện bằng cách tra bảng thay thế bit BS.",
+      "Phép biến đổi ngược InvSubBytes: là phép thay thế biến đổi ngược với SubBytes. Là một phép thay thế byte, các byte thay thế được thực hiện bằng cách tra bảng thay thế ngược IS."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 60,
+    "chapter": "Chương 2",
+    "question": "Mục đích của phép biến đổi SubBytes trong thuật toán AES .",
+    "options": [
+      "Tạo sự ngẫu nhiên trong quá trình mã hóa",
+      "Tăng cường sức mạnh của khóa mã hóa",
+      "S-box dùng để chống lại hình thức tấn công thám mã vi sai và thám mã tuyến tính",
+      "Giảm kích thước của dữ liệu được mã hóa."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 61,
+    "chapter": "Chương 2",
+    "question": "Phép biến đổi ShiftRows trong AES thực hiện hoán vị các byte trong ma trận state theo cách thức nào?",
+    "options": [
+      "Dòng thứ nhất dịch vòng trái 1 byte, dòng thứ 2 dịch vòng trái 2 byte, dòng thứ 3 dịch vòng trái 3 byte, dòng thứ 4 giữ nguyên.",
+      "Dòng thứ nhất giữ nguyên, dòng thứ 2 dịch vòng trái 1 byte, dòng thứ 3 dịch vòng trái 2 byte, dòng thứ 4 dịch vòng trái 3 byte.",
+      "Dòng thứ nhất giữ nguyên, dòng thứ 2 dịch vòng trái 3 byte, dòng thứ 3 dịch vòng trái 2 byte, dòng thứ 4 dịch vòng trái 1 byte.",
+      "Dòng thứ nhất giữ nguyên, dòng thứ 2 dịch vòng trái 1 byte, dòng thứ 3 dịch vòng trái 1 byte, dòng thứ 4 dịch vòng trái 1 byte."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 62,
+    "chapter": "Chương 2",
+    "question": "Phép biến đổi InvShiftRows trong AES thực hiện hoán vị các byte trong ma trận state theo cách thức nào?",
+    "options": [
+      "Dòng thứ nhất dịch vòng trái 1 byte, dòng thứ 2 dịch vòng trái 2 byte, dòng thứ 3 dịch vòng trái 3 byte, dòng thứ 4 giữ nguyên.",
+      "Dòng thứ nhất giữ nguyên, dòng thứ 2 dịch vòng trái 1 byte, dòng thứ 3 dịch vòng trái 2 byte, dòng thứ 4 dịch vòng trái 3 byte.",
+      "Dòng thứ nhất giữ nguyên, dòng thứ 2 dịch vòng trái 3 byte, dòng thứ 3 dịch vòng trái 2 byte, dòng thứ 4 dịch vòng trái 1 byte.",
+      "Dòng thứ nhất giữ nguyên, dòng thứ 2 dịch vòng phải 1 byte, dòng thứ 3 dịch vòng phải 2 byte, dòng thứ 4 dịch vòng phải 3 byte."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 63,
+    "chapter": "Chương 2",
+    "question": "Mục đích của ShiftRows là gì ?",
+    "options": [
+      "Chuyển vị các byte theo cách giống nhau trước khi sử dụng chúng cho thao tác MixColumns.",
+      "Xáo trộn các byte để tạo các cột khác nhau trước khi sử dụng chúng cho thao tác MixColumns.",
+      "Tạo ra sự phi tuyến tính trong quá trình mã hóa",
+      "Tạo ra sự tuyến tính trong quá trình mã hóa"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 64,
+    "chapter": "Chương 2",
+    "question": "Cách thức làm việc của phép biến đổi MixColumns là gì?",
+    "options": [
+      "Phép biến đổi MixColumns thực hiện biến đổi từng hàng trong ma trận state bằng một phép nhân đa thức, với phép nhân theo modulo với x^4+1.",
+      "Phép biến đổi MixColumns thực hiện biến đổi từng cột trong ma trận state bằng một phép nhân đa thức, với phép nhân theo modulo với x^4+1.",
+      "Phép biến đổi MixColumns thực hiện biến đổi từng hàng trong ma trận state bằng một phép nhân đa thức, với phép nhân theo modulo với x^3+1.",
+      "Phép biến đổi MixColumns thực hiện biến đổi từng cột trong ma trận state bằng một phép nhân đa thức, với phép nhân theo modulo với x^3+1."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 65,
+    "chapter": "Chương 2",
+    "question": "Phép biến đổi MixColumns chính là phép nhân theo modulo với x 4+1 với một đa thức cố định là đa thức :",
+    "options": [
+      "a(x) = 3x^3+x^2+x+2",
+      "a(x) = 3x^3+3x^2+x+1",
+      "a(x) = 3x^3+2x^2+x+1",
+      "a(x) = 3x^3+x^2+x+12"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 66,
+    "chapter": "Chương 2",
+    "question": "Các cột của phép InvMixColumns được nhân theo modulo ( 4 x +1 ) với đa thức nghịch đảo a(x) chính là đa thức a ^-1 (x) được định nghĩa:",
+    "options": [
+      "a ^-1 (x)={1B}.x^3+{1D}.x^2+{09}.x^1+{0E}",
+      "a ^-1 (x)={0B}.x^3+{0D}.x^2+{09}.x^1+{0E}",
+      "a ^-1 (x)={0C}.x^3+{0D}.x^2+{09}.x^1+{0E}",
+      "a ^-1 (x)={0B}.x^3+{0D}.x^2+{09}.x^1+{0F}"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 67,
+    "chapter": "Chương 2",
+    "question": "Mục đích của MixColumns là gì ?",
+    "options": [
+      "Thao tác MixColumns kết hợp với ShiftRows đảm bảo rằng sau một vài vòng biến đổi, 128 bit trong kết quả đều phụ thuộc vào tất cả 128 bit ban đầu. Điều này tạo ra tính khuếch tán (diffusion) cần thiết cho mã hóa",
+      "MixColumns được sử dụng để thay thế các byte của khối dữ liệu với các giá trị mới dựa trên một bảng tra cứu cố định.",
+      "MixColumns là một bước dùng để hoán đổi các hàng trong khối dữ liệu nhằm tăng tính bảo mật.",
+      "MixColumns giúp mã hóa và giải mã các khối dữ liệu mà không làm thay đổi kích thước của chúng."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 68,
+    "chapter": "Chương 2",
+    "question": "Trong kỹ thuật AddRoundKey , sử dụng phép toán logic giữa 128 bit của ma trận state và 128 bit của khóa con của từng vòng.",
+    "options": [
+      "AND",
+      "XOR",
+      "NAND",
+      "OR"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 69,
+    "chapter": "Chương 2",
+    "question": "Mục đích của kỹ thuật AddRoundKey",
+    "options": [
+      "AddRoundKey được sử dụng để thay thế các byte trong khối dữ liệu với các giá trị mới dựa trên một bảng tra cứu cố định.",
+      "AddRoundKey giúp mã hóa và giải mã các khối dữ liệu mà không làm thay đổi kích thước của chúng.",
+      "AddRoundKey là một bước dùng để hoán đổi các hàng trong khối dữ liệu nhằm tăng tính bảo mật.",
+      "Việc kết hợp với khóa bí mật tạo ra tính làm rối (confusion) của mã hóa. Sự phức tạp của thao tác mở rộng khóa (KeySchedule) giúp gia tăng tính làm rối này"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 70,
+    "chapter": "Chương 2",
+    "question": "Mục đích của kỹ thuật Expand key",
+    "options": [
+      "Dùng để chống lại known-plaintext attack: biết một số bit của khóa hay khóa con cũng không thể tính các bit còn lại. , Không thể tính ngược: biết một khóa con cũng không thể tính lại các khóa con trước đó. và tính khuếch tán: một bit của khóa chính tác động lên tất cả các bit của các khóa con.",
+      "Dùng để hoán đổi các bit của dữ liệu đầu vào nhằm tăng tính bảo mật",
+      "Dùng để thay thế các byte của dữ liệu đầu vào bằng các giá trị từ bảng tra cứu cố định.",
+      ". Dùng để giảm thời gian mã hóa bằng cách giảm kích thước của khóa mã."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 71,
+    "chapter": "Chương 2",
+    "question": "Câu nào sau đây đúng .",
+    "options": [
+      "Phương pháp mã hóa AES phức tạp, đòi hỏi nhiều tài nguyên phần cứng và chỉ có thể thực hiện hiệu quả trên các vi xử lý 32 bit hoặc cao hơn, không phù hợp với các thiết bị có tài nguyên hạn chế như các vi xử lý 8 bit.",
+      "Phương pháp mã hóa AES chỉ sử dụng các phép toán số học phức tạp, bao gồm các phép nhân và chia trong trường hữu hạn, do đó không thể thực hiện trên các vi xử lý 8 bit mà không có sự hỗ trợ phần cứng đặc biệt.",
+      "Phương pháp mã hóa AES đơn giản, có thể thực hiện hiệu quả trên các vi xử lý 8 bit (dùng trong smartcard) cũng như trên các vi xử lý 32 bit, chỉ dùng phép XOR và phép Shift bit. Đây chính là yếu tố cơ bản để phương pháp này được chọn làm chuẩn mã hóa của Hoa Kỳ.",
+      ". Phương pháp mã hóa AES không sử dụng phép XOR và phép Shift bit mà chỉ sử dụng các phép toán số học khác như phép cộng và phép nhân, làm cho việc triển khai trên các vi xử lý nhỏ và thiết bị nhúng trở nên khó khăn và không hiệu quả."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 72,
+    "chapter": "Chương 2",
+    "question": "Sử dụng mã hóa XOR, cho dữ liệu: 10101010 và khóa mã hóa 11001100, Kết quả sau khi mã hóa là:",
+    "options": [
+      "01100110",
+      "11101110",
+      "1100011",
+      "1000100"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 73,
+    "chapter": "Chương 2",
+    "question": "Đâu không phải là ưu điểm của phương pháp mã hóa XOR:",
+    "options": [
+      "Đơn giản và nhanh chóng.",
+      "Không làm thay đổi độ dài của dữ liệu",
+      "Rất khó bị tấn công",
+      "Dễ thực hiện trên phần cứng và phần mềm."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 74,
+    "chapter": "Chương 2",
+    "question": "Phép toán mã hóa XOR sử dụng ... để tạo ra ...",
+    "options": [
+      "phép toán logic/ khóa",
+      "phép toán logic/ bản rõ",
+      "phép toán logic XOR/ bản mã",
+      "phép toán logic XOR/ bản rõ"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 75,
+    "chapter": "Chương 2",
+    "question": "Đâu không phải là tính chất của phương pháp mã hóa XOR:",
+    "options": [
+      "Khả nghịch",
+      "Đơn giản, nhanh chóng",
+      "Khóa đối xứng",
+      "Khóa công khai"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 76,
+    "chapter": "Chương 2",
+    "question": "Phương pháp mã hóa sách sử dụng ... chứa trong trang sách hoặc trong dòng của một thông điệp",
+    "options": [
+      "Bản rõ",
+      "Khóa",
+      "Bản mã",
+      "Khóa và bản mã"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 77,
+    "chapter": "Chương 2",
+    "question": "Đâu không phải là ưu điểm của phương pháp mã hóa đối xứng?",
+    "options": [
+      "Đơn giản, không phức tạp",
+      "Tốc độ mã hóa, giải mã nhanh",
+      "Số lượng khóa cần tạo ra và lưu trữ nhỏ.",
+      "Dễ sử dụng với các dịch vụ nhạy cảm với độ trễ và các dịch vụ di động."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 78,
+    "chapter": "Chương 2",
+    "question": "Mã hóa đối xứng thường có hệ số mở rộng bản tin bằng 1 có nghĩa là:",
+    "options": [
+      "Một bản tin đầu vào sẽ cho ra 1 bản mã ở đầu ra",
+      "Một bản rõ ở đầu vào sẽ cho ra 1 bản mã ở đầu ra",
+      "Mã hóa đối xứng có làm tăng kích thước của dữ liệu sau khi mã hóa",
+      "Mã hóa đối xứng không làm tăng kích thước của dữ liệu sau khi mã hóa, điều này giúp tiết kiệm không gian lưu trữ và băng thông truyền dữ liệu."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 79,
+    "chapter": "Chương 2",
+    "question": "Để sử dụng mã hóa đối xứng, hai bên tham gia cần phải chia sẻ khóa nào?",
+    "options": [
+      "Khóa công khai",
+      "khóa bí mật.",
+      "Khóa bí mật và công khai",
+      "Khóa riêng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 80,
+    "chapter": "Chương 2",
+    "question": "Đâu không phải là nhược điểm của phương pháp mã hóa đối xứng?",
+    "options": [
+      "Tạo khóa và giữ bí mật khóa rất phức tạp.",
+      "Phải dùng kênh an toàn để truyền khóa bí mật.",
+      "Số lượng khóa cần tạo ra và lưu trữ nhỏ.",
+      "Việc xây dựng các dịch vụ an toàn khó khăn."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 81,
+    "chapter": "Chương 2",
+    "question": "Mã hóa đối xứng ........ các dịch vụ như xác thực người dùng, chữ ký số.....",
+    "options": [
+      "Cung cấp",
+      "Bao gồm",
+      "Không cung cấp",
+      "Kết nối"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 82,
+    "chapter": "Chương 2",
+    "question": "Yêu cầu để đảm bảo sử dụng mã hóa đối xứng là",
+    "options": [
+      "Có thuật toán encryption tốt,có một khóa bí mật được biết bởi người nhận/gửi và kênh truyền bí mật để phân phát key",
+      "Có một kênh truyền phù hợp và một khóa bí mật được biết bởi người nhận/gửi",
+      "Có thuật toán encryption tốt và có một khóa bí mật được biết bởi người nhận/gửi",
+      "Tất cả đều đúng"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 83,
+    "chapter": "Chương 2",
+    "question": "Các thuật tóan nào sau đây không phải là thuật tóan mã hóa đối xứng?",
+    "options": [
+      "Triple–DES, RC4, RC5, Blowfish",
+      "Triple–DES, RC4, RC5, IDEA",
+      "RC4, RC5, IDEA, Blowfish",
+      "IDEA, Blowfish, AES, Elliptic Curve"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 84,
+    "chapter": "Chương 2",
+    "question": "Các phát biểu sau đây phát biểu nào đúng",
+    "options": [
+      "Hầu hết các thuật tóan mã hóa đối xứng đều dựa trên cấu trúc thuật toán Feistel",
+      "Tấn công thông điệp thì thời gian giải mã tỷ lệ với kích thước khóa",
+      "Hầu hết các thuật toán mã hóa khối đều đối xứng",
+      "Tất cả đều đúng"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 85,
+    "chapter": "Chương 2",
+    "question": "Đặc điểm chung của các thuật toán mã hóa dòng là gì?",
+    "options": [
+      "Sử dụng khóa cố định",
+      "Sử dụng phép XOR",
+      "Sử dụng phép AND",
+      "Sử dụng phép NOT"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 86,
+    "chapter": "Chương 2",
+    "question": "Trong quá trình mã hóa dòng, bộ sinh số ngẫu nhiên được tạo ra từ:",
+    "options": [
+      "Bản rõ",
+      "Bản mã",
+      "Khóa ban đầu",
+      "Phép XOR"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 87,
+    "chapter": "Chương 2",
+    "question": "Tính chất nào sau đây không phải là một điều kiện cần để đảm bảo tính an toàn của thuật toán mã hóa dòng?",
+    "options": [
+      "Chiều dài khóa bằng chiều dài bản rõ.",
+      "Khóa sinh ngẫu nhiên.",
+      "Khóa được sử dụng nhiều lần",
+      "Khóa chỉ được sử dụng một lần"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 88,
+    "chapter": "Chương 2",
+    "question": "Thuật toán mã hóa dòng nào được sử dụng trong mạng điện thoại di động GSM để bảo vệ dữ liệu truyền tin?",
+    "options": [
+      "A5/1",
+      "Tiny A5/1",
+      "RC4",
+      "Tiny RC4"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 89,
+    "chapter": "Chương 2",
+    "question": "Đơn vị mã hóa của thuật toán A5/1 là gì?",
+    "options": [
+      "1 bit",
+      "8 bit",
+      "16 bit",
+      "32 bit"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 90,
+    "chapter": "Chương 2",
+    "question": "Thuật toán mã hóa dòng nào được sử dụng trong giao thức SSL để bảo vệ dữ liệu truyền giữa Web Server và trình duyệt Web?",
+    "options": [
+      "DES",
+      "RC4",
+      "AES",
+      "A5/1"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 91,
+    "chapter": "Chương 2",
+    "question": "Đơn vị mã hóa của thuật toán RC4 là gì?",
+    "options": [
+      "6 bit",
+      "8 bit",
+      "12 bit",
+      "16 bit"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 92,
+    "chapter": "Chương 2",
+    "question": "Quá trình sinh số trong thuật toán RC4 là gì?",
+    "options": [
+      "Hoán vị các phần tử của mảng S",
+      "Quay và tính toán dựa trên ba thanh ghi",
+      "Tiến hành phép XOR giữa khóa và thông điệp",
+      "Sử dụng các số nguyên để XOR với dữ liệu đầu vào"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 93,
+    "chapter": "Chương 2",
+    "question": "Ưu điểm chính của mã hóa dòng so với mã hóa khối là gì?",
+    "options": [
+      "Mã hóa dòng có tốc độ mã hóa nhanh hơn",
+      "Mã hóa dòng có độ an toàn cao hơn",
+      "Mã hóa dòng có thể dễ dàng được triển khai trên phần cứng",
+      "Mã hóa dòng có thể được sử dụng để mã hóa các luồng dữ liệu liên tục"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 94,
+    "chapter": "Chương 2",
+    "question": "Mảng S trong thuật toán RC4 chứa bao nhiêu phần tử?",
+    "options": [
+      "256",
+      "128",
+      "16",
+      "8"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 95,
+    "chapter": "Chương 2",
+    "question": "Trong thuật toán A5/1, Hàm maj tính được trên 3 bit nào",
+    "options": [
+      "x8, y10, z10",
+      "x5, y7, z8",
+      "x10, y8, z10",
+      "x8, y7, z5"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 96,
+    "chapter": "Chương 2",
+    "question": "Để xây dựng thuật toán mã hóa khối an toàn, các thuật toán mã hóa khối thường sử dụng kết hợp các thao tác mã hóa nhằm tạo ra:",
+    "options": [
+      "Tính bảo mật và tính toàn vẹn dữ liệu",
+      "Tính hỗn loạn và tính khuếch tán thông tin",
+      "Tính khả chuyển và tính khả dụng",
+      "Tính bảo mật và tính khả dụng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 97,
+    "chapter": "Chương 2",
+    "question": "Tính hỗn loạn (confusion) trong mật mã học có mục đích chính là:",
+    "options": [
+      "Giảm thời gian mã hóa và giải mã",
+      "Đảm bảo tính toàn vẹn của thông điệp",
+      "Phá vỡ mối quan hệ giữa thông điệp và bản mã, tạo ra mối quan hệ phức tạp và chặt chẽ giữa khóa và bản mã",
+      "Tăng khả năng lưu trữ và truyền tải dữ liệu."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 98,
+    "chapter": "Chương 2",
+    "question": "Sự khuếch tán (diffusion) trong mật mã học có tác dụng gì?",
+    "options": [
+      "Giúp phá vỡ và phân tán các phần tử trong bản mã xuất hiện trong thông điệpđể không thể phát hiện ra các mẫu này trong bản mã.",
+      "Làm cho bản mã ngắn hơn so với bản rõ.",
+      "Giúp tăng tốc độ mã hóa và giải mã.",
+      "Bảo vệ bản mã khỏi các cuộc tấn công từ chối dịch vụ (DoS)."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 99,
+    "chapter": "Chương 2",
+    "question": "Trong kỹ thuật mã hóa khối, các thuật toán mã hóa thường lựa chọn các chế độ hoạt động của các khối khác nhau nhằm mục đích gì?",
+    "options": [
+      "Đảm bảo rằng mỗi khối dữ liệu có kích thước khác nhau.",
+      "Giảm kích thước của bản mã so với bản rõ.",
+      "Tăng tốc độ truyền dữ liệu trên mạng.",
+      "Tính toán và xử lý dữ liệu của từng khối."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 100,
+    "chapter": "Chương 2",
+    "question": "Trong mã hóa khối, có bao nhiêu chế độ hoạt động cơ bản?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 101,
+    "chapter": "Chương 2",
+    "question": "Chế độ ECB (Electronic Codebook) trong mã hóa khối có đặc điểm gì?",
+    "options": [
+      "Khối bản mã phụ thuộc vào khối bản mã trước đó.",
+      "Cùng khối thông điệp đầu vào, khối bản mã giống nhau. Các khối bản mã hoàn toàn độc lập nhau.",
+      "Sử dụng một vector khởi tạo để làm nhiễu loạn bản mã.",
+      "Kết hợp với một giá trị không đổi để mã hóa từng khối."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 102,
+    "chapter": "Chương 2",
+    "question": "Chế độ hoạt động CBC(Cipher-Block Chaining) trong mã hóa khối có đặc điểm gì",
+    "options": [
+      "Cùng khối thông điệp đầu vào, khối bản mã giống nhau và các khối bản mã hoàn toàn độc lập nhau.",
+      "Cùng khối thông điệp đầu vào, khối bản mã giống nhau với cùng khóa và phần nối đuôi. Khối mã cj phụ thuộc vào khối rõ xj và các khối rõ trước đó (x1-xj-1)",
+      "Sử dụng một vector khởi tạo để làm nhiễu loạn bản mã và các khối bản mã độc lập nhau.",
+      "Kết hợp với một giá trị không đổi để mã hóa từng khối và các khối bản mã hoàn toàn độc lập nhau."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 103,
+    "chapter": "Chương 2",
+    "question": "Chế độ CFB (Cipher Feedback) trong mã hóa khối có đặc điểm gì?",
+    "options": [
+      "Cùng khối thông điệp đầu vào, khối bản mã giống nhau và các khối bản mã hoàn toàn độc lập nhau.",
+      "Cùng khối thông điệp đầu vào, khối bản mã giống nhau với cùng khóa và phần nối đuôi. Khối mã cj phụ thuộc vào khối rõ xj và các khối rõ trước đó (x1-xj-1).",
+      "Cùng khối thông điệp đầu vào, khối bản mã khác nhau. Luồng khóa độc lập với thông điệp",
+      "Cùng khối thông điệp đầu vào, khối bản mã khác nhau. Khối mã cj phụ thuộc vào khối rõ xj và các khối rõ trước đó (x1-xj-1)."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 104,
+    "chapter": "Chương 2",
+    "question": "Chế độ OFB (Output Feedback) trong mã hóa khối có đặc điểm gì?",
+    "options": [
+      "Cùng khối thông điệp đầu vào, khối bản mã giống nhau và các khối bản mã hoàn toàn độc lập nhau.",
+      "Cùng khối thông điệp đầu vào, khối bản mã giống nhau với cùng khóa và phần nối đuôi. Khối mã cj phụ thuộc vào khối rõ xj và các khối rõ trước đó (x1-xj-1).",
+      "Cùng khối thông điệp đầu vào, khối bản mã khác nhau. Luồng khóa độc lập với thông điệp",
+      "Cùng khối thông điệp đầu vào, khối bản mã khác nhau. Khối mã cj phụ thuộc vào khối rõ xj và các khối rõ trước đó (x1-xj-1)."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 105,
+    "chapter": "Chương 2",
+    "question": "Trong mô hình mã khối, các nhà mật mã chia thành những mô hình nào?",
+    "options": [
+      "Mô hình SPN và Mô hình linh hoạt",
+      "Mô hình Feistel và Mô hình Rijndael.",
+      "Mô hình SPN và Mô hình Feistel.",
+      "Mô hình DES và Mô hình RSA."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 106,
+    "chapter": "Chương 2",
+    "question": "Tại sao Năm 1997 Viện chuẩn quốc gia Hoa Kỳ US NIST đã kêu gọi xây dựng một phương pháp mã hóa AES nhằm thay thế thuật toán DES",
+    "options": [
+      "Không có nguy cơ nào với mã hóa DES.",
+      "Khả năng bị tấn công từ chối dịch vụ (DoS) của DES.",
+      "Sự dễ dàng trong việc tạo ra các giá trị ngẫu nhiên của DES.",
+      "Nguy cơ mã hóa DES là kích thước khóa ngắn có thể bị phá vỡ"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 1,
+    "chapter": "Chương 3",
+    "question": "Đâu là một điểm yếu của mã hóa đối xứng ?",
+    "options": [
+      "Tính bí mật của khóa",
+      "Tính toàn vẹn của khóa",
+      "Tính an toàn của khóa",
+      "Vấn đề an toàn giữa người gửi và người nhận"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 3",
+    "question": "Mã hóa đối xứng có mấy điểm yếu ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 3",
+    "question": "Trong quá trình trao đổi khóa, cần phải có một .... để trao đổi sao cho khóa phải được giữ bí mật chỉ có người gửi và người nhận biết.",
+    "options": [
+      "Thao tác",
+      "Hệ thống an toàn",
+      "Kênh an toàn",
+      "Môi trường"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 3",
+    "question": "Điều gì sẽ xảy ra khi khóa bí mật cần trao đổi giữa người gửi và người nhận bị tiết lộ ?",
+    "options": [
+      "Người gửi chịu trách nhiệm hoàn toàn.",
+      "Người nhận chịu trách nhiệm hoàn toàn.",
+      "Cả 2 đều phải chịu trách nhiệm.",
+      "Không có cơ sở quy trách nhiệm."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 3",
+    "question": "Có mấy phương pháp khắc phục điểm yếu của mã hóa đối xứng ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 3",
+    "question": "Mã hóa bất đối xứng là các phương pháp mà quy trình mã hóa và giải mã sử dụng các khóa .... ?",
+    "options": [
+      "Giống nhau",
+      "Khác nhau",
+      "Riêng biệt",
+      "Tách biệt"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 3",
+    "question": "Đâu là hệ thống mã hóa có khóa dùng để mã hóa là khóa công khai và khóa dùng để giải mã là khóa bí mật ?",
+    "options": [
+      "Mã hóa đối xứng",
+      "Mã hóa bất đối xứng",
+      "Mã hóa DES",
+      "Mã hóa XOR"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 3",
+    "question": "Để có được cặp khóa bí mật và khóa công khai, người ta thường dùng :",
+    "options": [
+      "Hàm một chiều",
+      "Hàm 2 chiều",
+      "Hàm băm",
+      "Hàm chuyển đổi"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 3",
+    "question": "Vì sao hàm một chiều lại rất khó thực hiện",
+    "options": [
+      "Mang tính chất hàm nghịch đảo",
+      "Mang tích chất hàm phi nghịch đảo",
+      "Khó thực hiện hóa trên máy tính",
+      "Tốn thời gian và bộ nhớ để thực hiện"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 3",
+    "question": "Có mấy bài toán 1 chiều thuật toán mã hóa bất đối xứng ?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 3",
+    "question": "Đâu là một bài toán một chiều cho thuật toán mã hóa bất đối xứng ?",
+    "options": [
+      "Bài toán phân tích số nguyên",
+      "Bài toán người đi du lịch",
+      "Bài toán mã sửa sai",
+      "Bài toán xây dựng hệ mật trên Parabol"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 3",
+    "question": "Hệ mật RSA sử dụng bài toán 1 chiều nào ?",
+    "options": [
+      "Bài toán xây dựng hệ mật trên đường cong ecliptic",
+      "Bài toán mã sửa sai",
+      "Bài toán phân tích thừa số",
+      "Bài toán xếp balo"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 3",
+    "question": "Ưu điểm của mã hóa bất đối xứng so với mã hóa đối xứng là gì?",
+    "options": [
+      "Kích thước khóa nhỏ hơn",
+      "Tốc độ mã hóa nhanh hơn",
+      "Độ an tòa cao hơn",
+      "Việc quản lý và phân phối khóa dễ dàng hơn"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG phải là ưu điểm của mã hóa bất đối xứng so với mã hóa đối xứng?",
+    "options": [
+      "Kích thước khóa lớn hơn, độ an toàn cao hơn",
+      "Tốc độ mã hóa, giải mã nhanh hơn",
+      "Việc quản lý và phân phối khóa dễ dàng hơn",
+      "Không cần trao đổi khóa bí mật trước khi truyền dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 3",
+    "question": "Phát biểu nào sau đây là sai khi nói về mã hóa bất đối xứng?",
+    "options": [
+      "Mã hóa bất đối xứng sử dụng một cặp khóa: khóa công khai và khóa riêng",
+      "Mã hóa bất đối xứng có tốc độ mã hóa nhanh hơn mã hóa đối xứng",
+      "Mã hóa bất đối xứng giúp đảm bảo tính chứng thực",
+      "Mã hóa bất đối xứng dễ dàng trong việc quản lý và phân phối khóa"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 3",
+    "question": "Ứng dụng nào không phải là ứng dụng cơ bản của mã hóa bất đối xứng?",
+    "options": [
+      "Bí mật trong truyền tin (Confidentiality)",
+      "Chứng thực",
+      "Nén dữ liệu",
+      "Kết hợp tính bí mật và tin cậy"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 3",
+    "question": "Một trong những ứng dụng cơ bản của mã hóa bất đối xứng là gì?",
+    "options": [
+      "Tăng tốc độ truyền tin",
+      "Chứng thực",
+      "Giảm kích thước dữ liệu",
+      "Nén dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 3",
+    "question": "Ứng dụng của mã hóa bất đối xứng trong SSL là gì?",
+    "options": [
+      "Mã hóa dữ liệu truyền tải",
+      "Tăng tốc độ truyền tải",
+      "Nén dữ liệu",
+      "Xác thực người dùng"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 3",
+    "question": "Tiêu chuẩn chữ ký XML sử dụng mã hóa bất đối xứng để làm gì?",
+    "options": [
+      "Mã hóa dữ liệu",
+      "Nén dữ liệu",
+      "Nhận thực văn bản",
+      "Tăng tốc độ truyền tin"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 3",
+    "question": "Trong ứng dụng thực tế, mã hóa bất đối xứng có thể dùng để làm gì trong mã hóa đối xứng?",
+    "options": [
+      "Tăng tốc độ mã hóa",
+      "Bảo mật khóa bí mật",
+      "Giảm dung lượng khóa",
+      "Nén khóa"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 3",
+    "question": "Đâu là kỹ thuật mã hóa bất đối xứng?",
+    "options": [
+      "AES",
+      "DES",
+      "RSA",
+      "3DES"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG là kỹ thuật mã hóa bất đối xứng?",
+    "options": [
+      "RSA",
+      "ECC",
+      "AES",
+      "DSA"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 3",
+    "question": "Kết hợp tính bí mật và tin cậy trong mã hóa bất đối xứng có thể đạt được bằng cách nào?",
+    "options": [
+      "Mã hóa dữ liệu bằng khóa riêng của người gửi",
+      "Mã hóa dữ liệu bằng khóa công khai của người nhận và khóa riêng của người gửi",
+      "Mã hóa dữ liệu bằng khóa công khai của người gửi",
+      "Mã hóa dữ liệu bằng khóa riêng của người nhận"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 3",
+    "question": "Để đảm bảo tính bí mật và chứng thực trong mã hóa bất đối xứng, người ta thường làm gì?",
+    "options": [
+      "Mã hóa dữ liệu bằng khóa công khai của người nhận và ký bằng khóa riêng của người gửi",
+      "Mã hóa dữ liệu bằng khóa công khai của người gửi và ký bằng khóa riêng của người nhận",
+      "Mã hóa dữ liệu bằng khóa riêng của người gửi và khóa công khai của người nhận",
+      "Giải mã dữ liệu bằng khóa công khai của người gửi và khóa riêng của người nhận"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 3",
+    "question": "Phát biểu nào sau đây là đúng về tính chứng thực trong mã hóa bất đối xứng?",
+    "options": [
+      "Nó đảm bảo rằng dữ liệu chỉ được đọc bởi người nhận",
+      "Nó đảm bảo rằng người gửi dữ liệu là người thực sự gửi",
+      "Nó đảm bảo rằng dữ liệu không bị nén",
+      "Nó đảm bảo rằng dữ liệu được mã hóa nhanh chóng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 3",
+    "question": "Để kết hợp tính bí mật và tin cậy, dữ liệu được mã hóa bằng khóa công khai của người nhận và ký bằng ________ của người gửi.",
+    "options": [
+      "khóa công khai",
+      "khóa riêng",
+      "khóa đối xứng",
+      "khóa bí mật"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 3",
+    "question": "Thuật toán RSA thuộc thuật toán mã hóa nào?",
+    "options": [
+      "Mã hóa đối xứng",
+      "Mã hóa bất đối xứng",
+      "Mã hóa cổ điển",
+      "Mã hóa một chiều"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 3",
+    "question": "Thuật toán RSA được xây dựng bởi các tác giả nào?",
+    "options": [
+      "Ron Rivest, Adi Shamir và Len Adleman",
+      "Ron Rivest, Adi Shamir và Louis",
+      "Ronald Rivest, Adi Shamir và Len Adleman",
+      "Ronald Rivest, Albert Albert Einstein và Len Adleman"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 3",
+    "question": "Về mặt tổng quát, thuật toán RSA là một phương pháp ...",
+    "options": [
+      "mã hóa dòng",
+      "mã hóa hoán vị",
+      "mã hóa theo khối",
+      "mã hóa thay thế"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 3",
+    "question": "Trong thuật toán RSA, thông điệp M và bản mã C là các số nguyên từ 0 đến 2^i với i số bit của khối. Kích thước thường dùng của i là ...",
+    "options": [
+      "1024",
+      "65537",
+      "16385",
+      "8192"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 3",
+    "question": "Để tăng tốc độ qua trình mã hóa dữ liệu, người ta thường chọn một khóa công khai e cụ thể nào đó. Giá trị e cụ thể đó là?",
+    "options": [
+      "51770",
+      "51880",
+      "32769",
+      "65537"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 3",
+    "question": "Trong thuật toán RSA có bao nhiêu phương pháp mã hóa?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 3",
+    "question": "Trong thuật toán RSA, đâu là công thức tính N?",
+    "options": [
+      "N = pq",
+      "N = (p - 1)(q - 1)",
+      "N = (p - 1)(q + 1)",
+      "N = (p * q)mod e"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 3",
+    "question": "Trong thuật toán RSA, đâu không phải là công thức tính d?",
+    "options": [
+      "e*d = 1 mod phi(n)",
+      "d = e^-1 mod phi(n)",
+      "d = 1/e mod phi(n)",
+      "d = e mod phi(n)"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 3",
+    "question": "Với khóa riêng là (d,N), khóa công khai là (e,N), bản rõ là M, bản mã là C, đối với phương pháp mã hóa bảo mật, công thức giải mã nào là đúng?",
+    "options": [
+      "M = C^d mod (q - 1)",
+      "M = C^e mod N",
+      "M = C^d mod (p-1)",
+      "M = C^d mod N"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 3",
+    "question": "Với khóa riêng là (d,N), khóa công khai là (e,N), bản rõ là M, bản mã là C, đối với phương pháp mã hóa chứng thực, công thức giải mã nào là đúng?",
+    "options": [
+      "M = C^d mod (q-1)",
+      "M = C^e mod N",
+      "M = C^d mod (p-1)",
+      "M = C^d mod N"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 3",
+    "question": "Độ an toàn của RSA dựa trên khó khăn của bài toán nào?",
+    "options": [
+      "Bài toán tìm logarith rời rạc",
+      "Bài toán phân tích thừa số nguyên tố",
+      "Bài toán đồng dư tuyến tính",
+      "Bài toán tìm nghiệm của đa thức"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 38,
+    "chapter": "Chương 3",
+    "question": "Trong thuật toán RSA, đâu là công thức tính phi(n)?",
+    "options": [
+      "phi(n) = (p-1)(q-1)",
+      "phi(n) = pq",
+      "phi(n) = p mod q",
+      "phi(n) = (p - 1) / (q - 1)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 39,
+    "chapter": "Chương 3",
+    "question": "Quy trình mã hóa và giải mã thuật toán RSA gồm bao nhiêu bước?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 40,
+    "chapter": "Chương 3",
+    "question": "Chọn hai số nguyên tố lớn p, và q và tính N = pq. Cần chọn p và q sao cho ... với i là chiều dài bản rõ",
+    "options": [
+      "M < 2^(i-1) < N < 2^i",
+      "M < 2^i < N < 2^(i+1)",
+      "M < 2^(i+1) < N < 2^(i+2)",
+      "M < 2^(i-2) < N < 2^i"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 1,
+    "chapter": "Chương 4",
+    "question": "Đâu không phải là một thuật toán mã hóa ?",
+    "options": [
+      "MD2",
+      "MD3",
+      "MD4",
+      "MD5"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 4",
+    "question": "Kích thước đầu ra của thuật toán MD5 :",
+    "options": [
+      "128 bit",
+      "256 bit",
+      "512 bit",
+      "184 bit"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 4",
+    "question": "Kích thước đầu ra của thuật toán sha-1",
+    "options": [
+      "224 bit",
+      "256 bit",
+      "384 bit",
+      "160 bit"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 4",
+    "question": "Kích thước khối của thuật toán MD5",
+    "options": [
+      "128 bit",
+      "256 bit",
+      "512 bit",
+      "184 bit"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 4",
+    "question": "Kích thước khối của thuật toán SHA512",
+    "options": [
+      "128 bit",
+      "256 bit",
+      "512 bit",
+      "1024 bit"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 4",
+    "question": "Thuật toán MD5 có thể mã hóa thông điệp có kích thước tối đa:",
+    "options": [
+      "2^16 bit",
+      "2^32 bit",
+      "2^64 bit",
+      "2^128 bit"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 4",
+    "question": "MD5 là viết tắt của ..... :",
+    "options": [
+      "Message digest",
+      "Message digit",
+      "Messages digest",
+      "Messages digit"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 4",
+    "question": "Phiên bản SHA nào có khả năng gây ra lỗi",
+    "options": [
+      "SHA-0",
+      "SHA-1",
+      "SHA-256",
+      "SHA-512"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 4",
+    "question": "Ai là người phát minh là MD5",
+    "options": [
+      "Ron Rivest",
+      "Shamir",
+      "Adleman",
+      "Cả ba phương án trên"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 4",
+    "question": "Quá trình tính giá trị băm của thông điệp trong MD5 là quá trình ...",
+    "options": [
+      "lũy tiến",
+      "điều chỉnh",
+      "tịnh tiến",
+      "liên tiếp"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 4",
+    "question": "Trong MD5, tại vòng thứ j sẽ có 2 tham số là Kj và Wj, công thức tính Kj:",
+    "options": [
+      "Kj là phần nguyên của số 2^32 abs(cos(i))",
+      "Kj là phần nguyên của số 2^32 abs(sin(i))",
+      "Kj là phần nguyên của số 2^32 abs(tan(i))",
+      "Kj là phần nguyên của số 2^32 abs(cot(i))"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 4",
+    "question": "Số vòng lặp trong hàm F của thuật toán mã hóa MD5 :",
+    "options": [
+      "32",
+      "48",
+      "56",
+      "64"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 4",
+    "question": "SHA là viết tắt của .... :",
+    "options": [
+      "Security Hash Algorithm",
+      "Secure Hashed Algorithm",
+      "Secure Hash Algorithm",
+      "Secures Hash Algorithm"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 4",
+    "question": "Thuật toán SHA1 có thể mã hóa thông điệp có kích thước tối đa:",
+    "options": [
+      "2^16 bit",
+      "2^32 bit",
+      "2^64 bit",
+      "2^128 bit"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 4",
+    "question": "Các hằng số mặc định trong hàm F MD5",
+    "options": [
+      "01234567, 89abcdef, fedbca98, 76543210",
+      "01234567, 12345678, 23456789, 3456789a",
+      "01234567, 3456789a, 56789abc, 89abcdef",
+      "02468ace, 13579bdf, fdb97531, eca86420"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 4",
+    "question": "Các hằng số mặc định trong hàm F của SHA-1 :",
+    "options": [
+      "a = 67452301, b = efcdab89 , c = 98badcfe, d = 10325476, e = c3d2e1f0",
+      "a =c3d2e1f0 , b =10325476 , c = 98badcfe, d = efcdab89 , e = 67452301",
+      "a = efcdab89 , b =67452301, c = 10325476, d =c3d2e1f0 , e = 98badcfe",
+      "a = 98badcfe, b = 67452301 , c = 10325476 , d = c3d2e1f0 , e = efcdab89"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 4",
+    "question": "Hàm băm là hàm chuyển đổi ... thành một dãy bit có độ dài cố định n bit (n>0)",
+    "options": [
+      "một thông điệp có độ dài bất kỳ hữu hạn",
+      "một mật khẩu",
+      "một thông điệp có độ dài cố định",
+      "một thông điệp chỉ ở dạng chữ có độ dài bất kỳ hữu hạn"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 4",
+    "question": "MDC viết tắt của từ nào?",
+    "options": [
+      "Modificated Detection Code",
+      "Modification Detection Code",
+      "Modificating Detense Code",
+      "Modification Defence Code"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 4",
+    "question": "MAC là viết tắt của từ nào?",
+    "options": [
+      "Messages Authentication Code",
+      "Message Authenticated Code",
+      "Message Authentication Code",
+      "Messages Authenticated Code"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 4",
+    "question": "MDC gồm 2 loại là:",
+    "options": [
+      "OWFH, CRFH",
+      "Hàm băm một chiều, Hàm băm chống xung đột",
+      "OWHF, CRHF",
+      "One-way hashed functions, Collision resistant hashed functions"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 4",
+    "question": "MD2 khác gì so với MD4 và MD5",
+    "options": [
+      "Kích thước trạng thái trong, Kích thước khối, Độ dài, Kích thước world, Xung đột",
+      "Kích thước đầu ra, Kích thước trạng thái trong, Kích thước khối, Độ dài, Kích thước world",
+      "Kích thước đầu ra, Kích thước khối, Độ dài, Kích thước world, Xung đột",
+      "Kích thước trạng thái trong, Kích thước khối, Độ dài, Xung đột"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 4",
+    "question": "Đâu KHÔNG phải là 1 thuật toán hàm băm",
+    "options": [
+      "RIPEMD-56",
+      "RIPEMD-128/256",
+      "RIPEMD-160/320",
+      "HAVAL"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 4",
+    "question": "Hàm ROTL(t, s) được hiểu là",
+    "options": [
+      "t được dịch vòng trái s bit",
+      "s được dịch vòng trái t bit",
+      "s được tịnh tiến trái t bit",
+      "t được dịch vòng phải s bit"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 4",
+    "question": "MDC, MAC theo thứ tự là",
+    "options": [
+      "Mã phát hiện sửa đổi, Mã xác thực thông điệp",
+      "Mã xác thực thông điệp, Mã phát hiện sửa đổi",
+      "Mã phát hiện sửa đổi, Mã xác minh thông điệp",
+      "Mã xác minh thông điệp, Mã phát hiện sửa đổi"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 4",
+    "question": "Phân loại hàm băm theo khóa sử dụng",
+    "options": [
+      "Khóa đối xứng và khóa bất đối xứng",
+      "Khóa bí mật và khóa công khai",
+      "Có khóa và không khóa",
+      "Hàm băm không sử dụng khóa"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 4",
+    "question": "Theo chức năng có thể chia hàm băm thành 2 loại",
+    "options": [
+      "MDC và MAC",
+      "Hàm băm 1 chiều và hàm băm chống đụng độ",
+      "OWHF và CRHF",
+      "Hàm băm nén và hàm băm 1 chiều"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 4",
+    "question": "MDC thường được sử dụng để tạo chuỗi đại diện cho thông điệp và dùng kết hợp với các kỹ thuật khác như ... để đảm bảo tính toàn vẹn của thông điệp. MDC thuộc loại hàm băm …",
+    "options": [
+      "chữ ký số / có khóa",
+      "chứ ký số / không khóa",
+      "mã hóa đối xứng / có khóa",
+      "mã hóa đối xứng / không khóa"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 4",
+    "question": "Hàm băm một chiều (OWHF - One-way hash functions)",
+    "options": [
+      "là MAC, tính giá trị băm dễ khôi phục khó",
+      "là MDC, tính giá trị băm dễ khôi phục khó",
+      "là MDC, khó bị đụng độ",
+      "là MAC, khó bị đụng độ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 4",
+    "question": "Hàm băm chống đụng độ (CRHF - Collision resistant hash functions)",
+    "options": [
+      "là MAC, khó khôi phục từ giá trị băm",
+      "là MDC, khó khôi phục từ giá trị băm",
+      "là MAC, khó bị đụng độ",
+      "là MDC, khó bị đụng độ"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 4",
+    "question": "Mã xác thực thông điệp (MAC - Message Authentication Code): MAC cũng được dùng để đảm bảo tính toàn vẹn của thông điệp ... . MAC là loại hàm băm ...",
+    "options": [
+      "không cần kỹ thuật bổ sung nào / không khóa",
+      "kết hợp với mã hóa đối xứng / không khóa",
+      "kết hợp với mã hóa đối xứng / có khóa",
+      "không cần kỹ thuật bổ sung nào / có khóa"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 4",
+    "question": "Ngoài việc ứng dụng để đảm bảo các thuộc tính của an toàn thông tin thì hàm băm còn có vai trò gì?",
+    "options": [
+      "xác định tính toàn vẹn dữ liệu, xác thực thông điệp",
+      "giải mã dữ liệu, xác định tính toàn vẹn dữ liệu",
+      "phát hiện lỗi dữ liệu, lưu trữ dữ liệu gốc",
+      "lưu trữ dữ liệu gốc, xác thực thông điệp"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 4",
+    "question": "Đâu không phải phương pháp cung cấp tính toàn vẹn của dữ liệu bằng cách dùng các hàm băm",
+    "options": [
+      "Dùng MDC và mã hóa",
+      "Dùng MDC kết hợp MAC",
+      "Chỉ dùng MAC",
+      "Dùng MDC và kênh an toàn"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 4",
+    "question": "Hàm băm nào sau đây có kích thước khối không phải 512 bit?",
+    "options": [
+      "MD4/MD5, HAVAL, SHA-1, SHA-2",
+      "SHA-512/384, PANAMA, VEST-4/8 và VEST-16/32, HAVAL",
+      "PANAMA, VEST-4/8 và VEST-16/32, SHA-256/224, MD2",
+      "VEST-4/8 và VEST-16/32. HAVAL, SHA-0, SHA-1"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 4",
+    "question": "Đâu không phải ứng dụng của hàm băm?",
+    "options": [
+      "Chữ ký số và xác thực thông điệp",
+      "Đảm bảo toàn vẹn dữ liệu",
+      "Phát hiện sửa đổi trái phép",
+      "Trong bằng chứng công việc (Proof-of-Work) trong Blockchain"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 4",
+    "question": "Tính chất nào không phải tính chất của hàm băm không khóa",
+    "options": [
+      "khó tính toán nghịch ảnh",
+      "bền xung đột yếu và mạnh",
+      "bí mật",
+      "kháng tiền ảnh và kháng tiền ảnh thứ hai"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 4",
+    "question": "Tính chất nào không phải tính chất của MAC",
+    "options": [
+      "nén",
+      "dễ dàng tính toán",
+      "khó tính toán",
+      "kháng tiền ảnh"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 4",
+    "question": "Phép toán được sửa dụng trong hàm F",
+    "options": [
+      "Cộng modulo",
+      "XOR",
+      "AND",
+      "OR"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 38,
+    "chapter": "Chương 4",
+    "question": "Với các cặp giá trị đầu vào là x và xi với x ≠xi thì không có khả năng tìm được cặp Hk(x) và Hk(xi) thỏa mãn Hk(x) = Hk(xi). Tính chất này là tính chất nào của hàm băm có khóa",
+    "options": [
+      "Khó tính toán",
+      "Tính nén",
+      "Tính dễ tính toán",
+      "Tính bền xung đột"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 39,
+    "chapter": "Chương 4",
+    "question": "Với bất kỳ giá trị băm h, không thể tính được x sao cho H(x)=h. Tính chất này là tính chất nào của hàm băm không khóa :",
+    "options": [
+      "Tính nén",
+      "Tính bền xung đột mạnh",
+      "Tính khó tính toán nghịch ảnh",
+      "Kháng tiền ảnh"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 40,
+    "chapter": "Chương 4",
+    "question": "Tính toàn vẹn của dữ liệu và xác thực thông điệp là tính chất đảm bảo dữ liệu ... kể từ khi dữ liệu được tạo ra, được trao đổi hoặc được lưu giữ bởi một nguồn được xác định.",
+    "options": [
+      "không bị giả mạo",
+      "không bị sửa đổi một cách bất hợp pháp",
+      "không bị sửa đổi",
+      "không được truy cập từ những chủ thể không có thẩm quyền"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 41,
+    "chapter": "Chương 4",
+    "question": "Trong MD5, block Mi 512 bit được chia thành bao nhiêu block con :",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 42,
+    "chapter": "Chương 4",
+    "question": "Quản lý khóa (Key management) là một tập các kỹ thuật cho phép ... và ... các quan hệ khóa giữa các bên có thẩm quyền.",
+    "options": [
+      "thiết lập / duy trì",
+      "lưu trữ / phân phối",
+      "lưu trữ / duy trì",
+      "thiết lập / phân phối"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 1,
+    "chapter": "Chương 5",
+    "question": "Thám mã là gì?",
+    "options": [
+      "Ngành khoa học nghiên cứu các phương pháp mã hóa thông tin",
+      "ngành khoa học chuyên nghiên cứu, áp dụng các phương pháp, kỹ thuật, thuật toán nhằm tìm ra những thông tin ý nghĩa và cần thiết cho người thám mã",
+      "Quá trình mã hóa thông tin để bảo vệ dữ liệu",
+      "Quá trình truyền tải thông tin an toàn"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 5",
+    "question": "Người thám mã cần có những kỹ năng nào?",
+    "options": [
+      "Kỹ năng mã hóa và giải mã",
+      "Kỹ năng phân tích toán học và hiểu biết về các giải thuật mã hóa",
+      "Kỹ năng lập trình và bảo mật hệ thống",
+      "Kỹ năng thiết kế hệ thống mã hóa mới"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 5",
+    "question": "Phương pháp thám mã là gì?",
+    "options": [
+      "Các thuật toán và kỹ thuật nhằm mã hóa thông tin",
+      "Các thuật toán, kỹ thuật nhằm phân tích bản mã tìm ra khóa, hoặc bản rõ, hoặc cả khóa và bản rõ",
+      "Các phương pháp để truyền tải thông tin an toàn",
+      "Các phương pháp để thiết kế hệ thống mã hóa mới"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 5",
+    "question": "Sự khác biệt chính giữa phương pháp mã hóa và phương pháp thám mã là gì?",
+    "options": [
+      "Phương pháp mã hóa dùng để biến đổi thông điệp thành bản rõ, còn phương pháp thám mã dùng để tìm ra khóa bí mật",
+      "Phương pháp mã hóa sử dụng thuật toán, kỹ thuật nhằm biến đổi thông điệp thành bản mã, còn phương pháp thám mã dùng phương pháp, kỹ thuật, thuật toán nhằm tìm ra bản rõ hoặc quy luật mã hóa, hoặc khóa bí mật",
+      "Phương pháp mã hóa dùng để bảo vệ thông tin, còn phương pháp thám mã dùng để phá vỡ bảo mật thông tin",
+      "Không có sự khác biệt, cả hai đều là các phương pháp bảo mật thông tin"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 5",
+    "question": "Mục tiêu của người thám mã là gì?",
+    "options": [
+      "Tìm ra bản rõ và khóa bí mật mà không có khóa",
+      "Mã hóa thông tin để bảo vệ dữ liệu",
+      "Thiết kế các hệ thống mã hóa mới",
+      "Bảo mật hệ thống thông tin"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 5",
+    "question": "Mục đích cao nhất của thám mã là gì?",
+    "options": [
+      "Nắm được nội dung thông điệp ban đầu hoặc đánh giá mức độ an toàn của hệ thống hoặc giải thuật mã hóa",
+      "Tìm ra các lỗ hổng bảo mật trong hệ thống",
+      "Phát triển các thuật toán mã hóa mới",
+      "Bảo vệ thông tin khỏi các cuộc tấn công"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 5",
+    "question": "Vai trò tích cực của thám mã là gì?",
+    "options": [
+      "Tấn công vào các hệ thống thông tin để gây thiệt hại",
+      "Bảo vệ thông tin bằng cách giấu đi các khóa mã hóa",
+      "Tìm ra điểm yếu của các giải thuật mã hóa và giúp cải tiến hệ mật cho tốt hơn",
+      "Phát triển các công cụ mã hóa mạnh mẽ hơn"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 5",
+    "question": "Phương pháp thám mã vét cạn (brute force) là gì?",
+    "options": [
+      "Phương pháp đòi hỏi người thám mã phải có nhiều kinh nghiệm và kỹ năng",
+      "Phương pháp yêu cầu công cụ tính toán mạnh nhưng thời gian xử lý chậm",
+      "Phương pháp sử dụng phân tích toán học để tìm ra khóa",
+      "Phương pháp phân tích đặc trưng cơ bản của thông điệp như tần số và sự trùng lặp"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 5",
+    "question": "Phương pháp thám mã dựa vào thống kê yêu cầu gì?",
+    "options": [
+      "Hiểu biết về mật mã, tần số, sự trùng lặp, và quy luật hành văn",
+      "Kiến thức về toán học và giải thuật mã hóa",
+      "Công cụ tính toán mạnh để xử lý nhanh",
+      "Kiến thức về phần mềm và phần cứng mã hóa"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 5",
+    "question": "Phương pháp thám mã nào được áp dụng nhiều nhất hiện nay?",
+    "options": [
+      "Phương pháp vét cạn",
+      "Phương pháp thống kê",
+      "Phương pháp phân tích toán học",
+      "Phương pháp phân tích phần mềm"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 5",
+    "question": "Phương pháp phân tích toán học yêu cầu gì?",
+    "options": [
+      "Nhiều kinh nghiệm và kỹ năng về mật mã",
+      "Công cụ tính toán mạnh",
+      "Kiến thức về toán học và sự hiểu biết về các giải thuật mã hóa",
+      "Hiểu biết về văn phong và quy luật tình huống"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 5",
+    "question": "Điểm yếu của phương pháp thám mã vét cạn là gì?",
+    "options": [
+      "Không yêu cầu người thám mã phải có trình độ và hiểu biết về kỹ thuật mã hóa",
+      "Thời gian xử lý quá lâu đối với các giải thuật mã hóa hiện đại",
+      "Không mang lại hiệu quả cao do các giải thuật mã hóa hiện đại đảm bảo tính lộn xộn và rườm rà",
+      "Đòi hỏi người thám mã phải có nhiều kinh nghiệm và kỹ năng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 5",
+    "question": "Bước đầu tiên trong quy trình thám mã là gì",
+    "options": [
+      "Xác định phương pháp mã hóa",
+      "Thám mã trực tiếp",
+      "Xây dựng phương pháp thám mã",
+      "Phân loại bản mã"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 5",
+    "question": "Tại sao bước xác định phương pháp mã hóa có thể bỏ qua đối với các phương pháp mã hóa hiện đại?",
+    "options": [
+      "Vì các phương pháp mã hóa hiện đại không sử dụng các kỹ thuật mã hóa cũ",
+      "Vì các phương pháp mã hóa hiện đại đều công khai kỹ thuật mã hóa và chỉ giữ bí mật cho khóa",
+      "Vì các phương pháp mã hóa hiện đại không yêu cầu xác định phương pháp mã hóa",
+      "Vì các phương pháp mã hóa hiện đại đều có cấu trúc khóa giống nhau"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 5",
+    "question": "Thám mã trực tiếp thường được áp dụng trong trường hợp nào?",
+    "options": [
+      "Khi bản mã thuộc loại mã hóa truyền thống hoặc được mã bằng một máy mã cụ thể",
+      "Khi bản mã thuộc loại mã hóa hiện đại",
+      "Khi cần xây dựng phương pháp thám mã mới",
+      "Khi cần xác định phương pháp mã hóa"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 5",
+    "question": "Phương pháp phân tích trong thám mã sử dụng khi nào",
+    "options": [
+      "Khi đã biết được cấu trúc khóa mã được sử dụng làm “mầm khóa” (key seed)",
+      "Khi cần dự đoán cụm từ có thể xuất hiện trong bản rõ gốc",
+      "Khi không biết bất kỳ thông tin nào về khóa mã",
+      "Khi cần xác định phương pháp mã hóa"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 5",
+    "question": "Phương pháp dự đoán trong thám mã dựa vào điều gì?",
+    "options": [
+      "Thông tin tiên nghiệm về khóa và thông tin về bản rõ mà đối tượng sử dụng (quy luật ngôn ngữ)",
+      "Cấu trúc của giải thuật mã hóa",
+      "Sự trùng lặp trong bản mã",
+      "Tần số xuất hiện của các ký tự trong bản mã"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 5",
+    "question": "Nội dung của phương pháp dự đoán trong thám mã là gì",
+    "options": [
+      "Dự đoán cụm từ có thể xuất hiện trong bản rõ gốc ứng với bản mã, sau đó tìm cách xác định khóa đúng",
+      "Thực hiện thử-sai để tìm khóa",
+      "Phân tích các phần tử tách biệt của bản mã",
+      "Xác định phương pháp mã hóa dựa trên tần số định kỳ"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 5",
+    "question": "Thám mã khi chỉ biết bản mã (ciphertext-only attack) là gì?",
+    "options": [
+      "Người thám mã chỉ có bản mã của một số thông điệp và cố gắng tìm ra nội dung bản rõ hoặc khóa mật",
+      "Người thám mã có một số cặp bản rõ và bản mã tương ứng và cố gắng tìm ra khóa mật",
+      "Người thám mã có thể chọn các bản rõ để mã hóa và thu thập bản mã tương ứng",
+      "Người thám mã có thể chọn các bản mã để giải mã và thu thập bản rõ tương ứng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 5",
+    "question": "Thám mã khi đã biết bản rõ (known-plaintext attack) cung cấp cho người thám mã thông tin gì?",
+    "options": [
+      "Chỉ bản mã của một số thông điệp",
+      "Một số cặp bản rõ và bản mã tương ứng",
+      "Khả năng chọn bản rõ để mã hóa",
+      "Khả năng chọn bản mã để giải mã"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 5",
+    "question": "Thám mã bản rõ chọn sẵn (chosen plaintext attack) có đặc điểm gì?",
+    "options": [
+      "Người thám mã chỉ có bản mã của một số thông điệp",
+      "Người thám mã có thể chọn một số bản rõ để mã hóa và thu thập bản mã tương ứng",
+      "Người thám mã có thể chọn một số bản mã để giải mã và thu thập bản rõ tương ứng",
+      "Người thám mã chỉ có bản rõ của một số thông điệp"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 5",
+    "question": "Thám mã chọn bản mã thích nghi (adaptive-chosen-ciphertext attack) yêu cầu gì?",
+    "options": [
+      "Người thám mã chỉ có bản mã của một số thông điệp",
+      "Người thám mã có thể chọn một số bản rõ để mã hóa và thu thập bản mã tương ứng",
+      "Người thám mã có thể chọn bản mã để giải mã và thu thập bản rõ tương ứng, điều chỉnh theo từng lần tấn công",
+      "Người thám mã chỉ có bản rõ của một số thông điệp"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 5",
+    "question": "Mục tiêu của thám mã khi chỉ biết bản mã là gì?",
+    "options": [
+      "Tìm ra nội dung một hoặc nhiều bản rõ hoặc khóa mật",
+      "Tìm ra các cặp bản rõ và bản mã tương ứng",
+      "Thiết kế các bản rõ hoặc bản mã để thám mã",
+      "Phân tích các cặp bản rõ và bản mã đã thu thập"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 5",
+    "question": "Phương pháp thám mã tuyến tính thành công trên giải thuật mã hóa nào?",
+    "options": [
+      "AES",
+      "DES",
+      "RSA",
+      "SHA-1"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 5",
+    "question": "Thám mã tuyến tính lợi dụng điều gì để thực hiện thám mã?",
+    "options": [
+      "Sự trùng lặp của bản rõ",
+      "Tần số xuất hiện của các ký tự",
+      "Mối quan hệ tuyến tính giữa đầu vào và đầu ra của hệ mã",
+      "Độ dài của khóa"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 5",
+    "question": "Trong thám mã tuyến tính, mỗi vòng của giải thuật mã hóa DES có bao nhiêu S-box?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 5",
+    "question": "Công thức tính giá trị sai số trong thám mã tuyến tính liên quan đến gì",
+    "options": [
+      "Tần số xuất hiện của các ký tự",
+      "Mối quan hệ giữa đầu vào và đầu ra của S-box",
+      "Số lượng vòng lặp của giải thuật mã hóa",
+      "Độ dài của bản rõ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 5",
+    "question": "Để xác định giá trị sai số của xấp xỉ cho một hệ mã hoàn chỉnh, kẻ tấn công có thể sử dụng gì?",
+    "options": [
+      "Bổ đề Piling-Up",
+      "Thuật toán FFT",
+      "Phân tích tần số",
+      "Mã hóa RSA"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 5",
+    "question": "Trong quá trình thám mã tuyến tính, việc loại bỏ vòng lặp cuối cùng của hệ mã nhằm mục đích gì?",
+    "options": [
+      "Tăng độ phức tạp của thám mã",
+      "Giảm số lượng vòng lặp cần thám mã",
+      "Tìm các bit khóa kết hợp của nó",
+      "Tăng độ dài của khóa"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 5",
+    "question": "Thám mã vi sai hoạt động trên gì để xác định khóa có xác suất cao?",
+    "options": [
+      "Phân tích sự khác nhau trên các cặp bản rõ lên các cặp bản mã tương ứng",
+      "Tần số xuất hiện của các ký tự",
+      "Sự trùng lặp của bản rõ",
+      "Độ dài của khóa"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 5",
+    "question": "Vi sai được chọn trong thám mã vi sai là gì?",
+    "options": [
+      "XOR của 2 bản mã",
+      "XOR của 2 bản rõ",
+      "XOR của bản rõ và bản mã",
+      "XOR của 2 khóa"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 5",
+    "question": "Bước đầu tiên trong thám mã vi sai là gì?",
+    "options": [
+      "Xác định giá trị XOR của đầu vào và đầu ra của hàm F",
+      "Tạo bộ đầu vào S-box",
+      "Đối chiếu với bảng phân bố cặp giá trị XOR của S-box",
+      "Xác định các giá trị của khóa của S-box"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 5",
+    "question": "Bảng phân bố cặp giá trị XOR của S-box là gì?",
+    "options": [
+      "Bảng biểu diễn sự phân bố của giá trị XOR đầu vào và đầu ra của tất cả các cặp của S-box",
+      "Bảng thống kê tần số xuất hiện của các ký tự",
+      "Bảng chứa các khóa của hệ mã",
+      "Bảng chứa các bản rõ và bản mã"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 5",
+    "question": "Khi một giá trị X có thể tạo ra giá trị Y thông qua S-box, điều này có nghĩa gì?",
+    "options": [
+      "Không có cặp nào với giá trị XOR đầu vào bằng X và giá trị XOR đầu ra bằng Y",
+      "Có ít nhất một cặp với giá trị XOR đầu vào bằng X và giá trị XOR đầu ra bằng Y",
+      "Không có giá trị XOR nào phù hợp",
+      "Có nhiều cặp với giá trị XOR đầu vào và đầu ra khác nhau"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 5",
+    "question": "Thám mã nội suy xây dựng gì để thực hiện thám mã?",
+    "options": [
+      "Một đa thức biểu diễn mối quan hệ giữa bản rõ và bản mã",
+      "Một bảng phân bố tần số",
+      "Một bảng giá trị XOR",
+      "Một bảng chứa các khóa"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 5",
+    "question": "Phương pháp nội suy Lagrange được sử dụng để làm gì trong thám mã nội suy?",
+    "options": [
+      "Xác định khóa của hệ mã",
+      "Tạo bảng giá trị XOR",
+      "Xây dựng đa thức từ bản rõ và bản mã",
+      "Phân tích tần số xuất hiện của các ký tự"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 5",
+    "question": "Kỹ thuật tấn công Meet-in-the-middle được sử dụng trong thám mã nội suy để làm gì?",
+    "options": [
+      "Giảm thiểu thời gian tìm khóa",
+      "Tăng độ phức tạp của thám mã",
+      "Tăng số lượng vòng lặp cần thám mã",
+      "Giảm độ dài của khóa"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 38,
+    "chapter": "Chương 5",
+    "question": "Kỹ thuật nào sau đây không phải là phương pháp thám mã?",
+    "options": [
+      "Thám mã tuyến tính",
+      "Thám mã vi sai",
+      "Thám mã nội suy",
+      "Thám mã dự đoán"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 39,
+    "chapter": "Chương 5",
+    "question": "Phương pháp thám mã tuyến tính yêu cầu gì để thành công?",
+    "options": [
+      "Sự trùng lặp của các từ ngữ trong bản rõ",
+      "Một lượng lớn cặp bản rõ/bản mã",
+      "Tần số xuất hiện của các ký tự",
+      "Sự ngẫu nhiên của bản rõ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 40,
+    "chapter": "Chương 5",
+    "question": "Phương pháp thám mã tuyến tính là gì?",
+    "options": [
+      "Phương pháp tấn công brute-force",
+      "Phương pháp tấn công dựa trên việc biết bản rõ",
+      "Phương pháp tấn công dựa trên việc biết bản mã",
+      "Phương pháp tấn công dựa trên việc biết khóa"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 41,
+    "chapter": "Chương 5",
+    "question": "Để tấn công hệ mã DES với phương pháp thám mã tuyến tính, kẻ tấn công cần làm gì đầu tiên?",
+    "options": [
+      "Loại bỏ vòng lặp đầu tiên của hệ mã",
+      "Loại bỏ vòng lặp cuối cùng của hệ mã",
+      "Tìm khóa",
+      "Tìm bản rõ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 42,
+    "chapter": "Chương 5",
+    "question": "Trong thám mã tuyến tính, để tấn công vòng cuối cùng trong DES, kẻ tấn công cần làm gì?",
+    "options": [
+      "Xây dựng biểu thức tuyến tính bao gồm các bit bản rõ và các bit đi vào vòng cuối cùng",
+      "Xây dựng biểu thức phi tuyến bao gồm các bit bản rõ và các bit đi vào vòng cuối cùng",
+      "Xây dựng biểu thức tuyến tính bao gồm các bit bản rõ và các bit đi vào vòng đầu tiên",
+      "Xây dựng biểu thức phi tuyến bao gồm các bit bản rõ và các bit đi vào vòng đầu tiên"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 43,
+    "chapter": "Chương 5",
+    "question": "Trong bước 3 của phương pháp thám mã vi sai, kẻ tấn công sử dụng bảng gì để đối chiếu?",
+    "options": [
+      "Bảng phân bố tần suất",
+      "Bảng phân bố xác suất",
+      "Bảng phân bố cặp giá trị XOR của S-box",
+      "Bảng phân bố khóa"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 44,
+    "chapter": "Chương 5",
+    "question": "Đa thức trong thám mã nội suy được xây dựng bằng cách nào?",
+    "options": [
+      "Sử dụng phương pháp nội suy Lagrange",
+      "Sử dụng phương pháp nội suy Newton",
+      "Sử dụng phương pháp nội suy Hermite",
+      "Sử dụng phương pháp nội suy Spline"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 45,
+    "chapter": "Chương 5",
+    "question": "Tấn công Meet-in-the-middle làm suy yếu hệ thống bảo mật bằng cách nào?",
+    "options": [
+      "Lưu trữ giá trị trung gian từ mã hóa hoặc giải mã",
+      "Lưu trữ giá trị đầu vào và đầu ra của hệ mã",
+      "Lưu trữ giá trị bản rõ và bản mã",
+      "Lưu trữ giá trị khóa"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 46,
+    "chapter": "Chương 5",
+    "question": "Ưu điểm chính của thám mã nội suy là gì?",
+    "options": [
+      "Không yêu cầu biết chính xác khóa bí mật để khôi phục hàm mã hóa",
+      "Không yêu cầu biết số lượng cặp plaintext/ciphertext",
+      "Thực hiện nhanh chóng với bất kỳ hệ mật nào",
+      "Dễ dàng áp dụng cho tất cả các hệ mật"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 47,
+    "chapter": "Chương 5",
+    "question": "Điểm mạnh của thám mã nội suy so với thám mã vi sai là gì?",
+    "options": [
+      "Yêu cầu ít cặp plaintext/ciphertext hơn",
+      "Khả năng phá vỡ các mã hóa không sử dụng S-box",
+      "Không yêu cầu xây dựng đa thức",
+      "Khả năng áp dụng trên mọi loại mã hóa"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 48,
+    "chapter": "Chương 5",
+    "question": "Một điểm yếu của thám mã nội suy là gì?",
+    "options": [
+      "Yêu cầu lượng lớn dữ liệu",
+      "Yêu cầu thời gian xây dựng đa thức lâu hơn",
+      "Khó áp dụng cho mã hóa không đối xứng",
+      "Hiệu quả thấp với mã hóa có sự lan truyền cao"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 49,
+    "chapter": "Chương 5",
+    "question": "Thám mã nội suy có hiệu quả đặc biệt với các loại mã hóa nào?",
+    "options": [
+      "AES",
+      "RSA",
+      "KN và SHARK",
+      "ECC"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 50,
+    "chapter": "Chương 5",
+    "question": "Để thực hiện thám mã nội suy, điều kiện cần thiết là gì?",
+    "options": [
+      "Số lượng cặp plaintext/ciphertext phải lớn hơn số hệ số chưa biết trong đa thức",
+      "Số lượng cặp plaintext/ciphertext phải nhỏ hơn số hệ số chưa biết trong đa thức",
+      "Số lượng cặp plaintext/ciphertext phải bằng số hệ số chưa biết trong đa thức",
+      "Không cần biết số lượng cặp plaintext/ciphertext"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 51,
+    "chapter": "Chương 5",
+    "question": "Thám mã tuyến tính có hiệu quả với mã hóa nào?",
+    "options": [
+      "Mã hóa đối xứng có sự lan truyền thấp",
+      "Mã hóa đối xứng có sự lan truyền cao",
+      "Mã hóa không đối xứng",
+      "Mã hóa dòng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 52,
+    "chapter": "Chương 5",
+    "question": "Thám mã tuyến tính chủ yếu áp dụng trên loại hệ mã nào?",
+    "options": [
+      "Mã hóa khối",
+      "Mã hóa dòng",
+      "Mã hóa khóa công khai",
+      "Mã hóa khóa đối xứng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 53,
+    "chapter": "Chương 5",
+    "question": "Một điểm mạnh của thám mã vi sai là gì?",
+    "options": [
+      "Rất hiệu quả trong việc phá vỡ các mã hóa khối",
+      "Dễ dàng triển khai",
+      "Không yêu cầu nhiều kiến thức về mã hóa",
+      "Yêu cầu lượng lớn dữ liệu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 54,
+    "chapter": "Chương 5",
+    "question": "Một điểm yếu của thám mã vi sai là gì?",
+    "options": [
+      "Phức tạp trong việc triển khai",
+      "Không hiệu quả với mã hóa có sự lan truyền cao",
+      "Yêu cầu lượng lớn dữ liệu",
+      "Dễ dàng triển khai"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 55,
+    "chapter": "Chương 5",
+    "question": "Kỹ thuật thám mã nào yêu cầu số lượng lớn nhất các cặp plaintext/ciphertext?",
+    "options": [
+      "Thám mã vi sai",
+      "Thám mã tuyến tính",
+      "Thám mã nội suy",
+      "Thám mã brute-force"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 56,
+    "chapter": "Chương 5",
+    "question": "Kỹ thuật thám mã nào hiệu quả nhất đối với mã hóa có số vòng lặp lớn?",
+    "options": [
+      "Thám mã tuyến tính",
+      "Thám mã vi sai",
+      "Thám mã nội suy",
+      "Cả thám mã vi sai và thám mã nội suy"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 57,
+    "chapter": "Chương 5",
+    "question": "Cách tiếp cận của phương pháp thám mã tuyến tính",
+    "options": [
+      "Phân tích các thành phần tuyến tính và ước lượng chúng bằng các biểu diễn xấp xỉ thành phần",
+      "Phân tích các thành phần phi tuyến tính và ước lượng chúng bằng các biểu diễn xấp xỉ thành phần",
+      "Ước lượng chúng bằng cách tạo sơ đồ thống kê",
+      "Phân tích các thành phần phi tuyến tính và ước lượng chúng bằng các biểu diễn xấp xỉ thành phần từ đó kết hợp lại để tạo thành một biểu diễn xấp xỉ tuyến tính của toàn bộ hệ mã"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 58,
+    "chapter": "Chương 5",
+    "question": "Thám mã vi sai cần bao nhiêu bước tiến hành",
+    "options": [
+      "4 bước",
+      "5 bước",
+      "6 bước",
+      "7 bước"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 59,
+    "chapter": "Chương 5",
+    "question": "Đa thức tái tạo trong thám mã nội suy là gì",
+    "options": [
+      "Là đa thức đại diện cho phép mã hóa",
+      "Là đa thức sử dụng để mã hóa",
+      "Là đa thức sau khi được mã hóa",
+      "Là đa thức của công thức nội suy"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 60,
+    "chapter": "Chương 5",
+    "question": "Trong thám mã nội suy, đa thức tái tạo được sử dụng để",
+    "options": [
+      "Kẻ tấn công có thể tính toán để tìm được một đại diện của bản mã từ đó biết được phương thức mã hóa làm giảm tính bảo mật của lược đồ mã hóa",
+      "Đại diện cho phép mã hóa",
+      "Tìm phương thức mã hóa trực tiếp",
+      "Tìm khóa bí mật K"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 61,
+    "chapter": "Chương 5",
+    "question": "Quy trình thực hiện thám mã nội suy gồm các bước",
+    "options": [
+      "Xây dựng đa thức biểu diễn bản mã thông qua bản rõ",
+      "Xây dựng không gian bản mã/ bản rõ từ đa thức thu được",
+      "Đoán khóa vòng cuối",
+      "Cả ba phương án trên đều đúng"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 62,
+    "chapter": "Chương 5",
+    "question": "Mục đích chính khi sử dụng phương pháp Meet-in-the-middle trong thám mã nội suy",
+    "options": [
+      "Giảm số lượng khóa phải tìm",
+      "Giảm thiểu thời gian tìm kiếm",
+      "Tìm giá trị khóa vòng cuối",
+      "Tất cả các ý trên"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 63,
+    "chapter": "Chương 5",
+    "question": "Mục đích của kỹ thuật tấn công module dùng chung là gì?",
+    "options": [
+      "Chặn toàn bộ hệ thống mạng",
+      "Tăng tốc độ xác thực",
+      "Tìm được khóa bí mật hoặc bản rõ",
+      "Khiến quá trình mã hóa chậm"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 64,
+    "chapter": "Chương 5",
+    "question": "Điều gì xảy ra khi người thám mã lợi dụng sơ hở trong việc sử dụng chung module N?",
+    "options": [
+      "Người dùng bị mất quyền truy cập",
+      "Hệ thống trở nên chậm chạp",
+      "Người thám mã có thể lấy được các thông điệp quan trọng",
+      "Khóa bí mật của người dùng bị thay đổi"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 65,
+    "chapter": "Chương 5",
+    "question": "Người quản lý thường dùng chung một module N cho tất cả người xử dụng, mỗi người sử dụng có khóa bí mật riêng nhằm mục đích gì",
+    "options": [
+      "Tăng cường bảo mật cho hệ thống",
+      "Giảm chi phí sinh khóa",
+      "Tăng tốc độ xác thực",
+      "Tăng cường sự riêng tư cho người dùng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 66,
+    "chapter": "Chương 5",
+    "question": "Tấn công modulo dùng chung là kỹ thuật tấn công dựa trên việc gì?",
+    "options": [
+      "Biết trước khóa bí mật",
+      "Biết trước bản rõ",
+      "Chỉ biết bản mã",
+      "Biết trước thuật toán mã hóa"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 67,
+    "chapter": "Chương 5",
+    "question": "Mục đích chính của kỹ thuật tấn công module dùng chung là gì?",
+    "options": [
+      "Tìm được khóa bí mật và truy cập vào toàn bộ hệ thống",
+      "Làm hệ thống trở nên chậm chạp",
+      "Tìm được bản rõ hoặc khóa bí mật",
+      "Ngăn chặn người dùng truy cập vào hệ thống"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 68,
+    "chapter": "Chương 5",
+    "question": "Trong kỹ thuật tấn công module dùng chung, để tìm được khóa bí mật của người bị tấn công, cần tìm một số thỏa mãn điều kiện nào?",
+    "options": [
+      "Là số nguyên tố",
+      "Là bội của 𝛷(𝑛) và nguyên tố cùng nhau với khóa công khai",
+      "Là bội của N và nguyên tố cùng nhau với khóa bí mật",
+      "Là số chẵn và nguyên tố cùng nhau với N"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 69,
+    "chapter": "Chương 5",
+    "question": "Phương pháp tấn công nào được sử dụng để phá vỡ toàn bộ hệ thống trong tấn công module dùng chung?",
+    "options": [
+      "Tấn công brute force để dò tìm khóa bí mật",
+      "Sử dụng khóa công khai và bí mật của mình để sinh ra khóa bí mật của người khác",
+      "Tấn công từ chối dịch vụ để làm gián đoạn hệ thống",
+      "Tấn công SQL injection để truy cập vào cơ sở dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 70,
+    "chapter": "Chương 5",
+    "question": "Đầu vào cần thiết cho việc tìm khóa bí mật của người bị tấn công trong kỹ thuật tấn công module dùng chung là gì?",
+    "options": [
+      "Cặp khóa công khai/bí mật của kẻ tấn công và khóa công khai của người bị tấn công",
+      "Chỉ cần khóa bí mật của kẻ tấn công",
+      "Khóa công khai của hệ thống và khóa bí mật của kẻ tấn công",
+      "Cặp khóa công khai/bí mật của người bị tấn công và khóa công khai của hệ thống"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 71,
+    "chapter": "Chương 5",
+    "question": "Phương pháp tấn công nào được sử dụng để đạt được mục đích tìm được bản rõ trong trường hợp khóa công khai của kẻ tấn công và người bị tấn công là các số nguyên tố cùng nhau ?",
+    "options": [
+      "Sử dụng khóa công khai và bí mật của mình để sinh ra khóa bí mật của người khác",
+      "Tìm cặp khóa công khai nguyên tố cùng nhau của người nhận",
+      "Tấn công từ chối dịch vụ để làm gián đoạn hệ thống",
+      "Sử dụng phương pháp brute force để dò tìm khóa bí mật"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 72,
+    "chapter": "Chương 5",
+    "question": "Trong trường hợp hai người nhận được cùng một thông điệp và có các khóa công khai nguyên tố cùng nhau, kẻ tấn công có thể làm gì?",
+    "options": [
+      "Giải mã thông điệp mà không cần biết các khóa bí mật",
+      "Truy cập vào hệ thống một cách dễ dàng",
+      "Tạo ra các khóa bí mật mới cho hệ thống",
+      "Phá vỡ mã hóa bằng cách brute force"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 73,
+    "chapter": "Chương 5",
+    "question": "Trong kỹ thuật tấn công module dùng chung, điều kiện nào là cần thiết để kẻ tấn công có thể giải mã thông điệp mà không cần biết các khóa bí mật?",
+    "options": [
+      "GCD(e1, e2) = 1",
+      "GCD(d1, d2) = 1",
+      "Tất cả các khóa công khai phải giống nhau",
+      "Tất cả các khóa bí mật phải giống nhau"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 74,
+    "chapter": "Chương 5",
+    "question": "Tấn công Wiener nhắm vào việc nào sau đây?",
+    "options": [
+      "Tìm được khóa công khai",
+      "Tìm được bản rõ của thông điệp",
+      "Tìm được khóa bí mật",
+      "Tìm được số nguyên tố p và q"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 75,
+    "chapter": "Chương 5",
+    "question": "Định lý Wiener đề cập đến điều gì?",
+    "options": [
+      "Phương pháp để tăng cường bảo mật",
+      "Phương pháp để giảm thời gian giải mã",
+      "Cách chọn kích thước của khóa bí mật",
+      "Phương pháp tấn công khi d nhỏ"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 76,
+    "chapter": "Chương 5",
+    "question": "Trong tấn công Wiener, kẻ tấn công cần gì để bắt đầu quá trình tìm kiếm khóa bí mật?",
+    "options": [
+      "Khóa bí mật",
+      "Bản mã của thông điệp",
+      "Khóa công khai và n",
+      "Danh sách số nguyên tố"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 77,
+    "chapter": "Chương 5",
+    "question": "Cách thức tiến hành trong tấn công Wiener bao gồm gì?",
+    "options": [
+      "Sử dụng giả lập mạng để tìm kiếm khóa bí mật",
+      "Sử dụng định lý Wiener và phân số liên tục",
+      "Sử dụng phương pháp brute force để dò tìm khóa bí mật",
+      "Sử dụng phương pháp chia nhỏ để mã hóa thông điệp"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 78,
+    "chapter": "Chương 5",
+    "question": "Tấn công với số mũ công khai nhỏ nhắm vào việc gì?",
+    "options": [
+      "Tìm được khóa bí mật",
+      "Tìm được bản rõ của thông điệp",
+      "Tìm được khóa công khai",
+      "Tìm được số nguyên tố p và q"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 79,
+    "chapter": "Chương 5",
+    "question": "Tại sao kẻ tấn công có thể tìm được bản rõ của thông điệp mà không cần biết các khóa bí mật?",
+    "options": [
+      "Do người gửi sử dụng cùng một khóa công khai nhỏ cho nhiều người nhận",
+      "Do người gửi sử dụng cùng một khóa bí mật cho nhiều người nhận",
+      "Do người gửi sử dụng phương pháp mã hóa đối xứng",
+      "Do người gửi sử dụng phương pháp mã hóa bất đối xứng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 80,
+    "chapter": "Chương 5",
+    "question": "Trong quá trình tấn công với số mũ công khai nhỏ, định lý số dư Trung Hoa được sử dụng để thực hiện công việc gì?",
+    "options": [
+      "Tìm các khóa công khai",
+      "Giải mã các bản mã",
+      "Tìm bản rõ chung từ các bản mã",
+      "Tăng cường bảo mật cho hệ thống"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 81,
+    "chapter": "Chương 5",
+    "question": "Điều gì xảy ra khi các tham số p-1 và q-1 có các ước nguyên tố nhỏ trong hệ RSA?",
+    "options": [
+      "Hệ mật trở nên an toàn hơn",
+      "Hệ mật trở nên mất an toàn",
+      "Tăng tốc độ mã hóa",
+      "Giảm thời gian giải mã"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 82,
+    "chapter": "Chương 5",
+    "question": "Kẻ tấn công có thể sử dụng thuật toán nào để phân tích N khi p-1 hoặc q-1 có các ước nguyên tố nhỏ?",
+    "options": [
+      "Thuật toán Euclid",
+      "Thuật toán Pollard",
+      "Thuật toán Dijkstra",
+      "Thuật toán QuickSort"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 83,
+    "chapter": "Chương 5",
+    "question": "Trong quá trình xây dựng hệ RSA, điều gì cần được đảm bảo để tránh tấn công từ thuật toán Pollard?",
+    "options": [
+      "Chọn p và q sao cho p-1 và q-1 không có các ước nguyên tố nhỏ",
+      "Chọn p và q là các số chẵn",
+      "Sử dụng các thuật toán mã hóa đối xứng",
+      "Tăng kích thước của khóa bí mật"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 84,
+    "chapter": "Chương 5",
+    "question": "Mục đích của việc chọn các tham số p và q một cách cẩn thận trong hệ RSA là gì?",
+    "options": [
+      "Để tăng tốc độ mã hóa",
+      "Để tăng cường bảo mật cho hệ mật",
+      "Để giảm chi phí tính toán",
+      "Để làm cho hệ mật dễ dàng hơn trong việc sử dụng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 85,
+    "chapter": "Chương 5",
+    "question": "Mục đích của việc chuyển đổi văn bản rõ (chuyển đổi từ M sang m) trong chuẩn PKCS là gì?",
+    "options": [
+      "Để giảm kích thước của văn bản mã",
+      "Để tăng tốc độ mã hóa",
+      "Để đảm bảo không có giá trị nào của M tạo ra văn bản mã không an toàn",
+      "Để giảm thời gian giải mã"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 86,
+    "chapter": "Chương 5",
+    "question": "Chuẩn PKCS được sử dụng chủ yếu trong giai đoạn nào của quy trình mã hóa?",
+    "options": [
+      "Khởi tạo khóa",
+      "Chuyển đổi văn bản rõ",
+      "Giai đoạn truyền tải dữ liệu",
+      "Xác thực người dùng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 87,
+    "chapter": "Chương 5",
+    "question": "Tấn công lựa chọn thích nghi bản mã có thể giải mã được các thông điệp mà không cần biết điều gì?",
+    "options": [
+      "Khóa công khai",
+      "Khóa bí mật",
+      "Bản mã",
+      "Bản rõ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 88,
+    "chapter": "Chương 5",
+    "question": "Trong tấn công lựa chọn thích nghi bản mã, hàm tiên tri trả về điều gì?",
+    "options": [
+      "Bản rõ M",
+      "Khóa công khai",
+      "Kết quả kiểm tra PKCS của bản rõ M",
+      "Khóa bí mật"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 89,
+    "chapter": "Chương 5",
+    "question": "Trong quá trình tấn công lựa chọn thích nghi bản mã, kẻ tấn công có thể làm gì để tìm ra bản rõ tương ứng với một bản mã mong muốn giải mã?",
+    "options": [
+      "Gửi nhiều bản mã đến các hàm tiên tri và nhận về kết quả kiểm tra",
+      "Thực hiện tấn công brute force",
+      "Sử dụng khóa công khai để giải mã trực tiếp",
+      "Tấn công từ chối dịch vụ (DoS)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 90,
+    "chapter": "Chương 5",
+    "question": "Hàm tiên tri hoạt động như thế nào trong tấn công lựa chọn thích nghi bản mã?",
+    "options": [
+      "Giải mã C, kiểm tra M có tuân theo PKCS hay không, và trả về bản rõ M",
+      "Giải mã C, kiểm tra M có tuân theo PKCS hay không, và trả về kết quả kiểm tra",
+      "Mã hóa C và trả về bản mã",
+      "Kiểm tra khóa công khai và trả về khóa bí mật"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 91,
+    "chapter": "Chương 5",
+    "question": "Tấn công lựa chọn thích nghi bản mã còn được gọi là gì?",
+    "options": [
+      "Tấn công brute force",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công triệu thông báo",
+      "Tấn công phân tích thời gian"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 92,
+    "chapter": "Chương 5",
+    "question": "Một biện pháp phòng tránh tấn công lựa chọn thích nghi bản mã là gì?",
+    "options": [
+      "Đưa ra câu phúc đáp ngay lập tức",
+      "Không đưa ra câu phúc đáp hoặc không đưa ra thông báo",
+      "Sử dụng mã hóa đối xứng",
+      "Tăng kích thước của khóa bí mật"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 93,
+    "chapter": "Chương 5",
+    "question": "Để phòng tránh kỹ thuật tấn công lựa chọn thích nghi bản mã thì nên sử dụng mô hình chuyển đổi an toàn nào dưới đây ?",
+    "options": [
+      "Chuyển đổi mã hóa đối xứng",
+      "Chuyển đổi mã hóa bất đối xứng tối ưu",
+      "Sử dụng mã hóa đối xứng AES",
+      "Tăng độ phức tạp của thuật toán"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  }
+]
