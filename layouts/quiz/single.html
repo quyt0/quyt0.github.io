@@ -433,18 +433,14 @@
                 if (input.checked) {
                     userSelectedIds.push(input.id);
                     hasSelection = true;
-                    // Bị tick vào đáp án sai -> Sai nguyên câu
                     if (input.value !== "true") isFullyCorrect = false; 
                 } else {
-                    // Không tick đáp án đúng -> Sai nguyên câu
                     if (input.value === "true") isFullyCorrect = false; 
                 }
             });
 
-            // Lưu mảng các ID đã chọn
             userSelections[qIndex] = userSelectedIds; 
 
-            // Chấm màu trên Sidebar
             if (isFullyCorrect) {
                 correctCount++;
                 document.getElementById(`nav-btn-${qIndex}`).style.background = '#38a169';
@@ -460,7 +456,6 @@
                 document.getElementById(`nav-btn-${qIndex}`).style.color = 'white';
             }
 
-            // Render đánh giá từng Option
             inputs.forEach(input => {
                 const label = input.parentElement;
                 const badge = document.getElementById(`result-badge-${input.id}`);
@@ -476,9 +471,11 @@
                         label.style.borderStyle = 'dashed';
                         badge.innerHTML = '⚠️ <span style="font-size: 0.85rem; color:#d69e2e;">Bỏ qua</span>';
                     } else {
-                        // Tick thiếu
+                        // FIX Ở ĐÂY: Tách riêng text cho MSQ và MCQ
                         label.style.borderStyle = 'dashed';
-                        badge.innerHTML = '👈 <span style="font-size: 0.85rem; color:#276749;">Thiếu đáp án này</span>';
+                        badge.innerHTML = q.isMSQ 
+                            ? '👈 <span style="font-size: 0.85rem; color:#276749;">Thiếu đáp án này</span>'
+                            : '👈 <span style="font-size: 0.85rem; color:#276749;">Đáp án đúng</span>';
                     }
                 } else if (isUserChoice) {
                     label.style.borderColor = '#e53e3e'; 
@@ -558,7 +555,6 @@
                 <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-color);">Câu ${qIndex + 1}: ${q.question} ${msqBadge}</h3>
                 <div style="display: flex; flex-direction: column; gap: 10px; margin-top:15px;">`;
             
-            // Xử lý ngược tương thích cho lịch sử cũ
             let savedAnswer = record.userAnswers[qIndex];
             let userSelectedIds = [];
             if (Array.isArray(savedAnswer)) {
@@ -574,7 +570,6 @@
                 const optId = `q${qIndex}_o${oIndex}`;
                 const isUserChoice = userSelectedIds.includes(optId);
                 
-                // Đánh giá đúng/sai cho Sidebar Review
                 if (isUserChoice && !opt.isCorrect) isFullyCorrect = false;
                 if (!isUserChoice && opt.isCorrect) isFullyCorrect = false;
 
@@ -583,7 +578,16 @@
 
                 if (opt.isCorrect) {
                     labelStyle += `border-color: #38a169; background: #f0fff4;`;
-                    badgeHtml = isUserChoice ? `✅ Đúng` : (!hasSelection ? `⚠️ Bỏ qua` : `👈 Thiếu đáp án này`);
+                    if (isUserChoice) {
+                        badgeHtml = `✅ Đúng`;
+                    } else if (!hasSelection) {
+                        labelStyle += `border-style: dashed;`;
+                        badgeHtml = `⚠️ Bỏ qua`;
+                    } else {
+                        // FIX Ở ĐÂY CHO MÀN HÌNH REVIEW
+                        labelStyle += `border-style: dashed;`;
+                        badgeHtml = q.isMSQ ? `👈 Thiếu đáp án này` : `👈 Đáp án đúng`;
+                    }
                 } else if (isUserChoice) {
                     labelStyle += `border-color: #e53e3e; background: #fff5f5;`; badgeHtml = `❌ Sai`;
                 }
