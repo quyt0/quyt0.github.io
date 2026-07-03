@@ -22,7 +22,7 @@
     <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <script src="/js/fuse.basic.min.js"></script>
     
-    <link rel="stylesheet" href="/css/style.min.6e5d2bbed6c22af603aae07e4ec6b36da8e1835b0efb2bd6caffac53b289147f.css" integrity="sha256-bl0rvtbCKvYDquB&#43;Tsazbajhg1sO&#43;yvWyv&#43;sU7KJFH8=">
+    <link rel="stylesheet" href="/css/style.min.10c7f7b258c2791252ef0761a7030425e1a490dcda0114961c9f2f431cc98092.css" integrity="sha256-EMf3sljCeRJS7wdhpwMEJeGkkNzaARSWHJ8vQxzJgJI=">
     
     
     <link rel="canonical" href="http://localhost:1313/2026/07/tong-quan-ve-serie-mern-stack-ky-su/">
@@ -143,7 +143,7 @@
                         </span>
                     
                     <span class=""><i class="fa-solid fa-calendar"></i> 03/07/2026</span>
-                    <span class=""><i class="fa-solid fa-clock"></i> 3 mins read</span>
+                    <span class=""><i class="fa-solid fa-clock"></i> 4 mins read</span>
                 </div>
                 
                 
@@ -153,6 +153,10 @@
                     <div class="tag-pills">
                     
                         <a class="tag-pill" href="/tags/web">web</a>
+                    
+                        <a class="tag-pill" href="/tags/mern">mern</a>
+                    
+                        <a class="tag-pill" href="/tags/ptit">ptit</a>
                     
 
                     
@@ -195,9 +199,43 @@
 <li><strong>R</strong>eactJS: Front-end do Facebook phát triển, sử dụng kiến trúc dựa trên <a href="https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm">Component</a> và <a href="https://viblo.asia/p/hieu-sao-ve-virtual-dom-trong-reactjs-bWrZngDblxw">VirtualDOM</a></li>
 <li><strong>N</strong>odeJS: Môi trường thực thi cho phép chạy code JS ở phía Server, nó là môi trường để ExpressJS chạy được trên này</li>
 </ul>
-<p>Theo mình thấy thì học ReactJS sẽ cần biết một chút kiến thức về JavaScript như mấy cú pháp <a href="https://viblo.asia/p/tim-hieu-mot-vai-cu-phap-co-trong-es6-trong-5-phut-Eb85oxDmK2G">ES6</a> (nâng cao) để hiểu flow hoạt động và viết lại được.</p>
+<p>Vì khi đụng tới MERN thì ta sẽ dev dựa trên JavaScript, nên tất nhiên chúng ta cần phải biết một chút kiến thức về JavaScript như mấy cú pháp <a href="https://viblo.asia/p/tim-hieu-mot-vai-cu-phap-co-trong-es6-trong-5-phut-Eb85oxDmK2G">ES6</a> (nâng cao) thì mới hiểu flow hoạt động và viết lại được.</p>
+<h2 id="lưu-ý">Lưu ý</h2>
+<blockquote>
+<p>Trước khi bắt đầu đọc các bài viết tiếp theo, mình muốn lưu ý 3 điều quan trọng sau đây</p>
+</blockquote>
+<p><strong>1. Create React App (CRA) hiện tại đã lỗi thời</strong></p>
+<ul>
+<li>
+<p>Tại thời điểm mình viết bài này (Tháng 7/2026), CRA đã được đội ngũ ReactJS <a href="https://react.dev/blog/2025/02/14/sunsetting-create-react-app">thông báo chính thức là <strong>ngừng phát triển</strong> (sunset)</a> kể từ Tháng 02/2025.</p>
+</li>
+<li>
+<p>Dù ReactJS đã ra mắt phiên bản 19 và CRA vẫn hỗ trợ phiên bản này, nhưng nó sẽ <strong>không còn nhận được bất kì cập nhật hay cải tiến nào nữa</strong>.</p>
+</li>
+</ul>
+<p><strong>2. Khuyến nghị cho các dự án mới</strong></p>
+<p>Nếu bạn đang làm một dự án mới tinh, tốt hơn hết là nên sử dụng các framework hiện đại được chính team React khuyến nghị:</p>
+<ul>
+<li><strong><a href="https://nextjs.org/">Next.js</a></strong></li>
+<li><strong><a href="https://reactrouter.com/">React Router</a></strong></li>
+<li><strong><a href="https://expo.dev/">Expo</a></strong> (Dành cho ứng dụng di động)</li>
+</ul>
+<p>Hoặc, nếu bạn chỉ muốn dùng các công cụ build (build tools) thế hệ mới, hãy thử:</p>
+<ul>
+<li><strong><a href="https://vite.dev/">Vite</a></strong></li>
+<li><strong><a href="https://parceljs.org/">Parcel</a></strong></li>
+<li><strong><a href="https://rsbuild.rs/">Rsbuild</a></strong></li>
+</ul>
+<p><strong>3. Mình vẫn chọn học Create React App</strong></p>
+<ul>
+<li><strong>Tại PTIT:</strong> Theo như một vài bạn học trước nói với mình thì vẫn được sử dụng CRA, thậm chí bắt buộc, một vài bạn lại nói được phép dùng Next.js</li>
+</ul>
+<ul>
+<li>Anyway, mình vẫn muốn tiếp cận theo hướng nền tảng với CRA trước. Sau khi quen với các concept của React thì mình sẽ chuyển qua Next.js (mong sẽ có bài viết chi tiết về Next.js sau :v)</li>
+</ul>
 <h2 id="đoạn-kết">Đoạn kết</h2>
-<p>Do môn này đến lúc đi thi hay kiểm tra cũng chỉ yêu cầu <strong>code</strong> được phần <strong>ReactJS và ExpressJS</strong> và nêu <strong>luồng hoạt động</strong> là chính. Cho nên mình cần tập trung vào hai phần này nhiều hơn</p>
+<p>Do môn này đến lúc đi thi hay kiểm tra cũng chỉ yêu cầu <strong>code</strong> được phần <strong>ReactJS và ExpressJS</strong> và nêu <strong>luồng hoạt động</strong> là chính. Cho nên mình cần tập trung vào hai phần này nhiều hơn.</p>
+<p>HTML, CSS mình không viết do không được hỏi tới khi thi/kiểm tra. 🤗</p>
 <p>Bài viết được đúc kết từ quá trình mình tự học khóa React trên F8 và tài liệu môn học. Cảm ơn các tác giả đã cung cấp nền tảng kiến thức</p>
 <p>Happy coding 💖</p>
 
@@ -216,6 +254,12 @@
                     <i class="fa-regular fa-newspaper"></i>Related articles
                 </h3>
                 <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/2026/07/reactjs-single-page-application/" title="[ReactJS] - Single Page Application">
+                                <span class="main-content__article-panel-item-text">[ReactJS] - Single Page Application</span>
+                            </a>
+                        </li>
                     
                         <li class="main-content__article-panel-item">
                             <a class="main-content__article-panel-item-link" href="/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/" title="Tìm hiểu về Web Server: Vai trò, cách thức, phân loại">
@@ -245,7 +289,7 @@
                             <a class="main-content__article-panel-item-link" href="/categories/web-development">
                                 
                                 <span class="main-content__article-panel-item-text">Web Development</span>
-                                <span class="main-content__article-panel-item-text cat-count">(2)</span>
+                                <span class="main-content__article-panel-item-text cat-count">(3)</span>
                             </a>
                         </li>
                     
@@ -269,6 +313,7 @@
   <ul>
     <li><a href="#giới-thiệu-chút">Giới thiệu chút</a></li>
     <li><a href="#về-mern-stack">Về MERN Stack</a></li>
+    <li><a href="#lưu-ý">Lưu ý</a></li>
     <li><a href="#đoạn-kết">Đoạn kết</a></li>
   </ul>
 </nav>

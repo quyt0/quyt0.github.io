@@ -1,5 +1,4 @@
 baseURL = 'https://izcuyt.com/'
-languageCode = 'en-us'
 title = 'Cuýt'
 removePathAccents = true
 enableEmoji = true

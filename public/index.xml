@@ -5,20 +5,20 @@
 		<link>http://localhost:1313/</link>
 		<description>Recent content on Cuýt</description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>en</language>
 		
 		
 		
 		
-			<lastBuildDate>Fri, 03 Jul 2026 09:13:04 +0700</lastBuildDate>
+			<lastBuildDate>Fri, 03 Jul 2026 13:25:33 +0700</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Arrow Function</title>
-				<link>http://localhost:1313/2026/07/arrow-function/</link>
-				<pubDate>Fri, 03 Jul 2026 09:13:04 +0700</pubDate>
-				<guid>http://localhost:1313/2026/07/arrow-function/</guid>
-				<description>&lt;p&gt;hehe&lt;/p&gt;</description>
+				<title>[ReactJS] - Single Page Application</title>
+				<link>http://localhost:1313/2026/07/reactjs-single-page-application/</link>
+				<pubDate>Fri, 03 Jul 2026 13:25:33 +0700</pubDate>
+				<guid>http://localhost:1313/2026/07/reactjs-single-page-application/</guid>
+				<description>&lt;h2 id=&#34;single-page-application---spa&#34;&gt;Single Page Application - SPA&lt;/h2&gt;&#xA;&lt;p&gt;Là kiểu ứng dụng web chỉ tải một &lt;strong&gt;tài liệu HTML chính&lt;/strong&gt; ở lần truy cập &lt;strong&gt;đầu tiên&lt;/strong&gt;. Khi người dùng &lt;strong&gt;chuyển giữa các màn hình&lt;/strong&gt;, trình duyệt &lt;strong&gt;không tải lại&lt;/strong&gt; toàn bộ trang mà dùng JavaScript sẽ lấy dữ liệu cần thiết và cập nhật giao diện ngay trên trang hiện tại.&lt;/p&gt;&#xA;&lt;p&gt;Nói thì có vẻ khó hiểu, nhưng hãy xem ví dụ này. Khi bạn view source (Ctrl + U) trang shopee.vn, thì bạn sẽ chỉ thấy có vỏn vẹn vài dòng HTML thôi&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Tổng quan về serie MERN Stack Ký Sự</title>

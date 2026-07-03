@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/2026/07/arrow-function/</loc>
-    <lastmod>2026-07-03T09:13:04+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-03T09:13:04+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-07-03T09:13:04+07:00</lastmod>
+    <loc>http://localhost:1313/2026/07/reactjs-single-page-application/</loc>
+    <lastmod>2026-07-03T13:25:33+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-07-03T09:08:56+07:00</lastmod>
+    <lastmod>2026-07-03T13:25:33+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-03T13:25:33+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/mern-stack-ky-su/</loc>
-    <lastmod>2026-07-03T09:08:56+07:00</lastmod>
+    <lastmod>2026-07-03T13:25:33+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-03T13:25:33+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
+    <lastmod>2026-07-03T13:25:33+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/web-development/</loc>
+    <lastmod>2026-07-03T13:25:33+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mern/</loc>
+    <lastmod>2026-07-03T09:08:56+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ptit/</loc>
     <lastmod>2026-07-03T09:08:56+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2026-07-03T09:08:56+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/web/</loc>
-    <lastmod>2026-07-03T09:08:56+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/web-development/</loc>
     <lastmod>2026-07-03T09:08:56+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/audio-steganography/</loc>

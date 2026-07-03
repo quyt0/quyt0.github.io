@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+        [ReactJS] - Single Page Application | Cuýt
+        
+    </title>
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid-5.3.8.css">
+    <link rel="stylesheet" href="/css/fontawesome-7.1.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="/css/syntax.min.53d4e46da3517d19de432fc9a8355a29d8b67ba5a974597d2a0758eb2a289d97.css" integrity="sha256-U9TkbaNRfRneQy/JqDVaKdi2e6WpdFl9KgdY6yoonZc=">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="blog của Cuýt" />
+    <link rel="manifest" href="/images/site.webmanifest" />
+    <link rel="preload" href="/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="/js/fuse.basic.min.js"></script>
+    
+    <link rel="stylesheet" href="/css/style.min.10c7f7b258c2791252ef0761a7030425e1a490dcda0114961c9f2f431cc98092.css" integrity="sha256-EMf3sljCeRJS7wdhpwMEJeGkkNzaARSWHJ8vQxzJgJI=">
+    
+    
+    <link rel="canonical" href="http://localhost:1313/2026/07/reactjs-single-page-application/">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="googlebot" content="index,follow">
+
+    
+    <meta name="description" content="Single Page Application - SPA Là kiểu ứng dụng web chỉ tải một tài liệu HTML chính ở lần truy cập đầu tiên. Khi người dùng chuyển giữa các màn hình, trình duyệt không tải lại toàn bộ trang mà dùng JavaScript sẽ lấy dữ liệu cần thiết và cập nhật giao diện ngay trên trang hiện tại.
+Nói thì có vẻ khó hiểu, nhưng hãy xem ví dụ này. Khi bạn view source (Ctrl &#43; U) trang shopee.vn, thì bạn sẽ chỉ thấy có vỏn vẹn vài dòng HTML thôi
+">
+
+    
+    <meta property="og:title" content="[ReactJS] - Single Page Application | Cuýt">
+    <meta property="og:description" content="Single Page Application - SPA Là kiểu ứng dụng web chỉ tải một tài liệu HTML chính ở lần truy cập đầu tiên. Khi người dùng chuyển giữa các màn hình, trình duyệt không tải lại toàn bộ trang mà dùng JavaScript sẽ lấy dữ liệu cần thiết và cập nhật giao diện ngay trên trang hiện tại.
+Nói thì có vẻ khó hiểu, nhưng hãy xem ví dụ này. Khi bạn view source (Ctrl &#43; U) trang shopee.vn, thì bạn sẽ chỉ thấy có vỏn vẹn vài dòng HTML thôi
+">
+    <meta property="og:url" content="http://localhost:1313/2026/07/reactjs-single-page-application/">
+    <meta property="og:type" content="article"><meta property="og:image" content="http://localhost:1313/2026/07/reactjs-single-page-application/cover.png"><meta property="og:image:type" content="image/png"><meta property="og:image" content="http://localhost:1313/2026/07/reactjs-single-page-application/cover_hu_70a8e7aca4f19cff.webp">
+    <meta property="og:image:type" content="image/webp"><meta name="twitter:image" content="http://localhost:1313/2026/07/reactjs-single-page-application/cover.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="theme-color" content="#e6e9ef">
+</head>
+<body>
+    <main id="main" role="main">
+        <header id="main-header">
+  <div class="container container-narrow">
+    <div class="row align-items-center">
+      <div class="col-3 col-md-2 col-lg-3">
+        <div class="main-header__homepage">
+          <a href="/" class="main-header__hompage-link">Cuýt</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6 main-header__navbar-wrapper">
+        <nav class="main-header__navbar" aria-label="Main navigation">
+          <ul class="main-header__navbar-list">
+            <li><a href="/">Blog</a></li>
+            <li><a href="/categories">Categories</a></li>
+            <li><a href="/tags">Tags</a></li>
+            <li><a href="/connect">Connect</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-9 col-md-4 col-lg-3">
+        <div class="main-header__btn">
+          <div class="main-header_search-wrapper">
+            <div style="position: relative;">
+              <input type="text" class="main-header__search-box" placeholder="Search..." aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass main-header__search-icon" aria-hidden="true"></i>
+            </div>
+            <ul id="main_header__search-results"></ul>
+          </div>
+
+          <button class="main-header__btn-toggle-theme" type="button" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+
+          <button class="main-header__btn-mobile-bar" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-header-mobile-menu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-header-mobile-menu" class="main-header__mobile-menu" hidden>
+    <nav aria-label="Mobile navigation">
+        <ul class="main-header__mobile-menu-list">
+        <li><a href="/">Blog</a></li>
+        <li><a href="/categories">Categories</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/connect">Connect</a></li>
+        <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    </div>
+  </div>
+</header>
+
+        <div id="main-content" class="container container-narrow">
+            
+    <div class="row">
+        <article class="main-content__article-detail col-md-9">
+            
+                
+                <div class="main-content__article-cover">
+                    
+                        
+                        
+                        <img src="/2026/07/reactjs-single-page-application/cover_hu_70a8e7aca4f19cff.webp" alt="[ReactJS] - Single Page Application">
+                    
+                </div>
+            
+        
+            <header class="main-content__article-header">
+                <h1 class="main-content__article-title">
+                    [ReactJS] - Single Page Application
+                </h1>
+                <div class="main-content__article-meta mt-3">
+                    <span>
+                        <i class="fa-solid fa-folder"></i>
+                        
+                            
+                                
+                                <a class="main-content__article-meta-category-link" href="/categories/web-development">
+                                    Web Development
+                                </a>
+                            
+                        
+                    </span>
+                    
+                        
+                        <span>
+                            <i class="fa-regular fa-bookmark"></i>
+                            Series
+                            <a class="main-content__article-meta-category-link" href="/series/mern-stack-ky-su">
+                            MERN Stack Ký Sự
+                            </a>
+                            · Part 2
+                        </span>
+                    
+                    <span class=""><i class="fa-solid fa-calendar"></i> 03/07/2026</span>
+                    <span class=""><i class="fa-solid fa-clock"></i> 4 mins read</span>
+                </div>
+                
+
+
+            </header>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="main-content__article-body-content">
+                <h2 id="single-page-application---spa">Single Page Application - SPA</h2>
+<p>Là kiểu ứng dụng web chỉ tải một <strong>tài liệu HTML chính</strong> ở lần truy cập <strong>đầu tiên</strong>. Khi người dùng <strong>chuyển giữa các màn hình</strong>, trình duyệt <strong>không tải lại</strong> toàn bộ trang mà dùng JavaScript sẽ lấy dữ liệu cần thiết và cập nhật giao diện ngay trên trang hiện tại.</p>
+<p>Nói thì có vẻ khó hiểu, nhưng hãy xem ví dụ này. Khi bạn view source (Ctrl + U) trang shopee.vn, thì bạn sẽ chỉ thấy có vỏn vẹn vài dòng HTML thôi</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2026/07/reactjs-single-page-application/image.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2026/07/reactjs-single-page-application/image_hu_d98f50c65991d244.webp" 
+           
+             width="532" height="288"
+           
+           alt="alt text" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<p>Bởi vì thực chất, chỉ có thẻ <code>&lt;div id=&quot;main&quot;&gt;&lt;/div&gt;</code> này là cái <strong>khung chung cho mọi trang</strong>, khi user chuyển hướng đến một trang khác thì sẽ dùng JavaScript để xử lí và đưa các thành phần của trang đó vào trong cái khung này</p>
+<p>Ví dụ đơn giản như</p>
+<ul>
+<li>Ở trang chủ, ứng dụng gọi API lấy danh sách sản phẩm rồi hiển thị lên giao diện.</li>
+<li>Khi mở chi tiết sản phẩm, ứng dụng gọi API lấy thông tin sản phẩm và cập nhật phần nội dung cần thay đổi.</li>
+</ul>
+<p>Nhờ vậy, quá trình chuyển giữa các màn hình thường <strong>không cần full page reload</strong>, nên trải nghiệm sử dụng có thể mượt hơn.</p>
+<h2 id="multi-page-application---mpa">Multi Page Application - MPA</h2>
+<p><strong>Multi Page Application (MPA)</strong> là kiểu web <strong>truyền thống</strong>, trong đó mỗi lần chuyển sang một trang khác, trình duyệt thường gửi <strong>request mới</strong> lên server và nhận về một tài liệu <strong>HTML mới</strong>.</p>
+<p>Ví dụ với một blog được render sẵn bằng server hoặc static site generator (bài viết này), khi bấm <code>Ctrl + U</code>, bạn có thể thấy phần lớn nội dung HTML của bài viết ngay trong source:</p>
+<p>
+  
+  
+<figure class="image-container">
+  <a href="/2026/07/reactjs-single-page-application/image-1.png" 
+     class="lightbox-trigger" 
+     >
+      <img src="/2026/07/reactjs-single-page-application/image-1_hu_d0240ce02119824f.webp" 
+           
+             width="1372" height="366"
+           
+           alt="alt text" 
+           class="main-content__article-body-img" 
+           loading="lazy" 
+      />
+  </a>
+  
+  
+</figure></p>
+<h2 id="khác-biệt-của-spa-và-mpa">Khác biệt của SPA và MPA</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Tiêu chí</th>
+					<th>SPA</th>
+					<th>MPA</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Cách tải trang</td>
+					<td>Tải một HTML chính, sau đó cập nhật giao diện bằng JavaScript</td>
+					<td>Mỗi route thường trả về một HTML mới</td>
+			</tr>
+			<tr>
+					<td>Chuyển trang</td>
+					<td>Thường không reload toàn bộ trang</td>
+					<td>Thường có full page reload</td>
+			</tr>
+			<tr>
+					<td>Lần tải đầu</td>
+					<td>Có thể nặng hơn vì phải tải bundle JavaScript</td>
+					<td>Thường hiển thị nội dung ban đầu nhanh hơn nếu HTML đã render sẵn</td>
+			</tr>
+			<tr>
+					<td>Các lần chuyển sau</td>
+					<td>Thường nhanh và mượt hơn</td>
+					<td>Phụ thuộc vào server, cache và lượng tài nguyên cần tải lại</td>
+			</tr>
+			<tr>
+					<td>SEO</td>
+					<td>Cần SSR, SSG, prerendering hoặc cấu hình tốt nếu render chủ yếu ở client</td>
+					<td>Thường thuận lợi hơn vì HTML có sẵn nội dung</td>
+			</tr>
+			<tr>
+					<td>JavaScript</td>
+					<td>Phụ thuộc nhiều vào JavaScript</td>
+					<td>Có thể hoạt động tốt cả khi dùng ít JavaScript</td>
+			</tr>
+			<tr>
+					<td>Phù hợp với</td>
+					<td>Dashboard, admin panel, web app nhiều tương tác</td>
+					<td>Blog, tin tức, tài liệu, landing page, website thiên về nội dung</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="tại-sao-lại-cần-spa">Tại sao lại cần SPA?</h2>
+<p>Nếu như không xét đến vấn đề tốc độ thì mình khá thắc mắc tại sao lại cần đến SPA.</p>
+<p>Theo góc nhìn của mình khi đọc tài liệu trên lớp thì quá trình nó sẽ như sau</p>
+<h3 id="web-truyền-thống-sử-dụng-mpa"><strong>Web truyền thống sử dụng MPA</strong></h3>
+<p>Rất ổn định, nhưng khi chuyển trang thì trình duyệt sẽ xoá sạch môi trường JavaScript hiện tại đi.</p>
+<p>Môi trường JavaScript thì có thể hiểu là toàn bộ những dữ liệu được lấy/tạo ra bằng JavaScript. Ví dụ</p>
+<ul>
+<li>Ở trang A, lấy được số liệu giá vàng qua 1 hàm <code>fetch()</code></li>
+<li>Khi sang trang B, mất toàn bộ số liệu đó (do trình duyệt xoá)</li>
+<li>Khi quay lại trang A, trình duyệt lại phải tải lại dữ liệu giá vàng qua <code>fetch()</code></li>
+</ul>
+<p>Để giải quyết vấn đề này, trình duyệt còn có cache, <code>localStorage</code>, <code>sessionStorage</code>, cookie, server-side session. Tuy nhiên, với các ứng dụng <strong>nhiều tương tác</strong> như dashboard, chat, trình chỉnh sửa nội dung hoặc admin panel, việc giữ <strong>trải nghiệm liền mạch</strong> là rất quan trọng.</p>
+<p>SPA giải quyết bài toán này bằng cách <strong>giữ lại cùng một document</strong> trong trình duyệt. Thay vì để browser tải trang mới, ứng dụng dùng JavaScript để:</p>
+<ul>
+<li>gọi API lấy dữ liệu mới;</li>
+<li>cập nhật phần giao diện cần thay đổi;</li>
+<li>giữ lại state đang dùng trong app;</li>
+<li>điều hướng giữa các màn hình mà không cần full reload.</li>
+</ul>
+<h3 id="vấn-đề-routing-trong-spa">Vấn đề routing trong SPA</h3>
+<p>Nếu chỉ thay đổi giao diện bằng JavaScript mà <strong>không cập nhật URL</strong>, người dùng sẽ gặp nhiều vấn đề:</p>
+<ul>
+<li>không bookmark được màn hình hiện tại;</li>
+<li>không copy link để chia sẻ đúng vị trí đang xem;</li>
+<li>nút Back/Forward của trình duyệt không phản ánh đúng các màn hình trong app;</li>
+<li>refresh hoặc mở trực tiếp một đường dẫn con có thể không hiển thị đúng nội dung.</li>
+</ul>
+<p>Vì vậy, SPA hiện đại thường dùng <strong>client-side routing</strong>. Tức là Router sẽ đồng bộ giao diện với URL bằng một trong hai cách phổ biến:</p>
+<ul>
+<li><strong>Hash routing</strong>: dùng phần sau dấu <code>#</code>, ví dụ <code>/index.html#/products/123</code>.</li>
+<li><strong>History API routing</strong>: dùng URL “đẹp” như <code>/products/123</code>, kết hợp với <code>pushState</code>, <code>replaceState</code> và sự kiện <code>popstate</code>.</li>
+</ul>
+<p>Cách này giúp SPA vừa giữ được môi trường JavaScript hiện tại, vừa hỗ trợ URL, Back/Forward, bookmark và chia sẻ link tốt hơn.</p>
+<p>Trong đó thì ReactJS là một trong những thư viện phổ biến tạo ra SPA</p>
+
+            </div>
+        
+            <div class="article-footer mt-5 pt-4" style="font-size: smaller;">
+                <p>Thanks for your reading!</p>
+                <p>© 2026 <strong>izcuyt.com</strong>. Some rights reserved.</p>
+            </div>
+        </article>
+        <aside class="main-content__article-panel col-md-3">
+            
+            
+            <div class="main-content__article-panel-same-category-post">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-newspaper"></i>Related articles
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/2026/07/tong-quan-ve-serie-mern-stack-ky-su/" title="Tổng quan về serie MERN Stack Ký Sự">
+                                <span class="main-content__article-panel-item-text">Tổng quan về serie MERN Stack Ký Sự</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/" title="Tìm hiểu về Web Server: Vai trò, cách thức, phân loại">
+                                <span class="main-content__article-panel-item-text">Tìm hiểu về Web Server: Vai trò, cách thức, phân loại</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+
+            <div class="main-content__article-panel-categories">
+                <h3 class="main-content__article-panel-heading">
+                    <i class="fa-regular fa-folder"></i> Categories
+                </h3>
+                <ul class="main-content__article-panel-list">
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/security">
+                                
+                                <span class="main-content__article-panel-item-text">Security</span>
+                                <span class="main-content__article-panel-item-text cat-count">(3)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/web-development">
+                                
+                                <span class="main-content__article-panel-item-text">Web Development</span>
+                                <span class="main-content__article-panel-item-text cat-count">(3)</span>
+                            </a>
+                        </li>
+                    
+                        <li class="main-content__article-panel-item">
+                            <a class="main-content__article-panel-item-link" href="/categories/writeups">
+                                
+                                <span class="main-content__article-panel-item-text">Writeups</span>
+                                <span class="main-content__article-panel-item-text cat-count">(3)</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+
+            
+                <div class="main-content__article-panel-toc">
+                    <h3 class="main-content__article-panel-heading">
+                        <i class="fa-regular fa-rectangle-list"></i>Contents
+                    </h3>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#single-page-application---spa">Single Page Application - SPA</a></li>
+    <li><a href="#multi-page-application---mpa">Multi Page Application - MPA</a></li>
+    <li><a href="#khác-biệt-của-spa-và-mpa">Khác biệt của SPA và MPA</a></li>
+    <li><a href="#tại-sao-lại-cần-spa">Tại sao lại cần SPA?</a>
+      <ul>
+        <li><a href="#web-truyền-thống-sử-dụng-mpa"><strong>Web truyền thống sử dụng MPA</strong></a></li>
+        <li><a href="#vấn-đề-routing-trong-spa">Vấn đề routing trong SPA</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+            
+
+        </aside>
+    </div>
+
+        </div>
+
+        <footer id="main-footer" class="pt-4 pb-4">
+    <div class="container container-narrow border-top main-footer__wrapper">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="footer-brand">
+                    <h2 class="footer-brand__name">>_ izcuyt.com</h2>
+                    <p class="footer-brand__desc">
+                        Aspiring Web Pentester<br>Sharing security knowledge about Cyber Security.
+                        <br><br>
+                        Made by <b>@cuyt</b> with love. ♥️
+                    </p>
+                </div>
+                <div class="main-footer__footer-socials">
+                    <a href="https://github.com/quyt0"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="GitHub profile">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/100024860571867"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Facebook profile">
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/koanbunbo/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Instagram profile">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/doanduyphuc/"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="LinkedIn profile">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://t.me/izcuyt"
+                        target="_blank" rel="noopener"
+                        class="footer-social-btn"
+                        aria-label="Telegram profile">
+                        <i class="fa-brands fa-telegram" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="mailto:dphuc2304@gmail.com"
+                        class="footer-social-btn"
+                        aria-label="Send email to dphuc2304@gmail.com">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    </a>
+
+                    </div>
+            </div>
+
+            <div class="col-lg-1 d-none d-lg-block">
+                <div class="footer-divider"></div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">This site</h3>
+                <ul class="footer-list">
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/tags">Tags</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <h3 class="footer-title">Connect</h3>
+                <ul class="footer-list">
+                    <li><a href="/connect">Info</a></li>
+                    <li><a href="/about">About me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    </main>
+    <div id="lightbox-overlay" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+    
+    <script src="/js/script.min.70e904bdeca8236b0ecd4a3b32640a86757029f27498303f8669bd4f9c677125.js" integrity="sha256-cOkEveyoI2sOzUo7MmQKhnVwKfJ0mDA/hmm9T5xncSU=" defer></script>
+</body>
+</html>

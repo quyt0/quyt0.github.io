@@ -537,14 +537,17 @@ input::placeholder {
 }
 
 .main-content__article-body-content :not(pre) > code {
-  background: var(--ctp-surface0);
-  padding: 0.2em 0.4em;
-  margin: 0;
-  font-size: 85%;
-  font-family: 'JetBrains Mono', monospace;
-  border-radius: 4px;
-  word-break: break-word;
-  box-shadow: 0 1px 0 var(--ctp-mantle);
+    background: var(--ctp-surface0);
+    padding: 0 4px;
+    margin: 0;
+    font-size: 85%;
+    font-family: jetbrains mono, monospace;
+    border-radius: 4px;
+    word-break: break-word;
+    box-shadow: 0 1px 0 var(--ctp-mantle);
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
 }
 
 .main-content__article-body-content .highlight,

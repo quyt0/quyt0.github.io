@@ -5,18 +5,18 @@
 		<link>http://localhost:1313/categories/</link>
 		<description>Recent content in Categories on Cuýt</description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>en</language>
 		
 		
 		
 		
-			<lastBuildDate>Fri, 03 Jul 2026 09:08:56 +0700</lastBuildDate>
+			<lastBuildDate>Fri, 03 Jul 2026 13:25:33 +0700</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Web Development</title>
 				<link>http://localhost:1313/categories/web-development/</link>
-				<pubDate>Fri, 03 Jul 2026 09:08:56 +0700</pubDate>
+				<pubDate>Fri, 03 Jul 2026 13:25:33 +0700</pubDate>
 				<guid>http://localhost:1313/categories/web-development/</guid>
 				<description></description>
 			</item>

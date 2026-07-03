@@ -5,7 +5,7 @@
 		<link>http://localhost:1313/tags/</link>
 		<description>Recent content in Tags on Cuýt</description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>en</language>
 		
 		
 		
@@ -13,6 +13,20 @@
 			<lastBuildDate>Fri, 03 Jul 2026 09:08:56 +0700</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Mern</title>
+				<link>http://localhost:1313/tags/mern/</link>
+				<pubDate>Fri, 03 Jul 2026 09:08:56 +0700</pubDate>
+				<guid>http://localhost:1313/tags/mern/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ptit</title>
+				<link>http://localhost:1313/tags/ptit/</link>
+				<pubDate>Fri, 03 Jul 2026 09:08:56 +0700</pubDate>
+				<guid>http://localhost:1313/tags/ptit/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Web</title>
 				<link>http://localhost:1313/tags/web/</link>
