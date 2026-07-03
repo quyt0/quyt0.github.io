@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>MERN Stack Ký Sự on Cuýt</title>
+		<link>http://localhost:1313/series/mern-stack-ky-su/</link>
+		<description>Recent content in MERN Stack Ký Sự on Cuýt</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Jul 2026 09:08:56 +0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/series/mern-stack-ky-su/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tổng quan về serie MERN Stack Ký Sự</title>
+				<link>http://localhost:1313/2026/07/tong-quan-ve-serie-mern-stack-ky-su/</link>
+				<pubDate>Fri, 03 Jul 2026 09:08:56 +0700</pubDate>
+				<guid>http://localhost:1313/2026/07/tong-quan-ve-serie-mern-stack-ky-su/</guid>
+				<description>Bài viết mở đầu serie &amp;ldquo;MERN Stack Ký Sự&amp;rdquo;, giới thiệu mục đích và lộ trình tự học Lập trình Web của mình</description>
+			</item>
+	</channel>
+</rss>

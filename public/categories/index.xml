@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Cuýt</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Cuýt</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2026 13:58:22 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Security</title>
-      <link>http://localhost:1313/categories/security/</link>
-      <pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
-      <guid>http://localhost:1313/categories/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Writeups</title>
-      <link>http://localhost:1313/categories/writeups/</link>
-      <pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
-      <guid>http://localhost:1313/categories/writeups/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Development</title>
-      <link>http://localhost:1313/categories/web-development/</link>
-      <pubDate>Tue, 13 Jan 2026 17:53:55 +0700</pubDate>
-      <guid>http://localhost:1313/categories/web-development/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Categories on Cuýt</title>
+		<link>http://localhost:1313/categories/</link>
+		<description>Recent content in Categories on Cuýt</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Jul 2026 09:08:56 +0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Web Development</title>
+				<link>http://localhost:1313/categories/web-development/</link>
+				<pubDate>Fri, 03 Jul 2026 09:08:56 +0700</pubDate>
+				<guid>http://localhost:1313/categories/web-development/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Security</title>
+				<link>http://localhost:1313/categories/security/</link>
+				<pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
+				<guid>http://localhost:1313/categories/security/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Writeups</title>
+				<link>http://localhost:1313/categories/writeups/</link>
+				<pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
+				<guid>http://localhost:1313/categories/writeups/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

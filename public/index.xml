@@ -1,61 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cuýt</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Cuýt</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2026 13:58:22 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>EHAX CTF 2026: Challenges &amp; Writeups</title>
-      <link>http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/</link>
-      <pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
-      <guid>http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/</guid>
-      <description>A collection of write-ups for EHAX CTF 2026: approaches, dead ends, and the final paths that led to the flag</description>
-    </item>
-    <item>
-      <title>Tìm hiểu về Web Server: Vai trò, cách thức, phân loại</title>
-      <link>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</link>
-      <pubDate>Tue, 13 Jan 2026 17:53:55 +0700</pubDate>
-      <guid>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</guid>
-      <description>&lt;h2 id=&#34;web-server-là-gì&#34;&gt;Web Server là gì&lt;/h2&gt;&#xA;&lt;p&gt;Server (máy chủ) có thể được hiểu theo cả hai nghĩa là phần cứng (hardware) và phần mềm (software). Nếu hiểu theo nghĩa nào thì server là thuật ngữ để chỉ một software hoặc một hardware mà xử lí các yêu cầu (request) từ các phần mềm hoặc các thiết bị khác (client).&lt;/p&gt;&#xA;&lt;p&gt;Hoặc cũng có thể hiểu server là một software hoặc hardware cung cấp các dịch vụ mà client cần. Server nói chung thường được thiết kế để chạy liên tục, có nguồn điện dự phòng, được cấp IP tĩnh. Mặc dù ta có thể sử dụng các máy tính cá nhân để làm server nhưng không nên. Thay vào đó ta sử dụng server để đảm bảo hơn cho dữ liệu.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>UofTCTF 2026: Challenges &amp; Writeups</title>
-      <link>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</link>
-      <pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
-      <guid>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</guid>
-      <description>My write-up for some challenges from UofTCTF 2026, covering Web, Forensics, and Misc.</description>
-    </item>
-    <item>
-      <title>ApoorvCTF 2025: Challenges &amp; Writeups</title>
-      <link>http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/</link>
-      <pubDate>Fri, 08 Aug 2025 10:30:41 +0700</pubDate>
-      <guid>http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/</guid>
-      <description>My write-up for some challenges from ApoorvCTF 2025, covering Web and Forensics</description>
-    </item>
-    <item>
-      <title>About me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hey, thanks for stopping by.‼️&lt;/p&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;Doan Duy Phuc&lt;/strong&gt;. You can call me &lt;strong&gt;&amp;ldquo;Cuýt&amp;rdquo;&lt;/strong&gt;.&#xA;I&amp;rsquo;m studying &lt;strong&gt;Information Security&lt;/strong&gt; at &lt;strong&gt;PTIT (Posts and Telecommunications Institute of Technology)&lt;/strong&gt; in Hanoi, Vietnam.&lt;br&gt;&#xA;I also spend a questionable amount of time breaking things that were definitely not designed to be broken that way. 🫠&lt;/p&gt;&#xA;&lt;p&gt;I enjoy playing &lt;strong&gt;CTFs&lt;/strong&gt;, and among all categories, I&amp;rsquo;m most interested in &lt;strong&gt;Web and Forensics&lt;/strong&gt;. I’m still learning, still making mistakes, and still spending more time than I&amp;rsquo;d like figuring out why something didn&amp;rsquo;t work the way I expected.&lt;br&gt;&#xA;CTFs are mostly a way for me to practice and explore things hands-on, and over time, I’m working toward becoming an &lt;strong&gt;aspiring Web Pentester&lt;/strong&gt; — one bug, one failed exploit, and one late night at a time.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>An Toàn Hệ Điều Hành</title>
-      <link>http://localhost:1313/quiz/athdh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quiz/athdh/</guid>
-      <description>Cày cuốc lý thuyết cơ chế bảo mật Linux/Windows, phân tích lỗ hổng và kỹ thuật khai thác CVE.</description>
-    </item>
-    <item>
-      <title>Connect</title>
-      <link>http://localhost:1313/connect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/connect/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m always open to connecting with fellow tech enthusiasts, sharing knowledge, and exploring potential collaborations. Feel free to check out my background or reach out to me:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🔗 &lt;a href=&#34;https://example.com/your-cv.pdf&#34;&gt;My Resume&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;💼 Let&amp;rsquo;s connect on &lt;a href=&#34;https://www.linkedin.com/in/doanduyphuc/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-mates-blogs&#34;&gt;My Mates&amp;rsquo; Blogs&lt;/h2&gt;&#xA;&lt;p&gt;Check out some awesome blogs from my friends&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://anhcd05.github.io/&#34;&gt;Chu Duc Anh (anhcd05)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://longhd.tistory.com/&#34;&gt;Ha Duy Long (longhd)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nglong05.github.io/&#34;&gt;Nguyen Van Long (nglong05)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://viegphunt.me/&#34;&gt;Phung Quoc Viet (viegphunt)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kidoblogs.vercel.app/&#34;&gt;Do Trung Kien (kido)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Cuýt</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Cuýt</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Jul 2026 09:13:04 +0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Arrow Function</title>
+				<link>http://localhost:1313/2026/07/arrow-function/</link>
+				<pubDate>Fri, 03 Jul 2026 09:13:04 +0700</pubDate>
+				<guid>http://localhost:1313/2026/07/arrow-function/</guid>
+				<description>&lt;p&gt;hehe&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Tổng quan về serie MERN Stack Ký Sự</title>
+				<link>http://localhost:1313/2026/07/tong-quan-ve-serie-mern-stack-ky-su/</link>
+				<pubDate>Fri, 03 Jul 2026 09:08:56 +0700</pubDate>
+				<guid>http://localhost:1313/2026/07/tong-quan-ve-serie-mern-stack-ky-su/</guid>
+				<description>Bài viết mở đầu serie &amp;ldquo;MERN Stack Ký Sự&amp;rdquo;, giới thiệu mục đích và lộ trình tự học Lập trình Web của mình</description>
+			</item>
+			<item>
+				<title>EHAX CTF 2026: Challenges &amp; Writeups</title>
+				<link>http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/</link>
+				<pubDate>Mon, 02 Mar 2026 13:58:22 +0700</pubDate>
+				<guid>http://localhost:1313/2026/03/ehax-ctf-2026-challenges-writeups/</guid>
+				<description>A collection of write-ups for EHAX CTF 2026: approaches, dead ends, and the final paths that led to the flag</description>
+			</item>
+			<item>
+				<title>Tìm hiểu về Web Server: Vai trò, cách thức, phân loại</title>
+				<link>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</link>
+				<pubDate>Tue, 13 Jan 2026 17:53:55 +0700</pubDate>
+				<guid>http://localhost:1313/2026/01/tim-hieu-ve-web-server-vai-tro-cach-thuc-phan-loai/</guid>
+				<description>&lt;h2 id=&#34;web-server-là-gì&#34;&gt;Web Server là gì&lt;/h2&gt;&#xA;&lt;p&gt;Server (máy chủ) có thể được hiểu theo cả hai nghĩa là phần cứng (hardware) và phần mềm (software). Nếu hiểu theo nghĩa nào thì server là thuật ngữ để chỉ một software hoặc một hardware mà xử lí các yêu cầu (request) từ các phần mềm hoặc các thiết bị khác (client).&lt;/p&gt;&#xA;&lt;p&gt;Hoặc cũng có thể hiểu server là một software hoặc hardware cung cấp các dịch vụ mà client cần. Server nói chung thường được thiết kế để chạy liên tục, có nguồn điện dự phòng, được cấp IP tĩnh. Mặc dù ta có thể sử dụng các máy tính cá nhân để làm server nhưng không nên. Thay vào đó ta sử dụng server để đảm bảo hơn cho dữ liệu.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>UofTCTF 2026: Challenges &amp; Writeups</title>
+				<link>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</link>
+				<pubDate>Mon, 12 Jan 2026 15:17:41 +0700</pubDate>
+				<guid>http://localhost:1313/2026/01/uoftctf-2026-challenges-writeups/</guid>
+				<description>My write-up for some challenges from UofTCTF 2026, covering Web, Forensics, and Misc.</description>
+			</item>
+			<item>
+				<title>ApoorvCTF 2025: Challenges &amp; Writeups</title>
+				<link>http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/</link>
+				<pubDate>Fri, 08 Aug 2025 10:30:41 +0700</pubDate>
+				<guid>http://localhost:1313/2025/08/apoorvctf-2025-challenges-writeups/</guid>
+				<description>My write-up for some challenges from ApoorvCTF 2025, covering Web and Forensics</description>
+			</item>
+			<item>
+				<title>About me</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;Hey, thanks for stopping by.‼️&lt;/p&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;Doan Duy Phuc&lt;/strong&gt;. You can call me &lt;strong&gt;&amp;ldquo;Cuýt&amp;rdquo;&lt;/strong&gt;.&#xA;I&amp;rsquo;m studying &lt;strong&gt;Information Security&lt;/strong&gt; at &lt;strong&gt;PTIT (Posts and Telecommunications Institute of Technology)&lt;/strong&gt; in Hanoi, Vietnam.&lt;br&gt;&#xA;I also spend a questionable amount of time breaking things that were definitely not designed to be broken that way. 🫠&lt;/p&gt;&#xA;&lt;p&gt;I enjoy playing &lt;strong&gt;CTFs&lt;/strong&gt;, and among all categories, I&amp;rsquo;m most interested in &lt;strong&gt;Web and Forensics&lt;/strong&gt;. I’m still learning, still making mistakes, and still spending more time than I&amp;rsquo;d like figuring out why something didn&amp;rsquo;t work the way I expected.&lt;br&gt;&#xA;CTFs are mostly a way for me to practice and explore things hands-on, and over time, I’m working toward becoming an &lt;strong&gt;aspiring Web Pentester&lt;/strong&gt; — one bug, one failed exploit, and one late night at a time.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>An Toàn Hệ Điều Hành</title>
+				<link>http://localhost:1313/quiz/athdh/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/quiz/athdh/</guid>
+				<description>Cày cuốc lý thuyết cơ chế bảo mật Linux/Windows, phân tích lỗ hổng và kỹ thuật khai thác CVE.</description>
+			</item>
+			<item>
+				<title>Connect</title>
+				<link>http://localhost:1313/connect/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/connect/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;m always open to connecting with fellow tech enthusiasts, sharing knowledge, and exploring potential collaborations. Feel free to check out my background or reach out to me:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🔗 &lt;a href=&#34;https://example.com/your-cv.pdf&#34;&gt;My Resume&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;💼 Let&amp;rsquo;s connect on &lt;a href=&#34;https://www.linkedin.com/in/doanduyphuc/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-mates-blogs&#34;&gt;My Mates&amp;rsquo; Blogs&lt;/h2&gt;&#xA;&lt;p&gt;Check out some awesome blogs from my friends&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://anhcd05.github.io/&#34;&gt;Chu Duc Anh (anhcd05)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://longhd.tistory.com/&#34;&gt;Ha Duy Long (longhd)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nglong05.github.io/&#34;&gt;Nguyen Van Long (nglong05)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://viegphunt.me/&#34;&gt;Phung Quoc Viet (viegphunt)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kidoblogs.vercel.app/&#34;&gt;Do Trung Kien (kido)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Mật mã học cơ sở</title>
+				<link>http://localhost:1313/quiz/mmhcs/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/quiz/mmhcs/</guid>
+				<description>Cày cuốc các hệ mật từ cổ điển đến hiện đại, ngụp lặn trong toán module, AES, RSA, Hash và chữ ký số.</description>
+			</item>
+	</channel>
 </rss>

@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Hệ Thống Ôn Thi Trắc Nghiệm on Cuýt</title>
-    <link>http://localhost:1313/quiz/</link>
-    <description>Recent content in Hệ Thống Ôn Thi Trắc Nghiệm on Cuýt</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/quiz/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>An Toàn Hệ Điều Hành</title>
-      <link>http://localhost:1313/quiz/athdh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quiz/athdh/</guid>
-      <description>Cày cuốc lý thuyết cơ chế bảo mật Linux/Windows, phân tích lỗ hổng và kỹ thuật khai thác CVE.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Hệ Thống Ôn Thi Trắc Nghiệm on Cuýt</title>
+		<link>http://localhost:1313/quiz/</link>
+		<description>Recent content in Hệ Thống Ôn Thi Trắc Nghiệm on Cuýt</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/quiz/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>An Toàn Hệ Điều Hành</title>
+				<link>http://localhost:1313/quiz/athdh/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/quiz/athdh/</guid>
+				<description>Cày cuốc lý thuyết cơ chế bảo mật Linux/Windows, phân tích lỗ hổng và kỹ thuật khai thác CVE.</description>
+			</item>
+			<item>
+				<title>Mật mã học cơ sở</title>
+				<link>http://localhost:1313/quiz/mmhcs/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/quiz/mmhcs/</guid>
+				<description>Cày cuốc các hệ mật từ cổ điển đến hiện đại, ngụp lặn trong toán module, AES, RSA, Hash và chữ ký số.</description>
+			</item>
+	</channel>
 </rss>
