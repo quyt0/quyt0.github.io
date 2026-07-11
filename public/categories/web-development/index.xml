@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 03 Jul 2026 13:25:33 +0700</lastBuildDate>
+			<lastBuildDate>Sat, 11 Jul 2026 06:00:46 +0700</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>[ReactJS] Cú pháp JavaScript ES6&#43;</title>
+				<link>http://localhost:1313/2026/07/reactjs-cu-phap-javascript-es6/</link>
+				<pubDate>Sat, 11 Jul 2026 06:00:46 +0700</pubDate>
+				<guid>http://localhost:1313/2026/07/reactjs-cu-phap-javascript-es6/</guid>
+				<description>&lt;p&gt;ES6+ (tức ECMAScript 6 trở lên) là thuật ngữ chỉ các phiên bản JavaScript hiện đại, bắt đầu từ phiên bản ES6 (hay còn gọi là ECMAScript 2015) đến tất cả các bản cập nhật mới nhất hàng năm (ECMAScript 2016/2017/2018) - giờ có 2025 luôn rồi :v&lt;/p&gt;&#xA;&lt;p&gt;Từ sau phiên bản ES5 (ra mắt 2009) cho tới năm 2015, chúng ta có một bản cập nhật lớn vào năm 2015 mang tên ES6, mang đến hàng loạt cải tiến giúp thay đổi hoàn toàn cách chúng ta viết code JavaScript&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>[ReactJS] - Single Page Application</title>
 				<link>http://localhost:1313/2026/07/reactjs-single-page-application/</link>
