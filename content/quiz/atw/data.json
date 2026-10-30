@@ -1,0 +1,4518 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chương 1",
+    "question": "Đâu KHÔNG phải là một dạng của Lỗi cấu hình an ninh?",
+    "options": [
+      "Lưu trữ trên đám mây mở",
+      "Cấu hình ngầm định không an toàn hoặc không đầy đủ",
+      "HTTP header cấu hình sai",
+      "Thông báo lỗi"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 2,
+    "chapter": "Chương 1",
+    "question": "Tên viết tắt của máy chủ web của Microsoft?",
+    "options": [
+      "ISS",
+      "IIS",
+      "III",
+      "INX"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 3,
+    "chapter": "Chương 1",
+    "question": "Kiến trúc logic 3 lớp (3-tier) của ứng dụng web từ trên xuống dưới theo thứ tự bao gồm:",
+    "options": [
+      "Presentation, Data Access, Business Logic",
+      "Data Access, Business Logic, Presentation",
+      "Presentation, Business Logic, Data Access",
+      "Business Logic, Presentation, Data Access"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 4,
+    "chapter": "Chương 1",
+    "question": "Các phương thức yêu cầu mà trình duyệt web hỗ trợ bao gồm:",
+    "options": [
+      "GET, HEAD, DEL",
+      "GET, HEAD, POST",
+      "GETS, HEADS, POSTS",
+      "GETS, HEADS, PUTS"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 5,
+    "chapter": "Chương 1",
+    "question": "Mã trạng thái đáp ứng \"cấm truy nhập\" và \"lỗi xử lý scripts\" trên máy chủ là...",
+    "options": [
+      "403 và 500",
+      "403 và 404",
+      "404 và 500",
+      "200 và 500"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 6,
+    "chapter": "Chương 1",
+    "question": "Lớp bảo mật mạng đảm bảo hạ tầng mạng an toàn cho giao tiếp giữa...",
+    "options": [
+      "máy chủ web và máy chủ ứng dụng.",
+      "máy chủ web và máy chủ CSDL.",
+      "máy chủ web và máy chủ DNS.",
+      "máy chủ và máy khách web."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 7,
+    "chapter": "Chương 1",
+    "question": "Tấn công khai thác lỗi XXE xảy ra khi một số bộ xử lý tài liệu XML cũ hoặc được cấu hình kém xử lý các tài liệu XML có chứa tham chiếu đến các...",
+    "options": [
+      "thực thể bên trong.",
+      "mã bên ngoài.",
+      "mã bên trong.",
+      "thực thể bên ngoài."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 8,
+    "chapter": "Chương 1",
+    "question": "Giao thức HTTP hoạt động theo phương thức....",
+    "options": [
+      "request - response.",
+      "client - server.",
+      "requests - responses.",
+      "response - request."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 9,
+    "chapter": "Chương 1",
+    "question": "Lỗ hổng Injection (Chèn mã) có thể bao gồm các dạng sau:",
+    "options": [
+      "Buffer overflow, SQL injection, XPath/XQuery injection.",
+      "Buffer overflow, C# injection, XPath/XQuery injection.",
+      "Buffer overflow, Python injection, XPath/XQuery injection.",
+      "Buffer overflow, SQL injection, C++ injection."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 10,
+    "chapter": "Chương 1",
+    "question": "Web session (phiên làm việc) là một kỹ thuật cho phép tạo ra ứng dụng web ... trên giao thức HTTP...",
+    "options": [
+      "có trạng thái / không trạng thái",
+      "không trạng thái / có trạng thái",
+      "có trạng thái / có trạng thái",
+      "không trạng thái / không trạng thái"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 11,
+    "chapter": "Chương 1",
+    "question": "Đâu là 1 danh mục mới trong top 10 Owasp 2021?",
+    "options": [
+      "A01:2021-Broken Access Control",
+      "A02:2021-Cryptographic Failures",
+      "A03:2021-Injection",
+      "A04:2021-Insecure Design"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 12,
+    "chapter": "Chương 1",
+    "question": "Nhiều nghiên cứu về tấn công, khai thác cho thấy thời gian trung bình cho phát hiện các vi phạm là khoảng ... ngày.",
+    "options": [
+      "100",
+      "150",
+      "200",
+      "250"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 13,
+    "chapter": "Chương 1",
+    "question": "Một trong các dạng thường gặp của lỗ hổng Rò rỉ dữ liệu nhạy cảm là:",
+    "options": [
+      "Máy khách web xác thực thông tin tài khoản với máy chủ sử dụng giao thức HTTP.",
+      "Máy khách web xác thực thông tin tài khoản với máy chủ sử dụng giao thức HTTPS.",
+      "Thăm các trang web sử dụng giao thức HTTPS.",
+      "Thăm các trang web sử dụng giao thức HTTP."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 14,
+    "chapter": "Chương 1",
+    "question": "Lỗi Giải tuần tự hoá không an toàn cũng có thể bị sử dụng để thực hiện tấn công, như tấn công phát lại, chèn mã, hoặc...",
+    "options": [
+      "leo thang đặc quyền.",
+      "chiếm quyền điều khiển.",
+      "tấn công DoS.",
+      "tấn công phá mã."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 15,
+    "chapter": "Chương 1",
+    "question": "Đâu là thứ tự đúng của các lỗ hổng bảo mật web OWASP 2017?",
+    "options": [
+      "A1- Injection (Chèn mã), A2- Xác thực yếu và vấn đề trong quản lý phiên, A3- XSS – Cross-Site Scripting.",
+      "A1- Injection (Chèn mã), A2- Xác thực và quản lý phiên yếu, A3- XSS – Cross-Site Scripting.",
+      "A1- Injection (Chèn mã), A2- Xác thực và quản lý phiên yếu, A3- Rò rỉ dữ liệu nhạy cảm.",
+      "A1- Injection (Chèn mã), A2- Xác thực yếu và quản lý phiên yếu, A3- XSS – Cross-Site Scripting."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 16,
+    "chapter": "Chương 1",
+    "question": "Đâu KHÔNG phải là một thành phần của ứng dụng web?",
+    "options": [
+      "Web Application Firewall",
+      "Web session",
+      "Web server",
+      "Web client"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 17,
+    "chapter": "Chương 1",
+    "question": "Đâu là phát biểu đúng về URL và URI?",
+    "options": [
+      "URI chính xác hơn URL",
+      "URL bao hàm URI",
+      "URI bao hàm URL",
+      "URL lớn hơn URI"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 18,
+    "chapter": "Chương 1",
+    "question": "Thiếu cơ chế giám sát và ghi log cùng với việc thiếu hoặc có cơ chế phản ứng kém hiệu quả cho phép kẻ tấn công thực hiện tấn công tiếp tục vào các hệ thống, hoặc...",
+    "options": [
+      "duy trì kiểm soát hệ thống.",
+      "bị tấn công phá mã.",
+      "bị tấn công chèn mã SQL.",
+      "bị tấn công XSS."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 19,
+    "chapter": "Chương 1",
+    "question": "Các ứng dụng sử dụng các thành phần chứa lỗ hổng đã biết có thể gây ra việc mất mát nhiều dữ liệu, hoặc máy chủ có thể bị...",
+    "options": [
+      "tấn công phá mã.",
+      "tấn công chèn mã SQL.",
+      "chiếm quyền điều khiển.",
+      "leo thang đặc quyền."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 20,
+    "chapter": "Chương 1",
+    "question": "Nguyên tắc Defence in depth áp dụng vào bảo mật ứng dụng web gồm các lớp bảo mật:",
+    "options": [
+      "Network, Host, Application",
+      "Network, Operating System, Application",
+      "Network, LAN, Application",
+      "IDS, WAF, IPS"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 21,
+    "chapter": "Chương 1",
+    "question": "Lớp bảo mật ứng dụng gồm các phần việc, như…",
+    "options": [
+      "Tường lửa, cấu hình, xác thực.",
+      "Tường lửa, cấu hình, ghi log.",
+      "Xác thực, cấu hình, xử lý ngoại lệ.",
+      "Xác thực, cấu hình, ghi log."
+    ],
+    "answer": [
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 22,
+    "chapter": "Chương 1",
+    "question": "HTTP là viết tắt của",
+    "options": [
+      "Hybid-Text Transfer Protocol",
+      "Hyper-Text Transfer Protocol",
+      "Hyper-Text Transmission Protocol",
+      "Hybid-Technical Transfer Protocol"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 23,
+    "chapter": "Chương 1",
+    "question": "HTTPS là viết tắt của",
+    "options": [
+      "Ship HTTP",
+      "Secure HTTP",
+      "Socket HTTP",
+      "Star HTTP"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 24,
+    "chapter": "Chương 1",
+    "question": "HTTP là gì?",
+    "options": [
+      "giao thức thuộc tầng ứng dụng thuộc bộ giao thức TCP/IP được sử dụng cho truyền siêu văn bản (Hyper-Text) của các ứng dụng web (Web applications)",
+      "bộ phần mềm chạy trên máy khách có chức năng tạo yêu cầu, gửi yêu cầu và hiển thị phản hồi/kết quả trả về từ máy chủ web.",
+      "một chuỗi ký tự cho phép tham chiếu đến một tài nguyên",
+      "giao thức thuộc tầng ứng dụng thuộc bộ giao thức TCP/IP được sử dụng cho truyền văn bản (Hyper-Text) của các ứng dụng web (Web applications)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 25,
+    "chapter": "Chương 1",
+    "question": "Cổng dịch vụ chuẩn của HTTP là ... và cổng dịch vụ chuẩn của HTTPS là ...",
+    "options": [
+      "443/8080",
+      "8080/443",
+      "80/443",
+      "443/80"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 26,
+    "chapter": "Chương 1",
+    "question": "Trong quá trình máy khách (Web browser) gửi yêu cầu đến máy chủ (HTTP server) thông qua kết nối mạng, máy khách tạo một yêu cầu (GET request) và gửi xuống tầng HTTP, tiếp theo...?",
+    "options": [
+      "yêu cầu được đóng gói và chuyển tiếp đến các lớp hạ tầng mạng thông qua các lớp vận chuyển (UDP) và mạng (IP) để đến máy chủ HTTP ở cổng biết trước (Well-known port)",
+      "yêu cầu được đóng gói và chuyển tiếp đến các lớp hạ tầng mạng thông qua các lớp vận chuyển (TCP) và mạng (IP) để đến máy chủ HTTP ở cổng biết trước (Well-known port)",
+      "yêu cầu được đóng gói và chuyển tiếp đến các lớp hạ tầng mạng thông qua các lớp vận chuyển (TCP) và mạng (ICMP) để đến máy chủ HTTP ở cổng biết trước (Well-known port)",
+      "yêu cầu được đóng gói và chuyển tiếp đến các lớp hạ tầng mạng thông qua các lớp vận chuyển (UDP) và mạng (ICMP) để đến máy chủ HTTP ở cổng biết trước (Well-known port)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 27,
+    "chapter": "Chương 1",
+    "question": "Giao thức HTTP hoạt động theo kiểu...trong mô hình giao tiếp...",
+    "options": [
+      "yêu cầu – đáp ứng (request - response)/khách – chủ (client – server)",
+      "khách – chủ (client – server)/yêu cầu – đáp ứng (request - response)",
+      "ngang hàng (peer to peer)/yêu cầu – đáp ứng (request - response)",
+      "đáp ứng - yêu cầu (response - request)/khách - chủ (client - server)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 28,
+    "chapter": "Chương 1",
+    "question": "Điểm khác biệt chính của HTTP/1.1 so với bản gốc HTTP/1.0 là",
+    "options": [
+      "HTTP/1.0 sử dụng một kết nối mới cho một, hoặc nhiều cặp trao đổi yêu cầu / đáp ứng, trong khi HTTP/1.1 sử dụng một kết nối mới cho một cặp trao đổi yêu cầu / đáp ứng.",
+      "HTTP/1.0 sử dụng nhiều kết nối mới cho một cặp trao đổi yêu cầu / đáp ứng, trong khi HTTP/1.1 sử dụng một kết nối mới cho một, hoặc nhiều cặp trao đổi yêu cầu / đáp ứng.",
+      "HTTP/1.0 sử dụng một kết nối mới cho một cặp trao đổi yêu cầu / đáp ứng, trong khi HTTP/1.1 sử dụng một kết nối mới cho một, hoặc nhiều cặp trao đổi yêu cầu / đáp ứng.",
+      "HTTP/1.0 sử dụng một kết nối mới cho một cặp trao đổi yêu cầu / đáp ứng, trong khi HTTP/1.1 sử dụng nhiều kết nối mới cho một, hoặc nhiều cặp trao đổi yêu cầu / đáp ứng."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 29,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải đặc điểm cơ bản của giao thức HTTP?",
+    "options": [
+      "Không kết nối (Connectionless)",
+      "Độc lập với thông tin truyền (Media independent)",
+      "Kiểm soát luồng (Flow control)",
+      "Không trạng thái (Stateless)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 30,
+    "chapter": "Chương 1",
+    "question": "Đặc điểm không kết nối (Connectionless) của giao thức HTTP là?",
+    "options": [
+      "Máy khách và máy chủ HTTP giao tiếp theo kiểu ngang hàng, mà không duy trì kết nối liên tục giữa hai bên",
+      "Máy khách và máy chủ HTTP giao tiếp theo kiểu yêu cầu – đáp ứng, mà không duy trì kết nối liên tục giữa hai bên",
+      "Máy khách và máy chủ HTTP giao tiếp theo kiểu yêu cầu – đáp ứng, và duy trì kết nối liên tục giữa hai bên",
+      "Máy khách và máy chủ HTTP giao tiếp theo kiểu ngang hàng, và duy trì kết nối liên tục giữa hai bên"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 31,
+    "chapter": "Chương 1",
+    "question": "Đặc điểm độc lập với thông tin truyền (Media independent) của giao thức HTTP là?",
+    "options": [
+      "bất kỳ loại dữ liệu nào đều có thể truyền thông qua HTTP, với điều kiện cả máy khách và máy chủ biết cách xử lý nội dung của dữ liệu",
+      "bất kỳ loại dữ liệu nào đều có thể truyền thông qua HTTP, với điều kiện máy khách biết cách xử lý nội dung của dữ liệu",
+      "chỉ một vài loại dữ liệu có thể truyền thông qua HTTP, với điều kiện cả máy khách và máy chủ biết cách xử lý nội dung của dữ liệu",
+      "chỉ một vài loại dữ liệu có thể truyền thông qua HTTP, với điều kiện máy chủ biết cách xử lý nội dung của dữ liệu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 32,
+    "chapter": "Chương 1",
+    "question": "Đặc điểm không trạng thái (Stateless) của giao thức HTTP là?",
+    "options": [
+      "Chỉ có máy khách nhận biết về sự tồn tại của máy chủ trong yêu cầu hiện tại. Sau đó, cả hai đều quên ngay sự tồn tại của nhau.",
+      "Chỉ có máy chủ nhận biết về sự tồn tại của máy chủ trong yêu cầu hiện tại. Sau đó, cả hai đều quên ngay sự tồn tại của nhau.",
+      "Máy khách và máy chủ nhận biết về sự tồn tại của nhau trong yêu cầu hiện tại và duy trì sự nhận biết này sau khi yêu cầu kết thúc.",
+      "Máy khách và máy chủ nhận biết về sự tồn tại của nhau chỉ trong yêu cầu hiện tại. Sau đó, cả hai đều quên ngay sự tồn tại của nhau."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 33,
+    "chapter": "Chương 1",
+    "question": "Các phương thức mà HTTP hỗ trợ bao gồm:",
+    "options": [
+      "GET, POST, PUT, DELETE, CONNECT, OPTIONS",
+      "GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE",
+      "GET, HEAD, POST, PUT, DELETE, CONNECT, DISCONNECT, OPTIONS, TRACE",
+      "GET, HEAD, POST, PUT, DELETE, DISCONNECT, OPTIONS, TRACE"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 34,
+    "chapter": "Chương 1",
+    "question": "Phương thức GET được dùng để",
+    "options": [
+      "truy vấn thông tin từ máy chủ sử dụng một địa chỉ web",
+      "gửi dữ liệu đến máy chủ",
+      "thay thế tất cả các biểu diễn hiện tại của tài nguyên đích bằng nội dung tải lên",
+      "thiết lập đường hầm tới máy chủ được xác định bởi một địa chỉ web nhất định"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 35,
+    "chapter": "Chương 1",
+    "question": "Phương thức HEAD có chức năng...",
+    "options": [
+      "tương tự như phương thức GET, nhưng chỉ có dòng trạng thái và phần tiêu đề được chuyển từ máy chủ đến máy khách",
+      "tương tự như phương thức GET, nhưng chỉ có dòng trạng thái được chuyển từ máy chủ đến máy khách",
+      "tương tự như phương thức GET, nhưng chỉ có phần tiêu đề được chuyển từ máy chủ đến máy khách",
+      "tương tự như phương thức GET, nhưng chỉ có dòng trạng thái và phần tiêu đề được chuyển từ máy khách đến máy chủ"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 36,
+    "chapter": "Chương 1",
+    "question": "Phương thức POST được sử dụng để?",
+    "options": [
+      "gửi dữ liệu đến máy chủ",
+      "truy vấn thông tin từ máy chủ sử dụng một địa chỉ web",
+      "thay thế tất cả các biểu diễn hiện tại của tài nguyên đích bằng nội dung tải lên",
+      "mô tả các tùy chọn truyền thông cho tài nguyên đích."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 37,
+    "chapter": "Chương 1",
+    "question": "Phương thức PUT được dùng để",
+    "options": [
+      "gửi dữ liệu đến máy chủ",
+      "truy vấn thông tin từ máy chủ sử dụng một địa chỉ web",
+      "thay thế tất cả các biểu diễn hiện tại của tài nguyên đích bằng nội dung tải lên",
+      "mô tả các tùy chọn truyền thông cho tài nguyên đích"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 38,
+    "chapter": "Chương 1",
+    "question": "Phương thức DELETE được dùng để?",
+    "options": [
+      "truy vấn thông tin từ máy chủ sử dụng một địa chỉ web",
+      "xóa tất cả các biểu diễn hiện tại của tài nguyên nguồn cho bởi một địa chỉ web",
+      "xóa tất cả các biểu diễn hiện tại của tài nguyên đích cho bởi một địa chỉ web",
+      "thay thế tất cả các biểu diễn hiện tại của tài nguyên đích bằng nội dung tải lên"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 39,
+    "chapter": "Chương 1",
+    "question": "Phương thức CONNECT được dùng để?",
+    "options": [
+      "thiết lập đường hầm tới máy chủ được xác định bởi một địa chỉ web nhất định",
+      "thực hiện một phép kiểm tra vòng lặp lại (loop-back) theo đường dẫn đến tài nguyên đích",
+      "thay thế tất cả các biểu diễn hiện tại của tài nguyên đích bằng nội dung tải lên",
+      "gửi dữ liệu đến máy chủ"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 40,
+    "chapter": "Chương 1",
+    "question": "Phương thức TRACE được dùng để?",
+    "options": [
+      "xóa tất cả các biểu diễn hiện tại của tài nguyên đích cho bởi một địa chỉ web",
+      "thiết lập đường hầm tới máy chủ được xác định bởi một địa chỉ web nhất định",
+      "thực hiện một phép kiểm tra vòng lặp lại (loop-back) theo đường dẫn đến tài nguyên đích",
+      "truy vấn thông tin từ máy chủ sử dụng một địa chỉ web"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 41,
+    "chapter": "Chương 1",
+    "question": "CGI là viết tắt của",
+    "options": [
+      "Control Gateway Interface",
+      "Common Gateway Interface",
+      "Common Gateway Interaction",
+      "Control Gateway Interaction"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 42,
+    "chapter": "Chương 1",
+    "question": "Trình duyệt web (Web browser) là?",
+    "options": [
+      "bộ phần mềm chạy trên máy khách có chức năng tạo yêu cầu, gửi yêu cầu và hiển thị phản hồi/kết quả trả về từ máy chủ web",
+      "bộ phần cứng chạy trên máy chủ có chức năng tạo yêu cầu, gửi yêu cầu và hiển thị phản hồi/kết quả trả về từ máy chủ web",
+      "bộ phần mềm chạy trên máy chủ có chức năng tạo yêu cầu, gửi yêu cầu và hiển thị phản hồi/kết quả trả về từ máy chủ web",
+      "bộ phần cứng chạy trên máy khách có chức năng tạo yêu cầu, gửi yêu cầu và hiển thị phản hồi/kết quả trả về từ máy chủ web"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 43,
+    "chapter": "Chương 1",
+    "question": "3 phương thức yêu cầu được sử dụng phổ biến hơn cả trong trình duyệt web?",
+    "options": [
+      "GET",
+      "HEAD",
+      "TRACE",
+      "POST"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 44,
+    "chapter": "Chương 1",
+    "question": "Máy chủ web tiếp nhận (1)... từ trình duyệt web, xử lý (1)... và trả về (2)...",
+    "options": [
+      "(1)yêu cầu/(2) đáp ứng",
+      "(1)đáp ứng/(2) yêu cầu",
+      "(1)thỉnh cầu/(2) đáp ứng",
+      "(1)đáp ứng/(2) thỉnh cầu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 45,
+    "chapter": "Chương 1",
+    "question": "Nếu trình duyệt web yêu cầu truy nhập các file tĩnh, máy chủ web sẽ?",
+    "options": [
+      "truy nhập hệ thống file cục bộ, đọc nội dung file và gửi kết quả cho trình duyệt.",
+      "chuyển các script cho bộ xử lý script",
+      "chuyển các script cho bộ xử lý script và gửi kết quả cho trình duyệt",
+      "truy nhập hệ thống file đám mây, đọc nội dung file và gửi kết quả cho trình duyệt."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 46,
+    "chapter": "Chương 1",
+    "question": "Nếu trình duyệt web yêu cầu truy nhập các file script, máy chủ web chuyển các script cho?",
+    "options": [
+      "người quản trị web",
+      "bộ xử lý script",
+      "máy khách",
+      "cơ sở dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 47,
+    "chapter": "Chương 1",
+    "question": "Mã trạng thái đáp ứng 403 của máy chủ web tương đương với lỗi...",
+    "options": [
+      "cấm truy nhập",
+      "không tìm thấy file/dữ liệu",
+      "xử lý script trên máy chủ",
+      "máy chủ không khả dụng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 48,
+    "chapter": "Chương 1",
+    "question": "Mã trạng thái đáp ứng 2xx của máy chủ web tương đương với",
+    "options": [
+      "mã truy cập thành công",
+      "mã thông tin",
+      "mã chuyển hướng",
+      "mã thông báo lỗi trong yêu cầu truy cập",
+      "mã do lỗi server"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 49,
+    "chapter": "Chương 1",
+    "question": "Mã trạng thái đáp ứng 3xx của máy chủ web tương đương với",
+    "options": [
+      "Mã truy cập thành công",
+      "Mã chuyển hướng",
+      "Mã thông báo lỗi trong yêu cầu truy cập",
+      "Mã do lỗi server"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 50,
+    "chapter": "Chương 1",
+    "question": "Đâu không phải máy chủ web?",
+    "options": [
+      "Mozilla Apache web server",
+      "Microsoft Internet Information Services (IIS)",
+      "nginx (NGINX, Inc)",
+      "Snort web server"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 51,
+    "chapter": "Chương 1",
+    "question": "URL là viết tắt của",
+    "options": [
+      "Uniform Resource Location",
+      "Unique Resource Locator",
+      "Universe Resource Locator",
+      "Uniform Resource Locator"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 52,
+    "chapter": "Chương 1",
+    "question": "URL là",
+    "options": [
+      "một chuỗi ký tự cho phép đáp ứng đến một tài nguyên",
+      "một chuỗi ký tự dùng để yêu cầu một địa chỉ web hoặc một tên",
+      "một chuỗi ký tự dùng để nhận dạng một địa chỉ web hoặc một tên",
+      "một chuỗi ký tự cho phép tham chiếu đến một tài nguyên"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 53,
+    "chapter": "Chương 1",
+    "question": "URI là viết tắt của",
+    "options": [
+      "Uniform Resource Identation",
+      "Uniform Resource Identifier",
+      "Uniform Resource Intensifier",
+      "Uniform Resource Identified"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 54,
+    "chapter": "Chương 1",
+    "question": "URI là",
+    "options": [
+      "một chuỗi ký tự cho phép tham chiếu đến một tài nguyên",
+      "một chuỗi ký tự dùng để nhận dạng một địa chỉ web hoặc một tên",
+      "một chuỗi ký tự dùng để yêu cầu một địa chỉ web hoặc một tên",
+      "một chuỗi ký tự cho phép đáp ứng đến một tài nguyên"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 55,
+    "chapter": "Chương 1",
+    "question": "URN (Uniform Resource Name) là",
+    "options": [
+      "một chuỗi ký tự cho phép tham chiếu đến một tài nguyên",
+      "một chuỗi ký tự dùng để nhận dạng tên của tài nguyên",
+      "một chuỗi ký tự dùng để yêu cầu một địa chỉ web hoặc một tên",
+      "một chuỗi ký tự dùng để yêu cầu tên của tài nguyên"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 56,
+    "chapter": "Chương 1",
+    "question": "Web session là?",
+    "options": [
+      "một kỹ thuật cho phép tạo ra máy chủ web có trạng thái (stateful) vận hành trên giao thức HTTP không trạng thái (stateless)",
+      "một kỹ thuật cho phép tạo ra ứng dụng web có trạng thái (stateful) vận hành trên giao thức HTTP không trạng thái (stateless)",
+      "một kỹ thuật cho phép tạo ra máy chủ web không trạng thái (stateless) vận hành trên giao thức HTTP có trạng thái (stateful)",
+      "một kỹ thuật cho phép tạo ra ứng dụng web không trạng thái (stateless) vận hành trên giao thức HTTP có trạng thái (stateful)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 57,
+    "chapter": "Chương 1",
+    "question": "Máy chủ web tạo ra và lưu một ... cho mỗi ... theo yêu cầu của máy khách",
+    "options": [
+      "trường dữ liệu (data field)/phiên (Session)",
+      "chuỗi định danh (ID)/phiên (Session)",
+      "phiên (Session)/chuỗi định danh (ID)",
+      "phiên (Session)/ trường dữ liệu (data field)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 58,
+    "chapter": "Chương 1",
+    "question": "Phiên cho phép máy chủ web ... người dùng và ... các yêu cầu HTTP của mỗi người dùng",
+    "options": [
+      "lưu trữ/đáp ứng",
+      "nhận dạng/đáp ứng",
+      "lưu trữ/xâu chuỗi",
+      "nhận dạng/xâu chuỗi"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 59,
+    "chapter": "Chương 1",
+    "question": "Thời gian hoạt động của mỗi phiên tùy thuộc vào",
+    "options": [
+      "cấu hình cơ sở dữ liệu",
+      "cấu hình trình duyệt web",
+      "cấu hình máy chủ web",
+      "cấu hình phương thức GET"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 60,
+    "chapter": "Chương 1",
+    "question": "Cookie là?",
+    "options": [
+      "một mẩu thông tin do website gửi xuống và được lưu trên trình duyệt khi người dùng đăng nhập website",
+      "một mẩu thông tin do website gửi xuống và được lưu trên cơ sở dữ liệu khi người dùng thăm website",
+      "một mẩu thông tin do website gửi xuống và được lưu trên máy chủ khi người dùng thăm website",
+      "một mẩu thông tin do website gửi xuống và được lưu trên trình duyệt khi người dùng thăm website"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 61,
+    "chapter": "Chương 1",
+    "question": "Cookie thường được dùng để",
+    "options": [
+      "Lưu thông tin làm việc",
+      "Đăng nhập cơ sở dữ liệu",
+      "Duy trì trạng thái phiên làm việc",
+      "Điều hành phiên"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 62,
+    "chapter": "Chương 1",
+    "question": "Các bộ diễn dịch và thực hiện các server script (script engine) có nhiệm vụ",
+    "options": [
+      "lưu thông tin phiên làm việc và duy trì trạng thái phiên làm việc.",
+      "nạp, dịch và thực hiện từng dòng lệnh script trên máy chủ web",
+      "nạp, dịch và thực hiện từng dòng lệnh script trên trình duyệt web",
+      "lưu thông tin người dùng và duy trì trạng thái phiên làm việc"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 63,
+    "chapter": "Chương 1",
+    "question": "Do hầu hết các mô tơ script làm việc theo chế độ ... nên tốc độ thường chậm so với các ứng dụng đã được biên dịch ra mã thực hiện.",
+    "options": [
+      "kiểm soát (control)",
+      "background (ngầm)",
+      "thông dịch (interpretation)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 64,
+    "chapter": "Chương 1",
+    "question": "Các server script là?",
+    "options": [
+      "các đoạn mã được nhúng vào các trang web HTML để thực hiện các công việc xử lý dữ liệu và trả về kết quả để tạo nội dung cho trang web",
+      "các đoạn mã được nhúng vào các trình duyệt để thực hiện các công việc xử lý dữ liệu và trả về kết quả để tạo nội dung cho trang web",
+      "các đoạn mã được nhúng vào các trang web HTML để thực hiện các công việc xử lý dữ liệu và trả về kết quả để tạo nội dung cho máy chủ",
+      "các đoạn mã được nhúng vào các trình duyệt để thực hiện các công việc xử lý dữ liệu và trả về kết quả để tạo nội dung cho máy chủ"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 65,
+    "chapter": "Chương 1",
+    "question": "Các server script được máy chủ web chuyển cho các ... để dịch và thực hiện. Kết quả thực hiện script được chuyển lại cho ...",
+    "options": [
+      "máy chủ cơ sở dữ liệu/máy chủ web",
+      "mô tơ script/máy chủ web",
+      "mô tơ script/máy khách",
+      "máy chủ cơ sở dữ liệu/máy khách"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 66,
+    "chapter": "Chương 1",
+    "question": "Máy chủ cơ sở dữ liệu thường được sử dụng để?",
+    "options": [
+      "quản trị các cơ sở dữ liệu chứa dữ liệu tạo các trình duyệt web",
+      "quản trị các cơ sở dữ liệu chứa dữ liệu tạo các máy chủ web",
+      "quản trị các cơ sở dữ liệu chứa dữ liệu tạo các trang web tĩnh",
+      "quản trị các cơ sở dữ liệu chứa dữ liệu tạo các trang web động"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 67,
+    "chapter": "Chương 1",
+    "question": "Một trang web động là",
+    "options": [
+      "trang web mà nội dung của nó chỉ được tạo ra khi có yêu cầu từ người dùng thông qua máy khách và máy chủ",
+      "trang web chỉ thay đổi nội dung khi có tác động chỉnh sửa của người lập trình.",
+      "trang web mà nội dung của nó chỉ được tạo ra khi có yêu cầu từ người dùng thông qua máy khách",
+      "trang web chỉ thay đổi nội dung khi có tác động chỉnh sửa của người dùng."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 68,
+    "chapter": "Chương 1",
+    "question": "Hạ tầng mạng gồm tất cả các thiết bị ... tạo thành hệ thống truyền thông kết nối máy chủ web với máy khách web",
+    "options": [
+      "phần mềm",
+      "mạng",
+      "phần cứng",
+      "lưu lượng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 69,
+    "chapter": "Chương 1",
+    "question": "Kiến trúc chuẩn của hệ thống ứng dụng web gồm mấy thành phần?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 70,
+    "chapter": "Chương 1",
+    "question": "Kiến trúc logic 3 lớp của ứng dụng web gồm:",
+    "options": [
+      "lớp trình diễn (Presentation Layer – PL/UI), lớp lô gic nghiệp vụ (Business Logic Layer – BLL), lớp truy nhập dữ liệu (Data Access Layer - DAL)",
+      "lớp trình diễn (Presentation Layer – PL/UI), lớp lô gic nghiệp vụ (Business Logic Layer – BLL), lớp liên kết dữ liệu (Data Association Layer - DAL)",
+      "lớp bản vá (Patch Layer – PL/UI), lớp lô gic nghiệp vụ (Business Logic Layer – BLL), lớp truy nhập dữ liệu (Data Access Layer - DAL)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 71,
+    "chapter": "Chương 1",
+    "question": "Lớp trình diễn bao gồm các điều khiển (Controls), mẫu (Forms), hình ảnh (Images) và dữ liệu đa phương tiện (Media) có trách nhiệm",
+    "options": [
+      "biểu diễn dữ liệu đến người dùng",
+      "xử lý dữ liệu theo các quy định có sẵn",
+      "truy vấn và xử lý dữ liệu từ kho dữ liệu (Data)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 72,
+    "chapter": "Chương 1",
+    "question": "Lớp lô gic nghiệp vụ có thể bao gồm các quy định về an ninh (Security), các quy trình xử lý (Rules), các khâu tính toán (Calculation) và dữ liệu nghiệp vụ (BLL Data), có trách nhiệm",
+    "options": [
+      "biểu diễn dữ liệu đến người dùng",
+      "xử lý dữ liệu theo các quy định có sẵn",
+      "truy vấn và xử lý dữ liệu từ kho dữ liệu (Data)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 73,
+    "chapter": "Chương 1",
+    "question": "Lớp truy nhập dữ liệu gồm các giao diện lập trình cho dữ liệu (Data API) và các thủ tục lưu trữ (Stored Procedures) có trách nhiệm",
+    "options": [
+      "biểu diễn dữ liệu đến người dùng",
+      "xử lý dữ liệu theo các quy định có sẵn",
+      "truy vấn và xử lý dữ liệu từ kho dữ liệu (Data)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 74,
+    "chapter": "Chương 1",
+    "question": "Nguyên tắc bảo mật ứng dụng web là?",
+    "options": [
+      "đọc xuống - ghi lên",
+      "phòng vệ nhiều lớp theo chiều sâu (Defense in depth)",
+      "đọc lên - ghi xuống",
+      "phòng vệ nhiều lớp theo chiều sâu (Detect in depth)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 75,
+    "chapter": "Chương 1",
+    "question": "3 lớp bảo mật ứng dụng web từ ngoài vào trong là?",
+    "options": [
+      "Lớp bảo mật mạng (Network), Lớp bảo mật máy chủ (Host) và Lớp bảo mật ứng dụng (Application)",
+      "Lớp bảo mật máy chủ (Host), Lớp bảo mật mạng (Network) và Lớp bảo mật ứng dụng (Application)",
+      "Lớp bảo mật ứng dụng (Application), Lớp bảo mật máy chủ (Host) và Lớp bảo mật mạng (Network)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 76,
+    "chapter": "Chương 1",
+    "question": "Lớp bảo mật mạng (Network) đảm bảo...",
+    "options": [
+      "cung cấp hạ tầng mạng an toàn cho giao tiếp giữa máy chủ và máy khách",
+      "an toàn cho các thành phần nền tảng trong hệ thống",
+      "an toàn cho người dùng và dữ liệu của ngừời dùng lưu trong hệ thống ứng dụng web"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 77,
+    "chapter": "Chương 1",
+    "question": "Lớp bảo mật máy chủ có nhiệm vụ đảm bảo...",
+    "options": [
+      "an toàn cho người dùng và dữ liệu của ngừời dùng lưu trong hệ thống ứng dụng web",
+      "an toàn cho các thành phần nền tảng trong hệ thống",
+      "cung cấp hạ tầng mạng an toàn cho giao tiếp giữa máy chủ và máy khách"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 78,
+    "chapter": "Chương 1",
+    "question": "Lớp bảo mật ứng dụng có trách nhiệm đảm bảo...",
+    "options": [
+      "an toàn cho người dùng và dữ liệu của ngừời dùng lưu trong hệ thống ứng dụng web",
+      "an toàn cho các thành phần nền tảng trong hệ thống",
+      "cung cấp hạ tầng mạng an toàn cho giao tiếp giữa máy chủ và máy khách"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 79,
+    "chapter": "Chương 1",
+    "question": "Lớp bảo mật máy chủ gồm",
+    "options": [
+      "Bảo mật hệ điều hành",
+      "Bảo mật cơ sở dữ liệu",
+      "Quản lý phiên làm việc",
+      "Bảo mật các phần mềm, dịch vụ trong hệ thống"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 80,
+    "chapter": "Chương 1",
+    "question": "Chèn mã (Injection - A1) là",
+    "options": [
+      "dạng lỗ hổng bảo mật cho phép tin tặc chèn mã vào dữ liệu gửi đến và được thực hiện trên hệ thống nạn nhân",
+      "dạng tấn công vào trình duyệt người dùng. Kẻ tấn công chèn mã script (thường là mã javascript) vào các trang web có lỗi. Khi người dùng mở các trang này thì mã script của kẻ tấn công được thực hiện, giúp đánh cắp các thông tin lưu trong trình duyệt người dùng.",
+      "dạng lỗ hổng thiết lập quyền truy nhập vào các trang không đúng chuẩn, cho phép kẻ tấn công có thể truy nhập trái phép vào các trang, các thư mục, hoặc tải và thực hiện các file mã độc trên hệ thống.",
+      "dạng tấn công người dùng web, lợi dụng cơ chế tự động đăng nhập của một số website. Kẻ tấn công lừa người dùng thực hiện các đoạn mã độc, nhúng trong các trang web bình thường trong ngữ cảnh người dùng đang ở trong phiên làm việc với website."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 81,
+    "chapter": "Chương 1",
+    "question": "Xác thực và quản lý phiên yếu (Broken Authentication and Session Management - A2) hướng tới khâu nào trong các ứng dụng web?",
+    "options": [
+      "xác thực (authentication) và toàn vẹn (integrity)",
+      "bí mật (confidential) và xác thực (authentication)",
+      "xác thực (authentication) và trao quyền (authorization)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 82,
+    "chapter": "Chương 1",
+    "question": "Cross-Site Scripting (XSS - A3) là",
+    "options": [
+      "dạng tấn công người dùng web, lợi dụng cơ chế tự động đăng nhập của một số website. Kẻ tấn công lừa người dùng thực hiện các đoạn mã độc, nhúng trong các trang web bình thường trong ngữ cảnh người dùng đang ở trong phiên làm việc với website.",
+      "dạng lỗ hổng bảo mật cho phép tin tặc chèn mã vào dữ liệu gửi đến và được thực hiện trên hệ thống nạn nhân",
+      "dạng lỗ hổng thiết lập quyền truy nhập vào các trang không đúng chuẩn, cho phép kẻ tấn công có thể truy nhập trái phép vào các trang, các thư mục, hoặc tải và thực hiện các file mã độc trên hệ thống",
+      "dạng tấn công vào trình duyệt người dùng. Kẻ tấn công chèn mã script (thường là mã javascript) vào các trang web có lỗi. Khi người dùng mở các trang này thì mã script của kẻ tấn công được thực hiện, giúp đánh cắp các thông tin lưu trong trình duyệt người dùng."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 83,
+    "chapter": "Chương 1",
+    "question": "Việc tham chiếu các đối tượng, các files cần được thực hiện ... và các thông tin nhạy cảm cần được ...",
+    "options": [
+      "gián tiếp/che dấu",
+      "gián tiếp/công khai",
+      "trực tiếp/che dấu",
+      "trực tiếp/công khai"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 84,
+    "chapter": "Chương 1",
+    "question": "Lỗi cấu hình an ninh (Security Misconfiguration - A5) là",
+    "options": [
+      "dạng lỗ hổng bảo mật cho phép tin tặc chèn mã vào dữ liệu gửi đến và được thực hiện trên hệ thống nạn nhân",
+      "dạng tấn công vào trình duyệt người dùng. Kẻ tấn công chèn mã script (thường là mã javascript) vào các trang web có lỗi. Khi người dùng mở các trang này thì mã script của kẻ tấn công được thực hiện, giúp đánh cắp các thông tin lưu trong trình duyệt người dùng.",
+      "dạng lỗ hổng thiết lập quyền truy nhập vào các trang không đúng chuẩn, cho phép kẻ tấn công có thể truy nhập trái phép vào các trang, các thư mục, hoặc tải và thực hiện các file mã độc trên hệ thống.",
+      "dạng tấn công người dùng web, lợi dụng cơ chế tự động đăng nhập của một số website. Kẻ tấn công lừa người dùng thực hiện các đoạn mã độc, nhúng trong các trang web bình thường trong ngữ cảnh người dùng đang ở trong phiên làm việc với website."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 85,
+    "chapter": "Chương 1",
+    "question": "A6 trong OWASP top 10 2013 (và bản 2017 RC1) là nguy cơ nào?",
+    "options": [
+      "Injection (Chèn mã)",
+      "Insecure Direct Object References (Tham chiếu các đối tượng trực tiếp không an toàn)",
+      "Sensitive Data Exposure (Rò rỉ dữ liệu nhạy cảm)",
+      "Security Misconfiguration (Lỗi cấu hình an ninh)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 86,
+    "chapter": "Chương 1",
+    "question": "A9 trong OWASP top 10 2013 và 2017 là nguy cơ nào?",
+    "options": [
+      "Cross-Site Request Forgery (CSRF) (Lỗi CSRF)",
+      "Missing Function Level Access Control (Thiếu kiểm soát truy nhập ở mức tính năng)",
+      "Using Components with Known Vulnerabilities (Sử dụng các thành phần chứa lỗ hổng đã biết)",
+      "Unvalidated Redirects and Forwards (Tái định hướng và chuyển tiếp không được kiểm tra)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 87,
+    "chapter": "Chương 1",
+    "question": "A4 trong OWASP top 10 2013 là nguy cơ nào?",
+    "options": [
+      "Insecure Direct Object References (Tham chiếu các đối tượng trực tiếp không an toàn)",
+      "Unvalidated Redirects and Forwards (Tái định hướng và chuyển tiếp không được kiểm tra)",
+      "Sensitive Data Exposure (Rò rỉ dữ liệu nhạy cảm)",
+      "Missing Function Level Access Control (Thiếu kiểm soát truy nhập ở mức tính năng)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 88,
+    "chapter": "Chương 1",
+    "question": "A4 trong OWASP top 10 2017 (bản RC1) là nguy cơ nào?",
+    "options": [
+      "Insecure Direct Object References (Tham chiếu các đối tượng trực tiếp không an toàn)",
+      "Insufficient Attack Protection (Thiếu các cơ chế bảo vệ)",
+      "Broken Access Control (Điều khiển truy nhập yếu)",
+      "Underprotected APIs (Các API không được bảo vệ)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 89,
+    "chapter": "Chương 1",
+    "question": "A10 trong OWASP top 10 2017 (bản RC1) là nguy cơ nào?",
+    "options": [
+      "Missing Function Level Access Control (Thiếu kiểm soát truy nhập ở mức tính năng)",
+      "Unvalidated Redirects and Forwards (Tái định hướng và chuyển tiếp không được kiểm tra)",
+      "Insufficient Attack Protection (Thiếu các cơ chế bảo vệ)",
+      "Underprotected APIs (Các API không được bảo vệ)"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 90,
+    "chapter": "Chương 1",
+    "question": "A10 trong OWASP top 10 2013 là nguy cơ nào?",
+    "options": [
+      "Underprotected APIs (Các API không được bảo vệ)",
+      "Unvalidated Redirects and Forwards (Tái định hướng và chuyển tiếp không được kiểm tra)",
+      "Missing Function Level Access Control (Thiếu kiểm soát truy nhập ở mức tính năng)",
+      "Insufficient Attack Protection (Thiếu các cơ chế bảo vệ)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 91,
+    "chapter": "Chương 1",
+    "question": "A7 trong OWASP top 10 2013 là nguy cơ nào?",
+    "options": [
+      "Insufficient Attack Protection (Thiếu các cơ chế bảo vệ)",
+      "Broken Access Control (Điều khiển truy nhập yếu)",
+      "Missing Function Level Access Control (Thiếu kiểm soát truy nhập ở mức tính năng)",
+      "Underprotected APIs (Các API không được bảo vệ)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 92,
+    "chapter": "Chương 1",
+    "question": "A7 trong OWASP top 10 2017 (bản RC1) là nguy cơ nào?",
+    "options": [
+      "Insufficient Attack Protection (Thiếu các cơ chế bảo vệ)",
+      "Sensitive Data Exposure (Rò rỉ dữ liệu nhạy cảm)",
+      "Missing Function Level Access Control (Thiếu kiểm soát truy nhập ở mức tính năng)",
+      "Insecure Direct Object References (Tham chiếu các đối tượng trực tiếp không an toàn)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 93,
+    "chapter": "Chương 1",
+    "question": "CSRF (Cross-Site Request Forgery - A8) là",
+    "options": [
+      "dạng tấn công vào trình duyệt người dùng. Kẻ tấn công chèn mã script (thường là mã javascript) vào các trang web có lỗi XSS. Khi người dùng mở các trang này thì mã script của kẻ tấn công được thực hiện, giúp đánh cắp các thông tin lưu trong trình duyệt người dùng.",
+      "dạng lỗ hổng bảo mật cho phép tin tặc chèn mã vào dữ liệu gửi đến và được thực hiện trên hệ thống nạn nhân",
+      "dạng lỗ hổng thiết lập quyền truy nhập vào các trang không đúng chuẩn, cho phép kẻ tấn công có thể truy nhập trái phép vào các trang, các thư mục, hoặc tải và thực hiện các file mã độc trên hệ thống.",
+      "dạng tấn công người dùng web, lợi dụng cơ chế tự động đăng nhập của một số website. Kẻ tấn công lừa người dùng thực hiện các đoạn mã độc, nhúng trong các trang web bình thường trong ngữ cảnh người dùng đang ở trong phiên làm việc với website."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 94,
+    "chapter": "Chương 1",
+    "question": "Các phương pháp tiếp cận bảo mật ứng dụng web bao gồm",
+    "options": [
+      "Kiểm tra dữ liệu đầu vào",
+      "Giảm thiểu các giao diện có thể bị tấn công",
+      "Phòng vệ theo chiều sâu"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 95,
+    "chapter": "Chương 1",
+    "question": "Với ứng dụng web, việc kiểm tra dữ liệu đầu vào cần được thực hiện trên ...",
+    "options": [
+      "máy khách",
+      "máy chủ",
+      "cả 2 đáp án trên"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 96,
+    "chapter": "Chương 1",
+    "question": "Nguyên tắc chung của phương pháp \"giảm thiểu các giao diện có thể bị tấn công\" là sử dụng các biện pháp ... để hạn chế đến tối thiểu việc người dùng truy nhập trực tiếp các ứng dụng, dịch vụ và hệ thống, nếu không thực sự cần thiết",
+    "options": [
+      "lưu trữ",
+      "mã hóa",
+      "kiểm soát truy nhập",
+      "tham chiếu"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 97,
+    "chapter": "Chương 1",
+    "question": "Đâu là danh mục có thứ hạng cao nhất trong top 10 Owasp 2021?",
+    "options": [
+      "Cryptographic Failures",
+      "Insecure Design",
+      "Broken Access Control",
+      "Injection"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 98,
+    "chapter": "Chương 1",
+    "question": "Đâu là danh mục có thứ hạng thấp nhất trong top 10 Owasp 2021",
+    "options": [
+      "Identification and Authentication Failures",
+      "Security Logging and Monitoring Failures",
+      "Server-Side Request Forgery (SSRF)",
+      "Software and Data Integrity Failures"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 99,
+    "chapter": "Chương 1",
+    "question": "A4:2017-XML External Entities (XXE) trở thành 1 phần của danh mục nào trong top 10 OWASP 2021?",
+    "options": [
+      "A07:2021-Identification and Authentication Failures",
+      "A05:2021-Security Misconfiguration",
+      "A06:2021-Vulnerable and Outdated Components",
+      "A04:2021-Insecure Design"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 100,
+    "chapter": "Chương 1",
+    "question": "OWASP là viết tắt của:",
+    "options": [
+      "Open Web Application Security Protect",
+      "Open Website Application Security Protect",
+      "Open-Source Web Application Security Project",
+      "Open Web Application Security Project"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 101,
+    "chapter": "Chương 1",
+    "question": "Lỗ hổng nào được liệt kê như một phần của mục tiêu xây dựng mô hình phát triển các ứng dụng an toàn, với việc \"dịch chuyển sang trái\"?",
+    "options": [
+      "A01:2021-Broken Access Control",
+      "A04:2021-Insecure Design",
+      "A06:2021-Vulnerable and Outdated Components",
+      "A05:2021-Security Misconfiguration"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 102,
+    "chapter": "Chương 1",
+    "question": "Trong OWASP Top 10 (2021), lỗ hổng A01: Broken Access Control thường xảy ra khi nào?",
+    "options": [
+      "Ứng dụng không mã hóa dữ liệu truyền qua mạng.",
+      "Mật khẩu người dùng được lưu trữ dưới dạng plaintext.",
+      "Ứng dụng không kiểm soát tốc độ truy cập (rate limiting).",
+      "Người dùng có thể truy cập vào chức năng hoặc dữ liệu mà họ không được phép."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 103,
+    "chapter": "Chương 1",
+    "question": "Tình huống nào sau đây là ví dụ của A02: Cryptographic Failures?",
+    "options": [
+      "Không log lại hoạt động truy cập bất thường",
+      "Dùng HTTP thay vì HTTPS để truyền dữ liệu tĩnh",
+      "Lưu mật khẩu dưới dạng văn bản thuần (plaintext)",
+      "Không xác thực đầu vào từ người dùng"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 104,
+    "chapter": "Chương 1",
+    "question": "Tình huống nào thuộc A05: Security Misconfiguration?",
+    "options": [
+      "Người dùng đặt mật khẩu yếu",
+      "Hệ thống không sử dụng load balancing",
+      "Máy chủ để mặc định thông tin quản trị và cổng dịch vụ",
+      "Lưu log không đúng định dạng"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 105,
+    "chapter": "Chương 2",
+    "question": "Đâu KHÔNG phải là một biện pháp phòng chống các dạng tấn công vào các cơ chế xác thực web?",
+    "options": [
+      "Sử dụng ngưỡng",
+      "Bảo vệ mật khẩu",
+      "Bảo vệ cookie của phiên",
+      "Bảo vệ trình duyệt"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 106,
+    "chapter": "Chương 2",
+    "question": "Đâu KHÔNG phải là một dạng tấn công vào logic và thiết kế?",
+    "options": [
+      "Các lỗi cài đặt hệ thống",
+      "Các mẫu thiết kế không an toàn",
+      "Lạm dụng lưu trình xử lý (workflows)",
+      "Các lỗi cài đặt mã hóa"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 107,
+    "chapter": "Chương 2",
+    "question": "Thành phần nào trong cây DOM của trang web có thể bị chèn mã XSS?",
+    "options": [
+      "Thẻ <script>",
+      "Các nhánh của cây DOM",
+      "Các thuộc tính của DOM",
+      "Bản thân cây DOM"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 108,
+    "chapter": "Chương 2",
+    "question": "Hệ thống trong \"Chiếm quyền điều khiển hệ thống\" khi kẻ tấn công khai thác lỗi SQLi là...",
+    "options": [
+      "máy chủ hệ thống web.",
+      "hệ thống quản trị cơ sở dữ liệu.",
+      "máy chủ cơ sở dữ liệu.",
+      "máy chủ host cơ sở dữ liệu."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 109,
+    "chapter": "Chương 2",
+    "question": "Các biện pháp thường sử dụng cho phòng chống các dạng tấn công vào logic xử lý của các ứng dụng web bao gồm...",
+    "options": [
+      "Tạo các test case toàn diện, Ánh xạ chính sách – kiểm soát, Xác minh máy chủ",
+      "Yêu cầu viết tài liệu, Ánh xạ chính sách – kiểm soát, Xác minh máy khách",
+      "Yêu cầu viết tài liệu, Ánh xạ chính sách – kiểm soát, Xác minh máy chủ",
+      "Yêu cầu viết tài liệu, Ánh xạ chính sách – điều khiển, Xác minh máy khách"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 110,
+    "chapter": "Chương 2",
+    "question": "Các biện pháp phòng chống tấn công XSS bao gồm:",
+    "options": [
+      "XSS firewall và XSS escape",
+      "XSS filter và XSS escap",
+      "XSS filter và XSS escape",
+      "XSS firewall và XSS escap"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 111,
+    "chapter": "Chương 2",
+    "question": "Đâu KHÔNG phải là một hành động mà kẻ tấn công có thể thực hiện thông qua tấn công XSS?",
+    "options": [
+      "Lén lút cấu hình lại tường lửa",
+      "Giả mạo hộp đối thoại đăng nhập để đánh cắp mật khẩu",
+      "Lén lút cấu hình lại bộ định tuyến nội bộ để bỏ qua tường lửa",
+      "Tạo môi trường cho tấn công CSRF"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 112,
+    "chapter": "Chương 2",
+    "question": "Các dạng tấn công vào các cơ chế xác thực web bao gồm...",
+    "options": [
+      "Vét cạn, Nghe lén, CSFR.",
+      "Nghe lén, XSS, CSFR.",
+      "Vét cạn, Nghe lén, XSS.",
+      "Vét cạn, CSFR, XSS."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 113,
+    "chapter": "Chương 2",
+    "question": "Một trong các nguyên nhân của tấn công chèn mã SQL là...",
+    "options": [
+      "Ứng dụng web sử dụng các câu lệnh SQL động, trong đó có thao tác nối mã SQL với dữ liệu.",
+      "Ứng dụng web sử dụng các câu lệnh SQL, trong đó có thao tác nối mã SQL với dữ liệu.",
+      "Ứng dụng web sử dụng các câu lệnh SQL tĩnh, trong đó có thao tác nối mã SQL với dữ liệu.",
+      "Ứng dụng web sử dụng các câu lệnh SQL động, trong đó có thao tác nối mã SQL với mã web."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 114,
+    "chapter": "Chương 2",
+    "question": "Câu lệnh SQL nào tin tặc thường sử dụng trong tấn công chèn mã SQL để đánh cắp các thông tin trong cơ sở dữ liệu?",
+    "options": [
+      "INSERT SELECT",
+      "UNION SELECT",
+      "SELECT UNION",
+      "UNION INSERT"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 115,
+    "chapter": "Chương 2",
+    "question": "Các dạng tấn công vào trình duyệt web thường đi kèm với việc...",
+    "options": [
+      "cài đặt và lan truyền của vi rút, sâu.",
+      "tài khoản người dùng bị đánh cắp và lạm dụng.",
+      "người dùng bị bẫy truy cập vào các trang web độc hại.",
+      "cài đặt và lan truyền của các phần mềm độc hại."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 116,
+    "chapter": "Chương 2",
+    "question": "Liên quan đến bảo mật trình duyệt web, nếu trình cắm không được thiết kế và kiểm thử tốt, nó có thể ... của trình duyệt web.",
+    "options": [
+      "làm suy giảm hiệu năng vận hành",
+      "làm yếu hệ thống an ninh",
+      "gây rò rỉ dữ liệu nhạy cảm của người dùng",
+      "làm yếu mô hình an ninh"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 117,
+    "chapter": "Chương 2",
+    "question": "Hai thành phần trong HTTP Request Headers thường được sử dụng để chèn mã XSS bao gồm...",
+    "options": [
+      "Referrer và Cookies.",
+      "URL và URI.",
+      "User-Agent và Cookies.",
+      "User-Agent và Referrer."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 118,
+    "chapter": "Chương 2",
+    "question": "Đâu là một dạng tấn công XSS?",
+    "options": [
+      "DOM-based/Locale XSS",
+      "COM-based/Local XSS",
+      "DOM-based/Local XSS",
+      "COM-based/Locale XSS"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 119,
+    "chapter": "Chương 2",
+    "question": "Đâu KHÔNG phải là một hành động mà kẻ tấn công có thể thực hiện trên hệ thống nạn nhân khi thực hiện tấn công SQLi?",
+    "options": [
+      "Chiếm quyền điều khiển hệ thống",
+      "Chèn, xóa hoặc sửa đổi dữ liệu",
+      "Vượt qua khâu xác thực người dùng",
+      "Đánh cắp các thông tin trong máy chủ web"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 120,
+    "chapter": "Chương 2",
+    "question": "DNSSEC đảm bảo tính toàn vẹn của các phản hồi từ DNS server đến client bổ sung thêm ... vào DNS để ... bằng khả năng nhận dạng chính xác các máy chủ tin cậy.",
+    "options": [
+      "các hàm mật mã / ngăn chặn đánh cắp thông tin",
+      "các hàm mật mã / ngăn chặn giả mạo",
+      "các hàm băm / ngăn chặn giả mạo",
+      "các hàm giấu tin / ngăn chặn giả mạo"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 121,
+    "chapter": "Chương 2",
+    "question": "Trong mô hình tổng quát phòng chống tấn công XSS, trật tự của các thành phần là...",
+    "options": [
+      "Web page, XSS filter, XSS escape.",
+      "XSS escape, XSS filter, Web page.",
+      "Web page, XSS escape, XSS filter.",
+      "XSS filter, XSS escape, Web page."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 122,
+    "chapter": "Chương 2",
+    "question": "Tại sao việc sử dụng biểu thức chính quy (Regular Expressions) có thể giúp tăng hiệu quả lọc mã tấn công XSS?",
+    "options": [
+      "giúp lọc mã XSS nhanh hơn",
+      "giúp lọc đa luồng hiệu quả hơn",
+      "không yêu cầu phải viết mã",
+      "giúp lọc được nhiều dạng chuỗi XSS"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 123,
+    "chapter": "Chương 2",
+    "question": "Một dạng phổ biến trong các dạng tấn công vào logic và thiết kế là khai thác các lỗi trong...",
+    "options": [
+      "chính sách và quản lý.",
+      "hệ điều hành và phần mềm ứng dụng.",
+      "phần cứng và phần mềm.",
+      "chính sách và áp dụng."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 124,
+    "chapter": "Chương 2",
+    "question": "Thành phần nào trong thẻ CSS có thể bị chèn mã XSS?",
+    "options": [
+      "Thành phần URI()",
+      "Các thành phần width, height",
+      "Bất kỳ thành phần nào",
+      "Thành phần URL()"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 125,
+    "chapter": "Chương 2",
+    "question": "Định tuyến ẩn danh cung cấp tính vô danh và giao tiếp mã hóa trên mạng bằng cách sử dụng … để chống giám sát, kiểm duyệt mạng và nghe trộm.",
+    "options": [
+      "nhiều lớp mã hóa và chuyển hướng đầu ra",
+      "nhiều lớp mã hóa và chuyển hướng lưu lượng",
+      "nhiều lớp tường lửa và chuyển hướng đầu ra",
+      "nhiều lớp tường lửa và chuyển hướng lưu lượng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 126,
+    "chapter": "Chương 2",
+    "question": "Chèn mã SQL (SQL Injection) là một kỹ thuật cho phép kẻ tấn công chèn mã SQL vào dữ liệu gửi đến máy chủ và được thực hiện trên...",
+    "options": [
+      "máy chủ hệ thống.",
+      "máy chủ web.",
+      "máy chủ cơ sở dữ liệu.",
+      "máy chủ ứng dụng."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 127,
+    "chapter": "Chương 2",
+    "question": "Đâu là các thành phần có thể cho phép chèn mã HTML/XSS?",
+    "options": [
+      "URI Components, Form Fields, DOM",
+      "URI Components, DOM, Cookies",
+      "URI Components, Form Fields, Cookies",
+      "URI Components, From Fields, JSON"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 128,
+    "chapter": "Chương 2",
+    "question": "CSRF (Cross-Site Request Forgery) là dạng tấn công bẫy nạn nhân tải một...",
+    "options": [
+      "trang web độc hại.",
+      "trang web có chứa yêu cầu độc hại.",
+      "trang web có nhúng mã độc.",
+      "file có chứa mã độc."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 129,
+    "chapter": "Chương 2",
+    "question": "Biện pháp phòng chống để giảm rủi ro khi duyệt web \"tạo 1 tài khoản riêng trên máy khách để chạy 1 trình duyệt làm việc với các website cung cấp các dịch vụ quan trọng, như dịch vụ tài chính, ngân hàng và không sử dụng tài khoản này để truy cập các trang thông thường\" có tên là...",
+    "options": [
+      "Duyệt web an toàn",
+      "Cô lập trình duyệt",
+      "DNSSEC",
+      "Tor"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 130,
+    "chapter": "Chương 2",
+    "question": "Trong kỹ thuật thoát khỏi XSS, ký tự mở thẻ (<) và đóng thẻ (>) HTML lần lượt được chuyển thành các mã số...",
+    "options": [
+      "61 và 62",
+      "61 và 63",
+      "60 và 61",
+      "60 và 62"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 131,
+    "chapter": "Chương 2",
+    "question": "Đâu KHÔNG phải là dạng tấn công XSS bẫy người dùng truy cập một URL có nhúng mã XSS?",
+    "options": [
+      "Reflected XSS",
+      "DOM-based",
+      "Local XSS",
+      "Stored XSS"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 132,
+    "chapter": "Chương 2",
+    "question": "Đâu là biện pháp có thể phòng chống tấn công XSS mà vẫn cho phép người dùng nhập các đoạn mã HTML hợp lệ?",
+    "options": [
+      "XSS filter và XSS escape",
+      "XSS firewall",
+      "XSS filter",
+      "XSS escape"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 133,
+    "chapter": "Chương 2",
+    "question": "Đâu là các biện pháp phòng chống để giảm rủi ro khi duyệt web?",
+    "options": [
+      "Cô lập trình duyệt, Tor, DNSSEC",
+      "Cô lập trình duyệt, Torr, DNSSEC",
+      "Cô lập trình duyệt, Thor, DNSSEC",
+      "Cấu hình giao thức bảo mật SSL/TSL, Tor, DNSSEC"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 134,
+    "chapter": "Chương 2",
+    "question": "Đâu là một kỹ thuật vượt qua các bộ lọc XSS?",
+    "options": [
+      "Sử dụng các ký tự mã hóa",
+      "Thêm ký tự đặc biệt để tạo mã động",
+      "Sử dụng chữ hoa",
+      "Đưa script vào dữ liệu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 135,
+    "chapter": "Chương 2",
+    "question": "Mã độc XSS nhúng trong trang web chạy trong lòng trình duyệt máy khách với quyền truy nhập của người dùng, có thể truy nhập các thông tin nhạy cảm lưu trong...",
+    "options": [
+      "hệ thống.",
+      "trình duyệt.",
+      "máy tính.",
+      "máy khách."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 136,
+    "chapter": "Chương 2",
+    "question": "Biện pháp nào hiệu quả nhất để phòng chống tấn công chèn mã SQL trong các biện pháp dưới đây?",
+    "options": [
+      "Sử dụng công cụ rà quét lỗ hổng SQLi kết hợp với không cho phép thực hiện trực tiếp các câu lệnh SQL trên các bảng dữ liệu.",
+      "Sử dụng bộ lọc kiểm tra dữ liệu đầu vào.",
+      "Sử dụng thủ tục cơ sở dữ liệu kết hợp với cho phép thực hiện trực tiếp các câu lệnh SQL trên các bảng dữ liệu.",
+      "Sử dụng thủ tục cơ sở dữ liệu kết hợp với không cho phép thực hiện trực tiếp các câu lệnh SQL trên các bảng dữ liệu."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 137,
+    "chapter": "Chương 2",
+    "question": "Stored XSS thường tấn công các dạng website nào?",
+    "options": [
+      "Các cổng cung cấp thông tin của các cơ quan, doanh nghiệp.",
+      "Các diễn đàn chỉ cho phép người quản trị đăng các mẩu tin.",
+      "Các diễn đàn cho phép người dùng đăng các mẩu tin và gửi phản hồi.",
+      "Các máy tìm kiếm cho phép người dùng nhập từ khóa và tìm thông tin."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 138,
+    "chapter": "Chương 2",
+    "question": "Reflected XSS thường tấn công các dạng website nào?",
+    "options": [
+      "Các cổng cung cấp thông tin của các cơ quan, doanh nghiệp.",
+      "Các diễn đàn chỉ cho phép người quản trị đăng các mẩu tin.",
+      "Các máy tìm kiếm, hoặc các trang có tính năng tìm kiếm.",
+      "Các diễn đàn cho phép người dùng đăng các mẩu tin và gửi phản hồi."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 139,
+    "chapter": "Chương 2",
+    "question": "Tấn công DOM-Based XSS liên quan đến việc các mã script máy khách trong một trang web sử dụng các đối tượng của DOM, như...",
+    "options": [
+      "document.URL và document.location",
+      "document.div và document.location",
+      "document.URL và document.table",
+      "document.URL và document.div"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 140,
+    "chapter": "Chương 2",
+    "question": "Các biện pháp phòng chống tấn công SQLi dựa trên kiểm tra và lọc dữ liệu đầu vào bao gồm...",
+    "options": [
+      "kiểm tra kích thước và hình thức dữ liệu đầu vào.",
+      "kiểm tra nội dung và hình thức dữ liệu đầu vào.",
+      "kiểm tra kích thước và định dạng dữ liệu đầu vào.",
+      "kiểm tra nội dung và định dạng dữ liệu đầu vào."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 141,
+    "chapter": "Chương 2",
+    "question": "Tấn công phản chiếu XSS (Reflected XSS) thường xuất hiện khi dữ liệu do người dùng cung cấp được sử dụng bởi scripts trên máy chủ để...",
+    "options": [
+      "truy cập cơ sở dữ liệu và hiển thị lại ngay cho người dùng.",
+      "tạo ra kết quả và lưu trong cơ sở dữ liệu tài khoản người dùng.",
+      "tạo ra kết quả và hiển thị lại ngay cho người dùng.",
+      "truy cập cơ sở dữ liệu để lấy thông tin gửi cho người dùng."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 142,
+    "chapter": "Chương 2",
+    "question": "Mục đích của tấn công XSS – Cross-Site Scripting là:",
+    "options": [
+      "đánh cắp thông tin lưu trong máy chủ web.",
+      "đánh cắp thông tin lưu trong trình duyệt người dùng.",
+      "đánh cắp thông tin lưu trong máy khách.",
+      "đánh cắp thông tin lưu trong máy chủ cơ sở dữ liệu."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 143,
+    "chapter": "Chương 2",
+    "question": "Sử dụng thủ tục (stored procedures) trong cơ sở dữ liệu có thể ngăn chặn tấn công chèn mã SQL là do thủ tục hỗ trợ...",
+    "options": [
+      "tham số hóa mã SQL.",
+      "kết hợp dữ liệu với mã SQL an toàn.",
+      "tách mã SQL khỏi dữ liệu.",
+      "tách dữ liệu khỏi mã SQL."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 144,
+    "chapter": "Chương 2",
+    "question": "Đâu KHÔNG phải là một biện pháp phòng chống tấn công CSRF (Cross-Site Request Forgery)?",
+    "options": [
+      "Sử dụng \"chuỗi mã hóa\"",
+      "Sử dụng xác thực CAPTCHA",
+      "Sử dụng giao thức OTP/Challenge-Response",
+      "Sử dụng \"chuỗi đồng bộ\""
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 145,
+    "chapter": "Chương 2",
+    "question": "Tấn công CSRF sử dụng ... của nạn nhân để thực hiện các thao tác không mong muốn thay mặt họ, như thay đổi địa chỉ email, địa chỉ nhà, thực hiện giao dịch chuyển tiền, mua bán.",
+    "options": [
+      "thông tin cá nhân và quyền truy nhập",
+      "thông tin nhận dạng và quyền truy nhập",
+      "thông tin nhận dạng và chứng thư số",
+      "thông tin cá nhân và chứng thư số"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 146,
+    "chapter": "Chương 2",
+    "question": "Để đảm bảo hiệu quả lọc tấn công XSS, các bộ lọc dữ liệu đầu vào phải được thực hiện trên...",
+    "options": [
+      "máy khách.",
+      "máy chủ và máy khách.",
+      "máy chủ.",
+      "máy chủ hoặc máy khách."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 147,
+    "chapter": "Chương 2",
+    "question": "Đâu là một dạng tấn công XSS?",
+    "options": [
+      "Reflector XSS",
+      "Reflect XSS",
+      "Reflected XSS",
+      "Reflective XSS"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 148,
+    "chapter": "Chương 2",
+    "question": "Dạng tấn công XSS nào mà trong đó mã script được nhúng vào nội dung và lưu trữ trong cơ sở dữ liệu của website?",
+    "options": [
+      "Stored XSS",
+      "DOM-based",
+      "Local XSS",
+      "Reflected XSS"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 149,
+    "chapter": "Chương 2",
+    "question": "Mã độc XSS thường chạy trên…",
+    "options": [
+      "máy khách web",
+      "cả máy khách và máy chủ web",
+      "không chạy trên máy khách hoặc máy chủ web",
+      "máy chủ web"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 150,
+    "chapter": "Chương 2",
+    "question": "Biện pháp hiệu quả nhất để phòng chống tấn công chèn mã SQL (SQL Injection)…",
+    "options": [
+      "Thủ tục cơ sở dữ liệu + không cho phép thực hiện SQL trực tiếp",
+      "Thủ tục cơ sở dữ liệu + cho phép thực hiện SQL trực tiếp",
+      "Công cụ quét SQLi + không cho phép thực hiện SQL trực tiếp",
+      "Bộ lọc kiểm tra dữ liệu đầu vào"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 151,
+    "chapter": "Chương 2",
+    "question": "Đâu là một công cụ kiểm tra và tấn công SQLi?",
+    "options": [
+      "SQLmaps",
+      "SQLtest",
+      "SQLmap",
+      "SQLcheck"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 152,
+    "chapter": "Chương 2",
+    "question": "XSS có thể được xem là một dạng của chèn mã ...",
+    "options": [
+      "Shell command",
+      "HTML",
+      "SQL",
+      "LDAP"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 153,
+    "chapter": "Chương 2",
+    "question": "Nhìn chung, mã tấn công HTML/XSS có thể được chèn vào mọi vị trí trong ...",
+    "options": [
+      "cơ sở dữ liệu",
+      "URI",
+      "nội dung trang web"
+    ],
+    "answer": [
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 154,
+    "chapter": "Chương 2",
+    "question": "Tấn công XSS thường xuất hiện khi",
+    "options": [
+      "trang web không có cookie",
+      "trang web cho phép người dùng nhập dữ liệu và sau đó hiển thị dữ liệu lên trang",
+      "người dùng quên mật khẩu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 155,
+    "chapter": "Chương 2",
+    "question": "Có thể chia tấn công XSS thành 3 loại chính là?",
+    "options": [
+      "Stored XSS (XSS lưu trữ)",
+      "Virtual XSS (XSS ảo)",
+      "Reflect XSS (XSS phản chiếu)",
+      "DOM-based/Local XSS (XSS dựa trên DOM hoặc cục bộ)"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 156,
+    "chapter": "Chương 2",
+    "question": "Mã Stored XSS thường được nhúng vào trong ... và được lưu trữ trong ...",
+    "options": [
+      "nội dung của trang web/trình duyệt web",
+      "cơ sở dữ liệu của website/nội dung của trang web",
+      "nội dung của trang web/cơ sở dữ liệu của website",
+      "trình duyệt web/nội dung của trang web"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 157,
+    "chapter": "Chương 2",
+    "question": "Các website có nguy cơ cao bị tấn công Stored XSS là",
+    "options": [
+      "các diễn đàn cho phép người dùng đăng các bài viết và gửi các phản hồi, các website thương mại điện tử cho phép người dùng thêm nhận xét (comment) về sản phẩm, hoặc các mạng xã hội, các ứng dụng nhắn tin cho phép gửi tin nhắn qua các trang web.",
+      "các máy tìm kiếm, hoặc các trang có tính năng tìm kiếm,trong đó mã XSS được nhập vào ô từ khóa tìm kiếm, hoặc vào chuỗi truy vấn trong địa chỉ URL và được thực hiện khi trình duyệt tải kết quả tìm kiếm.",
+      "các trang web trên hệ thống file cục bộ của người dùng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 158,
+    "chapter": "Chương 2",
+    "question": "Tấn công Reflected XSS thường xuất hiện khi dữ liệu do ... cung cấp được sử dụng bởi script trên máy chủ để tạo ra kết quả và hiển thị lại ngay cho ...",
+    "options": [
+      "máy chủ web/máy chủ web",
+      "người dùng/máy chủ web",
+      "máy chủ web/người dùng",
+      "người dùng/người dùng"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 159,
+    "chapter": "Chương 2",
+    "question": "Dạng tấn công Reflected XSS thường xuất hiện trên",
+    "options": [
+      "các diễn đàn cho phép người dùng đăng các bài viết và gửi các phản hồi, các website thương mại điện tử cho phép người dùng thêm nhận xét (comment) về sản phẩm, hoặc các mạng xã hội, các ứng dụng nhắn tin cho phép gửi tin nhắn qua các trang web.",
+      "các máy tìm kiếm, hoặc các trang có tính năng tìm kiếm,trong đó mã XSS được nhập vào ô từ khóa tìm kiếm, hoặc vào chuỗi truy vấn trong địa chỉ URL và được thực hiện khi trình duyệt tải kết quả tìm kiếm.",
+      "các trang web trên hệ thống file cục bộ của người dùng."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 160,
+    "chapter": "Chương 2",
+    "question": "Mô hình DOM thể hiện tài liệu dưới dạng cấu trúc ..., trong đó mỗi thành phần (element) trong tài liệu HTML, XML được xem như một nút (node).",
+    "options": [
+      "cây ngẫu nhiên",
+      "cây phân cấp",
+      "cây tuyến tính",
+      "cây phi tuyến tính"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 161,
+    "chapter": "Chương 2",
+    "question": "Tấn công DOM-Based XSS liên quan đến",
+    "options": [
+      "các máy tìm kiếm, hoặc các trang có tính năng tìm kiếm,trong đó mã XSS được nhập vào ô từ khóa tìm kiếm, hoặc vào chuỗi truy vấn trong địa chỉ URL và được thực hiện khi trình duyệt tải kết quả tìm kiếm.",
+      "các mã script máy khách trong một trang web sử dụng các đối tượng, hoặc các thuộc tính của đối tượng của cây DOM, như \"document.URL\" và \"document.location\"",
+      "sử dụng các trang web trên hệ thống file cục bộ của người dùng.",
+      "các diễn đàn cho phép người dùng đăng các bài viết và gửi các phản hồi, các website thương mại điện tử cho phép người dùng thêm nhận xét (comment) về sản phẩm, hoặc các mạng xã hội, các ứng dụng nhắn tin cho phép gửi tin nhắn qua các trang web."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 162,
+    "chapter": "Chương 2",
+    "question": "Các bộ lọc XSS dữ liệu nhập (XSS filter) phải được thực hiện trên...do các bộ lọc dữ liệu được nhập trên...có thể bị vô hiệu hóa dễ dàng.",
+    "options": [
+      "máy khách/máy chủ",
+      "máy chủ/máy khách",
+      "máy chủ cơ sở dữ liệu/máy chủ web",
+      "trình duyệt web/máy chủ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 163,
+    "chapter": "Chương 2",
+    "question": "Nhược điểm của phương pháp sử dụng bộ lọc XSS",
+    "options": [
+      "gây khó khăn cho người dùng nhập các đoạn văn bản hợp lệ có chứa mã HTML hoặc JavaScript",
+      "không ngăn chặn tương đối hiệu quả tấn công XSS",
+      "tốn bộ nhớ máy khách"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 164,
+    "chapter": "Chương 2",
+    "question": "Thoát khỏi XSS (XSS escape) là kĩ thuật",
+    "options": [
+      "sử dụng các bộ lọc tự tạo hoặc từ thư viện để lọc bỏ các thẻ HTML/CSS/script khỏi dữ liệu nhập từ nguời dùng",
+      "cho phép vô hiệu hóa tấn công XSS bằng cách thay thế các ký tự riêng (Character Escaping) của HTML/script để chuyển các đoạn mã có thể thực hiện thành dữ liệu thông thường.",
+      "sử dụng các bộ lọc tự tạo hoặc từ thư viện để lọc bỏ các thẻ HTML/CSS/script khỏi dữ liệu nhập từ máy chủ web",
+      "cho phép vô hiệu hóa tấn công XSS bằng cách thay thế các ký tự riêng (Character Escaping) của HTML/script để chuyển các đoạn mã không thể thực hiện thành dữ liệu thông thường."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 165,
+    "chapter": "Chương 2",
+    "question": "Các kĩ thuật vượt qua các bộ lọc XSS",
+    "options": [
+      "sử dụng XSS Cheat Sheet",
+      "tạo các đoạn mã script tinh xảo",
+      "mạo danh người dùng"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 166,
+    "chapter": "Chương 2",
+    "question": "Các cách phòng chống CSRF",
+    "options": [
+      "Sử dụng \"chuỗi đồng bộ\" cho mỗi thao tác quan trọng.",
+      "Sử dụng chuỗi xác thực CAPTCHAR",
+      "Sử dụng Viewstate (ASP.NET)",
+      "Sử dụng thư viện chuẩn để phòng chống CSRF",
+      "Sử dụng giao thức OTP/Challenge-Response"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 167,
+    "chapter": "Chương 2",
+    "question": "Các thư viện chuẩn để phòng chống CSRF?",
+    "options": [
+      "HTTP CSRF Guard",
+      "OWASP CSRF Guard",
+      "PHP CSRF Guard",
+      ".Net CSRF Guard"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 168,
+    "chapter": "Chương 2",
+    "question": "Mức độ tấn công cao nhất mà SQL Injection có thể cho phép kẻ tấn công là?",
+    "options": [
+      "vượt qua các khâu xác thực người dùng",
+      "chiếm quyền điều khiển hệ thống máy chủ cơ sở dữ liệu",
+      "chèn, sửa đổi, hoặc xóa dữ liệu",
+      "đánh cắp các thông tin trong cơ sở dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 169,
+    "chapter": "Chương 2",
+    "question": "Các nguyên nhân của lỗ hổng trong ứng dụng cho phép thực hiện tấn công chèn mã SQL",
+    "options": [
+      "Dữ liệu đầu vào từ người dùng hoặc từ các nguồn khác không được kiểm tra hoặc kiểm tra không kỹ lưỡng",
+      "Sử dụng các câu lệnh SQL tĩnh trong ứng dụng, trong đó có thao tác nối dữ liệu người dùng với mã lệnh SQL gốc",
+      "Dữ liệu đầu ra từ người dùng hoặc từ các nguồn khác không được kiểm tra hoặc kiểm tra không kỹ lưỡng",
+      "Sử dụng các câu lệnh SQL động trong ứng dụng, trong đó có thao tác nối dữ liệu người dùng với mã lệnh SQL gốc"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 170,
+    "chapter": "Chương 2",
+    "question": "Câu lệnh SQL Injection bên dưới thuộc mức độ tấn công nào Galaxy S8';INSERT INTO tbl_administrators (username, password) VALUES ('attacker', 'abc12345');--",
+    "options": [
+      "vượt qua các khâu xác thực người dùng",
+      "chèn, sửa đổi, hoặc xóa dữ liệu",
+      "đánh cắp các thông tin trong cơ sở dữ liệu",
+      "chiếm quyền điều khiển hệ thống máy chủ cơ sở dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 171,
+    "chapter": "Chương 2",
+    "question": "Câu lệnh SQL Injection bên dưới thuộc mức độ tấn công nào SELECT * FROM tbl_accounts WHERE username='aaaa' OR 1=1--' AND password='aaaa'",
+    "options": [
+      "vượt qua các khâu xác thực người dùng",
+      "chèn, sửa đổi, hoặc xóa dữ liệu",
+      "đánh cắp các thông tin trong cơ sở dữ liệu",
+      "chiếm quyền điều khiển hệ thống máy chủ cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 172,
+    "chapter": "Chương 2",
+    "question": "Các biện pháp, kỹ thuật có thể áp dụng để phòng chống SQL Injection?",
+    "options": [
+      "Các biện pháp phòng chống dựa trên kiểm tra và lọc dữ liệu đầu vào",
+      "Bảo vệ cookie của phiên",
+      "Sử dụng thủ tục cơ sở dữ liệu (stored procedures) và cơ chế tham số hóa dữ liệu",
+      "Các biện pháp phòng chống dựa trên thiết lập quyền truy nhập người dùng CSDL"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 173,
+    "chapter": "Chương 2",
+    "question": "Đâu là biện pháp phòng chống SQL Injection dựa trên kiểm tra và lọc dữ liệu đầu vào?",
+    "options": [
+      "Kiểm tra kích thước và định dạng dữ liệu đầu vào",
+      "Kiểm tra tất cả các dữ liệu đầu vào, đặc biệt dữ liệu nhập từ người dùng và từ các nguồn không tin cậy",
+      "Đưa tất cả các câu truy vấn (SELECT) và cập nhật, sửa, xóa dữ liệu (INSERT, UPDATE, DELETE) vào các thủ tục. Dữ liệu truyền vào thủ tục thông qua các tham số, giúp tách dữ liệu khỏi mã lệnh SQL, nhờ đó hạn ngăn chặn hiệu quả tấn công chèn mã SQL",
+      "Tạo các bộ lọc để lọc bỏ các ký tự đặc biệt (như *, ', =, --) và các từ khóa của ngôn ngữ SQL (SELECT, INSERT, UPDATE, DELETE, DROP,....) mà kẻ tấn công có thể sử dụng"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 174,
+    "chapter": "Chương 2",
+    "question": "Đâu là biện pháp phòng chống SQL Injection sử dụng thủ tục cơ sở dữ liệu (stored procedures) và cơ chế tham số hóa dữ liệu?",
+    "options": [
+      "Không sử dụng người dùng có quyền quản trị hệ thống hoặc quản trị cơ sở dữ liệu làm người dùng truy nhập dữ liệu",
+      "Đưa tất cả các câu truy vấn (SELECT) và cập nhật, sửa, xóa dữ liệu (INSERT, UPDATE, DELETE) vào các thủ tục. Dữ liệu truyền vào thủ tục thông qua các tham số, giúp tách dữ liệu khỏi mã lệnh SQL, nhờ đó hạn ngăn chặn hiệu quả tấn công chèn mã SQL",
+      "Hạn chế thực hiện các câu lệnh SQL động trong thủ tục",
+      "Sử dụng cơ chế tham số hóa dữ liệu hỗ trợ bởi nhiều ngôn ngữ lập trình web như ASP.NET, PHP và JSP"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 175,
+    "chapter": "Chương 2",
+    "question": "Đâu là biện pháp phòng chống SQL Injection dựa trên thiết lập quyền truy nhập người dùng cơ sở dữ liệu?",
+    "options": [
+      "Không sử dụng người dùng có quyền quản trị hệ thống hoặc quản trị cơ sở dữ liệu làm người dùng truy nhập dữ liệu.",
+      "Kiểm tra kích thước và định dạng dữ liệu đầu vào",
+      "Cấm hoặc vô hiệu hóa (disable) việc thực hiện các thủ tục hệ thống (các thủ tục cơ sở dữ liệu có sẵn) cho phép can thiệp vào hệ quản trị cơ sở dữ liệu và hệ điều hành nền",
+      "Chia nhóm người dùng, chỉ cấp quyền vừa đủ để truy nhập các bảng biểu, thực hiện câu truy vấn và chạy các thủ tục."
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 176,
+    "chapter": "Chương 2",
+    "question": "Tấn công vào các cơ chế xác thực (Authentication attacks) là các loại tấn công vào khâu",
+    "options": [
+      "toàn vẹn thông tin người dùng (User integrity)",
+      "xác thực thông tin định danh người dùng (User authentication)",
+      "trao quyền cho người dùng (User authorization)",
+      "bí mật người dùng (User confidental)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 177,
+    "chapter": "Chương 2",
+    "question": "Các dạng tấn công vào cơ chế xác thực?",
+    "options": [
+      "phát lại chuỗi định danh phiên",
+      "vét cạn",
+      "nghe lén",
+      "khởi tạo lại mật khẩu",
+      "XSS/SQL Injection"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 178,
+    "chapter": "Chương 2",
+    "question": "Mạng nào dễ bị nghe lén hơn do môi trường truyền tín hiệu qua không khí?",
+    "options": [
+      "WLAN",
+      "LAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 179,
+    "chapter": "Chương 2",
+    "question": "Các biện pháp phòng chống tấn công vào các cơ chế xác thực bao gồm:",
+    "options": [
+      "Bảo vệ cookie của phiên",
+      "Sử dụng các cơ chế xác thực an toàn",
+      "Yêu cầu người dùng tham gia và làm phiền người dùng",
+      "Sử dụng ngưỡng",
+      "Phòng chống phishing và bảo vệ mật khẩu"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 180,
+    "chapter": "Chương 2",
+    "question": "Các biện pháp bảo vệ cookie cụ thể bao gồm:",
+    "options": [
+      "Hạn chế việc chuyển cookie qua kênh không mã hóa",
+      "Xác định rõ thời gian hết hạn của cookie, đồng thời hạn chế các cookie tồn tại lâu dài",
+      "Sử dụng tính năng \"Remember Me\", \"Remember Password\" một cách hợp lý",
+      "Với các tính năng quan trọng, luôn yêu cầu người dùng phải xác thực lại",
+      "Với các cookie lưu thông tin định danh, cần được mã hóa bằng các hàm băm có khóa (HMAC)"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 181,
+    "chapter": "Chương 2",
+    "question": "Các cơ chế xác thực an toàn có thể áp dụng với các ứng dụng web bao gồm",
+    "options": [
+      "Sử dụng mật khẩu dưới dạng mã hóa, chẳng hạn dưới dạng băm",
+      "Nên sử dụng các kênh an toàn như SSL/TLS để truyền thông tin xác thực",
+      "Sử dụng tính năng \"Remember Me\", \"Remember Password\" một cách hợp lý",
+      "Sử dụng mật khẩu 1 lần (OTP), hoặc giao thức xác thực thách thức – trả lời (Challenge-Response)",
+      "Sử dụng giao thức OAuth, OpenID"
+    ],
+    "answer": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 182,
+    "chapter": "Chương 2",
+    "question": "Yêu cầu người dùng tham gia là việc thông báo cho...về các sự kiện quan trọng, các hành động nhạy cảm có liên quan đến...",
+    "options": [
+      "máy chủ/tài khoản người dùng",
+      "người dùng/tài khoản của họ",
+      "máy chủ/người dùng",
+      "máy khách/máy chủ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 183,
+    "chapter": "Chương 2",
+    "question": "Làm phiền người dùng là biện pháp xác thực bổ sung, nhằm đảm bảo ... thực sự được tải từ ... và thông tin được nhập từ ... thực sự, không phải là hệ thống xử lý tự động hay robot.",
+    "options": [
+      "trình duyệt web/máy khách/người dùng",
+      "trình duyệt web/người dùng/máy chủ",
+      "trang web/máy chủ/người dùng",
+      "cơ sở dữ liệu/máy chủ/người dùng"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 184,
+    "chapter": "Chương 2",
+    "question": "Sử dụng ngưỡng (Threshold) là biện pháp hiệu quả để ngăn chặn việc sử dụng quá mức ... hoặc ... các nỗ lực tấn công",
+    "options": [
+      "luồng/cảnh báo",
+      "tài nguyên/cảnh báo",
+      "luồng/ngăn chặn",
+      "tài nguyên/ngăn chặn"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 185,
+    "chapter": "Chương 2",
+    "question": "Tấn công lợi dụng các khiếm khuyết thiết kế là dạng tấn công nhằm vào ... của website và thường không dựa vào các ... đã biết trước",
+    "options": [
+      "logic xử lý/kỹ thuật",
+      "logic/máy chủ",
+      "cơ sở dữ liệu/kỹ thuật",
+      "máy chủ/thiết kế"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 186,
+    "chapter": "Chương 2",
+    "question": "Các dạng tấn công vào khiếm khuyết thiết kế bao gồm",
+    "options": [
+      "các lỗi cài đặt hệ mã hóa",
+      "XSS/SQL Injection",
+      "khai thác các lỗi trong chính sách và áp dụng",
+      "lạm dụng lưu trình xử lý",
+      "các mẫu thiết kế không an toàn"
+    ],
+    "answer": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 187,
+    "chapter": "Chương 2",
+    "question": "Mẫu thiết kế nào có thể được coi là tạm an toàn nếu bao gồm",
+    "options": [
+      "các hành vi mơ hồ, không xác định và bất ngờ",
+      "kiểm tra cấp quyền và lọc dữ liệu đầy đủ",
+      "trộn lẫn dữ liệu và mã",
+      "chuẩn hóa sai và cú pháp đồng nghĩa",
+      "tin tưởng vào bên máy khách."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 188,
+    "chapter": "Chương 2",
+    "question": "Việc kiểm tra, hay lọc dữ liệu để phòng chống tấn công khiếm khuyết thiết kế phải được thực hiện trên ...",
+    "options": [
+      "máy khách",
+      "máy chủ",
+      "trình duyệt web",
+      "cơ sở dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 189,
+    "chapter": "Chương 2",
+    "question": "Các lỗi cài đặt hệ mã hóa có thể là",
+    "options": [
+      "không tạo được số ngẫu nhiên thực sự trong khi thuật toán mã hóa đòi hỏi sử dụng các số ngẫu nhiên",
+      "trộn lẫn dữ liệu và mã",
+      "sử dụng các phương pháp, hoặc các giải thuật mã hóa cũ, yếu và chúng dễ dàng bị phá",
+      "chuẩn hóa sai và cú pháp đồng nghĩa"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 190,
+    "chapter": "Chương 2",
+    "question": "Việc cài đặt các hệ mã hóa có thể phát sinh một số lỗ hổng bảo mật do các yêu cầu đối với các ... và bản thân ... mã hóa không được đảm bảo chặt chẽ",
+    "options": [
+      "tham số/thuật toán",
+      "mẫu số/thuật toán",
+      "tham số/khóa bí mật",
+      "mẫu số/khóa bí mật"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 191,
+    "chapter": "Chương 2",
+    "question": "Các biện pháp phòng chống tấn công logic xử lý website",
+    "options": [
+      "Yêu cầu viết tài liệu, tạo các test case toàn diện",
+      "lập trình an toàn",
+      "ánh xạ chính sách - kiểm soát",
+      "xác minh máy khách và các hướng dẫn thực hiện mã hóa",
+      "Sử dụng thủ tục cơ sở dữ liệu (stored procedures) và cơ chế tham số hóa dữ liệu"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 192,
+    "chapter": "Chương 2",
+    "question": "Các dạng tấn công vào trình duyệt web và sự riêng tư của người dùng bao gồm",
+    "options": [
+      "tấn công sử dụng các phần mềm độc hại",
+      "tấn công các trình cắm (plugin) của trình duyệt",
+      "các vấn đề DNS & nguồn gốc",
+      "lọc dữ liệu không đầy đủ",
+      "sự riêng tư của người dùng"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 193,
+    "chapter": "Chương 2",
+    "question": "Chính sách Cùng Nguồn Gốc (Same Origin Policy) của trình duyệt đảm bảo nền tảng an ninh cho mô hình DOM của các ..., trong đó nó ngăn chặn một miền (domain) can thiệp vào một ... khác",
+    "options": [
+      "trang web/máy khách",
+      "máy chủ web/máy khách",
+      "máy chủ web/miền",
+      "trang web/miền"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 194,
+    "chapter": "Chương 2",
+    "question": "Dạng tấn công ánh xạ lại DNS cho phép các nội dung từ nhiều ... trở thành từ cùng 1 ... . Tin tặc có thể tấn công hệ thống DNS để ánh xạ lại tên miền tin cậy sang địa chỉ IP ... của tin tặc",
+    "options": [
+      "máy chủ/máy chủ/máy chủ",
+      "nguồn/nguồn/máy chủ",
+      "nguồn/máy chủ/máy chủ",
+      "nguồn/nguồn/trình duyệt"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 195,
+    "chapter": "Chương 2",
+    "question": "Các biện pháp phòng chống để giảm rủi ro khi duyệt web bao gồm",
+    "options": [
+      "cấu hình giao thức bảo mật SSL/TLS",
+      "duyệt web an toàn",
+      "cô lập trình duyệt",
+      "sử dụng giao thức Tor (The Onion Routing) và DNSSEC (DNS Security Extensions)",
+      "Sử dụng cơ chế tham số hóa dữ liệu hỗ trợ bởi nhiều ngôn ngữ lập trình web như ASP.NET, PHP và JSP"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 196,
+    "chapter": "Chương 2",
+    "question": "Khi trình duyệt và máy chủ web trao đổi thông tin thông qua HTTPS (HTTP trên SSL/TLS), tính ... dữ liệu được đảm bảo sử dụng mã hóa, tính ... dữ liệu và nguồn gốc dữ liệu được đảm bảo sử dụng hàm băm có khóa (HMAC)",
+    "options": [
+      "bí mật/toàn vẹn",
+      "toàn vẹn/bí mật",
+      "bí mật/xác thực",
+      "chống chối bỏ/toàn vẹn"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 197,
+    "chapter": "Chương 2",
+    "question": "DNSSEC bổ sung thêm các hàm mật mã vào DNS để ngăn chặn ... bằng khả năng nhận dạng chính xác các ... tin cậy.",
+    "options": [
+      "xâm nhập/máy khách",
+      "xâm nhập/máy chủ",
+      "giả mạo/máy khách",
+      "giả mạo/máy chủ"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 198,
+    "chapter": "Chương 2",
+    "question": "Đâu KHÔNG phải là một mẫu thiết kế không an toàn trong phát triển ứng dụng web?",
+    "options": [
+      "Các hành vi mơ hồ, không xác định và bất ngờ",
+      "Tin tưởng vào bên máy chủ",
+      "Trộn lẫn dữ liệu và mã",
+      "Tin tưởng vào bên máy khách"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 199,
+    "chapter": "Chương 2",
+    "question": "Theo Top 10 OWASP, đâu không phải là một dạng tấn công XSS:",
+    "options": [
+      "Reflected XSS",
+      "DOM-base XSS",
+      "Stored XSS",
+      "Virtual XSS"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 200,
+    "chapter": "Chương 3",
+    "question": "Phiên (Session) là một kỹ thuật được thực hiện bởi..., cho phép ứng dụng web kết nối các yêu cầu truy nhập riêng rẽ của người dùng.",
+    "options": [
+      "giao thức HTTP",
+      "các máy chủ web",
+      "các ứng dụng",
+      "các ứng dụng web"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 201,
+    "chapter": "Chương 3",
+    "question": "Đâu là tên một plug-ins an ninh cho trình duyệt web?",
+    "options": [
+      "HTTPS Anywhere",
+      "HTTP Everywhere",
+      "HTTP Anywhere",
+      "HTTPS Everywhere"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 202,
+    "chapter": "Chương 3",
+    "question": "Microsoft Account cũng là một hệ thống SSO cho phép người dùng đăng nhập một lần và truy nhập vào nhiều trang web/dịch vụ do Microsoft cung cấp, như Windows PC,...",
+    "options": [
+      "Skyp, Xbox Live, Teams.",
+      "Skype, Xbox Live, Teams.",
+      "Skype, Xbox Live, TeamView.",
+      "Skype, Xbox, Teams."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 203,
+    "chapter": "Chương 3",
+    "question": "Xác thực người dùng sử dụng thẻ ATM, mã PIN và mã OTP thuộc về bao nhiêu nhóm nhân tố xác thực?",
+    "options": [
+      "1",
+      "3",
+      "2,5",
+      "2"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 204,
+    "chapter": "Chương 3",
+    "question": "Việc thiết lập cấu hình máy chủ web an toàn..., tuy nhiên thường hay gặp lỗi do người quản trị lơ đễnh, chủ quan, thiếu ý thức.",
+    "options": [
+      "không phải là việc khó",
+      "là việc tương đối khó",
+      "là việc rất khó",
+      "không phải là việc quá khó"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 205,
+    "chapter": "Chương 3",
+    "question": "Xác thực người dùng sử dụng email, mật khẩu và mã OTP thuộc bao nhiêu nhóm nhân tố xác thực?",
+    "options": [
+      "1",
+      "1,5",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 206,
+    "chapter": "Chương 3",
+    "question": "Các thành phần thường gặp của hệ thống xác thực và trao quyền truy nhập, gồm cơ sở dữ liệu lưu thông tin người dùng, quản lý quyền truy nhập, trang đăng nhập, trang đăng xuất, thành phần kiểm tra trạng thái đăng nhập và quyền truy nhập,...",
+    "options": [
+      "thành phần kiểm tra và quản lý phiên làm việc.",
+      "thành phần kiểm tra và quản lý người dùng.",
+      "thành phần quản lý và giám sát phiên làm việc.",
+      "thành phần kiểm tra và giám sát phiên làm việc."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 207,
+    "chapter": "Chương 3",
+    "question": "Bảo mật hệ thống file không bao gồm hành động nào sau đây?",
+    "options": [
+      "Sử dụng phương pháp ẩn thông tin",
+      "Thiết lập quyền truy nhập phù hợp",
+      "Giữ bí mật mã nguồn",
+      "Sử dụng các thủ tục trong CSDL"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 208,
+    "chapter": "Chương 3",
+    "question": "Token của phiên làm việc web có thể bị đánh cắp bởi các tấn công như XSS, CSRF...",
+    "options": [
+      "trên đường truyền mạng.",
+      "trên máy chủ proxy.",
+      "từ phía máy chủ.",
+      "từ phía máy khách."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 209,
+    "chapter": "Chương 3",
+    "question": "Các biện pháp đảm bảo an toàn cho xác thực dựa trên mật khẩu bao gồm:",
+    "options": [
+      "Đổi mật khẩu định kỳ, Hạn chế dùng lại mật khẩu, Không dùng mật khẩu giống họ tên người dùng.",
+      "Đổi mật khẩu định kỳ, Hạn chế dùng mật khẩu, Không dùng mật khẩu giống tên người dùng.",
+      "Đổi mật khẩu định kỳ, Hạn chế dùng lại mật khẩu, Không dùng mật khẩu giống tên người dùng.",
+      "Đổi mật khẩu 1 lần/tháng, Hạn chế dùng lại mật khẩu, Không dùng mật khẩu giống tên người dùng."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 210,
+    "chapter": "Chương 3",
+    "question": "Đâu là chuỗi duyệt đường dẫn cho phép truy cập file chứa danh sách tên người dùng kèm mật khẩu?",
+    "options": [
+      "../etc/shadow",
+      "../../../../etc/password",
+      "../etc/password",
+      "../../../../etc/shadow"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 211,
+    "chapter": "Chương 3",
+    "question": "Điều khiển truy nhập là quá trình mà trong đó người dùng được ... và ... truy nhập đến các thông tin, các hệ thống và tài nguyên.",
+    "options": [
+      "nhận dạng và chia quyền",
+      "nhận thực và trao quyền",
+      "xác nhận và trao quyền",
+      "nhận dạng và trao quyền"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 212,
+    "chapter": "Chương 3",
+    "question": "Một hệ thống điều khiển truy nhập có thể được cấu thành từ 3 dịch vụ, gồm...",
+    "options": [
+      "Xác thực, Chia quyền, Quản trị.",
+      "Xác thực, Trao quyền, Quản trị.",
+      "Nhận thực, Trao quyền, Quản trị.",
+      "Xác thực, Trao quyền, Quản lý."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 213,
+    "chapter": "Chương 3",
+    "question": "Nhiều máy chủ web có các tài khoản quản trị ngầm định với mật khẩu yếu hoặc thậm chí không có mật khẩu. Các tài khoản ngầm định thường là...",
+    "options": [
+      "root/root, admin/(null), user/public.",
+      "root/(none), admin/admin, user/user.",
+      "root/root, admin/admin, user/public.",
+      "root/root, admin/(null), user/(null)."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 214,
+    "chapter": "Chương 3",
+    "question": "Đâu là các cơ chế đảm bảo an toàn xác thực ứng dụng web?",
+    "options": [
+      "Sử dụng CAPTCHA, Khóa tài khoản không sử dụng, Không sử dụng các tài khoản với mật khẩu yếu.",
+      "Sử dụng CAPTCHA, Khóa tài khoản không sử dụng, Không sử dụng các tài khoản ngầm định.",
+      "Sử dụng CAPCHAR, Khóa tài khoản không sử dụng, Không sử dụng các tài khoản ngầm định.",
+      "Sử dụng CAPTCHA, Khóa tài khoản ít sử dụng, Không sử dụng các tài khoản ngầm định."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 215,
+    "chapter": "Chương 3",
+    "question": "Xác thực SSO (Single Sign On) là giải pháp cho phép người dùng ... thông qua ... để truy nhập vào nhiều hệ thống/dịch vụ khách nhau.",
+    "options": [
+      "đăng nhập một lần / nhiều giao diện xác thực",
+      "đăng nhập một lần / một giao diện xác thực",
+      "đăng nhập nhiều lần / một giao diện xác thực",
+      "đăng nhập nhiều lần / nhiều giao diện xác thực"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 216,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG phải là một trong nhóm các biện pháp bảo vệ token phiên làm việc web trong cả vòng đời?",
+    "options": [
+      "Cần có các bộ lọc và các cơ chế ngăn chặn các dạng tấn công chèn mã script như XSS và CSRF.",
+      "Token cần được trao đổi an toàn sử dụng giao thức HTTPS.",
+      "Không nên đưa token của phiên vào URN như một tham số do dễ dàng bị lấy/thay đổi.",
+      "Cần thiết lập phạm vi chặt chẽ cho cookie trong miền (domain) và các đường dẫn (path) của nó."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 217,
+    "chapter": "Chương 3",
+    "question": "Một trong những định hướng cấu hình máy chủ web an toàn là...",
+    "options": [
+      "Thiết lập các tham số cấu hình theo các hướng dẫn tăng cường an ninh cho máy chủ và các ứng dụng web.",
+      "Thiết lập cấu hình theo các hướng dẫn an ninh cho máy chủ và các ứng dụng web.",
+      "Thiết lập các tham số cấu hình theo các hướng dẫn an ninh cho máy chủ và các ứng dụng web.",
+      "Thiết lập cấu hình theo các hướng dẫn tăng cường an ninh cho máy chủ và các ứng dụng web."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 218,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG phải là một trong nhóm các biện pháp đảm bảo sinh các token phiên làm việc web “mạnh”?",
+    "options": [
+      "Sử dụng token được sinh ra với miền giá trị đủ lớn",
+      "Token cần được sinh ngẫu nhiên và khó đoán",
+      "Token không nên có nghĩa",
+      "Token nên phụ thuộc thời gian"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 219,
+    "chapter": "Chương 3",
+    "question": "Việc cấu hình thời gian hết hạn một phiên làm việc web sau một khoảng thời gian người dùng không có hoạt động giúp hạn chế dạng tấn công...",
+    "options": [
+      "clickjacking",
+      "session hijacking",
+      "session jacking",
+      "session DDoS"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 220,
+    "chapter": "Chương 3",
+    "question": "Xác thực là quá trình xác minh tính chân thực của các ... mà người dùng cung cấp.",
+    "options": [
+      "thông tin nhận dạng",
+      "thông tin cá nhân",
+      "thông tin tài khoản",
+      "thông tin nhận thực"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 221,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG phải là một phương thức tấn công, đe dọa các trình duyệt web?",
+    "options": [
+      "Giao tiếp mạng của trình duyệt có thể bị tấn công.",
+      "Các trình cắm (plug-in/add-on) của trình duyệt bị tấn công.",
+      "Hệ điều hành nền bị tấn công.",
+      "Các thành phần của trình duyệt bị tấn công."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 222,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG phải là một cơ chế đảm bảo an toàn xác thực ứng dụng web?",
+    "options": [
+      "Không lưu mật khẩu ở dạng rõ",
+      "Không sử dụng tính năng Autocomplete với form đăng nhập.",
+      "Không sử dụng các tài khoản ngầm định: admin, guest, root,…",
+      "Không lưu thông tin truy nhập vào mã (hardcoded)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 223,
+    "chapter": "Chương 3",
+    "question": "Điểm khác biệt của Digest access authentication với Basic Access authentication là mật khẩu được mã hóa bằng...",
+    "options": [
+      "hàm băm SHA1.",
+      "thuật toán RSA.",
+      "thuật toán AES.",
+      "hàm băm MD5."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 224,
+    "chapter": "Chương 3",
+    "question": "Trong kiến trúc của trình duyệt web, thành phần này là trung gian chuyển các đầu vào từ User Interface đến Rendering Engine",
+    "options": [
+      "Browser Engine",
+      "UI Backend",
+      "Java Script Interpreter",
+      "Networking"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 225,
+    "chapter": "Chương 3",
+    "question": "Ứng dụng web sinh một chuỗi nhận dạng cho mỗi phiên làm việc, được gọi là Session ID hay Token và gửi cho trình duyệt web. Trình duyệt web nhận được Session ID hay Token lưu trong cơ sở dữ liệu của mình dưới dạng một...",
+    "options": [
+      "Cookie",
+      "Token",
+      "Cookies",
+      "Session ID"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 226,
+    "chapter": "Chương 3",
+    "question": "Mục đích chính của điều khiển truy nhập là để đảm bảo ... của thông tin, hệ thống và các tài nguyên.",
+    "options": [
+      "Tính bí mật, toàn vẹn và sẵn dùng",
+      "Tính bảo mật, toàn vẹn và sẵn dùng",
+      "Tính bí mật, toàn vẹn và dễ dùng",
+      "Tính bảo mật, toàn vẹn và dễ dùng"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 227,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG phải là 1 điểm yếu trong các điểm yếu trong quá trình sử dụng token phiên làm việc web?",
+    "options": [
+      "Rò rỉ token trên mạng",
+      "Token bị đánh cắp từ phía máy chủ",
+      "Token bị đánh cắp từ phía máy khách",
+      "Rò rỉ token trong ghi logs"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 228,
+    "chapter": "Chương 3",
+    "question": "Các điểm yếu trong sinh token phiên làm việc web bao gồm:",
+    "options": [
+      "Token phiên kích thước ngắn, Token phiên dễ đoán.",
+      "Token phiên có nghĩa, Token phiên dễ đoán.",
+      "Token phiên kích thước ngắn, Token phiên đơn giản.",
+      "Token phiên có nghĩa, Token phiên đơn giản."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 229,
+    "chapter": "Chương 3",
+    "question": "Đâu là một dạng thường gặp của lỗ hổng trong kết thúc phiên?",
+    "options": [
+      "Nhiều ứng dụng web không có tính năng Kết thúc",
+      "Nhiều ứng dụng web không có tính năng Đăng nhập",
+      "Nhiều ứng dụng web không có tính năng Đăng ký",
+      "Nhiều ứng dụng web không có tính năng Đăng xuất"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 230,
+    "chapter": "Chương 3",
+    "question": "Các lỗ hổng thường gặp trong phần mềm máy chủ web?",
+    "options": [
+      "Lỗ hổng tràn bộ đệm, lỗ hổng XSS, lỗ hổng trong mã hóa và chuẩn hóa.",
+      "Lỗ hổng tràn bộ đệm, lỗ hổng cho phép duyệt đường dẫn, lỗ hổng trong mã hóa và chuẩn hóa.",
+      "Lỗ hổng tràn bộ đệm, lỗ hổng cho phép duyệt đường dẫn, lỗ hổng CMDi.",
+      "Lỗ hổng SQLi, lỗ hổng cho phép duyệt đường dẫn, lỗ hổng trong mã hóa và chuẩn hóa."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 231,
+    "chapter": "Chương 3",
+    "question": "Hai biện pháp quan trọng đảm bảo an toàn cho xác thực dựa trên mật khẩu bao gồm:",
+    "options": [
+      "Thiết lập độ dài mật khẩu tối đa, Đảm bảo tính toàn vẹn của mật khẩu.",
+      "Thiết lập độ dài mật khẩu tối đa, Đảm bảo độ khó của mật khẩu.",
+      "Thiết lập độ dài mật khẩu tối thiểu, Đảm bảo độ khó của mật khẩu.",
+      "Thiết lập độ dài mật khẩu tối thiểu, Đảm bảo tính bí mật của mật khẩu."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 232,
+    "chapter": "Chương 3",
+    "question": "Các thành phần chính trong của trình duyệt web gồm...",
+    "options": [
+      "Browser engine, Render engine, UI Backend.",
+      "Browser engine, Rendering engine, UI Backend.",
+      "Browser engine, Rendering engine, JavaScript.",
+      "Browser engine, Rendering engine, UI Frontend."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 233,
+    "chapter": "Chương 3",
+    "question": "Basic access authentication nên được sử dụng với SSL/TLS để...",
+    "options": [
+      "đạt được hiệu năng vận hành cao hơn.",
+      "truyền thông tin nhạy cảm an toàn.",
+      "truyền thông tin đăng nhập an toàn.",
+      "bảo mật tài khoản người dùng."
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 234,
+    "chapter": "Chương 3",
+    "question": "Tên truy nhập (username) và mật khẩu (password) là chuẩn thực tế cho xác thực trong các ứng dụng web là do đây là phương pháp xác thực...",
+    "options": [
+      "đơn giản, rẻ tiền.",
+      "dễ dùng và hiệu quả.",
+      "đơn giản và hiệu quả.",
+      "dễ dùng và an toàn."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 235,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG phải là 1 điểm yếu trong các điểm yếu trong quá trình sử dụng token phiên làm việc web?",
+    "options": [
+      "Lỗ hổng trong ánh xạ token sang phiên",
+      "Không giới hạn phạm vi sử dụng cookie",
+      "Không giới hạn phạm vi sử dụng token phiên",
+      "Lỗ hổng trong kết thúc phiên"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 236,
+    "chapter": "Chương 3",
+    "question": "Rò rỉ token phiên web có thể xảy ra trong quá trình ghi log của...",
+    "options": [
+      "trình duyệt, ứng dụng web, máy chủ proxy.",
+      "trình duyệt, máy chủ web, tường lửa.",
+      "hệ điều hành máy khách, máy chủ web, máy chủ proxy.",
+      "trình duyệt, máy chủ web, máy chủ proxy."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 237,
+    "chapter": "Chương 3",
+    "question": "Hai nhược điểm của Basic Access Authentication là:",
+    "options": [
+      "Mật khẩu truyền trên Internet và Mật khẩu được trao đổi thường xuyên, dễ bị rò rỉ.",
+      "Mật khẩu truyền không an toàn và Mật khẩu yếu.",
+      "Mật khẩu ngắn và Mật khẩu dễ đoán.",
+      "Mật khẩu truyền không an toàn và Mật khẩu được trao đổi thường xuyên, dễ bị rò rỉ."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 238,
+    "chapter": "Chương 3",
+    "question": "Để nhận dạng người dùng trong quá trình tạo và duy trì phiên làm việc, máy chủ web sử dụng các thông nào từ máy khách web?",
+    "options": [
+      "Địa chỉ IP máy khách",
+      "Địa chỉ IP, hệ điều hành máy khách",
+      "Địa chỉ IP, hệ điều hành và trình duyệt máy khách",
+      "Địa chỉ IP và trình duyệt máy khách"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 239,
+    "chapter": "Chương 3",
+    "question": "Đâu KHÔNG phải là một phương pháp xác thực ứng dụng web dựa trên mật khẩu?",
+    "options": [
+      "Đăng nhập một lần",
+      "Xác thực của giao thức HTTP",
+      "Các hệ xác thực tùy phát triển",
+      "Xác thực của giao thức SSL/TLS"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 240,
+    "chapter": "Chương 3",
+    "question": "Máy chủ nhận dạng người dùng web thông qua địa chỉ IP và thông tin của…",
+    "options": [
+      "trình duyệt web.",
+      "hệ điều hành máy khách.",
+      "tài khoản của người dùng.",
+      "máy khách web."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 241,
+    "chapter": "Chương 3",
+    "question": "Các điểm yếu, lỗ hổng trong cấu hình máy chủ web bao gồm",
+    "options": [
+      "các tài khoản quản trị ngầm định",
+      "các nội dung ngầm định",
+      "liệt kê nội dung thư mục và các phương thức nguy hiểm",
+      "Các điểm yếu trong sinh token phiên"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 242,
+    "chapter": "Chương 3",
+    "question": "Các lỗ hổng thường gặp trong các phần mềm máy chủ web bao gồm",
+    "options": [
+      "lỗ hổng tràn bộ đệm",
+      "lỗ hổng cho phép duyệt đường dẫn",
+      "lỗ hổng trong mã hóa và chuẩn hóa",
+      "lỗ hổng lạm dụng lưu trình xử lý"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 243,
+    "chapter": "Chương 3",
+    "question": "Các lỗ hổng cho phép duyệt đường dẫn (Path traversal vulnerabilities) thường xuất hiện khi các ... thực hiện việc đọc, hoặc ghi vào hệ thống file dựa trên các ... do người dùng cung cấp, nhưng không được kiểm soát chặt chẽ",
+    "options": [
+      "máy chủ web/nguồn",
+      "ứng dụng web/tham số",
+      "máy chủ/tham số",
+      "ứng dụng web/nguồn"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 244,
+    "chapter": "Chương 3",
+    "question": "Các lỗ hổng cho phép duyệt đường dẫn (Path traversal vulnerabilities) nếu bị khai thác có thể đạt đến hậu quả xấu nhất là?",
+    "options": [
+      "bị đánh cắp thông tin mật khẩu, log, các dữ liệu nhạy cảm",
+      "bị giành quyền kiểm soát cả ứng dụng web và hệ thống máy chủ",
+      "bị ghi đè lên các dữ liệu quan trọng"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 245,
+    "chapter": "Chương 3",
+    "question": "Biện pháp giảm thiểu lỗ hổng cho phép duyệt đường dẫn là",
+    "options": [
+      "hạn chế cho phép các thao tác đọc, ghi hệ thống file dựa trên tham số từ người dùng.",
+      "cô lập trình duyệt",
+      "thực hiện các biện pháp kiểm tra, lọc để loại bỏ các chuỗi duyệt đường dẫn kiểu \"..\\..\\\" hoặc \"../../\" khỏi tên file",
+      "giới hạn việc truy nhập file trong thư mục chỉ định"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 246,
+    "chapter": "Chương 3",
+    "question": "Một hệ thống điều khiển truy nhập có thể được cấu thành từ 3 dịch vụ:",
+    "options": [
+      "Xác thực (Authentication)",
+      "Trao quyền, hoặc cấp quyền (Authorization)",
+      "Mã hóa (Encryption)",
+      "Quản trị (Administration)"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 247,
+    "chapter": "Chương 3",
+    "question": "Xác thực (Authentication) là",
+    "options": [
+      "xác định các tài nguyên mà người dùng được phép truy nhập dựa trên chính sách quản trị tài nguyên của cơ quan, tổ chức và vai trò của người dùng trong hệ thống.",
+      "quá trình xác minh tính chân thực của các thông tin nhận dạng mà người dùng cung cấp",
+      "dịch vụ cung cấp khả năng thêm, bớt và sửa đổi các thông tin tài khoản người dùng, cũng như quyền truy nhập của người dùng trong hệ thống"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 248,
+    "chapter": "Chương 3",
+    "question": "Trao quyền (Authorization) là",
+    "options": [
+      "quá trình xác minh tính chân thực của các thông tin nhận dạng mà người dùng cung cấp",
+      "xác định các tài nguyên mà người dùng được phép truy nhập dựa trên chính sách quản trị tài nguyên của cơ quan, tổ chức và vai trò của người dùng trong hệ thống.",
+      "dịch vụ cung cấp khả năng thêm, bớt và sửa đổi các thông tin tài khoản người dùng, cũng như quyền truy nhập của người dùng trong hệ thống"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 249,
+    "chapter": "Chương 3",
+    "question": "Quản trị (Administration) là",
+    "options": [
+      "quá trình xác minh tính chân thực của các thông tin nhận dạng mà người dùng cung cấp",
+      "xác định các tài nguyên mà người dùng được phép truy nhập dựa trên chính sách quản trị tài nguyên của cơ quan, tổ chức và vai trò của người dùng trong hệ thống.",
+      "dịch vụ cung cấp khả năng thêm, bớt và sửa đổi các thông tin tài khoản người dùng, cũng như quyền truy nhập của người dùng trong hệ thống"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 250,
+    "chapter": "Chương 3",
+    "question": "Đâu là khâu đầu tiên cần thực hiện trong một hệ thống điều khiển truy nhập?",
+    "options": [
+      "Quản trị (Administration)",
+      "Trao quyền (Authorization)",
+      "Xác thực (Authentication)",
+      "Mã hóa (Encryption)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 251,
+    "chapter": "Chương 3",
+    "question": "Mục đích chính của điều khiển truy nhập là để đảm bảo tính",
+    "options": [
+      "bí mật (Confidentiality), toàn vẹn (Integrity), sẵn dùng (Availability)",
+      "bảo mật (Confidentiality), toàn vẹn (Integrity), sẵn dùng (Availability)",
+      "bí mật (Confidentiality), toàn vẹn (Intelligence), sẵn dùng (Availability)",
+      "bí mật (Confidentiality), toàn vẹn (Intelligence), sẵn dùng (Avanced)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 252,
+    "chapter": "Chương 3",
+    "question": "3 nhân tố thông tin nhận dạng người dùng trong quá trình xác thực",
+    "options": [
+      "Bạn là ai? (chứng minh nhân dân, bằng lái xe, vân tay,...)",
+      "Những cái bạn biết? (tên truy nhập, mật khẩu, số PIN...)",
+      "Bạn cần gì? (truy xuất cơ sở dữ liệu, cập nhật file...)",
+      "Bạn có gì? (Thẻ ATM, thẻ tín dụng, ...)"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 253,
+    "chapter": "Chương 3",
+    "question": "2 phương thức xác thực được giao thức HTTP cung cấp",
+    "options": [
+      "Basic access authentication",
+      "Avanced access authentication",
+      "Digest access authentication",
+      "Encrypt access authentication"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 254,
+    "chapter": "Chương 3",
+    "question": "Nhược điểm của Basic access authentication là",
+    "options": [
+      "phức tạp, khó thực hiện",
+      "mật khẩu truyền không an toàn do mã base64 không đảm bảo tính bí mật, có thể bị giải mã dễ dàng",
+      "mật khẩu được gửi từ trình duyệt đến máy chủ thường xuyên, dễ gây lộ, mất mật khẩu",
+      "mật khẩu cũng được lưu trữ không an toàn trong cookie của trình duyệt",
+      "không tồn tại phiên làm việc nên chỉ có thể đăng nhập mà không thể đăng xuất."
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 255,
+    "chapter": "Chương 3",
+    "question": "Điểm khác của Digest access authentication so với Basic access authentication là mật khẩu được mã hóa bằng hàm băm ..., sau đó được đưa vào thông điệp xác thực để gửi lên máy chủ web.",
+    "options": [
+      "SHA-1",
+      "MD5",
+      "MD4",
+      "AES"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 256,
+    "chapter": "Chương 3",
+    "question": "Đăng nhập một lần (Single Sign On - SSO) là giải pháp cho phép người dùng đăng nhập ... lần thông qua một giao diện xác thực để truy nhập vào ... hệ thống, hoặc dịch vụ khác nhau.",
+    "options": [
+      "nhiều/nhiều",
+      "một/một",
+      "một/nhiều",
+      "nhiều/một"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 257,
+    "chapter": "Chương 3",
+    "question": "Có mấy dạng điểm yếu trong quá trình quản lý phiên làm việc của ứng dụng web?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 258,
+    "chapter": "Chương 3",
+    "question": "Các điểm yếu trong sinh token phiên bao gồm",
+    "options": [
+      "Token phiên có nghĩa",
+      "Rò rỉ token trên mạng",
+      "Token phiên dễ đoán",
+      "Lỗ hổng trong ánh xạ token sang phiên"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 259,
+    "chapter": "Chương 3",
+    "question": "Điểm yếu nào sau đây không thuộc loại token phiên dễ đoán",
+    "options": [
+      "Token được che dấu thứ tự",
+      "Token phụ thuộc thời gian",
+      "Token được tạo sử dụng số ngẫu nhiên yếu.",
+      "Token bị đánh cắp từ phía máy khách"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 260,
+    "chapter": "Chương 3",
+    "question": "Các điểm yếu trong sử dụng token phiên có thể là",
+    "options": [
+      "Rò rỉ token trên mạng, trong ghi log",
+      "Lỗ hổng trong ánh xạ token sang phiên, trong kết thúc phiên",
+      "Token được che dấu thứ tự",
+      "Token bị đánh cắp từ phía máy khách",
+      "Không giới hạn phạm vi sử dụng cookie"
+    ],
+    "answer": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 261,
+    "chapter": "Chương 3",
+    "question": "Lỗ hổng trong ánh xạ token sang phiên tồn tại do",
+    "options": [
+      "nhiều ứng dụng web cho phép nhiều phiên làm việc được tạo trên cùng một tài khoản người dùng",
+      "token bị rò rỉ trong quá trình ghi log của các thành phần trong ứng dụng web",
+      "các token được che dấu thứ tự, token phụ thuộc thời gian và token được tạo sử dụng số ngẫu nhiên yếu",
+      "ứng dụng tạo các token từ các thành phần có nghĩa như tên người dùng, email, ngày tháng,..."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 262,
+    "chapter": "Chương 3",
+    "question": "Lỗ hổng trong kết thúc phiên tồn tại, không phải do",
+    "options": [
+      "nhiều ứng dụng web không có tính năng Đăng xuất (Log Out, hoặc Log Off)",
+      "hệ thống có tính năng Đăng xuất, nhưng không đảm bảo hủy token và toàn bộ các tài nguyên khác của phiên",
+      "nhiều ứng dụng web cho phép nhiều phiên làm việc được tạo trên cùng một tài khoản người dùng.",
+      "hệ thống không đặt thời gian hết hạn cho phiên khi người dùng không có hoạt động trong một khoảng thời gian"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 263,
+    "chapter": "Chương 3",
+    "question": "Biện pháp bảo mật phiên gồm",
+    "options": [
+      "sinh các token phiên mạnh",
+      "bảo vệ token trong cả vòng đời",
+      "ghi log, giám sát và cảnh báo",
+      "cô lập trình duyệt"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 264,
+    "chapter": "Chương 3",
+    "question": "Các vấn đề liên quan đến bảo mật cơ sở dữ liệu web bao gồm",
+    "options": [
+      "Chèn mã SQL (SQL Injection)",
+      "các thiết lập quyền truy nhập cơ sở dữ liệu",
+      "Các lỗ hổng cho phép duyệt đường dẫn (Path traversal vulnerabilities)",
+      "an toàn cho các thủ tục (Stored Procedures)"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 265,
+    "chapter": "Chương 3",
+    "question": "Ưu điểm của việc sử dụng thủ tục cơ sở dữ liệu là",
+    "options": [
+      "ngăn chặn hiệu quả tấn công chèn mã SQL do dữ liệu người dùng được tách khỏi mã",
+      "tăng hiệu năng đáng kể do các thủ tục đã được dịch và lưu trong cơ sở dữ liệu",
+      "cho phép hạn chế đến tối thiểu quyền truy nhập trực tiếp của người dùng vào các bảng dữ liệu thông qua việc chỉ thiết lập quyền thực hiện thủ tục"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 266,
+    "chapter": "Chương 3",
+    "question": "Các vấn đề liên quan đến bảo mật hệ thống file bao gồm",
+    "options": [
+      "thiết lập quyền truy nhập phù hợp",
+      "giữ bí mật mã nguồn",
+      "sử dụng phương pháp ẩn thông tin",
+      "vấn đề liệt kê và duyệt các thư mục",
+      "an toàn cho các thủ tục (Stored Procedures)"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 267,
+    "chapter": "Chương 3",
+    "question": "Các vấn đề liên quan đến bảo mật trình duyệt web bao gồm:",
+    "options": [
+      "các phương thức tấn công trình duyệt web",
+      "mục đích tấn công trình duyệt",
+      "giữ bí mật mã nguồn",
+      "các tính năng cung cấp bởi trình duyệt chứa đựng nhiều nguy cơ bảo mật"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 268,
+    "chapter": "Chương 3",
+    "question": "Các biện pháp tăng cường an toàn cho trình duyệt web bao gồm",
+    "options": [
+      "cấu hình các thiết lập an ninh và riêng tư",
+      "luôn cập nhật trình duyệt, cẩn trọng khi cài trình cắm",
+      "đăng ký tiện ích cảnh báo",
+      "hệ thống cần có bộ chương trình quét virus",
+      "cài đặt plug-in an ninh"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 269,
+    "chapter": "Chương 3",
+    "question": "Các tiêu chí đánh giá độ bảo mật của trình duyệt",
+    "options": [
+      "tần suất cập nhật",
+      "số lượng lỗ hổng bị khai thác",
+      "tính năng sandbox",
+      "khả năng chặn mã độc sử dụng kỹ thuật xã hội",
+      "tính bí mật của mã nguồn"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 270,
+    "chapter": "Chương 3",
+    "question": "Thiết lập quyền truy nhập để bảo vệ hệ thống file, nhóm người dùng nào cần áp dụng bổ sung giới hạn các máy/mạng được phép truy cập thông qua địa chỉ IP?",
+    "options": [
+      "Các trang chứa dữ liệu nhạy cảm của HĐH, máy chủ web",
+      "Các trang công cộng",
+      "Các trang nội bộ",
+      "Các trang quản trị"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 271,
+    "chapter": "Chương 3",
+    "question": "Đâu không phải là tiêu chí đánh giá độ bảo mật trình duyệt?",
+    "options": [
+      "Khả năng chặn mã độc sử dụng kỹ thuật xã hội",
+      "Tính năng chatbox",
+      "Tần suất cập nhật",
+      "Số lượng lỗ hổng được phát hiện/khai thác"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 272,
+    "chapter": "Chương 3",
+    "question": "Đánh giá độ bảo mật một số trình duyệt thông dụng, đâu là trình duyệt an toàn nhất?",
+    "options": [
+      "Chrome",
+      "IE",
+      "Safari",
+      "Firefox"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 273,
+    "chapter": "Chương 4",
+    "question": "Đâu KHÔNG phải là một mô hình phát triển ứng dụng web an toàn?",
+    "options": [
+      "MSDL",
+      "DSIMM",
+      "CLASP",
+      "BSIMM"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 274,
+    "chapter": "Chương 4",
+    "question": "Đâu là các quy trình thành phần đúng của OWASP CLASP?",
+    "options": [
+      "Views, Best Applications, Activities, Resources, Taxonomy",
+      "Views, Best Practices, Activities, Resources, Terms",
+      "Views, Best Practices, Activities, Resources, Taxonomy",
+      "Views, Best Practices, Real Activities, Resources, Taxonomy"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 275,
+    "chapter": "Chương 4",
+    "question": "Đâu KHÔNG phải là một khâu trong giai đoạn phát triển & triển khai ứng dụng web?",
+    "options": [
+      "Phân tích",
+      "Giám sát",
+      "Thiết kế",
+      "Kiểm thử"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 276,
+    "chapter": "Chương 4",
+    "question": "Đâu là thứ tự đúng của các pha trong Microsoft SDL (Security Development Lifecycle)?",
+    "options": [
+      "Implementation, Release, Response, Verification",
+      "Implementation, Verification, Response, Release",
+      "Implementation, Release, Verification, Response",
+      "Implementation, Verification, Release, Response"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 277,
+    "chapter": "Chương 4",
+    "question": "Một số vấn đề bảo mật cần xem xét thực hiện trong định hướng thiết kế ứng dụng web an toàn gồm...",
+    "options": [
+      "Mã hóa, Quản lý phiên, Xử lý các đầu vào, Quản lý các biến nhớ",
+      "Mã hóa, Quản lý phiên, Xử lý các tham số, Quản lý các ngoại lệ",
+      "Mật mã, Quản lý khóa, Xử lý các tham số, Quản lý các ngoại lệ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 278,
+    "chapter": "Chương 4",
+    "question": "Các giải pháp bảo mật nên được thực hiện ở các giai đoạn sớm của vòng đời ứng dụng web là do việc này...",
+    "options": [
+      "cho phép loại trừ lỗi trong quá trình phát triển và triển khai.",
+      "tiết kiệm chi phí khắc phục và triển khai.",
+      "cho phép sớm phát hiện lỗi và có thể khắc phục nhanh.",
+      "cho hiệu quả cao và tiết kiệm chi phí."
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 279,
+    "chapter": "Chương 4",
+    "question": "Nhược điểm chính của hướng tiếp cận bảo mật ứng dụng web \"tiếp cận toàn diện\" là...",
+    "options": [
+      "có chi phí lớn và thời gian thực hiện kéo dài.",
+      "có độ phức tạp rất cao.",
+      "khó có thể phát hiện tất cả các lỗi bảo mật.",
+      "khó thực hiện do cần các công cụ kiểm thử xâm nhập đắt tiền."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 280,
+    "chapter": "Chương 4",
+    "question": "Đâu KHÔNG phải là một mô hình phát triển ứng dụng web an toàn?",
+    "options": [
+      "SAMM",
+      "CLASP",
+      "CLASS",
+      "BSIMM"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 281,
+    "chapter": "Chương 4",
+    "question": "Trong các pha của Microsoft SDL, \"phân tích, hoặc giảm giao diện tấn công\" là một trong các định hướng thuộc pha nào?",
+    "options": [
+      "Pha Thiết kế",
+      "Pha Cài đặt",
+      "Pha Xác định yêu cầu",
+      "Pha Kiểm tra"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 282,
+    "chapter": "Chương 4",
+    "question": "Đâu KHÔNG phải là một biện pháp bảo mật áp dụng cho dữ liệu truyền nhận giữa trình duyệt và máy chủ web?",
+    "options": [
+      "Protecting sensitive data",
+      "Preventing parameter manipulation",
+      "Providing secure configuration",
+      "Preventing session hijacking and cookie replay attacks"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 283,
+    "chapter": "Chương 4",
+    "question": "Đâu KHÔNG phải là một khâu trong giai đoạn phát triển & triển khai ứng dụng web?",
+    "options": [
+      "Lập trình",
+      "Kiểm thử",
+      "Nâng cấp",
+      "Thiết kế"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 284,
+    "chapter": "Chương 4",
+    "question": "Các giải pháp bảo mật nên được thực hiện ở các giai đoạn sớm của các vòng đời ứng dụng web là do việc này…",
+    "options": [
+      "cho phép loại trừ lỗi trong quá trình phát triển và triển khai.",
+      "tiết kiệm chi phí khắc phục và triển khai.",
+      "nhẹ nhàng hơn và tiết kiệm chi phí.",
+      "cho phép sớm phát hiện lỗi và có thể khắc phục nhanh."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 285,
+    "chapter": "Chương 4",
+    "question": "Việc đánh giá bảo mật ứng dụng web bao gồm việc đánh giá thiết kế và kiến trúc, đánh giá … và đánh giá việc…",
+    "options": [
+      "mã nguồn / cấu hình",
+      "mã cài đặt / việc cấu hình",
+      "mã nguồn / việc triển khai",
+      "mã cài đặt / việc triển khai"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 286,
+    "chapter": "Chương 4",
+    "question": "Các lỗi được phát hiện và khắc phục ở khâu nào thì đòi hỏi chi phí và độ phức tạp thấp nhất?",
+    "options": [
+      "Xác định yêu cầu/Thiết kế (Requirements/Design)",
+      "Kiểm thử Beta (Beta Testing)",
+      "Phát hành (Release)",
+      "Kiểm thử mã nguồn (Coding Testing)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 287,
+    "chapter": "Chương 4",
+    "question": "2 hướng tiếp nhận bảo mật ứng dụng web chính:",
+    "options": [
+      "hướng \"thâm nhập và vá\" (penetrate and patch)",
+      "hướng \" vá và thâm nhập\" (patch and penetrate)",
+      "hướng tiếp cận toàn diện",
+      "hướng tiếp cận từ trên xuống"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 288,
+    "chapter": "Chương 4",
+    "question": "Hướng tiếp cận bảo mật ứng dụng web \"thâm nhập và vá\" (penetrate and patch) tương tự hướng tiếp cận ...",
+    "options": [
+      "hộp đen",
+      "hộp trắng",
+      "hộp xám"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 289,
+    "chapter": "Chương 4",
+    "question": "Nhược điểm của hướng tiếp cận toàn diện là",
+    "options": [
+      "thời gian thực hiện dài và chi phí lớn",
+      "khó có thể phát hiện tất cả các lỗi bảo mật",
+      "khắc phục lỗi phần mềm ở giai đoạn cuối của quy trình phát triển phần mềm thường phức tạp và tốn kém",
+      "không thể hạn chế đến tối thiểu các lỗi bảo mật"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 290,
+    "chapter": "Chương 4",
+    "question": "Với hướng tiếp cận toàn diện, trong mô hình hệ thống ứng dụng web, biện pháp bảo mật nào cần được xác định và áp dụng phù hợp với trình duyệt (Browser)?",
+    "options": [
+      "xác thực người dùng (Authenticating users)",
+      "Bảo vệ dữ liệu nhạy cảm (Protecting sensitive data)",
+      "Ngăn chặn việc xử lý tham số (Preventing parameter manipulation)",
+      "Thực hiện cấu hình an toàn (Providing secure configuration)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 291,
+    "chapter": "Chương 4",
+    "question": "Với hướng tiếp cận toàn diện, trong mô hình hệ thống ứng dụng web, biện pháp bảo mật nào cần được xác định và áp dụng phù hợp với dữ liệu truyền nhận giữa trình duyệt (Browser) và máy chủ web (Web server)?",
+    "options": [
+      "Bảo vệ dữ liệu nhạy cảm (Protecting sensitive data)",
+      "Ngăn chặn tấn công chiếm phiên làm việc và tái sử dụng cookie (Preventing session hijacking and cookie replay attacks)",
+      "Ngăn chặn việc xử lý tham số (Preventing parameter manipulation)",
+      "Kiểm tra dữ liệu đầu vào (Validating input)",
+      "Xử lý các ngoại lệ (Handling exceptions)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 292,
+    "chapter": "Chương 4",
+    "question": "Với hướng tiếp cận toàn diện, trong mô hình hệ thống ứng dụng web, biện pháp bảo mật nào cần được xác định và áp dụng phù hợp với máy chủ web (Web server)?",
+    "options": [
+      "Thực hiện cấu hình an toàn (Providing secure configuration)",
+      "Bảo vệ dữ liệu nhạy cảm (Protecting sensitive data)",
+      "Kiểm tra dữ liệu đầu vào (Validating input)",
+      "Cấp quyền người dùng (Authorising users)",
+      "Xử lý các ngoại lệ (Handling exceptions)"
+    ],
+    "answer": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 293,
+    "chapter": "Chương 4",
+    "question": "Với hướng tiếp cận toàn diện, trong mô hình hệ thống ứng dụng web, biện pháp bảo mật nào cần được xác định và áp dụng phù hợp với máy chủ ứng dụng (Application server)?",
+    "options": [
+      "Xác thực và cấp quyền cho người dùng luồng đến (Authenticating and authorising upstream identities)",
+      "Bảo vệ dữ liệu nhạy cảm (Protecting sensitive data)",
+      "Mã hóa hoặc băm dữ liệu nhạy cảm (Encrypting or hashing sensitive data)",
+      "Kiểm toán và ghi log các hoạt động và các giao dịch (Auditing and logging activity and transactions)",
+      "Xử lý các ngoại lệ (Handling exceptions)"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 294,
+    "chapter": "Chương 4",
+    "question": "Với hướng tiếp cận toàn diện, trong mô hình hệ thống ứng dụng web, biện pháp bảo mật nào cần được xác định và áp dụng phù hợp với dữ liệu truyền nhận giữa máy chủ ứng dụng (Application server) và máy chủ cơ sở dữ liệu (Database server)?",
+    "options": [
+      "Xác thực và cấp quyền cho người dùng luồng đến (Authenticating and authorising upstream identities)",
+      "Bảo vệ dữ liệu nhạy cảm (Protecting sensitive data)",
+      "Mã hóa hoặc băm dữ liệu nhạy cảm (Encrypting or hashing sensitive data)",
+      "Xử lý các ngoại lệ (Handling exceptions)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 295,
+    "chapter": "Chương 4",
+    "question": "Với hướng tiếp cận toàn diện, trong mô hình hệ thống ứng dụng web, biện pháp bảo mật nào cần được xác định và áp dụng phù hợp với máy chủ cơ sở dữ liệu (Database server)?",
+    "options": [
+      "Mã hóa hoặc băm dữ liệu nhạy cảm (Encrypting or hashing sensitive data)",
+      "Bảo vệ dữ liệu nhạy cảm (Protecting sensitive data)",
+      "Kiểm toán và ghi log các hoạt động và các giao dịch (Auditing and logging activity and transactions)",
+      "Cấp quyền người dùng (Authorising users)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 296,
+    "chapter": "Chương 4",
+    "question": "Pha Xác định yêu cầu (Requirements) trong Microsoft SDL gồm 3 định hướng là",
+    "options": [
+      "thiết lập các yêu cầu bảo mật và riêng tư",
+      "thực hiện đánh giá rủi ro về bảo mật và riêng tư",
+      "tạo ngưỡng chất lượng, hay ngưỡng lỗi",
+      "sử dụng mô hình mối đe dọa"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 297,
+    "chapter": "Chương 4",
+    "question": "Pha Thiết kế (Designs) trong Microsoft SDL gồm 3 định hướng là",
+    "options": [
+      "thiết lập các yêu cầu thiết kế",
+      "tạo ngưỡng chất lượng, hay ngưỡng lỗi",
+      "phân tích, hoặc giảm giao diện tấn công",
+      "sử dụng mô hình mối đe dọa"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 298,
+    "chapter": "Chương 4",
+    "question": "Pha Cài đặt (Implementation) trong Microsoft SDL gồm 3 định hướng là",
+    "options": [
+      "sử dụng các công cụ được phê duyệt, hay chấp thuận",
+      "hạn chế sử dụng các hàm không an toàn",
+      "thực hiện phân tích động",
+      "thực hiện phân tích tĩnh mã"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 299,
+    "chapter": "Chương 4",
+    "question": "Pha Kiểm tra (Testing) trong Microsoft SDL gồm 3 định hướng là",
+    "options": [
+      "thực hiện phân tích động",
+      "kiểm thử xâm nhập",
+      "đánh giá bề mặt tấn công",
+      "thực hiện phân tích tĩnh mã"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 300,
+    "chapter": "Chương 4",
+    "question": "Pha Phát hành (Release) trong Microsoft SDL gồm 3 định hướng là",
+    "options": [
+      "tạo kế hoạch phản ứng sự cố",
+      "đánh giá bề mặt tấn công",
+      "thực hiện đánh giá an ninh lần cuối",
+      "chứng nhận phát hành và lưu trữ"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 301,
+    "chapter": "Chương 4",
+    "question": "Mô hình SAMM chia vấn đề bảo mật ứng dụng thành 4 thành phần nghiệp vụ chính (Core business functions) là",
+    "options": [
+      "Governance (Quản trị)",
+      "Construction (Xây dựng)",
+      "Implementation (Cài đặt)",
+      "Verification (Kiểm tra)",
+      "Deployment (Triển khai)"
+    ],
+    "answer": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 302,
+    "chapter": "Chương 4",
+    "question": "Nghiệp vụ Governance (Quản trị) trong mô hình OWASP SAMM gồm các nghiệp vụ con nào?",
+    "options": [
+      "Strategy & Metrics (Chiến lược và Đo kiểm)",
+      "Policy & Compliance (Chính sách và Tuân thủ)",
+      "Secure Architecture (Kiến trúc bảo mật)",
+      "Education & Guidance (Giáo dục và Hướng dẫn)"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 303,
+    "chapter": "Chương 4",
+    "question": "Nghiệp vụ Verification (Kiểm tra) trong mô hình OWASP SAMM gồm các nghiệp vụ con nào?",
+    "options": [
+      "Design Review (Đánh giá thiết kế)",
+      "Code Review (Đánh giá mã)",
+      "Security Testing (Kiểm thử bảo mật)",
+      "Vulnerability Management (Quản lý lỗ hổng)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 304,
+    "chapter": "Chương 4",
+    "question": "Nghiệp vụ Deployment (Triển khai) trong mô hình OWASP SAMM gồm các nghiệp vụ con nào?",
+    "options": [
+      "Vulnerability Management (Quản lý lỗ hổng)",
+      "Environment Hardening (Gia cố môi trường)",
+      "Operational Enablement (Kích hoạt vận hành)",
+      "Security Testing (Kiểm thử bảo mật)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 305,
+    "chapter": "Chương 4",
+    "question": "SAMM là viết tắt của",
+    "options": [
+      "Software Assurance Machine Model",
+      "Software Assurance Maturity Model",
+      "Software Avanced Maturity Model",
+      "Software Availability Maturity Model"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 306,
+    "chapter": "Chương 4",
+    "question": "Microsoft SDL là viết tắt của:",
+    "options": [
+      "Microsoft Software Development Lifecycle",
+      "Microsoft Software Development Lifestyle",
+      "Microsoft Security Development Lifecycle",
+      "Microsoft Security Development Lifestyle"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 307,
+    "chapter": "Chương 4",
+    "question": "Trong Microsoft SDL, Pha Xác định yêu cầu gồm 3 định hướng sau đây:",
+    "options": [
+      "sử dụng mô hình mối đe dọa",
+      "thiết lập các yêu cầu bảo mật và riêng tư",
+      "thực hiện đánh giá rủi ro về bảo mật và riêng tư",
+      "tạo ngưỡng chất lượng, hay ngưỡng lỗi"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 308,
+    "chapter": "Chương 4",
+    "question": "Trong các pha của Microsoft SDL, \"thực hiện phân tích động \" là một trong các định hướng thuộc pha nào?",
+    "options": [
+      "Pha Thiết kế",
+      "Pha Xác định yêu cầu",
+      "Pha Kiểm tra",
+      "Pha Cài đặt"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 309,
+    "chapter": "Chương 4",
+    "question": "Trong các pha của Microsoft SDL, \"thực hiện phân tích tĩnh\" là một trong các định hướng thuộc pha nào?",
+    "options": [
+      "Pha Xác định yêu cầu",
+      "Pha Thiết kế",
+      "Pha Cài đặt",
+      "Pha Kiểm tra"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 310,
+    "chapter": "Chương 4",
+    "question": "Pha nào là \"bước chuẩn bị cần thiết để có thể thực hiện hiệu quả quy trình SDL\"?",
+    "options": [
+      "Pha Thiết kế",
+      "Pha Huấn luyện",
+      "Pha Xác định yêu cầu",
+      "Pha Cài đặt"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 311,
+    "chapter": "Chương 4",
+    "question": "Pha ... có nhiệm vụ thực thi kế hoạch phản ứng sự cố.",
+    "options": [
+      "Phát hành",
+      "Phản ứng",
+      "Cài đặt",
+      "Kiểm tra"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 312,
+    "chapter": "Chương 4",
+    "question": "Đâu không phải là một định hướng an toàn trong Pha Phát hành?",
+    "options": [
+      "thực hiện đánh giá an ninh lần cuối",
+      "kiểm thử xâm nhập",
+      "tạo kế hoạch phản ứng sự cố",
+      "chứng nhận phát hành và lưu trữ"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 313,
+    "chapter": "Chương 4",
+    "question": "Hãy chọn tất cả các định hướng an toàn của Pha Cài đặt? (3 phương án)",
+    "options": [
+      "sử dụng các công cụ được phê duyệt, hay chấp thuận",
+      "thực hiện phân tích tĩnh",
+      "thực hiện phân tích động",
+      "hạn chế sử dụng các hàm không an toàn"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "type": "MSQ"
+  },
+  {
+    "id": 314,
+    "chapter": "Chương 4",
+    "question": "Đâu không phải là một pha của MSDL?",
+    "options": [
+      "Training",
+      "Education",
+      "Requirements",
+      "Implementation"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 315,
+    "chapter": "Chương 5",
+    "question": "Các lớp bảo mật cơ sở dữ liệu bao gồm...",
+    "options": [
+      "Hệ điều hành, Hệ quản trị cơ sở dữ liệu, File dữ liệu, Dữ liệu",
+      "Hệ thống cơ sở dữ liệu, Hệ quản trị cơ sở dữ liệu, File dữ liệu, Dữ liệu",
+      "Hệ điều hành, Hệ quản trị cơ sở dữ liệu, File dữ liệu, Dữ liệu khách hàng",
+      "Hệ điều hành, Hệ thống cơ sở dữ liệu, File dữ liệu, Dữ liệu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 316,
+    "chapter": "Chương 5",
+    "question": "Top 10 đe dọa đối với bảo mật cơ sở dữ liệu, theo Imperva 2015 bao gồm...",
+    "options": [
+      "Weaker Audit Trail, Storage Media Exposure, Unmanaged Sensitive Data",
+      "Weak Audit Trail, Storage Media Exposure, Unmanaged Sensitive Data",
+      "Weak Audit Trail, Storage Media Expose, Unmanaged Sensitive Data",
+      "Weak Audit Trail, Storage Media Exposure, Managed Sensitive Data"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 317,
+    "chapter": "Chương 5",
+    "question": "Đâu là một hành động có tác hại tương đương như hành động phá hoại của tin tặc?",
+    "options": [
+      "Not Doing Anything",
+      "Not Doing Everything",
+      "DoS Attacks",
+      "SQL Injections"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 318,
+    "chapter": "Chương 5",
+    "question": "Các đe dọa đối với bảo mật cơ sở dữ liệu có thể gây ra bởi...",
+    "options": [
+      "Con người, mã giả, thảm họa công nghệ.",
+      "Con người, mã độc, thảm họa công nghệ.",
+      "Người dùng, mã độc, thảm họa công nghệ.",
+      "Con người, mã độc, thảm họa kỹ thuật."
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 319,
+    "chapter": "Chương 5",
+    "question": "Tấn công từ chối dịch vụ cơ sở dữ liệu gồm các dạng...",
+    "options": [
+      "Lạm dụng các tính năng của cơ sở dữ liệu, Sử dụng các câu truy vấn dữ liệu, Khai thác các lỗi hoặc khiếm khuyết",
+      "Lạm dụng các tính năng của cơ sở dữ liệu, Sử dụng các câu truy vấn phức tạp, Khai thác các lỗi hoặc khiếm khuyết",
+      "Lạm dụng các tính năng của cơ sở dữ liệu, Sử dụng các câu truy vấn phức tạp, Khai thác các lỗ hổng bảo mật cơ sở dữ liệu",
+      "Lạm dụng các thành phần của cơ sở dữ liệu, Sử dụng các câu truy vấn phức tạp, Khai thác các lỗi hoặc khiếm khuyết"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 320,
+    "chapter": "Chương 5",
+    "question": "Đâu là các biện pháp phòng chống tấn công từ chối dịch vụ cơ sở dữ liệu?",
+    "options": [
+      "Cấu hình máy chủ và cơ sở dữ liệu, Đặt giới hạn sử dụng tài nguyên, Cập nhật các bản vá",
+      "Cấu hình máy chủ cơ sở dữ liệu, Đặt giới hạn sử dụng tài nguyên, Cập nhật các bản vá",
+      "Cấu hình máy chủ và cơ sở dữ liệu, Đặt giới hạn sử dụng tài nguyên, Cập nhật hệ thống",
+      "Cấu hình cơ sở dữ liệu, Đặt giới hạn sử dụng tài nguyên, Cập nhật các bản vá"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 321,
+    "chapter": "Chương 5",
+    "question": "Trojans thường được sử dụng để thực thi ... các tác vụ, mà tác giả của chúng không thể thực hiện ... do không có quyền truy nhập.",
+    "options": [
+      "gián tiếp qua tường lửa / trực tiếp",
+      "trực tiếp / gián tiếp qua tường lửa",
+      "gián tiếp / trực tiếp",
+      "trực tiếp / gián tiếp"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 322,
+    "chapter": "Chương 5",
+    "question": "Ba yếu tố của mô hình bảo mật cơ sở dữ liệu tổng quát là...",
+    "options": [
+      "Người dùng, Phần mềm, Dữ liệu",
+      "Con người, Phần mềm, Dữ liệu",
+      "Người dùng, Phần cứng, Dữ liệu",
+      "Con người, Hệ thống, Dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 323,
+    "chapter": "Chương 5",
+    "question": "Giảm thiểu các vị trí mà tin tặc có thể tấn công cơ sở dữ liệu và \"Hạn chế người dùng bên ngoài trực tiếp kết nối đến cơ sở dữ liệu\" là 2 biện pháp thuộc nhóm các biện pháp phòng chống tấn công từ chối dịch vụ cơ sở dữ liệu nào dưới đây?",
+    "options": [
+      "Cấu hình máy chủ và cơ sở dữ liệu",
+      "Cập nhật các bản vá",
+      "Đặt giới hạn sử dụng tài nguyên",
+      "Giám sát hoạt động của cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 324,
+    "chapter": "Chương 5",
+    "question": "Đâu là các lỗ hổng trong Top 10 lỗ hổng bảo mật cơ sở dữ liệu trên thực tế?",
+    "options": [
+      "Excessive User Privileges, Unnecessary Enabled DBMS Features, Broken Configuration Management",
+      "Excessive User & Group Privileges, Unnecessary Enabled DBMS Features, Broken Authentication Management",
+      "Excessive User & Group Privileges, Unnecessary DBMS Features, Broken Configuration Management",
+      "Excessive User & Group Privileges, Unnecessary Enabled DBMS Features, Broken Configuration Management"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 325,
+    "chapter": "Chương 7",
+    "question": "Khôi phục dự phòng cơ sở dữ liệu (Database restore) là thao tác khôi phục lại cơ sở dữ liệu sau các sự cố sử dụng ... bản sao cơ sở dữ liệu đã tạo ở quá trình sao lưu.",
+    "options": [
+      "một phần, hoặc toàn bộ",
+      "một phần hoặc nhiều phần",
+      "một phần",
+      "toàn bộ"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 326,
+    "chapter": "Chương 7",
+    "question": "Sao lưu và khôi phục dự phòng cơ sở dữ liệu là các khâu chủ động chuẩn bị nhằm ... có thể xảy ra với cơ sở dữ liệu hoặc các hệ thống có liên quan đến cơ sở dữ liệu.",
+    "options": [
+      "đối phó với các hỏng hóc",
+      "đối phó với các sự cố",
+      "đối phó với các tấn công, xâm nhập",
+      "đối phó với sự mất mát dữ liệu"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 327,
+    "chapter": "Chương 7",
+    "question": "Mục đích chính của sao lưu và khôi phục dự phòng là nhằm đảm bảo ... cơ sở dữ liệu.",
+    "options": [
+      "tính xác thực và tính toàn vẹn",
+      "tính bí mật và tính sẵn dùng",
+      "tính bí mật và tính toàn vẹn",
+      "tính sẵn dùng và tính toàn vẹn"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 328,
+    "chapter": "Chương 7",
+    "question": "Kiểm toán cơ sở dữ liệu (Database auditing) là phần việc giúp trả lời câu hỏi \"Ai đã thực hiện..., vào khi nào và bằng cách nào?\"",
+    "options": [
+      "thao tác nào trên file nào",
+      "cái gì trên dữ liệu nào",
+      "thao tác gì trên file nào",
+      "cái nào trên dữ liệu gì"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 329,
+    "chapter": "Chương 7",
+    "question": "Các nội dung của kiểm toán cơ sở dữ liệu gồm...",
+    "options": [
+      "Kiểm toán nguồn sử dụng cơ sở dữ liệu, Kiểm toán hoạt động DDL, Kiểm toán lỗi cơ sở dữ liệu.",
+      "Kiểm toán sử dụng cơ sở dữ liệu, Kiểm toán hoạt động DDL, Kiểm toán lỗi cơ sở dữ liệu.",
+      "Kiểm toán nguồn sử dụng cơ sở dữ liệu, Kiểm toán hoạt động cơ sở dữ liệu, Kiểm toán lỗi cơ sở dữ liệu."
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 330,
+    "chapter": "Chương 7",
+    "question": "Đâu là các điều thuộc \"5 điều không nên làm\" trong giám sát cơ sở dữ liệu?",
+    "options": [
+      "Không yêu cầu cài đặt bất kỳ một đối tượng nào trong cơ sở dữ liệu giám sát.",
+      "Không yêu cầu tài khoản người dùng cơ sở dữ liệu mới hoặc có sẵn cho cài đặt, giám sát, hoặc ngăn chặn.",
+      "Không yêu cầu khởi động lại máy chủ, trừ một số trường hợp đặc biệt.",
+      "Không ghi vào hệ thống file, trừ khi mất kết nối đến cổng mạng."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "type": "MSQ"
+  }
+]
