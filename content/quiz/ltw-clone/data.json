@@ -1,0 +1,3278 @@
+[
+  {
+    "id": 1,
+    "chapter": "HTML",
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyper Text Markup Language"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 2,
+    "chapter": "HTML",
+    "question": "Who is making the Web standards?",
+    "options": [
+      "Mozilla",
+      "Google",
+      "The World Wide Web Consortium",
+      "Microsoft"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 3,
+    "chapter": "HTML",
+    "question": "Choose the correct HTML element for the largest heading:",
+    "options": [
+      "&lt;head&gt;",
+      "&lt;h6&gt;",
+      "&lt;heading&gt;",
+      "&lt;h1&gt;"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 4,
+    "chapter": "HTML",
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": [
+      "&lt;br&gt;",
+      "&lt;break&gt;",
+      "&lt;lb&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 5,
+    "chapter": "HTML",
+    "question": "What is the correct HTML for adding a background color?",
+    "options": [
+      "&lt;body style=\"background-color:yellow;\"&gt;",
+      "&lt;background&gt;yellow&lt;/background&gt;",
+      "&lt;body bg=\"yellow\"&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 6,
+    "chapter": "HTML",
+    "question": "Choose the correct HTML element to define important text",
+    "options": [
+      "&lt;strong&gt;",
+      "&lt;b&gt;",
+      "&lt;i&gt;",
+      "&lt;important&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 7,
+    "chapter": "HTML",
+    "question": "Choose the correct HTML element to define emphasized text",
+    "options": [
+      "&lt;em&gt;",
+      "&lt;i&gt;",
+      "&lt;italic&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 8,
+    "chapter": "HTML",
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "options": [
+      "&lt;a href=\"http://www.w3schools.com\"&gt;W3Schools&lt;/a&gt;",
+      "&lt;a name=\"http://www.w3schools.com\"&gt;W3Schools.com&lt;/a&gt;",
+      "&lt;a&gt;http://www.w3schools.com&lt;/a&gt;",
+      "&lt;a url=\"http://www.w3schools.com\"&gt;W3Schools.com&lt;/a&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 9,
+    "chapter": "HTML",
+    "question": "Which character is used to indicate an end tag?",
+    "options": [
+      "*",
+      "^",
+      "/",
+      "&lt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 10,
+    "chapter": "HTML",
+    "question": "How can you open a link in a new tab/browser window?",
+    "options": [
+      "&lt;a href=\"url\" new&gt;",
+      "&lt;a href=\"url\" target=\"_blank\"&gt;",
+      "&lt;a href=\"url\" target=\"new\"&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 11,
+    "chapter": "HTML",
+    "question": "Which of these elements are all &lt;table&gt; elements?",
+    "options": [
+      "&lt;thead&gt;&lt;body&gt;&lt;tr&gt;",
+      "&lt;table&gt;&lt;tr&gt;&lt;td&gt;",
+      "&lt;table&gt;&lt;head&gt;&lt;tfoot&gt;",
+      "&lt;table&gt;&lt;tr&gt;&lt;tt&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 12,
+    "chapter": "HTML",
+    "question": "Inline elements are normally displayed without starting a new line.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 13,
+    "chapter": "HTML",
+    "question": "How can you make a numbered list?",
+    "options": [
+      "&lt;ul&gt;",
+      "&lt;list&gt;",
+      "&lt;dl&gt;",
+      "&lt;ol&gt;"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 14,
+    "chapter": "HTML",
+    "question": "How can you make a bulleted list?",
+    "options": [
+      "&lt;ul&gt;",
+      "&lt;dl&gt;",
+      "&lt;ol&gt;",
+      "&lt;list&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 15,
+    "chapter": "HTML",
+    "question": "What is the correct HTML for making a checkbox?",
+    "options": [
+      "&lt;input type=\"check\"&gt;",
+      "&lt;input type=\"checkbox\"&gt;",
+      "&lt;check&gt;",
+      "&lt;checkbox&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 16,
+    "chapter": "HTML",
+    "question": "What is the correct HTML for making a text input field?",
+    "options": [
+      "&lt;input type=\"textfield\"&gt;",
+      "&lt;textfield&gt;",
+      "&lt;textinput type=\"text\"&gt;",
+      "&lt;input type=\"text\"&gt;"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 17,
+    "chapter": "HTML",
+    "question": "What is the correct HTML for making a drop-down list?",
+    "options": [
+      "&lt;input type=\"list\"&gt;",
+      "&lt;list&gt;",
+      "&lt;select&gt;",
+      "&lt;input type=\"dropdown\"&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 18,
+    "chapter": "HTML",
+    "question": "What is the correct HTML for making a text area?",
+    "options": [
+      "&lt;input type=\"textbox\"&gt;",
+      "&lt;textarea&gt;",
+      "&lt;input type=\"textarea\"&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 19,
+    "chapter": "HTML",
+    "question": "What is the correct HTML for inserting an image?",
+    "options": [
+      "&lt;img alt=\"MyImage\"&gt;image.gif&lt;/img&gt;",
+      "&lt;img href=\"image.gif\" alt=\"MyImage\"&gt;",
+      "&lt;image src=\"image.gif\" alt=\"MyImage\"&gt;",
+      "&lt;img src=\"image.gif\" alt=\"MyImage\"&gt;"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 20,
+    "chapter": "HTML",
+    "question": "What is the correct HTML for inserting a background image?",
+    "options": [
+      "&lt;body bg=\"background.gif\"&gt;",
+      "&lt;body style=\"background-image:url(background.gif)\"&gt;",
+      "&lt;background img=\"background.gif\"&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 21,
+    "chapter": "HTML",
+    "question": "An &lt;iframe&gt; is used to display a web page within a web page.",
+    "options": [
+      "False",
+      "There is no such thing as an &lt;iframe&gt;",
+      "True"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 22,
+    "chapter": "HTML",
+    "question": "HTML comments start with &lt;!-- and end with --&gt;",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 23,
+    "chapter": "HTML",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 24,
+    "chapter": "HTML",
+    "question": "Which HTML element defines the title of a document?",
+    "options": [
+      "&lt;head&gt;",
+      "&lt;meta&gt;",
+      "&lt;title&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 25,
+    "chapter": "HTML",
+    "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+    "options": [
+      "title",
+      "longdesc",
+      "src",
+      "alt"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 26,
+    "chapter": "HTML",
+    "question": "Which doctype is correct for HTML5?",
+    "options": [
+      "&lt;!DOCTYPE html&gt;",
+      "&lt;!DOCTYPE HTML5&gt;",
+      "&lt;!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 5.0//EN\" \"http://www.w3.org/TR/html5/strict.dtd\"&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 27,
+    "chapter": "HTML",
+    "question": "Which HTML element is used to specify a footer for a document or section?",
+    "options": [
+      "&lt;bottom&gt;",
+      "&lt;section&gt;",
+      "&lt;footer&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 28,
+    "chapter": "HTML",
+    "question": "In HTML, you can embed SVG elements directly into an HTML page.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 29,
+    "chapter": "HTML",
+    "question": "What is the correct HTML element for playing video files?",
+    "options": [
+      "&lt;movie&gt;",
+      "&lt;video&gt;",
+      "&lt;media&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 30,
+    "chapter": "HTML",
+    "question": "What is the correct HTML element for playing audio files?",
+    "options": [
+      "&lt;audio&gt;",
+      "&lt;sound&gt;",
+      "&lt;mp3&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 31,
+    "chapter": "HTML",
+    "question": "The HTML global attribute, \"contenteditable\" is used to:",
+    "options": [
+      "Update content from the server",
+      "Return the position of the first found occurrence of content inside a string",
+      "Specify whether the content of an element should be editable or not",
+      "Specifies a context menu for an element. The menu appears when a user right-clicks on the element"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 32,
+    "chapter": "HTML",
+    "question": "In HTML, onblur and onfocus are:",
+    "options": [
+      "Style attributes",
+      "HTML elements",
+      "Event attributes"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 33,
+    "chapter": "HTML",
+    "question": "Graphics defined by SVG is in which format?",
+    "options": [
+      "HTML",
+      "CSS",
+      "XML"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 34,
+    "chapter": "HTML",
+    "question": "The HTML &lt;canvas&gt; element is used to:",
+    "options": [
+      "create draggable elements",
+      "display database records",
+      "draw graphics",
+      "manipulate data in MySQL"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 35,
+    "chapter": "HTML",
+    "question": "In HTML, which attribute is used to specify that an input field must be filled out?",
+    "options": [
+      "required",
+      "formvalidate",
+      "placeholder",
+      "validate"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 36,
+    "chapter": "HTML",
+    "question": "Which input type defines a slider control?",
+    "options": [
+      "search",
+      "range",
+      "slider",
+      "controls"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 37,
+    "chapter": "HTML",
+    "question": "Which HTML element is used to display a scalar measurement within a range?",
+    "options": [
+      "&lt;range&gt;",
+      "&lt;gauge&gt;",
+      "&lt;meter&gt;",
+      "&lt;measure&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 38,
+    "chapter": "HTML",
+    "question": "Which HTML element defines navigation links?",
+    "options": [
+      "&lt;navigation&gt;",
+      "&lt;nav&gt;",
+      "&lt;navigate&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 39,
+    "chapter": "HTML",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "options": [
+      "A navigation list to be shown at the left side of the page",
+      "Content aside from the page content",
+      "The ASCII character-set; to send information between computers on the Internet"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 40,
+    "chapter": "HTML",
+    "question": "Which HTML element is used to specify a header for a document or section?",
+    "options": [
+      "&lt;head&gt;",
+      "&lt;section&gt;",
+      "&lt;top&gt;",
+      "&lt;header&gt;"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 41,
+    "chapter": "CSS",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Creative Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets",
+      "Cascading Style Sheets"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 42,
+    "chapter": "CSS",
+    "question": "What is the correct HTML for referring to an external style sheet?",
+    "options": [
+      "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\"&gt;",
+      "&lt;style src=\"mystyle.css\"&gt;",
+      "&lt;stylesheet&gt;mystyle.css&lt;/stylesheet&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 43,
+    "chapter": "CSS",
+    "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+    "options": [
+      "At the end of the document",
+      "In the &lt;head&gt; section",
+      "In the &lt;body&gt; section"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 44,
+    "chapter": "CSS",
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "options": [
+      "&lt;script&gt;",
+      "&lt;style&gt;",
+      "&lt;css&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 45,
+    "chapter": "CSS",
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": [
+      "class",
+      "styles",
+      "font",
+      "style"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 46,
+    "chapter": "CSS",
+    "question": "Which is the correct CSS syntax?",
+    "options": [
+      "{body;color:black;}",
+      "body {color: black;}",
+      "{body:color=black;}",
+      "body:color=black;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 47,
+    "chapter": "CSS",
+    "question": "How do you insert a comment in a CSS file?",
+    "options": [
+      "' this is a comment",
+      "// this is a comment //",
+      "/* this is a comment */",
+      "// this is a comment"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 48,
+    "chapter": "CSS",
+    "question": "Which property is used to change the background color?",
+    "options": [
+      "bgcolor",
+      "color",
+      "background-color"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 49,
+    "chapter": "CSS",
+    "question": "How do you add a background color for all &lt;h1&gt; elements?",
+    "options": [
+      "h1.all {background-color:#FFFFFF;}",
+      "h1 {background-color:#FFFFFF;}",
+      "all.h1 {background-color:#FFFFFF;}"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 50,
+    "chapter": "CSS",
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": [
+      "text-color",
+      "color",
+      "fgcolor"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 51,
+    "chapter": "CSS",
+    "question": "Which CSS property controls the text size?",
+    "options": [
+      "font-style",
+      "text-size",
+      "text-style",
+      "font-size"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 52,
+    "chapter": "CSS",
+    "question": "What is the correct CSS syntax for making all the &lt;p&gt; elements bold?",
+    "options": [
+      "&lt;p style=\"text-size:bold;\"&gt;",
+      "&lt;p style=\"font-size:bold;\"&gt;",
+      "p {font-weight:bold;}",
+      "p {text-size:bold;}"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 53,
+    "chapter": "CSS",
+    "question": "How do you display hyperlinks without an underline?",
+    "options": [
+      "a {text-decoration:none;}",
+      "a {text-decoration:no-underline;}",
+      "a {underline:none;}",
+      "a {decoration:no-underline;}"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 54,
+    "chapter": "CSS",
+    "question": "How do you make each word in a text start with a capital letter?",
+    "options": [
+      "You can't do that with CSS",
+      "text-style:capitalize",
+      "transform:capitalize",
+      "text-transform:capitalize"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 55,
+    "chapter": "CSS",
+    "question": "Which property is used to change the font of an element?",
+    "options": [
+      "font-style",
+      "font-weight",
+      "font-family"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 56,
+    "chapter": "CSS",
+    "question": "How do you make the text bold?",
+    "options": [
+      "font-weight:bold;",
+      "style:bold;",
+      "font:bold;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 57,
+    "chapter": "CSS",
+    "question": "How do you display a border like this:<br><br>The top border = 10 pixels<br>The bottom border = 5 pixels<br>The left border = 20 pixels<br>The right border = 1pixel?",
+    "options": [
+      "border-width:5px 20px 10px 1px;",
+      "border-width:10px 20px 5px 1px;",
+      "border-width:10px 1px 5px 20px;",
+      "border-width:10px 5px 20px 1px;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 58,
+    "chapter": "CSS",
+    "question": "Which property is used to change the left margin of an element?",
+    "options": [
+      "padding-left",
+      "margin-left",
+      "indent"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 59,
+    "chapter": "CSS",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 60,
+    "chapter": "CSS",
+    "question": "How do you make a list that lists its items with squares?",
+    "options": [
+      "list-type: square;",
+      "list-style-type: square;",
+      "list: square;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 61,
+    "chapter": "CSS",
+    "question": "How do you select an element with id 'demo'?",
+    "options": [
+      ".demo",
+      "demo",
+      "#demo",
+      "*demo"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 62,
+    "chapter": "CSS",
+    "question": "How do you select elements with class name 'test'?",
+    "options": [
+      "#test",
+      "*test",
+      ".test",
+      "test"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 63,
+    "chapter": "CSS",
+    "question": "How do you select all p elements inside a div element?",
+    "options": [
+      "div p",
+      "div.p",
+      "div + p"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 64,
+    "chapter": "CSS",
+    "question": "How do you group selectors?",
+    "options": [
+      "Separate each selector with a plus sign",
+      "Separate each selector with a comma",
+      "Separate each selector with a space"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 65,
+    "chapter": "CSS",
+    "question": "What is the default value of the position property?",
+    "options": [
+      "static",
+      "absolute",
+      "relative",
+      "fixed"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 66,
+    "chapter": "JavaScript",
+    "question": "Inside which HTML element do we put the JavaScript?",
+    "options": [
+      "&lt;js&gt;",
+      "&lt;scripting&gt;",
+      "&lt;javascript&gt;",
+      "&lt;script&gt;"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 67,
+    "chapter": "JavaScript",
+    "question": "What is the correct JavaScript syntax to change the content of the HTML element below?<br><br>&lt;p id=\"demo\"&gt;This is a demonstration.&lt;/p&gt;",
+    "options": [
+      "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+      "#demo.innerHTML = \"Hello World!\";",
+      "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+      "document.getElementById(\"demo\").innerHTML = \"Hello World!\";"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 68,
+    "chapter": "JavaScript",
+    "question": "Where is the correct place to insert a JavaScript?",
+    "options": [
+      "The &lt;head&gt; section",
+      "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
+      "The &lt;body&gt; section"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 69,
+    "chapter": "JavaScript",
+    "question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+    "options": [
+      "&lt;script href=\"xxx.js\"&gt;",
+      "&lt;script src=\"xxx.js\"&gt;",
+      "&lt;script name=\"xxx.js\"&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 70,
+    "chapter": "JavaScript",
+    "question": "The external JavaScript file must contain the &lt;script&gt; tag.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 71,
+    "chapter": "JavaScript",
+    "question": "How do you write \"Hello World\" in an alert box?",
+    "options": [
+      "msg(\"Hello World\");",
+      "alertBox(\"Hello World\");",
+      "alert(\"Hello World\");",
+      "msgBox(\"Hello World\");"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 72,
+    "chapter": "JavaScript",
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "function:myFunction()",
+      "function myFunction()",
+      "function = myFunction()"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 73,
+    "chapter": "JavaScript",
+    "question": "How do you call a function named \"myFunction\"?",
+    "options": [
+      "myFunction()",
+      "call myFunction()",
+      "call function myFunction()"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 74,
+    "chapter": "JavaScript",
+    "question": "How to write an IF statement in JavaScript?",
+    "options": [
+      "if i = 5 then",
+      "if i == 5 then",
+      "if i = 5",
+      "if (i == 5)"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 75,
+    "chapter": "JavaScript",
+    "question": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+    "options": [
+      "if (i &lt;&gt; 5)",
+      "if i &lt;&gt; 5",
+      "if (i != 5)",
+      "if i =! 5 then"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 76,
+    "chapter": "JavaScript",
+    "question": "How does a WHILE loop start?",
+    "options": [
+      "while (i &lt;= 10)",
+      "while (i &lt;= 10; i++)",
+      "while i = 1 to 10"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 77,
+    "chapter": "JavaScript",
+    "question": "How does a FOR loop start?",
+    "options": [
+      "for i = 1 to 5",
+      "for (i &lt;= 5; i++)",
+      "for (i = 0; i &lt;= 5; i++)",
+      "for (i = 0; i &lt;= 5)"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 78,
+    "chapter": "JavaScript",
+    "question": "How can you add a comment in a JavaScript?",
+    "options": [
+      "'This is a comment",
+      "&lt;!--This is a comment--&gt;",
+      "//This is a comment"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 79,
+    "chapter": "JavaScript",
+    "question": "How to insert a comment that has more than one line?",
+    "options": [
+      "/*This comment has<br>more than one line*/",
+      "&lt;!--This comment has<br>more than one line--&gt;",
+      "//This comment has<br>more than one line//"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 80,
+    "chapter": "JavaScript",
+    "question": "What is the correct way to write a JavaScript array?",
+    "options": [
+      "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+      "var colors = \"red\", \"green\", \"blue\"",
+      "var colors = [\"red\", \"green\", \"blue\"]",
+      "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 81,
+    "chapter": "JavaScript",
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "options": [
+      "round(7.25)",
+      "Math.round(7.25)",
+      "rnd(7.25)",
+      "Math.rnd(7.25)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 82,
+    "chapter": "JavaScript",
+    "question": "How do you find the number with the highest value of x and y?",
+    "options": [
+      "ceil(x, y)",
+      "Math.max(x, y)",
+      "Math.ceil(x, y)",
+      "top(x, y)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 83,
+    "chapter": "JavaScript",
+    "question": "What is the correct JavaScript syntax for opening a new window called \"w2\" ?",
+    "options": [
+      "w2 = window.open(\"http://www.w3schools.com\");",
+      "w2 = window.new(\"http://www.w3schools.com\");"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 84,
+    "chapter": "JavaScript",
+    "question": "JavaScript is the same as Java.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 85,
+    "chapter": "JavaScript",
+    "question": "How can you detect the client's browser name?",
+    "options": [
+      "browser.name",
+      "navigator.appName",
+      "client.navName"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 86,
+    "chapter": "JavaScript",
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "options": [
+      "onchange",
+      "onmouseclick",
+      "onmouseover",
+      "onclick"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 87,
+    "chapter": "JavaScript",
+    "question": "How do you declare a JavaScript variable?",
+    "options": [
+      "v carName;",
+      "var carName;",
+      "variable carName;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 88,
+    "chapter": "JavaScript",
+    "question": "Which operator is used to assign a value to a variable?",
+    "options": [
+      "x",
+      "=",
+      "*",
+      "-"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 89,
+    "chapter": "JavaScript",
+    "question": "What will the following code return: Boolean(10 &gt; 9)",
+    "options": [
+      "NaN",
+      "false",
+      "true"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 90,
+    "chapter": "JavaScript",
+    "question": "Is JavaScript case-sensitive?",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 91,
+    "chapter": "PHP",
+    "question": "What does PHP stand for?",
+    "options": [
+      "Private Home Page",
+      "PHP: Hypertext Preprocessor",
+      "Personal Hypertext Processor"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 92,
+    "chapter": "PHP",
+    "question": "PHP server scripts are surrounded by delimiters, which?",
+    "options": [
+      "&lt;script&gt;...&lt;/script&gt;",
+      "&lt;?php...?&gt;",
+      "&lt;?php&gt;...&lt;/?&gt;",
+      "&lt;&amp;&gt;...&lt;/&amp;&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 93,
+    "chapter": "PHP",
+    "question": "How do you write \"Hello World\" in PHP",
+    "options": [
+      "Document.Write(\"Hello World\");",
+      "\"Hello World\";",
+      "echo \"Hello World\";"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 94,
+    "chapter": "PHP",
+    "question": "All variables in PHP start with which symbol?",
+    "options": [
+      "!",
+      "&amp;",
+      "$"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 95,
+    "chapter": "PHP",
+    "question": "What is the correct way to end a PHP statement?",
+    "options": [
+      ".",
+      "New line",
+      "&lt;/php&gt;",
+      ";"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 96,
+    "chapter": "PHP",
+    "question": "The PHP syntax is most similar to:",
+    "options": [
+      "JavaScript",
+      "Perl and C",
+      "VBScript"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 97,
+    "chapter": "PHP",
+    "question": "How do you get information from a form that is submitted using the \"get\" method?",
+    "options": [
+      "$_GET[];",
+      "Request.QueryString;",
+      "Request.Form;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 98,
+    "chapter": "PHP",
+    "question": "When using the POST method, variables are displayed in the URL:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 99,
+    "chapter": "PHP",
+    "question": "In PHP you can use both single quotes ( ' ' ) and double quotes ( \" \" ) for strings:",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 100,
+    "chapter": "PHP",
+    "question": "Include files must have the file extension \".inc\"",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 101,
+    "chapter": "PHP",
+    "question": "What is the correct way to include the file \"time.inc\" ?",
+    "options": [
+      "&lt;?php include:\"time.inc\"; ?&gt;",
+      "&lt;?php include \"time.inc\"; ?&gt;",
+      "&lt;?php include file=\"time.inc\"; ?&gt;",
+      "&lt;!-- include file=\"time.inc\" --&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 102,
+    "chapter": "PHP",
+    "question": "What is the correct way to create a function in PHP?",
+    "options": [
+      "new_function myFunction()",
+      "function myFunction()",
+      "create myFunction()"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 103,
+    "chapter": "PHP",
+    "question": "What is the correct way to open the file \"time.txt\" as readable?",
+    "options": [
+      "open(\"time.txt\");",
+      "fopen(\"time.txt\",\"r\");",
+      "open(\"time.txt\",\"read\");",
+      "fopen(\"time.txt\",\"r+\");"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 104,
+    "chapter": "PHP",
+    "question": "PHP allows you to send emails directly from a script",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 105,
+    "chapter": "PHP",
+    "question": "Which superglobal variable holds information about headers, paths, and script locations?",
+    "options": [
+      "$GLOBALS",
+      "$_SERVER",
+      "$_GET",
+      "$_SESSION"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 106,
+    "chapter": "PHP",
+    "question": "What is the correct way to add 1 to the $count variable?",
+    "options": [
+      "count++;",
+      "++count",
+      "$count++;",
+      "$count =+1"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 107,
+    "chapter": "PHP",
+    "question": "What is a correct way to add a comment in PHP?",
+    "options": [
+      "&lt;comment&gt;...&lt;/comment&gt;",
+      "&lt;!--...--&gt;",
+      "*\\...\\*",
+      "/*...*/"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 108,
+    "chapter": "PHP",
+    "question": "PHP can be run on Microsoft Windows IIS(Internet Information Server):",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 109,
+    "chapter": "PHP",
+    "question": "The die() and exit() functions do the exact same thing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 110,
+    "chapter": "PHP",
+    "question": "Which one of these variables has an illegal name?",
+    "options": [
+      "$my-Var",
+      "$my_Var",
+      "$myVar"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 111,
+    "chapter": "PHP",
+    "question": "How do you create a cookie in PHP?",
+    "options": [
+      "makecookie()",
+      "setcookie()",
+      "createcookie"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 112,
+    "chapter": "PHP",
+    "question": "In PHP, the only way to output text is with echo.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 113,
+    "chapter": "PHP",
+    "question": "How do you create an array in PHP?",
+    "options": [
+      "$cars = array[\"Volvo\", \"BMW\", \"Toyota\"];",
+      "$cars = \"Volvo\", \"BMW\", \"Toyota\";",
+      "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 114,
+    "chapter": "PHP",
+    "question": "The if statement is used to execute some code only if a specified condition is true",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 115,
+    "chapter": "PHP",
+    "question": "Which operator is used to check if two values are equal and of same data type?",
+    "options": [
+      "===",
+      "!=",
+      "=",
+      "=="
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 116,
+    "chapter": "MySQL",
+    "question": "What is MySQL?",
+    "options": [
+      "A relational database management system",
+      "Developed, distributed, and supported by Oracle Corporation",
+      "All the options are correct",
+      "Cross-platform, open-source and free"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 117,
+    "chapter": "MySQL",
+    "question": "Which MySQL statement is used to select data from a database?",
+    "options": [
+      "SELECT",
+      "GET",
+      "EXTRACT",
+      "OPEN"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 118,
+    "chapter": "MySQL",
+    "question": "Which MySQL statement is used to update data in a database?",
+    "options": [
+      "UPDATE",
+      "INSERT",
+      "MODIFY",
+      "SAVE"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 119,
+    "chapter": "MySQL",
+    "question": "Which MySQL statement is used to delete data from a database?",
+    "options": [
+      "DELETE",
+      "REMOVE",
+      "COLLAPSE"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 120,
+    "chapter": "MySQL",
+    "question": "Which MYSQL statement is used to insert new data in a database?",
+    "options": [
+      "INSERT NEW",
+      "ADD RECORD",
+      "INSERT INTO",
+      "ADD NEW"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 121,
+    "chapter": "MySQL",
+    "question": "With MySQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
+    "options": [
+      "EXTRACT FirstName FROM Persons",
+      "SELECT Persons.FirstName",
+      "SELECT FirstName FROM Persons"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 122,
+    "chapter": "MySQL",
+    "question": "With MySQL, how do you select all the columns from a table named \"Persons\"?",
+    "options": [
+      "SELECT *.Persons",
+      "SELECT * FROM Persons",
+      "SELECT [all] FROM Persons",
+      "SELECT Persons"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 123,
+    "chapter": "MySQL",
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" is \"Peter\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName&lt;&gt;'Peter'",
+      "SELECT * FROM Persons WHERE FirstName='Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName='Peter'"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 124,
+    "chapter": "MySQL",
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" starts with an \"a\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName LIKE '%a'",
+      "SELECT * FROM Persons WHERE FirstName='%a%'",
+      "SELECT * FROM Persons WHERE FirstName='a'",
+      "SELECT * FROM Persons WHERE FirstName LIKE 'a%'"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 125,
+    "chapter": "MySQL",
+    "question": "The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 126,
+    "chapter": "MySQL",
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the \"FirstName\" is \"Peter\" and the \"LastName\" is \"Jackson\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
+      "SELECT * FROM Persons WHERE FirstName&lt;&gt;'Peter' AND LastName&lt;&gt;'Jackson'",
+      "SELECT FirstName='Peter', LastName='Jackson' FROM Persons"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 127,
+    "chapter": "MySQL",
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the \"LastName\" is alphabetically between (and including) \"Hansen\" and \"Pettersen\"?",
+    "options": [
+      "SELECT LastName&gt;'Hansen' AND LastName&lt;'Pettersen' FROM Persons",
+      "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'",
+      "SELECT * FROM Persons WHERE LastName&gt;'Hansen' AND LastName&lt;'Pettersen'"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 128,
+    "chapter": "MySQL",
+    "question": "Which MySQL statement is used to return only different values?",
+    "options": [
+      "SELECT DIFFERENT",
+      "SELECT DISTINCT",
+      "SELECT UNIQUE"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 129,
+    "chapter": "MySQL",
+    "question": "Which MySQL keyword is used to sort the result-set?",
+    "options": [
+      "SORT",
+      "SORT BY",
+      "ORDER BY",
+      "ORDER"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 130,
+    "chapter": "MySQL",
+    "question": "With MySQL, how can you return all the records from a table named \"Persons\" sorted descending by \"FirstName\"?",
+    "options": [
+      "SELECT * FROM Persons SORT BY 'FirstName' DESC",
+      "SELECT * FROM Persons SORT 'FirstName' DESC",
+      "SELECT * FROM Persons ORDER FirstName DESC",
+      "SELECT * FROM Persons ORDER BY FirstName DESC"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 131,
+    "chapter": "MySQL",
+    "question": "With MySQL, how can you insert a new record into the \"Persons\" table?",
+    "options": [
+      "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')",
+      "INSERT VALUES ('Jimmy', 'Jackson') INTO Persons",
+      "INSERT ('Jimmy', 'Jackson') INTO Persons"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 132,
+    "chapter": "MySQL",
+    "question": "With MySQL, how can you insert \"Olsen\" as the \"LastName\" in the \"Persons\" table?",
+    "options": [
+      "INSERT INTO Persons (LastName) VALUES ('Olsen')",
+      "INSERT INTO Persons ('Olsen') INTO LastName",
+      "INSERT ('Olsen') INTO Persons (LastName)"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 133,
+    "chapter": "MySQL",
+    "question": "How can you change \"Hansen\" into \"Nilsen\" in the \"LastName\" column in the Persons table?",
+    "options": [
+      "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+      "MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen",
+      "UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'",
+      "MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 134,
+    "chapter": "MySQL",
+    "question": "With MySQL, how can you delete the records where the \"FirstName\" is \"Peter\" in the Persons Table?",
+    "options": [
+      "DELETE ROW FirstName='Peter' FROM Persons",
+      "DELETE FROM Persons WHERE FirstName = 'Peter'",
+      "DELETE FirstName='Peter' FROM Persons"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 135,
+    "chapter": "MySQL",
+    "question": "With MySQL, how can you return the number of records in the \"Persons\" table?",
+    "options": [
+      "SELECT LEN(*) FROM Persons",
+      "SELECT NO(*) FROM Persons",
+      "SELECT COUNT(*) FROM Persons",
+      "SELECT COLUMNS(*) FROM Persons"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 136,
+    "chapter": "MySQL",
+    "question": "What are the supported types of joins in MySQL?",
+    "options": [
+      "INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN",
+      "INNER JOIN, OUTER JOIN, LEFT JOIN, RIGHT JOIN"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 137,
+    "chapter": "MySQL",
+    "question": "Which operator is used to select values within a given range?",
+    "options": [
+      "UNION",
+      "BETWEEN",
+      "IN",
+      "RANGE"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 138,
+    "chapter": "MySQL",
+    "question": "The NOT NULL constraint enforces a column to not accept NULL values.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 139,
+    "chapter": "MySQL",
+    "question": "Which operator is used to search for a specified pattern in a column?",
+    "options": [
+      "GET",
+      "LIKE",
+      "FROM"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 140,
+    "chapter": "MySQL",
+    "question": "Which MySQL statement is used to create a database table called 'Customers'?",
+    "options": [
+      "CREATE TABLE Customers",
+      "CREATE DATABASE TABLE Customers",
+      "CREATE DB Customers",
+      "CREATE DATABASE TAB Customers"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 141,
+    "chapter": "jQuery",
+    "question": "Which of the following is correct?",
+    "options": [
+      "jQuery is a JavaScript Library",
+      "jQuery is a JSON Library"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 142,
+    "chapter": "jQuery",
+    "question": "jQuery uses CSS selectors to select elements?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 143,
+    "chapter": "jQuery",
+    "question": "Which sign does jQuery use as a shortcut for jQuery?",
+    "options": [
+      "the $ sign",
+      "the % sign",
+      "the ? Sign"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 144,
+    "chapter": "jQuery",
+    "question": "Look at the following selector: $(\"div\"). What does it select?",
+    "options": [
+      "All div elements",
+      "The first div element"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 145,
+    "chapter": "jQuery",
+    "question": "Is jQuery a library for client scripting or server scripting?",
+    "options": [
+      "Client scripting",
+      "Server scripting"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 146,
+    "chapter": "jQuery",
+    "question": "Is it possible to use jQuery together with AJAX?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 147,
+    "chapter": "jQuery",
+    "question": "The jQuery html() method works for both HTML and XML documents",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 148,
+    "chapter": "jQuery",
+    "question": "What is the correct jQuery code to set the background color of all p elements to red?",
+    "options": [
+      "$(\"p\").manipulate(\"background-color\",\"red\");",
+      "$(\"p\").css(\"background-color\",\"red\");",
+      "$(\"p\").style(\"background-color\",\"red\");",
+      "$(\"p\").layout(\"background-color\",\"red\");"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 149,
+    "chapter": "jQuery",
+    "question": "With jQuery, look at the following selector: $(\"div.intro\"). What does it select?",
+    "options": [
+      "All div elements with id=\"intro\"",
+      "The first div element with id=\"intro\"",
+      "All div elements with class=\"intro\"",
+      "The first div element with class=\"intro\""
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 150,
+    "chapter": "jQuery",
+    "question": "Which jQuery method is used to hide selected elements?",
+    "options": [
+      "display(none)",
+      "hide()",
+      "hidden()",
+      "visible(false)"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 151,
+    "chapter": "jQuery",
+    "question": "Which jQuery method is used to set one or more style properties for selected elements?",
+    "options": [
+      "html()",
+      "css()",
+      "style()"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 152,
+    "chapter": "jQuery",
+    "question": "Which jQuery method is used to perform an asynchronous HTTP request?",
+    "options": [
+      "jQuery.ajaxSetup()",
+      "jQuery.ajaxAsync()",
+      "jQuery.ajax()"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 153,
+    "chapter": "jQuery",
+    "question": "What is the correct jQuery code for making all div elements 100 pixels high?",
+    "options": [
+      "$(\"div\").height(100)",
+      "$(\"div\").yPos(100)",
+      "$(\"div\").height=\"100\""
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 154,
+    "chapter": "jQuery",
+    "question": "Which statement is true?",
+    "options": [
+      "To use jQuery, you do not have to do anything. Most browsers (Internet Explorer, Chrome, Firefox and Opera) have the jQuery library built in the browser",
+      "To use jQuery, you must buy the jQuery library at www.jquery.com",
+      "To use jQuery, you can refer to a hosted jQuery library at Google"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 155,
+    "chapter": "jQuery",
+    "question": "What scripting language is jQuery written in?",
+    "options": [
+      "VBScript",
+      "C#",
+      "JavaScript",
+      "C++"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 156,
+    "chapter": "jQuery",
+    "question": "Which jQuery function is used to prevent code from running, before the document is finished loading?",
+    "options": [
+      "$(body).onload()",
+      "$(document).load()",
+      "$(document).ready()"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 157,
+    "chapter": "jQuery",
+    "question": "Which jQuery method should be used to deal with name conflicts?",
+    "options": [
+      "noConflict()",
+      "noNameConflict()",
+      "nameConflict()",
+      "conflict()"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 158,
+    "chapter": "jQuery",
+    "question": "Which jQuery method is used to switch between adding/removing one or more classes (for CSS) from selected elements?",
+    "options": [
+      "toggleClass()",
+      "switchClass()",
+      "altClass()",
+      "switch()"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 159,
+    "chapter": "jQuery",
+    "question": "Look at the following selector: $(\"div p\"). What does it select?",
+    "options": [
+      "The first p element inside a div element",
+      "All div elements with a p element",
+      "All p elements inside a div element"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 160,
+    "chapter": "jQuery",
+    "question": "Is jQuery a W3C standard?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 161,
+    "chapter": "jQuery",
+    "question": "Look at the following selector: $(\"p#intro\"). What does it select?",
+    "options": [
+      "The p element with id=\"intro\"",
+      "All p elements with class=\"intro\""
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 162,
+    "chapter": "jQuery",
+    "question": "Which jQuery method is used to remove selected elements?",
+    "options": [
+      "remove()",
+      "detach()",
+      "Both methods can be used"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 163,
+    "chapter": "jQuery",
+    "question": "Look at the following selector: $(\":disabled\"). What does it select?",
+    "options": [
+      "All elements containing the text \"disabled\"",
+      "All elements that does not contain the text \"disabled\"",
+      "All disabled input elements",
+      "All hidden elements"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 164,
+    "chapter": "jQuery",
+    "question": "Which jQuery method returns the direct parent element of the selected element?",
+    "options": [
+      "parents()",
+      "ancestor()",
+      "ancestors()",
+      "parent()"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 165,
+    "chapter": "jQuery",
+    "question": "The jQuery animate() method can be used to animate ANY CSS property?",
+    "options": [
+      "Yes",
+      "Only properties containing numeric values",
+      "All properties except the shorthand properties"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 166,
+    "chapter": "Bootstrap 3",
+    "question": "Bootstrap 3 is mobile-first.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 167,
+    "chapter": "Bootstrap 3",
+    "question": "Which class provides a responsive fixed width container?",
+    "options": [
+      ".container-fluid",
+      ".container",
+      ".container-fixed"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 168,
+    "chapter": "Bootstrap 3",
+    "question": "Which class provides a full width container, spanning the entire width of the viewport?",
+    "options": [
+      ".container-fluid",
+      ".container-fixed",
+      ".container"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 169,
+    "chapter": "Bootstrap 3",
+    "question": "The Bootstrap grid system is based on how many columns?",
+    "options": [
+      "3",
+      "6",
+      "12",
+      "9"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 170,
+    "chapter": "Bootstrap 3",
+    "question": "Which class adds zebra-stripes to a table?",
+    "options": [
+      ".table-bordered",
+      ".table-striped",
+      ".even and .odd",
+      ".table-zebra"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 171,
+    "chapter": "Bootstrap 3",
+    "question": "Which class shapes an image to a circle?",
+    "options": [
+      ".img-round",
+      ".img-circle",
+      ".img-thumbnail",
+      ".img-rounded"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 172,
+    "chapter": "Bootstrap 3",
+    "question": "Which class is used to create a big box for calling extra attention?",
+    "options": [
+      ".jumbotron",
+      ".bigbox",
+      ".container"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 173,
+    "chapter": "Bootstrap 3",
+    "question": "Which button class is used to create a large button?",
+    "options": [
+      ".btn-lg",
+      ".btn-l",
+      ".btn-xl",
+      ".btn-large"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 174,
+    "chapter": "Bootstrap 3",
+    "question": "Which class is used to create a button group?",
+    "options": [
+      ".button-group",
+      ".group-btn",
+      ".group-button",
+      ".btn-group"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 175,
+    "chapter": "Bootstrap 3",
+    "question": "How can you insert a search icon?",
+    "options": [
+      "&lt;span class=\"glyph glyph-search\"&gt;&lt;/span&gt;",
+      "&lt;span class=\"glyphicon glyphicon-search\"&gt;&lt;/span&gt;",
+      "&lt;span class=\"glyphicon search\"&gt;&lt;/span&gt;",
+      "&lt;span class=\"glyphicon-search\"&gt;&lt;/span&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 176,
+    "chapter": "Bootstrap 3",
+    "question": "Which class is used to create a badge?",
+    "options": [
+      ".tag",
+      ".label",
+      ".badge",
+      ".flag"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 177,
+    "chapter": "Bootstrap 3",
+    "question": "Which class is used to create a basic pagination?",
+    "options": [
+      ".navigation",
+      ".page",
+      ".pages",
+      ".pagination"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 178,
+    "chapter": "Bootstrap 3",
+    "question": "Which class is used to create a basic list group?",
+    "options": [
+      ".group-list",
+      ".grouped-list",
+      ".list-group"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 179,
+    "chapter": "Bootstrap 3",
+    "question": "Which class adds a heading to a panel?",
+    "options": [
+      ".panel-heading",
+      ".panel-head",
+      ".panel-header",
+      ".panel-footer"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 180,
+    "chapter": "Bootstrap 3",
+    "question": "Which class indicates a dropdown menu?",
+    "options": [
+      ".select",
+      ".dropdown",
+      ".dropdown-list"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 181,
+    "chapter": "Bootstrap 3",
+    "question": "A standard navigation tab is created with:",
+    "options": [
+      "&lt;ul class=\"nav nav-tabs\"&gt;",
+      "&lt;ul class=\"nav tabs\"&gt;",
+      "&lt;ul class=\"nav nav-navbar\"&gt;",
+      "&lt;ul class=\"navigation-tabs\"&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 182,
+    "chapter": "Bootstrap 3",
+    "question": "A standard navigation bar is created with:",
+    "options": [
+      "&lt;nav class=\"navigationbar navbar-default\"&gt;",
+      "&lt;nav class=\"navbar default-navbar\"&gt;",
+      "&lt;nav class=\"navbar navbar-default\"&gt;",
+      "&lt;nav class=\"nav navbar\"&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 183,
+    "chapter": "Bootstrap 3",
+    "question": "Which class is used to create a black navigation bar?",
+    "options": [
+      ".navbar-black",
+      ".navbar-default",
+      ".navbar-inverse",
+      ".navbar-dark"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 184,
+    "chapter": "Bootstrap 3",
+    "question": "Which plugin is used to cycle through elements, like a slideshow?",
+    "options": [
+      "Orbit",
+      "Slideshow",
+      "Carousel",
+      "Scrollspy"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 185,
+    "chapter": "Bootstrap 3",
+    "question": "Which plugin is used to create a modal window?",
+    "options": [
+      "Popup",
+      "Window",
+      "Dialog Box",
+      "Modal"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 186,
+    "chapter": "Bootstrap 3",
+    "question": "Which plugin is used to create a tooltip?",
+    "options": [
+      "Modal",
+      "Dialog Box",
+      "Tooltip",
+      "Popup"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 187,
+    "chapter": "Bootstrap 3",
+    "question": "Which contextual class indicates a succesful or positive action?",
+    "options": [
+      ".text-warning",
+      ".text-success",
+      ".text-info",
+      ".text-primary"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 188,
+    "chapter": "Bootstrap 3",
+    "question": "Which contextual class indicates a dangerous or potentially negative action?",
+    "options": [
+      ".text-warning",
+      ".text-info",
+      ".text-danger",
+      ".text-primary"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 189,
+    "chapter": "Bootstrap 3",
+    "question": "Which class indicates uppercased text?",
+    "options": [
+      ".ucase",
+      ".uppercase",
+      ".text-capitalize",
+      ".text-uppercase"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 190,
+    "chapter": "Bootstrap 3",
+    "question": "The Bootstrap grid system works across multiple devices.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 191,
+    "chapter": "Bootstrap 4",
+    "question": "The .container class provides a full width container, spanning the entire width of the screen",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 192,
+    "chapter": "Bootstrap 4",
+    "question": "Which class provides a responsive fixed width container?",
+    "options": [
+      ".container",
+      ".container-fluid",
+      ".container-fixed"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 193,
+    "chapter": "Bootstrap 4",
+    "question": "Which contextual class is used to create an orange text color?",
+    "options": [
+      ".bg-warning",
+      ".text-warning",
+      ".txt-warning",
+      ".txt-orange"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 194,
+    "chapter": "Bootstrap 4",
+    "question": "The Bootstrap grid system is based on how many columns?",
+    "options": [
+      "12",
+      "9",
+      "3",
+      "6"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 195,
+    "chapter": "Bootstrap 4",
+    "question": "Which class adds zebra-stripes to a table?",
+    "options": [
+      ".table-bordered",
+      ".table-zebra",
+      ".table-striped",
+      ".even and .odd"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 196,
+    "chapter": "Bootstrap 4",
+    "question": "Which class shapes an image to a circle?",
+    "options": [
+      ".img-round",
+      ".rounded-circle",
+      ".img-circle",
+      ".img-rounded"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 197,
+    "chapter": "Bootstrap 4",
+    "question": "Which class is used to create a big box for calling extra attention?",
+    "options": [
+      ".jumbotron",
+      ".container",
+      ".bigbox"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 198,
+    "chapter": "Bootstrap 4",
+    "question": "Which button class is used to create a large button?",
+    "options": [
+      ".btn-lg",
+      ".btn-l",
+      ".btn-large",
+      ".btn-xl"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 199,
+    "chapter": "Bootstrap 4",
+    "question": "Which class is used to create a button group?",
+    "options": [
+      ".button-group",
+      ".group-btn",
+      ".btn-group",
+      ".group-button"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 200,
+    "chapter": "Bootstrap 4",
+    "question": "Which class is used to create a badge?",
+    "options": [
+      ".badge-item",
+      ".badge-label",
+      ".badge",
+      ".label-badge"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 201,
+    "chapter": "Bootstrap 4",
+    "question": "Which class is used to create a loader?",
+    "options": [
+      ".spinner-border",
+      ".loader",
+      ".spinner",
+      ".spinner-loader"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 202,
+    "chapter": "Bootstrap 4",
+    "question": "Which class is used to create a basic pagination?",
+    "options": [
+      ".pagination",
+      ".page",
+      ".pages",
+      ".navigation"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 203,
+    "chapter": "Bootstrap 4",
+    "question": "Which class is used to create a basic list group?",
+    "options": [
+      ".list-group",
+      ".group-list",
+      ".grouped-list"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 204,
+    "chapter": "Bootstrap 4",
+    "question": "Which class adds a heading to a card?",
+    "options": [
+      ".card-footer",
+      ".card-heading",
+      ".card-header",
+      ".card-head"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 205,
+    "chapter": "Bootstrap 4",
+    "question": "Which class indicates a dropdown menu?",
+    "options": [
+      ".dropdown-list",
+      ".dropdown",
+      ".select"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 206,
+    "chapter": "Bootstrap 4",
+    "question": "A standard navigation tab is created with:",
+    "options": [
+      "&lt;ul class=\"nav nav-tabs\"&gt;",
+      "&lt;ul class=\"nav tabs\"&gt;",
+      "&lt;ul class=\"nav nav-navbar\"&gt;",
+      "&lt;ul class=\"navigation-tabs\"&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 207,
+    "chapter": "Bootstrap 4",
+    "question": "A standard navigation bar is created with:",
+    "options": [
+      "&lt;nav class=\"navbar navbar-default\"&gt;",
+      "&lt;nav class=\"navigationbar navbar-default\"&gt;",
+      "&lt;nav class=\"navbar navbar-expand-sm\"&gt;",
+      "&lt;nav class=\"nav navbar\"&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 208,
+    "chapter": "Bootstrap 4",
+    "question": "Which class is used to create a vertical navigation bar?",
+    "options": [
+      ".navbar-inverse",
+      ".navbar navbar-vertical",
+      ".navbar",
+      ".navbar-vertical"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 209,
+    "chapter": "Bootstrap 4",
+    "question": "Which component is used to cycle through elements, like a slideshow?",
+    "options": [
+      "Scrollspy",
+      "Slideshow",
+      "Carousel",
+      "Orbit"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 210,
+    "chapter": "Bootstrap 4",
+    "question": "What classes can be combined to create a custom checkbox?",
+    "options": [
+      "checkbox control",
+      "custom-control custom-checkbox",
+      "custom-check custom-checkbox"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 211,
+    "chapter": "Bootstrap 4",
+    "question": "Which attribute is used to create a tooltip?",
+    "options": [
+      "data-toggle=\"popup\"",
+      "data-toggle=\"tooltip\"",
+      "data-toggle=\"collapse\"",
+      "data-toggle=\"modal\""
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 212,
+    "chapter": "Bootstrap 4",
+    "question": "Which contextual class indicates a succesful or positive action?",
+    "options": [
+      ".bg-success",
+      ".bg-warning",
+      ".bg-primary",
+      ".bg-info"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 213,
+    "chapter": "Bootstrap 4",
+    "question": "Which contextual class indicates a dangerous or potentially negative action?",
+    "options": [
+      ".bg-warning",
+      ".bg-info",
+      ".bg-danger",
+      ".bg-primary"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 214,
+    "chapter": "Bootstrap 4",
+    "question": "Which class indicates uppercased text?",
+    "options": [
+      ".ucase",
+      ".uppercase",
+      ".text-capitalize",
+      ".text-uppercase"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 215,
+    "chapter": "Bootstrap 4",
+    "question": "The Bootstrap grid system works across multiple devices.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 216,
+    "chapter": "Bootstrap 5",
+    "question": "The .container class provides a full width container, spanning the entire width of the screen",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 217,
+    "chapter": "Bootstrap 5",
+    "question": "Which class provides a responsive fixed width container?",
+    "options": [
+      ".container-fixed",
+      ".container-responsive",
+      ".container",
+      ".container-fluid"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 218,
+    "chapter": "Bootstrap 5",
+    "question": "Which contextual class is used to create an orange text color?",
+    "options": [
+      ".txt-warning",
+      ".text-warning",
+      ".bg-warning",
+      ".txt-orange"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 219,
+    "chapter": "Bootstrap 5",
+    "question": "The Bootstrap grid system is based on how many columns?",
+    "options": [
+      "12",
+      "9",
+      "3",
+      "6"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 220,
+    "chapter": "Bootstrap 5",
+    "question": "Which class adds zebra-stripes to a table?",
+    "options": [
+      ".table-zebra",
+      ".table-bordered",
+      ".table-striped",
+      ".even and .odd"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 221,
+    "chapter": "Bootstrap 5",
+    "question": "Which class shapes an image to a circle?",
+    "options": [
+      ".img-round",
+      ".img-rounded",
+      ".img-circle",
+      ".rounded-circle"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 222,
+    "chapter": "Bootstrap 5",
+    "question": "Which class is used to create a big box for calling extra attention?",
+    "options": [
+      ".container",
+      ".jumbotron",
+      ".bigbox",
+      "There is no such class"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 223,
+    "chapter": "Bootstrap 5",
+    "question": "Which class is used to create a button group?",
+    "options": [
+      ".group-btn",
+      ".btn-group",
+      ".group-button",
+      ".button-group"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 224,
+    "chapter": "Bootstrap 5",
+    "question": "Which button class is used to create a large button?",
+    "options": [
+      ".btn-l",
+      ".btn-lg",
+      ".btn-large",
+      ".btn-l2"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 225,
+    "chapter": "Bootstrap 5",
+    "question": "Which class is used to create a badge?",
+    "options": [
+      ".badge-item",
+      ".badge-label",
+      ".label-badge",
+      ".badge"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 226,
+    "chapter": "Bootstrap 5",
+    "question": "Which class is used to create a loader?",
+    "options": [
+      ".spinner-loader",
+      ".spinner-border",
+      ".loader",
+      ".spinner"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 227,
+    "chapter": "Bootstrap 5",
+    "question": "Which class is used to create a basic pagination?",
+    "options": [
+      ".pagination",
+      ".page",
+      ".pages",
+      ".navigation"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 228,
+    "chapter": "Bootstrap 5",
+    "question": "Which class is used to create a basic list group?",
+    "options": [
+      ".grouped-list",
+      ".list-group",
+      ".group-list"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 229,
+    "chapter": "Bootstrap 5",
+    "question": "Which class adds a heading to a card?",
+    "options": [
+      ".card-footer",
+      ".card-head",
+      ".card-header",
+      ".card-heading"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 230,
+    "chapter": "Bootstrap 5",
+    "question": "Which class indicates a dropdown menu?",
+    "options": [
+      ".dropdown-list",
+      ".dropdown",
+      ".select"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 231,
+    "chapter": "Bootstrap 5",
+    "question": "Which class is used to create a vertical navigation bar?",
+    "options": [
+      ".navbar",
+      ".navbar navbar-vertical",
+      ".navbar-vertical",
+      ".navbar-inverse"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 232,
+    "chapter": "Bootstrap 5",
+    "question": "Which component is used to cycle through elements, like a slideshow?",
+    "options": [
+      "Carousel",
+      "Slideshow",
+      "Scrollspy",
+      "Orbit"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 233,
+    "chapter": "Bootstrap 5",
+    "question": "Which contextual class indicates a succesful or positive action?",
+    "options": [
+      ".bg-info",
+      ".bg-warning",
+      ".bg-primary",
+      ".bg-success"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 234,
+    "chapter": "Bootstrap 5",
+    "question": "Which contextual class indicates a dangerous or potentially negative action?",
+    "options": [
+      ".bg-dark",
+      ".bg-primary",
+      ".bg-info",
+      ".bg-danger"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 235,
+    "chapter": "Bootstrap 5",
+    "question": "Which class indicates uppercased text?",
+    "options": [
+      ".text-uppercase",
+      ".ucase",
+      ".uppercase",
+      ".text-capitalize"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 236,
+    "chapter": "Bootstrap 5",
+    "question": "Which attribute is used to create a tooltip?",
+    "options": [
+      "data-bs-toggle=\"modal\"",
+      "data-bs-toggle=\"tooltip\"",
+      "data-bs-toggle=\"collapse\"",
+      "data-bs-toggle=\"popup\""
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 237,
+    "chapter": "Bootstrap 5",
+    "question": "A standard navigation tab is created with:",
+    "options": [
+      "&lt;ul class=\"nav nav-navbar\"&gt;",
+      "&lt;ul class=\"nav nav-tabs\"&gt;",
+      "&lt;ul class=\"nav tabs\"&gt;",
+      "&lt;ul class=\"navigation-tabs\"&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 238,
+    "chapter": "Bootstrap 5",
+    "question": "A standard navigation bar is created with:",
+    "options": [
+      "&lt;nav class=\"nav navbar\"&gt;",
+      "&lt;nav class=\"navigationbar navbar-default\"&gt;",
+      "&lt;nav class=\"navbar navbar-expand-sm\"&gt;",
+      "&lt;nav class=\"navbar navbar-default\"&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 239,
+    "chapter": "Bootstrap 5",
+    "question": "Which class is used to style a close icon?",
+    "options": [
+      ".btn-x",
+      ".x",
+      ".close-icon",
+      ".btn-close"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 240,
+    "chapter": "Bootstrap 5",
+    "question": "Which class can be used to float an element to the right of the page?",
+    "options": [
+      ".float-right",
+      ".float-r",
+      ".float-end",
+      ".float-start"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 241,
+    "chapter": "XML",
+    "question": "What does XML stand for?",
+    "options": [
+      "X-Markup Language",
+      "Example Markup Language",
+      "eXtra Modern Link",
+      "eXtensible Markup Language"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 242,
+    "chapter": "XML",
+    "question": "There is a way of describing XML data, how?",
+    "options": [
+      "XML uses a DTD to describe the data",
+      "XML uses XSL to describe data",
+      "XML uses a description node to describe data"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 243,
+    "chapter": "XML",
+    "question": "XML's goal is to replace HTML",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 244,
+    "chapter": "XML",
+    "question": "What is the correct syntax of the declaration which defines the XML version?",
+    "options": [
+      "&lt;xml version=\"1.0\" /&gt;",
+      "&lt;?xml version=\"1.0\" /&gt;",
+      "&lt;?xml version=\"1.0\"?&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 245,
+    "chapter": "XML",
+    "question": "What does DTD stand for?",
+    "options": [
+      "Direct Type Definition",
+      "Dynamic Type Definition",
+      "Document Type Definition",
+      "Do The Dance"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 246,
+    "chapter": "XML",
+    "question": "Is this a \"well formed\" XML document?<br><br>&lt;?xml version=\"1.0\"?&gt;<br>&lt;note&gt;<br>&lt;to&gt;Tove&lt;/to&gt;<br>&lt;from&gt;Jani&lt;/from&gt;<br>&lt;heading&gt;Reminder&lt;/heading&gt;<br>&lt;body&gt;Don't forget me this weekend!&lt;/body&gt;<br>&lt;/note&gt;",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 247,
+    "chapter": "XML",
+    "question": "Is this a \"well formed\" XML document?<br><br>&lt;?xml version=\"1.0\"?&gt;<br>&lt;to&gt;Tove&lt;/to&gt;<br>&lt;from&gt;Jani&lt;/from&gt;<br>&lt;heading&gt;Reminder&lt;/heading&gt;<br>&lt;body&gt;Don't forget me this weekend!&lt;/body&gt;",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 248,
+    "chapter": "XML",
+    "question": "Which statement is true?",
+    "options": [
+      "All XML elements must be lower case",
+      "All XML elements must be properly closed",
+      "All XML documents must have a DTD",
+      "All the statements are true"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 249,
+    "chapter": "XML",
+    "question": "Which statement is NOT true?",
+    "options": [
+      "White-space is not preserved in XML",
+      "XML tags are case sensitive",
+      "XML elements must be properly nested",
+      "XML documents must have a root tag"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 250,
+    "chapter": "XML",
+    "question": "XML preserves white spaces",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 251,
+    "chapter": "XML",
+    "question": "Is this a \"well formed\" XML document?<br><br>&lt;?xml version=\"1.0\"?&gt;<br>&lt;note&gt;<br>&lt;to age=\"29\"&gt;Tove&lt;/to&gt;<br>&lt;from&gt;Jani&lt;/from&gt;<br>&lt;/note&gt;",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 252,
+    "chapter": "XML",
+    "question": "Is this a \"well formed\" XML document?<br><br>&lt;?xml version=\"1.0\"?&gt;<br>&lt;note&gt;<br>&lt;to age=29&gt;Tove&lt;/to&gt;<br>&lt;from&gt;Jani&lt;/from&gt;<br>&lt;/note&gt;",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 253,
+    "chapter": "XML",
+    "question": "XML elements cannot be empty",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 254,
+    "chapter": "XML",
+    "question": "Which is not a correct name for an XML element?",
+    "options": [
+      "&lt;h1&gt;",
+      "All 3 names are incorrect",
+      "&lt;Note&gt;",
+      "&lt;1dollar&gt;"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 255,
+    "chapter": "XML",
+    "question": "Which is not a correct name for an XML element?",
+    "options": [
+      "All 3 names are incorrect",
+      "&lt;NAME&gt;",
+      "&lt;age&gt;",
+      "&lt;first name&gt;"
+    ],
+    "answer": 3,
+    "type": "MCQ"
+  },
+  {
+    "id": 256,
+    "chapter": "XML",
+    "question": "Which is a correct name for an XML element?",
+    "options": [
+      "&lt;Name&gt;",
+      "&lt;7eleven&gt;",
+      "&lt;phone number&gt;",
+      "&lt;xmldocument&gt;"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 257,
+    "chapter": "XML",
+    "question": "XML attribute values must always be enclosed in quotes",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 258,
+    "chapter": "XML",
+    "question": "What does XSL stand for?",
+    "options": [
+      "eXtensible Stylesheet Language",
+      "eXtensible Style Listing",
+      "eXpandable Style Language",
+      "eXtra Style Language"
+    ],
+    "answer": 0,
+    "type": "MCQ"
+  },
+  {
+    "id": 259,
+    "chapter": "XML",
+    "question": "What is a correct way of referring to a stylesheet called \"mystyle.xsl\" ?",
+    "options": [
+      "&lt;stylesheet type=\"text/xsl\" href=\"mystyle.xsl\" /&gt;",
+      "&lt;link type=\"text/xsl\" href=\"mystyle.xsl\" /&gt;",
+      "&lt;?xml-stylesheet type=\"text/xsl\" href=\"mystyle.xsl\" ?&gt;"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 260,
+    "chapter": "XML",
+    "question": "For the XML parser to ignore a certain section of your XML document, which syntax is correct?",
+    "options": [
+      "&lt;xml:CDATA[ Text to be ignored ]&gt;",
+      "&lt;![CDATA[ Text to be ignored ]]&gt;",
+      "&lt;CDATA&gt; Text to be ignored &lt;/CDATA&gt;",
+      "&lt;PCDATA&gt; Text to be ignored &lt;/PCDATA&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 261,
+    "chapter": "XML",
+    "question": "Which statement is true?",
+    "options": [
+      "Attributes must occur in defined order",
+      "None of the other two statements are true",
+      "Attributes must always be present"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 262,
+    "chapter": "XML",
+    "question": "What are XML entities used for?",
+    "options": [
+      "Entities define shortcuts to standard elements",
+      "Entities define shortcuts to standard text or special characters",
+      "Entities define shortcuts to standard attributes"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 263,
+    "chapter": "XML",
+    "question": "Which of the following XML fragments is well-formed?",
+    "options": [
+      "&lt;customer id=3456&gt;&lt;name&gt;John Smith&lt;/name&gt;&lt;/customer&gt;",
+      "&lt;customer id=\"3456\"&gt;&lt;address/&gt;&lt;zip code=\"3456\"/&gt;&lt;/customer&gt;"
+    ],
+    "answer": 1,
+    "type": "MCQ"
+  },
+  {
+    "id": 264,
+    "chapter": "XML",
+    "question": "What is an XML instance?",
+    "options": [
+      "An XML element",
+      "An XML attribute",
+      "An XML document"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  },
+  {
+    "id": 265,
+    "chapter": "XML",
+    "question": "Which XML DOM object represents a node in the node tree?",
+    "options": [
+      "The nodeList object",
+      "The document object",
+      "The node object"
+    ],
+    "answer": 2,
+    "type": "MCQ"
+  }
+]

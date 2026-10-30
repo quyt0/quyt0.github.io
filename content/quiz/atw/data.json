@@ -1386,7 +1386,7 @@
     "chapter": "Chương 2",
     "question": "Thành phần nào trong cây DOM của trang web có thể bị chèn mã XSS?",
     "options": [
-      "Thẻ <script>",
+      "Thẻ &lt;script&gt;",
       "Các nhánh của cây DOM",
       "Các thuộc tính của DOM",
       "Bản thân cây DOM"
@@ -1683,7 +1683,7 @@
   {
     "id": 130,
     "chapter": "Chương 2",
-    "question": "Trong kỹ thuật thoát khỏi XSS, ký tự mở thẻ (<) và đóng thẻ (>) HTML lần lượt được chuyển thành các mã số...",
+    "question": "Trong kỹ thuật thoát khỏi XSS, ký tự mở thẻ (&lt;) và đóng thẻ (&gt;) HTML lần lượt được chuyển thành các mã số...",
     "options": [
       "61 và 62",
       "61 và 63",
