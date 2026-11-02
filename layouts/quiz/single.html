@@ -231,6 +231,11 @@
         if (sidebar) sidebar.scrollTop = 0;
     }
 
+    function explanationHtml(q) {
+        if (!q.explanation) return '';
+        return `<div style="margin-top: 12px; padding: 12px 15px; border-left: 4px solid var(--primary); background: var(--bg-color); border-radius: 6px; line-height: 1.6; font-size: 0.95rem; color: var(--text-color);">💡 <b>Giải thích:</b> ${q.explanation}</div>`;
+    }
+
     function buildQuizPlay(chapters, shuffleQs, shuffleOpts, timeMinutes) {
         let filteredData = (chapters.length > 0) 
             ? globalQuizData.filter(q => chapters.includes(q.chapter))
@@ -468,6 +473,8 @@
                     badge.innerHTML = '&nbsp; ❌ <span style="font-size: 0.85rem; color:#e53e3e;">Sai</span>';
                 }
             });
+
+            if (q.explanation) document.getElementById(`q-card-${qIndex}`).insertAdjacentHTML('beforeend', explanationHtml(q));
         });
 
         document.getElementById('result-box').style.display = 'block';
@@ -585,9 +592,7 @@
                 </div>`;
             });
             html += `</div>`;
-            if (q.explanation) {
-                html += `<div style="margin-top: 12px; padding: 12px 15px; border-left: 4px solid var(--primary); background: var(--bg-color); border-radius: 6px; line-height: 1.6; font-size: 0.95rem; color: var(--text-color);">💡 <b>Giải thích:</b> ${q.explanation}</div>`;
-            }
+            html += explanationHtml(q);
             html += `</div>`;
 
             let btnBg = '#cbd5e0'; let btnBorder = '#cbd5e0'; let btnColor = '#4a5568';
