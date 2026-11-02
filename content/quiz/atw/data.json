@@ -10,7 +10,8 @@
       "Thông báo lỗi"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán (theo OWASP 2017 A6, GT tr.23): cấu hình ngầm định không an toàn, HTTP header sai, lưu trữ đám mây mở đều là lỗi cấu hình; chỉ thông báo lỗi lộ thông tin chi tiết mới là lỗi, 'Thông báo lỗi' nói chung thì không."
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "INX"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18, SL C1 tr.17: máy chủ web của Microsoft là Internet Information Services (IIS)."
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "Business Logic, Presentation, Data Access"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.20-21: kiến trúc logic 3 lớp từ trên xuống: Presentation → Business Logic → Data Access."
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "GETS, HEADS, PUTS"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17, SL C1 tr.14: trình duyệt dùng phổ biến nhất 3 phương thức GET, HEAD, POST."
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "200 và 500"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17, SL C1 tr.16: 403 = lỗi cấm truy cập, 500 = lỗi xử lý script trên máy chủ."
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "máy chủ và máy khách web."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.26, SL C1 tr.34: lớp bảo mật mạng cung cấp hạ tầng mạng an toàn cho giao tiếp giữa máy chủ và máy khách."
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "thực thể bên ngoài."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.23, SL C1 tr.43: XXE xảy ra khi bộ xử lý XML xử lý tài liệu có tham chiếu đến các thực thể bên ngoài."
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "response - request."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.14, SL C1 tr.8: HTTP hoạt động theo kiểu yêu cầu – đáp ứng (request - response)."
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "Buffer overflow, SQL injection, C++ injection."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.22, SL C1 tr.40: chèn mã gồm Buffer overflow, SQL injection, XPath/XQuery injection, LDAP, Shell command."
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "không trạng thái / không trạng thái"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18, SL C1 tr.21: web session tạo ứng dụng web có trạng thái chạy trên HTTP không trạng thái."
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       "A04:2021-Insecure Design"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.25: A04:2021 Insecure Design là dạng lỗ hổng mới trong bản 2021; A01, A02, A03 đều đổi tên/đổi vị trí từ 2017."
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       "250"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.24, SL C1 tr.51 (A10:2017): thời gian trung bình phát hiện vi phạm khoảng 200 ngày."
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       "Thăm các trang web sử dụng giao thức HTTP."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.23 (A03:2017): rò rỉ dữ liệu nhạy cảm, điển hình là gửi thông tin đăng nhập qua HTTP không mã hóa."
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       "tấn công phá mã."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.24, SL C1 tr.48: giải tuần tự hóa không an toàn có thể dẫn tới tấn công phát lại, chèn mã hoặc leo thang đặc quyền."
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
       "A1- Injection (Chèn mã), A2- Xác thực yếu và quản lý phiên yếu, A3- XSS – Cross-Site Scripting."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.22-23, SL C1 tr.39: OWASP 2017 chính thức: A1 Injection, A2 Xác thực và quản lý phiên yếu, A3 Rò rỉ dữ liệu nhạy cảm."
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
       "Web client"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: thành phần ứng dụng web gồm trình duyệt, máy chủ web, URL/URI, session/cookie, script engine, CGI, máy chủ CSDL, hạ tầng mạng; WAF không nằm trong danh sách."
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
       "URL lớn hơn URI"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: URI có thể là URL hoặc URN, tức URI bao hàm URL."
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
       "bị tấn công XSS."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.24, SL C1 tr.51 (A10:2017): thiếu giám sát và ghi log cho phép kẻ tấn công tấn công tiếp hoặc duy trì kiểm soát hệ thống."
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
       "leo thang đặc quyền."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.24, SL C1 tr.50 (A09:2017): thành phần có lỗ hổng bị khai thác có thể làm mất dữ liệu hoặc máy chủ bị chiếm quyền điều khiển."
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
       "IDS, WAF, IPS"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.25, SL C1 tr.32: Defence in depth gồm 3 lớp Network, Host, Application."
   },
   {
     "id": 21,
@@ -273,7 +293,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.27, SL C1 tr.36: lớp ứng dụng gồm xác thực/trao quyền, cấu hình, kiểm tra đầu vào, quản lý phiên, mã hóa, quản lý ngoại lệ, ghi log; tường lửa thuộc lớp mạng."
   },
   {
     "id": 22,
@@ -286,7 +307,8 @@
       "Hybid-Technical Transfer Protocol"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.14: HTTP = Hyper-Text Transfer Protocol."
   },
   {
     "id": 23,
@@ -299,7 +321,8 @@
       "Star HTTP"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.14: HTTPS = Secure HTTP."
   },
   {
     "id": 24,
@@ -312,7 +335,8 @@
       "giao thức thuộc tầng ứng dụng thuộc bộ giao thức TCP/IP được sử dụng cho truyền văn bản (Hyper-Text) của các ứng dụng web (Web applications)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.14, SL C1 tr.8: HTTP là giao thức tầng ứng dụng thuộc bộ TCP/IP, dùng truyền siêu văn bản của ứng dụng web."
   },
   {
     "id": 25,
@@ -325,7 +349,8 @@
       "443/80"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.14: cổng chuẩn HTTP là 80, HTTPS là 443."
   },
   {
     "id": 26,
@@ -338,7 +363,8 @@
       "yêu cầu được đóng gói và chuyển tiếp đến các lớp hạ tầng mạng thông qua các lớp vận chuyển (UDP) và mạng (ICMP) để đến máy chủ HTTP ở cổng biết trước (Well-known port)"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.14: yêu cầu được đóng gói qua lớp vận chuyển (TCP) và lớp mạng (IP) tới cổng biết trước của máy chủ."
   },
   {
     "id": 27,
@@ -351,7 +377,8 @@
       "đáp ứng - yêu cầu (response - request)/khách - chủ (client - server)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.14: HTTP hoạt động kiểu yêu cầu – đáp ứng trong mô hình khách – chủ."
   },
   {
     "id": 28,
@@ -364,7 +391,8 @@
       "HTTP/1.0 sử dụng một kết nối mới cho một cặp trao đổi yêu cầu / đáp ứng, trong khi HTTP/1.1 sử dụng nhiều kết nối mới cho một, hoặc nhiều cặp trao đổi yêu cầu / đáp ứng."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.15: HTTP/1.0 dùng 1 kết nối mới cho 1 cặp yêu cầu/đáp ứng; HTTP/1.1 dùng 1 kết nối cho 1 hoặc nhiều cặp."
   },
   {
     "id": 29,
@@ -377,7 +405,8 @@
       "Không trạng thái (Stateless)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.16, SL C1 tr.8: 3 đặc điểm là không kết nối, độc lập thông tin truyền, không trạng thái; không có kiểm soát luồng."
   },
   {
     "id": 30,
@@ -390,7 +419,8 @@
       "Máy khách và máy chủ HTTP giao tiếp theo kiểu ngang hàng, và duy trì kết nối liên tục giữa hai bên"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.16: không kết nối = giao tiếp yêu cầu – đáp ứng, không duy trì kết nối liên tục."
   },
   {
     "id": 31,
@@ -403,7 +433,8 @@
       "chỉ một vài loại dữ liệu có thể truyền thông qua HTTP, với điều kiện máy chủ biết cách xử lý nội dung của dữ liệu"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.16: mọi loại dữ liệu đều truyền được, miễn là cả máy khách và máy chủ biết cách xử lý."
   },
   {
     "id": 32,
@@ -416,7 +447,8 @@
       "Máy khách và máy chủ nhận biết về sự tồn tại của nhau chỉ trong yêu cầu hiện tại. Sau đó, cả hai đều quên ngay sự tồn tại của nhau."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.16: hai bên chỉ nhận biết nhau trong yêu cầu hiện tại, sau đó 'quên' ngay."
   },
   {
     "id": 33,
@@ -429,7 +461,8 @@
       "GET, HEAD, POST, PUT, DELETE, DISCONNECT, OPTIONS, TRACE"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.16: GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE (không có DISCONNECT)."
   },
   {
     "id": 34,
@@ -442,7 +475,8 @@
       "thiết lập đường hầm tới máy chủ được xác định bởi một địa chỉ web nhất định"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.16: GET dùng để truy vấn thông tin từ máy chủ qua một địa chỉ web."
   },
   {
     "id": 35,
@@ -455,7 +489,8 @@
       "tương tự như phương thức GET, nhưng chỉ có dòng trạng thái và phần tiêu đề được chuyển từ máy khách đến máy chủ"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.16: HEAD giống GET nhưng chỉ trả dòng trạng thái và phần tiêu đề từ máy chủ về máy khách."
   },
   {
     "id": 36,
@@ -468,7 +503,8 @@
       "mô tả các tùy chọn truyền thông cho tài nguyên đích."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: POST dùng để gửi dữ liệu đến máy chủ."
   },
   {
     "id": 37,
@@ -481,7 +517,8 @@
       "mô tả các tùy chọn truyền thông cho tài nguyên đích"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: PUT thay thế toàn bộ biểu diễn hiện tại của tài nguyên đích bằng nội dung tải lên."
   },
   {
     "id": 38,
@@ -494,7 +531,8 @@
       "thay thế tất cả các biểu diễn hiện tại của tài nguyên đích bằng nội dung tải lên"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: DELETE xóa toàn bộ biểu diễn hiện tại của tài nguyên đích."
   },
   {
     "id": 39,
@@ -507,7 +545,8 @@
       "gửi dữ liệu đến máy chủ"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: CONNECT thiết lập đường hầm tới máy chủ xác định bởi địa chỉ web."
   },
   {
     "id": 40,
@@ -520,7 +559,8 @@
       "truy vấn thông tin từ máy chủ sử dụng một địa chỉ web"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: TRACE thực hiện kiểm tra vòng lặp lại (loop-back) theo đường dẫn tới tài nguyên đích."
   },
   {
     "id": 41,
@@ -533,7 +573,8 @@
       "Control Gateway Interaction"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17, SL C1 tr.26: CGI = Common Gateway Interface."
   },
   {
     "id": 42,
@@ -546,7 +587,8 @@
       "bộ phần cứng chạy trên máy khách có chức năng tạo yêu cầu, gửi yêu cầu và hiển thị phản hồi/kết quả trả về từ máy chủ web"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17, SL C1 tr.14: trình duyệt là bộ phần mềm chạy trên máy khách, tạo/gửi yêu cầu và hiển thị kết quả."
   },
   {
     "id": 43,
@@ -563,7 +605,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.17: GET, HEAD và POST được dùng phổ biến hơn cả."
   },
   {
     "id": 44,
@@ -576,7 +619,8 @@
       "(1)đáp ứng/(2) thỉnh cầu"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: máy chủ web tiếp nhận yêu cầu, xử lý yêu cầu và trả về đáp ứng."
   },
   {
     "id": 45,
@@ -589,7 +633,8 @@
       "truy nhập hệ thống file đám mây, đọc nội dung file và gửi kết quả cho trình duyệt."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: với file tĩnh, máy chủ đọc file trên hệ thống file cục bộ rồi gửi cho trình duyệt."
   },
   {
     "id": 46,
@@ -602,7 +647,8 @@
       "cơ sở dữ liệu"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: với file script, máy chủ chuyển script cho bộ xử lý script."
   },
   {
     "id": 47,
@@ -615,7 +661,8 @@
       "máy chủ không khả dụng"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.17: 403 = lỗi cấm truy cập."
   },
   {
     "id": 48,
@@ -629,7 +676,8 @@
       "mã do lỗi server"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán (theo chuẩn HTTP): 2xx = thành công (GT tr.17 chỉ nêu 200 = thành công)."
   },
   {
     "id": 49,
@@ -642,7 +690,8 @@
       "Mã do lỗi server"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán (theo chuẩn HTTP): 3xx = chuyển hướng (redirect)."
   },
   {
     "id": 50,
@@ -655,7 +704,8 @@
       "Snort web server"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: máy chủ web thông dụng gồm Apache, IIS, nginx…; Snort là hệ thống phát hiện xâm nhập (IDS), không phải máy chủ web."
   },
   {
     "id": 51,
@@ -668,7 +718,8 @@
       "Uniform Resource Locator"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: URL = Uniform Resource Locator."
   },
   {
     "id": 52,
@@ -681,7 +732,8 @@
       "một chuỗi ký tự cho phép tham chiếu đến một tài nguyên"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: URL là chuỗi ký tự cho phép tham chiếu đến một tài nguyên."
   },
   {
     "id": 53,
@@ -694,7 +746,8 @@
       "Uniform Resource Identified"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: URI = Uniform Resource Identifier."
   },
   {
     "id": 54,
@@ -707,7 +760,8 @@
       "một chuỗi ký tự cho phép đáp ứng đến một tài nguyên"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: URI là chuỗi ký tự dùng để nhận dạng một địa chỉ web hoặc một tên."
   },
   {
     "id": 55,
@@ -720,7 +774,8 @@
       "một chuỗi ký tự dùng để yêu cầu tên của tài nguyên"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: URN dùng để nhận dạng tên của tài nguyên."
   },
   {
     "id": 56,
@@ -733,7 +788,8 @@
       "một kỹ thuật cho phép tạo ra ứng dụng web không trạng thái (stateless) vận hành trên giao thức HTTP có trạng thái (stateful)"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: web session tạo ứng dụng web có trạng thái vận hành trên HTTP không trạng thái."
   },
   {
     "id": 57,
@@ -746,7 +802,8 @@
       "phiên (Session)/ trường dữ liệu (data field)"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: máy chủ tạo và lưu một chuỗi định danh (ID) cho mỗi phiên."
   },
   {
     "id": 58,
@@ -759,7 +816,8 @@
       "nhận dạng/xâu chuỗi"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: phiên giúp máy chủ nhận dạng người dùng và xâu chuỗi các yêu cầu HTTP."
   },
   {
     "id": 59,
@@ -772,7 +830,8 @@
       "cấu hình phương thức GET"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: thời gian hoạt động của phiên tùy thuộc cấu hình máy chủ web."
   },
   {
     "id": 60,
@@ -785,7 +844,8 @@
       "một mẩu thông tin do website gửi xuống và được lưu trên trình duyệt khi người dùng thăm website"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: cookie do website gửi xuống và lưu trên trình duyệt khi người dùng thăm website."
   },
   {
     "id": 61,
@@ -798,7 +858,8 @@
       "Điều hành phiên"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.18: cookie thường dùng để lưu thông tin phiên và duy trì trạng thái phiên làm việc."
   },
   {
     "id": 62,
@@ -811,7 +872,8 @@
       "lưu thông tin người dùng và duy trì trạng thái phiên làm việc"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.19: script engine nạp, dịch và thực hiện từng dòng lệnh script trên máy chủ web."
   },
   {
     "id": 63,
@@ -823,7 +885,8 @@
       "thông dịch (interpretation)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.19: script engine làm việc theo chế độ thông dịch nên chậm hơn ứng dụng đã biên dịch."
   },
   {
     "id": 64,
@@ -836,7 +899,8 @@
       "các đoạn mã được nhúng vào các trình duyệt để thực hiện các công việc xử lý dữ liệu và trả về kết quả để tạo nội dung cho máy chủ"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.19: server script là mã nhúng trong trang HTML, xử lý dữ liệu để tạo nội dung trang web."
   },
   {
     "id": 65,
@@ -849,7 +913,8 @@
       "máy chủ cơ sở dữ liệu/máy khách"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.19: script được chuyển cho mô tơ script thực hiện, kết quả trả lại cho máy chủ web."
   },
   {
     "id": 66,
@@ -862,7 +927,8 @@
       "quản trị các cơ sở dữ liệu chứa dữ liệu tạo các trang web động"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.19: máy chủ CSDL quản trị CSDL chứa dữ liệu tạo các trang web động."
   },
   {
     "id": 67,
@@ -875,7 +941,8 @@
       "trang web chỉ thay đổi nội dung khi có tác động chỉnh sửa của người dùng."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.19: trang web động là trang chỉ được tạo ra khi có yêu cầu từ người dùng thông qua máy khách."
   },
   {
     "id": 68,
@@ -888,7 +955,8 @@
       "lưu lượng"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.19: hạ tầng mạng gồm tất cả các thiết bị mạng (switch, router, firewall…)."
   },
   {
     "id": 69,
@@ -901,7 +969,8 @@
       "8"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.20: kiến trúc chuẩn gồm 6 thành phần: Browser, Web Server, Application Server, Data, File System, External System."
   },
   {
     "id": 70,
@@ -913,7 +982,8 @@
       "lớp bản vá (Patch Layer – PL/UI), lớp lô gic nghiệp vụ (Business Logic Layer – BLL), lớp truy nhập dữ liệu (Data Access Layer - DAL)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.20-21: 3 lớp gồm trình diễn (PL), lô gic nghiệp vụ (BLL), truy cập dữ liệu (DAL)."
   },
   {
     "id": 71,
@@ -925,7 +995,8 @@
       "truy vấn và xử lý dữ liệu từ kho dữ liệu (Data)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.20: lớp trình diễn có trách nhiệm biểu diễn dữ liệu đến người dùng."
   },
   {
     "id": 72,
@@ -937,7 +1008,8 @@
       "truy vấn và xử lý dữ liệu từ kho dữ liệu (Data)"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.20: lớp lô gic nghiệp vụ xử lý dữ liệu theo các quy định có sẵn."
   },
   {
     "id": 73,
@@ -949,7 +1021,8 @@
       "truy vấn và xử lý dữ liệu từ kho dữ liệu (Data)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.21: lớp truy cập dữ liệu truy vấn và xử lý dữ liệu từ kho dữ liệu."
   },
   {
     "id": 74,
@@ -962,7 +1035,8 @@
       "phòng vệ nhiều lớp theo chiều sâu (Detect in depth)"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.25, SL C1 tr.32: nguyên tắc chung là phòng vệ nhiều lớp theo chiều sâu (Defense in depth)."
   },
   {
     "id": 75,
@@ -974,7 +1048,8 @@
       "Lớp bảo mật ứng dụng (Application), Lớp bảo mật máy chủ (Host) và Lớp bảo mật mạng (Network)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.25: từ ngoài vào trong là Network → Host → Application."
   },
   {
     "id": 76,
@@ -986,7 +1061,8 @@
       "an toàn cho người dùng và dữ liệu của ngừời dùng lưu trong hệ thống ứng dụng web"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.26: lớp mạng cung cấp hạ tầng mạng an toàn cho giao tiếp giữa máy chủ và máy khách."
   },
   {
     "id": 77,
@@ -998,7 +1074,8 @@
       "cung cấp hạ tầng mạng an toàn cho giao tiếp giữa máy chủ và máy khách"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.27: lớp máy chủ đảm bảo an toàn cho các thành phần nền tảng của hệ thống."
   },
   {
     "id": 78,
@@ -1010,7 +1087,8 @@
       "cung cấp hạ tầng mạng an toàn cho giao tiếp giữa máy chủ và máy khách"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.27: lớp ứng dụng đảm bảo an toàn cho người dùng và dữ liệu của người dùng."
   },
   {
     "id": 79,
@@ -1027,7 +1105,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.27, SL C1 tr.35: lớp máy chủ gồm bảo mật hệ điều hành, CSDL, phần mềm và dịch vụ; quản lý phiên thuộc lớp ứng dụng."
   },
   {
     "id": 80,
@@ -1040,7 +1119,8 @@
       "dạng tấn công người dùng web, lợi dụng cơ chế tự động đăng nhập của một số website. Kẻ tấn công lừa người dùng thực hiện các đoạn mã độc, nhúng trong các trang web bình thường trong ngữ cảnh người dùng đang ở trong phiên làm việc với website."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.22: chèn mã là lỗ hổng cho phép chèn mã vào dữ liệu gửi đến và được thực hiện trên hệ thống nạn nhân."
   },
   {
     "id": 81,
@@ -1052,7 +1132,8 @@
       "xác thực (authentication) và trao quyền (authorization)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C1 tr.41: khâu xác thực (authentication) và trao quyền (authorisation)."
   },
   {
     "id": 82,
@@ -1065,7 +1146,8 @@
       "dạng tấn công vào trình duyệt người dùng. Kẻ tấn công chèn mã script (thường là mã javascript) vào các trang web có lỗi. Khi người dùng mở các trang này thì mã script của kẻ tấn công được thực hiện, giúp đánh cắp các thông tin lưu trong trình duyệt người dùng."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.23: XSS là tấn công vào trình duyệt, chèn script vào trang lỗi để đánh cắp thông tin lưu trong trình duyệt."
   },
   {
     "id": 83,
@@ -1078,7 +1160,8 @@
       "trực tiếp/công khai"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán (theo A4:2013 IDOR): tham chiếu đối tượng/file nên làm gián tiếp, thông tin nhạy cảm cần được che dấu."
   },
   {
     "id": 84,
@@ -1091,7 +1174,8 @@
       "dạng tấn công người dùng web, lợi dụng cơ chế tự động đăng nhập của một số website. Kẻ tấn công lừa người dùng thực hiện các đoạn mã độc, nhúng trong các trang web bình thường trong ngữ cảnh người dùng đang ở trong phiên làm việc với website."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.23: lỗi cấu hình an ninh là lỗi thiết lập quyền truy cập trang không đúng chuẩn, cho phép truy cập trái phép."
   },
   {
     "id": 85,
@@ -1104,7 +1188,8 @@
       "Security Misconfiguration (Lỗi cấu hình an ninh)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C1 tr.38: A6:2013 là Rò rỉ dữ liệu nhạy cảm (bản 2017 RC1 cũng vậy; bản 2017 chính thức A6 là Lỗi cấu hình)."
   },
   {
     "id": 86,
@@ -1117,7 +1202,8 @@
       "Unvalidated Redirects and Forwards (Tái định hướng và chuyển tiếp không được kiểm tra)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C1 tr.38-39: A9 của cả 2013 và 2017 là Sử dụng các thành phần chứa lỗ hổng đã biết."
   },
   {
     "id": 87,
@@ -1130,7 +1216,8 @@
       "Missing Function Level Access Control (Thiếu kiểm soát truy nhập ở mức tính năng)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C1 tr.38: A4:2013 là Tham chiếu các đối tượng trực tiếp không an toàn."
   },
   {
     "id": 88,
@@ -1143,7 +1230,8 @@
       "Underprotected APIs (Các API không được bảo vệ)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán: theo OWASP 2017 RC1, A4 là Broken Access Control (bản chính thức A4 là XXE, không có trong đáp án)."
   },
   {
     "id": 89,
@@ -1156,7 +1244,8 @@
       "Underprotected APIs (Các API không được bảo vệ)"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán: theo OWASP 2017 RC1, A10 là Underprotected APIs."
   },
   {
     "id": 90,
@@ -1169,7 +1258,8 @@
       "Insufficient Attack Protection (Thiếu các cơ chế bảo vệ)"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C1 tr.38: A10:2013 là Tái định hướng và chuyển tiếp không được kiểm tra."
   },
   {
     "id": 91,
@@ -1182,7 +1272,8 @@
       "Underprotected APIs (Các API không được bảo vệ)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C1 tr.38: A7:2013 là Thiếu kiểm soát truy nhập ở mức chức năng."
   },
   {
     "id": 92,
@@ -1195,7 +1286,8 @@
       "Insecure Direct Object References (Tham chiếu các đối tượng trực tiếp không an toàn)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán: theo OWASP 2017 RC1, A7 là Insufficient Attack Protection."
   },
   {
     "id": 93,
@@ -1208,7 +1300,8 @@
       "dạng tấn công người dùng web, lợi dụng cơ chế tự động đăng nhập của một số website. Kẻ tấn công lừa người dùng thực hiện các đoạn mã độc, nhúng trong các trang web bình thường trong ngữ cảnh người dùng đang ở trong phiên làm việc với website."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán (theo định nghĩa CSRF ở GT tr.42): CSRF lợi dụng việc người dùng đang trong phiên/tự đăng nhập để lừa thực hiện thao tác."
   },
   {
     "id": 94,
@@ -1224,7 +1317,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.27, SL C1 tr.52: 3 phương pháp là kiểm tra dữ liệu đầu vào, giảm thiểu giao diện bị tấn công, phòng vệ theo chiều sâu."
   },
   {
     "id": 95,
@@ -1236,7 +1330,8 @@
       "cả 2 đáp án trên"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.27: kiểm tra đầu vào phải làm cả trên máy khách và máy chủ."
   },
   {
     "id": 96,
@@ -1249,7 +1344,8 @@
       "tham chiếu"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.27: dùng biện pháp kiểm soát truy cập để hạn chế người dùng truy cập trực tiếp ứng dụng, dịch vụ, hệ thống."
   },
   {
     "id": 97,
@@ -1262,7 +1358,8 @@
       "Injection"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.24: Broken Access Control tăng từ vị trí 5 (2017) lên vị trí số 1 (2021)."
   },
   {
     "id": 98,
@@ -1275,7 +1372,8 @@
       "Software and Data Integrity Failures"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.25: SSRF là A10:2021, xếp cuối danh sách."
   },
   {
     "id": 99,
@@ -1288,7 +1386,8 @@
       "A04:2021-Insecure Design"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán (theo OWASP 2021): XXE được gộp vào A05:2021 Security Misconfiguration."
   },
   {
     "id": 100,
@@ -1301,7 +1400,8 @@
       "Open Web Application Security Project"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.21: OWASP = Open Web Application Security Project."
   },
   {
     "id": 101,
@@ -1314,7 +1414,8 @@
       "A05:2021-Security Misconfiguration"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.25 + OWASP 2021: Insecure Design nhấn mạnh việc 'dịch chuyển sang trái', đưa bảo mật vào từ khâu thiết kế."
   },
   {
     "id": 102,
@@ -1327,7 +1428,8 @@
       "Người dùng có thể truy cập vào chức năng hoặc dữ liệu mà họ không được phép."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.23 (A05:2017): điều khiển truy cập yếu cho phép người dùng truy cập tính năng/dữ liệu không được phép."
   },
   {
     "id": 103,
@@ -1340,7 +1442,8 @@
       "Không xác thực đầu vào từ người dùng"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.24 (A02:2021): lưu mật khẩu plaintext là lỗi mật mã (Cryptographic Failures)."
   },
   {
     "id": 104,
@@ -1353,7 +1456,8 @@
       "Lưu log không đúng định dạng"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán (theo A05): để mặc định tài khoản quản trị và cổng dịch vụ là lỗi cấu hình an ninh."
   },
   {
     "id": 105,
@@ -1366,7 +1470,8 @@
       "Bảo vệ trình duyệt"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.50, SL C2 tr.93: biện pháp gồm bảo vệ cookie, cơ chế xác thực an toàn, làm phiền người dùng, dùng ngưỡng, chống phishing, bảo vệ mật khẩu; không có 'bảo vệ trình duyệt'."
   },
   {
     "id": 106,
@@ -1379,7 +1484,8 @@
       "Các lỗi cài đặt mã hóa"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.53, SL C2 tr.110: đúng ra là 'lỗi cài đặt hệ mã hóa', không phải 'lỗi cài đặt hệ thống'."
   },
   {
     "id": 107,
@@ -1392,7 +1498,8 @@
       "Bản thân cây DOM"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.31: mã XSS có thể được chèn vào các thuộc tính của DOM."
   },
   {
     "id": 108,
@@ -1405,7 +1512,8 @@
       "máy chủ host cơ sở dữ liệu."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.47, SL C2 tr.65: mức cao nhất là chiếm quyền điều khiển hệ thống máy chủ cơ sở dữ liệu."
   },
   {
     "id": 109,
@@ -1418,7 +1526,8 @@
       "Yêu cầu viết tài liệu, Ánh xạ chính sách – điều khiển, Xác minh máy khách"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.56, SL C2 tr.128: gồm yêu cầu viết tài liệu, ánh xạ chính sách – kiểm soát, xác minh máy khách…"
   },
   {
     "id": 110,
@@ -1431,7 +1540,8 @@
       "XSS firewall và XSS escap"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37, SL C2 tr.35: 2 biện pháp là XSS filter và XSS escape."
   },
   {
     "id": 111,
@@ -1444,7 +1554,8 @@
       "Tạo môi trường cho tấn công CSRF"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.29, SL C2 tr.111: XSS có thể cấu hình lại bộ định tuyến nội bộ để bỏ qua tường lửa, chứ không cấu hình lại tường lửa."
   },
   {
     "id": 112,
@@ -1457,7 +1568,8 @@
       "Vét cạn, CSFR, XSS."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.48: các dạng gồm phát lại định danh phiên, vét cạn, nghe lén, khởi tạo lại mật khẩu, XSS/SQLi; CSRF không có trong danh sách."
   },
   {
     "id": 113,
@@ -1470,7 +1582,8 @@
       "Ứng dụng web sử dụng các câu lệnh SQL động, trong đó có thao tác nối mã SQL với mã web."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.43-44: nguyên nhân là dùng câu lệnh SQL động nối dữ liệu người dùng với mã SQL."
   },
   {
     "id": 114,
@@ -1483,7 +1596,8 @@
       "UNION INSERT"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.46, SL C2 tr.79: dùng UNION SELECT để ghép kết quả và đánh cắp dữ liệu."
   },
   {
     "id": 115,
@@ -1496,7 +1610,8 @@
       "cài đặt và lan truyền của các phần mềm độc hại."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.58, SL C2 tr.134: tấn công trình duyệt thường đi kèm cài đặt và lan truyền phần mềm độc hại (malware)."
   },
   {
     "id": 116,
@@ -1509,7 +1624,8 @@
       "làm yếu mô hình an ninh"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.58, SL C2 tr.138: trình cắm thiết kế/kiểm thử kém có thể làm yếu mô hình an ninh của trình duyệt."
   },
   {
     "id": 117,
@@ -1522,7 +1638,8 @@
       "User-Agent và Referrer."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.30-31, SL C2 tr.11: User-Agent và Referer trong HTTP header thường bị dùng để chèn mã."
   },
   {
     "id": 118,
@@ -1535,7 +1652,8 @@
       "COM-based/Locale XSS"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.32, SL C2 tr.18: 3 loại XSS gồm Stored, Reflected, DOM-based/Local XSS."
   },
   {
     "id": 119,
@@ -1548,7 +1666,8 @@
       "Đánh cắp các thông tin trong máy chủ web"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.43: SQLi đánh cắp thông tin trong CSDL, không phải thông tin trên máy chủ web."
   },
   {
     "id": 120,
@@ -1561,7 +1680,8 @@
       "các hàm giấu tin / ngăn chặn giả mạo"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.60, SL C2 tr.152: DNSSEC bổ sung hàm mật mã vào DNS để ngăn chặn giả mạo."
   },
   {
     "id": 121,
@@ -1574,7 +1694,8 @@
       "XSS filter, XSS escape, Web page."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37 (Hình 2.7), SL C2 tr.39: dữ liệu đi qua XSS filter → XSS escape → Web page."
   },
   {
     "id": 122,
@@ -1587,7 +1708,8 @@
       "giúp lọc được nhiều dạng chuỗi XSS"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37: biểu thức chính quy giúp lọc được nhiều dạng chuỗi XSS hơn."
   },
   {
     "id": 123,
@@ -1600,7 +1722,8 @@
       "chính sách và áp dụng."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.53-54: một dạng là khai thác các lỗi trong chính sách và áp dụng."
   },
   {
     "id": 124,
@@ -1613,7 +1736,8 @@
       "Thành phần URL()"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.31: mã XSS có thể chèn qua thuộc tính url() trong CSS."
   },
   {
     "id": 125,
@@ -1626,7 +1750,8 @@
       "nhiều lớp tường lửa và chuyển hướng lưu lượng"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.60, SL C2 tr.151: Tor dùng nhiều lớp mã hóa và chuyển hướng lưu lượng."
   },
   {
     "id": 126,
@@ -1639,7 +1764,8 @@
       "máy chủ ứng dụng."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.43: mã SQL chèn vào cuối cùng được thực hiện trên máy chủ cơ sở dữ liệu."
   },
   {
     "id": 127,
@@ -1652,7 +1778,8 @@
       "URI Components, From Fields, JSON"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.30, SL C2 tr.8: vị trí chèn gồm URI Components, Form Fields, HTTP Request Header &amp; Cookie, JSON, DOM, CSS."
   },
   {
     "id": 128,
@@ -1665,7 +1792,8 @@
       "file có chứa mã độc."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.42, SL C2 tr.58: CSRF bẫy nạn nhân tải trang web có chứa yêu cầu độc hại."
   },
   {
     "id": 129,
@@ -1678,7 +1806,8 @@
       "Tor"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.60, SL C2 tr.150: tạo tài khoản riêng chạy trình duyệt cho dịch vụ quan trọng là cô lập trình duyệt."
   },
   {
     "id": 130,
@@ -1691,7 +1820,8 @@
       "60 và 62"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37: &lt; → &amp;#60, &gt; → &amp;#62."
   },
   {
     "id": 131,
@@ -1704,7 +1834,8 @@
       "Stored XSS"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.33-35: Reflected và DOM-based/Local đều bẫy người dùng mở URL chứa mã; Stored XSS lưu sẵn mã trong CSDL nên không cần URL bẫy."
   },
   {
     "id": 132,
@@ -1717,7 +1848,8 @@
       "XSS escape"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37: XSS filter gây khó cho người dùng nhập HTML hợp lệ; XSS escape vẫn cho nhập nhưng biến mã thành dữ liệu thường."
   },
   {
     "id": 133,
@@ -1730,7 +1862,8 @@
       "Cấu hình giao thức bảo mật SSL/TSL, Tor, DNSSEC"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.59, SL C2 tr.146: các biện pháp gồm cô lập trình duyệt, Tor, DNSSEC (cùng SSL/TLS, duyệt web an toàn)."
   },
   {
     "id": 134,
@@ -1743,7 +1876,8 @@
       "Đưa script vào dữ liệu"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C2 tr.53: một kỹ thuật vượt bộ lọc là dùng các ký tự mã hóa."
   },
   {
     "id": 135,
@@ -1756,7 +1890,8 @@
       "máy khách."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.29, SL C2 tr.4: mã XSS chạy trong trình duyệt, truy cập được thông tin nhạy cảm lưu trong trình duyệt."
   },
   {
     "id": 136,
@@ -1769,7 +1904,8 @@
       "Sử dụng thủ tục cơ sở dữ liệu kết hợp với không cho phép thực hiện trực tiếp các câu lệnh SQL trên các bảng dữ liệu."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.48: tốt nhất là thủ tục hóa mọi câu lệnh và không cấp quyền chạy SQL trực tiếp trên bảng."
   },
   {
     "id": 137,
@@ -1782,7 +1918,8 @@
       "Các máy tìm kiếm cho phép người dùng nhập từ khóa và tìm thông tin."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.32, SL C2 tr.19: Stored XSS hay nhắm vào diễn đàn, nơi người dùng đăng bài và phản hồi."
   },
   {
     "id": 138,
@@ -1795,7 +1932,8 @@
       "Các diễn đàn cho phép người dùng đăng các mẩu tin và gửi phản hồi."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.33, SL C2 tr.22: Reflected XSS hay xuất hiện ở máy tìm kiếm và trang có tính năng tìm kiếm."
   },
   {
     "id": 139,
@@ -1808,7 +1946,8 @@
       "document.URL và document.div"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.35, SL C2 tr.27: DOM-based XSS dùng document.URL và document.location."
   },
   {
     "id": 140,
@@ -1821,7 +1960,8 @@
       "kiểm tra nội dung và định dạng dữ liệu đầu vào."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.47, SL C2 tr.87: kiểm tra kích thước và định dạng dữ liệu đầu vào."
   },
   {
     "id": 141,
@@ -1834,7 +1974,8 @@
       "truy cập cơ sở dữ liệu để lấy thông tin gửi cho người dùng."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.33: script trên máy chủ tạo ra kết quả và hiển thị lại ngay cho người dùng."
   },
   {
     "id": 142,
@@ -1847,7 +1988,8 @@
       "đánh cắp thông tin lưu trong máy chủ cơ sở dữ liệu."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.29, SL C2 tr.4: XSS nhằm đánh cắp thông tin lưu trong trình duyệt người dùng."
   },
   {
     "id": 143,
@@ -1860,7 +2002,8 @@
       "tách dữ liệu khỏi mã SQL."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.48: dữ liệu truyền vào thủ tục qua tham số, giúp tách dữ liệu khỏi mã lệnh SQL."
   },
   {
     "id": 144,
@@ -1873,7 +2016,8 @@
       "Sử dụng \"chuỗi đồng bộ\""
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.43, SL C2 tr.62-63: biện pháp là 'chuỗi đồng bộ', CAPTCHA, Viewstate, thư viện chuẩn, OTP; không có 'chuỗi mã hóa'."
   },
   {
     "id": 145,
@@ -1886,7 +2030,8 @@
       "thông tin cá nhân và chứng thư số"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.42, SL C2 tr.58: CSRF dùng thông tin nhận dạng và quyền truy cập của nạn nhân."
   },
   {
     "id": 146,
@@ -1899,7 +2044,8 @@
       "máy chủ hoặc máy khách."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37: bộ lọc phải chạy trên máy chủ vì bộ lọc phía máy khách dễ bị vô hiệu hóa."
   },
   {
     "id": 147,
@@ -1912,7 +2058,8 @@
       "Reflective XSS"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.32-33: tên đúng là Reflected XSS."
   },
   {
     "id": 148,
@@ -1925,7 +2072,8 @@
       "Reflected XSS"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.32, SL C2 tr.19: Stored XSS nhúng mã vào nội dung và lưu trong CSDL của website."
   },
   {
     "id": 149,
@@ -1938,7 +2086,8 @@
       "máy chủ web"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.29: mã XSS chạy trên trình duyệt, tức máy khách web."
   },
   {
     "id": 150,
@@ -1951,7 +2100,8 @@
       "Bộ lọc kiểm tra dữ liệu đầu vào"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.48: thủ tục CSDL kết hợp không cho thực hiện SQL trực tiếp trên bảng là hiệu quả nhất."
   },
   {
     "id": 151,
@@ -1964,7 +2114,8 @@
       "SQLcheck"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.48, SL C2 tr.90: SQLMap là công cụ rà quét và khai thác SQLi."
   },
   {
     "id": 152,
@@ -1977,7 +2128,8 @@
       "LDAP"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.29: XSS có thể xem là một dạng chèn mã HTML."
   },
   {
     "id": 153,
@@ -1992,7 +2144,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.30: mã HTML/XSS có thể chèn vào mọi vị trí trong địa chỉ (URI) và nội dung trang web."
   },
   {
     "id": 154,
@@ -2004,7 +2157,8 @@
       "người dùng quên mật khẩu"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.29: XSS xuất hiện khi trang cho người dùng nhập dữ liệu rồi hiển thị lại lên trang."
   },
   {
     "id": 155,
@@ -2021,7 +2175,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.32, SL C2 tr.18: Stored, Reflected, DOM-based/Local; không có 'Virtual XSS'."
   },
   {
     "id": 156,
@@ -2034,7 +2189,8 @@
       "trình duyệt web/nội dung của trang web"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.32: mã nhúng trong nội dung trang web và lưu trong CSDL của website."
   },
   {
     "id": 157,
@@ -2046,7 +2202,8 @@
       "các trang web trên hệ thống file cục bộ của người dùng"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.32: diễn đàn, web thương mại cho bình luận, mạng xã hội, ứng dụng nhắn tin."
   },
   {
     "id": 158,
@@ -2059,7 +2216,8 @@
       "người dùng/người dùng"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.33: dữ liệu do người dùng cung cấp, kết quả hiển thị lại ngay cho người dùng."
   },
   {
     "id": 159,
@@ -2071,7 +2229,8 @@
       "các trang web trên hệ thống file cục bộ của người dùng."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.33: Reflected XSS hay xuất hiện ở máy tìm kiếm và trang có tính năng tìm kiếm."
   },
   {
     "id": 160,
@@ -2084,7 +2243,8 @@
       "cây phi tuyến tính"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.35: DOM biểu diễn tài liệu dạng cây phân cấp, mỗi phần tử là một nút."
   },
   {
     "id": 161,
@@ -2097,7 +2257,8 @@
       "các diễn đàn cho phép người dùng đăng các bài viết và gửi các phản hồi, các website thương mại điện tử cho phép người dùng thêm nhận xét (comment) về sản phẩm, hoặc các mạng xã hội, các ứng dụng nhắn tin cho phép gửi tin nhắn qua các trang web."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.35: DOM-based XSS liên quan đến script phía máy khách dùng đối tượng DOM như document.URL, document.location."
   },
   {
     "id": 162,
@@ -2110,7 +2271,8 @@
       "trình duyệt web/máy chủ"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37: lọc trên máy chủ, vì bộ lọc trên máy khách dễ bị vô hiệu hóa."
   },
   {
     "id": 163,
@@ -2122,7 +2284,8 @@
       "tốn bộ nhớ máy khách"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37: bộ lọc gây khó cho người dùng nhập văn bản hợp lệ có chứa HTML/JavaScript."
   },
   {
     "id": 164,
@@ -2135,7 +2298,8 @@
       "cho phép vô hiệu hóa tấn công XSS bằng cách thay thế các ký tự riêng (Character Escaping) của HTML/script để chuyển các đoạn mã không thể thực hiện thành dữ liệu thông thường."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.37: escape thay ký tự đặc biệt để biến mã có thể thực hiện thành dữ liệu thông thường."
   },
   {
     "id": 165,
@@ -2150,7 +2314,8 @@
       0,
       1
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.40, SL C2 tr.50-57: vượt bộ lọc bằng mã script tinh xảo và XSS Cheat Sheet; 'mạo danh người dùng' không phải kỹ thuật vượt bộ lọc."
   },
   {
     "id": 166,
@@ -2170,7 +2335,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.43, SL C2 tr.63: cả 5 biện pháp đều có trong giáo trình."
   },
   {
     "id": 167,
@@ -2187,7 +2353,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.43: OWASP CSRF Guard, PHP CSRF Guard, .Net CSRF Guard."
   },
   {
     "id": 168,
@@ -2200,7 +2367,8 @@
       "đánh cắp các thông tin trong cơ sở dữ liệu"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.43: mức cao nhất là chiếm quyền điều khiển hệ thống máy chủ CSDL."
   },
   {
     "id": 169,
@@ -2216,7 +2384,8 @@
       0,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.43-44: đầu vào không được kiểm tra và dùng SQL động nối dữ liệu với mã SQL."
   },
   {
     "id": 170,
@@ -2229,7 +2398,8 @@
       "chiếm quyền điều khiển hệ thống máy chủ cơ sở dữ liệu"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.46: câu INSERT thêm tài khoản quản trị thuộc mức chèn, sửa, xóa dữ liệu."
   },
   {
     "id": 171,
@@ -2242,7 +2412,8 @@
       "chiếm quyền điều khiển hệ thống máy chủ cơ sở dữ liệu"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.44: OR 1=1-- làm điều kiện luôn đúng nên vượt qua khâu xác thực."
   },
   {
     "id": 172,
@@ -2259,7 +2430,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.47-48: kiểm tra/lọc đầu vào, thủ tục và tham số hóa, thiết lập quyền người dùng CSDL; bảo vệ cookie không chống SQLi."
   },
   {
     "id": 173,
@@ -2276,7 +2448,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.47: kiểm tra mọi đầu vào, kiểm tra kích thước/định dạng, lọc ký tự đặc biệt và từ khóa SQL."
   },
   {
     "id": 174,
@@ -2293,7 +2466,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.48: đưa truy vấn vào thủ tục, hạn chế SQL động trong thủ tục, dùng tham số hóa của ASP.NET/PHP/JSP."
   },
   {
     "id": 175,
@@ -2310,7 +2484,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.48: không dùng tài khoản quản trị, chia nhóm cấp quyền vừa đủ, vô hiệu hóa thủ tục hệ thống."
   },
   {
     "id": 176,
@@ -2323,7 +2498,8 @@
       "bí mật người dùng (User confidental)"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.48: tấn công vào khâu xác thực thông tin định danh người dùng."
   },
   {
     "id": 177,
@@ -2343,7 +2519,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.48, SL C2 tr.92: phát lại định danh phiên, vét cạn, nghe lén, khởi tạo lại mật khẩu, XSS/SQLi."
   },
   {
     "id": 178,
@@ -2355,7 +2532,8 @@
       "WAN"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.49: WLAN dễ bị nghe lén do tín hiệu truyền qua không khí."
   },
   {
     "id": 179,
@@ -2375,7 +2553,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.50, SL C2 tr.93: cả 5 nhóm biện pháp đều được liệt kê."
   },
   {
     "id": 180,
@@ -2395,7 +2574,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.51: cả 5 biện pháp bảo vệ cookie đều có trong giáo trình."
   },
   {
     "id": 181,
@@ -2414,7 +2594,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.51: mật khẩu băm, SSL/TLS, OTP/Challenge-Response, OAuth/OpenID; 'Remember Me' thuộc nhóm bảo vệ cookie."
   },
   {
     "id": 182,
@@ -2427,7 +2608,8 @@
       "máy khách/máy chủ"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.52: thông báo cho người dùng về sự kiện liên quan đến tài khoản của họ."
   },
   {
     "id": 183,
@@ -2440,7 +2622,8 @@
       "cơ sở dữ liệu/máy chủ/người dùng"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.52: đảm bảo trang web thực sự được tải từ máy chủ và thông tin do người dùng thực nhập."
   },
   {
     "id": 184,
@@ -2453,7 +2636,8 @@
       "tài nguyên/ngăn chặn"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.52: ngưỡng ngăn việc dùng quá mức tài nguyên hoặc ngăn chặn nỗ lực tấn công."
   },
   {
     "id": 185,
@@ -2466,7 +2650,8 @@
       "máy chủ/thiết kế"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.53, SL C2 tr.109: nhằm vào logic xử lý và thường không dựa vào kỹ thuật đã biết."
   },
   {
     "id": 186,
@@ -2485,7 +2670,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.53, SL C2 tr.110: gồm lạm dụng lưu trình, lỗi chính sách và áp dụng, mẫu thiết kế không an toàn, lỗi cài đặt hệ mã hóa."
   },
   {
     "id": 187,
@@ -2499,7 +2685,8 @@
       "tin tưởng vào bên máy khách."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.54: mẫu không an toàn gồm hành vi mơ hồ, trộn dữ liệu và mã, chuẩn hóa sai, tin máy khách; kiểm tra cấp quyền và lọc đầy đủ thì an toàn."
   },
   {
     "id": 188,
@@ -2512,7 +2699,8 @@
       "cơ sở dữ liệu"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.56: việc kiểm tra, lọc dữ liệu phải thực hiện trên máy chủ."
   },
   {
     "id": 189,
@@ -2528,7 +2716,8 @@
       0,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.56: không tạo được số ngẫu nhiên thực sự và dùng thuật toán mã hóa cũ, yếu."
   },
   {
     "id": 190,
@@ -2541,7 +2730,8 @@
       "mẫu số/khóa bí mật"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.56: do yêu cầu với tham số và bản thân thuật toán mã hóa không được đảm bảo."
   },
   {
     "id": 191,
@@ -2560,7 +2750,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.56: viết tài liệu, test case, ánh xạ chính sách – kiểm soát, lập trình an toàn, xác minh máy khách, hướng dẫn mã hóa; thủ tục CSDL là biện pháp chống SQLi."
   },
   {
     "id": 192,
@@ -2579,7 +2770,8 @@
       2,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.58, SL C2 tr.135: phần mềm độc hại, trình cắm, vấn đề DNS &amp; nguồn gốc, sự riêng tư người dùng."
   },
   {
     "id": 193,
@@ -2592,7 +2784,8 @@
       "trang web/miền"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.59: SOP bảo vệ DOM của các trang web, ngăn một miền can thiệp vào miền khác."
   },
   {
     "id": 194,
@@ -2605,7 +2798,8 @@
       "nguồn/nguồn/trình duyệt"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.59: nội dung từ nhiều nguồn thành cùng một nguồn, tên miền tin cậy bị ánh xạ sang IP máy chủ của tin tặc."
   },
   {
     "id": 195,
@@ -2624,7 +2818,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.59, SL C2 tr.146: SSL/TLS, duyệt web an toàn, cô lập trình duyệt, Tor và DNSSEC; tham số hóa là biện pháp chống SQLi."
   },
   {
     "id": 196,
@@ -2637,7 +2832,8 @@
       "chống chối bỏ/toàn vẹn"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.59: mã hóa đảm bảo tính bí mật, HMAC đảm bảo tính toàn vẹn và nguồn gốc dữ liệu."
   },
   {
     "id": 197,
@@ -2650,7 +2846,8 @@
       "giả mạo/máy chủ"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.60: DNSSEC ngăn chặn giả mạo bằng cách nhận dạng chính xác máy chủ tin cậy."
   },
   {
     "id": 198,
@@ -2663,7 +2860,8 @@
       "Tin tưởng vào bên máy khách"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.54: sai lầm là tin tưởng vào bên máy khách; tin vào máy chủ không phải mẫu thiết kế không an toàn."
   },
   {
     "id": 199,
@@ -2676,7 +2874,8 @@
       "Virtual XSS"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.32: 3 loại XSS là Stored, Reflected, DOM-based; không có 'Virtual XSS'."
   },
   {
     "id": 200,
@@ -2689,7 +2888,8 @@
       "các ứng dụng web"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.76, SL C3 tr.26: phiên được thực hiện bởi bản thân các ứng dụng web."
   },
   {
     "id": 201,
@@ -2702,7 +2902,8 @@
       "HTTPS Everywhere"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.88, SL C3 tr.115: HTTPS Everywhere luôn mở trang ở chế độ HTTPS nếu website hỗ trợ."
   },
   {
     "id": 202,
@@ -2715,7 +2916,8 @@
       "Skype, Xbox, Teams."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.74, SL C3 tr.18: Microsoft Account là SSO cho Windows PC, Skype, Xbox Live…; Teams là dịch vụ của Microsoft, các phương án còn lại sai chính tả."
   },
   {
     "id": 203,
@@ -2728,7 +2930,8 @@
       "2"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: thẻ ATM và OTP thuộc nhóm 'bạn có gì', PIN thuộc 'bạn biết gì', nên là 2 nhân tố."
   },
   {
     "id": 204,
@@ -2741,7 +2944,8 @@
       "không phải là việc quá khó"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.68, SL C3 tr.62: thiết lập cấu hình an toàn 'không phải là việc quá khó'."
   },
   {
     "id": 205,
@@ -2754,7 +2958,8 @@
       "3"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: email và mật khẩu thuộc 'bạn biết gì', OTP thuộc 'bạn có gì' (thiết bị nhận mã), nên là 2 nhân tố."
   },
   {
     "id": 206,
@@ -2767,7 +2972,8 @@
       "thành phần kiểm tra và giám sát phiên làm việc."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.74-75: hệ xác thực tự phát triển có thành phần kiểm tra và quản lý phiên làm việc."
   },
   {
     "id": 207,
@@ -2780,7 +2986,8 @@
       "Sử dụng các thủ tục trong CSDL"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.83, SL C3 tr.101: bảo mật hệ thống file gồm quyền truy cập, giữ bí mật mã nguồn, ẩn thông tin, liệt kê thư mục; thủ tục CSDL thuộc bảo mật CSDL."
   },
   {
     "id": 208,
@@ -2793,7 +3000,8 @@
       "từ phía máy khách."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.79, SL C3 tr.39: token lưu ở trình duyệt nên có thể bị XSS, CSRF đánh cắp từ phía máy khách."
   },
   {
     "id": 209,
@@ -2806,7 +3014,8 @@
       "Đổi mật khẩu 1 lần/tháng, Hạn chế dùng lại mật khẩu, Không dùng mật khẩu giống tên người dùng."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.76: đổi mật khẩu định kỳ, hạn chế dùng lại, không dùng mật khẩu giống tên người dùng."
   },
   {
     "id": 210,
@@ -2819,7 +3028,8 @@
       "../../../../etc/shadow"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C3 tr.75: file shadow chứa thông tin mật khẩu, đường dẫn ví dụ là ../../../../etc/shadow."
   },
   {
     "id": 211,
@@ -2832,7 +3042,8 @@
       "nhận dạng và trao quyền"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72, SL C3 tr.4: người dùng được nhận dạng và trao quyền truy cập."
   },
   {
     "id": 212,
@@ -2845,7 +3056,8 @@
       "Xác thực, Trao quyền, Quản lý."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: 3 dịch vụ là Xác thực, Trao quyền, Quản trị."
   },
   {
     "id": 213,
@@ -2858,7 +3070,8 @@
       "root/root, admin/(null), user/(null)."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.65 (Hình 3.1): bảng tài khoản ngầm định trên một số máy chủ web, gồm root/root, admin/admin, user/public."
   },
   {
     "id": 214,
@@ -2871,7 +3084,8 @@
       "Sử dụng CAPTCHA, Khóa tài khoản ít sử dụng, Không sử dụng các tài khoản ngầm định."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.76, SL C3 tr.23: dùng CAPTCHA, khóa tài khoản không sử dụng, không dùng tài khoản ngầm định."
   },
   {
     "id": 215,
@@ -2884,7 +3098,8 @@
       "đăng nhập nhiều lần / nhiều giao diện xác thực"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.74: SSO cho đăng nhập một lần qua một giao diện xác thực."
   },
   {
     "id": 216,
@@ -2897,7 +3112,8 @@
       "Cần thiết lập phạm vi chặt chẽ cho cookie trong miền (domain) và các đường dẫn (path) của nó."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.80: giáo trình ghi 'không đưa token vào URL'; phương án ghi URN là sai."
   },
   {
     "id": 217,
@@ -2910,7 +3126,8 @@
       "Thiết lập cấu hình theo các hướng dẫn tăng cường an ninh cho máy chủ và các ứng dụng web."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.68, SL C3 tr.62: thiết lập tham số cấu hình theo hướng dẫn tăng cường an ninh."
   },
   {
     "id": 218,
@@ -2923,7 +3140,8 @@
       "Token nên phụ thuộc thời gian"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.80: token mạnh thì không nên phụ thuộc thời gian."
   },
   {
     "id": 219,
@@ -2936,7 +3154,8 @@
       "session DDoS"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.81, SL C3 tr.45: đặt thời gian hết hạn phiên giúp hạn chế chiếm phiên (session hijacking)."
   },
   {
     "id": 220,
@@ -2949,7 +3168,8 @@
       "thông tin nhận thực"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: xác thực là xác minh tính chân thực của thông tin nhận dạng."
   },
   {
     "id": 221,
@@ -2962,7 +3182,8 @@
       "Các thành phần của trình duyệt bị tấn công."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.86, SL C3 tr.107: giáo trình ghi giao tiếp mạng 'có thể bị chặn bắt ở bên ngoài máy'; các phương án khác khớp nguyên văn."
   },
   {
     "id": 222,
@@ -2975,7 +3196,8 @@
       "Không lưu thông tin truy nhập vào mã (hardcoded)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.76: 'Không lưu mật khẩu dạng rõ' thuộc chỉ dẫn an toàn mật khẩu (3.2.1.3), không nằm trong danh sách cơ chế đảm bảo an toàn xác thực (3.2.1.4)."
   },
   {
     "id": 223,
@@ -2988,7 +3210,8 @@
       "hàm băm MD5."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.74, SL C3 tr.16: Digest mã hóa mật khẩu bằng hàm băm MD5."
   },
   {
     "id": 224,
@@ -3001,7 +3224,8 @@
       "Networking"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.86, SL C3 tr.105: Browser Engine là trung gian chuyển đầu vào từ UI đến Rendering Engine."
   },
   {
     "id": 225,
@@ -3014,7 +3238,8 @@
       "Session ID"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.76, SL C3 tr.26: token được gửi cho trình duyệt dưới dạng một Cookie."
   },
   {
     "id": 226,
@@ -3027,7 +3252,8 @@
       "Tính bảo mật, toàn vẹn và dễ dùng"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: mục đích là đảm bảo tính bí mật, toàn vẹn và sẵn dùng."
   },
   {
     "id": 227,
@@ -3040,7 +3266,8 @@
       "Rò rỉ token trong ghi logs"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.77: danh sách có 'bị đánh cắp từ phía máy khách', không có 'từ phía máy chủ'."
   },
   {
     "id": 228,
@@ -3053,7 +3280,8 @@
       "Token phiên có nghĩa, Token phiên đơn giản."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.77: điểm yếu khi sinh token là token có nghĩa và token dễ đoán."
   },
   {
     "id": 229,
@@ -3066,7 +3294,8 @@
       "Nhiều ứng dụng web không có tính năng Đăng xuất"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.79: lỗ hổng kết thúc phiên do nhiều ứng dụng không có tính năng Đăng xuất."
   },
   {
     "id": 230,
@@ -3079,7 +3308,8 @@
       "Lỗ hổng SQLi, lỗ hổng cho phép duyệt đường dẫn, lỗ hổng trong mã hóa và chuẩn hóa."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.69, SL C3 tr.65: tràn bộ đệm, duyệt đường dẫn, lỗi mã hóa và chuẩn hóa."
   },
   {
     "id": 231,
@@ -3092,7 +3322,8 @@
       "Thiết lập độ dài mật khẩu tối thiểu, Đảm bảo tính bí mật của mật khẩu."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.76: độ dài mật khẩu tối thiểu và đảm bảo độ khó của mật khẩu."
   },
   {
     "id": 232,
@@ -3105,7 +3336,8 @@
       "Browser engine, Rendering engine, UI Frontend."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.85: các thành phần gồm UI, Browser Engine, Rendering Engine, Networking, JS Interpreter, UI Backend, Data Persistence; không có 'UI Frontend'."
   },
   {
     "id": 233,
@@ -3118,7 +3350,8 @@
       "bảo mật tài khoản người dùng."
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.74: Basic auth nên dùng với SSL/TLS để truyền thông tin đăng nhập an toàn."
   },
   {
     "id": 234,
@@ -3131,7 +3364,8 @@
       "dễ dùng và an toàn."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "Phán đoán: GT tr.73 nói username/password là chuẩn thực tế; lý do là đơn giản, rẻ tiền (sinh trắc học ít dùng vì phức tạp và đắt)."
   },
   {
     "id": 235,
@@ -3144,7 +3378,8 @@
       "Lỗ hổng trong kết thúc phiên"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.77: danh sách có 'không giới hạn phạm vi sử dụng cookie', không có 'phạm vi token phiên'."
   },
   {
     "id": 236,
@@ -3157,7 +3392,8 @@
       "trình duyệt, máy chủ web, máy chủ proxy."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.78: log chứa token có thể ở trình duyệt, máy chủ web hoặc proxy."
   },
   {
     "id": 237,
@@ -3170,7 +3406,8 @@
       "Mật khẩu truyền không an toàn và Mật khẩu được trao đổi thường xuyên, dễ bị rò rỉ."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.74: mật khẩu truyền không an toàn (base64) và được gửi thường xuyên nên dễ lộ."
   },
   {
     "id": 238,
@@ -3183,7 +3420,8 @@
       "Địa chỉ IP và trình duyệt máy khách"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.77: máy chủ nhận dạng người dùng qua địa chỉ IP và thông tin trình duyệt máy khách."
   },
   {
     "id": 239,
@@ -3196,7 +3434,8 @@
       "Xác thực của giao thức SSL/TLS"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.73: các phương pháp dựa trên mật khẩu gồm HTTP auth, SSO, hệ tự phát triển; SSL/TLS là giao thức bảo mật kênh truyền."
   },
   {
     "id": 240,
@@ -3209,7 +3448,8 @@
       "máy khách web."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.77: qua địa chỉ IP và thông tin trên trình duyệt web."
   },
   {
     "id": 241,
@@ -3226,7 +3466,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.65, SL C3 tr.52: tài khoản quản trị ngầm định, nội dung ngầm định, liệt kê thư mục và phương thức nguy hiểm; token phiên thuộc quản lý phiên."
   },
   {
     "id": 242,
@@ -3243,7 +3484,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.69, SL C3 tr.65: tràn bộ đệm, duyệt đường dẫn, mã hóa và chuẩn hóa."
   },
   {
     "id": 243,
@@ -3256,7 +3498,8 @@
       "ứng dụng web/nguồn"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.70: xuất hiện khi ứng dụng web đọc/ghi file dựa trên tham số người dùng cung cấp."
   },
   {
     "id": 244,
@@ -3268,7 +3511,8 @@
       "bị ghi đè lên các dữ liệu quan trọng"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.70: trường hợp xấu nhất là tin tặc giành quyền kiểm soát cả ứng dụng web và máy chủ."
   },
   {
     "id": 245,
@@ -3285,7 +3529,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.71, SL C3 tr.74: hạn chế đọc/ghi theo tham số, lọc chuỗi ../, giới hạn thư mục truy cập."
   },
   {
     "id": 246,
@@ -3302,7 +3547,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.72: Xác thực, Trao quyền, Quản trị; mã hóa không phải dịch vụ của kiểm soát truy cập."
   },
   {
     "id": 247,
@@ -3314,7 +3560,8 @@
       "dịch vụ cung cấp khả năng thêm, bớt và sửa đổi các thông tin tài khoản người dùng, cũng như quyền truy nhập của người dùng trong hệ thống"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: xác thực là xác minh tính chân thực của thông tin nhận dạng."
   },
   {
     "id": 248,
@@ -3326,7 +3573,8 @@
       "dịch vụ cung cấp khả năng thêm, bớt và sửa đổi các thông tin tài khoản người dùng, cũng như quyền truy nhập của người dùng trong hệ thống"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: trao quyền xác định các tài nguyên người dùng được phép truy cập."
   },
   {
     "id": 249,
@@ -3338,7 +3586,8 @@
       "dịch vụ cung cấp khả năng thêm, bớt và sửa đổi các thông tin tài khoản người dùng, cũng như quyền truy nhập của người dùng trong hệ thống"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: quản trị là thêm, bớt, sửa tài khoản và quyền truy cập."
   },
   {
     "id": 250,
@@ -3351,7 +3600,8 @@
       "Mã hóa (Encryption)"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: xác thực là khâu đầu tiên của kiểm soát truy cập."
   },
   {
     "id": 251,
@@ -3364,7 +3614,8 @@
       "bí mật (Confidentiality), toàn vẹn (Intelligence), sẵn dùng (Avanced)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.72: tính bí mật (Confidentiality), toàn vẹn (Integrity), sẵn dùng (Availability)."
   },
   {
     "id": 252,
@@ -3381,7 +3632,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.72: 3 nhân tố là Bạn là ai, Bạn biết gì, Bạn có gì."
   },
   {
     "id": 253,
@@ -3397,7 +3649,8 @@
       0,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.73: HTTP cung cấp Basic và Digest access authentication."
   },
   {
     "id": 254,
@@ -3416,7 +3669,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.74: nhược điểm là base64 dễ giải mã, gửi mật khẩu thường xuyên, lưu không an toàn trong cookie, không thể đăng xuất; Basic auth thì đơn giản, dễ làm."
   },
   {
     "id": 255,
@@ -3429,7 +3683,8 @@
       "AES"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.74: Digest dùng hàm băm MD5."
   },
   {
     "id": 256,
@@ -3442,7 +3697,8 @@
       "nhiều/một"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.74: đăng nhập một lần để truy cập nhiều hệ thống, dịch vụ."
   },
   {
     "id": 257,
@@ -3455,7 +3711,8 @@
       "5"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.77: có 2 dạng điểm yếu, trong sinh token và trong sử dụng token."
   },
   {
     "id": 258,
@@ -3471,7 +3728,8 @@
       0,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.77: token có nghĩa và token dễ đoán; rò rỉ token và ánh xạ phiên là điểm yếu khi sử dụng token."
   },
   {
     "id": 259,
@@ -3484,7 +3742,8 @@
       "Token bị đánh cắp từ phía máy khách"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.77: token dễ đoán gồm che dấu thứ tự, phụ thuộc thời gian, số ngẫu nhiên yếu."
   },
   {
     "id": 260,
@@ -3503,7 +3762,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.77: rò rỉ token (mạng, log), ánh xạ phiên, kết thúc phiên, bị đánh cắp phía máy khách, phạm vi cookie."
   },
   {
     "id": 261,
@@ -3516,7 +3776,8 @@
       "ứng dụng tạo các token từ các thành phần có nghĩa như tên người dùng, email, ngày tháng,..."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.79: do ứng dụng cho phép nhiều phiên trên cùng một tài khoản."
   },
   {
     "id": 262,
@@ -3529,7 +3790,8 @@
       "hệ thống không đặt thời gian hết hạn cho phiên khi người dùng không có hoạt động trong một khoảng thời gian"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.79: 'nhiều phiên trên một tài khoản' là nguyên nhân của lỗ hổng ánh xạ token, không phải lỗ hổng kết thúc phiên."
   },
   {
     "id": 263,
@@ -3546,7 +3808,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.80: sinh token mạnh, bảo vệ token cả vòng đời, ghi log/giám sát/cảnh báo."
   },
   {
     "id": 264,
@@ -3563,7 +3826,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.82: SQLi, thiết lập quyền truy cập CSDL, an toàn cho thủ tục; duyệt đường dẫn thuộc máy chủ web."
   },
   {
     "id": 265,
@@ -3579,7 +3843,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.83: thủ tục chặn SQLi, tăng hiệu năng và hạn chế quyền truy cập trực tiếp vào bảng."
   },
   {
     "id": 266,
@@ -3598,7 +3863,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.83: quyền truy cập, bí mật mã nguồn, ẩn thông tin, liệt kê và duyệt thư mục."
   },
   {
     "id": 267,
@@ -3615,7 +3881,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.86: 3 nhóm là phương thức tấn công, mục đích tấn công, tính năng có nguy cơ."
   },
   {
     "id": 268,
@@ -3635,7 +3902,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.87: tất cả các phương án đều có trong giáo trình."
   },
   {
     "id": 269,
@@ -3654,7 +3922,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.89: tần suất cập nhật, số lỗ hổng bị khai thác, sandbox, chặn mã độc dùng kỹ thuật xã hội."
   },
   {
     "id": 270,
@@ -3667,7 +3936,8 @@
       "Các trang quản trị"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.84: trang quản trị cần bổ sung giới hạn máy/mạng truy cập theo địa chỉ IP."
   },
   {
     "id": 271,
@@ -3680,7 +3950,8 @@
       "Số lượng lỗ hổng được phát hiện/khai thác"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.89: các tiêu chí không có 'tính năng chatbox'."
   },
   {
     "id": 272,
@@ -3693,7 +3964,8 @@
       "Firefox"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.91: Chrome có điểm bảo mật tổng thể cao nhất (16/17)."
   },
   {
     "id": 273,
@@ -3706,7 +3978,8 @@
       "BSIMM"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C4 tr.7: các mô hình gồm MS SDL, CLASP, SAMM, BSIMM; 'DSIMM' không tồn tại."
   },
   {
     "id": 274,
@@ -3719,7 +3992,8 @@
       "Views, Best Practices, Real Activities, Resources, Taxonomy"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.100: CLASP gồm Views, Best Practices, Activities, Resources, Taxonomy."
   },
   {
     "id": 275,
@@ -3732,7 +4006,8 @@
       "Kiểm thử"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.92: phát triển và triển khai gồm phân tích, thiết kế, lập trình, kiểm thử, triển khai, bảo trì; giám sát thuộc giai đoạn hoạt động."
   },
   {
     "id": 276,
@@ -3745,7 +4020,8 @@
       "Implementation, Verification, Release, Response"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.97-98: Training → Requirements → Design → Implementation → Verification → Release → Response."
   },
   {
     "id": 277,
@@ -3757,7 +4033,8 @@
       "Mật mã, Quản lý khóa, Xử lý các tham số, Quản lý các ngoại lệ"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.95: định hướng thiết kế gồm mã hóa, quản lý phiên, xử lý các tham số, quản lý các ngoại lệ…"
   },
   {
     "id": 278,
@@ -3770,7 +4047,8 @@
       "cho hiệu quả cao và tiết kiệm chi phí."
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.92 (Hình 4.1): lỗi phát hiện sớm có chi phí khắc phục nhỏ hơn rất nhiều, cho hiệu quả cao và tiết kiệm chi phí."
   },
   {
     "id": 279,
@@ -3783,7 +4061,8 @@
       "khó thực hiện do cần các công cụ kiểm thử xâm nhập đắt tiền."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.93: hạn chế của hướng toàn diện là thời gian dài và chi phí lớn."
   },
   {
     "id": 280,
@@ -3796,7 +4075,8 @@
       "BSIMM"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C4 tr.7: có OWASP CLASP, không có 'CLASS'."
   },
   {
     "id": 281,
@@ -3809,7 +4089,8 @@
       "Pha Kiểm tra"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.98: 'phân tích, hoặc giảm giao diện tấn công' thuộc pha Thiết kế."
   },
   {
     "id": 282,
@@ -3822,7 +4103,8 @@
       "Preventing session hijacking and cookie replay attacks"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.93: với dữ liệu truyền nhận giữa trình duyệt và máy chủ web: bảo vệ dữ liệu nhạy cảm, chống xử lý tham số, chống chiếm phiên; cấu hình an toàn áp dụng cho máy chủ web."
   },
   {
     "id": 283,
@@ -3835,7 +4117,8 @@
       "Thiết kế"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.92: giai đoạn phát triển không có khâu 'nâng cấp' (nâng cấp thuộc giai đoạn hoạt động)."
   },
   {
     "id": 284,
@@ -3848,7 +4131,8 @@
       "cho phép sớm phát hiện lỗi và có thể khắc phục nhanh."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.92: lỗi phát hiện sớm thì tiết kiệm chi phí khắc phục."
   },
   {
     "id": 285,
@@ -3861,7 +4145,8 @@
       "mã cài đặt / việc triển khai"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.96: đánh giá thiết kế và kiến trúc, đánh giá mã cài đặt và đánh giá việc triển khai."
   },
   {
     "id": 286,
@@ -3874,7 +4159,8 @@
       "Kiểm thử mã nguồn (Coding Testing)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.92: khắc phục ở khâu Xác định yêu cầu/Thiết kế có chi phí thấp nhất."
   },
   {
     "id": 287,
@@ -3890,7 +4176,8 @@
       0,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.92: 2 hướng là 'thâm nhập và vá' và hướng tiếp cận toàn diện."
   },
   {
     "id": 288,
@@ -3902,7 +4189,8 @@
       "hộp xám"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.93: 'thâm nhập và vá' tương tự hướng tiếp cận hộp đen."
   },
   {
     "id": 289,
@@ -3915,7 +4203,8 @@
       "không thể hạn chế đến tối thiểu các lỗi bảo mật"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.93: thời gian thực hiện dài và chi phí lớn."
   },
   {
     "id": 290,
@@ -3928,7 +4217,8 @@
       "Thực hiện cấu hình an toàn (Providing secure configuration)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.93: với trình duyệt, cần xác thực người dùng."
   },
   {
     "id": 291,
@@ -3946,7 +4236,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.93: bảo vệ dữ liệu nhạy cảm, chống xử lý tham số, chống chiếm phiên và tái sử dụng cookie."
   },
   {
     "id": 292,
@@ -3965,7 +4256,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.93-94: máy chủ web cần cấu hình an toàn, kiểm tra đầu vào, cấp quyền người dùng, xử lý ngoại lệ."
   },
   {
     "id": 293,
@@ -3982,7 +4274,8 @@
       0,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.94: máy chủ ứng dụng cần xác thực/cấp quyền luồng đến, kiểm toán và ghi log."
   },
   {
     "id": 294,
@@ -3995,7 +4288,8 @@
       "Xử lý các ngoại lệ (Handling exceptions)"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.94: dữ liệu giữa máy chủ ứng dụng và máy chủ CSDL cần được bảo vệ dữ liệu nhạy cảm."
   },
   {
     "id": 295,
@@ -4008,7 +4302,8 @@
       "Cấp quyền người dùng (Authorising users)"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.94: máy chủ CSDL cần mã hóa hoặc băm dữ liệu nhạy cảm."
   },
   {
     "id": 296,
@@ -4025,7 +4320,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.98: yêu cầu bảo mật và riêng tư, ngưỡng chất lượng/lỗi, đánh giá rủi ro."
   },
   {
     "id": 297,
@@ -4042,7 +4338,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.98: yêu cầu thiết kế, phân tích/giảm giao diện tấn công, mô hình mối đe dọa."
   },
   {
     "id": 298,
@@ -4059,7 +4356,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.99: công cụ được phê duyệt, hạn chế hàm không an toàn, phân tích tĩnh mã."
   },
   {
     "id": 299,
@@ -4076,7 +4374,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.99: phân tích động, kiểm thử xâm nhập, đánh giá bề mặt tấn công."
   },
   {
     "id": 300,
@@ -4093,7 +4392,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.99: kế hoạch phản ứng sự cố, đánh giá an ninh lần cuối, chứng nhận phát hành và lưu trữ."
   },
   {
     "id": 301,
@@ -4112,7 +4412,8 @@
       3,
       4
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.100: 4 nghiệp vụ là Governance, Construction, Verification, Deployment."
   },
   {
     "id": 302,
@@ -4129,7 +4430,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.101: Strategy &amp; Metrics, Policy &amp; Compliance, Education &amp; Guidance; Secure Architecture thuộc Construction."
   },
   {
     "id": 303,
@@ -4146,7 +4448,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.101: Design Review, Code Review, Security Testing."
   },
   {
     "id": 304,
@@ -4163,7 +4466,8 @@
       1,
       2
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.101: Vulnerability Management, Environment Hardening, Operational Enablement."
   },
   {
     "id": 305,
@@ -4176,7 +4480,8 @@
       "Software Availability Maturity Model"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.100: SAMM = Software Assurance Maturity Model."
   },
   {
     "id": 306,
@@ -4189,7 +4494,8 @@
       "Microsoft Security Development Lifestyle"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.97: SDL = Security Development Lifecycle."
   },
   {
     "id": 307,
@@ -4206,7 +4512,8 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.98: 3 định hướng là yêu cầu bảo mật và riêng tư, ngưỡng chất lượng, đánh giá rủi ro."
   },
   {
     "id": 308,
@@ -4219,7 +4526,8 @@
       "Pha Cài đặt"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.99: 'thực hiện phân tích động' thuộc pha Kiểm tra."
   },
   {
     "id": 309,
@@ -4232,7 +4540,8 @@
       "Pha Kiểm tra"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.99: 'thực hiện phân tích tĩnh mã' thuộc pha Cài đặt."
   },
   {
     "id": 310,
@@ -4245,7 +4554,8 @@
       "Pha Cài đặt"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.98: pha Huấn luyện là bước chuẩn bị để thực hiện hiệu quả SDL."
   },
   {
     "id": 311,
@@ -4258,7 +4568,8 @@
       "Kiểm tra"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.100: pha Phản ứng thực thi kế hoạch phản ứng sự cố lập ở pha Phát hành."
   },
   {
     "id": 312,
@@ -4271,7 +4582,8 @@
       "chứng nhận phát hành và lưu trữ"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.99: kiểm thử xâm nhập thuộc pha Kiểm tra, không thuộc pha Phát hành."
   },
   {
     "id": 313,
@@ -4288,7 +4600,8 @@
       1,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.99: phân tích động thuộc pha Kiểm tra, không thuộc pha Cài đặt."
   },
   {
     "id": 314,
@@ -4301,7 +4614,8 @@
       "Implementation"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.97: các pha là Training, Requirements, Design, Implementation, Verification, Release, Response; không có Education."
   },
   {
     "id": 315,
@@ -4314,7 +4628,8 @@
       "Hệ điều hành, Hệ thống cơ sở dữ liệu, File dữ liệu, Dữ liệu"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.112: các lớp gồm Con người, Ứng dụng, Mạng, Hệ điều hành, DBMS, File dữ liệu, Dữ liệu."
   },
   {
     "id": 316,
@@ -4327,7 +4642,8 @@
       "Weak Audit Trail, Storage Media Exposure, Managed Sensitive Data"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.111, SL C5 tr.34: Imperva 2015 có Weak Audit Trail, Storage Media Exposure, Unmanaged Sensitive Data."
   },
   {
     "id": 317,
@@ -4340,7 +4656,8 @@
       "SQL Injections"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "SL C5 tr.91: 'Not Doing Anything' (không làm gì cả) có tác hại tương đương hành động phá hoại của tin tặc."
   },
   {
     "id": 318,
@@ -4353,7 +4670,8 @@
       "Con người, mã độc, thảm họa kỹ thuật."
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.111: đe dọa đến từ con người, mã độc, tai họa công nghệ (và tai họa tự nhiên)."
   },
   {
     "id": 319,
@@ -4366,7 +4684,8 @@
       "Lạm dụng các thành phần của cơ sở dữ liệu, Sử dụng các câu truy vấn phức tạp, Khai thác các lỗi hoặc khiếm khuyết"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.114, SL C5 tr.47: lạm dụng tính năng, truy vấn phức tạp, khai thác lỗi/khiếm khuyết (và tấn công qua lớp ứng dụng)."
   },
   {
     "id": 320,
@@ -4379,7 +4698,8 @@
       "Cấu hình cơ sở dữ liệu, Đặt giới hạn sử dụng tài nguyên, Cập nhật các bản vá"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.115, SL C5 tr.54: cấu hình máy chủ và CSDL, giới hạn tài nguyên, cập nhật bản vá (và giám sát, tường lửa)."
   },
   {
     "id": 321,
@@ -4392,7 +4712,8 @@
       "trực tiếp / gián tiếp"
     ],
     "answer": 2,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.117: trojan thực thi gián tiếp các tác vụ mà tác giả không thể làm trực tiếp vì không có quyền."
   },
   {
     "id": 322,
@@ -4405,7 +4726,8 @@
       "Con người, Hệ thống, Dữ liệu"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.110: bảo mật CSDL liên quan 3 yếu tố Con người, Phần mềm, Dữ liệu."
   },
   {
     "id": 323,
@@ -4418,7 +4740,8 @@
       "Giám sát hoạt động của cơ sở dữ liệu"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.115, SL C5 tr.55: hai biện pháp này thuộc nhóm 'Cấu hình máy chủ và cơ sở dữ liệu'."
   },
   {
     "id": 324,
@@ -4431,7 +4754,8 @@
       "Excessive User & Group Privileges, Unnecessary Enabled DBMS Features, Broken Configuration Management"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.118, SL C5 tr.69: Excessive User &amp; Group Privileges, Unnecessary Enabled DBMS Features, Broken Configuration Management."
   },
   {
     "id": 325,
@@ -4444,7 +4768,8 @@
       "toàn bộ"
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.142: khôi phục có thể dùng một phần, hoặc toàn bộ bản sao CSDL đã tạo."
   },
   {
     "id": 326,
@@ -4457,7 +4782,8 @@
       "đối phó với sự mất mát dữ liệu"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.142: sao lưu và khôi phục là khâu chủ động chuẩn bị để đối phó với các sự cố."
   },
   {
     "id": 327,
@@ -4470,7 +4796,8 @@
       "tính sẵn dùng và tính toàn vẹn"
     ],
     "answer": 3,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.142, SL C7 tr.5: mục đích là đảm bảo tính sẵn dùng và toàn vẹn CSDL."
   },
   {
     "id": 328,
@@ -4483,7 +4810,8 @@
       "cái nào trên dữ liệu gì"
     ],
     "answer": 1,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.148, SL C7 tr.36: 'Ai đã thực hiện cái gì trên dữ liệu nào, vào khi nào và bằng cách nào?'"
   },
   {
     "id": 329,
@@ -4495,7 +4823,8 @@
       "Kiểm toán nguồn sử dụng cơ sở dữ liệu, Kiểm toán hoạt động cơ sở dữ liệu, Kiểm toán lỗi cơ sở dữ liệu."
     ],
     "answer": 0,
-    "type": "MCQ"
+    "type": "MCQ",
+    "explanation": "GT tr.149, SL C7 tr.42: kiểm toán nguồn sử dụng CSDL, hoạt động DDL, lỗi CSDL…"
   },
   {
     "id": 330,
@@ -4513,6 +4842,7 @@
       2,
       3
     ],
-    "type": "MSQ"
+    "type": "MSQ",
+    "explanation": "GT tr.154: cả 4 phương án đều nằm trong '5 điều không nên làm'."
   }
 ]

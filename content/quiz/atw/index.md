@@ -5,4 +5,6 @@ layout: "single"
 ---
 Bộ câu hỏi được tổng hợp từ nhiều đề, đã lọc trùng và đối chiếu đáp án với bài giảng 2021 + slide của PTIT, nhưng vẫn có thể còn sót. Câu có nhiều đáp án đúng sẽ hiện ô chọn nhiều.
 
+Sau khi nộp bài, mỗi câu có phần **💡 Giải thích** ghi nguồn: **GT tr.X** là trang giáo trình 2021, **SL Cn tr.X** là slide chương n (theo số trang in trên tài liệu). Câu ghi **Phán đoán** là câu không tìm thấy trong tài liệu.
+
 Anh em làm bài thấy câu nào sai thì cứ bấm nút **🐛 Báo lỗi** ngay tại câu đó, hoặc lướt xuống dưới cùng comment để tôi fix lại nhé. Chúc anh em ôm trọn con A+ qua môn! 🚀
