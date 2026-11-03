@@ -4,6 +4,9 @@
         <h1 style="font-size: 2.2rem; margin-bottom: 15px;">{{ .Title }}</h1>
         <div style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.6;">{{ .Content }}</div>
         
+        <a href="{{ with .Parent }}{{ .RelPermalink }}{{ else }}{{ "quiz/" | relURL }}{{ end }}" style="display: inline-block; margin-top: 20px; margin-right: 8px; padding: 8px 20px; background: var(--bg-color); color: var(--text-color); border: 1px solid var(--card-border); border-radius: 20px; font-size: 0.95rem; font-weight: 500; text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            🏠 Về trang chủ
+        </a>
         <button onclick="showHistory()" style="margin-top: 20px; padding: 8px 20px; background: var(--bg-color); color: var(--text-color); border: 1px solid var(--card-border); border-radius: 20px; font-size: 0.95rem; font-weight: 500; cursor: pointer; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
             🕒 Xem lịch sử làm bài
         </button>
