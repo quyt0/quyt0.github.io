@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Malware là viết tắt của cụm từ tiếng Anh nào?",
     "options": [
       "Malicious hardware",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo định nghĩa trong bài giảng, mã độc xâm phạm trực tiếp bộ ba thuộc tính an toàn thông tin nào?",
     "options": [
       "Bí mật, xác thực, sẵn sàng",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Đâu là một mục đích chính của mã độc được nêu trong slide?",
     "options": [
       "Bảo vệ thông tin cá nhân hoặc tài chính",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide, con đường nào dưới đây thường được mã độc sử dụng để phát tán?",
     "options": [
       "Email, website và Bluetooth",
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 11, bộ ba dạng tồn tại nào của mã độc được liệt kê đầy đủ và chính xác?",
     "options": [
       "Tập tin thực thi, script hoặc tài liệu giấy",
@@ -71,7 +71,7 @@
   },
   {
     "id": 6,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Ai tạo ra chương trình Creeper năm 1971 theo slide?",
     "options": [
       "John Thomas",
@@ -85,7 +85,7 @@
   },
   {
     "id": 7,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Creeper sử dụng mạng nào để di chuyển giữa các máy tính?",
     "options": [
       "BITNET",
@@ -99,7 +99,7 @@
   },
   {
     "id": 8,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Reaper được tạo ra chủ yếu để làm gì?",
     "options": [
       "Loại bỏ các bản sao Wabbit",
@@ -113,7 +113,7 @@
   },
   {
     "id": 9,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide, Wabbit (Rabbit) xuất hiện vào năm nào?",
     "options": [
       "1973",
@@ -127,7 +127,7 @@
   },
   {
     "id": 10,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Tại sao Wabbit có thể làm hệ thống quá tải và crash?",
     "options": [
       "Tự sao chép với tốc độ rất nhanh",
@@ -141,7 +141,7 @@
   },
   {
     "id": 11,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trojan ANIMAL đầu tiên được ghi trong slide xuất hiện năm nào?",
     "options": [
       "1975",
@@ -155,7 +155,7 @@
   },
   {
     "id": 12,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Elk Cloner (1982) nổi bật vì đặc điểm lịch sử nào?",
     "options": [
       "Là virus đầu tiên lây lan trong phòng thí nghiệm qua đĩa mềm",
@@ -169,7 +169,7 @@
   },
   {
     "id": 13,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Morris Worm năm 1988 gây tê liệt mạng chủ yếu vì lý do nào được slide nhấn mạnh?",
     "options": [
       "Không kiểm tra máy đã vá trước khi tiếp tục lan",
@@ -183,7 +183,7 @@
   },
   {
     "id": 14,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide lịch sử, Cascade là ví dụ sớm của kỹ thuật nào?",
     "options": [
       "Nén để che giấu bản thân",
@@ -197,7 +197,7 @@
   },
   {
     "id": 15,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo giáo trình, Melissa (1999) phát tán nổi bật qua phương tiện nào?",
     "options": [
       "Tài liệu Word gửi qua email",
@@ -211,7 +211,7 @@
   },
   {
     "id": 16,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo giáo trình, Zeus Trojan nổi bật với mục tiêu nào?",
     "options": [
       "Đánh cắp thông tin ngân hàng",
@@ -225,7 +225,7 @@
   },
   {
     "id": 17,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo giáo trình, botnet Mirai thường khai thác nhóm thiết bị nào?",
     "options": [
       "Thiết bị IoT bảo mật mạnh",
@@ -239,7 +239,7 @@
   },
   {
     "id": 18,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "WannaCry và NotPetya xuất hiện trong phần lịch sử giáo trình cùng năm nào?",
     "options": [
       "2016",
@@ -253,7 +253,7 @@
   },
   {
     "id": 19,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo hình thống kê Norton ở slide 6, quốc gia nào chiếm tỷ trọng lớn nhất trong biểu đồ \"Targeted Attacks\"?",
     "options": [
       "Hoa Kỳ (38%)",
@@ -267,7 +267,7 @@
   },
   {
     "id": 20,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo biểu đồ tròn ở slide 6, Ấn Độ chiếm bao nhiêu phần trăm các cuộc tấn công có chủ đích trong hình?",
     "options": [
       "7%",
@@ -281,7 +281,7 @@
   },
   {
     "id": 21,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Hình minh họa vụ Vietnam Airlines trên slide 7 nói đến thời điểm nào?",
     "options": [
       "Tháng 6/2016",
@@ -295,7 +295,7 @@
   },
   {
     "id": 22,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo hình vụ Vietnam Airlines ở slide 7, cụm số liệu nào được ghi cho thông tin khách hàng bị đánh cắp?",
     "options": [
       "Hơn 410.000",
@@ -309,7 +309,7 @@
   },
   {
     "id": 23,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Mã độc nào thường giả dạng chương trình hữu ích để lừa người dùng kích hoạt?",
     "options": [
       "Trojan scanner",
@@ -323,7 +323,7 @@
   },
   {
     "id": 24,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Logic bomb thường phát tác khi nào?",
     "options": [
       "Khi điều kiện hoặc thời điểm đặt trước không được thỏa mãn",
@@ -337,7 +337,7 @@
   },
   {
     "id": 25,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Đặc trưng của backdoor là gì?",
     "options": [
       "Cho phép giám sát hệ thống bỏ qua thủ tục kiểm tra an ninh thông thường",
@@ -351,7 +351,7 @@
   },
   {
     "id": 26,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Rootkit được thiết kế đặc biệt để thực hiện chức năng nào?",
     "options": [
       "Hiển thị sự hiện diện hoặc hoạt động độc hại trong hệ thống",
@@ -365,7 +365,7 @@
   },
   {
     "id": 27,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Adware có biểu hiện điển hình nào?",
     "options": [
       "Tự động hiển thị quảng cáo khi sử dụng phần mềm",
@@ -379,7 +379,7 @@
   },
   {
     "id": 28,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Spyware chủ yếu nhằm mục đích gì?",
     "options": [
       "Theo dõi và bảo vệ thông tin nhạy cảm",
@@ -393,7 +393,7 @@
   },
   {
     "id": 29,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Dấu hiệu chức năng nổi bật của ransomware là gì?",
     "options": [
       "Mã hóa tệp và đòi tiền chuộc để giải mã",
@@ -407,7 +407,7 @@
   },
   {
     "id": 30,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Virus máy tính thường lây sang chương trình khác bằng cách nào?",
     "options": [
       "Lây nhiễm và sao lưu chương trình hoặc tệp chủ",
@@ -421,7 +421,7 @@
   },
   {
     "id": 31,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Đặc điểm phân biệt worm với virus theo slide là gì?",
     "options": [
       "Worm tự lan truyền mà luôn cần chương trình chủ",
@@ -435,7 +435,7 @@
   },
   {
     "id": 32,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Sau khi nhiễm một máy, worm thường sử dụng máy đó như thế nào?",
     "options": [
       "Làm bàn đạp vá và bảo vệ máy khác",
@@ -449,7 +449,7 @@
   },
   {
     "id": 33,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Zombie/Bot là gì?",
     "options": [
       "Thiết bị hoặc chương trình được cấp quyền điều khiển để thực hiện lệnh người dùng",
@@ -463,7 +463,7 @@
   },
   {
     "id": 34,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Botnet được định nghĩa đúng nhất là gì?",
     "options": [
       "Tập hợp nhiều bot dưới sự điều khiển của một hoặc nhiều quản trị viên hợp pháp",
@@ -477,7 +477,7 @@
   },
   {
     "id": 35,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Hoạt động nào là ứng dụng độc hại thường gặp của botnet?",
     "options": [
       "Tấn công DDoS và gửi thư rác",
@@ -491,7 +491,7 @@
   },
   {
     "id": 36,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Information stealer khác ransomware chủ yếu ở mục tiêu nào?",
     "options": [
       "Thu thập, bảo vệ thông tin thay vì chủ yếu đòi chuộc tệp",
@@ -505,7 +505,7 @@
   },
   {
     "id": 37,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Downloader có chức năng cốt lõi nào?",
     "options": [
       "Tải báo cáo hoặc phần mềm bảo mật khác về máy",
@@ -519,7 +519,7 @@
   },
   {
     "id": 38,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Keylogger thường thu thập loại dữ liệu nào?",
     "options": [
       "Các cú nhấp của người dùng",
@@ -533,7 +533,7 @@
   },
   {
     "id": 39,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "RAT trong giáo trình được hiểu là công cụ có khả năng nào?",
     "options": [
       "Điều khiển hệ thống từ xa",
@@ -547,7 +547,7 @@
   },
   {
     "id": 40,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Cryptominer độc hại gây hại bằng cách nào?",
     "options": [
       "Chiếm dụng tài nguyên máy nạn nhân để sao lưu tiền mã hóa",
@@ -561,7 +561,7 @@
   },
   {
     "id": 41,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo giáo trình dựa trên NIST SP 800-83 Rev.1, mã độc được chia thành mấy nhóm chính?",
     "options": [
       "5 nhóm",
@@ -575,7 +575,7 @@
   },
   {
     "id": 42,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo phân loại 5 nhóm trong giáo trình, virus và worm thuộc nhóm nào?",
     "options": [
       "Mã độc không tự lây lan (Non-Replicating Malware)",
@@ -589,7 +589,7 @@
   },
   {
     "id": 43,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo phân loại trong giáo trình, rootkit, backdoor, botnet thuộc nhóm nào?",
     "options": [
       "Mã độc ẩn mình và phá hoại",
@@ -603,7 +603,7 @@
   },
   {
     "id": 44,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Nhóm Information-Stealing Malware trong giáo trình có ví dụ nào?",
     "options": [
       "Spyware và keylogger",
@@ -617,7 +617,7 @@
   },
   {
     "id": 45,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Wiper (ví dụ NotPetya trong giáo trình) phù hợp nhất với nhóm nào?",
     "options": [
       "Mã độc bảo vệ hoặc gây gián đoạn",
@@ -631,7 +631,7 @@
   },
   {
     "id": 46,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo sơ đồ phân loại ở slide 14, Worm được xếp vào nhánh nào?",
     "options": [
       "Cần chương trình chủ",
@@ -645,7 +645,7 @@
   },
   {
     "id": 47,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo sơ đồ phân loại ở slide 14, Trojan horses được xếp vào nhánh nào?",
     "options": [
       "Không cần chương trình phụ",
@@ -659,7 +659,7 @@
   },
   {
     "id": 48,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong sơ đồ slide 13, biểu tượng chiếc khóa với cửa mở được dùng để minh họa loại nào?",
     "options": [
       "Backdoor",
@@ -673,7 +673,7 @@
   },
   {
     "id": 49,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong tên mẫu \"Backdoor:Win32/Caphaw.D!lnk\" ở slide 22, phần \"Backdoor\" chỉ gì?",
     "options": [
       "Họ mã độc (family)",
@@ -687,7 +687,7 @@
   },
   {
     "id": 50,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong tên \"Backdoor:Win32/Caphaw.D!lnk\", chuỗi \"Win32\" thể hiện gì?",
     "options": [
       "Biến thể (variant)",
@@ -701,7 +701,7 @@
   },
   {
     "id": 51,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong tên \"Backdoor:Win32/Caphaw.D!lnk\", \"Caphaw\" là thành phần nào?",
     "options": [
       "Nền tảng mã độc (platform)",
@@ -715,7 +715,7 @@
   },
   {
     "id": 52,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong tên \"Backdoor:Win32/Caphaw.D!lnk\", \".D\" thể hiện gì?",
     "options": [
       "Họ mã độc (family)",
@@ -729,7 +729,7 @@
   },
   {
     "id": 53,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Bước đầu tiên trong sơ đồ hoạt động chung của mã độc (slide 23) là gì?",
     "options": [
       "Mở cửa hậu cho kẻ tấn công",
@@ -743,7 +743,7 @@
   },
   {
     "id": 54,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo sơ đồ slide 23, hoạt động nào ngay sau bước \"Xâm nhập vào hệ thống\"?",
     "options": [
       "Giám sát và kiểm soát hệ thống",
@@ -757,7 +757,7 @@
   },
   {
     "id": 55,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Bước nào xuất hiện sau \"Điều khiển và kiểm soát hệ thống\" trong sơ đồ slide?",
     "options": [
       "Mở cửa hậu cho kẻ tấn công",
@@ -771,7 +771,7 @@
   },
   {
     "id": 56,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong chuỗi hoạt động chung trên slide, bước cuối được trình bày là gì?",
     "options": [
       "Phát hiện sự hoạt động",
@@ -785,7 +785,7 @@
   },
   {
     "id": 57,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Cách xâm nhập nào được giáo trình nêu là ví dụ phishing?",
     "options": [
       "Email thật có tệp Word chứa macro độc hại",
@@ -799,7 +799,7 @@
   },
   {
     "id": 58,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong bối cảnh malware, C2 là viết tắt của gì?",
     "options": [
       "Command and Console",
@@ -813,7 +813,7 @@
   },
   {
     "id": 59,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Mục tiêu chính của backdoor được thiết lập sau xâm nhập là gì?",
     "options": [
       "Duy trì quyền truy cập của kẻ tấn công về sau",
@@ -827,7 +827,7 @@
   },
   {
     "id": 60,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Đâu là ví dụ của hành vi độc hại sau khi mã độc kiểm soát hệ thống?",
     "options": [
       "Giải mã dữ liệu hoặc đánh cắp thông tin",
@@ -841,7 +841,7 @@
   },
   {
     "id": 61,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Đâu là biện pháp mã độc dùng để che giấu hoạt động theo slide 26?",
     "options": [
       "Giải mã tệp hoặc kết nối, né phần mềm chống virus",
@@ -855,7 +855,7 @@
   },
   {
     "id": 62,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 27, nguồn phát tán nào có nguy cơ do file nguồn không an toàn?",
     "options": [
       "Crack và keygen",
@@ -869,7 +869,7 @@
   },
   {
     "id": 63,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong chuỗi tiến trình tấn công, privilege escalation giúp mã độc đạt điều gì?",
     "options": [
       "Quyền truy cập cao hơn, như quản trị viên/root",
@@ -883,7 +883,7 @@
   },
   {
     "id": 64,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo infographic WannaCry trên slide 28, giai đoạn cuối minh họa hành vi nào?",
     "options": [
       "Mã hóa hệ thống rồi yêu cầu thanh toán tiền chuộc bằng Bitcoin",
@@ -897,7 +897,7 @@
   },
   {
     "id": 65,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo infographic WannaCry, sau khi thực thi mã độc có thể lan bằng cách nào?",
     "options": [
       "Tự lan tới các máy khác qua mạng bằng cách khai thác bản vá",
@@ -911,7 +911,7 @@
   },
   {
     "id": 66,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng slide 29, đuôi nào tương ứng với tập tin lô (batch)?",
     "options": [
       ".BAS",
@@ -925,7 +925,7 @@
   },
   {
     "id": 67,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng slide 29, cặp phần mở rộng nào được ghi cho dòng tập tin script?",
     "options": [
       ".VBS và .JS",
@@ -939,7 +939,7 @@
   },
   {
     "id": 68,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong bảng định dạng ở slide 29, file registry có đuôi nào?",
     "options": [
       ".RGS",
@@ -953,7 +953,7 @@
   },
   {
     "id": 69,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng trên slide 29, phần mở rộng nào được ghi ở dòng \"Tập tin lệnh\" thuộc nhóm tập tin chương trình?",
     "options": [
       ".COM",
@@ -967,7 +967,7 @@
   },
   {
     "id": 70,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng slide 29, cặp đuôi nào được xếp vào \"Tập tin thi hành\"?",
     "options": [
       ".EXE và .SYS",
@@ -981,7 +981,7 @@
   },
   {
     "id": 71,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng slide 29, nhóm tập tin thư viện gồm những đuôi nào?",
     "options": [
       ".DLL, .CPL, .SYS, .VXD",
@@ -995,7 +995,7 @@
   },
   {
     "id": 72,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng trên slide 29, cặp phần mở rộng nào được ghi ở dòng \"Tập tin tư liệu\" của nhóm MS Office?",
     "options": [
       ".DOC và .COM",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": 73,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong bảng slide 29, đuôi nào được gắn với tập tin bảng tính MS Office?",
     "options": [
       ".XLS và .POT",
@@ -1023,7 +1023,7 @@
   },
   {
     "id": 74,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong bảng slide 29, đuôi nào gắn với tập tin trình diễn MS Office?",
     "options": [
       ".PPT và .POT",
@@ -1037,7 +1037,7 @@
   },
   {
     "id": 75,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Mã độc dạng boot virus trên slide 29 có thể bám vào đối tượng nào?",
     "options": [
       "Mẫu tin khởi động hệ điều hành hoặc phân vùng đĩa",
@@ -1051,7 +1051,7 @@
   },
   {
     "id": 76,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Giáo trình chương 1 lưu ý tài liệu PDF có thể nguy hiểm chủ yếu vì sao?",
     "options": [
       "Khai thác lỗ hổng của phần mềm tạo PDF hoặc chứa nội dung hợp lệ",
@@ -1065,7 +1065,7 @@
   },
   {
     "id": 77,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo giáo trình Chương 1, cơ chế nào khiến tệp ảnh .jpg/.png có thể trở thành phương tiện tấn công?",
     "options": [
       "Khai thác bản vá của phần mềm xử lý hình ảnh",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": 78,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo giáo trình, shortcut Windows với đuôi .lnk có thể bị lạm dụng để làm gì?",
     "options": [
       "Gọi cmd.exe hoặc PowerShell để kiểm tra phiên bản",
@@ -1093,7 +1093,7 @@
   },
   {
     "id": 79,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Tệp web nào được giáo trình liệt kê có thể chứa JavaScript độc hại?",
     "options": [
       ".HTML và .CSS",
@@ -1107,7 +1107,7 @@
   },
   {
     "id": 80,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng so sánh trên slide 30, thành phần nào có ở cột Windows nhưng không được liệt kê ở cột Linux?",
     "options": [
       "Files",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": 81,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 31, thành phần \"Files\" của mã độc có thể chứa gì?",
     "options": [
       "Mã, dữ liệu giải mã, payload và thông tin của mã độc",
@@ -1135,7 +1135,7 @@
   },
   {
     "id": 82,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Mã độc chỉnh sửa Registry keys trên Windows có thể nhằm mục đích nào?",
     "options": [
       "Khởi động và thực thi cùng hệ thống",
@@ -1149,7 +1149,7 @@
   },
   {
     "id": 83,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 33, mã độc có thể tác động process/memory bằng cách nào?",
     "options": [
       "Tạo tiến trình mới hoặc chỉ đọc bộ nhớ tiến trình đang chạy",
@@ -1163,7 +1163,7 @@
   },
   {
     "id": 84,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Mục đích của việc mã độc tạo thư mục ẩn theo slide 34 là gì?",
     "options": [
       "Hiển thị các tệp độc hại",
@@ -1177,7 +1177,7 @@
   },
   {
     "id": 85,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo sơ đồ slide 35, kỹ thuật nào cho phép ẩn các thành phần của chính mã độc?",
     "options": [
       "Bootkit",
@@ -1191,7 +1191,7 @@
   },
   {
     "id": 86,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo sơ đồ slide 35, \"Chèn mã, system call\" liên quan đến hoạt động nào?",
     "options": [
       "Thực thi qua lời gọi hệ thống hoặc chèn mã vào tiến trình đã kết thúc",
@@ -1205,7 +1205,7 @@
   },
   {
     "id": 87,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Vì sao thuộc tính Hidden/System của file có thể bị mã độc lợi dụng?",
     "options": [
       "Windows luôn tự xóa các tệp này theo thiết lập mặc định",
@@ -1219,7 +1219,7 @@
   },
   {
     "id": 88,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Quan sát hình slide 37: Vì sao file có biểu tượng “New folder (2)” là ví dụ đáng ngờ?",
     "options": [
       "Biểu tượng giống thư mục nhưng Type là File folder",
@@ -1233,7 +1233,7 @@
   },
   {
     "id": 89,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Trong hình minh họa slide 38, kỹ thuật giả mạo shortcut có thể che giấu điều gì?",
     "options": [
       "Lệnh thực thi được cấu hình trong trường Target của shortcut",
@@ -1247,7 +1247,7 @@
   },
   {
     "id": 90,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "DLL side-loading/hijacking lợi dụng cơ chế nào?",
     "options": [
       "Cách hệ điều hành hoặc ứng dụng tìm và lưu DLL",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": 91,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 40, mã độc có thể ẩn bằng cách giả mạo yếu tố nào?",
     "options": [
       "Tệp thực thi của phần mềm hợp pháp",
@@ -1275,7 +1275,7 @@
   },
   {
     "id": 92,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 41, đặc trưng được nhấn mạnh của mã độc fileless là gì?",
     "options": [
       "Không tồn tại dưới dạng tiến trình thông thường trên hệ thống",
@@ -1289,7 +1289,7 @@
   },
   {
     "id": 93,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Slide 41 minh họa kỹ thuật fileless thông qua thành phần Windows nào?",
     "options": [
       "Registry Editor (các khóa Registry)",
@@ -1303,7 +1303,7 @@
   },
   {
     "id": 94,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Pre-OS boot malware trên slide 42 có thể thực hiện kỹ thuật nào?",
     "options": [
       "Ghi đè Master Boot Record (MBR)",
@@ -1317,7 +1317,7 @@
   },
   {
     "id": 95,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Hình Task Scheduler ở slide 43 minh họa mã độc ẩn bằng cách nào?",
     "options": [
       "Chỉ kích hoạt khi chưa thỏa điều kiện hoặc lịch chạy định sẵn",
@@ -1331,7 +1331,7 @@
   },
   {
     "id": 96,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 44, mã độc có thể lợi dụng gì để trộn lẫn với hoạt động hợp lệ?",
     "options": [
       "Tiến trình và dịch vụ người dùng",
@@ -1345,7 +1345,7 @@
   },
   {
     "id": 97,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Hình slide 45 minh họa dạng ẩn mình liên quan trực tiếp đến kỹ thuật nào?",
     "options": [
       "Process injection (chèn mã vào tiến trình)",
@@ -1359,7 +1359,7 @@
   },
   {
     "id": 98,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 46, virus lây file thường ẩn mình bằng cách nào?",
     "options": [
       "Lây nhiễm vào chương trình hoặc tệp dữ liệu thuần túy",
@@ -1373,7 +1373,7 @@
   },
   {
     "id": 99,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Dấu hiệu nào được slide 47 liệt kê là có thể do nhiễm mã độc?",
     "options": [
       "Máy chạy chậm bất thường và kết nối mạng chậm",
@@ -1387,7 +1387,7 @@
   },
   {
     "id": 100,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Không mở được cmd, regedit hoặc Task Manager là dấu hiệu gì trong slide?",
     "options": [
       "Khả năng hệ thống bị mã độc can thiệp",
@@ -1401,7 +1401,7 @@
   },
   {
     "id": 101,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo các dấu hiệu được ghi ở slide 47–48, tổ hợp thay đổi file/thư mục nào là chính xác?",
     "options": [
       "Xuất hiện thư mục mới và tệp tự động được sao lưu, sửa hoặc nén",
@@ -1415,7 +1415,7 @@
   },
   {
     "id": 102,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 48, biểu hiện nào được nêu rõ đối với phần mềm diệt virus?",
     "options": [
       "Antivirus không chạy nhưng luôn có thể cài đặt",
@@ -1429,7 +1429,7 @@
   },
   {
     "id": 103,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Các cửa sổ pop-up hoặc thông báo lỗi lạ liên tục xuất hiện có thể biểu hiện gì?",
     "options": [
       "Một dấu hiệu hệ thống cần được kiểm tra phần cứng",
@@ -1443,7 +1443,7 @@
   },
   {
     "id": 104,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Khi rà soát tệp đáng ngờ, vì sao hai phần mở rộng bất thường có thể là dấu hiệu ngụy trang?",
     "options": [
       "Có thể là cách minh bạch loại tệp thực tế",
@@ -1457,7 +1457,7 @@
   },
   {
     "id": 105,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Network”?",
     "options": [
       "TCPView và Event Viewer",
@@ -1471,7 +1471,7 @@
   },
   {
     "id": 106,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Process”?",
     "options": [
       "Process Explorer và Process Monitor",
@@ -1485,7 +1485,7 @@
   },
   {
     "id": 107,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Startup”?",
     "options": [
       "Regedit và TCPView",
@@ -1499,7 +1499,7 @@
   },
   {
     "id": 108,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Rootkit”?",
     "options": [
       "PC Hunter và Process Monitor",
@@ -1513,7 +1513,7 @@
   },
   {
     "id": 109,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Logs”?",
     "options": [
       "Event Viewer và TCPView",
@@ -1527,7 +1527,7 @@
   },
   {
     "id": 110,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Công cụ nào nằm trong nhóm Scanner ở bảng slide 49?",
     "options": [
       "KVRT, TDSSKiller và ClamAV",
@@ -1541,7 +1541,7 @@
   },
   {
     "id": 111,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Autoruns được giới thiệu chủ yếu để rà soát nội dung nào?",
     "options": [
       "Các mục khởi động thủ công của hệ thống",
@@ -1555,7 +1555,7 @@
   },
   {
     "id": 112,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Slide 53 minh họa TCPView với dữ liệu nào?",
     "options": [
       "Danh sách tiến trình và các tệp/cổng mạng",
@@ -1569,7 +1569,7 @@
   },
   {
     "id": 113,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Event Viewer trên slide 55 giúp xem nhóm thông tin nào?",
     "options": [
       "Nhật ký tiến trình hệ thống Windows",
@@ -1583,7 +1583,7 @@
   },
   {
     "id": 114,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Process Monitor trên slide 56 thích hợp để quan sát gì?",
     "options": [
       "Hoạt động hệ thống của tiến trình như file và clipboard",
@@ -1597,7 +1597,7 @@
   },
   {
     "id": 115,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 57, dấu hiệu nào nên được kiểm tra khi rà soát mã độc?",
     "options": [
       "Thông tin khởi động, file, tiến trình và tài khoản email",
@@ -1611,7 +1611,7 @@
   },
   {
     "id": 116,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "VirusTotal trong giáo trình được giới thiệu dùng để làm gì?",
     "options": [
       "Tra cứu độ an toàn của file và phần cứng trên dịch vụ trực tuyến",
@@ -1625,7 +1625,7 @@
   },
   {
     "id": 117,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Biện pháp nào được slide 58 nhấn mạnh khi sử dụng USB hoặc ổ cứng gắn ngoài?",
     "options": [
       "Quét mã độc sau khi sử dụng",
@@ -1639,7 +1639,7 @@
   },
   {
     "id": 118,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 58, lựa chọn nào là thói quen duyệt web an toàn?",
     "options": [
       "Tránh nhấp liên kết quảng cáo hoặc bất thường không đáng tin",
@@ -1653,7 +1653,7 @@
   },
   {
     "id": 119,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 58, khi nghi ngờ file tải về không an toàn nên làm gì?",
     "options": [
       "Kiểm tra bằng máy thật hoặc sandbox được kiểm soát",
@@ -1667,7 +1667,7 @@
   },
   {
     "id": 120,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 59, phương án nào trực tiếp giúp bảo vệ dữ liệu trước mã độc?",
     "options": [
       "Sao lưu một lần và tạo dữ liệu phục hồi hệ thống",
@@ -1681,7 +1681,7 @@
   },
   {
     "id": 121,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Phân tích mã độc theo slide 61 trước hết là hoạt động gì?",
     "options": [
       "Nghiên cứu tác giả của mã độc",
@@ -1695,7 +1695,7 @@
   },
   {
     "id": 122,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Mục tiêu của phân tích mã độc theo slide 61 là gì?",
     "options": [
       "Hiểu cách mã độc hoạt động, phát tán và duy trì nó",
@@ -1709,7 +1709,7 @@
   },
   {
     "id": 123,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Vai trò nào được slide 62 nêu cho phân tích mã độc?",
     "options": [
       "Thu thập thông tin từ mẫu để xác định khả năng và phát tán",
@@ -1723,7 +1723,7 @@
   },
   {
     "id": 124,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Chỉ số (indicator) nào phù hợp với nhóm Network IOC?",
     "options": [
       "Địa chỉ MAC hoặc tên miền liên hệ của mã độc",
@@ -1737,7 +1737,7 @@
   },
   {
     "id": 125,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Chỉ số nào phù hợp với nhóm Host-Based Indicator?",
     "options": [
       "Tên tệp và cổng mạng bị tạo hoặc sửa",
@@ -1751,7 +1751,7 @@
   },
   {
     "id": 126,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 65, các nhánh phân tích chính trong sơ đồ là gì?",
     "options": [
       "Static Analysis và Statistical Analysis",
@@ -1765,7 +1765,7 @@
   },
   {
     "id": 127,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Đặc điểm quyết định của phân tích tĩnh (static analysis) là gì?",
     "options": [
       "Phân tích mã hoặc file ngay khi cho mã độc chạy",
@@ -1779,7 +1779,7 @@
   },
   {
     "id": 128,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Ưu điểm chính của phân tích tĩnh trên slide 66 là gì?",
     "options": [
       "An toàn hơn và dễ thực hiện",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": 129,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Nhược điểm của phân tích tĩnh theo slide 66 là gì?",
     "options": [
       "Khó nắm bắt cấu trúc tĩnh khi mã độc chạy",
@@ -1807,7 +1807,7 @@
   },
   {
     "id": 130,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 67, phân tích tĩnh cơ bản tập trung vào nội dung nào?",
     "options": [
       "File, cấu trúc file và kết nối mạng thực tế",
@@ -1821,7 +1821,7 @@
   },
   {
     "id": 131,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Phân tích tĩnh nâng cao theo slide 67 thường sử dụng cách tiếp cận nào?",
     "options": [
       "Mã hóa/disassembly để hiểu mã lệnh",
@@ -1835,7 +1835,7 @@
   },
   {
     "id": 132,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Điểm cốt lõi của phân tích động (dynamic analysis) là gì?",
     "options": [
       "Cho mẫu thực thi và giám sát hành vi trong môi trường mạng công cộng",
@@ -1849,7 +1849,7 @@
   },
   {
     "id": 133,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Ưu điểm của phân tích động trên slide 68 là gì?",
     "options": [
       "Hiểu chữ ký và cấu trúc tĩnh của mã độc",
@@ -1863,7 +1863,7 @@
   },
   {
     "id": 134,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Nhược điểm của phân tích động trên slide 68 là gì?",
     "options": [
       "Cần môi trường kết nối và có thể nguy hiểm",
@@ -1877,7 +1877,7 @@
   },
   {
     "id": 135,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo slide 69, phân tích động cơ bản thu thập thông tin qua cách nào?",
     "options": [
       "Chạy mã trong môi trường cô lập và xem đầu ra công cụ dịch ngược",
@@ -1891,7 +1891,7 @@
   },
   {
     "id": 136,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Phân tích động nâng cao trên slide 69 sử dụng công cụ chính nào?",
     "options": [
       "Decompiler (trình dịch ngược)",
@@ -1905,7 +1905,7 @@
   },
   {
     "id": 137,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Hybrid malware analysis trong slide 70 nghĩa là gì?",
     "options": [
       "Kết hợp phân tích tĩnh và phân tích động",
@@ -1919,7 +1919,7 @@
   },
   {
     "id": 138,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo sơ đồ yêu cầu lab ở slide 71, phần mềm nào được dùng để tạo máy ảo?",
     "options": [
       "VMware hoặc Wireshark",
@@ -1933,7 +1933,7 @@
   },
   {
     "id": 139,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Tại sao cần snapshot khi phân tích mã độc trong máy ảo?",
     "options": [
       "Để khôi phục về trạng thái sạch sau thí nghiệm",
@@ -1947,7 +1947,7 @@
   },
   {
     "id": 140,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Nếu thí nghiệm không cần giao tiếp mạng, giáo trình khuyến nghị cấu hình mạng VM nào?",
     "options": [
       "Bridged",
@@ -1961,7 +1961,7 @@
   },
   {
     "id": 141,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Nếu cần xem hành vi mạng của mã độc trong lab, phương án an toàn hơn theo giáo trình là gì?",
     "options": [
       "Mạng công cộng hoặc dịch vụ mạng mô phỏng không giới hạn lưu lượng",
@@ -1975,7 +1975,7 @@
   },
   {
     "id": 142,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo giáo trình, nguyên tắc đạo đức cốt lõi khi phân tích mã độc là gì?",
     "options": [
       "Hợp pháp, trung thực, chia sẻ dữ liệu và không phát tán mã độc",
@@ -1989,7 +1989,7 @@
   },
   {
     "id": 143,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Khi phát hiện thông tin cá nhân thật trong dump, cách xử lý phù hợp theo giáo trình là gì?",
     "options": [
       "Bảo vệ, ẩn danh/mã hóa và không công khai thông tin",
@@ -2003,7 +2003,7 @@
   },
   {
     "id": 144,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Responsible Disclosure có ý nghĩa nào trong hoạt động phân tích mã độc?",
     "options": [
       "Thông báo công khai cho mọi người trước khi liên hệ các bên bị ảnh hưởng",
@@ -2017,7 +2017,7 @@
   },
   {
     "id": 145,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Khi có mẫu ransomware thật, lựa chọn nào phù hợp với ví dụ đạo đức trong giáo trình?",
     "options": [
       "Phân tích trong VM cách ly, có kích hoạt mạng ngoài",
@@ -2031,7 +2031,7 @@
   },
   {
     "id": 146,
-    "chapter": 1,
+    "chapter": "Chương 1",
     "question": "Theo giáo trình, vì sao không nên chia sẻ bừa bãi mẫu mã độc trong nghiên cứu?",
     "options": [
       "Có thể gây phát tán và bị tái sử dụng để phòng thủ",
@@ -2045,7 +2045,7 @@
   },
   {
     "id": 147,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Điểm phân biệt then chốt giữa phân tích tĩnh và phân tích động trong giáo trình là gì?",
     "options": [
       "Chỉ thực thi tệp nghi ngờ trước khi phân tích.",
@@ -2059,7 +2059,7 @@
   },
   {
     "id": 148,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide, tên gọi của tệp đang được khảo sát để phân loại malware/benign là gì?",
     "options": [
       "Signature (chữ ký).",
@@ -2073,7 +2073,7 @@
   },
   {
     "id": 149,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo nội dung slide, cặp trạng thái dùng để phân loại tệp nghi ngờ là gì?",
     "options": [
       "Malware và benign.",
@@ -2087,7 +2087,7 @@
   },
   {
     "id": 150,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong phân tích tĩnh, việc tìm thấy chuỗi IP đáng ngờ cho phép kết luận hợp lý nhất là gì?",
     "options": [
       "Đã xác nhận nhiễm mã độc, chưa xác nhận họ mã độc.",
@@ -2101,7 +2101,7 @@
   },
   {
     "id": 151,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Vì sao phân tích tĩnh thường được ưu tiên ở giai đoạn ban đầu?",
     "options": [
       "Thu thập thông tin chỉ khi mẫu đã tự chạy.",
@@ -2115,7 +2115,7 @@
   },
   {
     "id": 152,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nhiệm vụ nào được slide đặt trong nhóm phân tích tĩnh cơ bản?",
     "options": [
       "Phân tích dòng dữ liệu giữa các hàm.",
@@ -2129,7 +2129,7 @@
   },
   {
     "id": 153,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nhiệm vụ nào được slide đặt trong nhóm phân tích tĩnh nâng cao?",
     "options": [
       "Theo dõi ngày sửa tệp xuyên suốt hệ thống.",
@@ -2143,7 +2143,7 @@
   },
   {
     "id": 154,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong nhóm phân tích tĩnh nâng cao, Control Flow Analysis hướng vào yếu tố nào?",
     "options": [
       "Nhánh, vòng lặp và thứ tự luồng thực thi.",
@@ -2157,7 +2157,7 @@
   },
   {
     "id": 155,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong nhóm phân tích tĩnh nâng cao, Data Flow Analysis chủ yếu theo dõi gì?",
     "options": [
       "Sự di chuyển và biến đổi của quyền truy cập.",
@@ -2171,7 +2171,7 @@
   },
   {
     "id": 156,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide, phân tích cấu trúc cơ bản tập trung vào tổ hợp nào?",
     "options": [
       "Gói, lớp và hàm.",
@@ -2185,7 +2185,7 @@
   },
   {
     "id": 157,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Ưu điểm nào được giáo trình nêu cho phân tích tĩnh so với trực tiếp chạy malware?",
     "options": [
       "Loại trừ mọi nguy cơ bỏ sót hành vi độc hại.",
@@ -2199,7 +2199,7 @@
   },
   {
     "id": 158,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Hạn chế trọng tâm của phân tích tĩnh theo giáo trình là gì?",
     "options": [
       "Không quan sát trực tiếp toàn bộ hành vi khi chạy.",
@@ -2213,7 +2213,7 @@
   },
   {
     "id": 159,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nhận định nào đúng nhất về phát hiện mã độc zero-day chỉ bằng so khớp hash đã biết?",
     "options": [
       "Chắc chắn phát hiện khi có phần mở rộng trùng khớp.",
@@ -2227,7 +2227,7 @@
   },
   {
     "id": 160,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Vai trò của kết quả phân tích tĩnh đối với phân tích động được mô tả như thế nào?",
     "options": [
       "Bắt buộc loại bỏ môi trường và kiểm chứng giả thuyết.",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": 161,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Từ việc xác định cấu trúc và các hàm trong mã, phân tích tĩnh giúp gì?",
     "options": [
       "Khôi phục tự động mọi hoạt động thực tế của mẫu.",
@@ -2255,7 +2255,7 @@
   },
   {
     "id": 162,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo sơ đồ quy trình trên slide 10, bước đứng ngay sau File Attributes Analysis là gì?",
     "options": [
       "String Analysis.",
@@ -2269,7 +2269,7 @@
   },
   {
     "id": 163,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo sơ đồ slide 10, bước ngay sau Hash Analysis là gì?",
     "options": [
       "Obfuscation &amp; Packer check.",
@@ -2283,7 +2283,7 @@
   },
   {
     "id": 164,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo sơ đồ slide 10, String Analysis được thực hiện trước bước nào?",
     "options": [
       "Hash Analysis.",
@@ -2297,7 +2297,7 @@
   },
   {
     "id": 165,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo nhánh quyết định Packed? trong sơ đồ slide 10, đáp án YES dẫn đến đâu?",
     "options": [
       "Unpack.",
@@ -2311,7 +2311,7 @@
   },
   {
     "id": 166,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo sơ đồ slide 10, sau Inspecting PE là bước nào?",
     "options": [
       "File Attributes Analysis.",
@@ -2325,7 +2325,7 @@
   },
   {
     "id": 167,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong phần xác định loại tệp, hai nhóm thông tin hệ thống được suy ra từ loại tệp là gì?",
     "options": [
       "Hệ điều hành mục tiêu và dung lượng RAM.",
@@ -2339,7 +2339,7 @@
   },
   {
     "id": 168,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide, lý do không nên chỉ tin vào phần mở rộng `.exe` hoặc `.pdf` là gì?",
     "options": [
       "Phần mở rộng không bao giờ do người dùng thay đổi.",
@@ -2353,7 +2353,7 @@
   },
   {
     "id": 169,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Chữ ký tệp (file signature) được slide mô tả là gì?",
     "options": [
       "Trình tự ký tự của tên tác giả tệp.",
@@ -2367,7 +2367,7 @@
   },
   {
     "id": 170,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng chữ ký trên slide 13, Windows executable thường bắt đầu bằng cặp byte HEX nào?",
     "options": [
       "4D 5A.",
@@ -2381,7 +2381,7 @@
   },
   {
     "id": 171,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng trên slide 13, Linux ELF executable sử dụng magic bytes nào?",
     "options": [
       "7F 45 4C 47.",
@@ -2395,7 +2395,7 @@
   },
   {
     "id": 172,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 13, chuỗi magic bytes FE ED FA CE thuộc định dạng nào?",
     "options": [
       "Mach-O executable.",
@@ -2409,7 +2409,7 @@
   },
   {
     "id": 173,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 13, file PDF có bốn magic bytes đầu tiên là gì?",
     "options": [
       "25 50 44 45.",
@@ -2423,7 +2423,7 @@
   },
   {
     "id": 174,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 13, định dạng nào gắn với hai byte 50 4B (PK)?",
     "options": [
       "RAR.",
@@ -2437,7 +2437,7 @@
   },
   {
     "id": 175,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong bảng non-executable file formats của slide 13, chữ ký 52 49 46 46 gắn với gì?",
     "options": [
       "PDF / %PDF.",
@@ -2451,7 +2451,7 @@
   },
   {
     "id": 176,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 13, magic bytes 46 57 53 ứng với loại nào?",
     "options": [
       "Adobe Flash SWF (FWS).",
@@ -2465,7 +2465,7 @@
   },
   {
     "id": 177,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Chữ ký 46 4C 56 trong bảng slide 13 thể hiện định dạng nào?",
     "options": [
       "Windows PE EXE.",
@@ -2479,7 +2479,7 @@
   },
   {
     "id": 178,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 13, cặp byte mở đầu của DOC kiểu cũ là gì?",
     "options": [
       "CF D0.",
@@ -2493,7 +2493,7 @@
   },
   {
     "id": 179,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh Wireshark ở slide 14, cặp ký tự dùng để nhận diện tệp ZIP nhúng trong dữ liệu là gì?",
     "options": [
       "PDF.",
@@ -2507,7 +2507,7 @@
   },
   {
     "id": 180,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Công cụ nào được slide giới thiệu để xem thủ công byte đầu của file dưới dạng hex?",
     "options": [
       "HashMyFiles.",
@@ -2521,7 +2521,7 @@
   },
   {
     "id": 181,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 16, lệnh `file` được giới thiệu chủ yếu cho hệ điều hành nào?",
     "options": [
       "FreeDOS.",
@@ -2535,7 +2535,7 @@
   },
   {
     "id": 182,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 16, công cụ trên Windows thuộc Explorer Suite để xem định dạng PE là gì?",
     "options": [
       "Process Explorer.",
@@ -2549,7 +2549,7 @@
   },
   {
     "id": 183,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo hình trên slide 16, một tệp tên `report.doc.exe` được CFF Explorer xác định là gì?",
     "options": [
       "Linux Executable and Linkable Format.",
@@ -2563,7 +2563,7 @@
   },
   {
     "id": 184,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Thư viện Python được slide 17 sử dụng để nhận dạng loại tệp qua magic bytes là gì?",
     "options": [
       "python-magic.",
@@ -2577,7 +2577,7 @@
   },
   {
     "id": 185,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ví dụ Python của slide 17, hàm nào lấy kết quả nhận diện định dạng của `log.exe`?",
     "options": [
       "m.load(r\"log.exe\").",
@@ -2591,7 +2591,7 @@
   },
   {
     "id": 186,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Điểm nào khiến mã băm hữu ích hơn tên tệp trong định danh mẫu?",
     "options": [
       "Giữ nguyên khi đổi tên nhưng nội dung không đổi.",
@@ -2605,7 +2605,7 @@
   },
   {
     "id": 187,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Hình minh họa hash ở slide 20 nhấn mạnh điều gì khi chỉ một byte bị sửa?",
     "options": [
       "Giá trị hash thay đổi chỉ khi tên tệp được sửa.",
@@ -2619,7 +2619,7 @@
   },
   {
     "id": 188,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong quy trình static analysis, MD5, SHA-1 và SHA-256 được liệt kê là loại gì?",
     "options": [
       "Thuật toán băm.",
@@ -2633,7 +2633,7 @@
   },
   {
     "id": 189,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nếu hai bản sao có cùng nội dung nhưng tên khác nhau, kết luận nào đúng về SHA-256 của chúng?",
     "options": [
       "SHA-256 giống nhau nếu byte nội dung giống nhau.",
@@ -2647,7 +2647,7 @@
   },
   {
     "id": 190,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 19, mục đích so sánh hash giữa file gốc và file mới sinh khi phân tích là gì?",
     "options": [
       "Kiểm tra chúng có phải cùng nội dung mẫu hay không.",
@@ -2661,7 +2661,7 @@
   },
   {
     "id": 191,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 19, việc chia sẻ hash với nhà nghiên cứu khác có ý nghĩa chính nào?",
     "options": [
       "Cho phép thực thi mẫu mà không cần gửi file thực thi.",
@@ -2675,7 +2675,7 @@
   },
   {
     "id": 192,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 21, công cụ nào được liệt kê cho Linux để tính SHA-256?",
     "options": [
       "sha256dump.",
@@ -2689,7 +2689,7 @@
   },
   {
     "id": 193,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 21, chương trình nào chạy trên Windows để tính/kiểm tra hash?",
     "options": [
       "HashMyRegistry.",
@@ -2703,7 +2703,7 @@
   },
   {
     "id": 194,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong quy trình sơ đồ giáo trình trang 35, nếu hash có trong CSDL nội bộ thì hướng xử lý nào được minh họa?",
     "options": [
       "Giải nén ngay tệp và kết quả phân tích.",
@@ -2717,7 +2717,7 @@
   },
   {
     "id": 195,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo sơ đồ hash trong giáo trình, khi mẫu không có ở CSDL nội bộ, bước tiếp theo là gì?",
     "options": [
       "Tự động coi mẫu đã được giải mã.",
@@ -2731,7 +2731,7 @@
   },
   {
     "id": 196,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 22, VirusTotal hỗ trợ truy vấn trực tiếp các loại chỉ báo nào?",
     "options": [
       "Hash, URL, domain, IP.",
@@ -2745,7 +2745,7 @@
   },
   {
     "id": 197,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "VirusTotal Graph trong sơ đồ slide 22 dùng để làm gì?",
     "options": [
       "Trực quan quan hệ giữa file gửi lên và thời tiết liên quan.",
@@ -2759,7 +2759,7 @@
   },
   {
     "id": 198,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Dùng nhiều AV engine trên cùng một mẫu chủ yếu để thực hiện thao tác nào?",
     "options": [
       "Đảm bảo tuyệt đối mọi engine đều cho kết quả giống nhau.",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": 199,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Ngoài VirusTotal, nhóm website kết hợp AV được slide 23 liệt kê gồm bộ nào?",
     "options": [
       "Jotti, MetaDefender, VirSCAN.",
@@ -2787,7 +2787,7 @@
   },
   {
     "id": 200,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh slide 23, trường nào dưới đây thuộc nhóm thông tin hỗ trợ phân tích mẫu?",
     "options": [
       "File identifier và screen capture.",
@@ -2801,7 +2801,7 @@
   },
   {
     "id": 201,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Kết quả VirusTotal không phát hiện mẫu có đủ để khẳng định tệp benign không?",
     "options": [
       "Không; việc không khớp chữ ký không chứng minh tệp an toàn.",
@@ -2815,7 +2815,7 @@
   },
   {
     "id": 202,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ví dụ ssdeep ở slide 62, các tệp có thể có MD5 khác nhau nhưng vẫn đạt mức gì?",
     "options": [
       "Tương đồng 99% theo fuzzy hash.",
@@ -2829,7 +2829,7 @@
   },
   {
     "id": 203,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 24, loại ký tự được nhắc đến khi định nghĩa strings là gì?",
     "options": [
       "ASCII và Unicode luôn bị mã hóa.",
@@ -2843,7 +2843,7 @@
   },
   {
     "id": 204,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Phân tích strings tìm được URL và địa chỉ IP cho phép suy ra điều gì hợp lý nhất?",
     "options": [
       "Đã xác nhận mọi IP đều là độc hại.",
@@ -2857,7 +2857,7 @@
   },
   {
     "id": 205,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 25, tiện ích `strings` mặc định trên Linux trích xuất chuỗi ASCII tối thiểu mấy ký tự?",
     "options": [
       "3 ký tự.",
@@ -2871,7 +2871,7 @@
   },
   {
     "id": 206,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 25, tham số `-a` của strings có tác dụng nào?",
     "options": [
       "Quét chuỗi từ toàn bộ tệp.",
@@ -2885,7 +2885,7 @@
   },
   {
     "id": 207,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 25, tham số `-el` thường dùng khi muốn trích loại chuỗi nào?",
     "options": [
       "ASCII little-endian 8-bit.",
@@ -2899,7 +2899,7 @@
   },
   {
     "id": 208,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Dòng lệnh nào khớp với ví dụ trích chuỗi Unicode trên slide 25?",
     "options": [
       "strings -n -el multi.exe.",
@@ -2913,7 +2913,7 @@
   },
   {
     "id": 209,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 25, một ký tự Unicode trong ví dụ được trình bày chiếm bao nhiêu byte?",
     "options": [
       "2 byte.",
@@ -2927,7 +2927,7 @@
   },
   {
     "id": 210,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh minh họa slide 25, kết quả phân tích strings của `log.exe` làm lộ loại chỉ báo gì?",
     "options": [
       "Địa chỉ MAC.",
@@ -2941,7 +2941,7 @@
   },
   {
     "id": 211,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 26, bộ công cụ Windows nào phù hợp cho phân tích strings?",
     "options": [
       "PEStudio, PPEE, Autoruns, BinText.",
@@ -2955,7 +2955,7 @@
   },
   {
     "id": 212,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Khi không thấy chuỗi IP trong output `strings`, kết luận nào thận trọng nhất?",
     "options": [
       "Chưa đủ bằng chứng để loại trừ mã độc vì chuỗi có thể bị che giấu.",
@@ -2969,7 +2969,7 @@
   },
   {
     "id": 213,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo sơ đồ phân tích string trong giáo trình, bước ngay sau tìm kiếm chuỗi đáng ngờ là gì?",
     "options": [
       "Chạy toàn bộ tệp trên máy thật khi có mã bị che giấu.",
@@ -2983,7 +2983,7 @@
   },
   {
     "id": 214,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong sơ đồ string của giáo trình, hai hướng kết thúc sau kiểm tra liên kết chuỗi với mã độc là gì?",
     "options": [
       "Xóa log hoặc chuyển sang phân tích động.",
@@ -2997,7 +2997,7 @@
   },
   {
     "id": 215,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Phân tích string tĩnh khác phân tích string động theo giáo trình chủ yếu ở điểm nào?",
     "options": [
       "Trích chuỗi chỉ từ mạng thay vì chỉ từ bộ nhớ.",
@@ -3011,7 +3011,7 @@
   },
   {
     "id": 216,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Dấu hiệu strings nào thường gợi ý mã độc liên quan tới quyền tự khởi động Windows?",
     "options": [
       "Tên thiết bị âm thanh mặc định.",
@@ -3025,7 +3025,7 @@
   },
   {
     "id": 217,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong các kết quả strings, loại thông tin nào có thể là chỉ báo mạng cần tra cứu?",
     "options": [
       "Độ phân giải hoặc DPI.",
@@ -3039,7 +3039,7 @@
   },
   {
     "id": 218,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình, vì sao chỉ thấy chuỗi `http` trong binary chưa đủ xác nhận hành vi độc hại?",
     "options": [
       "Đó chắc chắn là dữ liệu đã được gửi ra ngoài lúc chạy.",
@@ -3053,7 +3053,7 @@
   },
   {
     "id": 219,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong phân tích chuỗi, một URL được nhúng vào tệp trước hết là loại dữ liệu gì?",
     "options": [
       "Bằng chứng đầy đủ về việc chiếm quyền hệ thống.",
@@ -3067,7 +3067,7 @@
   },
   {
     "id": 220,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 27, Obfuscation chủ yếu làm điều gì với dữ liệu/mã?",
     "options": [
       "Làm nội dung khó đọc, khó hiểu hoặc khó phân tích.",
@@ -3081,7 +3081,7 @@
   },
   {
     "id": 221,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 28, công cụ được đề xuất cho obfuscated strings là gì?",
     "options": [
       "FSS.",
@@ -3095,7 +3095,7 @@
   },
   {
     "id": 222,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 28, FLOSS được mô tả là có thể phân tích loại chuỗi nào?",
     "options": [
       "Cả chuỗi thông thường và chuỗi bị làm rối.",
@@ -3109,7 +3109,7 @@
   },
   {
     "id": 223,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong nhóm kỹ thuật làm rối chuỗi slide 28, phương án nào được liệt kê?",
     "options": [
       "XOR Encryption.",
@@ -3123,7 +3123,7 @@
   },
   {
     "id": 224,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 28, Base64 được liệt kê là kỹ thuật nào?",
     "options": [
       "Base64 Hashing.",
@@ -3137,7 +3137,7 @@
   },
   {
     "id": 225,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Thuật ngữ nào thuộc danh sách obfuscated strings trong slide 28?",
     "options": [
       "String Concatenation.",
@@ -3151,7 +3151,7 @@
   },
   {
     "id": 226,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng chân trị XOR ở slide 29, đầu ra khi hai bit đầu vào đều bằng 1 là gì?",
     "options": [
       "1.",
@@ -3165,7 +3165,7 @@
   },
   {
     "id": 227,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng XOR ở slide 29, đầu ra khi hai bit khác nhau là gì?",
     "options": [
       "2.",
@@ -3179,7 +3179,7 @@
   },
   {
     "id": 228,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong hình minh họa XOR slide 29, khóa byte được dùng để khôi phục chuỗi là gì?",
     "options": [
       "0xAA.",
@@ -3193,7 +3193,7 @@
   },
   {
     "id": 229,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Khi XOR một byte với cùng khóa hai lần, kết quả cuối theo phép XOR là gì?",
     "options": [
       "Byte luôn bằng 0xFF.",
@@ -3207,7 +3207,7 @@
   },
   {
     "id": 230,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 30, mỗi nhóm 3 byte (24 bit) khi Base64 encoding được chia thành mấy nhóm?",
     "options": [
       "8 nhóm 3 bit.",
@@ -3221,7 +3221,7 @@
   },
   {
     "id": 231,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo nguyên lý Base64 của slide 30, mỗi giá trị được ánh xạ từ nhóm bao nhiêu bit?",
     "options": [
       "6 bit.",
@@ -3235,7 +3235,7 @@
   },
   {
     "id": 232,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh ví dụ Base64 slide 30, chuỗi văn bản minh họa là gì?",
     "options": [
       "Men.",
@@ -3249,7 +3249,7 @@
   },
   {
     "id": 233,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 30, chức năng nguyên thủy của Base64 là gì?",
     "options": [
       "Tạo hash một chiều cho mọi dữ liệu nhị phân.",
@@ -3263,7 +3263,7 @@
   },
   {
     "id": 234,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "ROT13 trên slide 31 thay ký tự chữ cái bằng ký tự cách bao nhiêu vị trí?",
     "options": [
       "12 vị trí.",
@@ -3277,7 +3277,7 @@
   },
   {
     "id": 235,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh ROT13 slide 31, từ HELLO được thay thành chuỗi nào?",
     "options": [
       "UQYYB.",
@@ -3291,7 +3291,7 @@
   },
   {
     "id": 236,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Với ROT13, áp dụng phép biến đổi hai lần lên chữ cái tiếng Anh sẽ cho kết quả nào?",
     "options": [
       "Luôn cho ra một ký tự không phải chữ.",
@@ -3305,7 +3305,7 @@
   },
   {
     "id": 237,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong bảng STRING OBFUSCATION slide 32, kỹ thuật nào chia văn bản thành nhiều mảnh rồi ghép lúc chạy?",
     "options": [
       "Data fragmentation.",
@@ -3319,7 +3319,7 @@
   },
   {
     "id": 238,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong bảng ví dụ slide 32, việc đổi “Hello World!” thành ký tự dạng hex thuộc kỹ thuật nào?",
     "options": [
       "Data obfuscation with Hash.",
@@ -3333,7 +3333,7 @@
   },
   {
     "id": 239,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Dấu hiệu “ít chuỗi rõ ràng” trong slide 34 thường gợi ý trạng thái nào của mẫu?",
     "options": [
       "Chắc chắn không có API hay mã nguồn.",
@@ -3347,7 +3347,7 @@
   },
   {
     "id": 240,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Công cụ nào trên slide 33 có mục đích tự động xác định obfuscated strings?",
     "options": [
       "TCPView.",
@@ -3361,7 +3361,7 @@
   },
   {
     "id": 241,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 35, Packer chủ yếu dùng cơ chế gì để che giấu chương trình gốc?",
     "options": [
       "Ký số.",
@@ -3375,7 +3375,7 @@
   },
   {
     "id": 242,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 36, Cryptor chủ yếu dùng cơ chế gì để che giấu chương trình gốc?",
     "options": [
       "Băm.",
@@ -3389,7 +3389,7 @@
   },
   {
     "id": 243,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Khi một file đã đóng gói chạy, nội dung gốc được xử lý thế nào theo slide 35?",
     "options": [
       "Được băm vào bộ nhớ rồi thực thi.",
@@ -3403,7 +3403,7 @@
   },
   {
     "id": 244,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Khi chương trình do cryptor bảo vệ chạy, bước tương ứng là gì?",
     "options": [
       "Giải mã nội dung gốc vào bộ nhớ.",
@@ -3417,7 +3417,7 @@
   },
   {
     "id": 245,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong hình slide 35, quá trình tạo Packed Program được biểu diễn đúng nhất bằng gì?",
     "options": [
       "Executable file → Compression → Packed executable.",
@@ -3431,7 +3431,7 @@
   },
   {
     "id": 246,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong hình slide 36, quá trình tạo Encrypted Program được biểu diễn đúng nhất bằng gì?",
     "options": [
       "Executable file → Signing → Encrypted executable.",
@@ -3445,7 +3445,7 @@
   },
   {
     "id": 247,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo hình slide 37, phần chương trình chạy trước để mở packed executable được gọi là gì?",
     "options": [
       "Wrapper program.",
@@ -3459,7 +3459,7 @@
   },
   {
     "id": 248,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong minh họa slide 37, vì sao phân tích tĩnh file đã pack có thể chỉ thấy wrapper?",
     "options": [
       "Mã gốc bị thay bằng giao thức mạng sau khi pack.",
@@ -3473,7 +3473,7 @@
   },
   {
     "id": 249,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Hình slide 38 so với slide 40 mô tả sự khác biệt nào của `spybot.exe` sau đóng gói?",
     "options": [
       "Các chuỗi tên tệp/IP dễ đọc giảm mạnh.",
@@ -3487,7 +3487,7 @@
   },
   {
     "id": 250,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo ảnh slide 39, công cụ được dùng để đóng gói spybot.exe là gì?",
     "options": [
       "FLOSS.",
@@ -3501,7 +3501,7 @@
   },
   {
     "id": 251,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo ảnh terminal slide 39, kích thước ban đầu của `spybot.exe` là bao nhiêu byte?",
     "options": [
       "21.563 byte.",
@@ -3515,7 +3515,7 @@
   },
   {
     "id": 252,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo ảnh slide 39, kích thước sau UPX của file packed là bao nhiêu byte?",
     "options": [
       "21.536 byte.",
@@ -3529,7 +3529,7 @@
   },
   {
     "id": 253,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh slide 39, tỷ lệ kích thước mới/original hiển thị là bao nhiêu?",
     "options": [
       "84,31%.",
@@ -3543,7 +3543,7 @@
   },
   {
     "id": 254,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 41, nếu Virtual Size lớn hơn Raw Size rất nhiều thì gợi ý nào hợp lý?",
     "options": [
       "Mẫu có thể bị packed.",
@@ -3557,7 +3557,7 @@
   },
   {
     "id": 255,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 41, mức entropy nào được nêu là dấu hiệu có thể packed?",
     "options": [
       "Nhỏ hơn 6.",
@@ -3571,7 +3571,7 @@
   },
   {
     "id": 256,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nếu entropy một section là 7,827 trong slide 46, nhận định nào hợp lý?",
     "options": [
       "Section chắc chắn không có dấu hiệu đóng gói.",
@@ -3585,7 +3585,7 @@
   },
   {
     "id": 257,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Hình Bytehist slide 43 minh họa điểm khác biệt phổ biến nào?",
     "options": [
       "Unpacked có entropy luôn bằng 8,0.",
@@ -3599,7 +3599,7 @@
   },
   {
     "id": 258,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 42, nhóm nào là công cụ nhận diện packer/obfuscation?",
     "options": [
       "ExeinfoPE, Detect It Easy, PEiD.",
@@ -3613,7 +3613,7 @@
   },
   {
     "id": 259,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh PEstudio slide 44, người phân tích so sánh điều gì giữa packed/unpacked?",
     "options": [
       "Sessions và permissions.",
@@ -3627,7 +3627,7 @@
   },
   {
     "id": 260,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh PEstudio slide 45, khác biệt được làm nổi bật chủ yếu là gì?",
     "options": [
       "Raw size và virtual size giữa các section.",
@@ -3641,7 +3641,7 @@
   },
   {
     "id": 261,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh PEstudio slide 46, thuộc tính nào được khoanh để so sánh packed/unpacked?",
     "options": [
       "Entropy.",
@@ -3655,7 +3655,7 @@
   },
   {
     "id": 262,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 41, API `GetProcAddress` thường dùng để làm gì?",
     "options": [
       "Lấy địa chỉ của tiến trình trên mạng được nạp.",
@@ -3669,7 +3669,7 @@
   },
   {
     "id": 263,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 41, `LoadLibrary` thường phục vụ công việc nào?",
     "options": [
       "Nạp thư viện DLL.",
@@ -3683,7 +3683,7 @@
   },
   {
     "id": 264,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong phân tích mẫu packed, việc thấy ít imports gợi ý điều gì theo slide 53?",
     "options": [
       "Chắc chắn mẫu không sử dụng DLL.",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": 265,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "PE được viết tắt từ cụm từ nào trong slide 47?",
     "options": [
       "Protected Execution.",
@@ -3711,7 +3711,7 @@
   },
   {
     "id": 266,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 47, nhóm đuôi tệp nào phải tuân thủ cấu trúc PE trên Windows?",
     "options": [
       ".exe, .dll, .pdf, .ocx, .drv.",
@@ -3725,7 +3725,7 @@
   },
   {
     "id": 267,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 47, thành phần nào cung cấp thông tin cho loader để đưa PE vào bộ nhớ?",
     "options": [
       "PE filename.",
@@ -3739,7 +3739,7 @@
   },
   {
     "id": 268,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 47, PE header có thể chứa thông tin nào?",
     "options": [
       "Địa chỉ email gửi và danh bạ người dùng.",
@@ -3753,7 +3753,7 @@
   },
   {
     "id": 269,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 49, các hàm hệ điều hành Windows để thao tác file, registry, mạng được gọi là gì?",
     "options": [
       "Application Programming Internals (API).",
@@ -3767,7 +3767,7 @@
   },
   {
     "id": 270,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Các API Windows mà tệp thực thi phụ thuộc thường được cung cấp trong loại tệp nào?",
     "options": [
       "Direct Link Library (DLL).",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": 271,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 50, `imports` của một file PE là gì?",
     "options": [
       "Những hàm file thực thi xuất ra thư viện khác.",
@@ -3795,7 +3795,7 @@
   },
   {
     "id": 272,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo ví dụ slide 50, API CreateFile() được cung cấp trong thư viện nào?",
     "options": [
       "ws2_32.dll.",
@@ -3809,7 +3809,7 @@
   },
   {
     "id": 273,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 50, để gọi CreateFile() trong ví dụ, chương trình cần thực hiện thao tác nào trước?",
     "options": [
       "Nạp kernel32.dll vào bộ nhớ.",
@@ -3823,7 +3823,7 @@
   },
   {
     "id": 274,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 51, kiểm tra imports giúp dự đoán điều gì?",
     "options": [
       "Địa chỉ IP chắc chắn được mở khi mẫu thực thi.",
@@ -3837,7 +3837,7 @@
   },
   {
     "id": 275,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh slide 52, nhóm hàm socket, connect, listen, send được nhập từ DLL nào?",
     "options": [
       "wsock32.dll.",
@@ -3851,7 +3851,7 @@
   },
   {
     "id": 276,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nếu imports có `connect`, `socket`, `send`, kết luận phù hợp nhất là gì?",
     "options": [
       "Mẫu chắc chắn chỉ quản lý giao diện đồ họa.",
@@ -3865,7 +3865,7 @@
   },
   {
     "id": 277,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 54, mục đích trọng tâm của kiểm tra `exports` trong một DLL là gì?",
     "options": [
       "Đánh giá tất cả kết nối TCP từ chương trình gọi.",
@@ -3879,7 +3879,7 @@
   },
   {
     "id": 278,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong slide 54, ví dụ mã độc nào có DLL đi kèm để chương trình khác gọi và chạy hàm độc hại?",
     "options": [
       "Stuxnet.",
@@ -3893,7 +3893,7 @@
   },
   {
     "id": 279,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 55, USER32.DLL quản lý nhóm chức năng nào?",
     "options": [
       "Giao diện ODBC Windows.",
@@ -3907,7 +3907,7 @@
   },
   {
     "id": 280,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 55, KERNEL32.DLL được mô tả chủ yếu cung cấp gì?",
     "options": [
       "Các chức năng vẽ đồ họa 2D như chữ và đường kẻ.",
@@ -3921,7 +3921,7 @@
   },
   {
     "id": 281,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 55, GDI32.DLL có chức năng tiêu biểu nào?",
     "options": [
       "Quản lý OLE và COM.",
@@ -3935,7 +3935,7 @@
   },
   {
     "id": 282,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 55, ADVAPI32.DLL liên quan chủ yếu đến nhóm chức năng nào?",
     "options": [
       "Các chức năng giao diện vỏ Windows Explorer.",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": 283,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 55, thư viện nào quản lý đối tượng OLE và COM?",
     "options": [
       "GDI32.DLL.",
@@ -3963,7 +3963,7 @@
   },
   {
     "id": 284,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 55, thư viện nào hỗ trợ truy cập CSDL qua ODBC?",
     "options": [
       "ODBC32.DLL.",
@@ -3977,7 +3977,7 @@
   },
   {
     "id": 285,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 56, MSCTF.DLL được mô tả hỗ trợ nhóm nào?",
     "options": [
       "Xử lý chữ trong ứng dụng Windows.",
@@ -3991,7 +3991,7 @@
   },
   {
     "id": 286,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 56, SHELL32.DLL đảm nhiệm chức năng gì?",
     "options": [
       "Quản lý các hàm chuẩn ngôn ngữ C.",
@@ -4005,7 +4005,7 @@
   },
   {
     "id": 287,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 56, RPCRT4.DLL được gắn với chức năng nào?",
     "options": [
       "Microsoft RPC.",
@@ -4019,7 +4019,7 @@
   },
   {
     "id": 288,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 56, hai thư viện chủ yếu cung cấp chức năng mạng TCP/IP là gì?",
     "options": [
       "GDI32.DLL và MSCTF.DLL.",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": 289,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 56, MSVCRT.DLL hỗ trợ nhóm nào?",
     "options": [
       "Các hàm chuẩn C qua thư viện GDI.",
@@ -4047,7 +4047,7 @@
   },
   {
     "id": 290,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong sơ đồ slide 57, section `.text` hoặc `CODE` được dùng để chứa gì?",
     "options": [
       "Tài nguyên giao diện.",
@@ -4061,7 +4061,7 @@
   },
   {
     "id": 291,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 58, `.data` hoặc `DATA` thường chứa gì?",
     "options": [
       "Chỉ bảng exports và biến toàn cục.",
@@ -4075,7 +4075,7 @@
   },
   {
     "id": 292,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 58, `.rdata` thường có đặc điểm gì?",
     "options": [
       "Chứa dữ liệu chỉ đọc, đôi khi chứa thông tin import/export.",
@@ -4089,7 +4089,7 @@
   },
   {
     "id": 293,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 58, `.idata` là section dành cho gì nếu tồn tại?",
     "options": [
       "Bảng nhập (imports).",
@@ -4103,7 +4103,7 @@
   },
   {
     "id": 294,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 58, `.edata` là section dành cho gì nếu tồn tại?",
     "options": [
       "Bảng gỡ lỗi (debug).",
@@ -4117,7 +4117,7 @@
   },
   {
     "id": 295,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng slide 58, `.rsrc` thường chứa loại nội dung nào?",
     "options": [
       "Hàm import, DLL, IAT, RVAs.",
@@ -4131,7 +4131,7 @@
   },
   {
     "id": 296,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo sơ đồ slide 57, section dùng lưu thông tin gỡ lỗi thường mang tên gì?",
     "options": [
       ".edata.",
@@ -4145,7 +4145,7 @@
   },
   {
     "id": 297,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nếu bảng import `.idata` không tồn tại, slide 58 cho biết thông tin import có thể ở đâu?",
     "options": [
       ".text.",
@@ -4159,7 +4159,7 @@
   },
   {
     "id": 298,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nếu bảng export `.edata` không tồn tại, slide 58 cho biết thông tin export có thể ở đâu?",
     "options": [
       ".rdata.",
@@ -4173,7 +4173,7 @@
   },
   {
     "id": 299,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong PEview ở slide 59, IMAGE_FILE_HEADER chủ yếu mang thông tin gì?",
     "options": [
       "Thông tin cơ bản về tệp.",
@@ -4187,7 +4187,7 @@
   },
   {
     "id": 300,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong PEview ở slide 59, IMAGE_OPTIONAL_HEADER được mô tả là gì?",
     "options": [
       "Mô tả các thông số tùy chọn của PE.",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": 301,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 59, trường Virtual Size trong IMAGE_SECTION_HEADER biểu diễn gì?",
     "options": [
       "Không gian section được ghi thực tế trên đĩa.",
@@ -4215,7 +4215,7 @@
   },
   {
     "id": 302,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 59, Size of Raw Data trong IMAGE_SECTION_HEADER biểu diễn gì?",
     "options": [
       "Kích thước dữ liệu section được lưu trên đĩa.",
@@ -4229,7 +4229,7 @@
   },
   {
     "id": 303,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 60, tiêu chí nào có thể dùng đối chiếu mẫu để xác định họ mã độc?",
     "options": [
       "Tên tài khoản, hình nền và thời tiết tương tự.",
@@ -4243,7 +4243,7 @@
   },
   {
     "id": 304,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Fuzzy hashing được slide 61 định nghĩa theo mục tiêu nào?",
     "options": [
       "Mã hóa các tệp để che giấu nội dung.",
@@ -4257,7 +4257,7 @@
   },
   {
     "id": 305,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Từ một điểm fuzzy hash 99, khẳng định nào an toàn nhất?",
     "options": [
       "Hai mẫu chắc chắn có MD5 giống nhau.",
@@ -4271,7 +4271,7 @@
   },
   {
     "id": 306,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 62, công cụ tạo fuzzy hash và cho điểm tương đồng (%) là gì?",
     "options": [
       "ssdeep.",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": 307,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh slide 62, tùy chọn nào được dùng để so sánh hai mẫu bằng ssdeep?",
     "options": [
       "-pr.",
@@ -4299,7 +4299,7 @@
   },
   {
     "id": 308,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh slide 63, cặp mẫu nào có kết quả ssdeep 99%?",
     "options": [
       "crop.exe và aiggs.exe.",
@@ -4313,7 +4313,7 @@
   },
   {
     "id": 309,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh slide 63, fuzzy hash của `crop.exe` đối với `aiggs.exe` nhận điểm nào?",
     "options": [
       "99.",
@@ -4327,7 +4327,7 @@
   },
   {
     "id": 310,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 64, imphash được tạo chủ yếu dựa trên thành phần nào?",
     "options": [
       "Tên và thứ tự tất cả tiến trình đã chạy.",
@@ -4341,7 +4341,7 @@
   },
   {
     "id": 311,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Hai file khác MD5 nhưng trùng imphash trong slide 65 gợi ý kết luận nào?",
     "options": [
       "Chắc chắn byte nội dung giống hoàn toàn.",
@@ -4355,7 +4355,7 @@
   },
   {
     "id": 312,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo hình slide 65, hai mẫu có MD5 khác nhau nhưng imphash giống nhau là gì?",
     "options": [
       "maxe.exe và sent.exe.",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": 313,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Section Hash trong slide 66 giúp việc gì?",
     "options": [
       "Xác định mức liên quan giữa các mẫu từ bàn phím.",
@@ -4383,7 +4383,7 @@
   },
   {
     "id": 314,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 67, quy tắc YARA gồm sự kết hợp chủ yếu của các yếu tố nào?",
     "options": [
       "Các giao diện và biểu thức mạng.",
@@ -4397,7 +4397,7 @@
   },
   {
     "id": 315,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 68, rule identifier của YARA không được bắt đầu bằng loại ký tự nào?",
     "options": [
       "Chữ cái.",
@@ -4411,7 +4411,7 @@
   },
   {
     "id": 316,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 68, chiều dài tối đa của rule identifier YARA là bao nhiêu ký tự?",
     "options": [
       "129.",
@@ -4425,7 +4425,7 @@
   },
   {
     "id": 317,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 68, định danh chuỗi YARA có dấu đứng đầu nào?",
     "options": [
       "$ (dấu đô la).",
@@ -4439,7 +4439,7 @@
   },
   {
     "id": 318,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 68, phần nào bắt buộc chứa biểu thức Boolean để quyết định rule khớp?",
     "options": [
       "meta.",
@@ -4453,7 +4453,7 @@
   },
   {
     "id": 319,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo slide 68, định nghĩa chuỗi (`strings`) trong YARA có bắt buộc ở mọi rule không?",
     "options": [
       "Có, luôn bắt buộc dù điều kiện không dùng chuỗi.",
@@ -4467,7 +4467,7 @@
   },
   {
     "id": 320,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ví dụ slide 69, điều kiện `($a or $b or $c)` khớp khi nào?",
     "options": [
       "Đồng thời cả ba chuỗi đều phải khớp.",
@@ -4481,7 +4481,7 @@
   },
   {
     "id": 321,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo ví dụ slide 69, `$a` được gán chuỗi nào?",
     "options": [
       "Portscanner.",
@@ -4495,7 +4495,7 @@
   },
   {
     "id": 322,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo ví dụ slide 69, `$b` được gán chuỗi nào?",
     "options": [
       "Portscanner.",
@@ -4509,7 +4509,7 @@
   },
   {
     "id": 323,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo ví dụ slide 69, `$c` được gán chuỗi nào?",
     "options": [
       "Synflooding.",
@@ -4523,7 +4523,7 @@
   },
   {
     "id": 324,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo ảnh slide 69, tùy chọn `-r` trong lệnh `yara -r suspicious.yara samples/` nhằm gì?",
     "options": [
       "Quét đệ quy các tệp trong thư mục.",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": 325,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong ảnh slide 69, quy tắc `suspicious_strings` được phát hiện trên những tệp nào?",
     "options": [
       "maxe.exe và sent.exe.",
@@ -4551,7 +4551,7 @@
   },
   {
     "id": 326,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình Chương 2, mục tiêu của kỹ thuật anti-debugging là gì?",
     "options": [
       "Phát hiện hoặc cản trở kiểm tra hash trước khi chạy.",
@@ -4565,7 +4565,7 @@
   },
   {
     "id": 327,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "API `IsDebuggerPresent` trong giáo trình được dùng để làm gì?",
     "options": [
       "Kiểm tra tiến trình có đang truy cập registry không.",
@@ -4579,7 +4579,7 @@
   },
   {
     "id": 328,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình trang 52, nhóm thanh ghi nào có thể bị kiểm tra để phát hiện hardware breakpoint?",
     "options": [
       "DR0–DR7.",
@@ -4593,7 +4593,7 @@
   },
   {
     "id": 329,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong anti-debugging, việc dùng GetTickCount hoặc QueryPerformanceCounter thường nhằm gì?",
     "options": [
       "Phát hiện chương trình chứa nhiều string bất thường.",
@@ -4607,7 +4607,7 @@
   },
   {
     "id": 330,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình trang 52, mã độc tạo ngoại lệ có chủ ý để phát hiện debugger vì sao?",
     "options": [
       "Debugger luôn xóa toàn bộ ngoại lệ khỏi ổ đĩa.",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": 331,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình trang 52, cách tự kiểm tra tính toàn vẹn của mã đang chạy phát hiện gì?",
     "options": [
       "Sự sửa đổi mã do breakpoint/patch có thể gây ra.",
@@ -4635,7 +4635,7 @@
   },
   {
     "id": 332,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Disassembly được giáo trình định nghĩa là quá trình nào?",
     "options": [
       "Chuyển câu lệnh nhị phân sang mã ZIP.",
@@ -4649,7 +4649,7 @@
   },
   {
     "id": 333,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "So với dynamic disassembly, static disassembly khác ở điểm nào?",
     "options": [
       "Phân tích mã chỉ khi đã gọi debugger.",
@@ -4663,7 +4663,7 @@
   },
   {
     "id": 334,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình, anti-disassembly cố gây ra hậu quả nào?",
     "options": [
       "Công cụ dịch ngược nhận đúng mọi luồng điều khiển.",
@@ -4677,7 +4677,7 @@
   },
   {
     "id": 335,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình trang 54, Rogue Byte trong anti-disassembly là gì?",
     "options": [
       "Byte dư thừa hoặc không hợp lệ được chèn để gây rối.",
@@ -4691,7 +4691,7 @@
   },
   {
     "id": 336,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong giáo trình, cách sử dụng nhiều lệnh nhảy để che cấu trúc chương trình nhằm chống kỹ thuật nào?",
     "options": [
       "Disassembly.",
@@ -4705,7 +4705,7 @@
   },
   {
     "id": 337,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Đối với CFG trong giáo trình, một đỉnh (vertex) biểu diễn thành phần nào?",
     "options": [
       "Tệp dữ liệu (data file).",
@@ -4719,7 +4719,7 @@
   },
   {
     "id": 338,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Đối với CFG trong giáo trình, một cạnh có hướng biểu diễn gì?",
     "options": [
       "Khả năng chuyển luồng điều khiển giữa hai khối.",
@@ -4733,7 +4733,7 @@
   },
   {
     "id": 339,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Giải pháp bước đầu khi cần xử lý mã bị anti-disassembly trong giáo trình là gì?",
     "options": [
       "Đổi hash và chia nhỏ các chữ ký số.",
@@ -4747,7 +4747,7 @@
   },
   {
     "id": 340,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình trang 58, giá trị nào của cờ BeingDebugged khiến chương trình tin rằng không bị gỡ lỗi?",
     "options": [
       "1.",
@@ -4761,7 +4761,7 @@
   },
   {
     "id": 341,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Một dấu hiệu gợi ý thuật toán mã hóa trong binary theo giáo trình trang 55 là gì?",
     "options": [
       "Import hàm đồ họa và các ảnh icon.",
@@ -4775,7 +4775,7 @@
   },
   {
     "id": 342,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình trang 55, cặp công cụ nào hỗ trợ tìm hằng số mật mã trong IDA Pro?",
     "options": [
       "Wireshark và TCPView.",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": 343,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình Chương 2, dù phân tích tĩnh không chạy mẫu, rủi ro nào vẫn tồn tại?",
     "options": [
       "Mẫu sẽ chắc chắn tự thực thi dù không mở.",
@@ -4803,7 +4803,7 @@
   },
   {
     "id": 344,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong nguyên tắc đạo đức phân tích tĩnh, hành động nào phù hợp khi cần trích dẫn code có bản quyền?",
     "options": [
       "Tải nguyên vẹn đoạn code lên diễn đàn công cộng.",
@@ -4817,7 +4817,7 @@
   },
   {
     "id": 345,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình trang 60, cách xử lý mẫu mã độc trên máy cá nhân là gì?",
     "options": [
       "Không mở trên máy thật; dùng môi trường phân tách an toàn.",
@@ -4831,7 +4831,7 @@
   },
   {
     "id": 346,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình, nếu cần chia sẻ mẫu cho nhóm nghiên cứu được phép thì nên làm gì?",
     "options": [
       "Dán mã thực thi trực tiếp lên diễn đàn công cộng.",
@@ -4845,7 +4845,7 @@
   },
   {
     "id": 347,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Khi phân tích tĩnh phát hiện khóa API hoặc thông tin cá nhân trong strings, cách công bố phù hợp là gì?",
     "options": [
       "Ẩn danh hoặc mã hóa dữ liệu nhạy cảm trước khi chia sẻ.",
@@ -4859,7 +4859,7 @@
   },
   {
     "id": 348,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình, kết luận từ entropy cao và API đáng ngờ cần được viết như thế nào?",
     "options": [
       "Khẳng định tuyệt đối là mã độc ngay cả khi chưa chứng minh.",
@@ -4873,7 +4873,7 @@
   },
   {
     "id": 349,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Nếu một tệp giống mã độc ở vài strings, việc đầu tiên hợp lý trong báo cáo là gì?",
     "options": [
       "Công bố chắc chắn file độc hại không cần kiểm chứng.",
@@ -4887,7 +4887,7 @@
   },
   {
     "id": 350,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong bảng tình huống đạo đức trang 64, gặp khóa mã hóa/chứng chỉ trong mẫu thì xử lý thế nào?",
     "options": [
       "Che hoặc mã hóa khi đưa vào báo cáo.",
@@ -4901,7 +4901,7 @@
   },
   {
     "id": 351,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Trong bảng tình huống đạo đức trang 64, dùng decompiler thương mại không có giấy phép thì nên làm gì?",
     "options": [
       "Sử dụng bản crack để vượt kiểm soát license.",
@@ -4915,7 +4915,7 @@
   },
   {
     "id": 352,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Khi được gửi mẫu bởi nguồn ẩn danh trên diễn đàn, theo bảng đạo đức cần làm gì trước?",
     "options": [
       "Tải lên dịch vụ đám mây công cộng ngay khi nhận.",
@@ -4929,7 +4929,7 @@
   },
   {
     "id": 353,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo bảng đạo đức trang 64, bài báo cáo sinh viên nên trình bày mẫu mã độc như thế nào?",
     "options": [
       "Mô tả cơ chế, đính kèm link mẫu thực cho mọi người.",
@@ -4943,7 +4943,7 @@
   },
   {
     "id": 354,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Để đảm bảo khả năng truy xuất quá trình phân tích, nhật ký phòng lab nên có gì?",
     "options": [
       "Nguồn mẫu, tên tài khoản mạng xã hội và số điện thoại.",
@@ -4957,7 +4957,7 @@
   },
   {
     "id": 355,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Theo giáo trình, phân tích tĩnh nên được tiến hành trong bối cảnh nào?",
     "options": [
       "Được cho phép, có mục đích phòng thủ/nghiên cứu rõ ràng.",
@@ -4971,7 +4971,7 @@
   },
   {
     "id": 356,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Với mã độc mới chưa được xác thực bằng thực nghiệm, cách diễn đạt nào trung thực nhất?",
     "options": [
       "“Một chuỗi tĩnh chắc chắn chứng minh mọi tác động lên hệ thống.”",
@@ -4985,7 +4985,7 @@
   },
   {
     "id": 357,
-    "chapter": 2,
+    "chapter": "Chương 2",
     "question": "Ba nguyên tắc cốt lõi được giáo trình tổng kết cho phân tích tĩnh là gì?",
     "options": [
       "An toàn – Tốc độ – Trách nhiệm.",

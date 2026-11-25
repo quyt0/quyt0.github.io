@@ -241,7 +241,7 @@
 
     function buildQuizPlay(chapters, shuffleQs, shuffleOpts, timeMinutes) {
         let filteredData = (chapters.length > 0) 
-            ? globalQuizData.filter(q => chapters.includes(q.chapter))
+            ? globalQuizData.filter(q => chapters.includes(String(q.chapter)))
             : [...globalQuizData];
 
         if (shuffleQs) shuffleArray(filteredData);
