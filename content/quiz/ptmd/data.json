@@ -1,0 +1,2046 @@
+[
+  {
+    "id": 1,
+    "chapter": 1,
+    "question": "Malware là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [
+      "Malicious hardware",
+      "Malicious software",
+      "Malicious firmware",
+      "Malicious middleware"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Mã độc là phần mềm độc hại (malicious software). (Nguồn: Slide tr. 10; Giáo trình tr. 7.)"
+  },
+  {
+    "id": 2,
+    "chapter": 1,
+    "question": "Theo định nghĩa trong bài giảng, mã độc xâm phạm trực tiếp bộ ba thuộc tính an toàn thông tin nào?",
+    "options": [
+      "Bí mật, xác thực, sẵn sàng",
+      "Bí mật, toàn vẹn, xác thực",
+      "Toàn vẹn, xác thực, sẵn sàng",
+      "Bí mật, toàn vẹn, sẵn sàng"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Định nghĩa mã độc nhấn mạnh confidentiality, integrity và availability. (Nguồn: Slide tr. 10; Giáo trình tr. 7.)"
+  },
+  {
+    "id": 3,
+    "chapter": 1,
+    "question": "Đâu là một mục đích chính của mã độc được nêu trong slide?",
+    "options": [
+      "Bảo vệ thông tin cá nhân hoặc tài chính",
+      "Đánh cắp thông tin cá nhân hoặc tài chính",
+      "Sao lưu thông tin cá nhân hoặc tài chính",
+      "Ẩn danh thông tin cá nhân hoặc tài chính"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Đánh cắp thông tin là một mục tiêu chính được liệt kê. (Nguồn: Slide tr. 12; Giáo trình tr. 7.)"
+  },
+  {
+    "id": 4,
+    "chapter": 1,
+    "question": "Theo slide, con đường nào dưới đây thường được mã độc sử dụng để phát tán?",
+    "options": [
+      "Email, website và Bluetooth",
+      "Email, website và USB",
+      "Email, website và NFC",
+      "Email, website và HDMI"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide liệt kê email, web và thiết bị lưu trữ USB. (Nguồn: Slide tr. 11; Giáo trình tr. 7.)"
+  },
+  {
+    "id": 5,
+    "chapter": 1,
+    "question": "Theo slide 11, bộ ba dạng tồn tại nào của mã độc được liệt kê đầy đủ và chính xác?",
+    "options": [
+      "Tập tin thực thi, script hoặc tài liệu giấy",
+      "Tập tin thực thi, ảnh in hoặc mã nguồn",
+      "Tập tin thực thi, script hoặc mã QR in",
+      "Tập tin thực thi, script hoặc mã nguồn"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Mã độc không giới hạn ở một định dạng file. (Nguồn: Slide tr. 11; Giáo trình tr. 7.)"
+  },
+  {
+    "id": 6,
+    "chapter": 1,
+    "question": "Ai tạo ra chương trình Creeper năm 1971 theo slide?",
+    "options": [
+      "John Thomas",
+      "Ray Thomas",
+      "Bob Thomson",
+      "Bob Thomas"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide lịch sử ghi Creeper do Bob Thomas phát triển năm 1971. (Nguồn: Slide tr. 8; Giáo trình tr. 7.)"
+  },
+  {
+    "id": 7,
+    "chapter": 1,
+    "question": "Creeper sử dụng mạng nào để di chuyển giữa các máy tính?",
+    "options": [
+      "BITNET",
+      "USENET",
+      "ARPANET",
+      "MILNET"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Creeper lan truyền trên mạng ARPANET, tiền thân Internet. (Nguồn: Slide tr. 8; Giáo trình tr. 8.)"
+  },
+  {
+    "id": 8,
+    "chapter": 1,
+    "question": "Reaper được tạo ra chủ yếu để làm gì?",
+    "options": [
+      "Loại bỏ các bản sao Wabbit",
+      "Loại bỏ các bản sao Cascade",
+      "Loại bỏ các bản sao Creeper",
+      "Loại bỏ các bản sao Morris"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Reaper do Ray Tomlinson tạo ra để tìm và xóa Creeper. (Nguồn: Slide tr. 8; Giáo trình tr. 8.)"
+  },
+  {
+    "id": 9,
+    "chapter": 1,
+    "question": "Theo slide, Wabbit (Rabbit) xuất hiện vào năm nào?",
+    "options": [
+      "1973",
+      "1974",
+      "1975",
+      "1972"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Wabbit xuất hiện năm 1974. (Nguồn: Slide tr. 8; Giáo trình tr. 8.)"
+  },
+  {
+    "id": 10,
+    "chapter": 1,
+    "question": "Tại sao Wabbit có thể làm hệ thống quá tải và crash?",
+    "options": [
+      "Tự sao chép với tốc độ rất nhanh",
+      "Tự sao chép với tốc độ rất chậm",
+      "Tự mã hóa với tốc độ rất nhanh",
+      "Tự sao lưu với tốc độ rất nhanh"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Sự tự nhân bản liên tục tiêu tốn tài nguyên. (Nguồn: Slide tr. 8; Giáo trình tr. 8.)"
+  },
+  {
+    "id": 11,
+    "chapter": 1,
+    "question": "Trojan ANIMAL đầu tiên được ghi trong slide xuất hiện năm nào?",
+    "options": [
+      "1975",
+      "1974",
+      "1976",
+      "1973"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide liệt kê ANIMAL năm 1975. (Nguồn: Slide tr. 9; Giáo trình tr. 9.)"
+  },
+  {
+    "id": 12,
+    "chapter": 1,
+    "question": "Elk Cloner (1982) nổi bật vì đặc điểm lịch sử nào?",
+    "options": [
+      "Là virus đầu tiên lây lan trong phòng thí nghiệm qua đĩa mềm",
+      "Là virus đầu tiên lây lan ngoài phòng thí nghiệm qua đĩa mềm",
+      "Là virus đầu tiên lây lan ngoài phòng thí nghiệm qua email",
+      "Là virus đầu tiên lây lan ngoài phòng thí nghiệm qua USB"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide ghi Elk Cloner lan ngoài phòng thí nghiệm bằng đĩa mềm. (Nguồn: Slide tr. 9; Giáo trình tr. 9.)"
+  },
+  {
+    "id": 13,
+    "chapter": 1,
+    "question": "Morris Worm năm 1988 gây tê liệt mạng chủ yếu vì lý do nào được slide nhấn mạnh?",
+    "options": [
+      "Không kiểm tra máy đã vá trước khi tiếp tục lan",
+      "Không kiểm tra máy đã tắt trước khi tiếp tục lan",
+      "Không kiểm tra máy đã nhiễm trước khi tiếp tục lan",
+      "Không kiểm tra máy đã quét trước khi tiếp tục lan"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Morris Worm nhân bản lặp vào các máy đã nhiễm, gây quá tải. (Nguồn: Slide tr. 9; Giáo trình tr. 9.)"
+  },
+  {
+    "id": 14,
+    "chapter": 1,
+    "question": "Theo slide lịch sử, Cascade là ví dụ sớm của kỹ thuật nào?",
+    "options": [
+      "Nén để che giấu bản thân",
+      "Đổi tên để che giấu bản thân",
+      "Sao lưu để che giấu bản thân",
+      "Mã hóa để che giấu bản thân"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide nêu Cascade là mã độc sớm sử dụng mã hóa để tránh phát hiện. (Nguồn: Slide tr. 9.)"
+  },
+  {
+    "id": 15,
+    "chapter": 1,
+    "question": "Theo giáo trình, Melissa (1999) phát tán nổi bật qua phương tiện nào?",
+    "options": [
+      "Tài liệu Word gửi qua email",
+      "Tài liệu Excel gửi qua email",
+      "Tài liệu PowerPoint gửi qua email",
+      "Tài liệu PDF gửi qua email"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Giáo trình ghi Melissa phát tán bằng email chứa tài liệu Word. (Nguồn: Giáo trình tr. 9.)"
+  },
+  {
+    "id": 16,
+    "chapter": 1,
+    "question": "Theo giáo trình, Zeus Trojan nổi bật với mục tiêu nào?",
+    "options": [
+      "Đánh cắp thông tin ngân hàng",
+      "Đánh cắp thông tin quảng cáo",
+      "Đánh cắp thông tin bảo hành",
+      "Đánh cắp thông tin thống kê"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Zeus được nêu làm ví dụ trojan đánh cắp thông tin ngân hàng. (Nguồn: Giáo trình tr. 9.)"
+  },
+  {
+    "id": 17,
+    "chapter": 1,
+    "question": "Theo giáo trình, botnet Mirai thường khai thác nhóm thiết bị nào?",
+    "options": [
+      "Thiết bị IoT bảo mật mạnh",
+      "Thiết bị IoT không có mạng",
+      "Thiết bị IoT bảo mật yếu",
+      "Thiết bị IoT được cách ly"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Mirai lợi dụng thiết bị IoT yếu để tạo botnet DDoS. (Nguồn: Giáo trình tr. 9.)"
+  },
+  {
+    "id": 18,
+    "chapter": 1,
+    "question": "WannaCry và NotPetya xuất hiện trong phần lịch sử giáo trình cùng năm nào?",
+    "options": [
+      "2016",
+      "2018",
+      "2017",
+      "2015"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Giáo trình đề cập hai cuộc tấn công năm 2017. (Nguồn: Giáo trình tr. 10.)"
+  },
+  {
+    "id": 19,
+    "chapter": 1,
+    "question": "Theo hình thống kê Norton ở slide 6, quốc gia nào chiếm tỷ trọng lớn nhất trong biểu đồ \"Targeted Attacks\"?",
+    "options": [
+      "Hoa Kỳ (38%)",
+      "Hoa Kỳ (28%)",
+      "Hoa Kỳ (18%)",
+      "Hoa Kỳ (48%)"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Biểu đồ tròn trong slide 6 có lát cắt lớn nhất là United States 38%. (Nguồn: Slide tr. 6.)"
+  },
+  {
+    "id": 20,
+    "chapter": 1,
+    "question": "Theo biểu đồ tròn ở slide 6, Ấn Độ chiếm bao nhiêu phần trăm các cuộc tấn công có chủ đích trong hình?",
+    "options": [
+      "7%",
+      "17%",
+      "11%",
+      "27%"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Lát cắt India được ghi 17%. Đây là số liệu theo hình minh họa, không phải thống kê hiện tại. (Nguồn: Slide tr. 6.)"
+  },
+  {
+    "id": 21,
+    "chapter": 1,
+    "question": "Hình minh họa vụ Vietnam Airlines trên slide 7 nói đến thời điểm nào?",
+    "options": [
+      "Tháng 6/2016",
+      "Tháng 7/2017",
+      "Tháng 7/2016",
+      "Tháng 8/2016"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Timeline ở slide 7 ghi 7/2016. (Nguồn: Slide tr. 7.)"
+  },
+  {
+    "id": 22,
+    "chapter": 1,
+    "question": "Theo hình vụ Vietnam Airlines ở slide 7, cụm số liệu nào được ghi cho thông tin khách hàng bị đánh cắp?",
+    "options": [
+      "Hơn 410.000",
+      "Hơn 411.000",
+      "Hơn 411.100",
+      "Hơn 411.010"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Chú thích trên hình ghi hơn 411.000 thông tin khách hàng bị đánh cắp. (Nguồn: Slide tr. 7.)"
+  },
+  {
+    "id": 23,
+    "chapter": 1,
+    "question": "Mã độc nào thường giả dạng chương trình hữu ích để lừa người dùng kích hoạt?",
+    "options": [
+      "Trojan scanner",
+      "Trojan remover",
+      "Trojan horse",
+      "Trojan detector"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Trojan giả danh phần mềm có ích, cần người dùng kích hoạt. (Nguồn: Slide tr. 16; Giáo trình tr. 13.)"
+  },
+  {
+    "id": 24,
+    "chapter": 1,
+    "question": "Logic bomb thường phát tác khi nào?",
+    "options": [
+      "Khi điều kiện hoặc thời điểm đặt trước không được thỏa mãn",
+      "Khi điều kiện hoặc thời điểm đặt trước được thỏa mãn",
+      "Khi điều kiện hoặc thời điểm đặt sau được thỏa mãn",
+      "Khi điều kiện hoặc thời điểm đặt trước bị hủy bỏ"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Bom logic thường nhúng trong chương trình và kích hoạt theo điều kiện cụ thể. (Nguồn: Slide tr. 15.)"
+  },
+  {
+    "id": 25,
+    "chapter": 1,
+    "question": "Đặc trưng của backdoor là gì?",
+    "options": [
+      "Cho phép giám sát hệ thống bỏ qua thủ tục kiểm tra an ninh thông thường",
+      "Cho phép truy cập hệ thống sau thủ tục kiểm tra an ninh thông thường",
+      "Cho phép truy cập hệ thống tuân thủ thủ tục kiểm tra an ninh thông thường",
+      "Cho phép truy cập hệ thống bỏ qua thủ tục kiểm tra an ninh thông thường"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Backdoor tạo con đường truy cập trái phép hoặc vượt cơ chế xác thực. (Nguồn: Slide tr. 17; Giáo trình tr. 12.)"
+  },
+  {
+    "id": 26,
+    "chapter": 1,
+    "question": "Rootkit được thiết kế đặc biệt để thực hiện chức năng nào?",
+    "options": [
+      "Hiển thị sự hiện diện hoặc hoạt động độc hại trong hệ thống",
+      "Ẩn sự hiện diện hoặc hoạt động độc hại trong hệ thống",
+      "Xóa sự hiện diện hoặc hoạt động độc hại trong hệ thống",
+      "Ghi nhận sự hiện diện hoặc hoạt động độc hại trong hệ thống"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Rootkit che giấu tệp, tiến trình hay thành phần độc hại và hỗ trợ kiểm soát bí mật. (Nguồn: Slide tr. 17; Giáo trình tr. 12.)"
+  },
+  {
+    "id": 27,
+    "chapter": 1,
+    "question": "Adware có biểu hiện điển hình nào?",
+    "options": [
+      "Tự động hiển thị quảng cáo khi sử dụng phần mềm",
+      "Tự động chặn quảng cáo khi sử dụng phần mềm",
+      "Tự động phân loại quảng cáo khi sử dụng phần mềm",
+      "Tự động lọc quảng cáo khi sử dụng phần mềm"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Adware là advertising-supported software, hay được đóng gói kèm phần mềm miễn phí. (Nguồn: Slide tr. 18; Giáo trình tr. 13.)"
+  },
+  {
+    "id": 28,
+    "chapter": 1,
+    "question": "Spyware chủ yếu nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và bảo vệ thông tin nhạy cảm",
+      "Theo dõi và sao lưu thông tin nhạy cảm",
+      "Theo dõi và thu thập thông tin nhạy cảm",
+      "Theo dõi và mã hóa thông tin nhạy cảm"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Spyware giám sát và đánh cắp thông tin của nạn nhân. (Nguồn: Slide tr. 18; Giáo trình tr. 13.)"
+  },
+  {
+    "id": 29,
+    "chapter": 1,
+    "question": "Dấu hiệu chức năng nổi bật của ransomware là gì?",
+    "options": [
+      "Mã hóa tệp và đòi tiền chuộc để giải mã",
+      "Mã hóa tệp và đòi mật khẩu để giải mã",
+      "Mã hóa tệp và tự cấp khóa để giải mã",
+      "Mã hóa tệp và đòi xác thực để giải mã"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide định nghĩa ransomware qua hành vi mã hóa dữ liệu và đòi tiền chuộc. (Nguồn: Slide tr. 19; Giáo trình tr. 13.)"
+  },
+  {
+    "id": 30,
+    "chapter": 1,
+    "question": "Virus máy tính thường lây sang chương trình khác bằng cách nào?",
+    "options": [
+      "Lây nhiễm và sao lưu chương trình hoặc tệp chủ",
+      "Lây nhiễm và sửa đổi chương trình hoặc tệp chủ",
+      "Lây nhiễm và cập nhật chương trình hoặc tệp chủ",
+      "Lây nhiễm và khôi phục chương trình hoặc tệp chủ"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Virus bám vào tệp/chương trình và hoạt động khi đối tượng nhiễm được kích hoạt. (Nguồn: Slide tr. 20; Giáo trình tr. 11.)"
+  },
+  {
+    "id": 31,
+    "chapter": 1,
+    "question": "Đặc điểm phân biệt worm với virus theo slide là gì?",
+    "options": [
+      "Worm tự lan truyền mà luôn cần chương trình chủ",
+      "Worm tự lan truyền mà chỉ cần chương trình chủ",
+      "Worm tự lan truyền mà phải có chương trình chủ",
+      "Worm tự lan truyền mà không cần chương trình chủ"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Worm tự nhân bản và lây giữa máy mà không cần vật chủ. (Nguồn: Slide tr. 20; Giáo trình tr. 11.)"
+  },
+  {
+    "id": 32,
+    "chapter": 1,
+    "question": "Sau khi nhiễm một máy, worm thường sử dụng máy đó như thế nào?",
+    "options": [
+      "Làm bàn đạp vá và bảo vệ máy khác",
+      "Làm bàn đạp giám sát và hỗ trợ máy khác",
+      "Làm bàn đạp quét và tấn công máy khác",
+      "Làm bàn đạp kiểm thử và bảo trì máy khác"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide nêu máy đã nhiễm làm bàn đạp tiếp tục lây lan. (Nguồn: Slide tr. 20; Giáo trình tr. 12.)"
+  },
+  {
+    "id": 33,
+    "chapter": 1,
+    "question": "Zombie/Bot là gì?",
+    "options": [
+      "Thiết bị hoặc chương trình được cấp quyền điều khiển để thực hiện lệnh người dùng",
+      "Thiết bị hoặc chương trình bị chiếm quyền điều khiển để thực hiện lệnh quản trị viên hợp lệ",
+      "Thiết bị hoặc chương trình bị cấp quyền điều khiển để thực hiện lệnh bảo trì",
+      "Thiết bị hoặc chương trình bị chiếm quyền điều khiển để thực hiện lệnh kẻ tấn công"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Bot bị điều khiển để gửi spam, tấn công hệ thống khác... (Nguồn: Slide tr. 21; Giáo trình tr. 12.)"
+  },
+  {
+    "id": 34,
+    "chapter": 1,
+    "question": "Botnet được định nghĩa đúng nhất là gì?",
+    "options": [
+      "Tập hợp nhiều bot dưới sự điều khiển của một hoặc nhiều quản trị viên hợp pháp",
+      "Tập hợp nhiều bot dưới sự điều khiển của một hoặc nhiều hệ điều hành",
+      "Tập hợp nhiều bot dưới sự điều khiển của một hoặc nhiều kẻ tấn công",
+      "Tập hợp nhiều bot dưới sự điều khiển của một hoặc nhiều phần mềm diệt virus"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Sơ đồ slide 21 minh họa nhiều máy bị chiếm quyền cùng tham gia mạng bot. (Nguồn: Slide tr. 21; Giáo trình tr. 12.)"
+  },
+  {
+    "id": 35,
+    "chapter": 1,
+    "question": "Hoạt động nào là ứng dụng độc hại thường gặp của botnet?",
+    "options": [
+      "Tấn công DDoS và gửi thư rác",
+      "Phòng chống DDoS và gửi thư rác",
+      "Tấn công DDoS và chặn thư rác",
+      "Phòng chống DDoS và chặn thư rác"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Botnet có thể được điều khiển để DDoS hoặc spam. (Nguồn: Slide tr. 21; Giáo trình tr. 12.)"
+  },
+  {
+    "id": 36,
+    "chapter": 1,
+    "question": "Information stealer khác ransomware chủ yếu ở mục tiêu nào?",
+    "options": [
+      "Thu thập, bảo vệ thông tin thay vì chủ yếu đòi chuộc tệp",
+      "Thu thập, lấy cắp thông tin thay vì chủ yếu đòi chuộc tệp",
+      "Thu thập, xóa thông tin thay vì chủ yếu đòi chuộc tệp",
+      "Thu thập, mã hóa thông tin thay vì chủ yếu đòi chuộc tệp"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Sơ đồ slide 13 và giáo trình phân biệt trộm thông tin với mã hóa đòi tiền chuộc. (Nguồn: Slide tr. 13; Giáo trình tr. 13.)"
+  },
+  {
+    "id": 37,
+    "chapter": 1,
+    "question": "Downloader có chức năng cốt lõi nào?",
+    "options": [
+      "Tải báo cáo hoặc phần mềm bảo mật khác về máy",
+      "Tải bản vá hoặc phần mềm hợp pháp khác về máy",
+      "Tải payload hoặc phần mềm độc hại khác về máy",
+      "Tải tài liệu hoặc phần mềm chống mã độc khác về máy"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Downloader là trung gian tải thêm payload từ nguồn từ xa. (Nguồn: Slide tr. 13; Giáo trình tr. 13.)"
+  },
+  {
+    "id": 38,
+    "chapter": 1,
+    "question": "Keylogger thường thu thập loại dữ liệu nào?",
+    "options": [
+      "Các cú nhấp của người dùng",
+      "Các phím bấm của người dùng",
+      "Các thao tác chuột của người dùng",
+      "Các chuyển động chuột của người dùng"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Keylogger ghi lại phím bấm, là dạng spyware theo giáo trình. (Nguồn: Giáo trình tr. 13.)"
+  },
+  {
+    "id": 39,
+    "chapter": 1,
+    "question": "RAT trong giáo trình được hiểu là công cụ có khả năng nào?",
+    "options": [
+      "Điều khiển hệ thống từ xa",
+      "Điều khiển hệ thống tại chỗ",
+      "Giám sát hệ thống tại chỗ",
+      "Khởi động hệ thống từ xa"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Remote Administration Tool có thể bị lạm dụng để điều khiển trái phép hệ thống. (Nguồn: Giáo trình tr. 12.)"
+  },
+  {
+    "id": 40,
+    "chapter": 1,
+    "question": "Cryptominer độc hại gây hại bằng cách nào?",
+    "options": [
+      "Chiếm dụng tài nguyên máy nạn nhân để sao lưu tiền mã hóa",
+      "Chiếm dụng tài nguyên máy nạn nhân để kiểm tra tiền mã hóa",
+      "Chiếm dụng tài nguyên máy nạn nhân để xác thực tiền mã hóa",
+      "Chiếm dụng tài nguyên máy nạn nhân để đào tiền mã hóa"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Giáo trình trình bày cryptominer lợi dụng CPU/tài nguyên để đào coin. (Nguồn: Giáo trình tr. 13.)"
+  },
+  {
+    "id": 41,
+    "chapter": 1,
+    "question": "Theo giáo trình dựa trên NIST SP 800-83 Rev.1, mã độc được chia thành mấy nhóm chính?",
+    "options": [
+      "5 nhóm",
+      "4 nhóm",
+      "6 nhóm",
+      "3 nhóm"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Giáo trình liệt kê năm nhóm phân loại chính. (Nguồn: Giáo trình tr. 10.)"
+  },
+  {
+    "id": 42,
+    "chapter": 1,
+    "question": "Theo phân loại 5 nhóm trong giáo trình, virus và worm thuộc nhóm nào?",
+    "options": [
+      "Mã độc không tự lây lan (Non-Replicating Malware)",
+      "Mã độc ẩn mình và kiểm soát (Stealth and Control Malware)",
+      "Mã độc phá hoại hoặc gián đoạn (Destructive Malware)",
+      "Mã độc tự lây lan (Self-Replicating Malware)"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Hai loại được xếp vào nhóm tự lây lan. (Nguồn: Giáo trình tr. 10.)"
+  },
+  {
+    "id": 43,
+    "chapter": 1,
+    "question": "Theo phân loại trong giáo trình, rootkit, backdoor, botnet thuộc nhóm nào?",
+    "options": [
+      "Mã độc ẩn mình và phá hoại",
+      "Mã độc ẩn mình và kiểm soát",
+      "Mã độc phát tán và kiểm soát",
+      "Mã độc ẩn mình và tự lây lan"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Stealth and Control Malware gồm rootkit, backdoor, botnet. (Nguồn: Giáo trình tr. 10.)"
+  },
+  {
+    "id": 44,
+    "chapter": 1,
+    "question": "Nhóm Information-Stealing Malware trong giáo trình có ví dụ nào?",
+    "options": [
+      "Spyware và keylogger",
+      "Spyware và adware",
+      "Spyware và wiper",
+      "Spyware và cryptominer"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Nhóm này tập trung đánh cắp thông tin nhạy cảm. (Nguồn: Giáo trình tr. 10.)"
+  },
+  {
+    "id": 45,
+    "chapter": 1,
+    "question": "Wiper (ví dụ NotPetya trong giáo trình) phù hợp nhất với nhóm nào?",
+    "options": [
+      "Mã độc bảo vệ hoặc gây gián đoạn",
+      "Mã độc phá hoại hoặc tự phục hồi",
+      "Mã độc phá hoại hoặc gây gián đoạn",
+      "Mã độc thu thập hoặc gây gián đoạn"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Wiper có mục tiêu phá hủy dữ liệu hoặc làm gián đoạn hoạt động. (Nguồn: Giáo trình tr. 10.)"
+  },
+  {
+    "id": 46,
+    "chapter": 1,
+    "question": "Theo sơ đồ phân loại ở slide 14, Worm được xếp vào nhánh nào?",
+    "options": [
+      "Cần chương trình chủ",
+      "Không cần chương trình phụ",
+      "Cần chương trình phụ",
+      "Không cần chương trình chủ"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Sơ đồ slide 14 chia nhóm dựa trên yêu cầu chương trình chủ; worm thuộc nhánh không cần. (Nguồn: Slide tr. 14.)"
+  },
+  {
+    "id": 47,
+    "chapter": 1,
+    "question": "Theo sơ đồ phân loại ở slide 14, Trojan horses được xếp vào nhánh nào?",
+    "options": [
+      "Không cần chương trình phụ",
+      "Không cần chương trình chủ",
+      "Cần chương trình phụ",
+      "Cần chương trình chủ"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Sơ đồ liệt kê Trojan horses ở nhóm cần chương trình chủ. (Nguồn: Slide tr. 14.)"
+  },
+  {
+    "id": 48,
+    "chapter": 1,
+    "question": "Trong sơ đồ slide 13, biểu tượng chiếc khóa với cửa mở được dùng để minh họa loại nào?",
+    "options": [
+      "Backdoor",
+      "Frontdoor",
+      "Backdoor scanner",
+      "Backdoor remover"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide 13 có biểu tượng cửa/ổ khóa đặt cạnh nhãn Backdoor. (Nguồn: Slide tr. 13.)"
+  },
+  {
+    "id": 49,
+    "chapter": 1,
+    "question": "Trong tên mẫu \"Backdoor:Win32/Caphaw.D!lnk\" ở slide 22, phần \"Backdoor\" chỉ gì?",
+    "options": [
+      "Họ mã độc (family)",
+      "Nền tảng mã độc (platform)",
+      "Loại mã độc (type)",
+      "Biến thể mã độc (variant)"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Hình giải thích cấu trúc: Type : Platform / Family . Variant ! Suffix. (Nguồn: Slide tr. 22.)"
+  },
+  {
+    "id": 50,
+    "chapter": 1,
+    "question": "Trong tên \"Backdoor:Win32/Caphaw.D!lnk\", chuỗi \"Win32\" thể hiện gì?",
+    "options": [
+      "Biến thể (variant)",
+      "Họ mã độc (family)",
+      "Nền tảng (platform)",
+      "Loại mã độc (type)"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Khối thứ hai trong hình được gắn nhãn Platform. (Nguồn: Slide tr. 22.)"
+  },
+  {
+    "id": 51,
+    "chapter": 1,
+    "question": "Trong tên \"Backdoor:Win32/Caphaw.D!lnk\", \"Caphaw\" là thành phần nào?",
+    "options": [
+      "Nền tảng mã độc (platform)",
+      "Họ mã độc (family)",
+      "Loại mã độc (type)",
+      "Biến thể mã độc (variant)"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Sơ đồ minh họa đặt Caphaw ở ô Family. (Nguồn: Slide tr. 22.)"
+  },
+  {
+    "id": 52,
+    "chapter": 1,
+    "question": "Trong tên \"Backdoor:Win32/Caphaw.D!lnk\", \".D\" thể hiện gì?",
+    "options": [
+      "Họ mã độc (family)",
+      "Loại mã độc (type)",
+      "Nền tảng mã độc (platform)",
+      "Biến thể (variant)"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide 22 chú thích .D là Variant. (Nguồn: Slide tr. 22.)"
+  },
+  {
+    "id": 53,
+    "chapter": 1,
+    "question": "Bước đầu tiên trong sơ đồ hoạt động chung của mã độc (slide 23) là gì?",
+    "options": [
+      "Mở cửa hậu cho kẻ tấn công",
+      "Che giấu hoạt động mã độc",
+      "Xâm nhập vào hệ thống",
+      "Thực hiện hoạt động độc hại"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Sơ đồ năm bước bắt đầu từ xâm nhập. (Nguồn: Slide tr. 23; Giáo trình tr. 14.)"
+  },
+  {
+    "id": 54,
+    "chapter": 1,
+    "question": "Theo sơ đồ slide 23, hoạt động nào ngay sau bước \"Xâm nhập vào hệ thống\"?",
+    "options": [
+      "Giám sát và kiểm soát hệ thống",
+      "Điều khiển và khôi phục hệ thống",
+      "Điều khiển và bảo vệ hệ thống",
+      "Điều khiển và kiểm soát hệ thống"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Sơ đồ đưa bước kiểm soát sau xâm nhập. (Nguồn: Slide tr. 23; Giáo trình tr. 15.)"
+  },
+  {
+    "id": 55,
+    "chapter": 1,
+    "question": "Bước nào xuất hiện sau \"Điều khiển và kiểm soát hệ thống\" trong sơ đồ slide?",
+    "options": [
+      "Mở cửa hậu cho kẻ tấn công",
+      "Mở cửa sổ cho kẻ tấn công",
+      "Đóng cửa hậu cho kẻ tấn công",
+      "Mở tường lửa cho kẻ tấn công"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Thứ tự slide: xâm nhập → kiểm soát → mở cửa hậu → hành vi độc hại → che giấu. (Nguồn: Slide tr. 23; Giáo trình tr. 15.)"
+  },
+  {
+    "id": 56,
+    "chapter": 1,
+    "question": "Trong chuỗi hoạt động chung trên slide, bước cuối được trình bày là gì?",
+    "options": [
+      "Phát hiện sự hoạt động",
+      "Che giấu sự hoạt động",
+      "Khôi phục sự hoạt động",
+      "Công khai sự hoạt động"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Che giấu sự hoạt động nằm ở cuối chuỗi mô tả trong slide. (Nguồn: Slide tr. 23; Giáo trình tr. 16.)"
+  },
+  {
+    "id": 57,
+    "chapter": 1,
+    "question": "Cách xâm nhập nào được giáo trình nêu là ví dụ phishing?",
+    "options": [
+      "Email thật có tệp Word chứa macro độc hại",
+      "Email giả mạo có tệp Word chứa macro độc hại",
+      "Email giả mạo có tệp Word chứa macro an toàn",
+      "Email giả mạo có tệp Word không chứa macro"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Email giả mạo kèm tệp Word có macro là đường vào được nêu ở chương 1. (Nguồn: Slide tr. 27; Giáo trình tr. 14.)"
+  },
+  {
+    "id": 58,
+    "chapter": 1,
+    "question": "Trong bối cảnh malware, C2 là viết tắt của gì?",
+    "options": [
+      "Command and Console",
+      "Command and Connection",
+      "Command and Control",
+      "Command and Configuration"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "C2 là máy chủ/kênh chỉ huy và điều khiển từ xa. (Nguồn: Giáo trình tr. 15.)"
+  },
+  {
+    "id": 59,
+    "chapter": 1,
+    "question": "Mục tiêu chính của backdoor được thiết lập sau xâm nhập là gì?",
+    "options": [
+      "Duy trì quyền truy cập của kẻ tấn công về sau",
+      "Ngăn chặn quyền truy cập của kẻ tấn công về sau",
+      "Thu hồi quyền truy cập của kẻ tấn công về sau",
+      "Xóa bỏ quyền truy cập của kẻ tấn công về sau"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Backdoor cho phép quay lại mà không cần khai thác lại lỗ hổng ban đầu. (Nguồn: Slide tr. 25; Giáo trình tr. 16.)"
+  },
+  {
+    "id": 60,
+    "chapter": 1,
+    "question": "Đâu là ví dụ của hành vi độc hại sau khi mã độc kiểm soát hệ thống?",
+    "options": [
+      "Giải mã dữ liệu hoặc đánh cắp thông tin",
+      "Mã hóa dữ liệu hoặc đánh cắp thông tin",
+      "Mã hóa dữ liệu hoặc bảo vệ thông tin",
+      "Khôi phục dữ liệu hoặc bảo vệ thông tin"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Mã hóa, đánh cắp dữ liệu, thay đổi cấu hình là hành vi độc hại. (Nguồn: Slide tr. 25; Giáo trình tr. 16.)"
+  },
+  {
+    "id": 61,
+    "chapter": 1,
+    "question": "Đâu là biện pháp mã độc dùng để che giấu hoạt động theo slide 26?",
+    "options": [
+      "Giải mã tệp hoặc kết nối, né phần mềm chống virus",
+      "Mã hóa tệp hoặc kết nối, hỗ trợ phần mềm chống virus",
+      "Mã hóa tệp hoặc kết nối, né phần mềm chống virus",
+      "Mã hóa tệp hoặc kết nối, cập nhật phần mềm chống virus"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide nêu dùng mã hóa, thay đổi cấu hình và né công cụ diệt virus. (Nguồn: Slide tr. 26; Giáo trình tr. 16.)"
+  },
+  {
+    "id": 62,
+    "chapter": 1,
+    "question": "Theo slide 27, nguồn phát tán nào có nguy cơ do file nguồn không an toàn?",
+    "options": [
+      "Crack và keygen",
+      "Crack và keylogger",
+      "Crack và keyfile",
+      "Crack và keychain"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide liệt kê crack, keygen và nguồn không an toàn. (Nguồn: Slide tr. 27; Giáo trình tr. 14.)"
+  },
+  {
+    "id": 63,
+    "chapter": 1,
+    "question": "Trong chuỗi tiến trình tấn công, privilege escalation giúp mã độc đạt điều gì?",
+    "options": [
+      "Quyền truy cập cao hơn, như quản trị viên/root",
+      "Quyền truy cập thấp hơn, như khách/guest",
+      "Quyền truy cập ngang bằng, như user thường",
+      "Quyền truy cập tạm thời, như khách/guest"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Giáo trình mô tả leo thang đặc quyền để kiểm soát hệ thống. (Nguồn: Giáo trình tr. 15.)"
+  },
+  {
+    "id": 64,
+    "chapter": 1,
+    "question": "Theo infographic WannaCry trên slide 28, giai đoạn cuối minh họa hành vi nào?",
+    "options": [
+      "Mã hóa hệ thống rồi yêu cầu thanh toán tiền chuộc bằng Bitcoin",
+      "Giải mã hệ thống rồi yêu cầu thanh toán tiền chuộc bằng Bitcoin",
+      "Mã hóa hệ thống rồi yêu cầu thanh toán phí bảo trì bằng Bitcoin",
+      "Mã hóa hệ thống rồi yêu cầu thanh toán tiền chuộc bằng điểm thưởng"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Hình của Europol/EC3 thể hiện xâm nhập, lan truyền và mã hóa đòi Bitcoin. (Nguồn: Slide tr. 28.)"
+  },
+  {
+    "id": 65,
+    "chapter": 1,
+    "question": "Theo infographic WannaCry, sau khi thực thi mã độc có thể lan bằng cách nào?",
+    "options": [
+      "Tự lan tới các máy khác qua mạng bằng cách khai thác bản vá",
+      "Tự lan tới các máy khác qua mạng bằng cách khắc phục lỗ hổng",
+      "Tự lan tới các máy khác qua mạng bằng cách vô hiệu hóa lỗ hổng",
+      "Tự lan tới các máy khác qua mạng bằng cách khai thác lỗ hổng"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Infographic mô tả tự sao chép và lan trong mạng bằng khai thác lỗ hổng. (Nguồn: Slide tr. 28.)"
+  },
+  {
+    "id": 66,
+    "chapter": 1,
+    "question": "Theo bảng slide 29, đuôi nào tương ứng với tập tin lô (batch)?",
+    "options": [
+      ".BAS",
+      ".BATX",
+      ".DAT",
+      ".BAT"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Hàng tập tin văn bản trong bảng ghi tập tin lô BAT. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 67,
+    "chapter": 1,
+    "question": "Theo bảng slide 29, cặp phần mở rộng nào được ghi cho dòng tập tin script?",
+    "options": [
+      ".VBS và .JS",
+      ".VBS và .VB",
+      ".VBS và .VXD",
+      ".VBS và .SYS"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Bảng các định dạng nêu VBS, JS cho tập tin script. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 68,
+    "chapter": 1,
+    "question": "Trong bảng định dạng ở slide 29, file registry có đuôi nào?",
+    "options": [
+      ".RGS",
+      ".RGE",
+      ".RES",
+      ".REG"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Hàng tập tin registry ghi REG. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 69,
+    "chapter": 1,
+    "question": "Theo bảng trên slide 29, phần mở rộng nào được ghi ở dòng \"Tập tin lệnh\" thuộc nhóm tập tin chương trình?",
+    "options": [
+      ".COM",
+      ".CMD",
+      ".CPL",
+      ".CON"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Bảng định dạng phân biệt COM là tập tin lệnh. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 70,
+    "chapter": 1,
+    "question": "Theo bảng slide 29, cặp đuôi nào được xếp vào \"Tập tin thi hành\"?",
+    "options": [
+      ".EXE và .SYS",
+      ".EXE và .SCR",
+      ".EXE và .VBS",
+      ".EXE và .HTA"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide 29 nêu EXE, SCR cho tập tin thi hành. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 71,
+    "chapter": 1,
+    "question": "Theo bảng slide 29, nhóm tập tin thư viện gồm những đuôi nào?",
+    "options": [
+      ".DLL, .CPL, .SYS, .VXD",
+      ".DLL, .CPL, .SYS, .SCR",
+      ".DLL, .CPL, .JS, .VXD",
+      ".DLL, .REG, .SYS, .VXD"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Các đuôi thư viện được liệt kê DLL, CPL, SYS, VXD. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 72,
+    "chapter": 1,
+    "question": "Theo bảng trên slide 29, cặp phần mở rộng nào được ghi ở dòng \"Tập tin tư liệu\" của nhóm MS Office?",
+    "options": [
+      ".DOC và .COM",
+      ".DOC và .VXD",
+      ".DOC và .HTA",
+      ".DOC và .DOT"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Bảng gắn DOC, DOT với tập tin tư liệu MS Office. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 73,
+    "chapter": 1,
+    "question": "Trong bảng slide 29, đuôi nào được gắn với tập tin bảng tính MS Office?",
+    "options": [
+      ".XLS và .POT",
+      ".XLS và .DLL",
+      ".XLS và .XLT",
+      ".XLS và .SYS"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "XLS và XLT là ví dụ cho bảng tính. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 74,
+    "chapter": 1,
+    "question": "Trong bảng slide 29, đuôi nào gắn với tập tin trình diễn MS Office?",
+    "options": [
+      ".PPT và .POT",
+      ".PPT và .DOT",
+      ".PPT và .XLT",
+      ".PPT và .HTA"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "PPT, POT là định dạng tập tin trình diễn. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 75,
+    "chapter": 1,
+    "question": "Mã độc dạng boot virus trên slide 29 có thể bám vào đối tượng nào?",
+    "options": [
+      "Mẫu tin khởi động hệ điều hành hoặc phân vùng đĩa",
+      "Mẫu tin cấu hình hệ điều hành hoặc phân vùng đĩa",
+      "Mẫu tin khởi động trình duyệt hoặc phân vùng đĩa",
+      "Mẫu tin khởi động hệ điều hành hoặc thư mục người dùng"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Bảng slide liệt kê vùng khởi động đĩa mềm, đĩa cứng và phân khu. (Nguồn: Slide tr. 29.)"
+  },
+  {
+    "id": 76,
+    "chapter": 1,
+    "question": "Giáo trình chương 1 lưu ý tài liệu PDF có thể nguy hiểm chủ yếu vì sao?",
+    "options": [
+      "Khai thác lỗ hổng của phần mềm tạo PDF hoặc chứa nội dung hợp lệ",
+      "Khai thác lỗ hổng của phần mềm đọc PDF hoặc chứa nội dung vô hại",
+      "Khai thác lỗ hổng của phần mềm in PDF hoặc chứa nội dung an toàn",
+      "Khai thác lỗ hổng của phần mềm đọc PDF hoặc chứa nội dung độc hại"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Giáo trình liệt kê PDF là định dạng có nguy cơ qua trình đọc hoặc nội dung bên trong. (Nguồn: Giáo trình tr. 17.)"
+  },
+  {
+    "id": 77,
+    "chapter": 1,
+    "question": "Theo giáo trình Chương 1, cơ chế nào khiến tệp ảnh .jpg/.png có thể trở thành phương tiện tấn công?",
+    "options": [
+      "Khai thác bản vá của phần mềm xử lý hình ảnh",
+      "Khai thác lỗ hổng của phần mềm xử lý hình ảnh",
+      "Khai thác chữ ký của phần mềm xử lý hình ảnh",
+      "Khai thác giấy phép của phần mềm xử lý hình ảnh"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Giáo trình liệt kê tệp ảnh có thể chứa dữ liệu khai thác bộ giải mã. (Nguồn: Giáo trình tr. 17.)"
+  },
+  {
+    "id": 78,
+    "chapter": 1,
+    "question": "Theo giáo trình, shortcut Windows với đuôi .lnk có thể bị lạm dụng để làm gì?",
+    "options": [
+      "Gọi cmd.exe hoặc PowerShell để kiểm tra phiên bản",
+      "Gọi cmd.exe hoặc PowerShell để hiển thị trợ giúp",
+      "Gọi cmd.exe hoặc PowerShell để thực thi lệnh",
+      "Gọi cmd.exe hoặc PowerShell để chỉ đọc cấu hình"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Shortcut độc hại có thể trỏ đến chương trình hệ thống chạy lệnh. (Nguồn: Slide tr. 38; Giáo trình tr. 17.)"
+  },
+  {
+    "id": 79,
+    "chapter": 1,
+    "question": "Tệp web nào được giáo trình liệt kê có thể chứa JavaScript độc hại?",
+    "options": [
+      ".HTML và .CSS",
+      ".HTML và .TXT",
+      ".HTML và .CSV",
+      ".HTML và .JS"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Tệp web có thể nhúng JavaScript dẫn đến hành vi độc hại. (Nguồn: Giáo trình tr. 17.)"
+  },
+  {
+    "id": 80,
+    "chapter": 1,
+    "question": "Theo bảng so sánh trên slide 30, thành phần nào có ở cột Windows nhưng không được liệt kê ở cột Linux?",
+    "options": [
+      "Files",
+      "Registry keys",
+      "Processes và memory",
+      "Folders"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide 30 liệt kê Registry keys bên Windows, không có trong cột Linux. (Nguồn: Slide tr. 30.)"
+  },
+  {
+    "id": 81,
+    "chapter": 1,
+    "question": "Theo slide 31, thành phần \"Files\" của mã độc có thể chứa gì?",
+    "options": [
+      "Mã, dữ liệu giải mã, payload và thông tin của mã độc",
+      "Mã, dữ liệu mã hóa, payload và thông tin của mã độc",
+      "Mã, dữ liệu mã hóa, báo cáo và thông tin của mã độc",
+      "Mã, dữ liệu mã hóa, bản vá và thông tin của mã độc"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "File có thể lưu thành phần mã và payload độc hại. (Nguồn: Slide tr. 31.)"
+  },
+  {
+    "id": 82,
+    "chapter": 1,
+    "question": "Mã độc chỉnh sửa Registry keys trên Windows có thể nhằm mục đích nào?",
+    "options": [
+      "Khởi động và thực thi cùng hệ thống",
+      "Ngừng khởi động và thực thi cùng hệ thống",
+      "Ngăn khởi động và thực thi cùng hệ thống",
+      "Chặn khởi động và thực thi cùng hệ thống"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide 32 nêu mã độc tạo/sửa registry để tự khởi động. (Nguồn: Slide tr. 32; Giáo trình tr. 16.)"
+  },
+  {
+    "id": 83,
+    "chapter": 1,
+    "question": "Theo slide 33, mã độc có thể tác động process/memory bằng cách nào?",
+    "options": [
+      "Tạo tiến trình mới hoặc chỉ đọc bộ nhớ tiến trình đang chạy",
+      "Tạo tiến trình mới hoặc sửa bộ nhớ tiến trình đang chạy",
+      "Tạo tiến trình mới hoặc sao lưu bộ nhớ tiến trình đang chạy",
+      "Tạo tiến trình mới hoặc giải phóng bộ nhớ tiến trình đang chạy"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide mô tả can thiệp process và memory để thực hiện hành vi độc hại. (Nguồn: Slide tr. 33.)"
+  },
+  {
+    "id": 84,
+    "chapter": 1,
+    "question": "Mục đích của việc mã độc tạo thư mục ẩn theo slide 34 là gì?",
+    "options": [
+      "Hiển thị các tệp độc hại",
+      "Xóa bỏ các tệp độc hại",
+      "Che giấu các tệp độc hại",
+      "Khôi phục các tệp độc hại"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Các thư mục lạ hoặc ẩn có thể dùng giấu file malware. (Nguồn: Slide tr. 34.)"
+  },
+  {
+    "id": 85,
+    "chapter": 1,
+    "question": "Theo sơ đồ slide 35, kỹ thuật nào cho phép ẩn các thành phần của chính mã độc?",
+    "options": [
+      "Bootkit",
+      "Dropper",
+      "Rootkit",
+      "Downloader"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Khối Rootkit ghi rõ ẩn các thành phần của chính nó. (Nguồn: Slide tr. 35.)"
+  },
+  {
+    "id": 86,
+    "chapter": 1,
+    "question": "Theo sơ đồ slide 35, \"Chèn mã, system call\" liên quan đến hoạt động nào?",
+    "options": [
+      "Thực thi qua lời gọi hệ thống hoặc chèn mã vào tiến trình đã kết thúc",
+      "Thực thi qua lời gọi hệ thống hoặc chèn mã vào tiến trình chưa tồn tại",
+      "Thực thi qua lời gọi hệ thống hoặc chèn mã vào tiến trình không chạy",
+      "Thực thi qua lời gọi hệ thống hoặc chèn mã vào tiến trình có sẵn"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide mô tả chèn mã vào tiến trình hoặc sử dụng các lời gọi hệ thống. (Nguồn: Slide tr. 35.)"
+  },
+  {
+    "id": 87,
+    "chapter": 1,
+    "question": "Vì sao thuộc tính Hidden/System của file có thể bị mã độc lợi dụng?",
+    "options": [
+      "Windows luôn tự xóa các tệp này theo thiết lập mặc định",
+      "Windows thường tự mã hóa các tệp này theo thiết lập mặc định",
+      "Windows thường không hiển thị các tệp này theo thiết lập mặc định",
+      "Windows thường không cho thực thi các tệp này theo thiết lập mặc định"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Mặc định Windows có thể ẩn file mang thuộc tính Hidden hoặc System. (Nguồn: Slide tr. 36.)"
+  },
+  {
+    "id": 88,
+    "chapter": 1,
+    "question": "Quan sát hình slide 37: Vì sao file có biểu tượng “New folder (2)” là ví dụ đáng ngờ?",
+    "options": [
+      "Biểu tượng giống thư mục nhưng Type là File folder",
+      "Biểu tượng giống thư mục nhưng Type là Application",
+      "Biểu tượng giống thư mục nhưng Type là Shortcut",
+      "Biểu tượng giống thư mục nhưng Type là Compressed folder"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Ảnh slide 37 cho thấy một đối tượng dùng icon thư mục nhưng cột Type lại là Application (tệp thực thi), tức có thể là file giả mạo icon. (Nguồn: Slide tr. 37.)"
+  },
+  {
+    "id": 89,
+    "chapter": 1,
+    "question": "Trong hình minh họa slide 38, kỹ thuật giả mạo shortcut có thể che giấu điều gì?",
+    "options": [
+      "Lệnh thực thi được cấu hình trong trường Target của shortcut",
+      "Lệnh thực thi được cấu hình trong trường Icon của shortcut",
+      "Lệnh thực thi được cấu hình trong trường Comment của shortcut",
+      "Lệnh thực thi được cấu hình trong trường Name của shortcut"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Shortcut giả có thể trỏ tới cmd.exe hoặc tập lệnh độc hại. (Nguồn: Slide tr. 38; Giáo trình tr. 17.)"
+  },
+  {
+    "id": 90,
+    "chapter": 1,
+    "question": "DLL side-loading/hijacking lợi dụng cơ chế nào?",
+    "options": [
+      "Cách hệ điều hành hoặc ứng dụng tìm và lưu DLL",
+      "Cách hệ điều hành hoặc ứng dụng tìm và nén DLL",
+      "Cách hệ điều hành hoặc ứng dụng tìm và nạp DLL",
+      "Cách hệ điều hành hoặc ứng dụng tìm và xóa DLL"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide 39 mô tả lợi dụng cơ chế load DLL để ẩn mã độc. (Nguồn: Slide tr. 39.)"
+  },
+  {
+    "id": 91,
+    "chapter": 1,
+    "question": "Theo slide 40, mã độc có thể ẩn bằng cách giả mạo yếu tố nào?",
+    "options": [
+      "Tệp thực thi của phần mềm hợp pháp",
+      "Tệp cấu hình của phần mềm hợp pháp",
+      "Tệp hướng dẫn của phần mềm hợp pháp",
+      "Tệp bản quyền của phần mềm hợp pháp"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ảnh trên slide nêu tình huống tệp giả mạo phần mềm Chrome. (Nguồn: Slide tr. 40.)"
+  },
+  {
+    "id": 92,
+    "chapter": 1,
+    "question": "Theo slide 41, đặc trưng được nhấn mạnh của mã độc fileless là gì?",
+    "options": [
+      "Không tồn tại dưới dạng tiến trình thông thường trên hệ thống",
+      "Không tồn tại dưới dạng tệp thông thường trên hệ thống",
+      "Không tồn tại dưới dạng khóa Registry thông thường trên hệ thống",
+      "Không tồn tại dưới dạng mã thực thi trong RAM"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide mô tả fileless không hiện diện dưới dạng file như malware truyền thống. (Nguồn: Slide tr. 41.)"
+  },
+  {
+    "id": 93,
+    "chapter": 1,
+    "question": "Slide 41 minh họa kỹ thuật fileless thông qua thành phần Windows nào?",
+    "options": [
+      "Registry Editor (các khóa Registry)",
+      "Registry Viewer (các khóa Registry)",
+      "Registry Cleaner (các khóa Registry)",
+      "Registry Backup (các khóa Registry)"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Hình hiển thị Registry Editor với khóa chứa lệnh đáng ngờ. (Nguồn: Slide tr. 41.)"
+  },
+  {
+    "id": 94,
+    "chapter": 1,
+    "question": "Pre-OS boot malware trên slide 42 có thể thực hiện kỹ thuật nào?",
+    "options": [
+      "Ghi đè Master Boot Record (MBR)",
+      "Ghi đè Master File Table (MFT)",
+      "Ghi đè Master Boot Sector (MBS)",
+      "Ghi đè Master Partition Record (MPR)"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide ghi mã độc có thể ghi đè MBR để ẩn trước hệ điều hành. (Nguồn: Slide tr. 42.)"
+  },
+  {
+    "id": 95,
+    "chapter": 1,
+    "question": "Hình Task Scheduler ở slide 43 minh họa mã độc ẩn bằng cách nào?",
+    "options": [
+      "Chỉ kích hoạt khi chưa thỏa điều kiện hoặc lịch chạy định sẵn",
+      "Chỉ kích hoạt khi thỏa điều kiện hoặc lịch chạy định sẵn",
+      "Chỉ kích hoạt khi thỏa điều kiện hoặc lịch chạy ngẫu nhiên",
+      "Chỉ kích hoạt khi thỏa điều kiện hoặc lịch chạy bị vô hiệu"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Mã độc có thể hẹn giờ hoặc chờ điều kiện kích hoạt. (Nguồn: Slide tr. 43.)"
+  },
+  {
+    "id": 96,
+    "chapter": 1,
+    "question": "Theo slide 44, mã độc có thể lợi dụng gì để trộn lẫn với hoạt động hợp lệ?",
+    "options": [
+      "Tiến trình và dịch vụ người dùng",
+      "Tiến trình và dịch vụ không tồn tại",
+      "Tiến trình và dịch vụ đã bị xóa",
+      "Tiến trình và dịch vụ hệ thống"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide nêu hành vi ẩn dưới các tiến trình, service. (Nguồn: Slide tr. 44.)"
+  },
+  {
+    "id": 97,
+    "chapter": 1,
+    "question": "Hình slide 45 minh họa dạng ẩn mình liên quan trực tiếp đến kỹ thuật nào?",
+    "options": [
+      "Process injection (chèn mã vào tiến trình)",
+      "Process isolation (cách ly mã khỏi tiến trình)",
+      "Process inspection (kiểm tra mã trong tiến trình)",
+      "Process termination (kết thúc mã trong tiến trình)"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide 45 nhấn mạnh Injection vào tiến trình/service hệ thống. (Nguồn: Slide tr. 45.)"
+  },
+  {
+    "id": 98,
+    "chapter": 1,
+    "question": "Theo slide 46, virus lây file thường ẩn mình bằng cách nào?",
+    "options": [
+      "Lây nhiễm vào chương trình hoặc tệp dữ liệu thuần túy",
+      "Lây nhiễm vào chương trình hoặc tệp thực thi",
+      "Lây nhiễm vào báo cáo hoặc tệp cấu hình",
+      "Lây nhiễm vào bản sao lưu hoặc tệp lưu trữ"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Hình bảng section và mũi tên _virus minh họa lây vào executable. (Nguồn: Slide tr. 46.)"
+  },
+  {
+    "id": 99,
+    "chapter": 1,
+    "question": "Dấu hiệu nào được slide 47 liệt kê là có thể do nhiễm mã độc?",
+    "options": [
+      "Máy chạy chậm bất thường và kết nối mạng chậm",
+      "Máy chạy chậm bất thường và kết nối mạng nhanh",
+      "Máy chạy nhanh bất thường và kết nối mạng chậm",
+      "Máy chạy chậm khi xử lý nặng và kết nối mạng chậm"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Máy chậm hoặc mạng chậm bất thường là dấu hiệu cần kiểm tra, không đủ kết luận riêng lẻ. (Nguồn: Slide tr. 47; Giáo trình tr. 18.)"
+  },
+  {
+    "id": 100,
+    "chapter": 1,
+    "question": "Không mở được cmd, regedit hoặc Task Manager là dấu hiệu gì trong slide?",
+    "options": [
+      "Khả năng hệ thống bị mã độc can thiệp",
+      "Khả năng hệ thống bị quản trị viên can thiệp",
+      "Khả năng hệ thống bị tường lửa can thiệp",
+      "Khả năng hệ thống bị phần mềm sao lưu can thiệp"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide 47 liệt kê các công cụ hệ thống bị chặn. (Nguồn: Slide tr. 47; Giáo trình tr. 18.)"
+  },
+  {
+    "id": 101,
+    "chapter": 1,
+    "question": "Theo các dấu hiệu được ghi ở slide 47–48, tổ hợp thay đổi file/thư mục nào là chính xác?",
+    "options": [
+      "Xuất hiện thư mục mới và tệp tự động được sao lưu, sửa hoặc nén",
+      "Xuất hiện thư mục lạ và tệp tự động được hiển thị, sửa hoặc giải mã",
+      "Xuất hiện thư mục lạ và tệp tự động được khôi phục, chuyển hoặc giải nén",
+      "Xuất hiện thư mục lạ và tệp tự động bị ẩn, xóa hoặc mã hóa"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide 47-48 nêu thư mục lạ, file biến đổi hoặc mã hóa. (Nguồn: Slide tr. 47; Giáo trình tr. 18.)"
+  },
+  {
+    "id": 102,
+    "chapter": 1,
+    "question": "Theo slide 48, biểu hiện nào được nêu rõ đối với phần mềm diệt virus?",
+    "options": [
+      "Antivirus không chạy nhưng luôn có thể cài đặt",
+      "Antivirus không chạy hoặc không thể cài đặt",
+      "Antivirus vẫn chạy nhưng không thể cập nhật",
+      "Antivirus không chạy nhưng vẫn luôn tự khởi động"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Công cụ chống virus bị vô hiệu hóa là dấu hiệu nghi ngờ. (Nguồn: Slide tr. 48; Giáo trình tr. 18.)"
+  },
+  {
+    "id": 103,
+    "chapter": 1,
+    "question": "Các cửa sổ pop-up hoặc thông báo lỗi lạ liên tục xuất hiện có thể biểu hiện gì?",
+    "options": [
+      "Một dấu hiệu hệ thống cần được kiểm tra phần cứng",
+      "Một dấu hiệu hệ thống cần được kiểm tra phần mềm văn phòng",
+      "Một dấu hiệu hệ thống cần được kiểm tra mã độc",
+      "Một dấu hiệu hệ thống cần được kiểm tra dung lượng"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide 48 liệt kê pop-up/thông báo lạ trong các dấu hiệu nhận biết. (Nguồn: Slide tr. 48; Giáo trình tr. 18.)"
+  },
+  {
+    "id": 104,
+    "chapter": 1,
+    "question": "Khi rà soát tệp đáng ngờ, vì sao hai phần mở rộng bất thường có thể là dấu hiệu ngụy trang?",
+    "options": [
+      "Có thể là cách minh bạch loại tệp thực tế",
+      "Có thể là cách xác thực loại tệp thực tế",
+      "Có thể là cách ngụy trang loại tệp thực tế",
+      "Có thể là cách bảo đảm loại tệp thực tế"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide 48 nêu dấu hiệu xuất hiện cặp đuôi file bất thường. (Nguồn: Slide tr. 48; Giáo trình tr. 18.)"
+  },
+  {
+    "id": 105,
+    "chapter": 1,
+    "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Network”?",
+    "options": [
+      "TCPView và Event Viewer",
+      "TCPView và Autoruns",
+      "TCPView và Wireshark",
+      "TCPView và Process Explorer"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Bảng liệt kê TCPView, Wireshark tại hàng Network. (Nguồn: Slide tr. 49; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 106,
+    "chapter": 1,
+    "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Process”?",
+    "options": [
+      "Process Explorer và Process Monitor",
+      "Process Explorer và Event Viewer",
+      "Process Explorer và Rootkit Remover",
+      "Process Explorer và Process Hacker"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Process Explorer/Hacker nằm ở hàng Process. (Nguồn: Slide tr. 49; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 107,
+    "chapter": 1,
+    "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Startup”?",
+    "options": [
+      "Regedit và TCPView",
+      "Regedit và Wireshark",
+      "Regedit và Autoruns",
+      "Regedit và Process Hacker"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Regedit/Autoruns được liệt kê tại hàng Startup. (Nguồn: Slide tr. 49; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 108,
+    "chapter": 1,
+    "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Rootkit”?",
+    "options": [
+      "PC Hunter và Process Monitor",
+      "PC Hunter và Process Explorer",
+      "PC Hunter và Rootkit Remover",
+      "PC Hunter và Event Viewer"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Bảng phân biệt hàng Rootkit với các nhóm công cụ khác. (Nguồn: Slide tr. 49; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 109,
+    "chapter": 1,
+    "question": "Theo bảng công cụ ở slide 49, cặp nào được liệt kê trong hàng “Logs”?",
+    "options": [
+      "Event Viewer và TCPView",
+      "Event Viewer và Process Monitor",
+      "Event Viewer và Wireshark",
+      "Event Viewer và Autoruns"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide 49 gắn Event Viewer/Process Monitor với Logs. (Nguồn: Slide tr. 49; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 110,
+    "chapter": 1,
+    "question": "Công cụ nào nằm trong nhóm Scanner ở bảng slide 49?",
+    "options": [
+      "KVRT, TDSSKiller và ClamAV",
+      "KVRT, TDSSKiller và TCPView",
+      "KVRT, Autoruns và ClamAV",
+      "KVRT, Wireshark và ClamAV"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide nêu các công cụ quét như KVRT, TDSSKiller, Norton Power Eraser, ClamAV. (Nguồn: Slide tr. 49.)"
+  },
+  {
+    "id": 111,
+    "chapter": 1,
+    "question": "Autoruns được giới thiệu chủ yếu để rà soát nội dung nào?",
+    "options": [
+      "Các mục khởi động thủ công của hệ thống",
+      "Các mục khởi động tự động của hệ thống",
+      "Các mục khởi động tự động của trình duyệt",
+      "Các mục khởi động theo yêu cầu của hệ thống"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide 50 có hình giao diện Autoruns và bảng Startup ở slide 49. (Nguồn: Slide tr. 50; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 112,
+    "chapter": 1,
+    "question": "Slide 53 minh họa TCPView với dữ liệu nào?",
+    "options": [
+      "Danh sách tiến trình và các tệp/cổng mạng",
+      "Danh sách tiến trình và các kết nối/khóa Registry",
+      "Danh sách tiến trình và các kết nối/cổng mạng",
+      "Danh sách tiến trình và các kết nối/ổ đĩa"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "TCPView hiển thị process, giao thức, địa chỉ local/remote và cổng. (Nguồn: Slide tr. 53; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 113,
+    "chapter": 1,
+    "question": "Event Viewer trên slide 55 giúp xem nhóm thông tin nào?",
+    "options": [
+      "Nhật ký tiến trình hệ thống Windows",
+      "Nhật ký chỉnh sửa hệ thống Windows",
+      "Nhật ký sự kiện hệ thống Windows",
+      "Nhật ký sao lưu hệ thống Windows"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Ảnh chụp cho thấy Windows Logs và các bản ghi Security. (Nguồn: Slide tr. 55; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 114,
+    "chapter": 1,
+    "question": "Process Monitor trên slide 56 thích hợp để quan sát gì?",
+    "options": [
+      "Hoạt động hệ thống của tiến trình như file và clipboard",
+      "Hoạt động hệ thống của tiến trình như file và macro",
+      "Hoạt động hệ thống của tiến trình như file và registry",
+      "Hoạt động hệ thống của tiến trình như file và theme"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Procmon thu thập các sự kiện liên quan tiến trình, file, registry. (Nguồn: Slide tr. 56; Giáo trình tr. 20.)"
+  },
+  {
+    "id": 115,
+    "chapter": 1,
+    "question": "Theo slide 57, dấu hiệu nào nên được kiểm tra khi rà soát mã độc?",
+    "options": [
+      "Thông tin khởi động, file, tiến trình và tài khoản email",
+      "Thông tin khởi động, file, tiến trình và cấu hình màn hình",
+      "Thông tin khởi động, file, tiến trình và bản quyền phần mềm",
+      "Thông tin khởi động, file, tiến trình và kết nối mạng"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide khuyên kết hợp thông tin startup/file/process/network. (Nguồn: Slide tr. 57; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 116,
+    "chapter": 1,
+    "question": "VirusTotal trong giáo trình được giới thiệu dùng để làm gì?",
+    "options": [
+      "Tra cứu độ an toàn của file và phần cứng trên dịch vụ trực tuyến",
+      "Tra cứu độ an toàn của file và phiên bản Windows trên dịch vụ trực tuyến",
+      "Tra cứu độ an toàn của file và RAM trên dịch vụ trực tuyến",
+      "Tra cứu độ an toàn của file và URL trên dịch vụ trực tuyến"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "VirusTotal hỗ trợ đối chiếu mẫu và URL, không thay mọi bước phân tích. (Nguồn: Slide tr. 57; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 117,
+    "chapter": 1,
+    "question": "Biện pháp nào được slide 58 nhấn mạnh khi sử dụng USB hoặc ổ cứng gắn ngoài?",
+    "options": [
+      "Quét mã độc sau khi sử dụng",
+      "Quét mã độc trong lúc sử dụng",
+      "Quét mã độc trước khi sử dụng",
+      "Quét mã độc chỉ khi thiết bị gặp lỗi"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide khuyên quét USB và ổ cứng ngoài khi cắm vào máy. (Nguồn: Slide tr. 58; Giáo trình tr. 18.)"
+  },
+  {
+    "id": 118,
+    "chapter": 1,
+    "question": "Theo slide 58, lựa chọn nào là thói quen duyệt web an toàn?",
+    "options": [
+      "Tránh nhấp liên kết quảng cáo hoặc bất thường không đáng tin",
+      "Luôn nhấp liên kết quảng cáo hoặc bất thường không đáng tin",
+      "Nên nhấp liên kết quảng cáo hoặc bất thường không đáng tin",
+      "Thường nhấp liên kết quảng cáo hoặc bất thường không đáng tin"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide khuyến nghị tránh click link quảng cáo/bất thường. (Nguồn: Slide tr. 58; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 119,
+    "chapter": 1,
+    "question": "Theo slide 58, khi nghi ngờ file tải về không an toàn nên làm gì?",
+    "options": [
+      "Kiểm tra bằng máy thật hoặc sandbox được kiểm soát",
+      "Kiểm tra bằng máy ảo hoặc trình duyệt không kiểm soát",
+      "Kiểm tra bằng máy ảo hoặc sandbox không được cô lập",
+      "Kiểm tra bằng máy ảo hoặc sandbox được kiểm soát"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide gợi ý sandbox, VM và dịch vụ kiểm tra để thử nghiệm an toàn. (Nguồn: Slide tr. 58; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 120,
+    "chapter": 1,
+    "question": "Theo slide 59, phương án nào trực tiếp giúp bảo vệ dữ liệu trước mã độc?",
+    "options": [
+      "Sao lưu một lần và tạo dữ liệu phục hồi hệ thống",
+      "Sao lưu định kỳ và tạo dữ liệu phục hồi hệ thống",
+      "Sao lưu định kỳ và xóa dữ liệu phục hồi hệ thống",
+      "Sao lưu định kỳ và xóa bản phục hồi hệ thống"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide 59 nêu sao lưu theo chu kỳ và dữ liệu khôi phục. (Nguồn: Slide tr. 59; Giáo trình tr. 19.)"
+  },
+  {
+    "id": 121,
+    "chapter": 1,
+    "question": "Phân tích mã độc theo slide 61 trước hết là hoạt động gì?",
+    "options": [
+      "Nghiên cứu tác giả của mã độc",
+      "Nghiên cứu hành vi của mã độc",
+      "Nghiên cứu bản quyền của mã độc",
+      "Nghiên cứu quảng cáo của mã độc"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide định nghĩa phân tích mã độc là nghiên cứu hành vi malware. (Nguồn: Slide tr. 61; Giáo trình tr. 20.)"
+  },
+  {
+    "id": 122,
+    "chapter": 1,
+    "question": "Mục tiêu của phân tích mã độc theo slide 61 là gì?",
+    "options": [
+      "Hiểu cách mã độc hoạt động, phát tán và duy trì nó",
+      "Hiểu cách mã độc hoạt động, phát hiện và loại bỏ nó",
+      "Hiểu cách mã độc hoạt động, phát hiện và quảng bá nó",
+      "Hiểu cách mã độc hoạt động, khôi phục và nhân bản nó"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Mục tiêu gồm nắm cơ chế, phát hiện và loại bỏ. (Nguồn: Slide tr. 61; Giáo trình tr. 20.)"
+  },
+  {
+    "id": 123,
+    "chapter": 1,
+    "question": "Vai trò nào được slide 62 nêu cho phân tích mã độc?",
+    "options": [
+      "Thu thập thông tin từ mẫu để xác định khả năng và phát tán",
+      "Thu thập thông tin từ mẫu để xác định khả năng và duy trì",
+      "Thu thập thông tin từ mẫu để xác định khả năng và ngăn chặn",
+      "Thu thập thông tin từ mẫu để xác định khả năng và che giấu"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Phân tích giúp xác định tính năng, cách phát hiện, cách ngăn chặn. (Nguồn: Slide tr. 62; Giáo trình tr. 20.)"
+  },
+  {
+    "id": 124,
+    "chapter": 1,
+    "question": "Chỉ số (indicator) nào phù hợp với nhóm Network IOC?",
+    "options": [
+      "Địa chỉ MAC hoặc tên miền liên hệ của mã độc",
+      "Địa chỉ RAM hoặc tên miền liên hệ của mã độc",
+      "Địa chỉ IP hoặc tên miền liên hệ của mã độc",
+      "Địa chỉ IP hoặc tên tiến trình của mã độc"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Chỉ số mạng hỗ trợ nhận diện lưu lượng có dấu hiệu mã độc. (Nguồn: Slide tr. 64; Giáo trình tr. 20.)"
+  },
+  {
+    "id": 125,
+    "chapter": 1,
+    "question": "Chỉ số nào phù hợp với nhóm Host-Based Indicator?",
+    "options": [
+      "Tên tệp và cổng mạng bị tạo hoặc sửa",
+      "Tên tệp và tên miền bị tạo hoặc sửa",
+      "Tên tệp và gói tin mạng bị tạo hoặc sửa",
+      "Tên tệp và khóa Registry bị tạo hoặc sửa"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide 64 nêu filename, registry key là chỉ báo trên host. (Nguồn: Slide tr. 64; Giáo trình tr. 20.)"
+  },
+  {
+    "id": 126,
+    "chapter": 1,
+    "question": "Theo slide 65, các nhánh phân tích chính trong sơ đồ là gì?",
+    "options": [
+      "Static Analysis và Statistical Analysis",
+      "Static Analysis và Manual Analysis",
+      "Static Analysis và Dynamic Analysis",
+      "Static Analysis và Automated Analysis"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Hình vẽ đầu vào malware sample → static/dynamic analysis → report. (Nguồn: Slide tr. 65; Giáo trình tr. 21.)"
+  },
+  {
+    "id": 127,
+    "chapter": 1,
+    "question": "Đặc điểm quyết định của phân tích tĩnh (static analysis) là gì?",
+    "options": [
+      "Phân tích mã hoặc file ngay khi cho mã độc chạy",
+      "Phân tích mã hoặc file trong khi cho mã độc chạy",
+      "Phân tích mã hoặc file sau khi cho mã độc chạy",
+      "Phân tích mã hoặc file mà không cho mã độc chạy"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Phân tích tĩnh khảo sát nội dung không thực thi mẫu. (Nguồn: Slide tr. 66; Giáo trình tr. 21.)"
+  },
+  {
+    "id": 128,
+    "chapter": 1,
+    "question": "Ưu điểm chính của phân tích tĩnh trên slide 66 là gì?",
+    "options": [
+      "An toàn hơn và dễ thực hiện",
+      "An toàn tuyệt đối và dễ thực hiện",
+      "An toàn hơn nhưng khó thực hiện",
+      "Nguy hiểm hơn và dễ thực hiện"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide ghi ưu điểm an toàn hơn, dễ thực hiện. (Nguồn: Slide tr. 66; Giáo trình tr. 21.)"
+  },
+  {
+    "id": 129,
+    "chapter": 1,
+    "question": "Nhược điểm của phân tích tĩnh theo slide 66 là gì?",
+    "options": [
+      "Khó nắm bắt cấu trúc tĩnh khi mã độc chạy",
+      "Khó nắm bắt hành vi thực tế khi mã độc chạy",
+      "Dễ nắm bắt toàn bộ hành vi thực tế khi mã độc chạy",
+      "Khó nắm bắt chữ ký tĩnh khi mã độc chạy"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Không chạy mẫu làm hạn chế quan sát hành vi runtime. (Nguồn: Slide tr. 66; Giáo trình tr. 21.)"
+  },
+  {
+    "id": 130,
+    "chapter": 1,
+    "question": "Theo slide 67, phân tích tĩnh cơ bản tập trung vào nội dung nào?",
+    "options": [
+      "File, cấu trúc file và kết nối mạng thực tế",
+      "File, cấu trúc file và hành vi chạy thực tế",
+      "File, cấu trúc file và thao tác bộ nhớ khi chạy",
+      "File, cấu trúc file và các chức năng được sử dụng"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Phân tích tĩnh cơ bản xem file và cấu trúc bên trong. (Nguồn: Slide tr. 67; Giáo trình tr. 21.)"
+  },
+  {
+    "id": 131,
+    "chapter": 1,
+    "question": "Phân tích tĩnh nâng cao theo slide 67 thường sử dụng cách tiếp cận nào?",
+    "options": [
+      "Mã hóa/disassembly để hiểu mã lệnh",
+      "Sao lưu/disassembly để hiểu mã lệnh",
+      "Dịch ngược/disassembly để hiểu mã lệnh",
+      "Biên dịch/disassembly để hiểu mã lệnh"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide nêu phân tích dựa trên mã được disassemble. (Nguồn: Slide tr. 67; Giáo trình tr. 22.)"
+  },
+  {
+    "id": 132,
+    "chapter": 1,
+    "question": "Điểm cốt lõi của phân tích động (dynamic analysis) là gì?",
+    "options": [
+      "Cho mẫu thực thi và giám sát hành vi trong môi trường mạng công cộng",
+      "Cho mẫu thực thi và giám sát hành vi trong môi trường cô lập",
+      "Cho mẫu thực thi và giám sát hành vi trong môi trường sản xuất",
+      "Cho mẫu thực thi và giám sát hành vi trong môi trường không cách ly"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Phân tích động quan sát sự tương tác thực tế với hệ thống và mạng. (Nguồn: Slide tr. 68; Giáo trình tr. 21.)"
+  },
+  {
+    "id": 133,
+    "chapter": 1,
+    "question": "Ưu điểm của phân tích động trên slide 68 là gì?",
+    "options": [
+      "Hiểu chữ ký và cấu trúc tĩnh của mã độc",
+      "Hiểu hành vi và tác động thực tế của mã độc",
+      "Hiểu hành vi và nguồn gốc lịch sử của mã độc",
+      "Hiểu cấu trúc và mã nguồn tĩnh của mã độc"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide nêu ưu điểm quan sát hành vi/tác động. (Nguồn: Slide tr. 68; Giáo trình tr. 21.)"
+  },
+  {
+    "id": 134,
+    "chapter": 1,
+    "question": "Nhược điểm của phân tích động trên slide 68 là gì?",
+    "options": [
+      "Cần môi trường kết nối và có thể nguy hiểm",
+      "Cần môi trường cô lập và có thể nguy hiểm",
+      "Cần môi trường cô lập và luôn vô hại",
+      "Không cần môi trường cô lập và có thể nguy hiểm"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Thực thi mã độc tiềm ẩn rủi ro nên phải cách ly. (Nguồn: Slide tr. 68; Giáo trình tr. 22.)"
+  },
+  {
+    "id": 135,
+    "chapter": 1,
+    "question": "Theo slide 69, phân tích động cơ bản thu thập thông tin qua cách nào?",
+    "options": [
+      "Chạy mã trong môi trường cô lập và xem đầu ra công cụ dịch ngược",
+      "Chạy mã trong môi trường cô lập và xem đầu ra công cụ soạn thảo",
+      "Chạy mã trong môi trường cô lập và xem đầu ra công cụ giám sát",
+      "Chạy mã trong môi trường cô lập và xem đầu ra công cụ thiết kế"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Phân tích động cơ bản sử dụng các công cụ monitor. (Nguồn: Slide tr. 69; Giáo trình tr. 21.)"
+  },
+  {
+    "id": 136,
+    "chapter": 1,
+    "question": "Phân tích động nâng cao trên slide 69 sử dụng công cụ chính nào?",
+    "options": [
+      "Decompiler (trình dịch ngược)",
+      "Disassembler (trình dịch hợp ngữ)",
+      "Debugger (trình gỡ lỗi)",
+      "File scanner (trình quét tệp)"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Debugger giúp điều khiển luồng thực thi và phân tích sâu. (Nguồn: Slide tr. 69; Giáo trình tr. 22.)"
+  },
+  {
+    "id": 137,
+    "chapter": 1,
+    "question": "Hybrid malware analysis trong slide 70 nghĩa là gì?",
+    "options": [
+      "Kết hợp phân tích tĩnh và phân tích động",
+      "Kết hợp phân tích tĩnh và phân tích mã hóa",
+      "Kết hợp phân tích tĩnh và phân tích thủ công",
+      "Kết hợp phân tích tĩnh và phân tích thống kê"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide 70 mô tả phân tích lai nhằm tận dụng hai phương pháp. (Nguồn: Slide tr. 70; Giáo trình tr. 22.)"
+  },
+  {
+    "id": 138,
+    "chapter": 1,
+    "question": "Theo sơ đồ yêu cầu lab ở slide 71, phần mềm nào được dùng để tạo máy ảo?",
+    "options": [
+      "VMware hoặc Wireshark",
+      "VMware hoặc Process Monitor",
+      "VMware hoặc VirtualBox",
+      "VMware hoặc Autoruns"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Sơ đồ liệt kê Virtualization software (VMware or VirtualBox). (Nguồn: Slide tr. 71; Giáo trình tr. 23.)"
+  },
+  {
+    "id": 139,
+    "chapter": 1,
+    "question": "Tại sao cần snapshot khi phân tích mã độc trong máy ảo?",
+    "options": [
+      "Để khôi phục về trạng thái sạch sau thí nghiệm",
+      "Để lưu lại trạng thái đã nhiễm sau thí nghiệm",
+      "Để phát tán trạng thái đã nhiễm sau thí nghiệm",
+      "Để khôi phục về trạng thái chưa dọn sau thí nghiệm"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Snapshot hỗ trợ phục hồi môi trường VM về Clean State. (Nguồn: Slide tr. 71; Giáo trình tr. 23.)"
+  },
+  {
+    "id": 140,
+    "chapter": 1,
+    "question": "Nếu thí nghiệm không cần giao tiếp mạng, giáo trình khuyến nghị cấu hình mạng VM nào?",
+    "options": [
+      "Bridged",
+      "Host-Only",
+      "NAT",
+      "NAT Network"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Giáo trình khuyên Host-Only khi không cần mạng ngoài. (Nguồn: Giáo trình tr. 24.)"
+  },
+  {
+    "id": 141,
+    "chapter": 1,
+    "question": "Nếu cần xem hành vi mạng của mã độc trong lab, phương án an toàn hơn theo giáo trình là gì?",
+    "options": [
+      "Mạng công cộng hoặc dịch vụ mạng mô phỏng không giới hạn lưu lượng",
+      "Mạng riêng biệt hoặc dịch vụ mạng thật không giới hạn lưu lượng",
+      "Mạng riêng biệt hoặc dịch vụ mạng mô phỏng có giới hạn lưu lượng",
+      "Mạng Internet công khai hoặc dịch vụ mạng mô phỏng không kiểm soát"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Giáo trình yêu cầu hạn chế mạng, dùng mô phỏng hoặc mạng riêng. (Nguồn: Giáo trình tr. 24.)"
+  },
+  {
+    "id": 142,
+    "chapter": 1,
+    "question": "Theo giáo trình, nguyên tắc đạo đức cốt lõi khi phân tích mã độc là gì?",
+    "options": [
+      "Hợp pháp, trung thực, chia sẻ dữ liệu và không phát tán mã độc",
+      "Hợp pháp, trung thực, bảo vệ dữ liệu và không phát tán mã độc",
+      "Hợp pháp, trung thực, bảo vệ dữ liệu và công khai mã độc",
+      "Hợp pháp, trung thực, công bố dữ liệu và lưu hành mã độc"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Chương 1 đặt trọng tâm tính hợp pháp, trung thực, riêng tư, bảo mật và trách nhiệm. (Nguồn: Giáo trình tr. 26.)"
+  },
+  {
+    "id": 143,
+    "chapter": 1,
+    "question": "Khi phát hiện thông tin cá nhân thật trong dump, cách xử lý phù hợp theo giáo trình là gì?",
+    "options": [
+      "Bảo vệ, ẩn danh/mã hóa và không công khai thông tin",
+      "Bảo vệ, ẩn danh/mã hóa và công khai thông tin",
+      "Bảo vệ, giải mã/định danh và không công khai thông tin",
+      "Bảo vệ, ẩn danh/mã hóa và gửi công khai thông tin"
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Giáo trình yêu cầu bảo vệ dữ liệu cá nhân và không chia sẻ công khai. (Nguồn: Giáo trình tr. 26.)"
+  },
+  {
+    "id": 144,
+    "chapter": 1,
+    "question": "Responsible Disclosure có ý nghĩa nào trong hoạt động phân tích mã độc?",
+    "options": [
+      "Thông báo công khai cho mọi người trước khi liên hệ các bên bị ảnh hưởng",
+      "Thông báo có trách nhiệm cho bên liên quan sau khi công khai chi tiết gây hại",
+      "Thông báo có trách nhiệm cho bên liên quan trước khi công khai chi tiết gây hại",
+      "Thông báo có trách nhiệm cho bên liên quan đồng thời công khai mã khai thác"
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Công bố có trách nhiệm nhằm giúp tổ chức vá và giảm rủi ro. (Nguồn: Giáo trình tr. 25.)"
+  },
+  {
+    "id": 145,
+    "chapter": 1,
+    "question": "Khi có mẫu ransomware thật, lựa chọn nào phù hợp với ví dụ đạo đức trong giáo trình?",
+    "options": [
+      "Phân tích trong VM cách ly, có kích hoạt mạng ngoài",
+      "Phân tích trong VM không cách ly, không kích hoạt mạng ngoài",
+      "Phân tích trên máy thật cách ly, không kích hoạt mạng ngoài",
+      "Phân tích trong VM cách ly, không kích hoạt mạng ngoài"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Bảng tình huống đạo đức chương 1 yêu cầu cách ly, không thử trên máy thật. (Nguồn: Giáo trình tr. 28.)"
+  },
+  {
+    "id": 146,
+    "chapter": 1,
+    "question": "Theo giáo trình, vì sao không nên chia sẻ bừa bãi mẫu mã độc trong nghiên cứu?",
+    "options": [
+      "Có thể gây phát tán và bị tái sử dụng để phòng thủ",
+      "Có thể gây phát tán và bị tái sử dụng để tấn công",
+      "Có thể gây phát tán và bị tái sử dụng để sao lưu",
+      "Có thể gây phát tán và bị tái sử dụng để kiểm thử hợp pháp"
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Mẫu thật có thể gây nguy hiểm nếu bị phân phối ngoài kiểm soát. (Nguồn: Giáo trình tr. 27.)"
+  }
+]
