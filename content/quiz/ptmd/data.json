@@ -2042,5 +2042,2959 @@
     "answer": 1,
     "type": "MCQ",
     "explanation": "Mẫu thật có thể gây nguy hiểm nếu bị phân phối ngoài kiểm soát. (Nguồn: Giáo trình tr. 27.)"
+  },
+  {
+    "id": 147,
+    "chapter": 2,
+    "question": "Điểm phân biệt then chốt giữa phân tích tĩnh và phân tích động trong giáo trình là gì?",
+    "options": [
+      "Chỉ thực thi tệp nghi ngờ trước khi phân tích.",
+      "Chỉ thực thi tệp nghi ngờ sau khi phân tích.",
+      "Luôn thực thi tệp nghi ngờ khi phân tích.",
+      "Không thực thi tệp nghi ngờ khi phân tích."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Phân tích tĩnh xem xét mẫu mà không chạy mẫu. (Nguồn: Slide tr. 6; Giáo trình 2025 tr. 31.)"
+  },
+  {
+    "id": 148,
+    "chapter": 2,
+    "question": "Trong slide, tên gọi của tệp đang được khảo sát để phân loại malware/benign là gì?",
+    "options": [
+      "Signature (chữ ký).",
+      "Indicator (chỉ báo).",
+      "Sample (mẫu).",
+      "Sampler (bộ lấy mẫu)."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Tệp được đem đi phân tích gọi là sample. (Nguồn: Slide tr. 5; Giáo trình 2025 tr. 31.)"
+  },
+  {
+    "id": 149,
+    "chapter": 2,
+    "question": "Theo nội dung slide, cặp trạng thái dùng để phân loại tệp nghi ngờ là gì?",
+    "options": [
+      "Malware và benign.",
+      "Malware và unsigned.",
+      "Malware và packed.",
+      "Malware và signed."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Benign là tệp an toàn, đối lập với malware. (Nguồn: Slide tr. 5; Giáo trình 2025 tr. 31.)"
+  },
+  {
+    "id": 150,
+    "chapter": 2,
+    "question": "Trong phân tích tĩnh, việc tìm thấy chuỗi IP đáng ngờ cho phép kết luận hợp lý nhất là gì?",
+    "options": [
+      "Đã xác nhận nhiễm mã độc, chưa xác nhận họ mã độc.",
+      "Đã xác nhận hành vi thực thi, chưa xác nhận mục đích.",
+      "Đã xác nhận kết nối thực tế, chưa xác nhận địa chỉ IP.",
+      "Có dấu hiệu gợi ý hành vi, chưa xác nhận hành vi thực thi."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Chuỗi tĩnh chỉ là dấu hiệu; phải có chứng cứ bổ sung để khẳng định hành vi. (Nguồn: Slide tr. 8; Giáo trình 2025 tr. 31.)"
+  },
+  {
+    "id": 151,
+    "chapter": 2,
+    "question": "Vì sao phân tích tĩnh thường được ưu tiên ở giai đoạn ban đầu?",
+    "options": [
+      "Thu thập thông tin chỉ khi mẫu đã tự chạy.",
+      "Thu thập thông tin bằng cách kích hoạt mẫu.",
+      "Thu thập thông tin sau khi kích hoạt mẫu.",
+      "Thu thập thông tin mà không kích hoạt mẫu."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Ưu điểm là giảm rủi ro thực thi và định hướng các bước sau. (Nguồn: Slide tr. 6; Giáo trình 2025 tr. 31.)"
+  },
+  {
+    "id": 152,
+    "chapter": 2,
+    "question": "Nhiệm vụ nào được slide đặt trong nhóm phân tích tĩnh cơ bản?",
+    "options": [
+      "Phân tích dòng dữ liệu giữa các hàm.",
+      "Phân tích luồng điều khiển và nhánh rẽ.",
+      "Phân tích giá trị trả về của hàm theo luồng.",
+      "Phân tích chuỗi ký tự và hằng số."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide chia phân tích tĩnh cơ bản thành giải mã, phân tích chuỗi, cấu trúc. (Nguồn: Slide tr. 7; Giáo trình 2025 tr. 33.)"
+  },
+  {
+    "id": 153,
+    "chapter": 2,
+    "question": "Nhiệm vụ nào được slide đặt trong nhóm phân tích tĩnh nâng cao?",
+    "options": [
+      "Theo dõi ngày sửa tệp xuyên suốt hệ thống.",
+      "Theo dõi dòng dữ liệu xuyên suốt chương trình.",
+      "Theo dõi kích thước tệp xuyên suốt bản sao.",
+      "Theo dõi tên tệp xuyên suốt thư mục."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Data Flow Analysis được xếp vào phân tích tĩnh nâng cao. (Nguồn: Slide tr. 7; Giáo trình 2025 tr. 33.)"
+  },
+  {
+    "id": 154,
+    "chapter": 2,
+    "question": "Trong nhóm phân tích tĩnh nâng cao, Control Flow Analysis hướng vào yếu tố nào?",
+    "options": [
+      "Nhánh, vòng lặp và thứ tự luồng thực thi.",
+      "Chữ ký, tên và kích thước của tệp.",
+      "Địa chỉ, tên miền và chuỗi ký tự tĩnh.",
+      "Biến, giá trị và nguồn gốc dữ liệu."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Luồng điều khiển tập trung cấu trúc rẽ nhánh, vòng lặp. (Nguồn: Slide tr. 7; Giáo trình 2025 tr. 33.)"
+  },
+  {
+    "id": 155,
+    "chapter": 2,
+    "question": "Trong nhóm phân tích tĩnh nâng cao, Data Flow Analysis chủ yếu theo dõi gì?",
+    "options": [
+      "Sự di chuyển và biến đổi của quyền truy cập.",
+      "Sự di chuyển và biến đổi của tiến trình.",
+      "Sự di chuyển và biến đổi của dữ liệu.",
+      "Sự di chuyển và biến đổi của thư mục."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Data flow xem dữ liệu đi từ đâu tới đâu và biến đổi ra sao. (Nguồn: Slide tr. 7; Giáo trình 2025 tr. 33.)"
+  },
+  {
+    "id": 156,
+    "chapter": 2,
+    "question": "Theo slide, phân tích cấu trúc cơ bản tập trung vào tổ hợp nào?",
+    "options": [
+      "Gói, lớp và hàm.",
+      "Gói, luồng và tiến trình.",
+      "Gói, API và kết nối.",
+      "Gói, mạng và bộ nhớ."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide ghi package, class, function. (Nguồn: Slide tr. 7; Giáo trình 2025 tr. 33.)"
+  },
+  {
+    "id": 157,
+    "chapter": 2,
+    "question": "Ưu điểm nào được giáo trình nêu cho phân tích tĩnh so với trực tiếp chạy malware?",
+    "options": [
+      "Loại trừ mọi nguy cơ bỏ sót hành vi độc hại.",
+      "Loại trừ mọi nguy cơ kích hoạt hành vi độc hại.",
+      "Giảm nguy cơ kích hoạt hành vi độc hại.",
+      "Giảm nguy cơ bỏ sót mọi hành vi độc hại."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Giảm rủi ro không đồng nghĩa tuyệt đối an toàn. (Nguồn: Slide tr. 8; Giáo trình 2025 tr. 32.)"
+  },
+  {
+    "id": 158,
+    "chapter": 2,
+    "question": "Hạn chế trọng tâm của phân tích tĩnh theo giáo trình là gì?",
+    "options": [
+      "Không quan sát trực tiếp toàn bộ hành vi khi chạy.",
+      "Không quan sát trực tiếp được mọi tên file.",
+      "Không quan sát trực tiếp toàn bộ dữ liệu trong tệp.",
+      "Không quan sát trực tiếp được mọi chuỗi ASCII."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Không thực thi nên không theo dõi runtime thực tế. (Nguồn: Slide tr. 8; Giáo trình 2025 tr. 32.)"
+  },
+  {
+    "id": 159,
+    "chapter": 2,
+    "question": "Nhận định nào đúng nhất về phát hiện mã độc zero-day chỉ bằng so khớp hash đã biết?",
+    "options": [
+      "Chắc chắn phát hiện khi có phần mở rộng trùng khớp.",
+      "Luôn phát hiện dù chưa có mẫu trùng khớp.",
+      "Chỉ phát hiện khi mẫu có tên tệp trùng khớp.",
+      "Có thể không phát hiện nếu chưa có mẫu trùng khớp."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Tra cứu dấu hiệu phụ thuộc dữ liệu đã có. (Nguồn: Slide tr. 8; Giáo trình 2025 tr. 32.)"
+  },
+  {
+    "id": 160,
+    "chapter": 2,
+    "question": "Vai trò của kết quả phân tích tĩnh đối với phân tích động được mô tả như thế nào?",
+    "options": [
+      "Bắt buộc loại bỏ môi trường và kiểm chứng giả thuyết.",
+      "Đảm bảo kết quả động đúng dù không kiểm chứng giả thuyết.",
+      "Định hướng thiết lập môi trường và kiểm chứng giả thuyết.",
+      "Thay thế hoàn toàn môi trường và kiểm chứng giả thuyết."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Phân tích tĩnh hỗ trợ lựa chọn cách giám sát phân tích động. (Nguồn: Slide tr. 8; Giáo trình 2025 tr. 31.)"
+  },
+  {
+    "id": 161,
+    "chapter": 2,
+    "question": "Từ việc xác định cấu trúc và các hàm trong mã, phân tích tĩnh giúp gì?",
+    "options": [
+      "Khôi phục tự động mọi hoạt động thực tế của mẫu.",
+      "Xác nhận đầy đủ mọi hoạt động thực tế của mẫu.",
+      "Gợi ý cách thức hoạt động nội tại của mẫu.",
+      "Loại bỏ tự động mọi hoạt động thực tế của mẫu."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Đây là gợi ý về chức năng tiềm ẩn, không phải runtime đầy đủ. (Nguồn: Slide tr. 8; Giáo trình 2025 tr. 31.)"
+  },
+  {
+    "id": 162,
+    "chapter": 2,
+    "question": "Theo sơ đồ quy trình trên slide 10, bước đứng ngay sau File Attributes Analysis là gì?",
+    "options": [
+      "String Analysis.",
+      "Classifying the malware.",
+      "Inspecting PE.",
+      "Hash Analysis."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Sơ đồ: File Attributes → Hash → Existing Analysis → String. (Nguồn: Hình/sơ đồ slide tr. 10; Giáo trình 2025 tr. 34.)"
+  },
+  {
+    "id": 163,
+    "chapter": 2,
+    "question": "Theo sơ đồ slide 10, bước ngay sau Hash Analysis là gì?",
+    "options": [
+      "Obfuscation &amp; Packer check.",
+      "Existing Analysis.",
+      "String Analysis.",
+      "Inspecting PE."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Hash được dùng để đối chiếu kết quả đã biết. (Nguồn: Hình/sơ đồ slide tr. 10; Giáo trình 2025 tr. 34.)"
+  },
+  {
+    "id": 164,
+    "chapter": 2,
+    "question": "Theo sơ đồ slide 10, String Analysis được thực hiện trước bước nào?",
+    "options": [
+      "Hash Analysis.",
+      "File Attributes Analysis.",
+      "Existing Analysis.",
+      "Obfuscation &amp; Packer check."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Sơ đồ đi từ String Analysis tới kiểm tra obfuscation/packer. (Nguồn: Hình/sơ đồ slide tr. 10; Giáo trình 2025 tr. 34.)"
+  },
+  {
+    "id": 165,
+    "chapter": 2,
+    "question": "Theo nhánh quyết định Packed? trong sơ đồ slide 10, đáp án YES dẫn đến đâu?",
+    "options": [
+      "Unpack.",
+      "Classifying the malware.",
+      "Hash Analysis.",
+      "Inspecting PE."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Nếu đã packed, sơ đồ yêu cầu unpack trước khi phân tích PE. (Nguồn: Hình/sơ đồ slide tr. 10; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 166,
+    "chapter": 2,
+    "question": "Theo sơ đồ slide 10, sau Inspecting PE là bước nào?",
+    "options": [
+      "File Attributes Analysis.",
+      "Existing Analysis.",
+      "Classifying the malware.",
+      "Obfuscation &amp; Packer check."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Sau PE là phân loại họ mã độc. (Nguồn: Hình/sơ đồ slide tr. 10; Giáo trình 2025 tr. 34.)"
+  },
+  {
+    "id": 167,
+    "chapter": 2,
+    "question": "Trong phần xác định loại tệp, hai nhóm thông tin hệ thống được suy ra từ loại tệp là gì?",
+    "options": [
+      "Hệ điều hành mục tiêu và dung lượng RAM.",
+      "Hệ điều hành mục tiêu và lịch sử người dùng.",
+      "Hệ điều hành mục tiêu và kiến trúc 32/64 bit.",
+      "Hệ điều hành mục tiêu và địa chỉ IP."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Loại thực thi có thể gợi ý hệ điều hành, kiến trúc. (Nguồn: Slide tr. 11; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 168,
+    "chapter": 2,
+    "question": "Theo slide, lý do không nên chỉ tin vào phần mở rộng `.exe` hoặc `.pdf` là gì?",
+    "options": [
+      "Phần mở rộng không bao giờ do người dùng thay đổi.",
+      "Mọi phần mở rộng đều chỉ định duy nhất mã độc.",
+      "Phần mở rộng có thể bị đổi nhằm đánh lừa người dùng.",
+      "Chữ ký byte đầu tiên luôn tự đổi khi đổi phần mở rộng."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Filename/extension không đáng tin cậy bằng nội dung cấu trúc. (Nguồn: Slide tr. 11; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 169,
+    "chapter": 2,
+    "question": "Chữ ký tệp (file signature) được slide mô tả là gì?",
+    "options": [
+      "Trình tự ký tự của tên tác giả tệp.",
+      "Trình tự ký tự của phần mở rộng tệp.",
+      "Trình tự byte đặc trưng ở cuối tệp.",
+      "Trình tự byte đặc trưng ở đầu tệp."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Magic bytes thường ở phần đầu đối tượng file. (Nguồn: Slide tr. 12; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 170,
+    "chapter": 2,
+    "question": "Theo bảng chữ ký trên slide 13, Windows executable thường bắt đầu bằng cặp byte HEX nào?",
+    "options": [
+      "4D 5A.",
+      "50 4B.",
+      "7F 45.",
+      "25 50."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "4D 5A tương ứng MZ của PE. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 171,
+    "chapter": 2,
+    "question": "Theo bảng trên slide 13, Linux ELF executable sử dụng magic bytes nào?",
+    "options": [
+      "7F 45 4C 47.",
+      "7E 45 4C 46.",
+      "7F 45 4D 46.",
+      "7F 45 4C 46."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Chuỗi 7F 45 4C 46 chứa ELF. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 172,
+    "chapter": 2,
+    "question": "Theo bảng slide 13, chuỗi magic bytes FE ED FA CE thuộc định dạng nào?",
+    "options": [
+      "Mach-O executable.",
+      "ZIP compressed archive.",
+      "Windows PE executable.",
+      "Linux ELF executable."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Mach-O dùng chữ ký FE ED FA CE trong bảng. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 173,
+    "chapter": 2,
+    "question": "Theo bảng slide 13, file PDF có bốn magic bytes đầu tiên là gì?",
+    "options": [
+      "25 50 44 45.",
+      "25 50 44 46.",
+      "25 50 45 46.",
+      "24 50 44 46."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "25 50 44 46 tương ứng %PDF. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 46.)"
+  },
+  {
+    "id": 174,
+    "chapter": 2,
+    "question": "Theo bảng slide 13, định dạng nào gắn với hai byte 50 4B (PK)?",
+    "options": [
+      "RAR.",
+      "EXE.",
+      "PDF.",
+      "ZIP."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "PK là chữ ký đầu của ZIP. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 175,
+    "chapter": 2,
+    "question": "Trong bảng non-executable file formats của slide 13, chữ ký 52 49 46 46 gắn với gì?",
+    "options": [
+      "PDF / %PDF.",
+      "AVI / RIFF.",
+      "Flash / FWS.",
+      "ZIP / PK."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "AVI dùng container RIFF. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 176,
+    "chapter": 2,
+    "question": "Theo slide 13, magic bytes 46 57 53 ứng với loại nào?",
+    "options": [
+      "Adobe Flash SWF (FWS).",
+      "Microsoft document DOC (D0 CF).",
+      "Flash Video FLV (FLV).",
+      "RAR archive (rar!)."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Bảng phân biệt SWF và FLV. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 177,
+    "chapter": 2,
+    "question": "Chữ ký 46 4C 56 trong bảng slide 13 thể hiện định dạng nào?",
+    "options": [
+      "Windows PE EXE.",
+      "Adobe Flash SWF.",
+      "Linux ELF executable.",
+      "Flash Video FLV."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "FLV tương ứng 46 4C 56. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 178,
+    "chapter": 2,
+    "question": "Theo bảng slide 13, cặp byte mở đầu của DOC kiểu cũ là gì?",
+    "options": [
+      "CF D0.",
+      "D1 CF.",
+      "D0 CF.",
+      "D0 CE."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide ghi D0 CF cho Microsoft document. (Nguồn: Hình/sơ đồ slide tr. 13; Giáo trình 2025 tr. 45.)"
+  },
+  {
+    "id": 179,
+    "chapter": 2,
+    "question": "Trong ảnh Wireshark ở slide 14, cặp ký tự dùng để nhận diện tệp ZIP nhúng trong dữ liệu là gì?",
+    "options": [
+      "PDF.",
+      "MZ.",
+      "PE.",
+      "PK."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Ảnh nhấn mạnh ZIPPED FILE RECOGNIZED BY MAGIC BYTES PK. (Nguồn: Hình/sơ đồ slide tr. 14; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 180,
+    "chapter": 2,
+    "question": "Công cụ nào được slide giới thiệu để xem thủ công byte đầu của file dưới dạng hex?",
+    "options": [
+      "HashMyFiles.",
+      "ssdeep.",
+      "Wireshark.",
+      "HxD hex editor."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide 15 minh họa HxD và chữ ký MZ. (Nguồn: Hình/sơ đồ slide tr. 15; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 181,
+    "chapter": 2,
+    "question": "Theo slide 16, lệnh `file` được giới thiệu chủ yếu cho hệ điều hành nào?",
+    "options": [
+      "FreeDOS.",
+      "Linux.",
+      "Windows.",
+      "iOS."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "file utility nhận dạng định dạng trên Linux. (Nguồn: Hình/sơ đồ slide tr. 16; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 182,
+    "chapter": 2,
+    "question": "Theo slide 16, công cụ trên Windows thuộc Explorer Suite để xem định dạng PE là gì?",
+    "options": [
+      "Process Explorer.",
+      "Internet Explorer.",
+      "File Explorer.",
+      "CFF Explorer."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "CFF Explorer là thành phần của Explorer Suite. (Nguồn: Hình/sơ đồ slide tr. 16; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 183,
+    "chapter": 2,
+    "question": "Theo hình trên slide 16, một tệp tên `report.doc.exe` được CFF Explorer xác định là gì?",
+    "options": [
+      "Linux Executable and Linkable Format.",
+      "Microsoft Word document 32-bit.",
+      "Portable Executable 32-bit.",
+      "Portable Document Format 32-bit."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Dựa trên cấu trúc file, tên giả mạo không đổi loại thực. (Nguồn: Hình/sơ đồ slide tr. 16; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 184,
+    "chapter": 2,
+    "question": "Thư viện Python được slide 17 sử dụng để nhận dạng loại tệp qua magic bytes là gì?",
+    "options": [
+      "python-magic.",
+      "python-hashlib.",
+      "python-requests.",
+      "python-yara."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ví dụ minh họa import magic và đọc log.exe. (Nguồn: Hình/sơ đồ slide tr. 17; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 185,
+    "chapter": 2,
+    "question": "Trong ví dụ Python của slide 17, hàm nào lấy kết quả nhận diện định dạng của `log.exe`?",
+    "options": [
+      "m.load(r\"log.exe\").",
+      "m.scan(r\"log.exe\").",
+      "m.file(r\"log.exe\").",
+      "m.hash(r\"log.exe\")."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Ví dụ gọi m.file trên đối tượng magic. (Nguồn: Hình/sơ đồ slide tr. 17; Giáo trình 2025 tr. 38.)"
+  },
+  {
+    "id": 186,
+    "chapter": 2,
+    "question": "Điểm nào khiến mã băm hữu ích hơn tên tệp trong định danh mẫu?",
+    "options": [
+      "Giữ nguyên khi đổi tên nhưng nội dung không đổi.",
+      "Giữ nguyên khi đổi tên và nội dung cùng lúc.",
+      "Giữ nguyên khi đổi toàn bộ byte của nội dung.",
+      "Giữ nguyên khi đổi nội dung nhưng tên không đổi."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Hash tính từ nội dung, không phụ thuộc filename. (Nguồn: Slide tr. 18; Giáo trình 2025 tr. 35.)"
+  },
+  {
+    "id": 187,
+    "chapter": 2,
+    "question": "Hình minh họa hash ở slide 20 nhấn mạnh điều gì khi chỉ một byte bị sửa?",
+    "options": [
+      "Giá trị hash thay đổi chỉ khi tên tệp được sửa.",
+      "Giá trị hash giữ nguyên nếu kích thước tệp bằng nhau.",
+      "Giá trị hash có thể thay đổi dù chỉ một byte sửa.",
+      "Giá trị hash phải giữ nguyên nếu chỉ một byte sửa."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Hình minh họa cùng file khác một byte có hash khác. (Nguồn: Hình/sơ đồ slide tr. 20; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 188,
+    "chapter": 2,
+    "question": "Trong quy trình static analysis, MD5, SHA-1 và SHA-256 được liệt kê là loại gì?",
+    "options": [
+      "Thuật toán băm.",
+      "Thuật toán nén.",
+      "Thuật toán đóng gói.",
+      "Thuật toán dịch ngược."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Đây là các thuật toán tạo giá trị hash. (Nguồn: Slide tr. 18; Giáo trình 2025 tr. 35.)"
+  },
+  {
+    "id": 189,
+    "chapter": 2,
+    "question": "Nếu hai bản sao có cùng nội dung nhưng tên khác nhau, kết luận nào đúng về SHA-256 của chúng?",
+    "options": [
+      "SHA-256 giống nhau nếu byte nội dung giống nhau.",
+      "SHA-256 khác nhau nếu đường dẫn tệp khác nhau.",
+      "SHA-256 khác nhau nếu tên tệp khác nhau.",
+      "SHA-256 giống nhau chỉ khi tên tệp giống nhau."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "SHA-256 băm nội dung byte; tên/đường dẫn không quyết định. (Nguồn: Slide tr. 18; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 190,
+    "chapter": 2,
+    "question": "Theo slide 19, mục đích so sánh hash giữa file gốc và file mới sinh khi phân tích là gì?",
+    "options": [
+      "Kiểm tra chúng có phải cùng nội dung mẫu hay không.",
+      "Kiểm tra chúng có cùng tên tiến trình hay không.",
+      "Kiểm tra chúng có cùng biểu tượng file hay không.",
+      "Kiểm tra chúng có cùng quyền thực thi hay không."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Hash đối chiếu mẫu copy/sinh thêm. (Nguồn: Hình/sơ đồ slide tr. 19; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 191,
+    "chapter": 2,
+    "question": "Theo slide 19, việc chia sẻ hash với nhà nghiên cứu khác có ý nghĩa chính nào?",
+    "options": [
+      "Cho phép thực thi mẫu mà không cần gửi file thực thi.",
+      "Hỗ trợ xác định mẫu mà không cần gửi file thực thi.",
+      "Cho phép giải mã toàn bộ file từ chuỗi hash.",
+      "Cho phép khôi phục toàn bộ file từ chuỗi hash."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Hash là chỉ báo nhận diện, không phải nội dung phục hồi. (Nguồn: Slide tr. 19; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 192,
+    "chapter": 2,
+    "question": "Trong slide 21, công cụ nào được liệt kê cho Linux để tính SHA-256?",
+    "options": [
+      "sha256dump.",
+      "sha256scan.",
+      "sha256file.",
+      "sha256sum."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Lệnh sha256sum trên Linux. (Nguồn: Slide tr. 21; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 193,
+    "chapter": 2,
+    "question": "Theo slide 21, chương trình nào chạy trên Windows để tính/kiểm tra hash?",
+    "options": [
+      "HashMyRegistry.",
+      "HashMyProcesses.",
+      "HashMyNetworks.",
+      "HashMyFiles."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "HashMyFiles là công cụ Windows được minh họa. (Nguồn: Hình/sơ đồ slide tr. 21; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 194,
+    "chapter": 2,
+    "question": "Trong quy trình sơ đồ giáo trình trang 35, nếu hash có trong CSDL nội bộ thì hướng xử lý nào được minh họa?",
+    "options": [
+      "Giải nén ngay tệp và kết quả phân tích.",
+      "Đăng ngay tệp và kết quả phân tích.",
+      "Xóa ngay tệp và kết quả phân tích.",
+      "Lưu thông tin mẫu và kết quả phân tích."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Nhánh ĐÚNG dẫn tới lưu mẫu mã độc và thông tin phân tích. (Nguồn: Hình/sơ đồ slide tr. 18; Giáo trình 2025 tr. 35.)"
+  },
+  {
+    "id": 195,
+    "chapter": 2,
+    "question": "Theo sơ đồ hash trong giáo trình, khi mẫu không có ở CSDL nội bộ, bước tiếp theo là gì?",
+    "options": [
+      "Tự động coi mẫu đã được giải mã.",
+      "Tra cứu kho dữ liệu lớn hoặc trực tuyến.",
+      "Tự động bỏ mọi bước phân tích khác.",
+      "Tự động coi mẫu là hoàn toàn an toàn."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Có nhánh tra cứu VirusTotal/VirusBay/Malpedia. (Nguồn: Hình/sơ đồ slide tr. 18; Giáo trình 2025 tr. 35.)"
+  },
+  {
+    "id": 196,
+    "chapter": 2,
+    "question": "Theo slide 22, VirusTotal hỗ trợ truy vấn trực tiếp các loại chỉ báo nào?",
+    "options": [
+      "Hash, URL, domain, IP.",
+      "Hash, URI, username, PID.",
+      "Hash, port, username, process.",
+      "Hash, RAM, username, registry."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Sơ đồ nêu 4 đối tượng hash/URL/domain/IP. (Nguồn: Hình/sơ đồ slide tr. 22; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 197,
+    "chapter": 2,
+    "question": "VirusTotal Graph trong sơ đồ slide 22 dùng để làm gì?",
+    "options": [
+      "Trực quan quan hệ giữa file gửi lên và thời tiết liên quan.",
+      "Trực quan quan hệ giữa file gửi lên và indicator liên quan.",
+      "Trực quan quan hệ giữa file gửi lên và độ sáng màn hình.",
+      "Trực quan quan hệ giữa file gửi lên và pin hệ thống."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "VirusTotal Graph biểu diễn liên kết mẫu–indicator. (Nguồn: Hình/sơ đồ slide tr. 22; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 198,
+    "chapter": 2,
+    "question": "Dùng nhiều AV engine trên cùng một mẫu chủ yếu để thực hiện thao tác nào?",
+    "options": [
+      "Đảm bảo tuyệt đối mọi engine đều cho kết quả giống nhau.",
+      "So sánh đánh giá/chữ ký với nhiều cơ sở dữ liệu AV.",
+      "Khởi chạy mẫu để tăng độ chính xác của AV.",
+      "Thay đổi mẫu để né chữ ký của nhiều AV."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Các engine cho nhiều đánh giá/định danh khác nhau. (Nguồn: Slide tr. 22; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 199,
+    "chapter": 2,
+    "question": "Ngoài VirusTotal, nhóm website kết hợp AV được slide 23 liệt kê gồm bộ nào?",
+    "options": [
+      "Jotti, MetaDefender, VirSCAN.",
+      "Jotti, MetaDefender, VirusBay.",
+      "Jotti, Metasploit, VirSCAN.",
+      "Jotti, MetaDefender, VirusShare."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Trang 23 liệt kê virusscan.jotti.org, metadefender.opswat.com, virscan.org. (Nguồn: Hình/sơ đồ slide tr. 23; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 200,
+    "chapter": 2,
+    "question": "Trong ảnh slide 23, trường nào dưới đây thuộc nhóm thông tin hỗ trợ phân tích mẫu?",
+    "options": [
+      "File identifier và screen capture.",
+      "File identifier và browser history.",
+      "File identifier và login session.",
+      "File identifier và signature info."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Đám mây Features liệt kê identifier, signature info. (Nguồn: Hình/sơ đồ slide tr. 23; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 201,
+    "chapter": 2,
+    "question": "Kết quả VirusTotal không phát hiện mẫu có đủ để khẳng định tệp benign không?",
+    "options": [
+      "Không; việc không khớp chữ ký không chứng minh tệp an toàn.",
+      "Có; chỉ cần đổi tên tệp sẽ chứng minh tệp an toàn.",
+      "Không; chỉ cần có tên tệp lạ là chắc chắn độc hại.",
+      "Có; không khớp chữ ký luôn chứng minh tệp an toàn."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Giáo trình nêu giới hạn khi chưa có mẫu đã biết. (Nguồn: Slide tr. 22; Giáo trình 2025 tr. 32.)"
+  },
+  {
+    "id": 202,
+    "chapter": 2,
+    "question": "Trong ví dụ ssdeep ở slide 62, các tệp có thể có MD5 khác nhau nhưng vẫn đạt mức gì?",
+    "options": [
+      "Tương đồng 99% theo fuzzy hash.",
+      "Trùng 99% theo MD5 tuyệt đối.",
+      "Trùng 99% theo SHA-256 tuyệt đối.",
+      "Tương đồng 0% theo fuzzy hash."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Tính gần đúng của fuzzy hash khác hash mật mã. (Nguồn: Hình/sơ đồ slide tr. 62; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 203,
+    "chapter": 2,
+    "question": "Trong slide 24, loại ký tự được nhắc đến khi định nghĩa strings là gì?",
+    "options": [
+      "ASCII và Unicode luôn bị mã hóa.",
+      "ASCII và Unicode hiển thị được.",
+      "ASCII và Unicode chỉ dùng trong RAM.",
+      "ASCII và Unicode chỉ là byte 0."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Strings là chuỗi ký tự in được tìm trong nhị phân. (Nguồn: Slide tr. 24; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 204,
+    "chapter": 2,
+    "question": "Phân tích strings tìm được URL và địa chỉ IP cho phép suy ra điều gì hợp lý nhất?",
+    "options": [
+      "Đã xác nhận mọi IP đều là độc hại.",
+      "Có chỉ báo đáng ngờ cần tiếp tục kiểm chứng.",
+      "Đã xác định giao tiếp mạng xảy ra thực tế.",
+      "Đã xác nhận mọi URL đều là server C2."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Strings cho gợi ý, không chứng minh kết nối runtime. (Nguồn: Slide tr. 24; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 205,
+    "chapter": 2,
+    "question": "Theo slide 25, tiện ích `strings` mặc định trên Linux trích xuất chuỗi ASCII tối thiểu mấy ký tự?",
+    "options": [
+      "3 ký tự.",
+      "6 ký tự.",
+      "5 ký tự.",
+      "4 ký tự."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide ghi ASCII có ít nhất bốn ký tự. (Nguồn: Slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 206,
+    "chapter": 2,
+    "question": "Theo slide 25, tham số `-a` của strings có tác dụng nào?",
+    "options": [
+      "Quét chuỗi từ toàn bộ tệp.",
+      "Quét chuỗi chỉ trong section .text.",
+      "Quét chuỗi chỉ trong đầu tệp.",
+      "Quét chuỗi chỉ trong đuôi tệp."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "-a quét toàn bộ file. (Nguồn: Slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 207,
+    "chapter": 2,
+    "question": "Theo slide 25, tham số `-el` thường dùng khi muốn trích loại chuỗi nào?",
+    "options": [
+      "ASCII little-endian 8-bit.",
+      "ASCII big-endian 16-bit.",
+      "Unicode big-endian 32-bit.",
+      "Unicode little-endian 16-bit."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "-el dùng để trích chuỗi UTF-16LE dạng 2 byte/ký tự. (Nguồn: Slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 208,
+    "chapter": 2,
+    "question": "Dòng lệnh nào khớp với ví dụ trích chuỗi Unicode trên slide 25?",
+    "options": [
+      "strings -n -el multi.exe.",
+      "strings -a -eS multi.exe.",
+      "strings -a -el multi.exe.",
+      "strings -a -eb multi.exe."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide dùng `strings -a -el multi.exe`. (Nguồn: Hình/sơ đồ slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 209,
+    "chapter": 2,
+    "question": "Theo slide 25, một ký tự Unicode trong ví dụ được trình bày chiếm bao nhiêu byte?",
+    "options": [
+      "2 byte.",
+      "1 byte.",
+      "3 byte.",
+      "4 byte."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ví dụ slide dùng UTF-16 (2 byte/ký tự). (Nguồn: Slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 210,
+    "chapter": 2,
+    "question": "Trong ảnh minh họa slide 25, kết quả phân tích strings của `log.exe` làm lộ loại chỉ báo gì?",
+    "options": [
+      "Địa chỉ MAC.",
+      "Địa chỉ IP.",
+      "Khóa riêng RSA.",
+      "Mã băm SHA-256."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Ảnh chú thích phát hiện địa chỉ IP trong log.exe. (Nguồn: Hình/sơ đồ slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 211,
+    "chapter": 2,
+    "question": "Theo slide 26, bộ công cụ Windows nào phù hợp cho phân tích strings?",
+    "options": [
+      "PEStudio, PPEE, Autoruns, BinText.",
+      "PEStudio, PPEE, Wireshark, BinText.",
+      "PEStudio, PPEE, Regshot, BinText.",
+      "PEStudio, PPEE, strings, BinText."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide 26 ghi PEstudio, PPEE, strings utility, bintext. (Nguồn: Hình/sơ đồ slide tr. 26; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 212,
+    "chapter": 2,
+    "question": "Khi không thấy chuỗi IP trong output `strings`, kết luận nào thận trọng nhất?",
+    "options": [
+      "Chưa đủ bằng chứng để loại trừ mã độc vì chuỗi có thể bị che giấu.",
+      "Đủ bằng chứng để kết luận tất cả URL đều an toàn.",
+      "Chắc chắn tệp không sử dụng bất kỳ API hệ thống nào.",
+      "Đủ bằng chứng để loại trừ mã độc vì chuỗi không bị che giấu."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Các chuỗi obfuscated có thể không hiện ra qua strings thường. (Nguồn: Slide tr. 28; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 213,
+    "chapter": 2,
+    "question": "Theo sơ đồ phân tích string trong giáo trình, bước ngay sau tìm kiếm chuỗi đáng ngờ là gì?",
+    "options": [
+      "Chạy toàn bộ tệp trên máy thật khi có mã bị che giấu.",
+      "Giải mã chuỗi động khi có mã bị che giấu.",
+      "Gửi tất cả chuỗi động lên mạng khi có mã bị che giấu.",
+      "Xóa tất cả chuỗi động khi có mã bị che giấu."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Hình 2.3 có bước giải mã chuỗi động, khi cần. (Nguồn: Hình/sơ đồ slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 214,
+    "chapter": 2,
+    "question": "Trong sơ đồ string của giáo trình, hai hướng kết thúc sau kiểm tra liên kết chuỗi với mã độc là gì?",
+    "options": [
+      "Xóa log hoặc chuyển sang phân tích động.",
+      "Tạo keylogger hoặc chuyển sang phân tích động.",
+      "Tạo báo cáo hoặc chuyển sang phân tích động.",
+      "Tạo backdoor hoặc chuyển sang phân tích động."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Hai nhánh là tạo báo cáo và phân tích động. (Nguồn: Hình/sơ đồ slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 215,
+    "chapter": 2,
+    "question": "Phân tích string tĩnh khác phân tích string động theo giáo trình chủ yếu ở điểm nào?",
+    "options": [
+      "Trích chuỗi chỉ từ mạng thay vì chỉ từ bộ nhớ.",
+      "Trích chuỗi chỉ từ log thay vì chỉ từ mã máy.",
+      "Trích chuỗi không chạy mẫu thay vì trích khi mẫu đang chạy.",
+      "Trích chuỗi khi chạy mẫu thay vì khi mẫu không chạy."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Phân tích tĩnh không thực thi sample. (Nguồn: Slide tr. 25; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 216,
+    "chapter": 2,
+    "question": "Dấu hiệu strings nào thường gợi ý mã độc liên quan tới quyền tự khởi động Windows?",
+    "options": [
+      "Tên thiết bị âm thanh mặc định.",
+      "Đường dẫn ảnh nền Desktop.",
+      "Đường dẫn khóa registry Run.",
+      "Tên giao diện màn hình đã cài."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Chuỗi registry/persistence có ý nghĩa phân tích. (Nguồn: Slide tr. 24; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 217,
+    "chapter": 2,
+    "question": "Trong các kết quả strings, loại thông tin nào có thể là chỉ báo mạng cần tra cứu?",
+    "options": [
+      "Độ phân giải hoặc DPI.",
+      "Dung lượng RAM hoặc xung CPU.",
+      "Tên phông chữ hoặc kiểu chữ.",
+      "Tên miền hoặc địa chỉ IP."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "URL/domain/IP có thể liên quan tới giao tiếp mạng. (Nguồn: Slide tr. 24; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 218,
+    "chapter": 2,
+    "question": "Theo giáo trình, vì sao chỉ thấy chuỗi `http` trong binary chưa đủ xác nhận hành vi độc hại?",
+    "options": [
+      "Đó chắc chắn là dữ liệu đã được gửi ra ngoài lúc chạy.",
+      "Đó chắc chắn là lệnh điều khiển máy chủ lúc chạy.",
+      "Đó có thể chỉ là tham chiếu tĩnh chưa được sử dụng lúc chạy.",
+      "Đó chắc chắn là kết nối đã được thiết lập lúc chạy."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Không đồng nhất dấu hiệu tĩnh với hành vi thực thi. (Nguồn: Slide tr. 24; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 219,
+    "chapter": 2,
+    "question": "Trong phân tích chuỗi, một URL được nhúng vào tệp trước hết là loại dữ liệu gì?",
+    "options": [
+      "Bằng chứng đầy đủ về việc chiếm quyền hệ thống.",
+      "Bằng chứng đầy đủ về một phiên HTTPS thực tế.",
+      "Chỉ báo cần xác thực ngữ cảnh sử dụng.",
+      "Bằng chứng đầy đủ về một phiên HTTP thực tế."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "IOC dựa strings cần bối cảnh và kiểm chứng. (Nguồn: Slide tr. 24; Giáo trình 2025 tr. 37.)"
+  },
+  {
+    "id": 220,
+    "chapter": 2,
+    "question": "Theo slide 27, Obfuscation chủ yếu làm điều gì với dữ liệu/mã?",
+    "options": [
+      "Làm nội dung khó đọc, khó hiểu hoặc khó phân tích.",
+      "Làm nội dung khó đọc nhưng luôn dễ phát hiện.",
+      "Làm nội dung dễ đọc nhưng luôn khó phát hiện.",
+      "Làm nội dung dễ đọc, dễ hiểu hoặc dễ phân tích."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Mục tiêu obfuscation là che giấu/khó phát hiện. (Nguồn: Slide tr. 27; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 221,
+    "chapter": 2,
+    "question": "Trong slide 28, công cụ được đề xuất cho obfuscated strings là gì?",
+    "options": [
+      "FSS.",
+      "FLOSS.",
+      "FLVOSS.",
+      "FLOSSER."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "FireEye Labs Obfuscated String Solver (FLOSS). (Nguồn: Slide tr. 28; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 222,
+    "chapter": 2,
+    "question": "Theo slide 28, FLOSS được mô tả là có thể phân tích loại chuỗi nào?",
+    "options": [
+      "Cả chuỗi thông thường và chuỗi bị làm rối.",
+      "Chỉ chuỗi thông thường và không chuỗi làm rối.",
+      "Chỉ chuỗi đã có hash trùng cơ sở dữ liệu.",
+      "Chỉ chuỗi bị làm rối và không chuỗi thường."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "FLOSS hỗ trợ thường và obfuscated. (Nguồn: Hình/sơ đồ slide tr. 28; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 223,
+    "chapter": 2,
+    "question": "Trong nhóm kỹ thuật làm rối chuỗi slide 28, phương án nào được liệt kê?",
+    "options": [
+      "XOR Encryption.",
+      "XOR Compression.",
+      "XOR Hashing.",
+      "XOR Signing."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide ghi XOR Encryption. (Nguồn: Hình/sơ đồ slide tr. 28; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 224,
+    "chapter": 2,
+    "question": "Trong slide 28, Base64 được liệt kê là kỹ thuật nào?",
+    "options": [
+      "Base64 Hashing.",
+      "Base64 Signing.",
+      "Base64 Encoding.",
+      "Base64 Encryption."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Base64 là encoding, không phải mã hóa bí mật. (Nguồn: Slide tr. 28; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 225,
+    "chapter": 2,
+    "question": "Thuật ngữ nào thuộc danh sách obfuscated strings trong slide 28?",
+    "options": [
+      "String Concatenation.",
+      "String Compilation.",
+      "String Comparison.",
+      "String Compression."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ghép chuỗi có thể làm khó phân tích strings. (Nguồn: Slide tr. 28; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 226,
+    "chapter": 2,
+    "question": "Theo bảng chân trị XOR ở slide 29, đầu ra khi hai bit đầu vào đều bằng 1 là gì?",
+    "options": [
+      "1.",
+      "2.",
+      "0.",
+      "Không xác định."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "1 XOR 1 = 0. (Nguồn: Hình/sơ đồ slide tr. 29; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 227,
+    "chapter": 2,
+    "question": "Theo bảng XOR ở slide 29, đầu ra khi hai bit khác nhau là gì?",
+    "options": [
+      "2.",
+      "0.",
+      "Không xác định.",
+      "1."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "0 XOR 1 = 1 và 1 XOR 0 = 1. (Nguồn: Hình/sơ đồ slide tr. 29; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 228,
+    "chapter": 2,
+    "question": "Trong hình minh họa XOR slide 29, khóa byte được dùng để khôi phục chuỗi là gì?",
+    "options": [
+      "0xAA.",
+      "0x56.",
+      "0x55.",
+      "0x54."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide chú thích Sử dụng phép XOR với 0x55. (Nguồn: Hình/sơ đồ slide tr. 29; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 229,
+    "chapter": 2,
+    "question": "Khi XOR một byte với cùng khóa hai lần, kết quả cuối theo phép XOR là gì?",
+    "options": [
+      "Byte luôn bằng 0xFF.",
+      "Byte đảo bit vĩnh viễn.",
+      "Byte gốc.",
+      "Byte luôn bằng 0x00."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "(x XOR k) XOR k = x. (Nguồn: Slide tr. 29; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 230,
+    "chapter": 2,
+    "question": "Trong slide 30, mỗi nhóm 3 byte (24 bit) khi Base64 encoding được chia thành mấy nhóm?",
+    "options": [
+      "8 nhóm 3 bit.",
+      "6 nhóm 4 bit.",
+      "3 nhóm 8 bit.",
+      "4 nhóm 6 bit."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Base64 chia 24 bit thành 4 nhóm 6 bit. (Nguồn: Hình/sơ đồ slide tr. 30; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 231,
+    "chapter": 2,
+    "question": "Theo nguyên lý Base64 của slide 30, mỗi giá trị được ánh xạ từ nhóm bao nhiêu bit?",
+    "options": [
+      "6 bit.",
+      "8 bit.",
+      "16 bit.",
+      "4 bit."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "6-bit index tra bảng 64 ký tự. (Nguồn: Hình/sơ đồ slide tr. 30; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 232,
+    "chapter": 2,
+    "question": "Trong ảnh ví dụ Base64 slide 30, chuỗi văn bản minh họa là gì?",
+    "options": [
+      "Men.",
+      "Map.",
+      "Man.",
+      "Mad."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Hình minh họa 3 byte tương ứng Man → TWFu. (Nguồn: Hình/sơ đồ slide tr. 30; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 233,
+    "chapter": 2,
+    "question": "Trong slide 30, chức năng nguyên thủy của Base64 là gì?",
+    "options": [
+      "Tạo hash một chiều cho mọi dữ liệu nhị phân.",
+      "Nén dữ liệu nhị phân thành số byte luôn nhỏ hơn.",
+      "Mã hóa bí mật dữ liệu nhị phân bằng khóa RSA.",
+      "Biểu diễn dữ liệu nhị phân bằng văn bản ASCII."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Base64 là encoding, không đảm bảo bảo mật. (Nguồn: Slide tr. 30; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 234,
+    "chapter": 2,
+    "question": "ROT13 trên slide 31 thay ký tự chữ cái bằng ký tự cách bao nhiêu vị trí?",
+    "options": [
+      "12 vị trí.",
+      "13 vị trí.",
+      "26 vị trí.",
+      "14 vị trí."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "ROT13 là phép dịch bảng chữ cái 13 vị trí. (Nguồn: Hình/sơ đồ slide tr. 31; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 235,
+    "chapter": 2,
+    "question": "Trong ảnh ROT13 slide 31, từ HELLO được thay thành chuỗi nào?",
+    "options": [
+      "UQYYB.",
+      "URYYA.",
+      "URYYC.",
+      "URYYB."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "ROT13: HELLO → URYYB. (Nguồn: Hình/sơ đồ slide tr. 31; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 236,
+    "chapter": 2,
+    "question": "Với ROT13, áp dụng phép biến đổi hai lần lên chữ cái tiếng Anh sẽ cho kết quả nào?",
+    "options": [
+      "Luôn cho ra một ký tự không phải chữ.",
+      "Luôn cho ra ký tự đứng trước.",
+      "Luôn cho ra ký tự đứng sau.",
+      "Khôi phục ký tự ban đầu."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Dịch 13+13=26, trở về chữ gốc. (Nguồn: Slide tr. 31; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 237,
+    "chapter": 2,
+    "question": "Trong bảng STRING OBFUSCATION slide 32, kỹ thuật nào chia văn bản thành nhiều mảnh rồi ghép lúc chạy?",
+    "options": [
+      "Data fragmentation.",
+      "Data encryption only.",
+      "Data deletion.",
+      "Data duplication."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Bảng minh họa fragmentation: chia và nối chuỗi. (Nguồn: Hình/sơ đồ slide tr. 32; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 238,
+    "chapter": 2,
+    "question": "Trong bảng ví dụ slide 32, việc đổi “Hello World!” thành ký tự dạng hex thuộc kỹ thuật nào?",
+    "options": [
+      "Data obfuscation with Hash.",
+      "Data obfuscation with ZIP.",
+      "Data obfuscation with Hex.",
+      "Data obfuscation with AES."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Hình mô tả Hex encoding chuỗi. (Nguồn: Hình/sơ đồ slide tr. 32; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 239,
+    "chapter": 2,
+    "question": "Dấu hiệu “ít chuỗi rõ ràng” trong slide 34 thường gợi ý trạng thái nào của mẫu?",
+    "options": [
+      "Chắc chắn không có API hay mã nguồn.",
+      "Chắc chắn chưa packed hay obfuscated.",
+      "Có thể bị packed hoặc obfuscated.",
+      "Chắc chắn tệp đã được ký số hợp lệ."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Chuỗi bị che nên ít xuất hiện trong output strings. (Nguồn: Hình/sơ đồ slide tr. 34; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 240,
+    "chapter": 2,
+    "question": "Công cụ nào trên slide 33 có mục đích tự động xác định obfuscated strings?",
+    "options": [
+      "TCPView.",
+      "Regshot.",
+      "FLOSS.",
+      "PEview."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "FLOSS hỗ trợ giải/nhận diện chuỗi bị rối. (Nguồn: Hình/sơ đồ slide tr. 33; Giáo trình 2025 tr. 49.)"
+  },
+  {
+    "id": 241,
+    "chapter": 2,
+    "question": "Theo slide 35, Packer chủ yếu dùng cơ chế gì để che giấu chương trình gốc?",
+    "options": [
+      "Ký số.",
+      "Nén.",
+      "Mã hóa.",
+      "Băm."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Packer trong slide sử dụng compression. (Nguồn: Hình/sơ đồ slide tr. 35; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 242,
+    "chapter": 2,
+    "question": "Theo slide 36, Cryptor chủ yếu dùng cơ chế gì để che giấu chương trình gốc?",
+    "options": [
+      "Băm.",
+      "Ký số.",
+      "Nén.",
+      "Mã hóa."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Cryptor trong slide sử dụng encryption. (Nguồn: Hình/sơ đồ slide tr. 36; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 243,
+    "chapter": 2,
+    "question": "Khi một file đã đóng gói chạy, nội dung gốc được xử lý thế nào theo slide 35?",
+    "options": [
+      "Được băm vào bộ nhớ rồi thực thi.",
+      "Được giải nén vào bộ nhớ rồi thực thi.",
+      "Được giải mã vào registry rồi thực thi.",
+      "Được ký số vào registry rồi thực thi."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Packer giải nén runtime vào bộ nhớ. (Nguồn: Hình/sơ đồ slide tr. 35; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 244,
+    "chapter": 2,
+    "question": "Khi chương trình do cryptor bảo vệ chạy, bước tương ứng là gì?",
+    "options": [
+      "Giải mã nội dung gốc vào bộ nhớ.",
+      "Giải nén nội dung gốc vào bộ nhớ.",
+      "Ký số nội dung gốc vào bộ nhớ.",
+      "Tính hash nội dung gốc vào bộ nhớ."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Cryptor giải mã khi runtime. (Nguồn: Hình/sơ đồ slide tr. 36; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 245,
+    "chapter": 2,
+    "question": "Trong hình slide 35, quá trình tạo Packed Program được biểu diễn đúng nhất bằng gì?",
+    "options": [
+      "Executable file → Compression → Packed executable.",
+      "Executable file → Signing → Packed executable.",
+      "Executable file → Hashing → Packed executable.",
+      "Executable file → Encryption → Packed executable."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Sơ đồ Packer sử dụng Compression. (Nguồn: Hình/sơ đồ slide tr. 35; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 246,
+    "chapter": 2,
+    "question": "Trong hình slide 36, quá trình tạo Encrypted Program được biểu diễn đúng nhất bằng gì?",
+    "options": [
+      "Executable file → Signing → Encrypted executable.",
+      "Executable file → Encryption → Encrypted executable.",
+      "Executable file → Hashing → Encrypted executable.",
+      "Executable file → Compression → Encrypted executable."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Sơ đồ Cryptors sử dụng Encryption. (Nguồn: Hình/sơ đồ slide tr. 36; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 247,
+    "chapter": 2,
+    "question": "Theo hình slide 37, phần chương trình chạy trước để mở packed executable được gọi là gì?",
+    "options": [
+      "Wrapper program.",
+      "Network monitor.",
+      "Signature scanner.",
+      "Loader registry."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Wrapper unpack chương trình khi khởi chạy. (Nguồn: Hình/sơ đồ slide tr. 37; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 248,
+    "chapter": 2,
+    "question": "Trong minh họa slide 37, vì sao phân tích tĩnh file đã pack có thể chỉ thấy wrapper?",
+    "options": [
+      "Mã gốc bị thay bằng giao thức mạng sau khi pack.",
+      "Mã gốc vẫn nằm trong dạng đóng gói và ít thông tin lộ ra.",
+      "Mã gốc đã được giải nén hoàn toàn và hiện mọi chuỗi.",
+      "Mã gốc luôn được đưa vào registry khi pack."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Packing làm mờ binary và chuỗi gốc. (Nguồn: Hình/sơ đồ slide tr. 37; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 249,
+    "chapter": 2,
+    "question": "Hình slide 38 so với slide 40 mô tả sự khác biệt nào của `spybot.exe` sau đóng gói?",
+    "options": [
+      "Các chuỗi tên tệp/IP dễ đọc giảm mạnh.",
+      "Các chuỗi tên tệp/IP được giữ nguyên hoàn toàn.",
+      "Các chuỗi tên tệp/IP dễ đọc tăng mạnh.",
+      "Các chuỗi tên tệp/IP tự động biến thành mã băm."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ví dụ strings ban đầu nhiều artifact, sau UPX chủ yếu còn chuỗi wrapper. (Nguồn: Hình/sơ đồ slide tr. 38; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 250,
+    "chapter": 2,
+    "question": "Theo ảnh slide 39, công cụ được dùng để đóng gói spybot.exe là gì?",
+    "options": [
+      "FLOSS.",
+      "YARA.",
+      "PEview.",
+      "UPX."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Lệnh upx -o spybot_packed.exe spybot.exe. (Nguồn: Hình/sơ đồ slide tr. 39; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 251,
+    "chapter": 2,
+    "question": "Theo ảnh terminal slide 39, kích thước ban đầu của `spybot.exe` là bao nhiêu byte?",
+    "options": [
+      "21.563 byte.",
+      "21.536 byte.",
+      "44.576 byte.",
+      "44.567 byte."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Terminal hiển thị 44576 và 21536 byte. (Nguồn: Hình/sơ đồ slide tr. 39; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 252,
+    "chapter": 2,
+    "question": "Theo ảnh slide 39, kích thước sau UPX của file packed là bao nhiêu byte?",
+    "options": [
+      "21.536 byte.",
+      "44.576 byte.",
+      "44.567 byte.",
+      "21.563 byte."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Đọc đúng cột kích thước packed trong ảnh. (Nguồn: Hình/sơ đồ slide tr. 39; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 253,
+    "chapter": 2,
+    "question": "Trong ảnh slide 39, tỷ lệ kích thước mới/original hiển thị là bao nhiêu?",
+    "options": [
+      "84,31%.",
+      "48,31%.",
+      "43,81%.",
+      "48,13%."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide hiển thị 48.31%. (Nguồn: Hình/sơ đồ slide tr. 39; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 254,
+    "chapter": 2,
+    "question": "Theo slide 41, nếu Virtual Size lớn hơn Raw Size rất nhiều thì gợi ý nào hợp lý?",
+    "options": [
+      "Mẫu có thể bị packed.",
+      "Mẫu chắc chắn chưa từng được biên dịch.",
+      "Mẫu chắc chắn không bị packed.",
+      "Mẫu chắc chắn chỉ là tài liệu PDF."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Chênh lệch lớn là dấu hiệu đóng gói, không phải kết luận tuyệt đối. (Nguồn: Hình/sơ đồ slide tr. 41; Giáo trình 2025 tr. 40.)"
+  },
+  {
+    "id": 255,
+    "chapter": 2,
+    "question": "Theo slide 41, mức entropy nào được nêu là dấu hiệu có thể packed?",
+    "options": [
+      "Nhỏ hơn 6.",
+      "Lớn hơn 6.",
+      "Bằng chính xác 6.",
+      "Luôn bằng 0."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide đề cập entropy &gt;6 có thể packed. (Nguồn: Hình/sơ đồ slide tr. 41; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 256,
+    "chapter": 2,
+    "question": "Nếu entropy một section là 7,827 trong slide 46, nhận định nào hợp lý?",
+    "options": [
+      "Section chắc chắn không có dấu hiệu đóng gói.",
+      "Section chắc chắn là mã nguồn văn bản thuần.",
+      "Section có độ ngẫu nhiên cao, gợi ý đóng gói/mã hóa.",
+      "Section đã được giải nén đầy đủ trong file."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Hình PEstudio hiển thị section entropy cao. (Nguồn: Hình/sơ đồ slide tr. 46; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 257,
+    "chapter": 2,
+    "question": "Hình Bytehist slide 43 minh họa điểm khác biệt phổ biến nào?",
+    "options": [
+      "Unpacked có entropy luôn bằng 8,0.",
+      "Unpacked có phân bố byte luôn đều tuyệt đối.",
+      "Packed có phân bố byte luôn chỉ gồm các byte 0.",
+      "Packed có phân bố tần suất byte tương đối đều hơn."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Biểu đồ packed thường tương đối đồng đều; không phải tiêu chí chắc chắn. (Nguồn: Hình/sơ đồ slide tr. 43; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 258,
+    "chapter": 2,
+    "question": "Theo slide 42, nhóm nào là công cụ nhận diện packer/obfuscation?",
+    "options": [
+      "ExeinfoPE, Detect It Easy, PEiD.",
+      "ExeinfoPE, Detect It Easy, Wireshark.",
+      "ExeinfoPE, Detect It Easy, Autoruns.",
+      "ExeinfoPE, Detect It Easy, Regshot."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide còn liệt kê RDG Packer Detector. (Nguồn: Hình/sơ đồ slide tr. 42; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 259,
+    "chapter": 2,
+    "question": "Trong ảnh PEstudio slide 44, người phân tích so sánh điều gì giữa packed/unpacked?",
+    "options": [
+      "Sessions và permissions.",
+      "Services và permissions.",
+      "Sections và permissions.",
+      "Sockets và permissions."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Tiêu đề ảnh: sections/permissions. (Nguồn: Hình/sơ đồ slide tr. 44; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 260,
+    "chapter": 2,
+    "question": "Trong ảnh PEstudio slide 45, khác biệt được làm nổi bật chủ yếu là gì?",
+    "options": [
+      "Raw size và virtual size giữa các section.",
+      "Ngày quét và tên AV giữa các section.",
+      "IP đích và cổng mạng giữa các section.",
+      "Tài khoản và mật khẩu giữa các section."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ảnh tô khung size trong sections. (Nguồn: Hình/sơ đồ slide tr. 45; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 261,
+    "chapter": 2,
+    "question": "Trong ảnh PEstudio slide 46, thuộc tính nào được khoanh để so sánh packed/unpacked?",
+    "options": [
+      "Entropy.",
+      "Checksum.",
+      "Entry point.",
+      "Timestamp."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Tiêu đề ảnh sections/entropy. (Nguồn: Hình/sơ đồ slide tr. 46; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 262,
+    "chapter": 2,
+    "question": "Theo slide 41, API `GetProcAddress` thường dùng để làm gì?",
+    "options": [
+      "Lấy địa chỉ của tiến trình trên mạng được nạp.",
+      "Lấy địa chỉ của hàm trong thư viện được nạp.",
+      "Lấy địa chỉ của file trên ổ đĩa được nạp.",
+      "Lấy địa chỉ của registry key trong máy được nạp."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "GetProcAddress resolves function address. (Nguồn: Slide tr. 41; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 263,
+    "chapter": 2,
+    "question": "Theo slide 41, `LoadLibrary` thường phục vụ công việc nào?",
+    "options": [
+      "Nạp thư viện DLL.",
+      "Nạp chuỗi hash MD5.",
+      "Nạp toàn bộ bản ghi DNS.",
+      "Nạp danh sách tài khoản."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide giải thích LoadLibrary dùng gọi file .dll. (Nguồn: Slide tr. 41; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 264,
+    "chapter": 2,
+    "question": "Trong phân tích mẫu packed, việc thấy ít imports gợi ý điều gì theo slide 53?",
+    "options": [
+      "Chắc chắn mẫu không sử dụng DLL.",
+      "Chắc chắn mẫu hoàn toàn lành tính.",
+      "Chắc chắn mẫu không thể thực thi.",
+      "Có khả năng mẫu đã được đóng gói."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Rất ít import là dấu hiệu, không đủ kết luận tuyệt đối. (Nguồn: Hình/sơ đồ slide tr. 53; Giáo trình 2025 tr. 41.)"
+  },
+  {
+    "id": 265,
+    "chapter": 2,
+    "question": "PE được viết tắt từ cụm từ nào trong slide 47?",
+    "options": [
+      "Protected Execution.",
+      "Portable Execution.",
+      "Portable Executable.",
+      "Protected Executable."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "PE là định dạng thực thi Windows. (Nguồn: Slide tr. 47; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 266,
+    "chapter": 2,
+    "question": "Theo slide 47, nhóm đuôi tệp nào phải tuân thủ cấu trúc PE trên Windows?",
+    "options": [
+      ".exe, .dll, .pdf, .ocx, .drv.",
+      ".exe, .dll, .doc, .ocx, .drv.",
+      ".exe, .dll, .sys, .ocx, .drv.",
+      ".exe, .dll, .sys, .jpg, .drv."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide liệt kê các đuôi thực thi Windows PE. (Nguồn: Slide tr. 47; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 267,
+    "chapter": 2,
+    "question": "Trong slide 47, thành phần nào cung cấp thông tin cho loader để đưa PE vào bộ nhớ?",
+    "options": [
+      "PE filename.",
+      "PE footer.",
+      "PE header.",
+      "PE icon."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Loader tham chiếu cấu trúc PE header. (Nguồn: Slide tr. 47; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 268,
+    "chapter": 2,
+    "question": "Theo slide 47, PE header có thể chứa thông tin nào?",
+    "options": [
+      "Địa chỉ email gửi và danh bạ người dùng.",
+      "Địa chỉ nhà sản xuất và giấy phép mạng.",
+      "Địa chỉ bắt đầu thực thi và các thư viện phụ thuộc.",
+      "Địa chỉ IP truy cập và toàn bộ mật khẩu người dùng."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "PE header chứa entry point, thông tin import, thông tin tải. (Nguồn: Hình/sơ đồ slide tr. 47; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 269,
+    "chapter": 2,
+    "question": "Trong slide 49, các hàm hệ điều hành Windows để thao tác file, registry, mạng được gọi là gì?",
+    "options": [
+      "Application Programming Internals (API).",
+      "Application Protocol Interfaces (API).",
+      "Application Programming Interfaces (API).",
+      "Application Processing Interfaces (API)."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "API là Application Programming Interfaces. (Nguồn: Slide tr. 49; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 270,
+    "chapter": 2,
+    "question": "Các API Windows mà tệp thực thi phụ thuộc thường được cung cấp trong loại tệp nào?",
+    "options": [
+      "Direct Link Library (DLL).",
+      "Dynamic Link Library (DLL).",
+      "Dynamic Link Loader (DLL).",
+      "Dynamic Local Library (DLL)."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide giải thích API trong DLL. (Nguồn: Slide tr. 49; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 271,
+    "chapter": 2,
+    "question": "Trong slide 50, `imports` của một file PE là gì?",
+    "options": [
+      "Những hàm file thực thi xuất ra thư viện khác.",
+      "Những chuỗi file thực thi xóa khỏi thư viện khác.",
+      "Những tập tin file thực thi gửi ra mạng khác.",
+      "Những hàm file thực thi nhập từ các thư viện khác."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Imports là hàm được PE import từ DLL. (Nguồn: Slide tr. 50; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 272,
+    "chapter": 2,
+    "question": "Theo ví dụ slide 50, API CreateFile() được cung cấp trong thư viện nào?",
+    "options": [
+      "ws2_32.dll.",
+      "gdi32.dll.",
+      "user32.dll.",
+      "kernel32.dll."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide mô tả CreateFile ở kernel32.dll. (Nguồn: Hình/sơ đồ slide tr. 50; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 273,
+    "chapter": 2,
+    "question": "Theo slide 50, để gọi CreateFile() trong ví dụ, chương trình cần thực hiện thao tác nào trước?",
+    "options": [
+      "Nạp kernel32.dll vào bộ nhớ.",
+      "Nạp wsock32.dll vào bộ nhớ.",
+      "Nạp gdi32.dll vào bộ nhớ.",
+      "Nạp user32.dll vào bộ nhớ."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ví dụ yêu cầu load kernel32.dll rồi call CreateFile(). (Nguồn: Hình/sơ đồ slide tr. 50; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 274,
+    "chapter": 2,
+    "question": "Theo slide 51, kiểm tra imports giúp dự đoán điều gì?",
+    "options": [
+      "Địa chỉ IP chắc chắn được mở khi mẫu thực thi.",
+      "Khả năng/chức năng có thể xảy ra khi mẫu thực thi.",
+      "Kết quả giải mã chắc chắn có được khi mẫu thực thi.",
+      "Toàn bộ hành vi chắc chắn xảy ra khi mẫu thực thi."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Imports gợi ý hành vi và khả năng. (Nguồn: Hình/sơ đồ slide tr. 51; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 275,
+    "chapter": 2,
+    "question": "Trong ảnh slide 52, nhóm hàm socket, connect, listen, send được nhập từ DLL nào?",
+    "options": [
+      "wsock32.dll.",
+      "gdi32.dll.",
+      "ole32.dll.",
+      "user32.dll."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Chúng thường gợi ý chức năng mạng. (Nguồn: Hình/sơ đồ slide tr. 52; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 276,
+    "chapter": 2,
+    "question": "Nếu imports có `connect`, `socket`, `send`, kết luận phù hợp nhất là gì?",
+    "options": [
+      "Mẫu chắc chắn chỉ quản lý giao diện đồ họa.",
+      "Mẫu có khả năng liên quan đến kết nối và giao tiếp mạng.",
+      "Mẫu chắc chắn đã gửi dữ liệu tới một IP cụ thể.",
+      "Mẫu chắc chắn chỉ xử lý đối tượng OLE/COM."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Chỉ suy ra khả năng, không khẳng định runtime. (Nguồn: Hình/sơ đồ slide tr. 52; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 277,
+    "chapter": 2,
+    "question": "Theo slide 54, mục đích trọng tâm của kiểm tra `exports` trong một DLL là gì?",
+    "options": [
+      "Đánh giá tất cả kết nối TCP từ chương trình gọi.",
+      "Đánh giá các chức năng DLL cung cấp cho chương trình gọi.",
+      "Đánh giá các chức năng DLL nhập từ chương trình gọi.",
+      "Đánh giá lịch sử gõ phím trong chương trình gọi."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Exports là hàm/chức năng thư viện cung cấp. (Nguồn: Hình/sơ đồ slide tr. 54; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 278,
+    "chapter": 2,
+    "question": "Trong slide 54, ví dụ mã độc nào có DLL đi kèm để chương trình khác gọi và chạy hàm độc hại?",
+    "options": [
+      "Stuxnet.",
+      "Mirai.",
+      "WannaCry.",
+      "Ramnit."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide dùng ví dụ Ramnit và DLL. (Nguồn: Hình/sơ đồ slide tr. 54; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 279,
+    "chapter": 2,
+    "question": "Theo slide 55, USER32.DLL quản lý nhóm chức năng nào?",
+    "options": [
+      "Giao diện ODBC Windows.",
+      "Mã hóa dữ liệu Windows.",
+      "Giao thức mạng Windows.",
+      "Giao diện người dùng Windows."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "User32 cung cấp API GUI Windows. (Nguồn: Slide tr. 55; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 280,
+    "chapter": 2,
+    "question": "Theo slide 55, KERNEL32.DLL được mô tả chủ yếu cung cấp gì?",
+    "options": [
+      "Các chức năng vẽ đồ họa 2D như chữ và đường kẻ.",
+      "Các chức năng truy cập ODBC tới cơ sở dữ liệu.",
+      "Các chức năng hệ thống cơ bản như bộ nhớ và thời gian.",
+      "Các chức năng đối tượng OLE và COM."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Kernel32 core Windows API. (Nguồn: Slide tr. 55; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 281,
+    "chapter": 2,
+    "question": "Theo slide 55, GDI32.DLL có chức năng tiêu biểu nào?",
+    "options": [
+      "Quản lý OLE và COM.",
+      "Cung cấp các hàm mật mã ODBC.",
+      "Vẽ đồ họa 2D và chữ.",
+      "Giao tiếp TCP/IP và UDP."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "GDI là graphics device interface. (Nguồn: Slide tr. 55; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 282,
+    "chapter": 2,
+    "question": "Theo slide 55, ADVAPI32.DLL liên quan chủ yếu đến nhóm chức năng nào?",
+    "options": [
+      "Các chức năng giao diện vỏ Windows Explorer.",
+      "Các chức năng hiển thị đồ họa 2D trong Windows.",
+      "Các chức năng kết nối cơ sở dữ liệu ODBC.",
+      "Các chức năng bảo mật của ứng dụng Windows."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Advapi32 liên quan security/advanced Windows API. (Nguồn: Slide tr. 55; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 283,
+    "chapter": 2,
+    "question": "Theo slide 55, thư viện nào quản lý đối tượng OLE và COM?",
+    "options": [
+      "GDI32.DLL.",
+      "MSCTF.DLL.",
+      "OLE32.DLL.",
+      "ODBC32.DLL."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "OLE32 phụ trách OLE/COM. (Nguồn: Slide tr. 55; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 284,
+    "chapter": 2,
+    "question": "Theo slide 55, thư viện nào hỗ trợ truy cập CSDL qua ODBC?",
+    "options": [
+      "ODBC32.DLL.",
+      "GDI32.DLL.",
+      "OLE32.DLL.",
+      "MSCTF.DLL."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "ODBC32 cung cấp ODBC. (Nguồn: Slide tr. 55; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 285,
+    "chapter": 2,
+    "question": "Theo slide 56, MSCTF.DLL được mô tả hỗ trợ nhóm nào?",
+    "options": [
+      "Xử lý chữ trong ứng dụng Windows.",
+      "Xử lý mạng trong ứng dụng Windows.",
+      "Xử lý tệp PE trong ứng dụng Windows.",
+      "Xử lý registry trong ứng dụng Windows."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "MSCTF liên quan xử lý văn bản/input. (Nguồn: Hình/sơ đồ slide tr. 56; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 286,
+    "chapter": 2,
+    "question": "Theo slide 56, SHELL32.DLL đảm nhiệm chức năng gì?",
+    "options": [
+      "Quản lý các hàm chuẩn ngôn ngữ C.",
+      "Quản lý giao thức Microsoft RPC.",
+      "Quản lý giao diện vỏ Windows Explorer.",
+      "Quản lý giao diện bảo mật ODBC."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "SHELL32 là Windows Shell API. (Nguồn: Hình/sơ đồ slide tr. 56; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 287,
+    "chapter": 2,
+    "question": "Theo slide 56, RPCRT4.DLL được gắn với chức năng nào?",
+    "options": [
+      "Microsoft RPC.",
+      "Microsoft ODBC.",
+      "Microsoft GDI.",
+      "Microsoft PE."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "RPCRT4 liên quan Remote Procedure Call. (Nguồn: Hình/sơ đồ slide tr. 56; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 288,
+    "chapter": 2,
+    "question": "Theo slide 56, hai thư viện chủ yếu cung cấp chức năng mạng TCP/IP là gì?",
+    "options": [
+      "GDI32.DLL và MSCTF.DLL.",
+      "MSVCRT.DLL và ODBC32.DLL.",
+      "WS2_32.DLL và WSOCK32.DLL.",
+      "USER32.DLL và OLE32.DLL."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Slide nêu cặp WS2_32/WSOCK32. (Nguồn: Hình/sơ đồ slide tr. 56; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 289,
+    "chapter": 2,
+    "question": "Theo slide 56, MSVCRT.DLL hỗ trợ nhóm nào?",
+    "options": [
+      "Các hàm chuẩn C qua thư viện GDI.",
+      "Các hàm chuẩn C qua giao diện ODBC.",
+      "Các hàm chuẩn C qua giao thức RPC.",
+      "Các hàm chuẩn C qua lớp wrapper code."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "MSVCRT wrapper cho hàm standard C. (Nguồn: Hình/sơ đồ slide tr. 56; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 290,
+    "chapter": 2,
+    "question": "Trong sơ đồ slide 57, section `.text` hoặc `CODE` được dùng để chứa gì?",
+    "options": [
+      "Tài nguyên giao diện.",
+      "Bảng imports.",
+      "Dữ liệu chỉ đọc.",
+      "Mã thực thi."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Section .text/CODE dành cho code. (Nguồn: Hình/sơ đồ slide tr. 57; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 291,
+    "chapter": 2,
+    "question": "Theo bảng slide 58, `.data` hoặc `DATA` thường chứa gì?",
+    "options": [
+      "Chỉ bảng exports và biến toàn cục.",
+      "Dữ liệu đọc/ghi và biến toàn cục.",
+      "Dữ liệu chỉ đọc và biến toàn cục.",
+      "Chỉ bảng imports và biến toàn cục."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Data section writable. (Nguồn: Hình/sơ đồ slide tr. 58; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 292,
+    "chapter": 2,
+    "question": "Theo bảng slide 58, `.rdata` thường có đặc điểm gì?",
+    "options": [
+      "Chứa dữ liệu chỉ đọc, đôi khi chứa thông tin import/export.",
+      "Chứa dữ liệu chỉ ghi, đôi khi chứa thông tin import/export.",
+      "Chứa dữ liệu chỉ đọc, luôn chứa toàn bộ registry.",
+      "Chứa dữ liệu đọc/ghi, luôn chứa toàn bộ mã thực thi."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Read-only data; imports/exports có thể ở đây. (Nguồn: Hình/sơ đồ slide tr. 58; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 293,
+    "chapter": 2,
+    "question": "Theo bảng slide 58, `.idata` là section dành cho gì nếu tồn tại?",
+    "options": [
+      "Bảng nhập (imports).",
+      "Bảng gỡ lỗi (debug).",
+      "Bảng xuất (exports).",
+      "Bảng tài nguyên (resources)."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Import Data Section .idata. (Nguồn: Hình/sơ đồ slide tr. 58; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 294,
+    "chapter": 2,
+    "question": "Theo bảng slide 58, `.edata` là section dành cho gì nếu tồn tại?",
+    "options": [
+      "Bảng gỡ lỗi (debug).",
+      "Bảng tài nguyên (resources).",
+      "Bảng xuất (exports).",
+      "Bảng nhập (imports)."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Export Data Section .edata. (Nguồn: Hình/sơ đồ slide tr. 58; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 295,
+    "chapter": 2,
+    "question": "Theo bảng slide 58, `.rsrc` thường chứa loại nội dung nào?",
+    "options": [
+      "Hàm import, DLL, IAT, RVAs.",
+      "Biến toàn cục, stack, heap, thanh ghi.",
+      "Biểu tượng, hộp thoại, menu, chuỗi.",
+      "Mã thực thi, entry point, jump table."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Resource section chứa tài nguyên GUI. (Nguồn: Hình/sơ đồ slide tr. 58; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 296,
+    "chapter": 2,
+    "question": "Theo sơ đồ slide 57, section dùng lưu thông tin gỡ lỗi thường mang tên gì?",
+    "options": [
+      ".edata.",
+      ".debug.",
+      ".idata.",
+      ".rdata."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Debug Information Section = .debug. (Nguồn: Hình/sơ đồ slide tr. 57; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 297,
+    "chapter": 2,
+    "question": "Nếu bảng import `.idata` không tồn tại, slide 58 cho biết thông tin import có thể ở đâu?",
+    "options": [
+      ".text.",
+      ".debug.",
+      ".rsrc.",
+      ".rdata."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide nói import có thể lưu ở .rdata. (Nguồn: Hình/sơ đồ slide tr. 58; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 298,
+    "chapter": 2,
+    "question": "Nếu bảng export `.edata` không tồn tại, slide 58 cho biết thông tin export có thể ở đâu?",
+    "options": [
+      ".rdata.",
+      ".rsrc.",
+      ".text.",
+      ".debug."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide nói export có thể lưu ở .rdata. (Nguồn: Hình/sơ đồ slide tr. 58; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 299,
+    "chapter": 2,
+    "question": "Trong PEview ở slide 59, IMAGE_FILE_HEADER chủ yếu mang thông tin gì?",
+    "options": [
+      "Thông tin cơ bản về tệp.",
+      "Kết quả quét của tất cả AV.",
+      "Các mốc thời gian của toàn bộ log.",
+      "Danh sách mọi gói tin đã gửi."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Slide chú thích IMAGE_FILE_HEADER = basic file information. (Nguồn: Hình/sơ đồ slide tr. 59; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 300,
+    "chapter": 2,
+    "question": "Trong PEview ở slide 59, IMAGE_OPTIONAL_HEADER được mô tả là gì?",
+    "options": [
+      "Mô tả các thông số tùy chọn của PE.",
+      "Mô tả các kết nối TCP đã thực thi.",
+      "Mô tả các lỗ hổng hệ điều hành.",
+      "Mô tả chuỗi ASCII xuất ra từ mẫu."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Optional header chứa thông số nạp file. (Nguồn: Hình/sơ đồ slide tr. 59; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 301,
+    "chapter": 2,
+    "question": "Theo slide 59, trường Virtual Size trong IMAGE_SECTION_HEADER biểu diễn gì?",
+    "options": [
+      "Không gian section được ghi thực tế trên đĩa.",
+      "Không gian section được truyền tới máy chủ C2.",
+      "Không gian section được cấp phát khi nạp vào bộ nhớ.",
+      "Không gian section dành cho văn bản báo cáo."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Virtual size thuộc kích thước trong bộ nhớ. (Nguồn: Hình/sơ đồ slide tr. 59; Giáo trình 2025 tr. 40.)"
+  },
+  {
+    "id": 302,
+    "chapter": 2,
+    "question": "Theo slide 59, Size of Raw Data trong IMAGE_SECTION_HEADER biểu diễn gì?",
+    "options": [
+      "Kích thước dữ liệu section được lưu trên đĩa.",
+      "Kích thước dữ liệu section được cấp phát trong RAM.",
+      "Kích thước dữ liệu section sau khi giải mã runtime.",
+      "Kích thước dữ liệu section đã truyền qua mạng."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Raw size là kích thước trên đĩa. (Nguồn: Hình/sơ đồ slide tr. 59; Giáo trình 2025 tr. 40.)"
+  },
+  {
+    "id": 303,
+    "chapter": 2,
+    "question": "Theo slide 60, tiêu chí nào có thể dùng đối chiếu mẫu để xác định họ mã độc?",
+    "options": [
+      "Tên tài khoản, hình nền và thời tiết tương tự.",
+      "Mã, hành vi và kỹ thuật lây lan tương tự.",
+      "Tên tệp, ảnh nền và ngôn ngữ bàn phím tương tự.",
+      "Logo chương trình, DPI và độ sáng tương tự."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "So sánh kỹ thuật/lây lan với mẫu đã biết. (Nguồn: Slide tr. 60; Giáo trình 2025 tr. 34.)"
+  },
+  {
+    "id": 304,
+    "chapter": 2,
+    "question": "Fuzzy hashing được slide 61 định nghĩa theo mục tiêu nào?",
+    "options": [
+      "Mã hóa các tệp để che giấu nội dung.",
+      "Giải mã tệp để khôi phục mật khẩu.",
+      "Kiểm tra sự trùng khớp tuyệt đối của mỗi byte.",
+      "Đo sự tương đồng giữa các tệp."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Fuzzy hash phục vụ similarity. (Nguồn: Hình/sơ đồ slide tr. 61; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 305,
+    "chapter": 2,
+    "question": "Từ một điểm fuzzy hash 99, khẳng định nào an toàn nhất?",
+    "options": [
+      "Hai mẫu chắc chắn có MD5 giống nhau.",
+      "Hai mẫu có mức tương đồng cao theo thuật toán đo.",
+      "Hai mẫu chắc chắn có toàn bộ byte giống nhau.",
+      "Hai mẫu chắc chắn do cùng một người viết."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "99 điểm không đồng nghĩa byte-identical/attribution. (Nguồn: Hình/sơ đồ slide tr. 62; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 306,
+    "chapter": 2,
+    "question": "Theo slide 62, công cụ tạo fuzzy hash và cho điểm tương đồng (%) là gì?",
+    "options": [
+      "ssdeep.",
+      "HashMyFiles.",
+      "sha256sum.",
+      "md5sum."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "ssdeep làm fuzzy hashing. (Nguồn: Hình/sơ đồ slide tr. 62; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 307,
+    "chapter": 2,
+    "question": "Trong ảnh slide 62, tùy chọn nào được dùng để so sánh hai mẫu bằng ssdeep?",
+    "options": [
+      "-pr.",
+      "-pa.",
+      "-pc.",
+      "-pb."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Ảnh terminal ghi `ssdeep -pb *`. (Nguồn: Hình/sơ đồ slide tr. 62; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 308,
+    "chapter": 2,
+    "question": "Trong ảnh slide 63, cặp mẫu nào có kết quả ssdeep 99%?",
+    "options": [
+      "crop.exe và aiggs.exe.",
+      "crop.exe và crop.exe của bản khác.",
+      "aiggs.exe và jnas.exe.",
+      "crop.exe và jnas.exe."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Hình cho aigg(s) và jnas match 99, crop 0. (Nguồn: Hình/sơ đồ slide tr. 63; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 309,
+    "chapter": 2,
+    "question": "Trong ảnh slide 63, fuzzy hash của `crop.exe` đối với `aiggs.exe` nhận điểm nào?",
+    "options": [
+      "99.",
+      "100.",
+      "0.",
+      "50."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Sơ đồ terminal ssdeep hiển thị 0. (Nguồn: Hình/sơ đồ slide tr. 63; Giáo trình 2025 tr. 36.)"
+  },
+  {
+    "id": 310,
+    "chapter": 2,
+    "question": "Theo slide 64, imphash được tạo chủ yếu dựa trên thành phần nào?",
+    "options": [
+      "Tên và thứ tự tất cả tiến trình đã chạy.",
+      "Tên và thứ tự kết nối trong log mạng.",
+      "Tên và thứ tự hàm import/API.",
+      "Tên và thứ tự tất cả file trong thư mục."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Import hash dựa danh sách API nhập và thứ tự. (Nguồn: Hình/sơ đồ slide tr. 64; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 311,
+    "chapter": 2,
+    "question": "Hai file khác MD5 nhưng trùng imphash trong slide 65 gợi ý kết luận nào?",
+    "options": [
+      "Chắc chắn byte nội dung giống hoàn toàn.",
+      "Chắc chắn được ký bởi cùng chứng chỉ.",
+      "Chắc chắn không có API chung nào.",
+      "Có thể liên quan vì bảng import tương đồng."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Imphash là chỉ báo mối liên hệ, không khẳng định cùng file. (Nguồn: Hình/sơ đồ slide tr. 65; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 312,
+    "chapter": 2,
+    "question": "Theo hình slide 65, hai mẫu có MD5 khác nhau nhưng imphash giống nhau là gì?",
+    "options": [
+      "maxe.exe và sent.exe.",
+      "aiggs.exe và spybot.exe.",
+      "maxe.exe và crop.exe.",
+      "sent.exe và jnas.exe."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ảnh console tính md5sum và get_imphash cho maxe/sent. (Nguồn: Hình/sơ đồ slide tr. 65; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 313,
+    "chapter": 2,
+    "question": "Section Hash trong slide 66 giúp việc gì?",
+    "options": [
+      "Xác định mức liên quan giữa các mẫu từ bàn phím.",
+      "Xác định mức liên quan giữa các mẫu từ thành phần section.",
+      "Xác định mức liên quan giữa các mẫu từ hình nền máy.",
+      "Xác định mức liên quan giữa các mẫu từ lịch sử DNS."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide đối chiếu section hash để tìm mẫu liên quan. (Nguồn: Hình/sơ đồ slide tr. 66; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 314,
+    "chapter": 2,
+    "question": "Theo slide 67, quy tắc YARA gồm sự kết hợp chủ yếu của các yếu tố nào?",
+    "options": [
+      "Các giao diện và biểu thức mạng.",
+      "Các tiến trình và biểu thức thời gian.",
+      "Các địa chỉ email và biểu thức nhị phân.",
+      "Các chuỗi và biểu thức logic."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "YARA gồm string definitions và condition. (Nguồn: Hình/sơ đồ slide tr. 67; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 315,
+    "chapter": 2,
+    "question": "Theo slide 68, rule identifier của YARA không được bắt đầu bằng loại ký tự nào?",
+    "options": [
+      "Chữ cái.",
+      "Chữ số.",
+      "Chữ hoa.",
+      "Dấu gạch dưới."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Identifier không bắt đầu bằng digit. (Nguồn: Hình/sơ đồ slide tr. 68; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 316,
+    "chapter": 2,
+    "question": "Theo slide 68, chiều dài tối đa của rule identifier YARA là bao nhiêu ký tự?",
+    "options": [
+      "129.",
+      "127.",
+      "256.",
+      "128."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Slide ghi &lt;=128. (Nguồn: Hình/sơ đồ slide tr. 68; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 317,
+    "chapter": 2,
+    "question": "Theo slide 68, định danh chuỗi YARA có dấu đứng đầu nào?",
+    "options": [
+      "$ (dấu đô la).",
+      "# (dấu thăng).",
+      "@ (dấu a còng).",
+      "% (dấu phần trăm)."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "YARA string IDs như $a, $b. (Nguồn: Hình/sơ đồ slide tr. 68; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 318,
+    "chapter": 2,
+    "question": "Theo slide 68, phần nào bắt buộc chứa biểu thức Boolean để quyết định rule khớp?",
+    "options": [
+      "meta.",
+      "condition.",
+      "imports.",
+      "strings."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Condition bắt buộc; strings có thể bỏ qua. (Nguồn: Hình/sơ đồ slide tr. 68; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 319,
+    "chapter": 2,
+    "question": "Theo slide 68, định nghĩa chuỗi (`strings`) trong YARA có bắt buộc ở mọi rule không?",
+    "options": [
+      "Có, luôn bắt buộc dù điều kiện không dùng chuỗi.",
+      "Không, có thể bỏ qua nếu điều kiện không dùng chuỗi.",
+      "Có, và mọi chuỗi phải bắt đầu bằng dấu #.",
+      "Không, nhưng phải có ít nhất 2 chuỗi."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Slide cho phép bỏ phần strings nếu không phụ thuộc chuỗi. (Nguồn: Hình/sơ đồ slide tr. 68; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 320,
+    "chapter": 2,
+    "question": "Trong ví dụ slide 69, điều kiện `($a or $b or $c)` khớp khi nào?",
+    "options": [
+      "Đồng thời cả ba chuỗi đều phải khớp.",
+      "Chính xác hai trong ba chuỗi phải khớp.",
+      "Ít nhất một chuỗi trong ba chuỗi khớp.",
+      "Không chuỗi nào trong ba chuỗi khớp."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "or là phép tuyển. (Nguồn: Hình/sơ đồ slide tr. 69; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 321,
+    "chapter": 2,
+    "question": "Theo ví dụ slide 69, `$a` được gán chuỗi nào?",
+    "options": [
+      "Portscanner.",
+      "Synflooding.",
+      "Keylogger.",
+      "Downloader."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Ảnh rule: $a=\"Synflooding\". (Nguồn: Hình/sơ đồ slide tr. 69; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 322,
+    "chapter": 2,
+    "question": "Theo ví dụ slide 69, `$b` được gán chuỗi nào?",
+    "options": [
+      "Portscanner.",
+      "Synflooding.",
+      "Keylogger.",
+      "Downloader."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Ảnh rule: $b=\"Portscanner\". (Nguồn: Hình/sơ đồ slide tr. 69; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 323,
+    "chapter": 2,
+    "question": "Theo ví dụ slide 69, `$c` được gán chuỗi nào?",
+    "options": [
+      "Synflooding.",
+      "Keylogger.",
+      "Downloader.",
+      "Portscanner."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Ảnh rule: $c=\"Keylogger\". (Nguồn: Hình/sơ đồ slide tr. 69; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 324,
+    "chapter": 2,
+    "question": "Theo ảnh slide 69, tùy chọn `-r` trong lệnh `yara -r suspicious.yara samples/` nhằm gì?",
+    "options": [
+      "Quét đệ quy các tệp trong thư mục.",
+      "Xóa đệ quy mọi tệp khớp điều kiện.",
+      "Tạo lại đệ quy mọi tệp YARA.",
+      "Chỉ quét một tệp đã chỉ định."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "YARA -r = recursive. (Nguồn: Hình/sơ đồ slide tr. 69; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 325,
+    "chapter": 2,
+    "question": "Trong ảnh slide 69, quy tắc `suspicious_strings` được phát hiện trên những tệp nào?",
+    "options": [
+      "maxe.exe và sent.exe.",
+      "spybot.exe và wuamqr.exe.",
+      "spybot.exe và jnas.exe.",
+      "aiggs.exe và wuamqr.exe."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Dòng output minh họa hai tệp mẫu. (Nguồn: Hình/sơ đồ slide tr. 69; Giáo trình 2025 tr. 39.)"
+  },
+  {
+    "id": 326,
+    "chapter": 2,
+    "question": "Theo giáo trình Chương 2, mục tiêu của kỹ thuật anti-debugging là gì?",
+    "options": [
+      "Phát hiện hoặc cản trở kiểm tra hash trước khi chạy.",
+      "Phát hiện hoặc cản trở việc gỡ lỗi trong quá trình chạy.",
+      "Phát hiện hoặc cản trở thay đổi tên file trước khi chạy.",
+      "Phát hiện hoặc cản trở mọi byte trong tệp khi chưa chạy."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Chống gỡ lỗi nhằm gây khó khăn khi giám sát thực thi. (Nguồn: Giáo trình 2025 tr. 51.)"
+  },
+  {
+    "id": 327,
+    "chapter": 2,
+    "question": "API `IsDebuggerPresent` trong giáo trình được dùng để làm gì?",
+    "options": [
+      "Kiểm tra tiến trình có đang truy cập registry không.",
+      "Kiểm tra tiến trình có đang bị debugger theo dõi không.",
+      "Kiểm tra tiến trình có đang được antivirus cập nhật không.",
+      "Kiểm tra tiến trình có đang tạo kết nối TCP không."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Là dấu hiệu anti-debugging bằng API. (Nguồn: Giáo trình 2025 tr. 52.)"
+  },
+  {
+    "id": 328,
+    "chapter": 2,
+    "question": "Theo giáo trình trang 52, nhóm thanh ghi nào có thể bị kiểm tra để phát hiện hardware breakpoint?",
+    "options": [
+      "DR0–DR7.",
+      "XMM0–XMM7.",
+      "CS–SS.",
+      "EAX–EDX."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Debug registers DR0–DR7. (Nguồn: Giáo trình 2025 tr. 52.)"
+  },
+  {
+    "id": 329,
+    "chapter": 2,
+    "question": "Trong anti-debugging, việc dùng GetTickCount hoặc QueryPerformanceCounter thường nhằm gì?",
+    "options": [
+      "Phát hiện chương trình chứa nhiều string bất thường.",
+      "Phát hiện file thực thi có phần mở rộng bất thường.",
+      "Phát hiện độ trễ bất thường khi chương trình bị gỡ lỗi.",
+      "Phát hiện section PE có kích thước raw bất thường."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Timing-based anti-debug đo thời gian. (Nguồn: Giáo trình 2025 tr. 52.)"
+  },
+  {
+    "id": 330,
+    "chapter": 2,
+    "question": "Theo giáo trình trang 52, mã độc tạo ngoại lệ có chủ ý để phát hiện debugger vì sao?",
+    "options": [
+      "Debugger luôn xóa toàn bộ ngoại lệ khỏi ổ đĩa.",
+      "Debugger luôn biến mọi ngoại lệ thành kết nối mạng.",
+      "Debugger có thể can thiệp cách ngoại lệ được xử lý.",
+      "Debugger luôn mã hóa toàn bộ ngoại lệ trong file."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Exception-based anti-debug quan sát khác biệt handling. (Nguồn: Giáo trình 2025 tr. 52.)"
+  },
+  {
+    "id": 331,
+    "chapter": 2,
+    "question": "Theo giáo trình trang 52, cách tự kiểm tra tính toàn vẹn của mã đang chạy phát hiện gì?",
+    "options": [
+      "Sự sửa đổi mã do breakpoint/patch có thể gây ra.",
+      "Sự đổi địa chỉ IP của công cụ trực tuyến.",
+      "Sự đổi tên tệp trên thư mục làm việc.",
+      "Sự đổi phông chữ trong báo cáo phân tích."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Kiểm tra code integrity là một kỹ thuật chống debugger. (Nguồn: Giáo trình 2025 tr. 52.)"
+  },
+  {
+    "id": 332,
+    "chapter": 2,
+    "question": "Disassembly được giáo trình định nghĩa là quá trình nào?",
+    "options": [
+      "Chuyển câu lệnh nhị phân sang mã ZIP.",
+      "Chuyển câu lệnh nhị phân sang mã hash.",
+      "Chuyển câu lệnh nhị phân sang mã hợp ngữ.",
+      "Chuyển câu lệnh nhị phân sang mã Base64."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Disassembler biểu diễn mã máy bằng assembly. (Nguồn: Giáo trình 2025 tr. 53.)"
+  },
+  {
+    "id": 333,
+    "chapter": 2,
+    "question": "So với dynamic disassembly, static disassembly khác ở điểm nào?",
+    "options": [
+      "Phân tích mã chỉ khi đã gọi debugger.",
+      "Phân tích mã bằng cách thực thi chương trình.",
+      "Phân tích mã mà không cần thực thi chương trình.",
+      "Phân tích mã chỉ khi đã kết nối C2."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Static không chạy, dynamic theo dõi lệnh khi chạy. (Nguồn: Giáo trình 2025 tr. 53.)"
+  },
+  {
+    "id": 334,
+    "chapter": 2,
+    "question": "Theo giáo trình, anti-disassembly cố gây ra hậu quả nào?",
+    "options": [
+      "Công cụ dịch ngược nhận đúng mọi luồng điều khiển.",
+      "Công cụ dịch ngược tự xóa mọi file báo cáo.",
+      "Công cụ dịch ngược nhận sai luồng điều khiển.",
+      "Công cụ dịch ngược tự chạy mẫu trên máy thật."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Rogue byte/jump/obfuscation gây nhầm cho disassembler. (Nguồn: Giáo trình 2025 tr. 54.)"
+  },
+  {
+    "id": 335,
+    "chapter": 2,
+    "question": "Theo giáo trình trang 54, Rogue Byte trong anti-disassembly là gì?",
+    "options": [
+      "Byte dư thừa hoặc không hợp lệ được chèn để gây rối.",
+      "Byte kết thúc chuỗi Unicode trong UTF-16.",
+      "Byte bắt buộc là chữ ký số của Windows.",
+      "Byte quan trọng duy nhất xác định tệp PE."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Rogue bytes làm sai lệch quá trình phân tích assembly. (Nguồn: Giáo trình 2025 tr. 54.)"
+  },
+  {
+    "id": 336,
+    "chapter": 2,
+    "question": "Trong giáo trình, cách sử dụng nhiều lệnh nhảy để che cấu trúc chương trình nhằm chống kỹ thuật nào?",
+    "options": [
+      "Disassembly.",
+      "File extension.",
+      "Hashing.",
+      "AV database lookup."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Lệnh nhảy lắt léo có thể đánh lừa công cụ dịch ngược. (Nguồn: Giáo trình 2025 tr. 54.)"
+  },
+  {
+    "id": 337,
+    "chapter": 2,
+    "question": "Đối với CFG trong giáo trình, một đỉnh (vertex) biểu diễn thành phần nào?",
+    "options": [
+      "Tệp dữ liệu (data file).",
+      "Tên miền (domain name).",
+      "Khối cơ bản (basic block).",
+      "Khóa registry (registry key)."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "CFG vertices là basic blocks. (Nguồn: Giáo trình 2025 tr. 57.)"
+  },
+  {
+    "id": 338,
+    "chapter": 2,
+    "question": "Đối với CFG trong giáo trình, một cạnh có hướng biểu diễn gì?",
+    "options": [
+      "Khả năng chuyển luồng điều khiển giữa hai khối.",
+      "Khả năng chuyển hash giữa hai cơ sở dữ liệu.",
+      "Khả năng chuyển giá trị entropy giữa hai tệp.",
+      "Khả năng chuyển tên tệp giữa hai thư mục."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Edge u→v biểu diễn control flow. (Nguồn: Giáo trình 2025 tr. 57.)"
+  },
+  {
+    "id": 339,
+    "chapter": 2,
+    "question": "Giải pháp bước đầu khi cần xử lý mã bị anti-disassembly trong giáo trình là gì?",
+    "options": [
+      "Đổi hash và chia nhỏ các chữ ký số.",
+      "Đổi IP và chia nhỏ các kết nối mạng.",
+      "Đổi tên và chia nhỏ các thư mục hệ thống.",
+      "Nhận dạng và chia nhỏ các hàm chức năng."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Chia tệp thực thi thành các hàm để phân tích. (Nguồn: Giáo trình 2025 tr. 56.)"
+  },
+  {
+    "id": 340,
+    "chapter": 2,
+    "question": "Theo giáo trình trang 58, giá trị nào của cờ BeingDebugged khiến chương trình tin rằng không bị gỡ lỗi?",
+    "options": [
+      "1.",
+      "2.",
+      "0.",
+      "255."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "BeingDebugged=0 cho biết không có debugger theo logic kiểm tra. (Nguồn: Giáo trình 2025 tr. 58.)"
+  },
+  {
+    "id": 341,
+    "chapter": 2,
+    "question": "Một dấu hiệu gợi ý thuật toán mã hóa trong binary theo giáo trình trang 55 là gì?",
+    "options": [
+      "Import hàm đồ họa và các ảnh icon.",
+      "Import hàm âm thanh và dữ liệu WAV.",
+      "Import hàm mã hóa và các hằng số mật mã.",
+      "Import hàm in ấn và đường dẫn máy in."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Tìm import/constant/strings liên quan OpenSSL hoặc crypto. (Nguồn: Giáo trình 2025 tr. 55.)"
+  },
+  {
+    "id": 342,
+    "chapter": 2,
+    "question": "Theo giáo trình trang 55, cặp công cụ nào hỗ trợ tìm hằng số mật mã trong IDA Pro?",
+    "options": [
+      "Wireshark và TCPView.",
+      "Jotti và MetaDefender.",
+      "Regshot và Autoruns.",
+      "FindCrypt2 và Krypto ANALyzer."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Giáo trình nêu FindCrypt2 và Krypto ANALyzer. (Nguồn: Giáo trình 2025 tr. 55.)"
+  },
+  {
+    "id": 343,
+    "chapter": 2,
+    "question": "Theo giáo trình Chương 2, dù phân tích tĩnh không chạy mẫu, rủi ro nào vẫn tồn tại?",
+    "options": [
+      "Mẫu sẽ chắc chắn tự thực thi dù không mở.",
+      "Mẫu sẽ chắc chắn tự mã hóa mọi tệp khi băm.",
+      "Mẫu sẽ chắc chắn tự kết nối Internet khi lưu.",
+      "Mẫu hoặc dữ liệu phân tích vẫn có thể bị rò rỉ."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Phân tích tĩnh giảm rủi ro kỹ thuật nhưng không bằng không. (Nguồn: Giáo trình 2025 tr. 59.)"
+  },
+  {
+    "id": 344,
+    "chapter": 2,
+    "question": "Trong nguyên tắc đạo đức phân tích tĩnh, hành động nào phù hợp khi cần trích dẫn code có bản quyền?",
+    "options": [
+      "Tải nguyên vẹn đoạn code lên diễn đàn công cộng.",
+      "Chuyển nguyên vẹn đoạn code thành file crack chia sẻ.",
+      "Công bố nguyên vẹn đoạn code không cần sự đồng ý.",
+      "Mô tả nguyên lý/hành vi, tránh công bố nguyên vẹn đoạn code."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Tuân thủ sở hữu trí tuệ và giới hạn công bố. (Nguồn: Giáo trình 2025 tr. 60.)"
+  },
+  {
+    "id": 345,
+    "chapter": 2,
+    "question": "Theo giáo trình trang 60, cách xử lý mẫu mã độc trên máy cá nhân là gì?",
+    "options": [
+      "Không mở trên máy thật; dùng môi trường phân tách an toàn.",
+      "Mở trên máy thật trước rồi mới tạo máy ảo.",
+      "Mở trên máy thật nếu đã đặt tên file là benign.",
+      "Mở trên máy thật nếu đã đổi phần mở rộng tệp."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Sử dụng VM hoặc phân tách vật lý. (Nguồn: Giáo trình 2025 tr. 60.)"
+  },
+  {
+    "id": 346,
+    "chapter": 2,
+    "question": "Theo giáo trình, nếu cần chia sẻ mẫu cho nhóm nghiên cứu được phép thì nên làm gì?",
+    "options": [
+      "Dán mã thực thi trực tiếp lên diễn đàn công cộng.",
+      "Có phê duyệt, nén bảo vệ và nhãn phục vụ nghiên cứu.",
+      "Gửi qua email cá nhân mà không ghi nguồn mẫu.",
+      "Tải công khai mẫu để bất kỳ ai tự chạy thử."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Tài liệu đặt điều kiện quy trình, lưu trữ và chia sẻ an toàn. (Nguồn: Giáo trình 2025 tr. 61.)"
+  },
+  {
+    "id": 347,
+    "chapter": 2,
+    "question": "Khi phân tích tĩnh phát hiện khóa API hoặc thông tin cá nhân trong strings, cách công bố phù hợp là gì?",
+    "options": [
+      "Ẩn danh hoặc mã hóa dữ liệu nhạy cảm trước khi chia sẻ.",
+      "Gửi nguyên dạng giá trị vào kho công khai không kiểm soát.",
+      "Công khai toàn bộ giá trị để chứng minh phát hiện.",
+      "Đăng nguyên dạng giá trị lên tài khoản mạng xã hội."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Giữ riêng tư và an toàn dữ liệu. (Nguồn: Giáo trình 2025 tr. 61.)"
+  },
+  {
+    "id": 348,
+    "chapter": 2,
+    "question": "Theo giáo trình, kết luận từ entropy cao và API đáng ngờ cần được viết như thế nào?",
+    "options": [
+      "Khẳng định tuyệt đối là mã độc ngay cả khi chưa chứng minh.",
+      "Khẳng định tuyệt đối là rootkit ngay cả khi chưa chứng minh.",
+      "Khẳng định tuyệt đối là benign ngay cả khi chưa chứng minh.",
+      "Nêu mức độ nghi vấn, không khẳng định hành vi nếu chưa chứng minh."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Các dấu hiệu tĩnh không bảo đảm hành vi runtime. (Nguồn: Giáo trình 2025 tr. 61.)"
+  },
+  {
+    "id": 349,
+    "chapter": 2,
+    "question": "Nếu một tệp giống mã độc ở vài strings, việc đầu tiên hợp lý trong báo cáo là gì?",
+    "options": [
+      "Công bố chắc chắn file độc hại không cần kiểm chứng.",
+      "Đăng mẫu gốc kèm mọi kết quả lên mạng xã hội.",
+      "Đối chiếu bằng chứng, tránh kết luận vội về tính độc hại.",
+      "Công bố chắc chắn file an toàn không cần kiểm chứng."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Bảng tình huống yêu cầu kiểm tra false positive. (Nguồn: Giáo trình 2025 tr. 64.)"
+  },
+  {
+    "id": 350,
+    "chapter": 2,
+    "question": "Trong bảng tình huống đạo đức trang 64, gặp khóa mã hóa/chứng chỉ trong mẫu thì xử lý thế nào?",
+    "options": [
+      "Che hoặc mã hóa khi đưa vào báo cáo.",
+      "Tự ý dùng để đăng nhập hệ thống thật.",
+      "Đăng nguyên văn lên mạng xã hội.",
+      "Gửi trực tiếp lên diễn đàn để xin xác thực."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Bảng 2.1 quy định không công khai key/chứng chỉ. (Nguồn: Giáo trình 2025 tr. 64.)"
+  },
+  {
+    "id": 351,
+    "chapter": 2,
+    "question": "Trong bảng tình huống đạo đức trang 64, dùng decompiler thương mại không có giấy phép thì nên làm gì?",
+    "options": [
+      "Sử dụng bản crack để vượt kiểm soát license.",
+      "Dùng bản hợp pháp hoặc công cụ nguồn mở thay thế.",
+      "Dùng bản crack vì chỉ phục vụ học tập.",
+      "Tải bản crack và cung cấp công khai cho cả lớp."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Giáo trình đề cao bản quyền/giấy phép. (Nguồn: Giáo trình 2025 tr. 64.)"
+  },
+  {
+    "id": 352,
+    "chapter": 2,
+    "question": "Khi được gửi mẫu bởi nguồn ẩn danh trên diễn đàn, theo bảng đạo đức cần làm gì trước?",
+    "options": [
+      "Tải lên dịch vụ đám mây công cộng ngay khi nhận.",
+      "Phân tích và chia sẻ lại ngay khi nhận.",
+      "Gửi kèm mẫu cho bạn học ngay khi nhận.",
+      "Xác minh nguồn gốc và tính hợp pháp trước khi xử lý."
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Cần xác minh nguồn và phạm vi được phép. (Nguồn: Giáo trình 2025 tr. 64.)"
+  },
+  {
+    "id": 353,
+    "chapter": 2,
+    "question": "Theo bảng đạo đức trang 64, bài báo cáo sinh viên nên trình bày mẫu mã độc như thế nào?",
+    "options": [
+      "Mô tả cơ chế, đính kèm link mẫu thực cho mọi người.",
+      "Mô tả cơ chế, gửi mẫu qua ổ chia sẻ công khai.",
+      "Mô tả cơ chế, không đính kèm binary hay link tải mẫu thật.",
+      "Mô tả cơ chế, đính kèm binary cho người đọc chạy thử."
+    ],
+    "answer": 2,
+    "type": "MCQ",
+    "explanation": "Ngăn phát tán mẫu mã độc. (Nguồn: Giáo trình 2025 tr. 64.)"
+  },
+  {
+    "id": 354,
+    "chapter": 2,
+    "question": "Để đảm bảo khả năng truy xuất quá trình phân tích, nhật ký phòng lab nên có gì?",
+    "options": [
+      "Nguồn mẫu, tên tài khoản mạng xã hội và số điện thoại.",
+      "Nguồn mẫu, hash, công cụ và thông số môi trường.",
+      "Nguồn mẫu, thời tiết, cỡ chữ và mật khẩu cá nhân.",
+      "Nguồn mẫu, ảnh nền, kiểu chuột và tên bàn phím."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Giáo trình ghi chép hash, công cụ, cấu hình phân tích. (Nguồn: Giáo trình 2025 tr. 63.)"
+  },
+  {
+    "id": 355,
+    "chapter": 2,
+    "question": "Theo giáo trình, phân tích tĩnh nên được tiến hành trong bối cảnh nào?",
+    "options": [
+      "Được cho phép, có mục đích phòng thủ/nghiên cứu rõ ràng.",
+      "Không cần cho phép, chỉ cần mẫu có hash mới.",
+      "Không cần cho phép, chỉ cần có công cụ dịch ngược.",
+      "Không cần cho phép, chỉ cần thay đổi tên file."
+    ],
+    "answer": 0,
+    "type": "MCQ",
+    "explanation": "Yêu cầu tính hợp pháp, đạo đức và cho phép. (Nguồn: Giáo trình 2025 tr. 59.)"
+  },
+  {
+    "id": 356,
+    "chapter": 2,
+    "question": "Với mã độc mới chưa được xác thực bằng thực nghiệm, cách diễn đạt nào trung thực nhất?",
+    "options": [
+      "“Một chuỗi tĩnh chắc chắn chứng minh mọi tác động lên hệ thống.”",
+      "“Một import tĩnh chắc chắn chứng minh mã độc đã chạy X.”",
+      "“Dấu hiệu tĩnh chắc chắn chứng minh X; không cần kiểm chứng.”",
+      "“Dấu hiệu tĩnh gợi ý X; hành vi này chưa được kiểm chứng bằng phân tích động.”"
+    ],
+    "answer": 3,
+    "type": "MCQ",
+    "explanation": "Giáo trình yêu cầu nêu giới hạn bằng chứng. (Nguồn: Giáo trình 2025 tr. 61.)"
+  },
+  {
+    "id": 357,
+    "chapter": 2,
+    "question": "Ba nguyên tắc cốt lõi được giáo trình tổng kết cho phân tích tĩnh là gì?",
+    "options": [
+      "An toàn – Tốc độ – Trách nhiệm.",
+      "An toàn – Trung thực – Trách nhiệm.",
+      "An toàn – Tốc độ – Tự động hóa.",
+      "An toàn – Bí mật – Hiệu suất."
+    ],
+    "answer": 1,
+    "type": "MCQ",
+    "explanation": "Tổng kết Chương 2 trong giáo trình. (Nguồn: Giáo trình 2025 tr. 64.)"
   }
 ]
